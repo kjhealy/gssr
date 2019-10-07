@@ -70,6 +70,7 @@
 
 <!-- badges: end -->
 <p>A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R.</p>
+<p><img src="reference/figures/fefam_svy.png" width="75%"></p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
@@ -81,7 +82,7 @@
 <a href="#loading-the-data" class="anchor"></a>Loading the data</h2>
 <p>The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don’t use R’s “lazy loading” facility.) To load the data, do the following:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(gssr)</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console. For the codebook, type data(gss_doc).</span></a>
+<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console. For the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.</span></a>
 <a class="sourceLine" id="cb2-3" data-line-number="3"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_all)</a></code></pre></div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"></a>
 <a class="sourceLine" id="cb3-2" data-line-number="2">gss_all</a>
@@ -130,17 +131,47 @@
 <a class="sourceLine" id="cb4-4" data-line-number="4"><span class="co">#&gt; # A tibble: 6,144 x 5</span></a>
 <a class="sourceLine" id="cb4-5" data-line-number="5"><span class="co">#&gt;    id     description      properties   marginals   text                   </span></a>
 <a class="sourceLine" id="cb4-6" data-line-number="6"><span class="co">#&gt;    &lt;chr&gt;  &lt;chr&gt;            &lt;list&gt;       &lt;list&gt;      &lt;chr&gt;                  </span></a>
-<a class="sourceLine" id="cb4-7" data-line-number="7"><span class="co">#&gt;  1 CASEID YEAR + Responde… &lt;tibble [2 … &lt;tibble [1… None                   </span></a>
-<a class="sourceLine" id="cb4-8" data-line-number="8"><span class="co">#&gt;  2 YEAR   GSS year for th… &lt;tibble [2 … &lt;tibble [3… None                   </span></a>
-<a class="sourceLine" id="cb4-9" data-line-number="9"><span class="co">#&gt;  3 ID     Respondent ID n… &lt;tibble [2 … &lt;tibble [1… None                   </span></a>
-<a class="sourceLine" id="cb4-10" data-line-number="10"><span class="co">#&gt;  4 AGE    Age of responde… &lt;tibble [3 … &lt;tibble [1… 13. Respondent's age   </span></a>
-<a class="sourceLine" id="cb4-11" data-line-number="11"><span class="co">#&gt;  5 SEX    Respondents sex  &lt;tibble [3 … &lt;tibble [3… 23. Code respondent's …</span></a>
-<a class="sourceLine" id="cb4-12" data-line-number="12"><span class="co">#&gt;  6 RACE   Race of respond… &lt;tibble [3 … &lt;tibble [4… 24. What race do you c…</span></a>
-<a class="sourceLine" id="cb4-13" data-line-number="13"><span class="co">#&gt;  7 RACEC… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
-<a class="sourceLine" id="cb4-14" data-line-number="14"><span class="co">#&gt;  8 RACEC… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
-<a class="sourceLine" id="cb4-15" data-line-number="15"><span class="co">#&gt;  9 RACEC… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
-<a class="sourceLine" id="cb4-16" data-line-number="16"><span class="co">#&gt; 10 HISPA… Hispanic specif… &lt;tibble [3 … &lt;tibble [3… 1601. IF R IS FEMALE, …</span></a>
+<a class="sourceLine" id="cb4-7" data-line-number="7"><span class="co">#&gt;  1 caseid YEAR + Responde… &lt;tibble [2 … &lt;tibble [1… None                   </span></a>
+<a class="sourceLine" id="cb4-8" data-line-number="8"><span class="co">#&gt;  2 year   GSS year for th… &lt;tibble [2 … &lt;tibble [3… None                   </span></a>
+<a class="sourceLine" id="cb4-9" data-line-number="9"><span class="co">#&gt;  3 id     Respondent ID n… &lt;tibble [2 … &lt;tibble [1… None                   </span></a>
+<a class="sourceLine" id="cb4-10" data-line-number="10"><span class="co">#&gt;  4 age    Age of responde… &lt;tibble [3 … &lt;tibble [1… 13. Respondent's age   </span></a>
+<a class="sourceLine" id="cb4-11" data-line-number="11"><span class="co">#&gt;  5 sex    Respondents sex  &lt;tibble [3 … &lt;tibble [3… 23. Code respondent's …</span></a>
+<a class="sourceLine" id="cb4-12" data-line-number="12"><span class="co">#&gt;  6 race   Race of respond… &lt;tibble [3 … &lt;tibble [4… 24. What race do you c…</span></a>
+<a class="sourceLine" id="cb4-13" data-line-number="13"><span class="co">#&gt;  7 racec… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
+<a class="sourceLine" id="cb4-14" data-line-number="14"><span class="co">#&gt;  8 racec… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
+<a class="sourceLine" id="cb4-15" data-line-number="15"><span class="co">#&gt;  9 racec… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
+<a class="sourceLine" id="cb4-16" data-line-number="16"><span class="co">#&gt; 10 hispa… Hispanic specif… &lt;tibble [3 … &lt;tibble [3… 1601. IF R IS FEMALE, …</span></a>
 <a class="sourceLine" id="cb4-17" data-line-number="17"><span class="co">#&gt; # … with 6,134 more rows</span></a></code></pre></div>
+<p>You can take a look at information on a particular variable by doing something like this:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"></a>
+<a class="sourceLine" id="cb5-2" data-line-number="2">gss_doc <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span>(id <span class="op">==</span><span class="st"> "race"</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(id, description, text)</a>
+<a class="sourceLine" id="cb5-4" data-line-number="4"><span class="co">#&gt; # A tibble: 1 x 3</span></a>
+<a class="sourceLine" id="cb5-5" data-line-number="5"><span class="co">#&gt;   id    description        text                                   </span></a>
+<a class="sourceLine" id="cb5-6" data-line-number="6"><span class="co">#&gt;   &lt;chr&gt; &lt;chr&gt;              &lt;chr&gt;                                  </span></a>
+<a class="sourceLine" id="cb5-7" data-line-number="7"><span class="co">#&gt; 1 race  Race of respondent 24. What race do you consider yourself?</span></a></code></pre></div>
+<p>To look at a variable’s marginals or its properties, use <code>unnest()</code>:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"></a>
+<a class="sourceLine" id="cb6-2" data-line-number="2">gss_doc <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span>(id <span class="op">==</span><span class="st"> "race"</span>) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb6-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(marginals) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb6-4" data-line-number="4"><span class="st">  </span><span class="kw">unnest</span>(<span class="dt">cols =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(marginals))</a>
+<a class="sourceLine" id="cb6-5" data-line-number="5"><span class="co">#&gt; # A tibble: 4 x 5</span></a>
+<a class="sourceLine" id="cb6-6" data-line-number="6"><span class="co">#&gt;   percent n      value label id   </span></a>
+<a class="sourceLine" id="cb6-7" data-line-number="7"><span class="co">#&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;</span></a>
+<a class="sourceLine" id="cb6-8" data-line-number="8"><span class="co">#&gt; 1    80.3 52,033 1     WHITE RACE </span></a>
+<a class="sourceLine" id="cb6-9" data-line-number="9"><span class="co">#&gt; 2    14.2 9,187  2     BLACK RACE </span></a>
+<a class="sourceLine" id="cb6-10" data-line-number="10"><span class="co">#&gt; 3     5.5 3,594  3     OTHER RACE </span></a>
+<a class="sourceLine" id="cb6-11" data-line-number="11"><span class="co">#&gt; 4   100   64,814 &lt;NA&gt;  Total RACE</span></a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"></a>
+<a class="sourceLine" id="cb7-2" data-line-number="2">gss_doc <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span>(id <span class="op">==</span><span class="st"> "race"</span>) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb7-3" data-line-number="3"><span class="st">    </span><span class="kw">select</span>(properties) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb7-4" data-line-number="4"><span class="st">    </span><span class="kw">unnest</span>(<span class="dt">cols =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(properties))</a>
+<a class="sourceLine" id="cb7-5" data-line-number="5"><span class="co">#&gt; # A tibble: 3 x 3</span></a>
+<a class="sourceLine" id="cb7-6" data-line-number="6"><span class="co">#&gt;   property          value   id   </span></a>
+<a class="sourceLine" id="cb7-7" data-line-number="7"><span class="co">#&gt;   &lt;chr&gt;             &lt;chr&gt;   &lt;chr&gt;</span></a>
+<a class="sourceLine" id="cb7-8" data-line-number="8"><span class="co">#&gt; 1 Data type         numeric RACE </span></a>
+<a class="sourceLine" id="cb7-9" data-line-number="9"><span class="co">#&gt; 2 Missing-data code 0       RACE </span></a>
+<a class="sourceLine" id="cb7-10" data-line-number="10"><span class="co">#&gt; 3 Record/column     1/298   RACE</span></a></code></pre></div>
 </div>
 <div id="further-details" class="section level2">
 <h2 class="hasAnchor">
