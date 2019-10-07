@@ -11,7 +11,7 @@
 
 A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R. 
 
-<img src="man/figures/fefam_svy.png" width = "75%"/>
+<img src="man/figures/fefam_svy.png" width = "95%"/>
 
 ## Installation
 
