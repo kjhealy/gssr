@@ -23,6 +23,8 @@ get_badge <- function (pkg, type = c("last-month", "last-week", "grand-total"),
     paste0("[![](", svg, ")](", url, ")")
 }
 
+library(tidyverse)
+
 ```
 
 # gssr <img src="man/figures/gssr.png" align="right" width="120" />
@@ -32,7 +34,9 @@ get_badge <- function (pkg, type = c("last-month", "last-week", "grand-total"),
 
 <!-- badges: end -->
 
-A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R.
+A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R. 
+
+<img src="man/figures/fefam_svy.png" width = "75%"/>
 
 ## Installation
 
@@ -63,6 +67,34 @@ To load the tibble that contains information on the variables in the data, do th
 data(gss_doc)
 
 gss_doc
+```
+
+You can take a look at information on a particular variable by doing something like this:
+
+```{r varlook}
+
+gss_doc %>% filter(id == "race") %>% 
+  select(id, description, text)
+
+```
+
+To look at a variable's marginals or its properties, use `unnest()`:
+
+```{r marginals}
+
+gss_doc %>% filter(id == "race") %>%
+  select(marginals) %>% 
+  unnest(cols = c(marginals))
+
+```
+
+
+```{r properties}
+
+gss_doc %>% filter(id == "race") %>%
+    select(properties) %>%
+    unnest(cols = c(properties))
+
 ```
 
 ## Further details

@@ -9,7 +9,9 @@
 
 <!-- badges: end -->
 
-A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R.
+A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R. 
+
+<img src="man/figures/fefam_svy.png" width = "75%"/>
 
 ## Installation
 
@@ -26,7 +28,7 @@ The GSS cumulative data file is rather large, and so it is not loaded by default
 
 ```r
 library(gssr)
-#> Package loaded. To attach the GSS data, type data(gss_all) at the console. For the codebook, type data(gss_doc).
+#> Package loaded. To attach the GSS data, type data(gss_all) at the console. For the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.
 data(gss_all)
 ```
 
@@ -84,17 +86,62 @@ gss_doc
 #> # A tibble: 6,144 x 5
 #>    id     description      properties   marginals   text                   
 #>    <chr>  <chr>            <list>       <list>      <chr>                  
-#>  1 CASEID YEAR + Responde… <tibble [2 … <tibble [1… None                   
-#>  2 YEAR   GSS year for th… <tibble [2 … <tibble [3… None                   
-#>  3 ID     Respondent ID n… <tibble [2 … <tibble [1… None                   
-#>  4 AGE    Age of responde… <tibble [3 … <tibble [1… 13. Respondent's age   
-#>  5 SEX    Respondents sex  <tibble [3 … <tibble [3… 23. Code respondent's …
-#>  6 RACE   Race of respond… <tibble [3 … <tibble [4… 24. What race do you c…
-#>  7 RACEC… What Is R's rac… <tibble [3 … <tibble [2… 1602. What is your rac…
-#>  8 RACEC… What Is R's rac… <tibble [3 … <tibble [2… 1602. What is your rac…
-#>  9 RACEC… What Is R's rac… <tibble [3 … <tibble [2… 1602. What is your rac…
-#> 10 HISPA… Hispanic specif… <tibble [3 … <tibble [3… 1601. IF R IS FEMALE, …
+#>  1 caseid YEAR + Responde… <tibble [2 … <tibble [1… None                   
+#>  2 year   GSS year for th… <tibble [2 … <tibble [3… None                   
+#>  3 id     Respondent ID n… <tibble [2 … <tibble [1… None                   
+#>  4 age    Age of responde… <tibble [3 … <tibble [1… 13. Respondent's age   
+#>  5 sex    Respondents sex  <tibble [3 … <tibble [3… 23. Code respondent's …
+#>  6 race   Race of respond… <tibble [3 … <tibble [4… 24. What race do you c…
+#>  7 racec… What Is R's rac… <tibble [3 … <tibble [2… 1602. What is your rac…
+#>  8 racec… What Is R's rac… <tibble [3 … <tibble [2… 1602. What is your rac…
+#>  9 racec… What Is R's rac… <tibble [3 … <tibble [2… 1602. What is your rac…
+#> 10 hispa… Hispanic specif… <tibble [3 … <tibble [3… 1601. IF R IS FEMALE, …
 #> # … with 6,134 more rows
+```
+
+You can take a look at information on a particular variable by doing something like this:
+
+
+```r
+
+gss_doc %>% filter(id == "race") %>% 
+  select(id, description, text)
+#> # A tibble: 1 x 3
+#>   id    description        text                                   
+#>   <chr> <chr>              <chr>                                  
+#> 1 race  Race of respondent 24. What race do you consider yourself?
+```
+
+To look at a variable's marginals or its properties, use `unnest()`:
+
+
+```r
+
+gss_doc %>% filter(id == "race") %>%
+  select(marginals) %>% 
+  unnest(cols = c(marginals))
+#> # A tibble: 4 x 5
+#>   percent n      value label id   
+#>     <dbl> <chr>  <chr> <chr> <chr>
+#> 1    80.3 52,033 1     WHITE RACE 
+#> 2    14.2 9,187  2     BLACK RACE 
+#> 3     5.5 3,594  3     OTHER RACE 
+#> 4   100   64,814 <NA>  Total RACE
+```
+
+
+
+```r
+
+gss_doc %>% filter(id == "race") %>%
+    select(properties) %>%
+    unnest(cols = c(properties))
+#> # A tibble: 3 x 3
+#>   property          value   id   
+#>   <chr>             <chr>   <chr>
+#> 1 Data type         numeric RACE 
+#> 2 Missing-data code 0       RACE 
+#> 3 Record/column     1/298   RACE
 ```
 
 ## Further details
