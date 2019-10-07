@@ -1,6 +1,3 @@
-#' @importFrom tibble tibble
-NULL
-
 #' @keywords internal
 "_PACKAGE"
 
