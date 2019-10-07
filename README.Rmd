@@ -10,15 +10,29 @@ knitr::opts_chunk$set(
   comment = "#>",
   fig.path = "man/figures/README-",
   out.width = "100%"
-)
+  )
+
+get_badge <- function (pkg, type = c("last-month", "last-week", "grand-total"), 
+    color = "green") 
+{
+    type <- match.arg(type)
+    svg <- paste0("http://cranlogs.r-pkg.org/badges/", type, 
+        "/", pkg, "?color=", color)
+    url <- paste0("https://cran.r-project.org/package=", pkg)
+    placeholder <- "CRAN link"
+    paste0("[![](", svg, ")](", url, ")")
+}
+
 ```
 
 # gssr
 
 <!-- badges: start -->
+[![Build Status](https://travis-ci.org/kjhealy/gssr.svg?branch=master)](https://travis-ci.org/kjhealy/gssr) 
+
 <!-- badges: end -->
 
-An package wrapping the General Social Survey 1972-2019 cumulative data file for use in R.
+A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R.
 
 ## Installation
 
@@ -50,4 +64,5 @@ data(gss_doc)
 
 gss_doc
 ```
+
 

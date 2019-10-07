@@ -1,3 +1,7 @@
+---
+output: github_document
+---
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 
@@ -5,9 +9,11 @@
 # gssr
 
 <!-- badges: start -->
+[![Build Status](https://travis-ci.org/kjhealy/gssr.svg?branch=master)](https://travis-ci.org/kjhealy/gssr) 
+
 <!-- badges: end -->
 
-An package wrapping the General Social Survey 1972-2019 cumulative data file for use in R.
+A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R.
 
 ## Installation
 
@@ -24,6 +30,7 @@ The GSS cumulative data file is rather large, and so it is not loaded by default
 
 ```r
 library(gssr)
+#> Package loaded. To attach the GSS data, type data(gss_all) at the console. For the codebook, type data(gss_doc).
 data(gss_all)
 ```
 
@@ -93,4 +100,5 @@ gss_doc
 #> 10 HISPA… Hispanic specif… <tibble [3 … <tibble [3… 1601. IF R IS FEMALE, …
 #> # … with 6,134 more rows
 ```
+
 
