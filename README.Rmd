@@ -22,33 +22,32 @@ An package wrapping the General Social Survey 1972-2019 cumulative data file for
 
 ## Installation
 
-You can install the released version of gssr from [CRAN](https://CRAN.R-project.org) with:
+You can install the beta version of gssr from [GitHub](https://github.com/kjhealy/gssr) with:
 
 ``` r
-install.packages("gssr")
+devtools::install_github("kjhealy/gssr")
 ```
 
-## Example
+## Loading the data
 
-This is a basic example which shows you how to solve a common problem:
+The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don't use R's "lazy loading" facilty.) To load the data, do the following:
 
-```{r example}
+```{r load}
 library(gssr)
-## basic example code
+data(gss_all)
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+```{r peek}
 
-```{r cars}
-summary(cars)
+gss_all
+
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+To load the tibble that contains information on the variables in the data, do this:
 
-You can also embed plots, for example:
+```{r load-doc}
+data(gss_doc)
 
-```{r pressure, echo = FALSE}
-plot(pressure)
+gss_doc
 ```
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
