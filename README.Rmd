@@ -25,7 +25,7 @@ get_badge <- function (pkg, type = c("last-month", "last-week", "grand-total"),
 
 ```
 
-# gssr
+# gssr <img src="man/figures/gssr.png" align="right" width="120" />
 
 <!-- badges: start -->
 [![Build Status](https://travis-ci.org/kjhealy/gssr.svg?branch=master)](https://travis-ci.org/kjhealy/gssr) 
@@ -65,4 +65,6 @@ data(gss_doc)
 gss_doc
 ```
 
+## Further details
 
+The package is documented at <http://kjhealy.github.io/gssr/>.

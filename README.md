@@ -1,6 +1,12 @@
+---
+output: github_document
+---
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# gssr
+
+
+# gssr <img src="man/figures/gssr.png" align="right" width="120" />
 
 <!-- badges: start -->
 [![Build Status](https://travis-ci.org/kjhealy/gssr.svg?branch=master)](https://travis-ci.org/kjhealy/gssr) 
@@ -95,4 +101,6 @@ gss_doc
 #> # … with 6,134 more rows
 ```
 
+## Further details
 
+The package is documented at <http://kjhealy.github.io/gssr/>.
