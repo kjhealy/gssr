@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • gssr</title>
+<title>Codebook for the GSS Cumulative Data File 1972-2018 — gss_doc • gssr</title>
 
 
 <!-- jquery -->
@@ -35,7 +35,11 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Codebook for the GSS Cumulative Data File 1972-2018 — gss_doc" />
+<meta property="og:description" content="A tibble containing information on the variable in the GSS
+Cumulative Data File. See http://gss.norc.org/Get-Documentation for full
+documentation of the variables." />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -54,7 +58,7 @@
   </head>
 
   <body>
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -99,48 +103,49 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Codebook for the GSS Cumulative Data File 1972-2018</h1>
+    
+    <div class="hidden name"><code>gss_doc.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>A tibble containing information on the variable in the GSS
+Cumulative Data File. See http://gss.norc.org/Get-Documentation for full
+documentation of the variables.</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='no'>gss_doc</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-datasets" class="hasAnchor"><a href="#section-datasets" class="anchor"></a>Datasets</h2>
-          <p class="section-desc"><p>Included datasets.</p></p>
-        </th>
-      </tr>
-      <tr>
-        
-        <td>
-          <p><code><a href="gss_all.html">gss_all</a></code> </p>
-        </td>
-        <td><p>General Social Survey Survey Cumulative Data File 1972-2018</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="gss_doc.html">gss_doc</a></code> </p>
-        </td>
-        <td><p>Codebook for the GSS Cumulative Data File 1972-2018</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A tibble with 6,114 rows and five columns.</p><dl class='dl-horizontal'>
+<dt><code>id</code></dt><dd><p>The short name of the variable. A character vector.</p></dd>
+<dt><code>description</code></dt><dd><p>Brief description of the variable. A
+character vector.</p></dd>
+<dt><code>properties</code></dt><dd><p>A list column containing information on
+the variable's data type, its missing value codes, and its
+record/column location.</p></dd>
+<dt><code>marginals</code></dt><dd><p>A list column containing a summary of the
+values taken by the variable.</p></dd>
+<dt><code>text</code></dt><dd><p>Further more detailed information on the
+question asked and the directions provided.</p></dd>
+
+</dl>
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>National Opinion Research Center, <a href='http://gss.norc.org'>http://gss.norc.org</a>.</p>
+
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#section-datasets">Datasets</a></li>
+      <li><a href="#format">Format</a></li>
+      <li><a href="#source">Source</a></li>
     </ul>
+
   </div>
 </div>
 
