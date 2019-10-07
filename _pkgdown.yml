@@ -1,0 +1,14 @@
+destination: docs
+authors:
+  Kieran Healy:
+    href: http://kieranhealy.org    
+template:
+  params:
+    bootswatch: cosmo
+reference:
+  - title: "Datasets"
+    desc: >
+      Included datasets.
+    contents:
+      - gss_all
+      - gss_doc
