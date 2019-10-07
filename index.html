@@ -79,7 +79,7 @@
 <div id="loading-the-data" class="section level2">
 <h2 class="hasAnchor">
 <a href="#loading-the-data" class="anchor"></a>Loading the data</h2>
-<p>The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don’t use R’s “lazy loading” facilty.) To load the data, do the following:</p>
+<p>The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don’t use R’s “lazy loading” facility.) To load the data, do the following:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(gssr)</a>
 <a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console. For the codebook, type data(gss_doc).</span></a>
 <a class="sourceLine" id="cb2-3" data-line-number="3"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_all)</a></code></pre></div>
@@ -145,6 +145,7 @@
 <div id="further-details" class="section level2">
 <h2 class="hasAnchor">
 <a href="#further-details" class="anchor"></a>Further details</h2>
+<p>Categorical variables are encoded as factors.</p>
 <p>The package is documented at <a href="http://kjhealy.github.io/gssr/" class="uri">http://kjhealy.github.io/gssr/</a>. The GSS homepage is at <a href="http://gss.norc.org/" class="uri">http://gss.norc.org/</a>. While the <code>gssr</code> package incorporates the publicly-available GSS cumulative data file, the package is in not in any way associated with or endorsed by the National Opinion Research Center or the General Social Survey.</p>
 </div>
 </div>
