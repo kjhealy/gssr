@@ -21,7 +21,7 @@ devtools::install_github("kjhealy/gssr")
 
 ## Loading the data
 
-The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don't use R's "lazy loading" facilty.) To load the data, do the following:
+The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don't use R's "lazy loading" facility.) To load the data, do the following:
 
 
 ```r
@@ -98,5 +98,7 @@ gss_doc
 ```
 
 ## Further details
+
+Categorical variables are encoded as factors.
 
 The package is documented at <http://kjhealy.github.io/gssr/>. The GSS homepage is at <http://gss.norc.org/>. While the `gssr` package incorporates the publicly-available GSS cumulative data file, the package is in not in any way associated with or endorsed by the National Opinion Research Center or the General Social Survey. 
