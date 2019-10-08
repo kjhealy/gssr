@@ -12,3 +12,7 @@ reference:
     contents:
       - gss_all
       - gss_doc
+navbar:
+  right:
+   - icon: fa-github
+     href: https://github.com/kjhealy/gssr
