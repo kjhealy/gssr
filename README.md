@@ -1,3 +1,7 @@
+---
+output: github_document
+---
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 
@@ -37,43 +41,51 @@ data(gss_all)
 
 gss_all
 #> # A tibble: 64,814 x 6,108
-#>     year    id wrkstat hrs1  hrs2  evwork occ   prestige wrkslf wrkgovt
-#>    <dbl> <dbl> <fct>   <fct> <fct> <fct>  <fct> <fct>    <fct>  <fct>  
-#>  1  1972     1 Workin… <NA>  <NA>  <NA>   205   50       Someo… <NA>   
-#>  2  1972     2 Retired <NA>  <NA>  Yes    441   45       Someo… <NA>   
-#>  3  1972     3 Workin… <NA>  <NA>  <NA>   270   44       Someo… <NA>   
-#>  4  1972     4 Workin… <NA>  <NA>  <NA>   1     57       Someo… <NA>   
-#>  5  1972     5 Keepin… <NA>  <NA>  Yes    385   40       Someo… <NA>   
-#>  6  1972     6 Workin… <NA>  <NA>  <NA>   281   49       Someo… <NA>   
-#>  7  1972     7 Workin… <NA>  <NA>  <NA>   522   41       Someo… <NA>   
-#>  8  1972     8 Workin… <NA>  <NA>  <NA>   314   36       Someo… <NA>   
-#>  9  1972     9 Workin… <NA>  <NA>  <NA>   912   26       Someo… <NA>   
-#> 10  1972    10 Workin… <NA>  <NA>  <NA>   984   18       Someo… <NA>   
-#> # … with 64,804 more rows, and 6,098 more variables: commute <fct>,
-#> #   industry <fct>, occ80 <fct>, prestg80 <fct>, indus80 <fct>,
-#> #   indus07 <fct>, occonet <fct>, found <fct>, occ10 <fct>, occindv <fct>,
-#> #   occstatus <fct>, occtag <fct>, prestg10 <fct>, prestg105plus <fct>,
-#> #   indus10 <fct>, indstatus <fct>, indtag <fct>, marital <fct>,
-#> #   martype <fct>, agewed <fct>, divorce <fct>, widowed <fct>,
-#> #   spwrksta <fct>, sphrs1 <fct>, sphrs2 <fct>, spevwork <fct>,
-#> #   cowrksta <fct>, cowrkslf <fct>, coevwork <fct>, cohrs1 <fct>,
-#> #   cohrs2 <fct>, spocc <fct>, sppres <fct>, spwrkslf <fct>, spind <fct>,
-#> #   spocc80 <fct>, sppres80 <fct>, spind80 <fct>, spocc10 <fct>,
-#> #   spoccindv <fct>, spoccstatus <fct>, spocctag <fct>, sppres10 <fct>,
-#> #   sppres105plus <fct>, spind10 <fct>, spindstatus <fct>, spindtag <fct>,
-#> #   coocc10 <fct>, coind10 <fct>, paocc16 <fct>, papres16 <fct>,
-#> #   pawrkslf <fct>, paind16 <fct>, paocc80 <fct>, papres80 <fct>,
-#> #   paind80 <fct>, paocc10 <fct>, paoccindv <fct>, paoccstatus <fct>,
-#> #   paocctag <fct>, papres10 <fct>, papres105plus <fct>, paind10 <fct>,
-#> #   paindstatus <fct>, paindtag <fct>, maocc80 <fct>, mapres80 <fct>,
-#> #   mawrkslf <fct>, maind80 <fct>, maocc10 <fct>, maoccindv <fct>,
-#> #   maoccstatus <fct>, maocctag <fct>, mapres10 <fct>,
-#> #   mapres105plus <fct>, maind10 <fct>, maindstatus <fct>, maindtag <fct>,
-#> #   sibs <fct>, childs <fct>, age <fct>, agekdbrn <fct>, educ <fct>,
-#> #   paeduc <fct>, maeduc <fct>, speduc <fct>, coeduc <fct>, codeg <fct>,
-#> #   degree <fct>, padeg <fct>, madeg <fct>, spdeg <fct>, major1 <fct>,
-#> #   major2 <fct>, dipged <fct>, spdipged <fct>, codipged <fct>,
-#> #   cosector <fct>, whenhs <fct>, whencol <fct>, …
+#>     year    id wrkstat  hrs1  hrs2   evwork   occ prestige  wrkslf wrkgovt
+#>    <dbl> <dbl> <dbl+l> <dbl> <dbl> <dbl+lb> <dbl> <dbl+lb> <dbl+l> <dbl+l>
+#>  1  1972     1 1 [WOR…    NA    NA NA         205       50 2 [SOM…      NA
+#>  2  1972     2 5 [RET…    NA    NA  1 [YES]   441       45 2 [SOM…      NA
+#>  3  1972     3 2 [WOR…    NA    NA NA         270       44 2 [SOM…      NA
+#>  4  1972     4 1 [WOR…    NA    NA NA           1       57 2 [SOM…      NA
+#>  5  1972     5 7 [KEE…    NA    NA  1 [YES]   385       40 2 [SOM…      NA
+#>  6  1972     6 1 [WOR…    NA    NA NA         281       49 2 [SOM…      NA
+#>  7  1972     7 1 [WOR…    NA    NA NA         522       41 2 [SOM…      NA
+#>  8  1972     8 1 [WOR…    NA    NA NA         314       36 2 [SOM…      NA
+#>  9  1972     9 2 [WOR…    NA    NA NA         912       26 2 [SOM…      NA
+#> 10  1972    10 1 [WOR…    NA    NA NA         984       18 2 [SOM…      NA
+#> # … with 64,804 more rows, and 6,098 more variables: commute <dbl+lbl>,
+#> #   industry <dbl+lbl>, occ80 <dbl+lbl>, prestg80 <dbl+lbl>,
+#> #   indus80 <dbl+lbl>, indus07 <dbl+lbl>, occonet <dbl+lbl>,
+#> #   found <dbl+lbl>, occ10 <dbl+lbl>, occindv <dbl+lbl>,
+#> #   occstatus <dbl+lbl>, occtag <dbl+lbl>, prestg10 <dbl+lbl>,
+#> #   prestg105plus <dbl+lbl>, indus10 <dbl+lbl>, indstatus <dbl+lbl>,
+#> #   indtag <dbl+lbl>, marital <dbl+lbl>, martype <dbl+lbl>,
+#> #   agewed <dbl+lbl>, divorce <dbl+lbl>, widowed <dbl+lbl>,
+#> #   spwrksta <dbl+lbl>, sphrs1 <dbl+lbl>, sphrs2 <dbl+lbl>,
+#> #   spevwork <dbl+lbl>, cowrksta <dbl+lbl>, cowrkslf <dbl+lbl>,
+#> #   coevwork <dbl+lbl>, cohrs1 <dbl+lbl>, cohrs2 <dbl+lbl>,
+#> #   spocc <dbl+lbl>, sppres <dbl+lbl>, spwrkslf <dbl+lbl>,
+#> #   spind <dbl+lbl>, spocc80 <dbl+lbl>, sppres80 <dbl+lbl>,
+#> #   spind80 <dbl+lbl>, spocc10 <dbl+lbl>, spoccindv <dbl+lbl>,
+#> #   spoccstatus <dbl+lbl>, spocctag <dbl+lbl>, sppres10 <dbl+lbl>,
+#> #   sppres105plus <dbl+lbl>, spind10 <dbl+lbl>, spindstatus <dbl+lbl>,
+#> #   spindtag <dbl+lbl>, coocc10 <dbl+lbl>, coind10 <dbl+lbl>,
+#> #   paocc16 <dbl+lbl>, papres16 <dbl+lbl>, pawrkslf <dbl+lbl>,
+#> #   paind16 <dbl+lbl>, paocc80 <dbl+lbl>, papres80 <dbl+lbl>,
+#> #   paind80 <dbl+lbl>, paocc10 <dbl+lbl>, paoccindv <dbl+lbl>,
+#> #   paoccstatus <dbl+lbl>, paocctag <dbl+lbl>, papres10 <dbl+lbl>,
+#> #   papres105plus <dbl+lbl>, paind10 <dbl+lbl>, paindstatus <dbl+lbl>,
+#> #   paindtag <dbl+lbl>, maocc80 <dbl+lbl>, mapres80 <dbl+lbl>,
+#> #   mawrkslf <dbl+lbl>, maind80 <dbl+lbl>, maocc10 <dbl+lbl>,
+#> #   maoccindv <dbl+lbl>, maoccstatus <dbl+lbl>, maocctag <dbl+lbl>,
+#> #   mapres10 <dbl+lbl>, mapres105plus <dbl+lbl>, maind10 <dbl+lbl>,
+#> #   maindstatus <dbl+lbl>, maindtag <dbl+lbl>, sibs <dbl+lbl>,
+#> #   childs <dbl+lbl>, age <dbl+lbl>, agekdbrn <dbl+lbl>, educ <dbl+lbl>,
+#> #   paeduc <dbl+lbl>, maeduc <dbl+lbl>, speduc <dbl+lbl>,
+#> #   coeduc <dbl+lbl>, codeg <dbl+lbl>, degree <dbl+lbl>, padeg <dbl+lbl>,
+#> #   madeg <dbl+lbl>, spdeg <dbl+lbl>, major1 <dbl+lbl>, major2 <dbl+lbl>,
+#> #   dipged <dbl+lbl>, spdipged <dbl+lbl>, codipged <dbl+lbl>,
+#> #   cosector <dbl+lbl>, whenhs <dbl+lbl>, whencol <dbl+lbl>, …
 ```
 
 To load the tibble that contains information on the variables in the data, do this:
@@ -145,7 +157,5 @@ gss_doc %>% filter(id == "race") %>%
 ```
 
 ## Further details
-
-Categorical variables are encoded as factors.
 
 The package is documented at <http://kjhealy.github.io/gssr/>. The GSS homepage is at <http://gss.norc.org/>. While the `gssr` package incorporates the publicly-available GSS cumulative data file, the package is not associated with or endorsed by the National Opinion Research Center or the General Social Survey. 
