@@ -113,6 +113,13 @@ gss_doc %>% filter(id == "sex") %>%
 
 The GSS is a complex survey. When working with it, we need to take its structure into account in order to properly calculate statistics such as the population mean for a variable in some year, its standard error, and so on. For these tasks we use the `survey` and `srvyr` packages. For details on `survey`, see Lumley (2010). We will also do some recoding prior to analyzing the data, so we load several additional `tidyverse` packages to assist us.
 
+We will examine a topic that was the subject of recent media attention, in the *New York Times* and elsewhere, regarding the beliefs of young men about gender roles. Some surveys seemed to point to some recent increasing conservatism on this front amongst young men. As it happens, the GSS has a longstanding question named `fefam`, where respondents are asked to give their opinion on the following statement:
+
+>  It is much better for everyone involved if the man is the achiever outside the home and the woman takes care of the home and family.
+
+Respondents may answer that they Strongly Agree, Agree, Disagree, or Strongly Disagree with the statement (as well as refusing to answer, or saying they don't know). 
+
+
 
 ### Subsetting the Dataset
 
@@ -142,7 +149,8 @@ gss_fam
 
 ### Recode the Subsetted Data
 
-Next, some recoding, along with creating some new variables.
+Next, some recoding, along with creating some new variables. We will clean up `gss_fam` a bit, discarding some of the label and missing value information we don't need. We also create some new variables: age quintiles, a variable flagging whether a respondent is 25 or younger, recoded `fefam` to binary "Agree" or "Disagree" (with non-responses dropped). 
+
 
 ```{r recodes}
 qrts <- quantile(as.numeric(gss_fam$age), 
@@ -184,7 +192,7 @@ gss_fam
 
 ### Integrate the Survey Weights 
 
-Now set up the survey object.
+Nexr, we set up the data so we can properly calculate population means and errors and so on. We use `svyr`'s wrappers to `survey` for this.
 
 ```{r weights}
 
@@ -201,9 +209,16 @@ gss_svy <- gss_fam %>%
                      nest = TRUE)
 ```
 
-## Calculate the survey-weighted means and confidence intervals for the question of interest for every year in the data
+The `gss_svy` object contains the same data as `gss_fam`, but incorporates information about the sampling structure in a way that the `survey` package's functions can work with: 
 
-We're now in a position to calculate some properly-weighted summary statistics for the variables we're interested in. 
+```{r svyobj}
+gss_svy
+```
+
+
+## Calculate the survey-weighted statistics
+
+We're now in a position to calculate some properly-weighted summary statistics for the variable we're interested in, for every year in the data. 
 
 ```{r summary}
 ## Get the breakdown for every year
