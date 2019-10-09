@@ -82,19 +82,17 @@ As the startup message notes, the data objects are not automatically loaded. Tha
 data(gss_sub)
 data(gss_doc)
 
-gss_sub
-
 gss_doc
 
 ```
 
-The GSS data comes in a *labelled* format, mirroring the way it is encoded for Stata and SPSS platforms. We can the content of the labels if we just focus on a couple of variables. 
+The GSS data comes in a *labelled* format, mirroring the way it is encoded for Stata and SPSS platforms. The numeric codes are the content of the column cells. The labeling information is stored as an attribute of the column.
 
 ```{r labels}
-gss_sub %>% select(year, race, sex)
+gss_sub
 ```
 
-The values are encoded numerically with their label information as an attribute of the column. We can use this information later when recoding the variables into, say, character or factor variables. The labels and values are reflected in the codebook tibble. To see them, pull out the `marginals` list-column:
+We will use the label information later when recoding the variables into, say, character or factor variables. The labels and values are reflected in the codebook tibble. To see them, pull out the `marginals` list-column:
 
 ```{r doctib1}
 gss_doc %>% filter(id == "race") %>%
