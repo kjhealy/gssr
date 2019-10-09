@@ -99,13 +99,13 @@ The values are encoded numerically with their label information as an attribute 
 ```{r doctib1}
 gss_doc %>% filter(id == "race") %>%
   select(marginals) %>% 
-  unnest(cols = c(marginals))
+  tidyr::unnest(cols = c(marginals))
 ```
 
 ```{r doctib2}
 gss_doc %>% filter(id == "sex") %>%
   select(marginals) %>% 
-  unnest(cols = c(marginals))
+  tidyr::unnest(cols = c(marginals))
 ```
 
 
