@@ -14,6 +14,62 @@ knitr::opts_chunk$set(
 )
 ```
 
+## Setup, Packages, and Functions
+
+### Packages
+
+This article, along with the `gssr` package itself, makes use of some Tidyverse packages together with R tools designed for complex survey data.
+
+```{r packages}
+library(dplyr)
+library(ggplot2)
+library(survey)
+library(srvyr)
+```
+
+### Functions
+
+Three quick-and-dirty functions, one to help clean some labels, one to define some custom colors for our plot, and one to title-case variable labels. 
+
+```{r functions}
+convert_agegrp <- function(x){
+    x <- gsub("\\(", "", x)
+    x <- gsub("\\[", "", x)
+    x <- gsub("\\]", "", x)
+    x <- gsub(",", "-", x)
+    x <- gsub("-89", "+", x)
+    regex <- "^(.*$)"
+    x <- gsub(regex, "Age \\1", x)
+    x
+}
+
+my_colors <- function (palette = "cb") 
+{
+    cb.palette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", 
+        "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+    rcb.palette <- rev(cb.palette)
+    bly.palette <- c("#E69F00", "#0072B2", "#000000", "#56B4E9", 
+        "#009E73", "#F0E442", "#D55E00", "#CC79A7")
+    if (palette == "cb") 
+        return(cb.palette)
+    else if (palette == "rcb") 
+        return(rcb.palette)
+    else if (palette == "bly") 
+        return(bly.palette)
+    else stop("Choose cb, rcb, or bly only.")
+}
+
+# from help(chartr)
+capwords <- function(x, strict = FALSE) {
+    cap <- function(x) paste(toupper(substring(x, 1, 1)),
+                  {x <- substring(x, 2); if(strict) tolower(x) else x},
+                             sep = "", collapse = " " )
+    sapply(strsplit(x, split = " "), cap, USE.NAMES = !is.null(names(x)))
+}
+
+```
+
+
 ## Loading the gssr package and data
 
 ```{r setup}
@@ -57,58 +113,6 @@ gss_doc %>% filter(id == "sex") %>%
 
 The GSS is a complex survey. When working with it, we need to take its structure into account in order to properly calculate statistics such as the population mean for a variable in some year, its standard error, and so on. For these tasks we use the `survey` and `srvyr` packages. For details on `survey`, see Lumley (2010). We will also do some recoding prior to analyzing the data, so we load several additional `tidyverse` packages to assist us.
 
-### Packages
-
-```{r packages}
-library(dplyr)
-library(ggplot2)
-
-library(survey)
-library(srvyr)
-```
-
-
-### Functions
-
-Three quick-and-dirty functions, one to help clean some labels, the other to define some custom colors. 
-
-```{r functions}
-convert_agegrp <- function(x){
-    x <- gsub("\\(", "", x)
-    x <- gsub("\\[", "", x)
-    x <- gsub("\\]", "", x)
-    x <- gsub(",", "-", x)
-    x <- gsub("-89", "+", x)
-    regex <- "^(.*$)"
-    x <- gsub(regex, "Age \\1", x)
-    x
-}
-
-my_colors <- function (palette = "cb") 
-{
-    cb.palette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", 
-        "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-    rcb.palette <- rev(cb.palette)
-    bly.palette <- c("#E69F00", "#0072B2", "#000000", "#56B4E9", 
-        "#009E73", "#F0E442", "#D55E00", "#CC79A7")
-    if (palette == "cb") 
-        return(cb.palette)
-    else if (palette == "rcb") 
-        return(rcb.palette)
-    else if (palette == "bly") 
-        return(bly.palette)
-    else stop("Choose cb, rcb, or bly only.")
-}
-
-# from help(chartr)
-capwords <- function(x, strict = FALSE) {
-    cap <- function(x) paste(toupper(substring(x, 1, 1)),
-                  {x <- substring(x, 2); if(strict) tolower(x) else x},
-                             sep = "", collapse = " " )
-    sapply(strsplit(x, split = " "), cap, USE.NAMES = !is.null(names(x)))
-}
-
-```
 
 ### Subsetting the Dataset
 
