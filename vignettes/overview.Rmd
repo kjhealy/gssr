@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Loading the gssr package and data
+## Loading the gssr package and data
 
 ```{r setup}
 library(gssr)
@@ -32,11 +32,11 @@ gss_doc
 
 ```
 
-# Descriptive analysis of the data: an example
+## Descriptive analysis of the data: an example
 
 The GSS is a complex survey. When working with it, we need to take its structure into account in order to properly calculate statistics such as the population mean for a variable in some year, its standard error, and so on. For this we use the `survey` and `srvyr` packages. For details on `survey`, see Lumley (2010). We will also do some recoding, so we load several additional `tidyverse` packages to assist us.
 
-## Packages
+### Packages
 
 ```{r packages}
 library(dplyr)
@@ -54,7 +54,7 @@ library(tools)
 ```
 
 
-## Functions
+### Functions
 
 Two quick-and-dirty functions, one to help clean some labels, the other to define some custom colors. 
 
@@ -88,7 +88,7 @@ my_colors <- function (palette = "cb")
 
 ```
 
-## Subsetting the Dataset
+### Subsetting the Dataset
 
 The GSS data retains labeling information (as it was originally imported via the `haven` package). When working with the data in an analysis, we will probably want to convert the labeled variables to data types such as factors. This should be done with care (and not on the whole dataset all at once). Typically, we will want to focus on some relatively small subset of variables and examine those. For example, let's say we want to explore the `fefam` question.
 
@@ -114,7 +114,7 @@ gss_fam
 
 ```
 
-## Recode the Subsetted Data
+### Recode the Subsetted Data
 
 Next, some recoding, along with creating some new variables.
 
@@ -157,11 +157,11 @@ gss_fam
 
 ```
 
-## Integrate the Survey Weights 
+### Integrate the Survey Weights 
 
 Now set up the survey object.
 
-```{r}
+```{r weights}
 
 options(survey.lonely.psu = "adjust")
 options(na.action="na.pass")
@@ -189,7 +189,7 @@ out_ff <- gss_svy %>%
 out_ff
 ```
 
-## Plot the Results
+### Plot the Results
 
 We finish with a polished plot of the trends in `fefam` over time, for men and women in two (recoded) age groups over time. 
 
@@ -230,7 +230,7 @@ out_ff %>%
   theme(legend.position = "bottom")
 ```
 
-# References
+## References
 
 Lumley, Thomas (2010). *Complex Surveys: A Guide to Analysis Using R*. New York: Wiley.
 
