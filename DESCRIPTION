@@ -11,10 +11,23 @@ License: MIT + file LICENSE
 Depends: R (>= 3.5)
 Imports:
     tibble
-Suggests: dplyr,survey,srvyr
+Suggests: 
+    dplyr,
+    forcats,
+    ggplot2,
+    haven,
+    purrr,
+    scales,
+    survey,
+    srvyr,
+    tidyr,
+    knitr,
+    rmarkdown,
+    tools
 Encoding: UTF-8
 LazyData: false
 Roxygen: list(markdown = FALSE)
 RoxygenNote: 6.1.1
 URL: https://github.com/kjhealy/gssr
 BugReports: https://github.com/kjhealy/gssr/issues
+VignetteBuilder: knitr

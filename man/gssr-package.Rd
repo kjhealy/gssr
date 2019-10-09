@@ -8,6 +8,14 @@
 \description{
 The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data file packaged for R, together with a separate dataset containing codebook information on all the variables. For more information on the GSS see \url{http://gss.norc.org}.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/kjhealy/gssr}
+  \item Report bugs at \url{https://github.com/kjhealy/gssr/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Kieran Healy \email{kjhealy@gmail.com}
 

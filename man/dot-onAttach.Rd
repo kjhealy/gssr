@@ -7,9 +7,9 @@
 .onAttach(libname, pkgname)
 }
 \arguments{
-\item{libname}{}
+\item{libname}{gssr}
 
-\item{pkgname}{}
+\item{pkgname}{gssr}
 }
 \value{
 Message
