@@ -92,9 +92,9 @@
 
     
     
-<div id="setup-packages-and-functions" class="section level2">
+<div id="setup" class="section level2">
 <h2 class="hasAnchor">
-<a href="#setup-packages-and-functions" class="anchor"></a>Setup, Packages, and Functions</h2>
+<a href="#setup" class="anchor"></a>Setup</h2>
 <div id="packages" class="section level3">
 <h3 class="hasAnchor">
 <a href="#packages" class="anchor"></a>Packages</h3>
@@ -165,9 +165,9 @@
 <a class="sourceLine" id="cb2-34" data-line-number="34">}</a></code></pre></div>
 </div>
 </div>
-<div id="loading-the-gssr-package-and-data" class="section level2">
+<div id="load-the-gssr-package-and-its-data" class="section level2">
 <h2 class="hasAnchor">
-<a href="#loading-the-gssr-package-and-data" class="anchor"></a>Loading the gssr package and data</h2>
+<a href="#load-the-gssr-package-and-its-data" class="anchor"></a>Load the gssr package and its data</h2>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(gssr)</a>
 <a class="sourceLine" id="cb3-2" data-line-number="2"><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console.</span></a>
 <a class="sourceLine" id="cb3-3" data-line-number="3"><span class="co">#&gt; For the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.</span></a></code></pre></div>
@@ -237,9 +237,10 @@
 <p>It is much better for everyone involved if the man is the achiever outside the home and the woman takes care of the home and family.</p>
 </blockquote>
 <p>Respondents may answer that they Strongly Agree, Agree, Disagree, or Strongly Disagree with the statement (as well as refusing to answer, or saying they don’t know).</p>
-<div id="subsetting-the-dataset" class="section level3">
-<h3 class="hasAnchor">
-<a href="#subsetting-the-dataset" class="anchor"></a>Subsetting the Dataset</h3>
+</div>
+<div id="subset-the-data" class="section level2">
+<h2 class="hasAnchor">
+<a href="#subset-the-data" class="anchor"></a>Subset the Data</h2>
 <p>The GSS data retains labeling information (as it was originally imported via the <code>haven</code> package). When working with the data in an analysis, we will probably want to convert the labeled variables to data types such as factors. This should be done with care (and not on the whole dataset all at once). Typically, we will want to focus on some relatively small subset of variables and examine those. For example, let’s say we want to explore the <code>fefam</code> question. We will subset the data and then prepare that for analysis. Here we are going to subset <code>gss_sub</code> into an object called <code>gss_fam</code> containing just the variables we want to examine, along with core measures that identify respondents (such as <code>id</code> and <code>year</code>) and variables necessary for the survey weighting later (such as <code>wtssall</code>).</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1">cont_vars &lt;-<span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"year"</span>, <span class="st">"id"</span>, <span class="st">"ballot"</span>, <span class="st">"age"</span>)</a>
 <a class="sourceLine" id="cb8-2" data-line-number="2"></a>
@@ -275,9 +276,9 @@
 <a class="sourceLine" id="cb8-32" data-line-number="32"><span class="co">#&gt; # … with 64,804 more rows, and 3 more variables: wtssall &lt;dbl&gt;,</span></a>
 <a class="sourceLine" id="cb8-33" data-line-number="33"><span class="co">#&gt; #   sampcode &lt;dbl&gt;, sample &lt;dbl&gt;</span></a></code></pre></div>
 </div>
-<div id="recode-the-subsetted-data" class="section level3">
-<h3 class="hasAnchor">
-<a href="#recode-the-subsetted-data" class="anchor"></a>Recode the Subsetted Data</h3>
+<div id="recode-the-subsetted-data" class="section level2">
+<h2 class="hasAnchor">
+<a href="#recode-the-subsetted-data" class="anchor"></a>Recode the Subsetted Data</h2>
 <p>Next, some recoding, along with creating some new variables. We will clean up <code>gss_fam</code> a bit, discarding some of the label and missing value information we don’t need. We also create some new variables: age quintiles, a variable flagging whether a respondent is 25 or younger, recoded <code>fefam</code> to binary “Agree” or “Disagree” (with non-responses dropped).</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1">qrts &lt;-<span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/stats/quantile.html">quantile</a></span>(<span class="kw"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span>(gss_fam<span class="op">$</span>age), </a>
 <a class="sourceLine" id="cb9-2" data-line-number="2">                 <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)</a>
@@ -335,9 +336,9 @@
 <a class="sourceLine" id="cb9-54" data-line-number="54"><span class="co">#&gt; #   year_f &lt;fct&gt;, young &lt;chr&gt;, fefam_d &lt;fct&gt;, fefam_n &lt;dbl&gt;, compwt &lt;dbl&gt;,</span></a>
 <a class="sourceLine" id="cb9-55" data-line-number="55"><span class="co">#&gt; #   samplerc &lt;dbl&gt;</span></a></code></pre></div>
 </div>
-<div id="integrate-the-survey-weights" class="section level3">
-<h3 class="hasAnchor">
-<a href="#integrate-the-survey-weights" class="anchor"></a>Integrate the Survey Weights</h3>
+<div id="integrate-the-survey-weights" class="section level2">
+<h2 class="hasAnchor">
+<a href="#integrate-the-survey-weights" class="anchor"></a>Integrate the Survey Weights</h2>
 <p>Nexr, we set up the data so we can properly calculate population means and errors and so on. We use <code>svyr</code>’s wrappers to <code>survey</code> for this.</p>
 <div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1"></a>
 <a class="sourceLine" id="cb10-2" data-line-number="2"><span class="kw"><a href="https://rdrr.io/r/base/options.html">options</a></span>(<span class="dt">survey.lonely.psu =</span> <span class="st">"adjust"</span>)</a>
@@ -366,7 +367,6 @@
 <a class="sourceLine" id="cb11-12" data-line-number="12"><span class="co">#&gt;   (fct), agequint (fct), year_f (fct), young (chr), fefam_d (fct), fefam_n</span></a>
 <a class="sourceLine" id="cb11-13" data-line-number="13"><span class="co">#&gt;   (dbl), compwt (dbl), samplerc (dbl), stratvar (fct)</span></a></code></pre></div>
 </div>
-</div>
 <div id="calculate-the-survey-weighted-statistics" class="section level2">
 <h2 class="hasAnchor">
 <a href="#calculate-the-survey-weighted-statistics" class="anchor"></a>Calculate the survey-weighted statistics</h2>
@@ -391,9 +391,10 @@
 <a class="sourceLine" id="cb12-18" data-line-number="18"><span class="co">#&gt;  9  1985 Male   No    Agree    0.542    0.496    0.587</span></a>
 <a class="sourceLine" id="cb12-19" data-line-number="19"><span class="co">#&gt; 10  1985 Male   No    Disagree 0.458    0.413    0.504</span></a>
 <a class="sourceLine" id="cb12-20" data-line-number="20"><span class="co">#&gt; # … with 158 more rows</span></a></code></pre></div>
-<div id="plot-the-results" class="section level3">
-<h3 class="hasAnchor">
-<a href="#plot-the-results" class="anchor"></a>Plot the Results</h3>
+</div>
+<div id="plot-the-results" class="section level2">
+<h2 class="hasAnchor">
+<a href="#plot-the-results" class="anchor"></a>Plot the Results</h2>
 <p>We finish with a polished plot of the trends in <code>fefam</code> over time, for men and women in two (recoded) age groups over time.</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="kw"><a href="https://ggplot2.tidyverse.org/reference/theme_get.html">theme_set</a></span>(<span class="kw"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span>())</a>
 <a class="sourceLine" id="cb13-2" data-line-number="2"></a>
@@ -431,7 +432,6 @@
 <a class="sourceLine" id="cb13-34" data-line-number="34"><span class="st">  </span><span class="kw"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span>(<span class="dt">legend.position =</span> <span class="st">"bottom"</span>)</a></code></pre></div>
 <p><img src="overview_files/figure-html/fefamplot-1.png" width="768"></p>
 </div>
-</div>
 <div id="references" class="section level2">
 <h2 class="hasAnchor">
 <a href="#references" class="anchor"></a>References</h2>
@@ -445,10 +445,14 @@
       <h2 class="hasAnchor">
 <a href="#tocnav" class="anchor"></a>Contents</h2>
       <ul class="nav nav-pills nav-stacked">
-<li><a href="#setup-packages-and-functions">Setup, Packages, and Functions</a></li>
-      <li><a href="#loading-the-gssr-package-and-data">Loading the gssr package and data</a></li>
+<li><a href="#setup">Setup</a></li>
+      <li><a href="#load-the-gssr-package-and-its-data">Load the gssr package and its data</a></li>
       <li><a href="#descriptive-analysis-of-the-data-an-example">Descriptive analysis of the data: an example</a></li>
+      <li><a href="#subset-the-data">Subset the Data</a></li>
+      <li><a href="#recode-the-subsetted-data">Recode the Subsetted Data</a></li>
+      <li><a href="#integrate-the-survey-weights">Integrate the Survey Weights</a></li>
       <li><a href="#calculate-the-survey-weighted-statistics">Calculate the survey-weighted statistics</a></li>
+      <li><a href="#plot-the-results">Plot the Results</a></li>
       <li><a href="#references">References</a></li>
       </ul>
 </div>
