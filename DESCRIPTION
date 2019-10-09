@@ -22,8 +22,7 @@ Suggests:
     srvyr,
     tidyr,
     knitr,
-    rmarkdown,
-    tools
+    rmarkdown
 Encoding: UTF-8
 LazyData: false
 Roxygen: list(markdown = FALSE)

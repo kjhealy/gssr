@@ -2,11 +2,6 @@ language: r
 cache: packages
 warnings_are_errors: false
 
-addons:
-  apt:
-    packages:
-      - libudunits2-dev
-
 before_cache: Rscript -e 'remotes::install_cran("pkgdown")'
 deploy:
   provider: script

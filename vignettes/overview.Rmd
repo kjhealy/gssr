@@ -40,23 +40,16 @@ The GSS is a complex survey. When working with it, we need to take its structure
 
 ```{r packages}
 library(dplyr)
-library(forcats)
 library(ggplot2)
-library(haven)
-library(purrr)
-library(tidyr)
 
 library(survey)
 library(srvyr)
-
-library(tools)
-
 ```
 
 
 ### Functions
 
-Two quick-and-dirty functions, one to help clean some labels, the other to define some custom colors. 
+Three quick-and-dirty functions, one to help clean some labels, the other to define some custom colors. 
 
 ```{r functions}
 convert_agegrp <- function(x){
@@ -84,6 +77,14 @@ my_colors <- function (palette = "cb")
     else if (palette == "bly") 
         return(bly.palette)
     else stop("Choose cb, rcb, or bly only.")
+}
+
+# from help(chartr)
+capwords <- function(x, strict = FALSE) {
+    cap <- function(x) paste(toupper(substring(x, 1, 1)),
+                  {x <- substring(x, 2); if(strict) tolower(x) else x},
+                             sep = "", collapse = " " )
+    sapply(strsplit(x, split = " "), cap, USE.NAMES = !is.null(names(x)))
 }
 
 ```
@@ -130,19 +131,18 @@ quintiles
 
 ## Recoding
 gss_fam <- gss_fam %>%
-  modify_at(vars(), zap_missing) %>%
-  modify_at(wt_vars, as.numeric) %>%
-  modify_at(cat_vars, as_factor) %>%
-  modify_at(cat_vars, fct_relabel, tolower) %>%  # otherwise titlecase ignores all-caps words
-  modify_at(cat_vars, fct_relabel, toTitleCase) %>%
+  purrr::modify_at(vars(), zap_missing) %>%
+  purrr::modify_at(wt_vars, as.numeric) %>%
+  purrr::modify_at(cat_vars, as_factor) %>%
+  purrr::modify_at(cat_vars, forcats::fct_relabel, capwords, strict = TRUE) %>%
   mutate(ageq = cut(x = age, breaks = unique(qrts), include.lowest = TRUE),
-           ageq =  fct_relabel(ageq, convert_agegrp),
+           ageq =  forcats::fct_relabel(ageq, convert_agegrp),
            agequint = cut(x = age, breaks = unique(quintiles), include.lowest = TRUE),
-           agequint = fct_relabel(agequint, convert_agegrp),
+           agequint = forcats::fct_relabel(agequint, convert_agegrp),
            year_f = droplevels(factor(year)),
            young = ifelse(age < 26, "Yes", "No"),
-           fefam = fct_recode(fefam, NULL = "IAP", NULL = "DK", NULL = "NA"),
-           fefam_d = fct_recode(fefam,
+           fefam = forcats::fct_recode(fefam, NULL = "IAP", NULL = "DK", NULL = "NA"),
+           fefam_d = forcats::fct_recode(fefam,
                                 Agree = "Strongly Agree",
                                 Disagree = "Strongly Disagree"),
            fefam_n = recode(fefam_d, "Agree" = 0, "Disagree" = 1))
@@ -168,7 +168,7 @@ options(na.action="na.pass")
 
 gss_svy <- gss_fam %>%
     filter(year > 1974) %>%
-    drop_na(fefam_d, young) %>%
+    tidyr::drop_na(fefam_d, young) %>%
     mutate(stratvar = interaction(year, vstrat)) %>%
     as_survey_design(id = vpsu,
                      strata = stratvar,
