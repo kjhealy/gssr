@@ -46,3 +46,35 @@
 #' @name gss_doc
 #' @source National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
 'gss_doc'
+
+
+#' GSS Cumulative Data File 1972-2018, Vignette Example
+#'
+#' A tibble containing just a few variables from the GSS
+#' Cumulative Data File. See http://gss.norc.org/Get-Documentation for full
+#' documentation of the variables.
+#'
+#' @format A tibble with 64,814 rows and 14 columns.
+#' \describe{
+#' \item{\code{year}}{Year of the survey.}
+#' \item{\code{id}}{Respondent id.}
+#' \item{\code{ballot}}{Survey ballot}
+#' \item{\code{age}}{Age of respondent}
+#' \item{\code{race}}{Race of respondent}
+#' \item{\code{sex}}{Sex of respondent}
+#' \item{\code{fefam}}{Response to a statement that it is better for man to go out to work, and for a woman to tend the home}
+#' \item{\code{vpsu}}{Variance primary sampling unit}
+#' \item{\code{vstrat}}{Variance stratum}
+#' \item{\code{oversamp}}{Weights for black oversamples}
+#' \item{\code{formwt}}{Survey weight for experimental randomization}
+#' \item{\code{wtssall}}{Survey weight}
+#' \item{\code{sampcode}}{Sampling error code}
+#' \item{\code{sample}}{Sampling frame and method}
+#'}
+#'
+#' @docType data
+#' @keywords datasets
+#' @name gss_sub
+#' @source National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
+'gss_sub'
+

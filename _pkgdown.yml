@@ -12,6 +12,7 @@ reference:
     contents:
       - gss_all
       - gss_doc
+      - gss_sub
 navbar:
   right:
    - icon: fa-github
