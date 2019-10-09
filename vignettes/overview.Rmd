@@ -133,7 +133,7 @@ quintiles
 gss_fam <- gss_fam %>%
   purrr::modify_at(vars(), haven::zap_missing) %>%
   purrr::modify_at(wt_vars, as.numeric) %>%
-  purrr::modify_at(cat_vars, as_factor) %>%
+  purrr::modify_at(cat_vars, forcats::as_factor) %>%
   purrr::modify_at(cat_vars, forcats::fct_relabel, capwords, strict = TRUE) %>%
   mutate(ageq = cut(x = age, breaks = unique(qrts), include.lowest = TRUE),
            ageq =  forcats::fct_relabel(ageq, convert_agegrp),
