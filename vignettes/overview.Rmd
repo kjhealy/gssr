@@ -11,30 +11,10 @@ vignette: >
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
-)
-```
+  )
 
-## Introduction
+## Three quick-and-dirty functions, one to help clean some labels, one to define some custom colors for our plot, and one to title-case variable labels. 
 
-The gssr package provides the [General Social Survey](http://gss.norc.org) Cumulative Data File and Three Wave Panel data (and their codebooks) in a format that makes it straightforward to get started working with them in R. The GSS is one of the cornerstones of American social science and one of the most-analyzed datasets in Sociology. It is also a model of open, public data. The [National Opinion Research Center](http://norc.org) already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the [GSS Data Explorer](https://gssdataexplorer.norc.org), and social scientists can [download complete datasets](http://gss.norc.org/Get-The-Data) directly and without restriction. At present, the GSS is provided to researchers in a choice of two commercial formats, Stata (`.dta`) and SPSS (`.sav`). The `gssr` package helps make the GSS a little more accessible to users of R, the free software environment for statistical computing, and thus helps in a small way to make the GSS even more open than it already is.
-
-### Packages
-
-This article makes use of some additional packages beyond `gssr` itself. My assumption is that users of `gssr` will most likely use and analyze the data in conjunction with some combination of [Tidyverse](https://tidyverse.org) tools and the [survey](http://r-survey.r-forge.r-project.org/survey/), [srvyr](https://github.com/gergness/srvyr), and [panelr](http://panelr.jacob-long.com) packages.
-
-```{r packages}
-library(dplyr)
-library(ggplot2)
-library(panelr)
-library(survey)
-library(srvyr)
-```
-
-### Functions
-
-Three quick-and-dirty functions, one to help clean some labels, one to define some custom colors for our plot, and one to title-case variable labels. 
-
-```{r functions}
 convert_agegrp <- function(x){
     x <- gsub("\\(", "", x)
     x <- gsub("\\[", "", x)
@@ -70,6 +50,22 @@ capwords <- function(x, strict = FALSE) {
     sapply(strsplit(x, split = " "), cap, USE.NAMES = !is.null(names(x)))
 }
 
+```
+
+## Introduction
+
+The gssr package provides the [General Social Survey](http://gss.norc.org) Cumulative Data File and Three Wave Panel data (and their codebooks) in a format that makes it straightforward to get started working with them in R. The GSS is one of the cornerstones of American social science and one of the most-analyzed datasets in Sociology. It is also a model of open, public data. The [National Opinion Research Center](http://norc.org) already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the [GSS Data Explorer](https://gssdataexplorer.norc.org), and social scientists can [download complete datasets](http://gss.norc.org/Get-The-Data) directly and without restriction. At present, the GSS is provided to researchers in a choice of two commercial formats, Stata (`.dta`) and SPSS (`.sav`). The `gssr` package helps make the GSS a little more accessible to users of R, the free software environment for statistical computing, and thus helps in a small way to make the GSS even more open than it already is.
+
+### Packages
+
+This article makes use of some additional packages beyond `gssr` itself. My assumption is that users of `gssr` will most likely use and analyze the data in conjunction with some combination of [Tidyverse](https://tidyverse.org) tools and the [survey](http://r-survey.r-forge.r-project.org/survey/), [srvyr](https://github.com/gergness/srvyr), and [panelr](http://panelr.jacob-long.com) packages.
+
+```{r packages}
+library(dplyr)
+library(ggplot2)
+library(panelr)
+library(survey)
+library(srvyr)
 ```
 
 ## Load the gssr package and its data
@@ -187,13 +183,16 @@ quintiles <- quantile(as.numeric(gss_fam$age),
 quintiles
 
 ## Recoding
+## The convert_agegrp() and capwords() functions seen here are defined
+## at the top of the Rmd file used to produce this document.
+
 gss_fam <- gss_fam %>%
   purrr::modify_at(vars(), haven::zap_missing) %>%
   purrr::modify_at(wt_vars, as.numeric) %>%
   purrr::modify_at(cat_vars, forcats::as_factor) %>%
   purrr::modify_at(cat_vars, forcats::fct_relabel, capwords, strict = TRUE) %>%
   mutate(ageq = cut(x = age, breaks = unique(qrts), include.lowest = TRUE),
-           ageq =  forcats::fct_relabel(ageq, convert_agegrp),
+           ageq =  forcats::fct_relabel(ageq, convert_agegrp), 
            agequint = cut(x = age, breaks = unique(quintiles), include.lowest = TRUE),
            agequint = forcats::fct_relabel(agequint, convert_agegrp),
            year_f = droplevels(factor(year)),
