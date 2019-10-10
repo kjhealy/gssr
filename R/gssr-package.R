@@ -62,5 +62,5 @@ gss_get_props <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
     dplyr::select(id, properties) %>%
     tidyr::unnest_legacy(properties) %>%
-    dplyr::select(-one_of("id1"))
+    dplyr::select(-tidyselect::one_of("id1"))
 }
