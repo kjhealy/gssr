@@ -33,12 +33,12 @@ NULL
 ##' @export
 gss_get_marginals <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
-    select(id, marginals) %>%
-    mutate_if(is.list, purrr::simplify_all) %>%
+    dplyr::select(id, marginals) %>%
+    dplyr::mutate_if(is.list, purrr::simplify_all) %>%
     tidyr::unnest_legacy() %>%
-    mutate(n = stringr::str_remove_all(n, ","),
+    dplyr::mutate(n = stringr::str_remove_all(n, ","),
            n = as.integer(n)) %>%
-    select(-one_of("id1"))
+    dplyr::select(-dplyr::one_of("id1"))
 }
 
 ##' Property information for a GSS variable or variables
@@ -60,7 +60,7 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 ##' @export
 gss_get_props <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
-    select(id, properties) %>%
+    dplyr::select(id, properties) %>%
     tidyr::unnest_legacy(properties) %>%
-    select(-one_of("id1"))
+    dplyr::select(-one_of("id1"))
 }
