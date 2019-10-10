@@ -14,7 +14,8 @@ Imports:
     magrittr,
     purrr,
     rlang,
-    tibble
+    tibble,
+    tidyselect
 Suggests: 
     forcats,
     ggplot2,

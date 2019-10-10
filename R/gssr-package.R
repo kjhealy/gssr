@@ -38,7 +38,7 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
     tidyr::unnest_legacy() %>%
     dplyr::mutate(n = stringr::str_remove_all(n, ","),
            n = as.integer(n)) %>%
-    dplyr::select(-dplyr::one_of("id1"))
+    dplyr::select(-tidyselect::one_of("id1"))
 }
 
 ##' Property information for a GSS variable or variables
