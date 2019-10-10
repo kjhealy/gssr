@@ -17,7 +17,7 @@ NULL
 ##' @title gss_get_marginals
 ##' @param varnames The (categorical) variable or variables you want
 ##'     to see marginals for. Can be a character string or a character
-##'     vector. 
+##'     vector.
 ##' @param data The codebook data frame, by default \code{gss_doc}
 ##' @return A tibble of marginal distributions from the GSS codebook
 ##' @author Kieran Healy
@@ -30,7 +30,7 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
     select(id, marginals) %>%
     mutate_if(is.list, purrr::simplify_all) %>%
-    unnest_legacy() %>%
+    tidyr::unnest_legacy() %>%
     mutate(n = stringr::str_remove_all(n, ","),
            n = as.integer(n)) %>%
     select(-one_of("id1"))
@@ -40,11 +40,11 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 ##'
 ##' Returns the properties of a GSS variable as given in the codebook,
 ##'     typically the Data Type, Missing Data Codes, and Record/Column
-##'     location. 
+##'     location.
 ##' @title gss_get_props
 ##' @param varnames The variable or variables you want
 ##'     to see properties for. Can be a character string or a character
-##'     vector. 
+##'     vector.
 ##' @param data The codebook data frame, by default \code{gss_doc}
 ##' @return A tibble of the properies for each variable
 ##' @author Kieran Healy
@@ -56,6 +56,6 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 gss_get_props <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
     select(id, properties) %>%
-    unnest_legacy(properties) %>%
+    tidyr::unnest_legacy(properties) %>%
     select(-one_of("id1"))
 }

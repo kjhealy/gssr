@@ -18,6 +18,7 @@ Suggests:
     haven,
     purrr,
     scales,
+    stringr,
     survey,
     srvyr,
     tidyr,
