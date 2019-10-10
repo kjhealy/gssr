@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>gss_get_marginals — gss_get_marginals • gssr</title>
+<title>Get marginal summaries for a GSS variable or variables — gss_get_marginals • gssr</title>
 
 
 <!-- jquery -->
@@ -35,7 +35,7 @@
 
 
 
-<meta property="og:title" content="gss_get_marginals — gss_get_marginals" />
+<meta property="og:title" content="Get marginal summaries for a GSS variable or variables — gss_get_marginals" />
 <meta property="og:description" content="Get marginal summaries for a GSS variable or variables" />
 <meta name="twitter:card" content="summary" />
 
@@ -120,7 +120,7 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>gss_get_marginals</h1>
+    <h1>Get marginal summaries for a GSS variable or variables</h1>
     <small class="dont-index">Source: <a href='https://github.com/kjhealy/gssr/blob/master/R/gssr-package.R'><code>R/gssr-package.R</code></a></small>
     <div class="hidden name"><code>gss_get_marginals.Rd</code></div>
     </div>
@@ -161,7 +161,8 @@ vector.</p></td>
 #&gt; 1 race     80.3 52033 1     WHITE
 #&gt; 2 race     14.2  9187 2     BLACK
 #&gt; 3 race      5.5  3594 3     OTHER
-#&gt; 4 race    100   64814 &lt;NA&gt;  Total</div><div class='input'><span class='fu'>gss_get_marginals</span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"race"</span>, <span class='st'>"gender"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; # A tibble: 12 x 5
+#&gt; 4 race    100   64814 &lt;NA&gt;  Total</div><div class='input'>
+<span class='fu'>gss_get_marginals</span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"race"</span>, <span class='st'>"gender"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; # A tibble: 12 x 5
 #&gt;    id    percent     n value label            
 #&gt;    &lt;chr&gt;   &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;            
 #&gt;  1 race     80.3 52033 1     WHITE            

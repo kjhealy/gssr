@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>gss_get_props — gss_get_props • gssr</title>
+<title>Property information for a GSS variable or variables — gss_get_props • gssr</title>
 
 
 <!-- jquery -->
@@ -35,7 +35,7 @@
 
 
 
-<meta property="og:title" content="gss_get_props — gss_get_props" />
+<meta property="og:title" content="Property information for a GSS variable or variables — gss_get_props" />
 <meta property="og:description" content="Property information for a GSS variable or variables" />
 <meta name="twitter:card" content="summary" />
 
@@ -120,7 +120,7 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>gss_get_props</h1>
+    <h1>Property information for a GSS variable or variables</h1>
     <small class="dont-index">Source: <a href='https://github.com/kjhealy/gssr/blob/master/R/gssr-package.R'><code>R/gssr-package.R</code></a></small>
     <div class="hidden name"><code>gss_get_props.Rd</code></div>
     </div>
@@ -162,7 +162,8 @@ vector.</p></td>
 #&gt;   &lt;chr&gt; &lt;chr&gt;              &lt;chr&gt;    
 #&gt; 1 age   Data type          numeric  
 #&gt; 2 age   Missing-data codes 0,98,99  
-#&gt; 3 age   Record/columns     1/233-234</div><div class='input'><span class='fu'>gss_get_props</span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"age"</span>, <span class='st'>"race"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; # A tibble: 9 x 3
+#&gt; 3 age   Record/columns     1/233-234</div><div class='input'>
+<span class='fu'>gss_get_props</span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"age"</span>, <span class='st'>"race"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; # A tibble: 9 x 3
 #&gt;   id    property           value    
 #&gt;   &lt;chr&gt; &lt;chr&gt;              &lt;chr&gt;    
 #&gt; 1 age   Data type          numeric  
