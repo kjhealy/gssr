@@ -26,9 +26,9 @@ Returns the properties of a GSS variable as given in the codebook,
 }
 \examples{
 data(gss_doc)
-gss_get_props("age")
+gss_get_props(varnames = "age")
 
-gss_get_props(c("age", "race", "fefam"))
+gss_get_props(varnames = c("age", "race", "fefam"))
 }
 \author{
 Kieran Healy

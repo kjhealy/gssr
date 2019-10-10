@@ -108,7 +108,7 @@ Alternatively, use the function `gss_get_marginals()` to see a tibble for one or
 
 ```{r docfun}
 
-gss_get_marginals(c("sex", "race", "fefam"))
+gss_get_marginals(varnames = c("sex", "race", "fefam"))
 
 ```
 
@@ -116,7 +116,7 @@ A similar function lets you peek at the codebook's properties for any variable:
 
 ```{r docfun2}
 
-gss_get_props(c("sex", "race", "fefam"))
+gss_get_props(varnames = c("sex", "race", "fefam"))
 
 ```
 
@@ -322,7 +322,7 @@ gss_panel_doc
 Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes `_1`, `_2`, and `_3`, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`.
 
 ```{r paneldocfun}
-gss_get_marginals(c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
+gss_get_marginals(varnames = c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
 ```
 
 ## References

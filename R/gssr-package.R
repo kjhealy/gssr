@@ -28,9 +28,9 @@ NULL
 ##' @author Kieran Healy
 ##' @examples
 ##' data(gss_doc)
-##' gss_get_marginals("race")
+##' gss_get_marginals(varnames = "race")
 ##'
-##' gss_get_marginals(c("race", "gender", "fefam"))
+##' gss_get_marginals(varnames = c("race", "gender", "fefam"))
 ##' @export
 gss_get_marginals <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
@@ -56,9 +56,9 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 ##' @author Kieran Healy
 ##' @examples
 ##' data(gss_doc)
-##' gss_get_props("age")
+##' gss_get_props(varnames = "age")
 ##'
-##' gss_get_props(c("age", "race", "fefam"))
+##' gss_get_props(varnames = c("age", "race", "fefam"))
 ##' @export
 gss_get_props <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%

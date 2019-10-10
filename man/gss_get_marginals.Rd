@@ -24,9 +24,9 @@ Codebook summaries from the \code{gss_doc} object
 }
 \examples{
 data(gss_doc)
-gss_get_marginals("race")
+gss_get_marginals(varnames = "race")
 
-gss_get_marginals(c("race", "gender", "fefam"))
+gss_get_marginals(varnames = c("race", "gender", "fefam"))
 }
 \author{
 Kieran Healy
