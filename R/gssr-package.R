@@ -1,6 +1,11 @@
 #' @importFrom tibble tibble
 NULL
 
+#' @importFrom magrittr %>%
+#' @export
+magrittr::`%>%`
+
+
 #' @keywords internal
 "_PACKAGE"
 
