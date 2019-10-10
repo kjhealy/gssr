@@ -29,7 +29,7 @@ NULL
 gss_get_marginals <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
     select(id, marginals) %>%
-    mutate_if(is.list, simplify_all) %>%
+    mutate_if(is.list, purrr::simplify_all) %>%
     unnest_legacy() %>%
     mutate(n = stringr::str_remove_all(n, ","),
            n = as.integer(n)) %>%
