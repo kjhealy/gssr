@@ -11,7 +11,9 @@ reference:
       Included datasets.
     contents:
       - gss_all
-      - gss_doc
+      - gss_doc      
+      - gss_panel_doc
+      - gss_panel_long
       - gss_sub
   - title: "Functions"
     desc: Package functions.
