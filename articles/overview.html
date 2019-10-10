@@ -92,13 +92,14 @@
 
     
     
-<div id="setup" class="section level2">
+<div id="introduction" class="section level2">
 <h2 class="hasAnchor">
-<a href="#setup" class="anchor"></a>Setup</h2>
+<a href="#introduction" class="anchor"></a>Introduction</h2>
+<p>The gssr package provides the <a href="http://gss.norc.org">General Social Survey</a> Cumulative Data File and Three Wave Panel data (and their codebooks) in a format that makes it straightforward to get started working with them in R. The GSS is one of the cornerstones of American social science and one of the most-analyzed datasets in Sociology. It is also a model of open, public data. The <a href="http://norc.org">National Opinion Research Center</a> already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the <a href="https://gssdataexplorer.norc.org">GSS Data Explorer</a>, and social scientists can <a href="http://gss.norc.org/Get-The-Data">download complete datasets</a> directly and without restriction. At present, the GSS is provided to researchers in a choice of two commercial formats, Stata (<code>.dta</code>) and SPSS (<code>.sav</code>). The <code>gssr</code> package helps make the GSS a little more accessible to users of R, the free software environment for statistical computing, and thus helps in a small way to make the GSS even more open than it already is.</p>
 <div id="packages" class="section level3">
 <h3 class="hasAnchor">
 <a href="#packages" class="anchor"></a>Packages</h3>
-<p>This article, along with the <code>gssr</code> package itself, makes use of some Tidyverse packages together with R tools designed for complex survey data.</p>
+<p>This article makes use of some additional packages beyond <code>gssr</code> itself. My assumption is that users of <code>gssr</code> will most likely use and analyze the data in conjunction with some combination of <a href="https://tidyverse.org">Tidyverse</a> tools and the <a href="http://r-survey.r-forge.r-project.org/survey/">survey</a>, <a href="https://github.com/gergness/srvyr">srvyr</a>, and <a href="http://panelr.jacob-long.com">panelr</a> packages.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(dplyr)</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2"><span class="co">#&gt; </span></a>
 <a class="sourceLine" id="cb1-3" data-line-number="3"><span class="co">#&gt; Attaching package: 'dplyr'</span></a>
@@ -149,17 +150,17 @@
 <a class="sourceLine" id="cb2-11" data-line-number="11"></a>
 <a class="sourceLine" id="cb2-12" data-line-number="12">my_colors &lt;-<span class="st"> </span><span class="cf">function</span> (<span class="dt">palette =</span> <span class="st">"cb"</span>) </a>
 <a class="sourceLine" id="cb2-13" data-line-number="13">{</a>
-<a class="sourceLine" id="cb2-14" data-line-number="14">    cb.palette &lt;-<span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"#000000"</span>, <span class="st">"#E69F00"</span>, <span class="st">"#56B4E9"</span>, <span class="st">"#009E73"</span>, </a>
+<a class="sourceLine" id="cb2-14" data-line-number="14">    cb_palette &lt;-<span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"#000000"</span>, <span class="st">"#E69F00"</span>, <span class="st">"#56B4E9"</span>, <span class="st">"#009E73"</span>, </a>
 <a class="sourceLine" id="cb2-15" data-line-number="15">        <span class="st">"#F0E442"</span>, <span class="st">"#0072B2"</span>, <span class="st">"#D55E00"</span>, <span class="st">"#CC79A7"</span>)</a>
-<a class="sourceLine" id="cb2-16" data-line-number="16">    rcb.palette &lt;-<span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/base/rev.html">rev</a></span>(cb.palette)</a>
-<a class="sourceLine" id="cb2-17" data-line-number="17">    bly.palette &lt;-<span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"#E69F00"</span>, <span class="st">"#0072B2"</span>, <span class="st">"#000000"</span>, <span class="st">"#56B4E9"</span>, </a>
+<a class="sourceLine" id="cb2-16" data-line-number="16">    rcb_palette &lt;-<span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/base/rev.html">rev</a></span>(cb_palette)</a>
+<a class="sourceLine" id="cb2-17" data-line-number="17">    bly_palette &lt;-<span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"#E69F00"</span>, <span class="st">"#0072B2"</span>, <span class="st">"#000000"</span>, <span class="st">"#56B4E9"</span>, </a>
 <a class="sourceLine" id="cb2-18" data-line-number="18">        <span class="st">"#009E73"</span>, <span class="st">"#F0E442"</span>, <span class="st">"#D55E00"</span>, <span class="st">"#CC79A7"</span>)</a>
 <a class="sourceLine" id="cb2-19" data-line-number="19">    <span class="cf">if</span> (palette <span class="op">==</span><span class="st"> "cb"</span>) </a>
-<a class="sourceLine" id="cb2-20" data-line-number="20">        <span class="kw"><a href="https://rdrr.io/r/base/function.html">return</a></span>(cb.palette)</a>
+<a class="sourceLine" id="cb2-20" data-line-number="20">        <span class="kw"><a href="https://rdrr.io/r/base/function.html">return</a></span>(cb_palette)</a>
 <a class="sourceLine" id="cb2-21" data-line-number="21">    <span class="cf">else</span> <span class="cf">if</span> (palette <span class="op">==</span><span class="st"> "rcb"</span>) </a>
-<a class="sourceLine" id="cb2-22" data-line-number="22">        <span class="kw"><a href="https://rdrr.io/r/base/function.html">return</a></span>(rcb.palette)</a>
+<a class="sourceLine" id="cb2-22" data-line-number="22">        <span class="kw"><a href="https://rdrr.io/r/base/function.html">return</a></span>(rcb_palette)</a>
 <a class="sourceLine" id="cb2-23" data-line-number="23">    <span class="cf">else</span> <span class="cf">if</span> (palette <span class="op">==</span><span class="st"> "bly"</span>) </a>
-<a class="sourceLine" id="cb2-24" data-line-number="24">        <span class="kw"><a href="https://rdrr.io/r/base/function.html">return</a></span>(bly.palette)</a>
+<a class="sourceLine" id="cb2-24" data-line-number="24">        <span class="kw"><a href="https://rdrr.io/r/base/function.html">return</a></span>(bly_palette)</a>
 <a class="sourceLine" id="cb2-25" data-line-number="25">    <span class="cf">else</span> <span class="kw"><a href="https://rdrr.io/r/base/stop.html">stop</a></span>(<span class="st">"Choose cb, rcb, or bly only."</span>)</a>
 <a class="sourceLine" id="cb2-26" data-line-number="26">}</a>
 <a class="sourceLine" id="cb2-27" data-line-number="27"></a>
@@ -598,7 +599,7 @@
       <h2 class="hasAnchor">
 <a href="#tocnav" class="anchor"></a>Contents</h2>
       <ul class="nav nav-pills nav-stacked">
-<li><a href="#setup">Setup</a></li>
+<li><a href="#introduction">Introduction</a></li>
       <li><a href="#load-the-gssr-package-and-its-data">Load the gssr package and its data</a></li>
       <li><a href="#descriptive-analysis-of-the-data-an-example">Descriptive analysis of the data: an example</a></li>
       <li><a href="#subset-the-data">Subset the Data</a></li>
