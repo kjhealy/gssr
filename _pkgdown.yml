@@ -13,6 +13,12 @@ reference:
       - gss_all
       - gss_doc
       - gss_sub
+  - title: "Functions"
+    desc: Package functions.
+    contents:
+      - gss_get_marginals
+      - gss_get_props
+      
 navbar:
   right:
    - icon: fa-github

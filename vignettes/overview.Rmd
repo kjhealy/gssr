@@ -69,6 +69,27 @@ capwords <- function(x, strict = FALSE) {
 
 ```
 
+```{r}
+my_function <- function(data, arg) {
+  summarise(data, avg = mean({{ arg }}, na.rm = TRUE))
+}
+
+my_function(mtcars, cyl)
+my_function(mtcars, cyl * 10)
+
+fun2 <- function(mydf, mytitle, myxcol, myycol, minyval = 20){
+  myxcol_quosure <- rlang::enquo(myxcol)
+  myycol_quosure <- rlang::enquo(myycol)
+  dplyr::filter(mydf, !!myycol_quosure >= minyval) %>%
+  ggplot(aes(x=!!myxcol_quosure, y=!!myycol_quosure)) + 
+  geom_point(color = "darkblue") +
+  theme_hc() + xlab("") + ylab("") +
+  ggtitle(mytitle) + 
+  theme(plot.title = element_text(size = 14, hjust = 0.5)) +
+  geom_smooth(method = 'lm', formula = y~x, se = FALSE, 
+    linetype = "dotted", color = "darkgrey")
+}
+```
 
 ## Load the gssr package and its data
 
@@ -104,6 +125,30 @@ gss_doc %>% filter(id == "race") %>%
 gss_doc %>% filter(id == "sex") %>%
   select(marginals) %>% 
   tidyr::unnest(cols = c(marginals))
+```
+
+Alternatively, use the function `gss_get_marginals()` to see a tibble for one or more categorical variables:
+
+```{r docfun}
+
+gss_get_marginals(c("sex", "race", "fefam"))
+
+```
+
+A similar function lets you peek at the codebook's properties for any variable:
+
+```{r docfun2}
+
+gss_get_props(c("sex", "race", "fefam"))
+
+```
+
+The description and any additional codebook text can be extracted directly:
+
+```{r text}
+gss_doc %>%
+  filter(id == "fefam") %>%
+  select(description, text)
 ```
 
 
