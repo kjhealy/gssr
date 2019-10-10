@@ -155,14 +155,14 @@ vector.</p></td>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>gss_doc</span>)
-<span class='fu'>gss_get_marginals</span>(<span class='st'>"race"</span>)</div><div class='output co'>#&gt; # A tibble: 4 x 5
+<span class='fu'>gss_get_marginals</span>(<span class='kw'>varnames</span> <span class='kw'>=</span> <span class='st'>"race"</span>)</div><div class='output co'>#&gt; # A tibble: 4 x 5
 #&gt;   id    percent     n value label
 #&gt;   &lt;chr&gt;   &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;
 #&gt; 1 race     80.3 52033 1     WHITE
 #&gt; 2 race     14.2  9187 2     BLACK
 #&gt; 3 race      5.5  3594 3     OTHER
 #&gt; 4 race    100   64814 &lt;NA&gt;  Total</div><div class='input'>
-<span class='fu'>gss_get_marginals</span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"race"</span>, <span class='st'>"gender"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; # A tibble: 12 x 5
+<span class='fu'>gss_get_marginals</span>(<span class='kw'>varnames</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"race"</span>, <span class='st'>"gender"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; # A tibble: 12 x 5
 #&gt;    id    percent     n value label            
 #&gt;    &lt;chr&gt;   &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;            
 #&gt;  1 race     80.3 52033 1     WHITE            

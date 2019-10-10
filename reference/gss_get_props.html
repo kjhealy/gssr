@@ -157,13 +157,13 @@ vector.</p></td>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='no'>gss_doc</span>)
-<span class='fu'>gss_get_props</span>(<span class='st'>"age"</span>)</div><div class='output co'>#&gt; # A tibble: 3 x 3
+<span class='fu'>gss_get_props</span>(<span class='kw'>varnames</span> <span class='kw'>=</span> <span class='st'>"age"</span>)</div><div class='output co'>#&gt; # A tibble: 3 x 3
 #&gt;   id    property           value    
 #&gt;   &lt;chr&gt; &lt;chr&gt;              &lt;chr&gt;    
 #&gt; 1 age   Data type          numeric  
 #&gt; 2 age   Missing-data codes 0,98,99  
 #&gt; 3 age   Record/columns     1/233-234</div><div class='input'>
-<span class='fu'>gss_get_props</span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"age"</span>, <span class='st'>"race"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; # A tibble: 9 x 3
+<span class='fu'>gss_get_props</span>(<span class='kw'>varnames</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"age"</span>, <span class='st'>"race"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; # A tibble: 9 x 3
 #&gt;   id    property           value    
 #&gt;   &lt;chr&gt; &lt;chr&gt;              &lt;chr&gt;    
 #&gt; 1 age   Data type          numeric  
