@@ -9,7 +9,7 @@
 
 <!-- badges: end -->
 
-General Social Survey Cumulative Data (1972-2018) and three-wave panel data files for use in R. 
+The General Social Survey Cumulative Data (1972-2018) and Three Wave Panel Data files packaged for easy use in R. 
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
