@@ -2,7 +2,7 @@
 % Please edit documentation in R/gssr-package.R
 \name{gss_get_props}
 \alias{gss_get_props}
-\title{gss_get_props}
+\title{Property information for a GSS variable or variables}
 \usage{
 gss_get_props(varnames = "id", data = gss_doc)
 }
@@ -27,6 +27,7 @@ Returns the properties of a GSS variable as given in the codebook,
 \examples{
 data(gss_doc)
 gss_get_props("age")
+
 gss_get_props(c("age", "race", "fefam"))
 }
 \author{

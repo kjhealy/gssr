@@ -19,7 +19,7 @@ NULL
 ##' Get marginal summaries for a GSS variable or variables
 ##'
 ##' Codebook summaries from the \code{gss_doc} object
-##' @title gss_get_marginals
+##' @title Get marginal summaries for a GSS variable or variables
 ##' @param varnames The (categorical) variable or variables you want
 ##'     to see marginals for. Can be a character string or a character
 ##'     vector.
@@ -29,6 +29,7 @@ NULL
 ##' @examples
 ##' data(gss_doc)
 ##' gss_get_marginals("race")
+##' 
 ##' gss_get_marginals(c("race", "gender", "fefam"))
 ##' @export
 gss_get_marginals <- function(varnames = "id", data = gss_doc) {
@@ -46,7 +47,7 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 ##' Returns the properties of a GSS variable as given in the codebook,
 ##'     typically the Data Type, Missing Data Codes, and Record/Column
 ##'     location.
-##' @title gss_get_props
+##' @title Property information for a GSS variable or variables
 ##' @param varnames The variable or variables you want
 ##'     to see properties for. Can be a character string or a character
 ##'     vector.
@@ -56,6 +57,7 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 ##' @examples
 ##' data(gss_doc)
 ##' gss_get_props("age")
+##' 
 ##' gss_get_props(c("age", "race", "fefam"))
 ##' @export
 gss_get_props <- function(varnames = "id", data = gss_doc) {

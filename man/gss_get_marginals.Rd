@@ -2,7 +2,7 @@
 % Please edit documentation in R/gssr-package.R
 \name{gss_get_marginals}
 \alias{gss_get_marginals}
-\title{gss_get_marginals}
+\title{Get marginal summaries for a GSS variable or variables}
 \usage{
 gss_get_marginals(varnames = "id", data = gss_doc)
 }
@@ -25,6 +25,7 @@ Codebook summaries from the \code{gss_doc} object
 \examples{
 data(gss_doc)
 gss_get_marginals("race")
+
 gss_get_marginals(c("race", "gender", "fefam"))
 }
 \author{

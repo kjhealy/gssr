@@ -69,28 +69,6 @@ capwords <- function(x, strict = FALSE) {
 
 ```
 
-```{r}
-my_function <- function(data, arg) {
-  summarise(data, avg = mean({{ arg }}, na.rm = TRUE))
-}
-
-my_function(mtcars, cyl)
-my_function(mtcars, cyl * 10)
-
-fun2 <- function(mydf, mytitle, myxcol, myycol, minyval = 20){
-  myxcol_quosure <- rlang::enquo(myxcol)
-  myycol_quosure <- rlang::enquo(myycol)
-  dplyr::filter(mydf, !!myycol_quosure >= minyval) %>%
-  ggplot(aes(x=!!myxcol_quosure, y=!!myycol_quosure)) + 
-  geom_point(color = "darkblue") +
-  theme_hc() + xlab("") + ylab("") +
-  ggtitle(mytitle) + 
-  theme(plot.title = element_text(size = 14, hjust = 0.5)) +
-  geom_smooth(method = 'lm', formula = y~x, se = FALSE, 
-    linetype = "dotted", color = "darkgrey")
-}
-```
-
 ## Load the gssr package and its data
 
 ```{r setup}
