@@ -48,17 +48,17 @@ convert_agegrp <- function(x){
 
 my_colors <- function (palette = "cb") 
 {
-    cb.palette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", 
+    cb_palette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", 
         "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-    rcb.palette <- rev(cb.palette)
-    bly.palette <- c("#E69F00", "#0072B2", "#000000", "#56B4E9", 
+    rcb_palette <- rev(cb_palette)
+    bly_palette <- c("#E69F00", "#0072B2", "#000000", "#56B4E9", 
         "#009E73", "#F0E442", "#D55E00", "#CC79A7")
     if (palette == "cb") 
-        return(cb.palette)
+        return(cb_palette)
     else if (palette == "rcb") 
-        return(rcb.palette)
+        return(rcb_palette)
     else if (palette == "bly") 
-        return(bly.palette)
+        return(bly_palette)
     else stop("Choose cb, rcb, or bly only.")
 }
 
