@@ -100,6 +100,21 @@ gss_doc %>% filter(id == "race") %>%
 
 ```
 
+There are convenience functions to do this as well, for one or more categorical variables. One for the marginals:
+
+```{r getfnex}
+gss_get_marginals(varnames = c("race", "sex"))
+```
+
+And one for the properties:
+
+```{r getfnex2}
+gss_get_props(varnames = c("race", "sex"))
+```
+
+
+```
+
 ## Panel Data
 
 The GSS Three Wave Panel dataset was collected in 2006, 2008, and 2010. These data are separate from the Cumulative Data File. The dataset is provided by the GSS in wide format but packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Load the panel data as follows:
@@ -127,7 +142,7 @@ gss_panel_doc
 Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes `_1`, `_2`, and `_3`, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`.
 
 ```{r paneldocfun}
-gss_get_marginals(c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
+gss_get_marginals(varnames = c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
 ```
 
 ## Further details

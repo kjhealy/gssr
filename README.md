@@ -155,6 +155,42 @@ gss_doc %>% filter(id == "race") %>%
 #> 3 Record/column     1/298   RACE
 ```
 
+There are convenience functions to do this as well, for one or more categorical variables. One for the marginals:
+
+
+```r
+gss_get_marginals(varnames = c("race", "sex"))
+#> # A tibble: 7 x 5
+#>   id    percent     n value label 
+#>   <chr>   <dbl> <int> <chr> <chr> 
+#> 1 sex      44.1 28614 1     MALE  
+#> 2 sex      55.9 36200 2     FEMALE
+#> 3 sex     100   64814 <NA>  Total 
+#> 4 race     80.3 52033 1     WHITE 
+#> 5 race     14.2  9187 2     BLACK 
+#> 6 race      5.5  3594 3     OTHER 
+#> 7 race    100   64814 <NA>  Total
+```
+
+And one for the properties:
+
+
+```r
+gss_get_props(varnames = c("race", "sex"))
+#> # A tibble: 6 x 3
+#>   id    property          value  
+#>   <chr> <chr>             <chr>  
+#> 1 sex   Data type         numeric
+#> 2 sex   Missing-data code 0      
+#> 3 sex   Record/column     1/297  
+#> 4 race  Data type         numeric
+#> 5 race  Missing-data code 0      
+#> 6 race  Record/column     1/298
+```
+
+
+```
+
 ## Panel Data
 
 The GSS Three Wave Panel dataset was collected in 2006, 2008, and 2010. These data are separate from the Cumulative Data File. The dataset is provided by the GSS in wide format but packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Load the panel data as follows:
@@ -257,7 +293,7 @@ Because it was created from the main GSS codebook, it is in wide format and the 
 
 
 ```r
-gss_get_marginals(c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
+gss_get_marginals(varnames = c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
 #> # A tibble: 11 x 5
 #>    id    percent     n value label           
 #>    <chr>   <dbl> <int> <chr> <chr>           
