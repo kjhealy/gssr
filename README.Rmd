@@ -24,6 +24,7 @@ get_badge <- function (pkg, type = c("last-month", "last-week", "grand-total"),
 }
 
 library(tidyverse)
+library(panelr)
 
 ```
 
@@ -34,7 +35,7 @@ library(tidyverse)
 
 <!-- badges: end -->
 
-A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R. 
+General Social Survey Cumulative Data (1972-2018) and three-wave panel data files for use in R. 
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
@@ -47,6 +48,8 @@ devtools::install_github("kjhealy/gssr")
 ```
 
 ## Loading the data
+
+### The Cumulative Data File
 
 The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don't use R's "lazy loading" facility.) To load the data, do the following:
 
@@ -95,6 +98,36 @@ gss_doc %>% filter(id == "race") %>%
     select(properties) %>%
     unnest(cols = c(properties))
 
+```
+
+## Panel Data
+
+The GSS Three Wave Panel dataset was collected in 2006, 2008, and 2010. These data are separate from the Cumulative Data File. The dataset is provided by the GSS in wide format but packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Load the panel data as follows:
+
+```{r panel}
+data(gss_panel_long)
+
+gss_panel_long
+```
+
+The data object is of class `panel_data`, a type of tibble created by `panelr`. The column names in long format do not have wave identifiers. Rather, `id` and a `wave` variables track the cases:
+
+```{r panel-fefam}
+gss_panel_long %>% select(fefam)
+```
+
+The documentation tibble for the panel data is called `gss_panel_doc`.
+
+```{r paneldoc}
+data(gss_panel_doc)
+
+gss_panel_doc
+```
+
+Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes `_1`, `_2`, and `_3`, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`.
+
+```{r paneldocfun}
+gss_get_marginals(c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
 ```
 
 ## Further details

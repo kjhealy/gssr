@@ -29,7 +29,7 @@ NULL
 ##' @examples
 ##' data(gss_doc)
 ##' gss_get_marginals("race")
-##' 
+##'
 ##' gss_get_marginals(c("race", "gender", "fefam"))
 ##' @export
 gss_get_marginals <- function(varnames = "id", data = gss_doc) {
@@ -57,7 +57,7 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 ##' @examples
 ##' data(gss_doc)
 ##' gss_get_props("age")
-##' 
+##'
 ##' gss_get_props(c("age", "race", "fefam"))
 ##' @export
 gss_get_props <- function(varnames = "id", data = gss_doc) {

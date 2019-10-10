@@ -15,7 +15,8 @@ National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org
 data(gss_all)
 }
 \description{
-A tibble containing the General Social Survey Cumulative Data file. Categorical variables are encoded as factors. See \href{http://gss.norc.org/Get-Documentation}{http://gss.norc.org/Get-Documentation} for full
+A tibble containing the General Social Survey Cumulative Data file.
+Variables are encoded as labelled vectors. See \href{http://gss.norc.org/Get-Documentation}{http://gss.norc.org/Get-Documentation} for full
 documentation of the variables, and the `gss_doc` tibble contained in this package.
 }
 \keyword{datasets}

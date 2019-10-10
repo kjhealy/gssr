@@ -9,7 +9,7 @@
 
 <!-- badges: end -->
 
-A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R. 
+General Social Survey Cumulative Data (1972-2018) and three-wave panel data files for use in R. 
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
@@ -23,12 +23,15 @@ devtools::install_github("kjhealy/gssr")
 
 ## Loading the data
 
+### The Cumulative Data File
+
 The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don't use R's "lazy loading" facility.) To load the data, do the following:
 
 
 ```r
 library(gssr)
-#> Package loaded. To attach the GSS data, type data(gss_all) at the console. For the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.
+#> Package loaded. To attach the GSS data, type data(gss_all) at the console.
+#> For the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.
 data(gss_all)
 ```
 
@@ -150,6 +153,125 @@ gss_doc %>% filter(id == "race") %>%
 #> 1 Data type         numeric RACE 
 #> 2 Missing-data code 0       RACE 
 #> 3 Record/column     1/298   RACE
+```
+
+## Panel Data
+
+The GSS Three Wave Panel dataset was collected in 2006, 2008, and 2010. These data are separate from the Cumulative Data File. The dataset is provided by the GSS in wide format but packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Load the panel data as follows:
+
+
+```r
+data(gss_panel_long)
+
+gss_panel_long
+#> # Panel data:    6,132 x 1,199
+#> # entities:      id [3596]
+#> # wave variable: wave [1, 2, 3 (3 waves)]
+#>    id     wave oversamp sampcode  sample    form formwt  vpsu vstrat
+#>    <fct> <dbl>    <dbl> <dbl+lb> <dbl+l> <dbl+l>  <dbl> <dbl> <dbl+>
+#>  1 1         1        1      501 9 [200… 2 [ALT…      1     1   2240
+#>  2 2         1        1      501 9 [200… 1 [STA…      1     1   2240
+#>  3 3         1        1      501 9 [200… 1 [STA…      1     2   2240
+#>  4 4         1        1      501 9 [200… 2 [ALT…      1     2   2240
+#>  5 5         1        1      501 9 [200… 1 [STA…      1     1   2241
+#>  6 6         1        1      501 9 [200… 1 [STA…      1     1   2241
+#>  7 7         1        1      501 9 [200… 2 [ALT…      1     1   2241
+#>  8 8         1        1      501 9 [200… 1 [STA…      1     1   2241
+#>  9 9         1        1      501 9 [200… 1 [STA…      1     2   2241
+#> 10 10        1        1      501 9 [200… 2 [ALT…      1     2   2241
+#> # … with 6,122 more rows, and 1,190 more variables: SAMPTYPE <dbl+lbl>,
+#> #   wtpan12 <dbl+lbl>, WTPAN123 <dbl+lbl>, wtpannr12 <dbl+lbl>,
+#> #   WTPANNR123 <dbl+lbl>, mar1 <dbl+lbl>, mar2 <dbl+lbl>, mar3 <dbl+lbl>,
+#> #   mar4 <dbl+lbl>, mar5 <dbl>, mar6 <dbl>, mar7 <dbl>, mar8 <dbl>,
+#> #   mar9 <dbl>, mar10 <dbl>, mar11 <dbl+lbl>, mar12 <dbl>, mar13 <dbl>,
+#> #   mar14 <dbl>, abany <dbl+lbl>, abdefect <dbl+lbl>, abhlth <dbl+lbl>,
+#> #   abnomore <dbl+lbl>, abpoor <dbl+lbl>, abrape <dbl+lbl>,
+#> #   absingle <dbl+lbl>, accntsci <dbl>, acqntsex <dbl>, ACTIVISM <dbl>,
+#> #   adults <dbl+lbl>, advfront <dbl+lbl>, affrmact <dbl+lbl>,
+#> #   age <dbl+lbl>, aged <dbl+lbl>, agekdbrn <dbl+lbl>, ALTMED <dbl>,
+#> #   ALTMEDPR <dbl>, ALTSAT <dbl>, ARCHITCT <dbl>, ARTATT <dbl>,
+#> #   ARTATT1 <dbl>, ARTATT2 <dbl>, ARTATT3 <dbl>, ARTATT4 <dbl>,
+#> #   ARTATT5 <dbl>, ARTCOST <dbl>, ARTEXBT <dbl>, ARTFREE <dbl>,
+#> #   ARTGST <dbl>, ARTINT <dbl>, ARTLOC <dbl>, ARTNOGO <dbl>,
+#> #   ARTNOGO1 <dbl>, ARTOTHR <dbl>, ARTTIME <dbl>, ARTTRVL <dbl>,
+#> #   ARTWHY1 <dbl>, ARTWHY2 <dbl>, ARTWHY3 <dbl>, ARTWHY4 <dbl>,
+#> #   ARTWHY5 <dbl>, ARTWHY6 <dbl>, ARTWHY7 <dbl>, ARTWHY8 <dbl>,
+#> #   astrolgy <dbl+lbl>, astrosci <dbl+lbl>, attend <dbl+lbl>, away1 <dbl>,
+#> #   away11 <dbl>, away2 <dbl>, away3 <dbl>, away4 <dbl>, away5 <dbl>,
+#> #   away6 <dbl>, away7 <dbl>, babies <dbl+lbl>, backpain <dbl>,
+#> #   ballot <dbl+lbl>, balneg <dbl>, balpos <dbl+lbl>, BBLFAV <dbl>,
+#> #   BBLFAV1 <dbl>, BBLSTRY <dbl>, betrlang <dbl>, BETTRLFE <dbl>,
+#> #   bible <dbl+lbl>, bigbang <dbl+lbl>, BIGBANG1 <dbl>, BIGBIZ <dbl>,
+#> #   biosci <dbl>, bizbstgw <dbl>, BIZBSTNK <dbl>, bizbsttx <dbl>,
+#> #   BIZHONST <dbl>, bizinfgw <dbl>, BIZINFNK <dbl>, bizinftx <dbl>,
+#> #   biznuke <dbl>, BIZPRICE <dbl>, blkwhite <dbl>, …
+```
+
+The data object is of class `panel_data`, a type of tibble created by `panelr`. The column names in long format do not have wave identifiers. Rather, `id` and a `wave` variables track the cases:
+
+
+```r
+gss_panel_long %>% select(fefam)
+#> # Panel data:    6,132 x 3
+#> # entities:      id [3596]
+#> # wave variable: wave [1, 2, 3 (3 waves)]
+#>    id     wave                  fefam
+#>    <fct> <dbl>              <dbl+lbl>
+#>  1 1         1 NA                    
+#>  2 2         1  4 [STRONGLY DISAGREE]
+#>  3 3         1  2 [AGREE]            
+#>  4 4         1  3 [DISAGREE]         
+#>  5 5         1 NA                    
+#>  6 6         1  2 [AGREE]            
+#>  7 7         1 NA                    
+#>  8 8         1  3 [DISAGREE]         
+#>  9 9         1 NA                    
+#> 10 10        1  4 [STRONGLY DISAGREE]
+#> # … with 6,122 more rows
+```
+
+The documentation tibble for the panel data is called `gss_panel_doc`.
+
+
+```r
+data(gss_panel_doc)
+
+gss_panel_doc
+#> # A tibble: 1,855 x 5
+#>    id     description                properties   marginals    text        
+#>    <chr>  <chr>                      <list>       <list>       <chr>       
+#>  1 CASEID CASE IDENTIFICATION NUMBE… <tibble [2 … <tibble [1 … None        
+#>  2 YEAR_1 year_1: GSS YEAR FOR THIS… <tibble [3 … <tibble [2 … None        
+#>  3 YEAR_2 year_2: GSS YEAR FOR THIS… <tibble [3 … <tibble [3 … None        
+#>  4 YEAR_3 year_3: GSS YEAR FOR THIS… <tibble [3 … <tibble [3 … None        
+#>  5 ID_1   id_1: RESPONDNT ID NUMBER  <tibble [3 … <tibble [1 … None        
+#>  6 ID_2   id_2: RESPONDNT ID NUMBER  <tibble [3 … <tibble [1 … None        
+#>  7 ID_3   id_3: RESPONDNT ID NUMBER  <tibble [3 … <tibble [1 … None        
+#>  8 AGE_1  age_1: AGE OF RESPONDENT   <tibble [3 … <tibble [1 … 13. Respond…
+#>  9 AGE_2  age_2: AGE OF RESPONDENT   <tibble [3 … <tibble [1 … 13. Respond…
+#> 10 AGE_3  age_3: AGE OF RESPONDENT   <tibble [3 … <tibble [1 … 13. Respond…
+#> # … with 1,845 more rows
+```
+
+Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes `_1`, `_2`, and `_3`, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`.
+
+
+```r
+gss_get_marginals(c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
+#> # A tibble: 11 x 5
+#>    id    percent     n value label           
+#>    <chr>   <dbl> <int> <chr> <chr>           
+#>  1 SEX_1    42.7   854 1     MALE            
+#>  2 SEX_1    57.3  1146 2     FEMALE          
+#>  3 SEX_1   100    2000 <NA>  Total           
+#>  4 SEX_2    41.7   640 1     MALE            
+#>  5 SEX_2    58.3   896 2     FEMALE          
+#>  6 SEX_2    NA     464 .     (Does not apply)
+#>  7 SEX_2   100    2000 ""    Total           
+#>  8 SEX_3    41.1   524 1     MALE            
+#>  9 SEX_3    58.9   752 2     FEMALE          
+#> 10 SEX_3    NA     724 .     (Does not apply)
+#> 11 SEX_3   100    2000 ""    Total
 ```
 
 ## Further details

@@ -23,6 +23,7 @@ This article, along with the `gssr` package itself, makes use of some Tidyverse 
 ```{r packages}
 library(dplyr)
 library(ggplot2)
+library(panelr)
 library(survey)
 library(srvyr)
 ```
@@ -75,7 +76,7 @@ capwords <- function(x, strict = FALSE) {
 library(gssr)
 ```
 
-As the startup message notes, the data objects are not automatically loaded. That is, we do not use R's "lazy loading" functionality. This is because the main GSS dataset is rather large. Instead we load it manually with `data()`. For the purposes of this vignette, because the full GSS object is big, we will use just a few columns of it stored in an object called `gss_sub`. We will also load the tibble that contains the codebook.
+We will begin with the Cumulative Data file (1972-2018). As the startup message notes, the data objects are not automatically loaded. That is, we do not use R's "lazy loading" functionality. This is because the main GSS dataset is rather large. Instead we load it manually with `data()`. For the purposes of this vignette, because the full Cumulative Data object is big, we will use just a few columns of it stored in an object called `gss_sub`. We will also load the tibble that contains the codebook.
 
 ```{r load}
 data(gss_sub)
@@ -289,6 +290,38 @@ out_ff %>%
        caption = "Kieran Healy http://socviz.co.\n
          Data source: General Social Survey") +
   theme(legend.position = "bottom")
+```
+
+## The GSS Three Wave Panel
+
+In addition to the Cumulative Data File, the gssr package also includes the GSS's panel data. The GSS Three Wave Panel dataset was collected in 2006, 2008, and 2010. The dataset is provided by the GSS in wide format but packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Conversion from long back to wide format is possible with the tools provided in `panelr`.
+
+Load the panel data as follows:
+
+```{r panel}
+data(gss_panel_long)
+
+gss_panel_long
+```
+
+The data object is of class `panel_data`, a type of tibble created by `panelr`. The column names in long format do not have wave identifiers. Rather,  `id` and `wave` variables track the cases:
+
+```{r panel-fefam}
+gss_panel_long %>% select(fefam)
+```
+
+The documentation tibble for the panel data is called `gss_panel_doc`.
+
+```{r paneldoc}
+data(gss_panel_doc)
+
+gss_panel_doc
+```
+
+Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes `_1`, `_2`, and `_3`, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`.
+
+```{r paneldocfun}
+gss_get_marginals(c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
 ```
 
 ## References

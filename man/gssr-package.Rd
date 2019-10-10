@@ -4,9 +4,9 @@
 \name{gssr-package}
 \alias{gssr}
 \alias{gssr-package}
-\title{gssr: US General Social Survey (GSS) Data 1972-2018}
+\title{gssr: US General Social Survey (GSS) Data for R}
 \description{
-The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data file packaged for R, together with a separate dataset containing codebook information on all the variables. For more information on the GSS see \url{http://gss.norc.org}.
+The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data and GSS Panel Data files packaged for R, together with separate datasets containing codebook information on the variables. For more information on the GSS see \url{http://gss.norc.org}.
 }
 \seealso{
 Useful links:
