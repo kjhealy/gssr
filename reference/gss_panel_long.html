@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>General Social Survey Survey Cumulative Data File 1972-2018 — gss_all • gssr</title>
+<title>General Social Survey Survey Three Wave Panel Data — gss_panel_long • gssr</title>
 
 
 <!-- jquery -->
@@ -35,9 +35,9 @@
 
 
 
-<meta property="og:title" content="General Social Survey Survey Cumulative Data File 1972-2018 — gss_all" />
-<meta property="og:description" content="A tibble containing the General Social Survey Cumulative Data file.
-Variables are encoded as labelled vectors. See http://gss.norc.org/Get-Documentation for full
+<meta property="og:title" content="General Social Survey Survey Three Wave Panel Data — gss_panel_long" />
+<meta property="og:description" content="A tibble containing the General Social Survey Thee Wave Panel Data
+File, in long format. Variables are encoded as labelled vectors. See http://gss.norc.org/Get-Documentation for full
 documentation of the variables, and the `gss_doc` tibble contained in this package." />
 <meta name="twitter:card" content="summary" />
 
@@ -122,14 +122,14 @@ documentation of the variables, and the `gss_doc` tibble contained in this packa
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>General Social Survey Survey Cumulative Data File 1972-2018</h1>
+    <h1>General Social Survey Survey Three Wave Panel Data</h1>
     <small class="dont-index">Source: <a href='https://github.com/kjhealy/gssr/blob/master/R/data.R'><code>R/data.R</code></a></small>
-    <div class="hidden name"><code>gss_all.Rd</code></div>
+    <div class="hidden name"><code>gss_panel_long.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>A tibble containing the General Social Survey Cumulative Data file.
-Variables are encoded as labelled vectors. See <a href='http://gss.norc.org/Get-Documentation'>http://gss.norc.org/Get-Documentation</a> for full
+    <p>A tibble containing the General Social Survey Thee Wave Panel Data
+File, in long format. Variables are encoded as labelled vectors. See <a href='http://gss.norc.org/Get-Documentation'>http://gss.norc.org/Get-Documentation</a> for full
 documentation of the variables, and the `gss_doc` tibble contained in this package.</p>
     </div>
 
@@ -138,7 +138,8 @@ documentation of the variables, and the `gss_doc` tibble contained in this packa
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>tibble</code> with 64,814 rows and 6,108 columns.</p><dl class='dl-horizontal'>
+    <p>An object of class <code>panel_data</code> (a tibble produced by
+    the <code>panelr</code> package) with 6,132 rows and 1,199 columns.</p><dl class='dl-horizontal'>
 The GSS Codebook is the authoritative source for the variables in
 
 </dl>

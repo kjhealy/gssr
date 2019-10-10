@@ -5,13 +5,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>US General Social Survey (GSS) Data 1972-2018 • gssr</title>
+<title>US General Social Survey (GSS) Data for R • gssr</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><!-- Bootstrap --><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css" integrity="sha256-nAmazAk6vS34Xqo0BSrTb+abbtFlgsFK7NKSi6o7Y78=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/v4-shims.min.css" integrity="sha256-6qHlizsOWFskGlwVOKuns+D1nB6ssZrHQrNj1wGplHc=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js" integrity="sha256-DJFC1kqIhelURkuza0AvYal5RxMtpzLjFhsnVIeuk+U=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="US General Social Survey (GSS) Data 1972-2018">
-<meta property="og:description" content="The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data file packaged for R, together with a separate dataset containing codebook information on all the variables. For more information on the GSS see \url{http://gss.norc.org}.">
+<script src="pkgdown.js"></script><meta property="og:title" content="US General Social Survey (GSS) Data for R">
+<meta property="og:description" content="The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data and GSS Panel Data files packaged for R, together with separate datasets containing codebook information on the variables. For more information on the GSS see \url{http://gss.norc.org}.">
 <meta name="twitter:card" content="summary">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -88,7 +88,7 @@
 <!-- badges: start -->
 
 <!-- badges: end -->
-<p>A package wrapping the General Social Survey 1972-2019 cumulative data file for use in R.</p>
+<p>General Social Survey Cumulative Data (1972-2018) and three-wave panel data files for use in R.</p>
 <p><img src="reference/figures/fefam_svy.png" width="95%"></p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
@@ -99,10 +99,14 @@
 <div id="loading-the-data" class="section level2">
 <h2 class="hasAnchor">
 <a href="#loading-the-data" class="anchor"></a>Loading the data</h2>
+<div id="the-cumulative-data-file" class="section level3">
+<h3 class="hasAnchor">
+<a href="#the-cumulative-data-file" class="anchor"></a>The Cumulative Data File</h3>
 <p>The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don’t use R’s “lazy loading” facility.) To load the data, do the following:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(gssr)</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console. For the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.</span></a>
-<a class="sourceLine" id="cb2-3" data-line-number="3"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_all)</a></code></pre></div>
+<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console.</span></a>
+<a class="sourceLine" id="cb2-3" data-line-number="3"><span class="co">#&gt; For the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.</span></a>
+<a class="sourceLine" id="cb2-4" data-line-number="4"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_all)</a></code></pre></div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"></a>
 <a class="sourceLine" id="cb3-2" data-line-number="2">gss_all</a>
 <a class="sourceLine" id="cb3-3" data-line-number="3"><span class="co">#&gt; # A tibble: 64,814 x 6,108</span></a>
@@ -199,6 +203,108 @@
 <a class="sourceLine" id="cb7-8" data-line-number="8"><span class="co">#&gt; 1 Data type         numeric RACE </span></a>
 <a class="sourceLine" id="cb7-9" data-line-number="9"><span class="co">#&gt; 2 Missing-data code 0       RACE </span></a>
 <a class="sourceLine" id="cb7-10" data-line-number="10"><span class="co">#&gt; 3 Record/column     1/298   RACE</span></a></code></pre></div>
+</div>
+</div>
+<div id="panel-data" class="section level2">
+<h2 class="hasAnchor">
+<a href="#panel-data" class="anchor"></a>Panel Data</h2>
+<p>The GSS Three Wave Panel dataset was collected in 2006, 2008, and 2010. These data are separate from the Cumulative Data File. The dataset is provided by the GSS in wide format but packaged here in long format. The conversion was carried out using the <a href="https://panelr.jacob-long.com"><code>panelr</code> package</a> and its <code>long_panel()</code> function. Load the panel data as follows:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_panel_long)</a>
+<a class="sourceLine" id="cb8-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb8-3" data-line-number="3">gss_panel_long</a>
+<a class="sourceLine" id="cb8-4" data-line-number="4"><span class="co">#&gt; # Panel data:    6,132 x 1,199</span></a>
+<a class="sourceLine" id="cb8-5" data-line-number="5"><span class="co">#&gt; # entities:      id [3596]</span></a>
+<a class="sourceLine" id="cb8-6" data-line-number="6"><span class="co">#&gt; # wave variable: wave [1, 2, 3 (3 waves)]</span></a>
+<a class="sourceLine" id="cb8-7" data-line-number="7"><span class="co">#&gt;    id     wave oversamp sampcode  sample    form formwt  vpsu vstrat</span></a>
+<a class="sourceLine" id="cb8-8" data-line-number="8"><span class="co">#&gt;    &lt;fct&gt; &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl+&gt;</span></a>
+<a class="sourceLine" id="cb8-9" data-line-number="9"><span class="co">#&gt;  1 1         1        1      501 9 [200… 2 [ALT…      1     1   2240</span></a>
+<a class="sourceLine" id="cb8-10" data-line-number="10"><span class="co">#&gt;  2 2         1        1      501 9 [200… 1 [STA…      1     1   2240</span></a>
+<a class="sourceLine" id="cb8-11" data-line-number="11"><span class="co">#&gt;  3 3         1        1      501 9 [200… 1 [STA…      1     2   2240</span></a>
+<a class="sourceLine" id="cb8-12" data-line-number="12"><span class="co">#&gt;  4 4         1        1      501 9 [200… 2 [ALT…      1     2   2240</span></a>
+<a class="sourceLine" id="cb8-13" data-line-number="13"><span class="co">#&gt;  5 5         1        1      501 9 [200… 1 [STA…      1     1   2241</span></a>
+<a class="sourceLine" id="cb8-14" data-line-number="14"><span class="co">#&gt;  6 6         1        1      501 9 [200… 1 [STA…      1     1   2241</span></a>
+<a class="sourceLine" id="cb8-15" data-line-number="15"><span class="co">#&gt;  7 7         1        1      501 9 [200… 2 [ALT…      1     1   2241</span></a>
+<a class="sourceLine" id="cb8-16" data-line-number="16"><span class="co">#&gt;  8 8         1        1      501 9 [200… 1 [STA…      1     1   2241</span></a>
+<a class="sourceLine" id="cb8-17" data-line-number="17"><span class="co">#&gt;  9 9         1        1      501 9 [200… 1 [STA…      1     2   2241</span></a>
+<a class="sourceLine" id="cb8-18" data-line-number="18"><span class="co">#&gt; 10 10        1        1      501 9 [200… 2 [ALT…      1     2   2241</span></a>
+<a class="sourceLine" id="cb8-19" data-line-number="19"><span class="co">#&gt; # … with 6,122 more rows, and 1,190 more variables: SAMPTYPE &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-20" data-line-number="20"><span class="co">#&gt; #   wtpan12 &lt;dbl+lbl&gt;, WTPAN123 &lt;dbl+lbl&gt;, wtpannr12 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-21" data-line-number="21"><span class="co">#&gt; #   WTPANNR123 &lt;dbl+lbl&gt;, mar1 &lt;dbl+lbl&gt;, mar2 &lt;dbl+lbl&gt;, mar3 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-22" data-line-number="22"><span class="co">#&gt; #   mar4 &lt;dbl+lbl&gt;, mar5 &lt;dbl&gt;, mar6 &lt;dbl&gt;, mar7 &lt;dbl&gt;, mar8 &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-23" data-line-number="23"><span class="co">#&gt; #   mar9 &lt;dbl&gt;, mar10 &lt;dbl&gt;, mar11 &lt;dbl+lbl&gt;, mar12 &lt;dbl&gt;, mar13 &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-24" data-line-number="24"><span class="co">#&gt; #   mar14 &lt;dbl&gt;, abany &lt;dbl+lbl&gt;, abdefect &lt;dbl+lbl&gt;, abhlth &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-25" data-line-number="25"><span class="co">#&gt; #   abnomore &lt;dbl+lbl&gt;, abpoor &lt;dbl+lbl&gt;, abrape &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-26" data-line-number="26"><span class="co">#&gt; #   absingle &lt;dbl+lbl&gt;, accntsci &lt;dbl&gt;, acqntsex &lt;dbl&gt;, ACTIVISM &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-27" data-line-number="27"><span class="co">#&gt; #   adults &lt;dbl+lbl&gt;, advfront &lt;dbl+lbl&gt;, affrmact &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-28" data-line-number="28"><span class="co">#&gt; #   age &lt;dbl+lbl&gt;, aged &lt;dbl+lbl&gt;, agekdbrn &lt;dbl+lbl&gt;, ALTMED &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-29" data-line-number="29"><span class="co">#&gt; #   ALTMEDPR &lt;dbl&gt;, ALTSAT &lt;dbl&gt;, ARCHITCT &lt;dbl&gt;, ARTATT &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-30" data-line-number="30"><span class="co">#&gt; #   ARTATT1 &lt;dbl&gt;, ARTATT2 &lt;dbl&gt;, ARTATT3 &lt;dbl&gt;, ARTATT4 &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-31" data-line-number="31"><span class="co">#&gt; #   ARTATT5 &lt;dbl&gt;, ARTCOST &lt;dbl&gt;, ARTEXBT &lt;dbl&gt;, ARTFREE &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-32" data-line-number="32"><span class="co">#&gt; #   ARTGST &lt;dbl&gt;, ARTINT &lt;dbl&gt;, ARTLOC &lt;dbl&gt;, ARTNOGO &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-33" data-line-number="33"><span class="co">#&gt; #   ARTNOGO1 &lt;dbl&gt;, ARTOTHR &lt;dbl&gt;, ARTTIME &lt;dbl&gt;, ARTTRVL &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-34" data-line-number="34"><span class="co">#&gt; #   ARTWHY1 &lt;dbl&gt;, ARTWHY2 &lt;dbl&gt;, ARTWHY3 &lt;dbl&gt;, ARTWHY4 &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-35" data-line-number="35"><span class="co">#&gt; #   ARTWHY5 &lt;dbl&gt;, ARTWHY6 &lt;dbl&gt;, ARTWHY7 &lt;dbl&gt;, ARTWHY8 &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-36" data-line-number="36"><span class="co">#&gt; #   astrolgy &lt;dbl+lbl&gt;, astrosci &lt;dbl+lbl&gt;, attend &lt;dbl+lbl&gt;, away1 &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-37" data-line-number="37"><span class="co">#&gt; #   away11 &lt;dbl&gt;, away2 &lt;dbl&gt;, away3 &lt;dbl&gt;, away4 &lt;dbl&gt;, away5 &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-38" data-line-number="38"><span class="co">#&gt; #   away6 &lt;dbl&gt;, away7 &lt;dbl&gt;, babies &lt;dbl+lbl&gt;, backpain &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-39" data-line-number="39"><span class="co">#&gt; #   ballot &lt;dbl+lbl&gt;, balneg &lt;dbl&gt;, balpos &lt;dbl+lbl&gt;, BBLFAV &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-40" data-line-number="40"><span class="co">#&gt; #   BBLFAV1 &lt;dbl&gt;, BBLSTRY &lt;dbl&gt;, betrlang &lt;dbl&gt;, BETTRLFE &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-41" data-line-number="41"><span class="co">#&gt; #   bible &lt;dbl+lbl&gt;, bigbang &lt;dbl+lbl&gt;, BIGBANG1 &lt;dbl&gt;, BIGBIZ &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-42" data-line-number="42"><span class="co">#&gt; #   biosci &lt;dbl&gt;, bizbstgw &lt;dbl&gt;, BIZBSTNK &lt;dbl&gt;, bizbsttx &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-43" data-line-number="43"><span class="co">#&gt; #   BIZHONST &lt;dbl&gt;, bizinfgw &lt;dbl&gt;, BIZINFNK &lt;dbl&gt;, bizinftx &lt;dbl&gt;,</span></a>
+<a class="sourceLine" id="cb8-44" data-line-number="44"><span class="co">#&gt; #   biznuke &lt;dbl&gt;, BIZPRICE &lt;dbl&gt;, blkwhite &lt;dbl&gt;, …</span></a></code></pre></div>
+<p>The data object is of class <code>panel_data</code>, a type of tibble created by <code>panelr</code>. The column names in long format do not have wave identifiers. Rather, <code>id</code> and a <code>wave</code> variables track the cases:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1">gss_panel_long <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(fefam)</a>
+<a class="sourceLine" id="cb9-2" data-line-number="2"><span class="co">#&gt; # Panel data:    6,132 x 3</span></a>
+<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="co">#&gt; # entities:      id [3596]</span></a>
+<a class="sourceLine" id="cb9-4" data-line-number="4"><span class="co">#&gt; # wave variable: wave [1, 2, 3 (3 waves)]</span></a>
+<a class="sourceLine" id="cb9-5" data-line-number="5"><span class="co">#&gt;    id     wave                  fefam</span></a>
+<a class="sourceLine" id="cb9-6" data-line-number="6"><span class="co">#&gt;    &lt;fct&gt; &lt;dbl&gt;              &lt;dbl+lbl&gt;</span></a>
+<a class="sourceLine" id="cb9-7" data-line-number="7"><span class="co">#&gt;  1 1         1 NA                    </span></a>
+<a class="sourceLine" id="cb9-8" data-line-number="8"><span class="co">#&gt;  2 2         1  4 [STRONGLY DISAGREE]</span></a>
+<a class="sourceLine" id="cb9-9" data-line-number="9"><span class="co">#&gt;  3 3         1  2 [AGREE]            </span></a>
+<a class="sourceLine" id="cb9-10" data-line-number="10"><span class="co">#&gt;  4 4         1  3 [DISAGREE]         </span></a>
+<a class="sourceLine" id="cb9-11" data-line-number="11"><span class="co">#&gt;  5 5         1 NA                    </span></a>
+<a class="sourceLine" id="cb9-12" data-line-number="12"><span class="co">#&gt;  6 6         1  2 [AGREE]            </span></a>
+<a class="sourceLine" id="cb9-13" data-line-number="13"><span class="co">#&gt;  7 7         1 NA                    </span></a>
+<a class="sourceLine" id="cb9-14" data-line-number="14"><span class="co">#&gt;  8 8         1  3 [DISAGREE]         </span></a>
+<a class="sourceLine" id="cb9-15" data-line-number="15"><span class="co">#&gt;  9 9         1 NA                    </span></a>
+<a class="sourceLine" id="cb9-16" data-line-number="16"><span class="co">#&gt; 10 10        1  4 [STRONGLY DISAGREE]</span></a>
+<a class="sourceLine" id="cb9-17" data-line-number="17"><span class="co">#&gt; # … with 6,122 more rows</span></a></code></pre></div>
+<p>The documentation tibble for the panel data is called <code>gss_panel_doc</code>.</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_panel_doc)</a>
+<a class="sourceLine" id="cb10-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb10-3" data-line-number="3">gss_panel_doc</a>
+<a class="sourceLine" id="cb10-4" data-line-number="4"><span class="co">#&gt; # A tibble: 1,855 x 5</span></a>
+<a class="sourceLine" id="cb10-5" data-line-number="5"><span class="co">#&gt;    id     description                properties   marginals    text        </span></a>
+<a class="sourceLine" id="cb10-6" data-line-number="6"><span class="co">#&gt;    &lt;chr&gt;  &lt;chr&gt;                      &lt;list&gt;       &lt;list&gt;       &lt;chr&gt;       </span></a>
+<a class="sourceLine" id="cb10-7" data-line-number="7"><span class="co">#&gt;  1 CASEID CASE IDENTIFICATION NUMBE… &lt;tibble [2 … &lt;tibble [1 … None        </span></a>
+<a class="sourceLine" id="cb10-8" data-line-number="8"><span class="co">#&gt;  2 YEAR_1 year_1: GSS YEAR FOR THIS… &lt;tibble [3 … &lt;tibble [2 … None        </span></a>
+<a class="sourceLine" id="cb10-9" data-line-number="9"><span class="co">#&gt;  3 YEAR_2 year_2: GSS YEAR FOR THIS… &lt;tibble [3 … &lt;tibble [3 … None        </span></a>
+<a class="sourceLine" id="cb10-10" data-line-number="10"><span class="co">#&gt;  4 YEAR_3 year_3: GSS YEAR FOR THIS… &lt;tibble [3 … &lt;tibble [3 … None        </span></a>
+<a class="sourceLine" id="cb10-11" data-line-number="11"><span class="co">#&gt;  5 ID_1   id_1: RESPONDNT ID NUMBER  &lt;tibble [3 … &lt;tibble [1 … None        </span></a>
+<a class="sourceLine" id="cb10-12" data-line-number="12"><span class="co">#&gt;  6 ID_2   id_2: RESPONDNT ID NUMBER  &lt;tibble [3 … &lt;tibble [1 … None        </span></a>
+<a class="sourceLine" id="cb10-13" data-line-number="13"><span class="co">#&gt;  7 ID_3   id_3: RESPONDNT ID NUMBER  &lt;tibble [3 … &lt;tibble [1 … None        </span></a>
+<a class="sourceLine" id="cb10-14" data-line-number="14"><span class="co">#&gt;  8 AGE_1  age_1: AGE OF RESPONDENT   &lt;tibble [3 … &lt;tibble [1 … 13. Respond…</span></a>
+<a class="sourceLine" id="cb10-15" data-line-number="15"><span class="co">#&gt;  9 AGE_2  age_2: AGE OF RESPONDENT   &lt;tibble [3 … &lt;tibble [1 … 13. Respond…</span></a>
+<a class="sourceLine" id="cb10-16" data-line-number="16"><span class="co">#&gt; 10 AGE_3  age_3: AGE OF RESPONDENT   &lt;tibble [3 … &lt;tibble [1 … 13. Respond…</span></a>
+<a class="sourceLine" id="cb10-17" data-line-number="17"><span class="co">#&gt; # … with 1,845 more rows</span></a></code></pre></div>
+<p>Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes <code>_1</code>, <code>_2</code>, and <code>_3</code>, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code>.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="kw"><a href="reference/gss_get_marginals.html">gss_get_marginals</a></span>(<span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"SEX_1"</span>, <span class="st">"SEX_2"</span>, <span class="st">"SEX_3"</span>), <span class="dt">data =</span> gss_panel_doc)</a>
+<a class="sourceLine" id="cb11-2" data-line-number="2"><span class="co">#&gt; # A tibble: 11 x 5</span></a>
+<a class="sourceLine" id="cb11-3" data-line-number="3"><span class="co">#&gt;    id    percent     n value label           </span></a>
+<a class="sourceLine" id="cb11-4" data-line-number="4"><span class="co">#&gt;    &lt;chr&gt;   &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;           </span></a>
+<a class="sourceLine" id="cb11-5" data-line-number="5"><span class="co">#&gt;  1 SEX_1    42.7   854 1     MALE            </span></a>
+<a class="sourceLine" id="cb11-6" data-line-number="6"><span class="co">#&gt;  2 SEX_1    57.3  1146 2     FEMALE          </span></a>
+<a class="sourceLine" id="cb11-7" data-line-number="7"><span class="co">#&gt;  3 SEX_1   100    2000 &lt;NA&gt;  Total           </span></a>
+<a class="sourceLine" id="cb11-8" data-line-number="8"><span class="co">#&gt;  4 SEX_2    41.7   640 1     MALE            </span></a>
+<a class="sourceLine" id="cb11-9" data-line-number="9"><span class="co">#&gt;  5 SEX_2    58.3   896 2     FEMALE          </span></a>
+<a class="sourceLine" id="cb11-10" data-line-number="10"><span class="co">#&gt;  6 SEX_2    NA     464 .     (Does not apply)</span></a>
+<a class="sourceLine" id="cb11-11" data-line-number="11"><span class="co">#&gt;  7 SEX_2   100    2000 ""    Total           </span></a>
+<a class="sourceLine" id="cb11-12" data-line-number="12"><span class="co">#&gt;  8 SEX_3    41.1   524 1     MALE            </span></a>
+<a class="sourceLine" id="cb11-13" data-line-number="13"><span class="co">#&gt;  9 SEX_3    58.9   752 2     FEMALE          </span></a>
+<a class="sourceLine" id="cb11-14" data-line-number="14"><span class="co">#&gt; 10 SEX_3    NA     724 .     (Does not apply)</span></a>
+<a class="sourceLine" id="cb11-15" data-line-number="15"><span class="co">#&gt; 11 SEX_3   100    2000 ""    Total</span></a></code></pre></div>
 </div>
 <div id="further-details" class="section level2">
 <h2 class="hasAnchor">
