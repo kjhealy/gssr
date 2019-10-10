@@ -74,7 +74,7 @@ library(srvyr)
 library(gssr)
 ```
 
-We will begin with the Cumulative Data file (1972-2018). As the startup message notes, the data objects are not automatically loaded. That is, we do not use R's "lazy loading" functionality. This is because the main GSS dataset is rather large. Instead we load it manually with `data()`. For the purposes of this vignette, because the full Cumulative Data object is big, we will use just a few columns of it stored in an object called `gss_sub`. We will also load the tibble that contains the codebook.
+We will begin with the Cumulative Data file (1972-2018). As the startup message notes, the data objects are not automatically loaded. That is, we do not use R's "lazy loading" functionality. This is because the main GSS dataset is rather large. Instead we load it manually with `data()`. For the purposes of this vignette, because the full Cumulative Data object is big, we will use just a few columns of it stored in an object called `gss_sub`. But all the code here will also work with the full dataset object, `gss_all`, which you can load with the command `data(gss_all)`. We will also load the tibble that contains the codebook for the Cumulative Data File. This is called `gss_doc`.
 
 ```{r load}
 data(gss_sub)
