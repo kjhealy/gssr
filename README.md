@@ -188,9 +188,6 @@ gss_get_props(varnames = c("race", "sex"))
 #> 6 race  Record/column     1/298
 ```
 
-
-```
-
 ## Panel Data
 
 The GSS Three Wave Panel dataset was collected in 2006, 2008, and 2010. These data are separate from the Cumulative Data File. The dataset is provided by the GSS in wide format but packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Load the panel data as follows:
