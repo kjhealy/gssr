@@ -57,7 +57,7 @@ To ensure that the `gssr` repository is always available, you can add the follow
 
 
 ```r
-drat::addRepo("kjhealy", "http://kjhealy.github.io/drat")
+drat::addRepo("kjhealy")
 ```
 
 With that in place you'll be able to do `install.packages("gssr")` or `update.packages("gssr")` and have everything work as you'd expect. 
