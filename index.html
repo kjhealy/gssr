@@ -31,7 +31,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.0</span>
       </span>
     </div>
 
@@ -93,8 +93,32 @@
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
+<p><code>gssr</code> is a data package, bundling several datasets into a convenient format. The relatively large size of the data in the package means it is not suitable for hosting on <a href="https://cran.r-project.org/">CRAN</a>, the core R package repository. There are two ways to install it.</p>
+<div id="install-direct-from-github" class="section level3">
+<h3 class="hasAnchor">
+<a href="#install-direct-from-github" class="anchor"></a>Install direct from GitHub</h3>
 <p>You can install the beta version of gssr from <a href="https://github.com/kjhealy/gssr">GitHub</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1">devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">"kjhealy/gssr"</span>)</a></code></pre></div>
+</div>
+<div id="installation-using-drat" class="section level3">
+<h3 class="hasAnchor">
+<a href="#installation-using-drat" class="anchor"></a>Installation using <code>drat</code>
+</h3>
+<p>While using <code>install_github()</code> works just fine, it would be nicer to be able to just type <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages("gssr")</a></code> or <code><a href="https://rdrr.io/r/utils/update.packages.html">update.packages("gssr")</a></code> in the ordinary way. We can do this using Dirk Eddelbuettel’s <a href="http://eddelbuettel.github.io/drat/DratForPackageUsers.html">drat</a> package. Drat provides a convenient way to make R aware of package repositories other than CRAN.</p>
+<p>First, install <code>drat</code>:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="cf">if</span> (<span class="op">!</span><span class="kw"><a href="https://rdrr.io/r/base/library.html">require</a></span>(<span class="st">"drat"</span>)) {</a>
+<a class="sourceLine" id="cb2-2" data-line-number="2">    <span class="kw"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"drat"</span>)</a>
+<a class="sourceLine" id="cb2-3" data-line-number="3">    <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="st">"drat"</span>)</a>
+<a class="sourceLine" id="cb2-4" data-line-number="4">}</a></code></pre></div>
+<p>Then use <code>drat</code> to tell R about the repository where <code>gssr</code> is hosted:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1">drat<span class="op">::</span><span class="kw"><a href="https://rdrr.io/pkg/drat/man/addRepo.html">addRepo</a></span>(<span class="st">"kjhealy"</span>)</a></code></pre></div>
+<p>You can now install <code>gssr</code>:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"gssr"</span>)</a></code></pre></div>
+<p>To ensure that the <code>gssr</code> repository is always available, you can add the following line to your <code>.Rprofile</code> or <code>.Rprofile.site</code> file:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1">drat<span class="op">::</span><span class="kw"><a href="https://rdrr.io/pkg/drat/man/addRepo.html">addRepo</a></span>(<span class="st">"kjhealy"</span>, <span class="st">"http://kjhealy.github.io/drat"</span>)</a></code></pre></div>
+<p>With that in place you’ll be able to do <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages("gssr")</a></code> or <code><a href="https://rdrr.io/r/utils/update.packages.html">update.packages("gssr")</a></code> and have everything work as you’d expect.</p>
+<p>Note that the drat repository only contains data packages that are not on CRAN, so you will never be in danger of grabbing the wrong version of any other package.</p>
+</div>
 </div>
 <div id="loading-the-data" class="section level2">
 <h2 class="hasAnchor">
@@ -103,247 +127,247 @@
 <h3 class="hasAnchor">
 <a href="#the-cumulative-data-file" class="anchor"></a>The Cumulative Data File</h3>
 <p>The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don’t use R’s “lazy loading” facility.) To load the data, do the following:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(gssr)</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console.</span></a>
-<a class="sourceLine" id="cb2-3" data-line-number="3"><span class="co">#&gt; For the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.</span></a>
-<a class="sourceLine" id="cb2-4" data-line-number="4"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_all)</a></code></pre></div>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"></a>
-<a class="sourceLine" id="cb3-2" data-line-number="2">gss_all</a>
-<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="co">#&gt; # A tibble: 64,814 x 6,108</span></a>
-<a class="sourceLine" id="cb3-4" data-line-number="4"><span class="co">#&gt;     year    id wrkstat  hrs1  hrs2   evwork   occ prestige  wrkslf wrkgovt</span></a>
-<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl+l&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;</span></a>
-<a class="sourceLine" id="cb3-6" data-line-number="6"><span class="co">#&gt;  1  1972     1 1 [WOR…    NA    NA NA         205       50 2 [SOM…      NA</span></a>
-<a class="sourceLine" id="cb3-7" data-line-number="7"><span class="co">#&gt;  2  1972     2 5 [RET…    NA    NA  1 [YES]   441       45 2 [SOM…      NA</span></a>
-<a class="sourceLine" id="cb3-8" data-line-number="8"><span class="co">#&gt;  3  1972     3 2 [WOR…    NA    NA NA         270       44 2 [SOM…      NA</span></a>
-<a class="sourceLine" id="cb3-9" data-line-number="9"><span class="co">#&gt;  4  1972     4 1 [WOR…    NA    NA NA           1       57 2 [SOM…      NA</span></a>
-<a class="sourceLine" id="cb3-10" data-line-number="10"><span class="co">#&gt;  5  1972     5 7 [KEE…    NA    NA  1 [YES]   385       40 2 [SOM…      NA</span></a>
-<a class="sourceLine" id="cb3-11" data-line-number="11"><span class="co">#&gt;  6  1972     6 1 [WOR…    NA    NA NA         281       49 2 [SOM…      NA</span></a>
-<a class="sourceLine" id="cb3-12" data-line-number="12"><span class="co">#&gt;  7  1972     7 1 [WOR…    NA    NA NA         522       41 2 [SOM…      NA</span></a>
-<a class="sourceLine" id="cb3-13" data-line-number="13"><span class="co">#&gt;  8  1972     8 1 [WOR…    NA    NA NA         314       36 2 [SOM…      NA</span></a>
-<a class="sourceLine" id="cb3-14" data-line-number="14"><span class="co">#&gt;  9  1972     9 2 [WOR…    NA    NA NA         912       26 2 [SOM…      NA</span></a>
-<a class="sourceLine" id="cb3-15" data-line-number="15"><span class="co">#&gt; 10  1972    10 1 [WOR…    NA    NA NA         984       18 2 [SOM…      NA</span></a>
-<a class="sourceLine" id="cb3-16" data-line-number="16"><span class="co">#&gt; # … with 64,804 more rows, and 6,098 more variables: commute &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-17" data-line-number="17"><span class="co">#&gt; #   industry &lt;dbl+lbl&gt;, occ80 &lt;dbl+lbl&gt;, prestg80 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-18" data-line-number="18"><span class="co">#&gt; #   indus80 &lt;dbl+lbl&gt;, indus07 &lt;dbl+lbl&gt;, occonet &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-19" data-line-number="19"><span class="co">#&gt; #   found &lt;dbl+lbl&gt;, occ10 &lt;dbl+lbl&gt;, occindv &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-20" data-line-number="20"><span class="co">#&gt; #   occstatus &lt;dbl+lbl&gt;, occtag &lt;dbl+lbl&gt;, prestg10 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-21" data-line-number="21"><span class="co">#&gt; #   prestg105plus &lt;dbl+lbl&gt;, indus10 &lt;dbl+lbl&gt;, indstatus &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-22" data-line-number="22"><span class="co">#&gt; #   indtag &lt;dbl+lbl&gt;, marital &lt;dbl+lbl&gt;, martype &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-23" data-line-number="23"><span class="co">#&gt; #   agewed &lt;dbl+lbl&gt;, divorce &lt;dbl+lbl&gt;, widowed &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-24" data-line-number="24"><span class="co">#&gt; #   spwrksta &lt;dbl+lbl&gt;, sphrs1 &lt;dbl+lbl&gt;, sphrs2 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-25" data-line-number="25"><span class="co">#&gt; #   spevwork &lt;dbl+lbl&gt;, cowrksta &lt;dbl+lbl&gt;, cowrkslf &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-26" data-line-number="26"><span class="co">#&gt; #   coevwork &lt;dbl+lbl&gt;, cohrs1 &lt;dbl+lbl&gt;, cohrs2 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-27" data-line-number="27"><span class="co">#&gt; #   spocc &lt;dbl+lbl&gt;, sppres &lt;dbl+lbl&gt;, spwrkslf &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-28" data-line-number="28"><span class="co">#&gt; #   spind &lt;dbl+lbl&gt;, spocc80 &lt;dbl+lbl&gt;, sppres80 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-29" data-line-number="29"><span class="co">#&gt; #   spind80 &lt;dbl+lbl&gt;, spocc10 &lt;dbl+lbl&gt;, spoccindv &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-30" data-line-number="30"><span class="co">#&gt; #   spoccstatus &lt;dbl+lbl&gt;, spocctag &lt;dbl+lbl&gt;, sppres10 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-31" data-line-number="31"><span class="co">#&gt; #   sppres105plus &lt;dbl+lbl&gt;, spind10 &lt;dbl+lbl&gt;, spindstatus &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-32" data-line-number="32"><span class="co">#&gt; #   spindtag &lt;dbl+lbl&gt;, coocc10 &lt;dbl+lbl&gt;, coind10 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-33" data-line-number="33"><span class="co">#&gt; #   paocc16 &lt;dbl+lbl&gt;, papres16 &lt;dbl+lbl&gt;, pawrkslf &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-34" data-line-number="34"><span class="co">#&gt; #   paind16 &lt;dbl+lbl&gt;, paocc80 &lt;dbl+lbl&gt;, papres80 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-35" data-line-number="35"><span class="co">#&gt; #   paind80 &lt;dbl+lbl&gt;, paocc10 &lt;dbl+lbl&gt;, paoccindv &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-36" data-line-number="36"><span class="co">#&gt; #   paoccstatus &lt;dbl+lbl&gt;, paocctag &lt;dbl+lbl&gt;, papres10 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-37" data-line-number="37"><span class="co">#&gt; #   papres105plus &lt;dbl+lbl&gt;, paind10 &lt;dbl+lbl&gt;, paindstatus &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-38" data-line-number="38"><span class="co">#&gt; #   paindtag &lt;dbl+lbl&gt;, maocc80 &lt;dbl+lbl&gt;, mapres80 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-39" data-line-number="39"><span class="co">#&gt; #   mawrkslf &lt;dbl+lbl&gt;, maind80 &lt;dbl+lbl&gt;, maocc10 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-40" data-line-number="40"><span class="co">#&gt; #   maoccindv &lt;dbl+lbl&gt;, maoccstatus &lt;dbl+lbl&gt;, maocctag &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-41" data-line-number="41"><span class="co">#&gt; #   mapres10 &lt;dbl+lbl&gt;, mapres105plus &lt;dbl+lbl&gt;, maind10 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-42" data-line-number="42"><span class="co">#&gt; #   maindstatus &lt;dbl+lbl&gt;, maindtag &lt;dbl+lbl&gt;, sibs &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-43" data-line-number="43"><span class="co">#&gt; #   childs &lt;dbl+lbl&gt;, age &lt;dbl+lbl&gt;, agekdbrn &lt;dbl+lbl&gt;, educ &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-44" data-line-number="44"><span class="co">#&gt; #   paeduc &lt;dbl+lbl&gt;, maeduc &lt;dbl+lbl&gt;, speduc &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-45" data-line-number="45"><span class="co">#&gt; #   coeduc &lt;dbl+lbl&gt;, codeg &lt;dbl+lbl&gt;, degree &lt;dbl+lbl&gt;, padeg &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-46" data-line-number="46"><span class="co">#&gt; #   madeg &lt;dbl+lbl&gt;, spdeg &lt;dbl+lbl&gt;, major1 &lt;dbl+lbl&gt;, major2 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-47" data-line-number="47"><span class="co">#&gt; #   dipged &lt;dbl+lbl&gt;, spdipged &lt;dbl+lbl&gt;, codipged &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb3-48" data-line-number="48"><span class="co">#&gt; #   cosector &lt;dbl+lbl&gt;, whenhs &lt;dbl+lbl&gt;, whencol &lt;dbl+lbl&gt;, …</span></a></code></pre></div>
-<p>To load the tibble that contains information on the variables in the data, do this:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_doc)</a>
-<a class="sourceLine" id="cb4-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb4-3" data-line-number="3">gss_doc</a>
-<a class="sourceLine" id="cb4-4" data-line-number="4"><span class="co">#&gt; # A tibble: 6,144 x 5</span></a>
-<a class="sourceLine" id="cb4-5" data-line-number="5"><span class="co">#&gt;    id     description      properties   marginals   text                   </span></a>
-<a class="sourceLine" id="cb4-6" data-line-number="6"><span class="co">#&gt;    &lt;chr&gt;  &lt;chr&gt;            &lt;list&gt;       &lt;list&gt;      &lt;chr&gt;                  </span></a>
-<a class="sourceLine" id="cb4-7" data-line-number="7"><span class="co">#&gt;  1 caseid YEAR + Responde… &lt;tibble [2 … &lt;tibble [1… None                   </span></a>
-<a class="sourceLine" id="cb4-8" data-line-number="8"><span class="co">#&gt;  2 year   GSS year for th… &lt;tibble [2 … &lt;tibble [3… None                   </span></a>
-<a class="sourceLine" id="cb4-9" data-line-number="9"><span class="co">#&gt;  3 id     Respondent ID n… &lt;tibble [2 … &lt;tibble [1… None                   </span></a>
-<a class="sourceLine" id="cb4-10" data-line-number="10"><span class="co">#&gt;  4 age    Age of responde… &lt;tibble [3 … &lt;tibble [1… 13. Respondent's age   </span></a>
-<a class="sourceLine" id="cb4-11" data-line-number="11"><span class="co">#&gt;  5 sex    Respondents sex  &lt;tibble [3 … &lt;tibble [3… 23. Code respondent's …</span></a>
-<a class="sourceLine" id="cb4-12" data-line-number="12"><span class="co">#&gt;  6 race   Race of respond… &lt;tibble [3 … &lt;tibble [4… 24. What race do you c…</span></a>
-<a class="sourceLine" id="cb4-13" data-line-number="13"><span class="co">#&gt;  7 racec… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
-<a class="sourceLine" id="cb4-14" data-line-number="14"><span class="co">#&gt;  8 racec… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
-<a class="sourceLine" id="cb4-15" data-line-number="15"><span class="co">#&gt;  9 racec… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
-<a class="sourceLine" id="cb4-16" data-line-number="16"><span class="co">#&gt; 10 hispa… Hispanic specif… &lt;tibble [3 … &lt;tibble [3… 1601. IF R IS FEMALE, …</span></a>
-<a class="sourceLine" id="cb4-17" data-line-number="17"><span class="co">#&gt; # … with 6,134 more rows</span></a></code></pre></div>
-<p>You can take a look at information on a particular variable by doing something like this:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"></a>
-<a class="sourceLine" id="cb5-2" data-line-number="2">gss_doc <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span>(id <span class="op">==</span><span class="st"> "race"</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(id, description, text)</a>
-<a class="sourceLine" id="cb5-4" data-line-number="4"><span class="co">#&gt; # A tibble: 1 x 3</span></a>
-<a class="sourceLine" id="cb5-5" data-line-number="5"><span class="co">#&gt;   id    description        text                                   </span></a>
-<a class="sourceLine" id="cb5-6" data-line-number="6"><span class="co">#&gt;   &lt;chr&gt; &lt;chr&gt;              &lt;chr&gt;                                  </span></a>
-<a class="sourceLine" id="cb5-7" data-line-number="7"><span class="co">#&gt; 1 race  Race of respondent 24. What race do you consider yourself?</span></a></code></pre></div>
-<p>To look at a variable’s marginals or its properties, use <code>unnest()</code>:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"></a>
-<a class="sourceLine" id="cb6-2" data-line-number="2">gss_doc <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span>(id <span class="op">==</span><span class="st"> "race"</span>) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb6-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(marginals) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb6-4" data-line-number="4"><span class="st">  </span><span class="kw">unnest</span>(<span class="dt">cols =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(marginals))</a>
-<a class="sourceLine" id="cb6-5" data-line-number="5"><span class="co">#&gt; # A tibble: 4 x 5</span></a>
-<a class="sourceLine" id="cb6-6" data-line-number="6"><span class="co">#&gt;   percent n      value label id   </span></a>
-<a class="sourceLine" id="cb6-7" data-line-number="7"><span class="co">#&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;</span></a>
-<a class="sourceLine" id="cb6-8" data-line-number="8"><span class="co">#&gt; 1    80.3 52,033 1     WHITE RACE </span></a>
-<a class="sourceLine" id="cb6-9" data-line-number="9"><span class="co">#&gt; 2    14.2 9,187  2     BLACK RACE </span></a>
-<a class="sourceLine" id="cb6-10" data-line-number="10"><span class="co">#&gt; 3     5.5 3,594  3     OTHER RACE </span></a>
-<a class="sourceLine" id="cb6-11" data-line-number="11"><span class="co">#&gt; 4   100   64,814 &lt;NA&gt;  Total RACE</span></a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(gssr)</a>
+<a class="sourceLine" id="cb6-2" data-line-number="2"><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console.</span></a>
+<a class="sourceLine" id="cb6-3" data-line-number="3"><span class="co">#&gt; For the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.</span></a>
+<a class="sourceLine" id="cb6-4" data-line-number="4"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_all)</a></code></pre></div>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1"></a>
-<a class="sourceLine" id="cb7-2" data-line-number="2">gss_doc <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span>(id <span class="op">==</span><span class="st"> "race"</span>) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb7-3" data-line-number="3"><span class="st">    </span><span class="kw">select</span>(properties) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb7-4" data-line-number="4"><span class="st">    </span><span class="kw">unnest</span>(<span class="dt">cols =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(properties))</a>
-<a class="sourceLine" id="cb7-5" data-line-number="5"><span class="co">#&gt; # A tibble: 3 x 3</span></a>
-<a class="sourceLine" id="cb7-6" data-line-number="6"><span class="co">#&gt;   property          value   id   </span></a>
-<a class="sourceLine" id="cb7-7" data-line-number="7"><span class="co">#&gt;   &lt;chr&gt;             &lt;chr&gt;   &lt;chr&gt;</span></a>
-<a class="sourceLine" id="cb7-8" data-line-number="8"><span class="co">#&gt; 1 Data type         numeric RACE </span></a>
-<a class="sourceLine" id="cb7-9" data-line-number="9"><span class="co">#&gt; 2 Missing-data code 0       RACE </span></a>
-<a class="sourceLine" id="cb7-10" data-line-number="10"><span class="co">#&gt; 3 Record/column     1/298   RACE</span></a></code></pre></div>
+<a class="sourceLine" id="cb7-2" data-line-number="2">gss_all</a>
+<a class="sourceLine" id="cb7-3" data-line-number="3"><span class="co">#&gt; # A tibble: 64,814 x 6,108</span></a>
+<a class="sourceLine" id="cb7-4" data-line-number="4"><span class="co">#&gt;     year    id wrkstat  hrs1  hrs2   evwork   occ prestige  wrkslf wrkgovt</span></a>
+<a class="sourceLine" id="cb7-5" data-line-number="5"><span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl+l&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;</span></a>
+<a class="sourceLine" id="cb7-6" data-line-number="6"><span class="co">#&gt;  1  1972     1 1 [WOR…    NA    NA NA         205       50 2 [SOM…      NA</span></a>
+<a class="sourceLine" id="cb7-7" data-line-number="7"><span class="co">#&gt;  2  1972     2 5 [RET…    NA    NA  1 [YES]   441       45 2 [SOM…      NA</span></a>
+<a class="sourceLine" id="cb7-8" data-line-number="8"><span class="co">#&gt;  3  1972     3 2 [WOR…    NA    NA NA         270       44 2 [SOM…      NA</span></a>
+<a class="sourceLine" id="cb7-9" data-line-number="9"><span class="co">#&gt;  4  1972     4 1 [WOR…    NA    NA NA           1       57 2 [SOM…      NA</span></a>
+<a class="sourceLine" id="cb7-10" data-line-number="10"><span class="co">#&gt;  5  1972     5 7 [KEE…    NA    NA  1 [YES]   385       40 2 [SOM…      NA</span></a>
+<a class="sourceLine" id="cb7-11" data-line-number="11"><span class="co">#&gt;  6  1972     6 1 [WOR…    NA    NA NA         281       49 2 [SOM…      NA</span></a>
+<a class="sourceLine" id="cb7-12" data-line-number="12"><span class="co">#&gt;  7  1972     7 1 [WOR…    NA    NA NA         522       41 2 [SOM…      NA</span></a>
+<a class="sourceLine" id="cb7-13" data-line-number="13"><span class="co">#&gt;  8  1972     8 1 [WOR…    NA    NA NA         314       36 2 [SOM…      NA</span></a>
+<a class="sourceLine" id="cb7-14" data-line-number="14"><span class="co">#&gt;  9  1972     9 2 [WOR…    NA    NA NA         912       26 2 [SOM…      NA</span></a>
+<a class="sourceLine" id="cb7-15" data-line-number="15"><span class="co">#&gt; 10  1972    10 1 [WOR…    NA    NA NA         984       18 2 [SOM…      NA</span></a>
+<a class="sourceLine" id="cb7-16" data-line-number="16"><span class="co">#&gt; # … with 64,804 more rows, and 6,098 more variables: commute &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-17" data-line-number="17"><span class="co">#&gt; #   industry &lt;dbl+lbl&gt;, occ80 &lt;dbl+lbl&gt;, prestg80 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-18" data-line-number="18"><span class="co">#&gt; #   indus80 &lt;dbl+lbl&gt;, indus07 &lt;dbl+lbl&gt;, occonet &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-19" data-line-number="19"><span class="co">#&gt; #   found &lt;dbl+lbl&gt;, occ10 &lt;dbl+lbl&gt;, occindv &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-20" data-line-number="20"><span class="co">#&gt; #   occstatus &lt;dbl+lbl&gt;, occtag &lt;dbl+lbl&gt;, prestg10 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-21" data-line-number="21"><span class="co">#&gt; #   prestg105plus &lt;dbl+lbl&gt;, indus10 &lt;dbl+lbl&gt;, indstatus &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-22" data-line-number="22"><span class="co">#&gt; #   indtag &lt;dbl+lbl&gt;, marital &lt;dbl+lbl&gt;, martype &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-23" data-line-number="23"><span class="co">#&gt; #   agewed &lt;dbl+lbl&gt;, divorce &lt;dbl+lbl&gt;, widowed &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-24" data-line-number="24"><span class="co">#&gt; #   spwrksta &lt;dbl+lbl&gt;, sphrs1 &lt;dbl+lbl&gt;, sphrs2 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-25" data-line-number="25"><span class="co">#&gt; #   spevwork &lt;dbl+lbl&gt;, cowrksta &lt;dbl+lbl&gt;, cowrkslf &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-26" data-line-number="26"><span class="co">#&gt; #   coevwork &lt;dbl+lbl&gt;, cohrs1 &lt;dbl+lbl&gt;, cohrs2 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-27" data-line-number="27"><span class="co">#&gt; #   spocc &lt;dbl+lbl&gt;, sppres &lt;dbl+lbl&gt;, spwrkslf &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-28" data-line-number="28"><span class="co">#&gt; #   spind &lt;dbl+lbl&gt;, spocc80 &lt;dbl+lbl&gt;, sppres80 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-29" data-line-number="29"><span class="co">#&gt; #   spind80 &lt;dbl+lbl&gt;, spocc10 &lt;dbl+lbl&gt;, spoccindv &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-30" data-line-number="30"><span class="co">#&gt; #   spoccstatus &lt;dbl+lbl&gt;, spocctag &lt;dbl+lbl&gt;, sppres10 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-31" data-line-number="31"><span class="co">#&gt; #   sppres105plus &lt;dbl+lbl&gt;, spind10 &lt;dbl+lbl&gt;, spindstatus &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-32" data-line-number="32"><span class="co">#&gt; #   spindtag &lt;dbl+lbl&gt;, coocc10 &lt;dbl+lbl&gt;, coind10 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-33" data-line-number="33"><span class="co">#&gt; #   paocc16 &lt;dbl+lbl&gt;, papres16 &lt;dbl+lbl&gt;, pawrkslf &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-34" data-line-number="34"><span class="co">#&gt; #   paind16 &lt;dbl+lbl&gt;, paocc80 &lt;dbl+lbl&gt;, papres80 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-35" data-line-number="35"><span class="co">#&gt; #   paind80 &lt;dbl+lbl&gt;, paocc10 &lt;dbl+lbl&gt;, paoccindv &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-36" data-line-number="36"><span class="co">#&gt; #   paoccstatus &lt;dbl+lbl&gt;, paocctag &lt;dbl+lbl&gt;, papres10 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-37" data-line-number="37"><span class="co">#&gt; #   papres105plus &lt;dbl+lbl&gt;, paind10 &lt;dbl+lbl&gt;, paindstatus &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-38" data-line-number="38"><span class="co">#&gt; #   paindtag &lt;dbl+lbl&gt;, maocc80 &lt;dbl+lbl&gt;, mapres80 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-39" data-line-number="39"><span class="co">#&gt; #   mawrkslf &lt;dbl+lbl&gt;, maind80 &lt;dbl+lbl&gt;, maocc10 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-40" data-line-number="40"><span class="co">#&gt; #   maoccindv &lt;dbl+lbl&gt;, maoccstatus &lt;dbl+lbl&gt;, maocctag &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-41" data-line-number="41"><span class="co">#&gt; #   mapres10 &lt;dbl+lbl&gt;, mapres105plus &lt;dbl+lbl&gt;, maind10 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-42" data-line-number="42"><span class="co">#&gt; #   maindstatus &lt;dbl+lbl&gt;, maindtag &lt;dbl+lbl&gt;, sibs &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-43" data-line-number="43"><span class="co">#&gt; #   childs &lt;dbl+lbl&gt;, age &lt;dbl+lbl&gt;, agekdbrn &lt;dbl+lbl&gt;, educ &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-44" data-line-number="44"><span class="co">#&gt; #   paeduc &lt;dbl+lbl&gt;, maeduc &lt;dbl+lbl&gt;, speduc &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-45" data-line-number="45"><span class="co">#&gt; #   coeduc &lt;dbl+lbl&gt;, codeg &lt;dbl+lbl&gt;, degree &lt;dbl+lbl&gt;, padeg &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-46" data-line-number="46"><span class="co">#&gt; #   madeg &lt;dbl+lbl&gt;, spdeg &lt;dbl+lbl&gt;, major1 &lt;dbl+lbl&gt;, major2 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-47" data-line-number="47"><span class="co">#&gt; #   dipged &lt;dbl+lbl&gt;, spdipged &lt;dbl+lbl&gt;, codipged &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb7-48" data-line-number="48"><span class="co">#&gt; #   cosector &lt;dbl+lbl&gt;, whenhs &lt;dbl+lbl&gt;, whencol &lt;dbl+lbl&gt;, …</span></a></code></pre></div>
+<p>To load the tibble that contains information on the variables in the data, do this:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_doc)</a>
+<a class="sourceLine" id="cb8-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb8-3" data-line-number="3">gss_doc</a>
+<a class="sourceLine" id="cb8-4" data-line-number="4"><span class="co">#&gt; # A tibble: 6,144 x 5</span></a>
+<a class="sourceLine" id="cb8-5" data-line-number="5"><span class="co">#&gt;    id     description      properties   marginals   text                   </span></a>
+<a class="sourceLine" id="cb8-6" data-line-number="6"><span class="co">#&gt;    &lt;chr&gt;  &lt;chr&gt;            &lt;list&gt;       &lt;list&gt;      &lt;chr&gt;                  </span></a>
+<a class="sourceLine" id="cb8-7" data-line-number="7"><span class="co">#&gt;  1 caseid YEAR + Responde… &lt;tibble [2 … &lt;tibble [1… None                   </span></a>
+<a class="sourceLine" id="cb8-8" data-line-number="8"><span class="co">#&gt;  2 year   GSS year for th… &lt;tibble [2 … &lt;tibble [3… None                   </span></a>
+<a class="sourceLine" id="cb8-9" data-line-number="9"><span class="co">#&gt;  3 id     Respondent ID n… &lt;tibble [2 … &lt;tibble [1… None                   </span></a>
+<a class="sourceLine" id="cb8-10" data-line-number="10"><span class="co">#&gt;  4 age    Age of responde… &lt;tibble [3 … &lt;tibble [1… 13. Respondent's age   </span></a>
+<a class="sourceLine" id="cb8-11" data-line-number="11"><span class="co">#&gt;  5 sex    Respondents sex  &lt;tibble [3 … &lt;tibble [3… 23. Code respondent's …</span></a>
+<a class="sourceLine" id="cb8-12" data-line-number="12"><span class="co">#&gt;  6 race   Race of respond… &lt;tibble [3 … &lt;tibble [4… 24. What race do you c…</span></a>
+<a class="sourceLine" id="cb8-13" data-line-number="13"><span class="co">#&gt;  7 racec… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
+<a class="sourceLine" id="cb8-14" data-line-number="14"><span class="co">#&gt;  8 racec… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
+<a class="sourceLine" id="cb8-15" data-line-number="15"><span class="co">#&gt;  9 racec… What Is R's rac… &lt;tibble [3 … &lt;tibble [2… 1602. What is your rac…</span></a>
+<a class="sourceLine" id="cb8-16" data-line-number="16"><span class="co">#&gt; 10 hispa… Hispanic specif… &lt;tibble [3 … &lt;tibble [3… 1601. IF R IS FEMALE, …</span></a>
+<a class="sourceLine" id="cb8-17" data-line-number="17"><span class="co">#&gt; # … with 6,134 more rows</span></a></code></pre></div>
+<p>You can take a look at information on a particular variable by doing something like this:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"></a>
+<a class="sourceLine" id="cb9-2" data-line-number="2">gss_doc <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span>(id <span class="op">==</span><span class="st"> "race"</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(id, description, text)</a>
+<a class="sourceLine" id="cb9-4" data-line-number="4"><span class="co">#&gt; # A tibble: 1 x 3</span></a>
+<a class="sourceLine" id="cb9-5" data-line-number="5"><span class="co">#&gt;   id    description        text                                   </span></a>
+<a class="sourceLine" id="cb9-6" data-line-number="6"><span class="co">#&gt;   &lt;chr&gt; &lt;chr&gt;              &lt;chr&gt;                                  </span></a>
+<a class="sourceLine" id="cb9-7" data-line-number="7"><span class="co">#&gt; 1 race  Race of respondent 24. What race do you consider yourself?</span></a></code></pre></div>
+<p>To look at a variable’s marginals or its properties, use <code>unnest()</code>:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1"></a>
+<a class="sourceLine" id="cb10-2" data-line-number="2">gss_doc <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span>(id <span class="op">==</span><span class="st"> "race"</span>) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb10-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(marginals) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb10-4" data-line-number="4"><span class="st">  </span><span class="kw">unnest</span>(<span class="dt">cols =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(marginals))</a>
+<a class="sourceLine" id="cb10-5" data-line-number="5"><span class="co">#&gt; # A tibble: 4 x 5</span></a>
+<a class="sourceLine" id="cb10-6" data-line-number="6"><span class="co">#&gt;   percent n      value label id   </span></a>
+<a class="sourceLine" id="cb10-7" data-line-number="7"><span class="co">#&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;</span></a>
+<a class="sourceLine" id="cb10-8" data-line-number="8"><span class="co">#&gt; 1    80.3 52,033 1     WHITE RACE </span></a>
+<a class="sourceLine" id="cb10-9" data-line-number="9"><span class="co">#&gt; 2    14.2 9,187  2     BLACK RACE </span></a>
+<a class="sourceLine" id="cb10-10" data-line-number="10"><span class="co">#&gt; 3     5.5 3,594  3     OTHER RACE </span></a>
+<a class="sourceLine" id="cb10-11" data-line-number="11"><span class="co">#&gt; 4   100   64,814 &lt;NA&gt;  Total RACE</span></a></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1"></a>
+<a class="sourceLine" id="cb11-2" data-line-number="2">gss_doc <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span>(id <span class="op">==</span><span class="st"> "race"</span>) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb11-3" data-line-number="3"><span class="st">    </span><span class="kw">select</span>(properties) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb11-4" data-line-number="4"><span class="st">    </span><span class="kw">unnest</span>(<span class="dt">cols =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(properties))</a>
+<a class="sourceLine" id="cb11-5" data-line-number="5"><span class="co">#&gt; # A tibble: 3 x 3</span></a>
+<a class="sourceLine" id="cb11-6" data-line-number="6"><span class="co">#&gt;   property          value   id   </span></a>
+<a class="sourceLine" id="cb11-7" data-line-number="7"><span class="co">#&gt;   &lt;chr&gt;             &lt;chr&gt;   &lt;chr&gt;</span></a>
+<a class="sourceLine" id="cb11-8" data-line-number="8"><span class="co">#&gt; 1 Data type         numeric RACE </span></a>
+<a class="sourceLine" id="cb11-9" data-line-number="9"><span class="co">#&gt; 2 Missing-data code 0       RACE </span></a>
+<a class="sourceLine" id="cb11-10" data-line-number="10"><span class="co">#&gt; 3 Record/column     1/298   RACE</span></a></code></pre></div>
 <p>There are convenience functions to do this as well, for one or more categorical variables. One for the marginals:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="kw"><a href="reference/gss_get_marginals.html">gss_get_marginals</a></span>(<span class="dt">varnames =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"race"</span>, <span class="st">"sex"</span>))</a>
-<a class="sourceLine" id="cb8-2" data-line-number="2"><span class="co">#&gt; # A tibble: 7 x 5</span></a>
-<a class="sourceLine" id="cb8-3" data-line-number="3"><span class="co">#&gt;   id    percent     n value label </span></a>
-<a class="sourceLine" id="cb8-4" data-line-number="4"><span class="co">#&gt;   &lt;chr&gt;   &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt; </span></a>
-<a class="sourceLine" id="cb8-5" data-line-number="5"><span class="co">#&gt; 1 sex      44.1 28614 1     MALE  </span></a>
-<a class="sourceLine" id="cb8-6" data-line-number="6"><span class="co">#&gt; 2 sex      55.9 36200 2     FEMALE</span></a>
-<a class="sourceLine" id="cb8-7" data-line-number="7"><span class="co">#&gt; 3 sex     100   64814 &lt;NA&gt;  Total </span></a>
-<a class="sourceLine" id="cb8-8" data-line-number="8"><span class="co">#&gt; 4 race     80.3 52033 1     WHITE </span></a>
-<a class="sourceLine" id="cb8-9" data-line-number="9"><span class="co">#&gt; 5 race     14.2  9187 2     BLACK </span></a>
-<a class="sourceLine" id="cb8-10" data-line-number="10"><span class="co">#&gt; 6 race      5.5  3594 3     OTHER </span></a>
-<a class="sourceLine" id="cb8-11" data-line-number="11"><span class="co">#&gt; 7 race    100   64814 &lt;NA&gt;  Total</span></a></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" data-line-number="1"><span class="kw"><a href="reference/gss_get_marginals.html">gss_get_marginals</a></span>(<span class="dt">varnames =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"race"</span>, <span class="st">"sex"</span>))</a>
+<a class="sourceLine" id="cb12-2" data-line-number="2"><span class="co">#&gt; # A tibble: 7 x 5</span></a>
+<a class="sourceLine" id="cb12-3" data-line-number="3"><span class="co">#&gt;   id    percent     n value label </span></a>
+<a class="sourceLine" id="cb12-4" data-line-number="4"><span class="co">#&gt;   &lt;chr&gt;   &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt; </span></a>
+<a class="sourceLine" id="cb12-5" data-line-number="5"><span class="co">#&gt; 1 sex      44.1 28614 1     MALE  </span></a>
+<a class="sourceLine" id="cb12-6" data-line-number="6"><span class="co">#&gt; 2 sex      55.9 36200 2     FEMALE</span></a>
+<a class="sourceLine" id="cb12-7" data-line-number="7"><span class="co">#&gt; 3 sex     100   64814 &lt;NA&gt;  Total </span></a>
+<a class="sourceLine" id="cb12-8" data-line-number="8"><span class="co">#&gt; 4 race     80.3 52033 1     WHITE </span></a>
+<a class="sourceLine" id="cb12-9" data-line-number="9"><span class="co">#&gt; 5 race     14.2  9187 2     BLACK </span></a>
+<a class="sourceLine" id="cb12-10" data-line-number="10"><span class="co">#&gt; 6 race      5.5  3594 3     OTHER </span></a>
+<a class="sourceLine" id="cb12-11" data-line-number="11"><span class="co">#&gt; 7 race    100   64814 &lt;NA&gt;  Total</span></a></code></pre></div>
 <p>And one for the properties:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="kw"><a href="reference/gss_get_props.html">gss_get_props</a></span>(<span class="dt">varnames =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"race"</span>, <span class="st">"sex"</span>))</a>
-<a class="sourceLine" id="cb9-2" data-line-number="2"><span class="co">#&gt; # A tibble: 6 x 3</span></a>
-<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="co">#&gt;   id    property          value  </span></a>
-<a class="sourceLine" id="cb9-4" data-line-number="4"><span class="co">#&gt;   &lt;chr&gt; &lt;chr&gt;             &lt;chr&gt;  </span></a>
-<a class="sourceLine" id="cb9-5" data-line-number="5"><span class="co">#&gt; 1 sex   Data type         numeric</span></a>
-<a class="sourceLine" id="cb9-6" data-line-number="6"><span class="co">#&gt; 2 sex   Missing-data code 0      </span></a>
-<a class="sourceLine" id="cb9-7" data-line-number="7"><span class="co">#&gt; 3 sex   Record/column     1/297  </span></a>
-<a class="sourceLine" id="cb9-8" data-line-number="8"><span class="co">#&gt; 4 race  Data type         numeric</span></a>
-<a class="sourceLine" id="cb9-9" data-line-number="9"><span class="co">#&gt; 5 race  Missing-data code 0      </span></a>
-<a class="sourceLine" id="cb9-10" data-line-number="10"><span class="co">#&gt; 6 race  Record/column     1/298</span></a></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="kw"><a href="reference/gss_get_props.html">gss_get_props</a></span>(<span class="dt">varnames =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"race"</span>, <span class="st">"sex"</span>))</a>
+<a class="sourceLine" id="cb13-2" data-line-number="2"><span class="co">#&gt; # A tibble: 6 x 3</span></a>
+<a class="sourceLine" id="cb13-3" data-line-number="3"><span class="co">#&gt;   id    property          value  </span></a>
+<a class="sourceLine" id="cb13-4" data-line-number="4"><span class="co">#&gt;   &lt;chr&gt; &lt;chr&gt;             &lt;chr&gt;  </span></a>
+<a class="sourceLine" id="cb13-5" data-line-number="5"><span class="co">#&gt; 1 sex   Data type         numeric</span></a>
+<a class="sourceLine" id="cb13-6" data-line-number="6"><span class="co">#&gt; 2 sex   Missing-data code 0      </span></a>
+<a class="sourceLine" id="cb13-7" data-line-number="7"><span class="co">#&gt; 3 sex   Record/column     1/297  </span></a>
+<a class="sourceLine" id="cb13-8" data-line-number="8"><span class="co">#&gt; 4 race  Data type         numeric</span></a>
+<a class="sourceLine" id="cb13-9" data-line-number="9"><span class="co">#&gt; 5 race  Missing-data code 0      </span></a>
+<a class="sourceLine" id="cb13-10" data-line-number="10"><span class="co">#&gt; 6 race  Record/column     1/298</span></a></code></pre></div>
 </div>
 </div>
 <div id="panel-data" class="section level2">
 <h2 class="hasAnchor">
 <a href="#panel-data" class="anchor"></a>Panel Data</h2>
 <p>In addition to the Cumulative Data File, the gssr package also includes the GSS’s panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The <code>gssr</code> package provides three datasets, one for each of three-wave panels. They are <code>gss_panel06_long</code>, <code>gss_panel08_long</code>, and <code>gss_panel10_long</code>. The datasets are provided by the GSS in wide format but (as their names suggest) are packaged here in long format. The conversion was carried out using the <a href="https://panelr.jacob-long.com"><code>panelr</code> package</a> and its <code>long_panel()</code> function. Conversion from long back to wide format is possible with the tools provided in <code>panelr</code>.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_panel06_long)</a>
-<a class="sourceLine" id="cb10-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb10-3" data-line-number="3">gss_panel06_long</a>
-<a class="sourceLine" id="cb10-4" data-line-number="4"><span class="co">#&gt; # A tibble: 6,000 x 1,572</span></a>
-<a class="sourceLine" id="cb10-5" data-line-number="5"><span class="co">#&gt;    firstid  wave  ballot    form formwt oversamp sampcode  sample</span></a>
-<a class="sourceLine" id="cb10-6" data-line-number="6"><span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;  &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt;</span></a>
-<a class="sourceLine" id="cb10-7" data-line-number="7"><span class="co">#&gt;  1 9           1 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
-<a class="sourceLine" id="cb10-8" data-line-number="8"><span class="co">#&gt;  2 9           2 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
-<a class="sourceLine" id="cb10-9" data-line-number="9"><span class="co">#&gt;  3 9           3 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
-<a class="sourceLine" id="cb10-10" data-line-number="10"><span class="co">#&gt;  4 10          1 1 [BAL… 1 [STA…      1        1      501 9 [200…</span></a>
-<a class="sourceLine" id="cb10-11" data-line-number="11"><span class="co">#&gt;  5 10          2 1 [BAL… 1 [STA…      1        1      501 9 [200…</span></a>
-<a class="sourceLine" id="cb10-12" data-line-number="12"><span class="co">#&gt;  6 10          3 1 [BAL… 1 [STA…      1        1      501 9 [200…</span></a>
-<a class="sourceLine" id="cb10-13" data-line-number="13"><span class="co">#&gt;  7 11          1 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
-<a class="sourceLine" id="cb10-14" data-line-number="14"><span class="co">#&gt;  8 11          2 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
-<a class="sourceLine" id="cb10-15" data-line-number="15"><span class="co">#&gt;  9 11          3 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
-<a class="sourceLine" id="cb10-16" data-line-number="16"><span class="co">#&gt; 10 12          1 1 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
-<a class="sourceLine" id="cb10-17" data-line-number="17"><span class="co">#&gt; # … with 5,990 more rows, and 1,564 more variables: samptype &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-18" data-line-number="18"><span class="co">#&gt; #   vstrat &lt;dbl+lbl&gt;, vpsu &lt;dbl+lbl&gt;, wtpan12 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-19" data-line-number="19"><span class="co">#&gt; #   wtpan123 &lt;dbl+lbl&gt;, wtpannr12 &lt;dbl+lbl&gt;, wtpannr123 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-20" data-line-number="20"><span class="co">#&gt; #   letin1a &lt;dbl+lbl&gt;, abany &lt;dbl+lbl&gt;, abdefect &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-21" data-line-number="21"><span class="co">#&gt; #   abhlth &lt;dbl+lbl&gt;, abnomore &lt;dbl+lbl&gt;, abpoor &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-22" data-line-number="22"><span class="co">#&gt; #   abrape &lt;dbl+lbl&gt;, absingle &lt;dbl+lbl&gt;, accntsci &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-23" data-line-number="23"><span class="co">#&gt; #   acqasian &lt;dbl+lbl&gt;, acqattnd &lt;dbl+lbl&gt;, acqblack &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-24" data-line-number="24"><span class="co">#&gt; #   acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, acqcohab &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-25" data-line-number="25"><span class="co">#&gt; #   acqcon &lt;dbl+lbl&gt;, acqcops &lt;dbl+lbl&gt;, acqdems &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-26" data-line-number="26"><span class="co">#&gt; #   acqelecs &lt;dbl+lbl&gt;, acqfmasn &lt;dbl+lbl&gt;, acqfmblk &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-27" data-line-number="27"><span class="co">#&gt; #   acqfmcoh &lt;dbl+lbl&gt;, acqfmcon &lt;dbl+lbl&gt;, acqfmgay &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-28" data-line-number="28"><span class="co">#&gt; #   acqfmgo &lt;dbl+lbl&gt;, acqfmhme &lt;dbl+lbl&gt;, acqfmhsp &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-29" data-line-number="29"><span class="co">#&gt; #   acqfmlib &lt;dbl+lbl&gt;, acqfmlin &lt;dbl+lbl&gt;, acqfmmrk &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-30" data-line-number="30"><span class="co">#&gt; #   acqfmno &lt;dbl+lbl&gt;, acqfmpri &lt;dbl+lbl&gt;, acqfmune &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-31" data-line-number="31"><span class="co">#&gt; #   acqfmwht &lt;dbl+lbl&gt;, acqgay &lt;dbl+lbl&gt;, acqgoatt &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-32" data-line-number="32"><span class="co">#&gt; #   acqhisp &lt;dbl+lbl&gt;, acqhome &lt;dbl+lbl&gt;, acqjans &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-33" data-line-number="33"><span class="co">#&gt; #   acqjose &lt;dbl+lbl&gt;, acqkaren &lt;dbl+lbl&gt;, acqkeith &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-34" data-line-number="34"><span class="co">#&gt; #   acqkevin &lt;dbl+lbl&gt;, acqlaws &lt;dbl+lbl&gt;, acqlib &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-35" data-line-number="35"><span class="co">#&gt; #   acqlinda &lt;dbl+lbl&gt;, acqmaria &lt;dbl+lbl&gt;, acqmark &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-36" data-line-number="36"><span class="co">#&gt; #   acqmils &lt;dbl+lbl&gt;, acqmyrac &lt;dbl+lbl&gt;, acqnhasn &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-37" data-line-number="37"><span class="co">#&gt; #   acqnhblk &lt;dbl+lbl&gt;, acqnhcoh &lt;dbl+lbl&gt;, acqnhcon &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-38" data-line-number="38"><span class="co">#&gt; #   acqnhgay &lt;dbl+lbl&gt;, acqnhgo &lt;dbl+lbl&gt;, acqnhhme &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-39" data-line-number="39"><span class="co">#&gt; #   acqnhhsp &lt;dbl+lbl&gt;, acqnhlib &lt;dbl+lbl&gt;, acqnhlin &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-40" data-line-number="40"><span class="co">#&gt; #   acqnhmrk &lt;dbl+lbl&gt;, acqnhno &lt;dbl+lbl&gt;, acqnhpri &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-41" data-line-number="41"><span class="co">#&gt; #   acqnhune &lt;dbl+lbl&gt;, acqnhwht &lt;dbl+lbl&gt;, acqnoatt &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-42" data-line-number="42"><span class="co">#&gt; #   acqntsex &lt;dbl+lbl&gt;, acqprisn &lt;dbl+lbl&gt;, acqrachl &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-43" data-line-number="43"><span class="co">#&gt; #   acqreps &lt;dbl+lbl&gt;, acqshawn &lt;dbl+lbl&gt;, acqsocs &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-44" data-line-number="44"><span class="co">#&gt; #   acqunemp &lt;dbl+lbl&gt;, acqvaasn &lt;dbl+lbl&gt;, acqvablk &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-45" data-line-number="45"><span class="co">#&gt; #   acqvacoh &lt;dbl+lbl&gt;, acqvacon &lt;dbl+lbl&gt;, acqvagay &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-46" data-line-number="46"><span class="co">#&gt; #   acqvago &lt;dbl+lbl&gt;, acqvahme &lt;dbl+lbl&gt;, acqvahsp &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-47" data-line-number="47"><span class="co">#&gt; #   acqvalib &lt;dbl+lbl&gt;, acqvalin &lt;dbl+lbl&gt;, acqvamrk &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-48" data-line-number="48"><span class="co">#&gt; #   acqvano &lt;dbl+lbl&gt;, acqvapri &lt;dbl+lbl&gt;, acqvaune &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-49" data-line-number="49"><span class="co">#&gt; #   acqvawht &lt;dbl+lbl&gt;, acqwhite &lt;dbl+lbl&gt;, acqwkasn &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb10-50" data-line-number="50"><span class="co">#&gt; #   acqwkblk &lt;dbl+lbl&gt;, acqwkcoh &lt;dbl+lbl&gt;, acqwkcon &lt;dbl+lbl&gt;, …</span></a></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_panel06_long)</a>
+<a class="sourceLine" id="cb14-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb14-3" data-line-number="3">gss_panel06_long</a>
+<a class="sourceLine" id="cb14-4" data-line-number="4"><span class="co">#&gt; # A tibble: 6,000 x 1,572</span></a>
+<a class="sourceLine" id="cb14-5" data-line-number="5"><span class="co">#&gt;    firstid  wave  ballot    form formwt oversamp sampcode  sample</span></a>
+<a class="sourceLine" id="cb14-6" data-line-number="6"><span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;  &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt;</span></a>
+<a class="sourceLine" id="cb14-7" data-line-number="7"><span class="co">#&gt;  1 9           1 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb14-8" data-line-number="8"><span class="co">#&gt;  2 9           2 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb14-9" data-line-number="9"><span class="co">#&gt;  3 9           3 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb14-10" data-line-number="10"><span class="co">#&gt;  4 10          1 1 [BAL… 1 [STA…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb14-11" data-line-number="11"><span class="co">#&gt;  5 10          2 1 [BAL… 1 [STA…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb14-12" data-line-number="12"><span class="co">#&gt;  6 10          3 1 [BAL… 1 [STA…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb14-13" data-line-number="13"><span class="co">#&gt;  7 11          1 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb14-14" data-line-number="14"><span class="co">#&gt;  8 11          2 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb14-15" data-line-number="15"><span class="co">#&gt;  9 11          3 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb14-16" data-line-number="16"><span class="co">#&gt; 10 12          1 1 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb14-17" data-line-number="17"><span class="co">#&gt; # … with 5,990 more rows, and 1,564 more variables: samptype &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-18" data-line-number="18"><span class="co">#&gt; #   vstrat &lt;dbl+lbl&gt;, vpsu &lt;dbl+lbl&gt;, wtpan12 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-19" data-line-number="19"><span class="co">#&gt; #   wtpan123 &lt;dbl+lbl&gt;, wtpannr12 &lt;dbl+lbl&gt;, wtpannr123 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-20" data-line-number="20"><span class="co">#&gt; #   letin1a &lt;dbl+lbl&gt;, abany &lt;dbl+lbl&gt;, abdefect &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-21" data-line-number="21"><span class="co">#&gt; #   abhlth &lt;dbl+lbl&gt;, abnomore &lt;dbl+lbl&gt;, abpoor &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-22" data-line-number="22"><span class="co">#&gt; #   abrape &lt;dbl+lbl&gt;, absingle &lt;dbl+lbl&gt;, accntsci &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-23" data-line-number="23"><span class="co">#&gt; #   acqasian &lt;dbl+lbl&gt;, acqattnd &lt;dbl+lbl&gt;, acqblack &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-24" data-line-number="24"><span class="co">#&gt; #   acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, acqcohab &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-25" data-line-number="25"><span class="co">#&gt; #   acqcon &lt;dbl+lbl&gt;, acqcops &lt;dbl+lbl&gt;, acqdems &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-26" data-line-number="26"><span class="co">#&gt; #   acqelecs &lt;dbl+lbl&gt;, acqfmasn &lt;dbl+lbl&gt;, acqfmblk &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-27" data-line-number="27"><span class="co">#&gt; #   acqfmcoh &lt;dbl+lbl&gt;, acqfmcon &lt;dbl+lbl&gt;, acqfmgay &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-28" data-line-number="28"><span class="co">#&gt; #   acqfmgo &lt;dbl+lbl&gt;, acqfmhme &lt;dbl+lbl&gt;, acqfmhsp &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-29" data-line-number="29"><span class="co">#&gt; #   acqfmlib &lt;dbl+lbl&gt;, acqfmlin &lt;dbl+lbl&gt;, acqfmmrk &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-30" data-line-number="30"><span class="co">#&gt; #   acqfmno &lt;dbl+lbl&gt;, acqfmpri &lt;dbl+lbl&gt;, acqfmune &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-31" data-line-number="31"><span class="co">#&gt; #   acqfmwht &lt;dbl+lbl&gt;, acqgay &lt;dbl+lbl&gt;, acqgoatt &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-32" data-line-number="32"><span class="co">#&gt; #   acqhisp &lt;dbl+lbl&gt;, acqhome &lt;dbl+lbl&gt;, acqjans &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-33" data-line-number="33"><span class="co">#&gt; #   acqjose &lt;dbl+lbl&gt;, acqkaren &lt;dbl+lbl&gt;, acqkeith &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-34" data-line-number="34"><span class="co">#&gt; #   acqkevin &lt;dbl+lbl&gt;, acqlaws &lt;dbl+lbl&gt;, acqlib &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-35" data-line-number="35"><span class="co">#&gt; #   acqlinda &lt;dbl+lbl&gt;, acqmaria &lt;dbl+lbl&gt;, acqmark &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-36" data-line-number="36"><span class="co">#&gt; #   acqmils &lt;dbl+lbl&gt;, acqmyrac &lt;dbl+lbl&gt;, acqnhasn &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-37" data-line-number="37"><span class="co">#&gt; #   acqnhblk &lt;dbl+lbl&gt;, acqnhcoh &lt;dbl+lbl&gt;, acqnhcon &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-38" data-line-number="38"><span class="co">#&gt; #   acqnhgay &lt;dbl+lbl&gt;, acqnhgo &lt;dbl+lbl&gt;, acqnhhme &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-39" data-line-number="39"><span class="co">#&gt; #   acqnhhsp &lt;dbl+lbl&gt;, acqnhlib &lt;dbl+lbl&gt;, acqnhlin &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-40" data-line-number="40"><span class="co">#&gt; #   acqnhmrk &lt;dbl+lbl&gt;, acqnhno &lt;dbl+lbl&gt;, acqnhpri &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-41" data-line-number="41"><span class="co">#&gt; #   acqnhune &lt;dbl+lbl&gt;, acqnhwht &lt;dbl+lbl&gt;, acqnoatt &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-42" data-line-number="42"><span class="co">#&gt; #   acqntsex &lt;dbl+lbl&gt;, acqprisn &lt;dbl+lbl&gt;, acqrachl &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-43" data-line-number="43"><span class="co">#&gt; #   acqreps &lt;dbl+lbl&gt;, acqshawn &lt;dbl+lbl&gt;, acqsocs &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-44" data-line-number="44"><span class="co">#&gt; #   acqunemp &lt;dbl+lbl&gt;, acqvaasn &lt;dbl+lbl&gt;, acqvablk &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-45" data-line-number="45"><span class="co">#&gt; #   acqvacoh &lt;dbl+lbl&gt;, acqvacon &lt;dbl+lbl&gt;, acqvagay &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-46" data-line-number="46"><span class="co">#&gt; #   acqvago &lt;dbl+lbl&gt;, acqvahme &lt;dbl+lbl&gt;, acqvahsp &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-47" data-line-number="47"><span class="co">#&gt; #   acqvalib &lt;dbl+lbl&gt;, acqvalin &lt;dbl+lbl&gt;, acqvamrk &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-48" data-line-number="48"><span class="co">#&gt; #   acqvano &lt;dbl+lbl&gt;, acqvapri &lt;dbl+lbl&gt;, acqvaune &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-49" data-line-number="49"><span class="co">#&gt; #   acqvawht &lt;dbl+lbl&gt;, acqwhite &lt;dbl+lbl&gt;, acqwkasn &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb14-50" data-line-number="50"><span class="co">#&gt; #   acqwkblk &lt;dbl+lbl&gt;, acqwkcoh &lt;dbl+lbl&gt;, acqwkcon &lt;dbl+lbl&gt;, …</span></a></code></pre></div>
 <p>The panel data objects were created by <code>panelr</code> but are regular tibbles. The column names in long format do not have wave identifiers. Rather, <code>firstid</code> and <code>wave</code> variables track the cases. The <code>firstid</code> variable is unique for every row and has no missing values. The <code>id</code> variable is from the GSS and tracks individuals within waves.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1">gss_panel06_long <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(firstid, wave, id, sex)</a>
-<a class="sourceLine" id="cb11-2" data-line-number="2"><span class="co">#&gt; # A tibble: 6,000 x 4</span></a>
-<a class="sourceLine" id="cb11-3" data-line-number="3"><span class="co">#&gt;    firstid  wave        id        sex</span></a>
-<a class="sourceLine" id="cb11-4" data-line-number="4"><span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;dbl+lbl&gt;  &lt;dbl+lbl&gt;</span></a>
-<a class="sourceLine" id="cb11-5" data-line-number="5"><span class="co">#&gt;  1 9           1         9 2 [FEMALE]</span></a>
-<a class="sourceLine" id="cb11-6" data-line-number="6"><span class="co">#&gt;  2 9           2      3001 2 [FEMALE]</span></a>
-<a class="sourceLine" id="cb11-7" data-line-number="7"><span class="co">#&gt;  3 9           3      6001 2 [FEMALE]</span></a>
-<a class="sourceLine" id="cb11-8" data-line-number="8"><span class="co">#&gt;  4 10          1        10 2 [FEMALE]</span></a>
-<a class="sourceLine" id="cb11-9" data-line-number="9"><span class="co">#&gt;  5 10          2      3002 2 [FEMALE]</span></a>
-<a class="sourceLine" id="cb11-10" data-line-number="10"><span class="co">#&gt;  6 10          3      6002 2 [FEMALE]</span></a>
-<a class="sourceLine" id="cb11-11" data-line-number="11"><span class="co">#&gt;  7 11          1        11 2 [FEMALE]</span></a>
-<a class="sourceLine" id="cb11-12" data-line-number="12"><span class="co">#&gt;  8 11          2      3003 2 [FEMALE]</span></a>
-<a class="sourceLine" id="cb11-13" data-line-number="13"><span class="co">#&gt;  9 11          3      6003 2 [FEMALE]</span></a>
-<a class="sourceLine" id="cb11-14" data-line-number="14"><span class="co">#&gt; 10 12          1        12 1 [MALE]  </span></a>
-<a class="sourceLine" id="cb11-15" data-line-number="15"><span class="co">#&gt; # … with 5,990 more rows</span></a></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" data-line-number="1">gss_panel06_long <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(firstid, wave, id, sex)</a>
+<a class="sourceLine" id="cb15-2" data-line-number="2"><span class="co">#&gt; # A tibble: 6,000 x 4</span></a>
+<a class="sourceLine" id="cb15-3" data-line-number="3"><span class="co">#&gt;    firstid  wave        id        sex</span></a>
+<a class="sourceLine" id="cb15-4" data-line-number="4"><span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;dbl+lbl&gt;  &lt;dbl+lbl&gt;</span></a>
+<a class="sourceLine" id="cb15-5" data-line-number="5"><span class="co">#&gt;  1 9           1         9 2 [FEMALE]</span></a>
+<a class="sourceLine" id="cb15-6" data-line-number="6"><span class="co">#&gt;  2 9           2      3001 2 [FEMALE]</span></a>
+<a class="sourceLine" id="cb15-7" data-line-number="7"><span class="co">#&gt;  3 9           3      6001 2 [FEMALE]</span></a>
+<a class="sourceLine" id="cb15-8" data-line-number="8"><span class="co">#&gt;  4 10          1        10 2 [FEMALE]</span></a>
+<a class="sourceLine" id="cb15-9" data-line-number="9"><span class="co">#&gt;  5 10          2      3002 2 [FEMALE]</span></a>
+<a class="sourceLine" id="cb15-10" data-line-number="10"><span class="co">#&gt;  6 10          3      6002 2 [FEMALE]</span></a>
+<a class="sourceLine" id="cb15-11" data-line-number="11"><span class="co">#&gt;  7 11          1        11 2 [FEMALE]</span></a>
+<a class="sourceLine" id="cb15-12" data-line-number="12"><span class="co">#&gt;  8 11          2      3003 2 [FEMALE]</span></a>
+<a class="sourceLine" id="cb15-13" data-line-number="13"><span class="co">#&gt;  9 11          3      6003 2 [FEMALE]</span></a>
+<a class="sourceLine" id="cb15-14" data-line-number="14"><span class="co">#&gt; 10 12          1        12 1 [MALE]  </span></a>
+<a class="sourceLine" id="cb15-15" data-line-number="15"><span class="co">#&gt; # … with 5,990 more rows</span></a></code></pre></div>
 <p>We can look at attrition across waves with, e.g.:</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" data-line-number="1">gss_panel06_long <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb12-2" data-line-number="2"><span class="st">  </span><span class="kw">select</span>(wave, id) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb12-3" data-line-number="3"><span class="st">  </span><span class="kw">group_by</span>(wave) <span class="op">%&gt;%</span></a>
-<a class="sourceLine" id="cb12-4" data-line-number="4"><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">observed =</span> <span class="kw">n_distinct</span>(id),</a>
-<a class="sourceLine" id="cb12-5" data-line-number="5">            <span class="dt">missing =</span> <span class="kw"><a href="https://rdrr.io/r/base/sum.html">sum</a></span>(<span class="kw"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span>(id)))</a>
-<a class="sourceLine" id="cb12-6" data-line-number="6"><span class="co">#&gt; # A tibble: 3 x 3</span></a>
-<a class="sourceLine" id="cb12-7" data-line-number="7"><span class="co">#&gt;    wave observed missing</span></a>
-<a class="sourceLine" id="cb12-8" data-line-number="8"><span class="co">#&gt;   &lt;dbl&gt;    &lt;int&gt;   &lt;int&gt;</span></a>
-<a class="sourceLine" id="cb12-9" data-line-number="9"><span class="co">#&gt; 1     1     2000       0</span></a>
-<a class="sourceLine" id="cb12-10" data-line-number="10"><span class="co">#&gt; 2     2     1537     464</span></a>
-<a class="sourceLine" id="cb12-11" data-line-number="11"><span class="co">#&gt; 3     3     1277     724</span></a></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb16-1" data-line-number="1">gss_panel06_long <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb16-2" data-line-number="2"><span class="st">  </span><span class="kw">select</span>(wave, id) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb16-3" data-line-number="3"><span class="st">  </span><span class="kw">group_by</span>(wave) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb16-4" data-line-number="4"><span class="st">  </span><span class="kw">summarize</span>(<span class="dt">observed =</span> <span class="kw">n_distinct</span>(id),</a>
+<a class="sourceLine" id="cb16-5" data-line-number="5">            <span class="dt">missing =</span> <span class="kw"><a href="https://rdrr.io/r/base/sum.html">sum</a></span>(<span class="kw"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span>(id)))</a>
+<a class="sourceLine" id="cb16-6" data-line-number="6"><span class="co">#&gt; # A tibble: 3 x 3</span></a>
+<a class="sourceLine" id="cb16-7" data-line-number="7"><span class="co">#&gt;    wave observed missing</span></a>
+<a class="sourceLine" id="cb16-8" data-line-number="8"><span class="co">#&gt;   &lt;dbl&gt;    &lt;int&gt;   &lt;int&gt;</span></a>
+<a class="sourceLine" id="cb16-9" data-line-number="9"><span class="co">#&gt; 1     1     2000       0</span></a>
+<a class="sourceLine" id="cb16-10" data-line-number="10"><span class="co">#&gt; 2     2     1537     464</span></a>
+<a class="sourceLine" id="cb16-11" data-line-number="11"><span class="co">#&gt; 3     3     1277     724</span></a></code></pre></div>
 <p>The documentation tibble for the panel data is called <code>gss_panel_doc</code>.</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_panel_doc)</a>
-<a class="sourceLine" id="cb13-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb13-3" data-line-number="3">gss_panel_doc</a>
-<a class="sourceLine" id="cb13-4" data-line-number="4"><span class="co">#&gt; # A tibble: 1,855 x 5</span></a>
-<a class="sourceLine" id="cb13-5" data-line-number="5"><span class="co">#&gt;    id     description                properties   marginals    text        </span></a>
-<a class="sourceLine" id="cb13-6" data-line-number="6"><span class="co">#&gt;    &lt;chr&gt;  &lt;chr&gt;                      &lt;list&gt;       &lt;list&gt;       &lt;chr&gt;       </span></a>
-<a class="sourceLine" id="cb13-7" data-line-number="7"><span class="co">#&gt;  1 CASEID CASE IDENTIFICATION NUMBE… &lt;tibble [2 … &lt;tibble [1 … None        </span></a>
-<a class="sourceLine" id="cb13-8" data-line-number="8"><span class="co">#&gt;  2 YEAR_1 year_1: GSS YEAR FOR THIS… &lt;tibble [3 … &lt;tibble [2 … None        </span></a>
-<a class="sourceLine" id="cb13-9" data-line-number="9"><span class="co">#&gt;  3 YEAR_2 year_2: GSS YEAR FOR THIS… &lt;tibble [3 … &lt;tibble [3 … None        </span></a>
-<a class="sourceLine" id="cb13-10" data-line-number="10"><span class="co">#&gt;  4 YEAR_3 year_3: GSS YEAR FOR THIS… &lt;tibble [3 … &lt;tibble [3 … None        </span></a>
-<a class="sourceLine" id="cb13-11" data-line-number="11"><span class="co">#&gt;  5 ID_1   id_1: RESPONDNT ID NUMBER  &lt;tibble [3 … &lt;tibble [1 … None        </span></a>
-<a class="sourceLine" id="cb13-12" data-line-number="12"><span class="co">#&gt;  6 ID_2   id_2: RESPONDNT ID NUMBER  &lt;tibble [3 … &lt;tibble [1 … None        </span></a>
-<a class="sourceLine" id="cb13-13" data-line-number="13"><span class="co">#&gt;  7 ID_3   id_3: RESPONDNT ID NUMBER  &lt;tibble [3 … &lt;tibble [1 … None        </span></a>
-<a class="sourceLine" id="cb13-14" data-line-number="14"><span class="co">#&gt;  8 AGE_1  age_1: AGE OF RESPONDENT   &lt;tibble [3 … &lt;tibble [1 … 13. Respond…</span></a>
-<a class="sourceLine" id="cb13-15" data-line-number="15"><span class="co">#&gt;  9 AGE_2  age_2: AGE OF RESPONDENT   &lt;tibble [3 … &lt;tibble [1 … 13. Respond…</span></a>
-<a class="sourceLine" id="cb13-16" data-line-number="16"><span class="co">#&gt; 10 AGE_3  age_3: AGE OF RESPONDENT   &lt;tibble [3 … &lt;tibble [1 … 13. Respond…</span></a>
-<a class="sourceLine" id="cb13-17" data-line-number="17"><span class="co">#&gt; # … with 1,845 more rows</span></a></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_panel_doc)</a>
+<a class="sourceLine" id="cb17-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb17-3" data-line-number="3">gss_panel_doc</a>
+<a class="sourceLine" id="cb17-4" data-line-number="4"><span class="co">#&gt; # A tibble: 1,855 x 5</span></a>
+<a class="sourceLine" id="cb17-5" data-line-number="5"><span class="co">#&gt;    id     description                properties   marginals    text        </span></a>
+<a class="sourceLine" id="cb17-6" data-line-number="6"><span class="co">#&gt;    &lt;chr&gt;  &lt;chr&gt;                      &lt;list&gt;       &lt;list&gt;       &lt;chr&gt;       </span></a>
+<a class="sourceLine" id="cb17-7" data-line-number="7"><span class="co">#&gt;  1 CASEID CASE IDENTIFICATION NUMBE… &lt;tibble [2 … &lt;tibble [1 … None        </span></a>
+<a class="sourceLine" id="cb17-8" data-line-number="8"><span class="co">#&gt;  2 YEAR_1 year_1: GSS YEAR FOR THIS… &lt;tibble [3 … &lt;tibble [2 … None        </span></a>
+<a class="sourceLine" id="cb17-9" data-line-number="9"><span class="co">#&gt;  3 YEAR_2 year_2: GSS YEAR FOR THIS… &lt;tibble [3 … &lt;tibble [3 … None        </span></a>
+<a class="sourceLine" id="cb17-10" data-line-number="10"><span class="co">#&gt;  4 YEAR_3 year_3: GSS YEAR FOR THIS… &lt;tibble [3 … &lt;tibble [3 … None        </span></a>
+<a class="sourceLine" id="cb17-11" data-line-number="11"><span class="co">#&gt;  5 ID_1   id_1: RESPONDNT ID NUMBER  &lt;tibble [3 … &lt;tibble [1 … None        </span></a>
+<a class="sourceLine" id="cb17-12" data-line-number="12"><span class="co">#&gt;  6 ID_2   id_2: RESPONDNT ID NUMBER  &lt;tibble [3 … &lt;tibble [1 … None        </span></a>
+<a class="sourceLine" id="cb17-13" data-line-number="13"><span class="co">#&gt;  7 ID_3   id_3: RESPONDNT ID NUMBER  &lt;tibble [3 … &lt;tibble [1 … None        </span></a>
+<a class="sourceLine" id="cb17-14" data-line-number="14"><span class="co">#&gt;  8 AGE_1  age_1: AGE OF RESPONDENT   &lt;tibble [3 … &lt;tibble [1 … 13. Respond…</span></a>
+<a class="sourceLine" id="cb17-15" data-line-number="15"><span class="co">#&gt;  9 AGE_2  age_2: AGE OF RESPONDENT   &lt;tibble [3 … &lt;tibble [1 … 13. Respond…</span></a>
+<a class="sourceLine" id="cb17-16" data-line-number="16"><span class="co">#&gt; 10 AGE_3  age_3: AGE OF RESPONDENT   &lt;tibble [3 … &lt;tibble [1 … 13. Respond…</span></a>
+<a class="sourceLine" id="cb17-17" data-line-number="17"><span class="co">#&gt; # … with 1,845 more rows</span></a></code></pre></div>
 <p>Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes <code>_1</code>, <code>_2</code>, and <code>_3</code>, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code>.</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" data-line-number="1"><span class="kw"><a href="reference/gss_get_marginals.html">gss_get_marginals</a></span>(<span class="dt">varnames =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"SEX_1"</span>, <span class="st">"SEX_2"</span>, <span class="st">"SEX_3"</span>), <span class="dt">data =</span> gss_panel_doc)</a>
-<a class="sourceLine" id="cb14-2" data-line-number="2"><span class="co">#&gt; # A tibble: 11 x 5</span></a>
-<a class="sourceLine" id="cb14-3" data-line-number="3"><span class="co">#&gt;    id    percent     n value label           </span></a>
-<a class="sourceLine" id="cb14-4" data-line-number="4"><span class="co">#&gt;    &lt;chr&gt;   &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;           </span></a>
-<a class="sourceLine" id="cb14-5" data-line-number="5"><span class="co">#&gt;  1 SEX_1    42.7   854 1     MALE            </span></a>
-<a class="sourceLine" id="cb14-6" data-line-number="6"><span class="co">#&gt;  2 SEX_1    57.3  1146 2     FEMALE          </span></a>
-<a class="sourceLine" id="cb14-7" data-line-number="7"><span class="co">#&gt;  3 SEX_1   100    2000 &lt;NA&gt;  Total           </span></a>
-<a class="sourceLine" id="cb14-8" data-line-number="8"><span class="co">#&gt;  4 SEX_2    41.7   640 1     MALE            </span></a>
-<a class="sourceLine" id="cb14-9" data-line-number="9"><span class="co">#&gt;  5 SEX_2    58.3   896 2     FEMALE          </span></a>
-<a class="sourceLine" id="cb14-10" data-line-number="10"><span class="co">#&gt;  6 SEX_2    NA     464 .     (Does not apply)</span></a>
-<a class="sourceLine" id="cb14-11" data-line-number="11"><span class="co">#&gt;  7 SEX_2   100    2000 ""    Total           </span></a>
-<a class="sourceLine" id="cb14-12" data-line-number="12"><span class="co">#&gt;  8 SEX_3    41.1   524 1     MALE            </span></a>
-<a class="sourceLine" id="cb14-13" data-line-number="13"><span class="co">#&gt;  9 SEX_3    58.9   752 2     FEMALE          </span></a>
-<a class="sourceLine" id="cb14-14" data-line-number="14"><span class="co">#&gt; 10 SEX_3    NA     724 .     (Does not apply)</span></a>
-<a class="sourceLine" id="cb14-15" data-line-number="15"><span class="co">#&gt; 11 SEX_3   100    2000 ""    Total</span></a></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb18-1" data-line-number="1"><span class="kw"><a href="reference/gss_get_marginals.html">gss_get_marginals</a></span>(<span class="dt">varnames =</span> <span class="kw"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"SEX_1"</span>, <span class="st">"SEX_2"</span>, <span class="st">"SEX_3"</span>), <span class="dt">data =</span> gss_panel_doc)</a>
+<a class="sourceLine" id="cb18-2" data-line-number="2"><span class="co">#&gt; # A tibble: 11 x 5</span></a>
+<a class="sourceLine" id="cb18-3" data-line-number="3"><span class="co">#&gt;    id    percent     n value label           </span></a>
+<a class="sourceLine" id="cb18-4" data-line-number="4"><span class="co">#&gt;    &lt;chr&gt;   &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;           </span></a>
+<a class="sourceLine" id="cb18-5" data-line-number="5"><span class="co">#&gt;  1 SEX_1    42.7   854 1     MALE            </span></a>
+<a class="sourceLine" id="cb18-6" data-line-number="6"><span class="co">#&gt;  2 SEX_1    57.3  1146 2     FEMALE          </span></a>
+<a class="sourceLine" id="cb18-7" data-line-number="7"><span class="co">#&gt;  3 SEX_1   100    2000 &lt;NA&gt;  Total           </span></a>
+<a class="sourceLine" id="cb18-8" data-line-number="8"><span class="co">#&gt;  4 SEX_2    41.7   640 1     MALE            </span></a>
+<a class="sourceLine" id="cb18-9" data-line-number="9"><span class="co">#&gt;  5 SEX_2    58.3   896 2     FEMALE          </span></a>
+<a class="sourceLine" id="cb18-10" data-line-number="10"><span class="co">#&gt;  6 SEX_2    NA     464 .     (Does not apply)</span></a>
+<a class="sourceLine" id="cb18-11" data-line-number="11"><span class="co">#&gt;  7 SEX_2   100    2000 ""    Total           </span></a>
+<a class="sourceLine" id="cb18-12" data-line-number="12"><span class="co">#&gt;  8 SEX_3    41.1   524 1     MALE            </span></a>
+<a class="sourceLine" id="cb18-13" data-line-number="13"><span class="co">#&gt;  9 SEX_3    58.9   752 2     FEMALE          </span></a>
+<a class="sourceLine" id="cb18-14" data-line-number="14"><span class="co">#&gt; 10 SEX_3    NA     724 .     (Does not apply)</span></a>
+<a class="sourceLine" id="cb18-15" data-line-number="15"><span class="co">#&gt; 11 SEX_3   100    2000 ""    Total</span></a></code></pre></div>
 </div>
 <div id="further-details" class="section level2">
 <h2 class="hasAnchor">
