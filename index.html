@@ -115,7 +115,7 @@
 <p>You can now install <code>gssr</code>:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"gssr"</span>)</a></code></pre></div>
 <p>To ensure that the <code>gssr</code> repository is always available, you can add the following line to your <code>.Rprofile</code> or <code>.Rprofile.site</code> file:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1">drat<span class="op">::</span><span class="kw"><a href="https://rdrr.io/pkg/drat/man/addRepo.html">addRepo</a></span>(<span class="st">"kjhealy"</span>, <span class="st">"http://kjhealy.github.io/drat"</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1">drat<span class="op">::</span><span class="kw"><a href="https://rdrr.io/pkg/drat/man/addRepo.html">addRepo</a></span>(<span class="st">"kjhealy"</span>)</a></code></pre></div>
 <p>With that in place you’ll be able to do <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages("gssr")</a></code> or <code><a href="https://rdrr.io/r/utils/update.packages.html">update.packages("gssr")</a></code> and have everything work as you’d expect.</p>
 <p>Note that the drat repository only contains data packages that are not on CRAN, so you will never be in danger of grabbing the wrong version of any other package.</p>
 </div>
