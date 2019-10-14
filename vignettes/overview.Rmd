@@ -63,7 +63,6 @@ This article makes use of some additional packages beyond `gssr` itself. My assu
 ```{r packages}
 library(dplyr)
 library(ggplot2)
-library(panelr)
 library(survey)
 library(srvyr)
 ```
