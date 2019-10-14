@@ -4,14 +4,14 @@
 \name{gss_panel10_long}
 \alias{gss_panel10_long}
 \title{General Social Survey Survey 2010 Three Wave Panel Data}
-\format{A tibble produced by with 6,132  rows and 1,200 columns.
-    \describe{ The GSS Codebook is the authoritative source for the
+\format{A tibble with 6,132  rows and 1,200 columns.
+    The GSS Codebook is the authoritative source for the
     variables in this dataset. It is available at
-    \url{http://gss.norc.org/Get-Documentation}. Summary
-    information is available in `gss_panel_doc`, a tibble supplied
+    \url{\code{http://gss.norc.org/Get-Documentation}}. Summary
+    information is available in \code{gss_panel_doc}, a tibble supplied
     with this package. Respondent ids are contained in the variable
-    \code{firstid} (from the GSS \code{id\_1} variable). Survey
-    waves (years 2010, 2012, 2014) are contained in the \code{wave} variable as 1, 2, and 3.}}
+    \code{firstid} (from the GSS \code{id_1} variable). Survey
+    waves (years 2010, 2012, 2014) are indicated by the \code{wave} variable as 1, 2, and 3.}
 \source{
 National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
 }

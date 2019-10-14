@@ -4,16 +4,15 @@
 \name{gss_panel06_long}
 \alias{gss_panel06_long}
 \title{General Social Survey Survey 2006 Three Wave Panel Data}
-\format{A tibble with 6,000 rows and 1,572 columns.
-    \describe{ The GSS Codebook is the authoritative source for the
-    variables in this dataset. It is available at
+\format{A tibble with 6,000 rows and 1,572 columns. The GSS
+    Codebook is the authoritative source for the variables in this
+    dataset. It is available at
     \url{http://gss.norc.org/Get-Documentation}. Summary
-    information is available in `gss_panel_doc`, a tibble supplied
-    with this package.  Respondent ids are
-    contained in the variable \code{firstid} (from the GSS \code{id\_1}
-    variable). Waves (years 2006, 2008, 2010) are contained in the
-    \code{wave} variable as 1, 2, and 3. 
-    }}
+    information is available in \code{gss_panel_doc}, a tibble
+    supplied with this package. Respondent ids are contained in the
+    variable \code{firstid} (from the GSS \code{id\_1} variable).
+    Survey waves (years 2008, 2010, 2012) are contained in the
+    \code{wave} variable as 1, 2, and 3.}
 \source{
 National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
 }
