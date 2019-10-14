@@ -1,3 +1,7 @@
+---
+output: github_document
+---
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 
@@ -190,77 +194,85 @@ gss_get_props(varnames = c("race", "sex"))
 
 ## Panel Data
 
-The GSS Three Wave Panel dataset was collected in 2006, 2008, and 2010. These data are separate from the Cumulative Data File. The dataset is provided by the GSS in wide format but packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Load the panel data as follows:
+In addition to the Cumulative Data File, the gssr package also includes the GSS's panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The `gssr` package provides three datasets, one for each of three-wave panels. They are `gss_panel06_long`, `gss_panel08_long`, and `gss_panel10_long`.  The datasets are provided by the GSS in wide format but (as their names suggest) are packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Conversion from long back to wide format is possible with the tools provided in `panelr`.
 
 
 ```r
-data(gss_panel_long)
+data(gss_panel06_long)
 
-gss_panel_long
-#> # Panel data:    6,132 x 1,199
-#> # entities:      id [3596]
+gss_panel06_long
+#> # Panel data:    6,000 x 1,572
+#> # entities:      firstid [2000]
 #> # wave variable: wave [1, 2, 3 (3 waves)]
-#>    id     wave oversamp sampcode  sample    form formwt  vpsu vstrat
-#>    <fct> <dbl>    <dbl> <dbl+lb> <dbl+l> <dbl+l>  <dbl> <dbl> <dbl+>
-#>  1 1         1        1      501 9 [200… 2 [ALT…      1     1   2240
-#>  2 2         1        1      501 9 [200… 1 [STA…      1     1   2240
-#>  3 3         1        1      501 9 [200… 1 [STA…      1     2   2240
-#>  4 4         1        1      501 9 [200… 2 [ALT…      1     2   2240
-#>  5 5         1        1      501 9 [200… 1 [STA…      1     1   2241
-#>  6 6         1        1      501 9 [200… 1 [STA…      1     1   2241
-#>  7 7         1        1      501 9 [200… 2 [ALT…      1     1   2241
-#>  8 8         1        1      501 9 [200… 1 [STA…      1     1   2241
-#>  9 9         1        1      501 9 [200… 1 [STA…      1     2   2241
-#> 10 10        1        1      501 9 [200… 2 [ALT…      1     2   2241
-#> # … with 6,122 more rows, and 1,190 more variables: SAMPTYPE <dbl+lbl>,
-#> #   wtpan12 <dbl+lbl>, WTPAN123 <dbl+lbl>, wtpannr12 <dbl+lbl>,
-#> #   WTPANNR123 <dbl+lbl>, mar1 <dbl+lbl>, mar2 <dbl+lbl>, mar3 <dbl+lbl>,
-#> #   mar4 <dbl+lbl>, mar5 <dbl>, mar6 <dbl>, mar7 <dbl>, mar8 <dbl>,
-#> #   mar9 <dbl>, mar10 <dbl>, mar11 <dbl+lbl>, mar12 <dbl>, mar13 <dbl>,
-#> #   mar14 <dbl>, abany <dbl+lbl>, abdefect <dbl+lbl>, abhlth <dbl+lbl>,
-#> #   abnomore <dbl+lbl>, abpoor <dbl+lbl>, abrape <dbl+lbl>,
-#> #   absingle <dbl+lbl>, accntsci <dbl>, acqntsex <dbl>, ACTIVISM <dbl>,
-#> #   adults <dbl+lbl>, advfront <dbl+lbl>, affrmact <dbl+lbl>,
-#> #   age <dbl+lbl>, aged <dbl+lbl>, agekdbrn <dbl+lbl>, ALTMED <dbl>,
-#> #   ALTMEDPR <dbl>, ALTSAT <dbl>, ARCHITCT <dbl>, ARTATT <dbl>,
-#> #   ARTATT1 <dbl>, ARTATT2 <dbl>, ARTATT3 <dbl>, ARTATT4 <dbl>,
-#> #   ARTATT5 <dbl>, ARTCOST <dbl>, ARTEXBT <dbl>, ARTFREE <dbl>,
-#> #   ARTGST <dbl>, ARTINT <dbl>, ARTLOC <dbl>, ARTNOGO <dbl>,
-#> #   ARTNOGO1 <dbl>, ARTOTHR <dbl>, ARTTIME <dbl>, ARTTRVL <dbl>,
-#> #   ARTWHY1 <dbl>, ARTWHY2 <dbl>, ARTWHY3 <dbl>, ARTWHY4 <dbl>,
-#> #   ARTWHY5 <dbl>, ARTWHY6 <dbl>, ARTWHY7 <dbl>, ARTWHY8 <dbl>,
-#> #   astrolgy <dbl+lbl>, astrosci <dbl+lbl>, attend <dbl+lbl>, away1 <dbl>,
-#> #   away11 <dbl>, away2 <dbl>, away3 <dbl>, away4 <dbl>, away5 <dbl>,
-#> #   away6 <dbl>, away7 <dbl>, babies <dbl+lbl>, backpain <dbl>,
-#> #   ballot <dbl+lbl>, balneg <dbl>, balpos <dbl+lbl>, BBLFAV <dbl>,
-#> #   BBLFAV1 <dbl>, BBLSTRY <dbl>, betrlang <dbl>, BETTRLFE <dbl>,
-#> #   bible <dbl+lbl>, bigbang <dbl+lbl>, BIGBANG1 <dbl>, BIGBIZ <dbl>,
-#> #   biosci <dbl>, bizbstgw <dbl>, BIZBSTNK <dbl>, bizbsttx <dbl>,
-#> #   BIZHONST <dbl>, bizinfgw <dbl>, BIZINFNK <dbl>, bizinftx <dbl>,
-#> #   biznuke <dbl>, BIZPRICE <dbl>, blkwhite <dbl>, …
+#>    firstid  wave  ballot    form formwt oversamp sampcode  sample
+#>    <fct>   <dbl> <dbl+l> <dbl+l>  <dbl>    <dbl> <dbl+lb> <dbl+l>
+#>  1 9           1 3 [BAL… 2 [ALT…      1        1      501 9 [200…
+#>  2 9           2 3 [BAL… 2 [ALT…      1        1      501 9 [200…
+#>  3 9           3 3 [BAL… 2 [ALT…      1        1      501 9 [200…
+#>  4 10          1 1 [BAL… 1 [STA…      1        1      501 9 [200…
+#>  5 10          2 1 [BAL… 1 [STA…      1        1      501 9 [200…
+#>  6 10          3 1 [BAL… 1 [STA…      1        1      501 9 [200…
+#>  7 11          1 3 [BAL… 2 [ALT…      1        1      501 9 [200…
+#>  8 11          2 3 [BAL… 2 [ALT…      1        1      501 9 [200…
+#>  9 11          3 3 [BAL… 2 [ALT…      1        1      501 9 [200…
+#> 10 12          1 1 [BAL… 2 [ALT…      1        1      501 9 [200…
+#> # … with 5,990 more rows, and 1,564 more variables: samptype <dbl+lbl>,
+#> #   vstrat <dbl+lbl>, vpsu <dbl+lbl>, wtpan12 <dbl+lbl>,
+#> #   wtpan123 <dbl+lbl>, wtpannr12 <dbl+lbl>, wtpannr123 <dbl+lbl>,
+#> #   letin1a <dbl+lbl>, abany <dbl+lbl>, abdefect <dbl+lbl>,
+#> #   abhlth <dbl+lbl>, abnomore <dbl+lbl>, abpoor <dbl+lbl>,
+#> #   abrape <dbl+lbl>, absingle <dbl+lbl>, accntsci <dbl+lbl>,
+#> #   acqasian <dbl+lbl>, acqattnd <dbl+lbl>, acqblack <dbl+lbl>,
+#> #   acqbrnda <dbl+lbl>, acqchild <dbl+lbl>, acqcohab <dbl+lbl>,
+#> #   acqcon <dbl+lbl>, acqcops <dbl+lbl>, acqdems <dbl+lbl>,
+#> #   acqelecs <dbl+lbl>, acqfmasn <dbl+lbl>, acqfmblk <dbl+lbl>,
+#> #   acqfmcoh <dbl+lbl>, acqfmcon <dbl+lbl>, acqfmgay <dbl+lbl>,
+#> #   acqfmgo <dbl+lbl>, acqfmhme <dbl+lbl>, acqfmhsp <dbl+lbl>,
+#> #   acqfmlib <dbl+lbl>, acqfmlin <dbl+lbl>, acqfmmrk <dbl+lbl>,
+#> #   acqfmno <dbl+lbl>, acqfmpri <dbl+lbl>, acqfmune <dbl+lbl>,
+#> #   acqfmwht <dbl+lbl>, acqgay <dbl+lbl>, acqgoatt <dbl+lbl>,
+#> #   acqhisp <dbl+lbl>, acqhome <dbl+lbl>, acqjans <dbl+lbl>,
+#> #   acqjose <dbl+lbl>, acqkaren <dbl+lbl>, acqkeith <dbl+lbl>,
+#> #   acqkevin <dbl+lbl>, acqlaws <dbl+lbl>, acqlib <dbl+lbl>,
+#> #   acqlinda <dbl+lbl>, acqmaria <dbl+lbl>, acqmark <dbl+lbl>,
+#> #   acqmils <dbl+lbl>, acqmyrac <dbl+lbl>, acqnhasn <dbl+lbl>,
+#> #   acqnhblk <dbl+lbl>, acqnhcoh <dbl+lbl>, acqnhcon <dbl+lbl>,
+#> #   acqnhgay <dbl+lbl>, acqnhgo <dbl+lbl>, acqnhhme <dbl+lbl>,
+#> #   acqnhhsp <dbl+lbl>, acqnhlib <dbl+lbl>, acqnhlin <dbl+lbl>,
+#> #   acqnhmrk <dbl+lbl>, acqnhno <dbl+lbl>, acqnhpri <dbl+lbl>,
+#> #   acqnhune <dbl+lbl>, acqnhwht <dbl+lbl>, acqnoatt <dbl+lbl>,
+#> #   acqntsex <dbl+lbl>, acqprisn <dbl+lbl>, acqrachl <dbl+lbl>,
+#> #   acqreps <dbl+lbl>, acqshawn <dbl+lbl>, acqsocs <dbl+lbl>,
+#> #   acqunemp <dbl+lbl>, acqvaasn <dbl+lbl>, acqvablk <dbl+lbl>,
+#> #   acqvacoh <dbl+lbl>, acqvacon <dbl+lbl>, acqvagay <dbl+lbl>,
+#> #   acqvago <dbl+lbl>, acqvahme <dbl+lbl>, acqvahsp <dbl+lbl>,
+#> #   acqvalib <dbl+lbl>, acqvalin <dbl+lbl>, acqvamrk <dbl+lbl>,
+#> #   acqvano <dbl+lbl>, acqvapri <dbl+lbl>, acqvaune <dbl+lbl>,
+#> #   acqvawht <dbl+lbl>, acqwhite <dbl+lbl>, acqwkasn <dbl+lbl>,
+#> #   acqwkblk <dbl+lbl>, acqwkcoh <dbl+lbl>, acqwkcon <dbl+lbl>, …
 ```
 
 The data object is of class `panel_data`, a type of tibble created by `panelr`. The column names in long format do not have wave identifiers. Rather, `id` and a `wave` variables track the cases:
 
 
 ```r
-gss_panel_long %>% select(fefam)
-#> # Panel data:    6,132 x 3
-#> # entities:      id [3596]
+gss_panel06_long %>% select(fefam)
+#> # Panel data:    6,000 x 3
+#> # entities:      firstid [2000]
 #> # wave variable: wave [1, 2, 3 (3 waves)]
-#>    id     wave                  fefam
-#>    <fct> <dbl>              <dbl+lbl>
-#>  1 1         1 NA                    
-#>  2 2         1  4 [STRONGLY DISAGREE]
-#>  3 3         1  2 [AGREE]            
-#>  4 4         1  3 [DISAGREE]         
-#>  5 5         1 NA                    
-#>  6 6         1  2 [AGREE]            
-#>  7 7         1 NA                    
-#>  8 8         1  3 [DISAGREE]         
-#>  9 9         1 NA                    
-#> 10 10        1  4 [STRONGLY DISAGREE]
-#> # … with 6,122 more rows
+#>    firstid  wave         fefam
+#>    <fct>   <dbl>     <dbl+lbl>
+#>  1 9           1 NA           
+#>  2 9           2 NA           
+#>  3 9           3 NA           
+#>  4 10          1  2 [AGREE]   
+#>  5 10          2  3 [DISAGREE]
+#>  6 10          3  3 [DISAGREE]
+#>  7 11          1 NA           
+#>  8 11          2 NA           
+#>  9 11          3 NA           
+#> 10 12          1  3 [DISAGREE]
+#> # … with 5,990 more rows
 ```
 
 The documentation tibble for the panel data is called `gss_panel_doc`.
@@ -310,3 +322,4 @@ gss_get_marginals(varnames = c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
 ## Further details
 
 The package is documented at <http://kjhealy.github.io/gssr/>. The GSS homepage is at <http://gss.norc.org/>. While the `gssr` package incorporates the publicly-available GSS cumulative data file, the package is not associated with or endorsed by the National Opinion Research Center or the General Social Survey. 
+

@@ -54,7 +54,7 @@ capwords <- function(x, strict = FALSE) {
 
 ## Introduction
 
-The [General Social Survey](http://gss.norc.org), or GSS, is one of the cornerstones of American social science and one of the most-analyzed datasets in Sociology. It is routinely used in research, in teaching, and as a reference point in discussions about changes in American society since the early 1970s. It is also a model of open, public data. The [National Opinion Research Center](http://norc.org) already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the [GSS Data Explorer](https://gssdataexplorer.norc.org), and social scientists can [download complete datasets](http://gss.norc.org/Get-The-Data) directly. At present, the GSS is provided to researchers in a choice of two commercial formats, Stata (`.dta`) and SPSS (`.sav`). It's not too difficult to get the data into R (especially now that the [Haven](http://haven.tidyverse.org) package is pretty reliable), but it can be a little annoying to have to do it repeatedly. After doing it one too many times, I got tired of it and I made a package instead. The `gssr` package provides the GSS Cumulative Data File (1972-2018) and the GSS Three Wave Panel Data File (2006-2010), together with their codebooks, in a format that makes it straightforward to get started working with them in R.  The `gssr` package makes the GSS a little more accessible to users of R, the free software environment for statistical computing, and thus helps in a small way to make the GSS even more open than it already is.
+The [General Social Survey](http://gss.norc.org), or GSS, is one of the cornerstones of American social science and one of the most-analyzed datasets in Sociology. It is routinely used in research, in teaching, and as a reference point in discussions about changes in American society since the early 1970s. It is also a model of open, public data. The [National Opinion Research Center](http://norc.org) already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the [GSS Data Explorer](https://gssdataexplorer.norc.org), and social scientists can [download complete datasets](http://gss.norc.org/Get-The-Data) directly. At present, the GSS is provided to researchers in a choice of two commercial formats, Stata (`.dta`) and SPSS (`.sav`). It's not too difficult to get the data into R (especially now that the [Haven](http://haven.tidyverse.org) package is pretty reliable), but it can be a little annoying to have to do it repeatedly. After doing it one too many times, I got tired of it and I made a package instead. The `gssr` package provides the GSS Cumulative Data File (1972-2018) and three GSS Three Wave Panel Data Files (for panels beginning in 2006, 2008, and 2010, respectively), together with GSS codebooks, in a format that makes it straightforward to get started working with them in R.  The `gssr` package makes the GSS a little more accessible to users of R, the free software environment for statistical computing, and thus helps in a small way to make the GSS even more open than it already is.
 
 ### Packages
 
@@ -238,7 +238,6 @@ The `gss_svy` object contains the same data as `gss_fam`, but incorporates infor
 gss_svy
 ```
 
-
 ## Calculate the survey-weighted statistics
 
 We're now in a position to calculate some properly-weighted summary statistics for the variable we're interested in, for every year in the data. 
@@ -293,22 +292,23 @@ out_ff %>%
   theme(legend.position = "bottom")
 ```
 
-## The GSS Three Wave Panel
+## The GSS Three Wave Panels 
 
-In addition to the Cumulative Data File, the gssr package also includes the GSS's panel data. The GSS Three Wave Panel dataset was collected in 2006, 2008, and 2010. The dataset is provided by the GSS in wide format but packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Conversion from long back to wide format is possible with the tools provided in `panelr`.
+In addition to the Cumulative Data File, the gssr package also includes the GSS's panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The `gssr` package provides three datasets, one for each of three-wave panels. They are `gss_panel06_long`, `gss_panel08_long`, and `gss_panel10_long`.  The datasets are provided by the GSS in wide format but (as their names suggest) are packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Conversion from long back to wide format is possible with the tools provided in `panelr`.
 
-Load the panel data as follows:
+We load the panel data as before. For example:
 
 ```{r panel}
-data(gss_panel_long)
+data(gss_panel06_long)
 
-gss_panel_long
+gss_panel06_long
+
 ```
 
-The data object is of class `panel_data`, a type of tibble created by `panelr`. The column names in long format do not have wave identifiers. Rather,  `id` and `wave` variables track the cases:
+The panel data objects are of class `panel_data`, a type of tibble created by `panelr`. The column names in long format do not have wave identifiers. Rather,  `firstid` and `wave` variables track the cases:
 
-```{r panel-fefam}
-gss_panel_long %>% select(fefam)
+```{r panel-example}
+gss_panel06_long %>% select(sex, race)
 ```
 
 The documentation tibble for the panel data is called `gss_panel_doc`.

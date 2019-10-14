@@ -21,28 +21,81 @@
 'gss_all'
 
 
-#' General Social Survey Survey Three Wave Panel Data
+#' General Social Survey Survey 2006 Three Wave Panel Data
 #'
-#' A tibble containing the General Social Survey Thee Wave Panel Data
+#' A tibble containing the General Social Survey 2006 Three Wave Panel Data
 #' File, in long format. Variables are encoded as labelled vectors. See \href{http://gss.norc.org/Get-Documentation}{http://gss.norc.org/Get-Documentation} for full
 #' documentation of the variables, and the `gss_doc` tibble contained in this package.
 #'
 #' @format An object of class \code{panel_data} (a tibble produced by
-#'     the \code{panelr} package) with 6,132 rows and 1,199 columns.
-#' \describe{
-#' The GSS Codebook is the authoritative source for the variables in
-#this dataset. It is available at
-#\url{http://gss.norc.org/Get-Documentation}. Summary information is
-#available in `gss_panel_doc`, a tibble supplied with this package.
-#' }
+#'     the \code{panelr} package) with 6,000 rows and 1,572 columns.
+#'     \describe{ The GSS Codebook is the authoritative source for the
+#'     variables in this dataset. It is available at
+#'     \url{http://gss.norc.org/Get-Documentation}. Summary
+#'     information is available in `gss_panel_doc`, a tibble supplied
+#'     with this package.  Respondent ids are
+#'     contained in the variable \code{firstid} (from the GSS \code{id\_1}
+#'     variable). Waves (years 2006, 2008, 2010) are contained in the
+#'     \code{wave} variable as 1, 2, and 3.
+#'     }
 #'
 #' @docType data
-#' @usage data(gss_all)
+#' @usage data(gss_panel06_long)
 #' @keywords datasets
-#' @name gss_panel_long
+#' @name gss_panel06_long
 #' @format A panel_data tibble.
 #' @source National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
-'gss_panel_long'
+'gss_panel06_long'
+
+#' General Social Survey Survey 2008 Three Wave Panel Data
+#'
+#' A tibble containing the General Social Survey 2008 Three Wave Panel Data
+#' File, in long format. Variables are encoded as labelled vectors. See \href{http://gss.norc.org/Get-Documentation}{http://gss.norc.org/Get-Documentation} for full
+#' documentation of the variables, and the `gss_doc` tibble contained in this package.
+#'
+#' @format An object of class \code{panel_data} (a tibble produced by
+#'     the \code{panelr} package) with 6,069 rows and 1,244 columns.
+#'     \describe{ The GSS Codebook is the authoritative source for the
+#'     variables in this dataset. It is available at
+#'     \url{http://gss.norc.org/Get-Documentation}. Summary
+#'     information is available in `gss_panel_doc`, a tibble supplied
+#'     with this package.  Respondent ids are
+#'     contained in the variable \code{firstid} (from the GSS \code{id\_1}
+#'     variable). Survey waves (years 2008, 2010, 2012) are contained
+#'     in the \code{wave} variable as 1, 2, and 3. }
+#'
+#' @docType data
+#' @usage data(gss_panel08_long)
+#' @keywords datasets
+#' @name gss_panel08_long
+#' @format A panel_data tibble.
+#' @source National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
+'gss_panel08_long'
+
+
+#' General Social Survey Survey 2010 Three Wave Panel Data
+#'
+#' A tibble containing the General Social Survey 2010 Three Wave Panel Data
+#' File, in long format. Variables are encoded as labelled vectors. See \href{http://gss.norc.org/Get-Documentation}{http://gss.norc.org/Get-Documentation} for full
+#' documentation of the variables, and the `gss_doc` tibble contained in this package.
+#'
+#' @format An object of class \code{panel_data} (a tibble produced by
+#'     the \code{panelr} package) with 6,132  rows and 1,200 columns.
+#'     \describe{ The GSS Codebook is the authoritative source for the
+#'     variables in this dataset. It is available at
+#'     \url{http://gss.norc.org/Get-Documentation}. Summary
+#'     information is available in `gss_panel_doc`, a tibble supplied
+#'     with this package. Respondent ids are contained in the variable
+#'     \code{firstid} (from the GSS \code{id\_1} variable). Survey
+#'     waves (years 2010, 2012, 2014) are contained in the \code{wave} variable as 1, 2, and 3.}
+#'
+#' @docType data
+#' @usage data(gss_panel10_long)
+#' @keywords datasets
+#' @name gss_panel10_long
+#' @format A panel_data tibble.
+#' @source National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
+'gss_panel10_long'
 
 
 

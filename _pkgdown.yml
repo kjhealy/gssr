@@ -13,7 +13,9 @@ reference:
       - gss_all
       - gss_doc      
       - gss_panel_doc
-      - gss_panel_long
+      - gss_panel06_long
+      - gss_panel08_long
+      - gss_panel10_long      
       - gss_sub
   - title: "Functions"
     desc: Package functions.
