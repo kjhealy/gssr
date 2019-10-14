@@ -1,7 +1,3 @@
----
-output: github_document
----
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 
@@ -201,9 +197,7 @@ In addition to the Cumulative Data File, the gssr package also includes the GSS'
 data(gss_panel06_long)
 
 gss_panel06_long
-#> # Panel data:    6,000 x 1,572
-#> # entities:      firstid [2000]
-#> # wave variable: wave [1, 2, 3 (3 waves)]
+#> # A tibble: 6,000 x 1,572
 #>    firstid  wave  ballot    form formwt oversamp sampcode  sample
 #>    <fct>   <dbl> <dbl+l> <dbl+l>  <dbl>    <dbl> <dbl+lb> <dbl+l>
 #>  1 9           1 3 [BAL… 2 [ALT…      1        1      501 9 [200…
@@ -252,27 +246,42 @@ gss_panel06_long
 #> #   acqwkblk <dbl+lbl>, acqwkcoh <dbl+lbl>, acqwkcon <dbl+lbl>, …
 ```
 
-The data object is of class `panel_data`, a type of tibble created by `panelr`. The column names in long format do not have wave identifiers. Rather, `id` and a `wave` variables track the cases:
+The panel data objects were created by `panelr` but are regular tibbles. The column names in long format do not have wave identifiers. Rather,  `firstid` and `wave` variables track the cases. The `firstid` variable is unique for every row and has no missing values. The `id` variable is from the GSS and tracks individuals within waves.
 
 
 ```r
-gss_panel06_long %>% select(fefam)
-#> # Panel data:    6,000 x 3
-#> # entities:      firstid [2000]
-#> # wave variable: wave [1, 2, 3 (3 waves)]
-#>    firstid  wave         fefam
-#>    <fct>   <dbl>     <dbl+lbl>
-#>  1 9           1 NA           
-#>  2 9           2 NA           
-#>  3 9           3 NA           
-#>  4 10          1  2 [AGREE]   
-#>  5 10          2  3 [DISAGREE]
-#>  6 10          3  3 [DISAGREE]
-#>  7 11          1 NA           
-#>  8 11          2 NA           
-#>  9 11          3 NA           
-#> 10 12          1  3 [DISAGREE]
+gss_panel06_long %>% select(firstid, wave, id, sex)
+#> # A tibble: 6,000 x 4
+#>    firstid  wave        id        sex
+#>    <fct>   <dbl> <dbl+lbl>  <dbl+lbl>
+#>  1 9           1         9 2 [FEMALE]
+#>  2 9           2      3001 2 [FEMALE]
+#>  3 9           3      6001 2 [FEMALE]
+#>  4 10          1        10 2 [FEMALE]
+#>  5 10          2      3002 2 [FEMALE]
+#>  6 10          3      6002 2 [FEMALE]
+#>  7 11          1        11 2 [FEMALE]
+#>  8 11          2      3003 2 [FEMALE]
+#>  9 11          3      6003 2 [FEMALE]
+#> 10 12          1        12 1 [MALE]  
 #> # … with 5,990 more rows
+```
+
+We can look at attrition across waves with, e.g.:
+
+
+```r
+gss_panel06_long %>% 
+  select(wave, id) %>%
+  group_by(wave) %>%
+  summarize(observed = n_distinct(id),
+            missing = sum(is.na(id)))
+#> # A tibble: 3 x 3
+#>    wave observed missing
+#>   <dbl>    <int>   <int>
+#> 1     1     2000       0
+#> 2     2     1537     464
+#> 3     3     1277     724
 ```
 
 The documentation tibble for the panel data is called `gss_panel_doc`.

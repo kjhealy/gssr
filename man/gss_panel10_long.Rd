@@ -4,8 +4,7 @@
 \name{gss_panel10_long}
 \alias{gss_panel10_long}
 \title{General Social Survey Survey 2010 Three Wave Panel Data}
-\format{An object of class \code{panel_data} (a tibble produced by
-    the \code{panelr} package) with 6,132  rows and 1,200 columns.
+\format{A tibble produced by with 6,132  rows and 1,200 columns.
     \describe{ The GSS Codebook is the authoritative source for the
     variables in this dataset. It is available at
     \url{http://gss.norc.org/Get-Documentation}. Summary

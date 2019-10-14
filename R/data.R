@@ -27,8 +27,7 @@
 #' File, in long format. Variables are encoded as labelled vectors. See \href{http://gss.norc.org/Get-Documentation}{http://gss.norc.org/Get-Documentation} for full
 #' documentation of the variables, and the `gss_doc` tibble contained in this package.
 #'
-#' @format An object of class \code{panel_data} (a tibble produced by
-#'     the \code{panelr} package) with 6,000 rows and 1,572 columns.
+#' @format A tibble with 6,000 rows and 1,572 columns.
 #'     \describe{ The GSS Codebook is the authoritative source for the
 #'     variables in this dataset. It is available at
 #'     \url{http://gss.norc.org/Get-Documentation}. Summary
@@ -36,7 +35,7 @@
 #'     with this package.  Respondent ids are
 #'     contained in the variable \code{firstid} (from the GSS \code{id\_1}
 #'     variable). Waves (years 2006, 2008, 2010) are contained in the
-#'     \code{wave} variable as 1, 2, and 3.
+#'     \code{wave} variable as 1, 2, and 3. 
 #'     }
 #'
 #' @docType data
@@ -53,8 +52,7 @@
 #' File, in long format. Variables are encoded as labelled vectors. See \href{http://gss.norc.org/Get-Documentation}{http://gss.norc.org/Get-Documentation} for full
 #' documentation of the variables, and the `gss_doc` tibble contained in this package.
 #'
-#' @format An object of class \code{panel_data} (a tibble produced by
-#'     the \code{panelr} package) with 6,069 rows and 1,244 columns.
+#' @format A a tibble with 6,069 rows and 1,244 columns.
 #'     \describe{ The GSS Codebook is the authoritative source for the
 #'     variables in this dataset. It is available at
 #'     \url{http://gss.norc.org/Get-Documentation}. Summary
@@ -79,8 +77,7 @@
 #' File, in long format. Variables are encoded as labelled vectors. See \href{http://gss.norc.org/Get-Documentation}{http://gss.norc.org/Get-Documentation} for full
 #' documentation of the variables, and the `gss_doc` tibble contained in this package.
 #'
-#' @format An object of class \code{panel_data} (a tibble produced by
-#'     the \code{panelr} package) with 6,132  rows and 1,200 columns.
+#' @format A tibble produced by with 6,132  rows and 1,200 columns.
 #'     \describe{ The GSS Codebook is the authoritative source for the
 #'     variables in this dataset. It is available at
 #'     \url{http://gss.norc.org/Get-Documentation}. Summary

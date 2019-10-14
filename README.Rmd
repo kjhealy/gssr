@@ -122,10 +122,20 @@ data(gss_panel06_long)
 gss_panel06_long
 ```
 
-The data object is of class `panel_data`, a type of tibble created by `panelr`. The column names in long format do not have wave identifiers. Rather, `id` and a `wave` variables track the cases:
+The panel data objects were created by `panelr` but are regular tibbles. The column names in long format do not have wave identifiers. Rather,  `firstid` and `wave` variables track the cases. The `firstid` variable is unique for every row and has no missing values. The `id` variable is from the GSS and tracks individuals within waves.
 
-```{r panel-fefam}
-gss_panel06_long %>% select(fefam)
+```{r panel-example}
+gss_panel06_long %>% select(firstid, wave, id, sex)
+```
+
+We can look at attrition across waves with, e.g.:
+
+```{r attrition}
+gss_panel06_long %>% 
+  select(wave, id) %>%
+  group_by(wave) %>%
+  summarize(observed = n_distinct(id),
+            missing = sum(is.na(id)))
 ```
 
 The documentation tibble for the panel data is called `gss_panel_doc`.

@@ -12,7 +12,6 @@ Depends: R (>= 3.5)
 Imports:
     dplyr,
     magrittr,
-    panelr,
     purrr,
     rlang,
     tibble,
@@ -21,6 +20,7 @@ Suggests:
     forcats,
     ggplot2,
     haven,
+    panelr,
     scales,
     stringr,
     survey,
