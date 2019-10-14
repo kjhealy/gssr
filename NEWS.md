@@ -1,3 +1,8 @@
+# gssr 0.2.0
+
+* Created a `drat` repository for `gssr` at <http://kjhealy.github.io/drat>.
+* Added installation instructions covering `drat` to the documentation.
+
 
 # gssr 0.1.0
 
