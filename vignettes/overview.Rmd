@@ -140,7 +140,7 @@ Respondents may answer that they Strongly Agree, Agree, Disagree, or Strongly Di
 
 
 
-## Subset the Data
+### Subset the Data
 
 The GSS data retains labeling information (as it was originally imported via the `haven` package). When working with the data in an analysis, we will probably want to convert the labeled variables to data types such as factors. This should be done with care (and not on the whole dataset all at once). Typically, we will want to focus on some relatively small subset of variables and examine those. For example, let's say we want to explore the `fefam` question. We will subset the data and then prepare that for analysis. Here we are going to subset `gss_sub` into an object called `gss_fam` containing just the variables we want to examine, along with core measures that identify respondents (such as `id` and `year`) and variables necessary for the survey weighting later (such as `wtssall`).
 
@@ -166,7 +166,7 @@ gss_fam
 
 ```
 
-## Recode the Subsetted Data
+### Recode the Subsetted Data
 
 Next, some recoding, along with creating some new variables. We will clean up `gss_fam` a bit, discarding some of the label and missing value information we don't need. We also create some new variables: age quintiles, a variable flagging whether a respondent is 25 or younger, recoded `fefam` to binary "Agree" or "Disagree" (with non-responses dropped). 
 
@@ -212,7 +212,7 @@ gss_fam
 
 ```
 
-## Integrate the Survey Weights 
+### Integrate the Survey Weights 
 
 Nexr, we set up the data so we can properly calculate population means and errors and so on. We use `svyr`'s wrappers to `survey` for this.
 
@@ -237,7 +237,7 @@ The `gss_svy` object contains the same data as `gss_fam`, but incorporates infor
 gss_svy
 ```
 
-## Calculate the survey-weighted statistics
+### Calculate the survey-weighted statistics
 
 We're now in a position to calculate some properly-weighted summary statistics for the variable we're interested in, for every year in the data. 
 
@@ -250,7 +250,7 @@ out_ff <- gss_svy %>%
 out_ff
 ```
 
-## Plot the Results
+### Plot the Results
 
 We finish with a polished plot of the trends in `fefam` over time, for men and women in two (recoded) age groups over time. 
 
