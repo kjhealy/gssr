@@ -1,3 +1,8 @@
+
+# gssr 0.1.0
+
+* Prepped for initial release
+
 # gssr 0.0.0.9000
 
 * Fixed errors in the panel tibbles; removed panelr depenedency; added all three-wave panels

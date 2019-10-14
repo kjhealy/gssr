@@ -1,6 +1,6 @@
 Package: gssr
 Title: US General Social Survey (GSS) Data for R
-Version: 0.0.0.9000
+Version: 0.2.0
 Authors@R: 
     person(given = "Kieran",
            family = "Healy",
@@ -16,7 +16,8 @@ Imports:
     rlang,
     tibble,
     tidyselect
-Suggests: 
+Suggests:
+    drat,
     forcats,
     ggplot2,
     haven,

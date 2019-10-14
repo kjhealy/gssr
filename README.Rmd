@@ -24,7 +24,6 @@ get_badge <- function (pkg, type = c("last-month", "last-week", "grand-total"),
 }
 
 library(tidyverse)
-library(panelr)
 
 ```
 
@@ -41,11 +40,50 @@ The General Social Survey Cumulative Data (1972-2018) and Three Wave Panel Data 
 
 ## Installation
 
+`gssr` is a data package, bundling several datasets into a convenient format. The relatively large size of the data in the package means it is not suitable for hosting on [CRAN](https://cran.r-project.org/), the core R package repository. There are two ways to install it.
+
+### Install direct from GitHub
+
 You can install the beta version of gssr from [GitHub](https://github.com/kjhealy/gssr) with:
 
 ``` r
 devtools::install_github("kjhealy/gssr")
 ```
+
+### Installation using `drat`
+
+While using `install_github()` works just fine, it would be nicer to be able to just type `install.packages("gssr")` or `update.packages("gssr")` in the ordinary way. We can do this using Dirk Eddelbuettel's [drat](http://eddelbuettel.github.io/drat/DratForPackageUsers.html) package. Drat provides a convenient way to make R aware of package repositories other than CRAN.
+
+First, install `drat`:
+
+```{r drat, eval = FALSE}
+if (!require("drat")) {
+    install.packages("drat")
+    library("drat")
+}
+```
+
+Then use `drat` to tell R about the repository where `gssr` is hosted:
+
+```{r drat-gssr}
+drat::addRepo("kjhealy")
+```
+
+You can now install `gssr`:
+
+```{r gssr-drat, eval = FALSE}
+install.packages("gssr")
+```
+
+To ensure that the `gssr` repository is always available, you can add the following line to your `.Rprofile` or `.Rprofile.site` file:
+
+```{r rprofile}
+drat::addRepo("kjhealy", "http://kjhealy.github.io/drat")
+```
+
+With that in place you'll be able to do `install.packages("gssr")` or `update.packages("gssr")` and have everything work as you'd expect. 
+
+Note that the drat repository only contains data packages that are not on CRAN, so you will never be in danger of grabbing the wrong version of any other package.
 
 ## Loading the data
 
