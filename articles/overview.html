@@ -95,7 +95,7 @@
 <div id="introduction" class="section level2">
 <h2 class="hasAnchor">
 <a href="#introduction" class="anchor"></a>Introduction</h2>
-<p>The <a href="http://gss.norc.org">General Social Survey</a>, or GSS, is one of the cornerstones of American social science and one of the most-analyzed datasets in Sociology. It is routinely used in research, in teaching, and as a reference point in discussions about changes in American society since the early 1970s. It is also a model of open, public data. The <a href="http://norc.org">National Opinion Research Center</a> already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the <a href="https://gssdataexplorer.norc.org">GSS Data Explorer</a>, and social scientists can <a href="http://gss.norc.org/Get-The-Data">download complete datasets</a> directly. At present, the GSS is provided to researchers in a choice of two commercial formats, Stata (<code>.dta</code>) and SPSS (<code>.sav</code>). It’s not too difficult to get the data into R (especially now that the <a href="http://haven.tidyverse.org">Haven</a> package is pretty reliable), but it can be a little annoying to have to do it repeatedly. After doing it one too many times, I got tired of it and I made a package instead. The <code>gssr</code> package provides the GSS Cumulative Data File (1972-2018) and the GSS Three Wave Panel Data File (2006-2010), together with their codebooks, in a format that makes it straightforward to get started working with them in R. The <code>gssr</code> package makes the GSS a little more accessible to users of R, the free software environment for statistical computing, and thus helps in a small way to make the GSS even more open than it already is.</p>
+<p>The <a href="http://gss.norc.org">General Social Survey</a>, or GSS, is one of the cornerstones of American social science and one of the most-analyzed datasets in Sociology. It is routinely used in research, in teaching, and as a reference point in discussions about changes in American society since the early 1970s. It is also a model of open, public data. The <a href="http://norc.org">National Opinion Research Center</a> already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the <a href="https://gssdataexplorer.norc.org">GSS Data Explorer</a>, and social scientists can <a href="http://gss.norc.org/Get-The-Data">download complete datasets</a> directly. At present, the GSS is provided to researchers in a choice of two commercial formats, Stata (<code>.dta</code>) and SPSS (<code>.sav</code>). It’s not too difficult to get the data into R (especially now that the <a href="http://haven.tidyverse.org">Haven</a> package is pretty reliable), but it can be a little annoying to have to do it repeatedly. After doing it one too many times, I got tired of it and I made a package instead. The <code>gssr</code> package provides the GSS Cumulative Data File (1972-2018) and three GSS Three Wave Panel Data Files (for panels beginning in 2006, 2008, and 2010, respectively), together with GSS codebooks, in a format that makes it straightforward to get started working with them in R. The <code>gssr</code> package makes the GSS a little more accessible to users of R, the free software environment for statistical computing, and thus helps in a small way to make the GSS even more open than it already is.</p>
 <div id="packages" class="section level3">
 <h3 class="hasAnchor">
 <a href="#packages" class="anchor"></a>Packages</h3>
@@ -448,73 +448,81 @@
 <a class="sourceLine" id="cb15-34" data-line-number="34"><span class="st">  </span><span class="kw"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span>(<span class="dt">legend.position =</span> <span class="st">"bottom"</span>)</a></code></pre></div>
 <p><img src="overview_files/figure-html/fefamplot-1.png" width="768"></p>
 </div>
-<div id="the-gss-three-wave-panel" class="section level2">
+<div id="the-gss-three-wave-panels" class="section level2">
 <h2 class="hasAnchor">
-<a href="#the-gss-three-wave-panel" class="anchor"></a>The GSS Three Wave Panel</h2>
-<p>In addition to the Cumulative Data File, the gssr package also includes the GSS’s panel data. The GSS Three Wave Panel dataset was collected in 2006, 2008, and 2010. The dataset is provided by the GSS in wide format but packaged here in long format. The conversion was carried out using the <a href="https://panelr.jacob-long.com"><code>panelr</code> package</a> and its <code><a href="https://rdrr.io/pkg/panelr/man/long_panel.html">long_panel()</a></code> function. Conversion from long back to wide format is possible with the tools provided in <code>panelr</code>.</p>
-<p>Load the panel data as follows:</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb16-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_panel_long)</a>
+<a href="#the-gss-three-wave-panels" class="anchor"></a>The GSS Three Wave Panels</h2>
+<p>In addition to the Cumulative Data File, the gssr package also includes the GSS’s panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The <code>gssr</code> package provides three datasets, one for each of three-wave panels. They are <code>gss_panel06_long</code>, <code>gss_panel08_long</code>, and <code>gss_panel10_long</code>. The datasets are provided by the GSS in wide format but (as their names suggest) are packaged here in long format. The conversion was carried out using the <a href="https://panelr.jacob-long.com"><code>panelr</code> package</a> and its <code><a href="https://rdrr.io/pkg/panelr/man/long_panel.html">long_panel()</a></code> function. Conversion from long back to wide format is possible with the tools provided in <code>panelr</code>.</p>
+<p>We load the panel data as before. For example:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb16-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_panel06_long)</a>
 <a class="sourceLine" id="cb16-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb16-3" data-line-number="3">gss_panel_long</a>
-<a class="sourceLine" id="cb16-4" data-line-number="4"><span class="co">#&gt; # Panel data:    6,132 x 1,199</span></a>
-<a class="sourceLine" id="cb16-5" data-line-number="5"><span class="co">#&gt; # entities:      id [3596]</span></a>
+<a class="sourceLine" id="cb16-3" data-line-number="3">gss_panel06_long</a>
+<a class="sourceLine" id="cb16-4" data-line-number="4"><span class="co">#&gt; # Panel data:    6,000 x 1,572</span></a>
+<a class="sourceLine" id="cb16-5" data-line-number="5"><span class="co">#&gt; # entities:      firstid [2000]</span></a>
 <a class="sourceLine" id="cb16-6" data-line-number="6"><span class="co">#&gt; # wave variable: wave [1, 2, 3 (3 waves)]</span></a>
-<a class="sourceLine" id="cb16-7" data-line-number="7"><span class="co">#&gt;    id     wave oversamp sampcode  sample    form formwt  vpsu vstrat</span></a>
-<a class="sourceLine" id="cb16-8" data-line-number="8"><span class="co">#&gt;    &lt;fct&gt; &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl+&gt;</span></a>
-<a class="sourceLine" id="cb16-9" data-line-number="9"><span class="co">#&gt;  1 1         1        1      501 9 [200… 2 [ALT…      1     1   2240</span></a>
-<a class="sourceLine" id="cb16-10" data-line-number="10"><span class="co">#&gt;  2 2         1        1      501 9 [200… 1 [STA…      1     1   2240</span></a>
-<a class="sourceLine" id="cb16-11" data-line-number="11"><span class="co">#&gt;  3 3         1        1      501 9 [200… 1 [STA…      1     2   2240</span></a>
-<a class="sourceLine" id="cb16-12" data-line-number="12"><span class="co">#&gt;  4 4         1        1      501 9 [200… 2 [ALT…      1     2   2240</span></a>
-<a class="sourceLine" id="cb16-13" data-line-number="13"><span class="co">#&gt;  5 5         1        1      501 9 [200… 1 [STA…      1     1   2241</span></a>
-<a class="sourceLine" id="cb16-14" data-line-number="14"><span class="co">#&gt;  6 6         1        1      501 9 [200… 1 [STA…      1     1   2241</span></a>
-<a class="sourceLine" id="cb16-15" data-line-number="15"><span class="co">#&gt;  7 7         1        1      501 9 [200… 2 [ALT…      1     1   2241</span></a>
-<a class="sourceLine" id="cb16-16" data-line-number="16"><span class="co">#&gt;  8 8         1        1      501 9 [200… 1 [STA…      1     1   2241</span></a>
-<a class="sourceLine" id="cb16-17" data-line-number="17"><span class="co">#&gt;  9 9         1        1      501 9 [200… 1 [STA…      1     2   2241</span></a>
-<a class="sourceLine" id="cb16-18" data-line-number="18"><span class="co">#&gt; 10 10        1        1      501 9 [200… 2 [ALT…      1     2   2241</span></a>
-<a class="sourceLine" id="cb16-19" data-line-number="19"><span class="co">#&gt; # … with 6,122 more rows, and 1,190 more variables: SAMPTYPE &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-20" data-line-number="20"><span class="co">#&gt; #   wtpan12 &lt;dbl+lbl&gt;, WTPAN123 &lt;dbl+lbl&gt;, wtpannr12 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-21" data-line-number="21"><span class="co">#&gt; #   WTPANNR123 &lt;dbl+lbl&gt;, mar1 &lt;dbl+lbl&gt;, mar2 &lt;dbl+lbl&gt;, mar3 &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-22" data-line-number="22"><span class="co">#&gt; #   mar4 &lt;dbl+lbl&gt;, mar5 &lt;dbl&gt;, mar6 &lt;dbl&gt;, mar7 &lt;dbl&gt;, mar8 &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-23" data-line-number="23"><span class="co">#&gt; #   mar9 &lt;dbl&gt;, mar10 &lt;dbl&gt;, mar11 &lt;dbl+lbl&gt;, mar12 &lt;dbl&gt;, mar13 &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-24" data-line-number="24"><span class="co">#&gt; #   mar14 &lt;dbl&gt;, abany &lt;dbl+lbl&gt;, abdefect &lt;dbl+lbl&gt;, abhlth &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-25" data-line-number="25"><span class="co">#&gt; #   abnomore &lt;dbl+lbl&gt;, abpoor &lt;dbl+lbl&gt;, abrape &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-26" data-line-number="26"><span class="co">#&gt; #   absingle &lt;dbl+lbl&gt;, accntsci &lt;dbl&gt;, acqntsex &lt;dbl&gt;, ACTIVISM &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-27" data-line-number="27"><span class="co">#&gt; #   adults &lt;dbl+lbl&gt;, advfront &lt;dbl+lbl&gt;, affrmact &lt;dbl+lbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-28" data-line-number="28"><span class="co">#&gt; #   age &lt;dbl+lbl&gt;, aged &lt;dbl+lbl&gt;, agekdbrn &lt;dbl+lbl&gt;, ALTMED &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-29" data-line-number="29"><span class="co">#&gt; #   ALTMEDPR &lt;dbl&gt;, ALTSAT &lt;dbl&gt;, ARCHITCT &lt;dbl&gt;, ARTATT &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-30" data-line-number="30"><span class="co">#&gt; #   ARTATT1 &lt;dbl&gt;, ARTATT2 &lt;dbl&gt;, ARTATT3 &lt;dbl&gt;, ARTATT4 &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-31" data-line-number="31"><span class="co">#&gt; #   ARTATT5 &lt;dbl&gt;, ARTCOST &lt;dbl&gt;, ARTEXBT &lt;dbl&gt;, ARTFREE &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-32" data-line-number="32"><span class="co">#&gt; #   ARTGST &lt;dbl&gt;, ARTINT &lt;dbl&gt;, ARTLOC &lt;dbl&gt;, ARTNOGO &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-33" data-line-number="33"><span class="co">#&gt; #   ARTNOGO1 &lt;dbl&gt;, ARTOTHR &lt;dbl&gt;, ARTTIME &lt;dbl&gt;, ARTTRVL &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-34" data-line-number="34"><span class="co">#&gt; #   ARTWHY1 &lt;dbl&gt;, ARTWHY2 &lt;dbl&gt;, ARTWHY3 &lt;dbl&gt;, ARTWHY4 &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-35" data-line-number="35"><span class="co">#&gt; #   ARTWHY5 &lt;dbl&gt;, ARTWHY6 &lt;dbl&gt;, ARTWHY7 &lt;dbl&gt;, ARTWHY8 &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-36" data-line-number="36"><span class="co">#&gt; #   astrolgy &lt;dbl+lbl&gt;, astrosci &lt;dbl+lbl&gt;, attend &lt;dbl+lbl&gt;, away1 &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-37" data-line-number="37"><span class="co">#&gt; #   away11 &lt;dbl&gt;, away2 &lt;dbl&gt;, away3 &lt;dbl&gt;, away4 &lt;dbl&gt;, away5 &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-38" data-line-number="38"><span class="co">#&gt; #   away6 &lt;dbl&gt;, away7 &lt;dbl&gt;, babies &lt;dbl+lbl&gt;, backpain &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-39" data-line-number="39"><span class="co">#&gt; #   ballot &lt;dbl+lbl&gt;, balneg &lt;dbl&gt;, balpos &lt;dbl+lbl&gt;, BBLFAV &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-40" data-line-number="40"><span class="co">#&gt; #   BBLFAV1 &lt;dbl&gt;, BBLSTRY &lt;dbl&gt;, betrlang &lt;dbl&gt;, BETTRLFE &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-41" data-line-number="41"><span class="co">#&gt; #   bible &lt;dbl+lbl&gt;, bigbang &lt;dbl+lbl&gt;, BIGBANG1 &lt;dbl&gt;, BIGBIZ &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-42" data-line-number="42"><span class="co">#&gt; #   biosci &lt;dbl&gt;, bizbstgw &lt;dbl&gt;, BIZBSTNK &lt;dbl&gt;, bizbsttx &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-43" data-line-number="43"><span class="co">#&gt; #   BIZHONST &lt;dbl&gt;, bizinfgw &lt;dbl&gt;, BIZINFNK &lt;dbl&gt;, bizinftx &lt;dbl&gt;,</span></a>
-<a class="sourceLine" id="cb16-44" data-line-number="44"><span class="co">#&gt; #   biznuke &lt;dbl&gt;, BIZPRICE &lt;dbl&gt;, blkwhite &lt;dbl&gt;, …</span></a></code></pre></div>
-<p>The data object is of class <code>panel_data</code>, a type of tibble created by <code>panelr</code>. The column names in long format do not have wave identifiers. Rather, <code>id</code> and <code>wave</code> variables track the cases:</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" data-line-number="1">gss_panel_long <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span>(fefam)</a>
-<a class="sourceLine" id="cb17-2" data-line-number="2"><span class="co">#&gt; # Panel data:    6,132 x 3</span></a>
-<a class="sourceLine" id="cb17-3" data-line-number="3"><span class="co">#&gt; # entities:      id [3596]</span></a>
+<a class="sourceLine" id="cb16-7" data-line-number="7"><span class="co">#&gt;    firstid  wave  ballot    form formwt oversamp sampcode  sample</span></a>
+<a class="sourceLine" id="cb16-8" data-line-number="8"><span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;  &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt;</span></a>
+<a class="sourceLine" id="cb16-9" data-line-number="9"><span class="co">#&gt;  1 9           1 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb16-10" data-line-number="10"><span class="co">#&gt;  2 9           2 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb16-11" data-line-number="11"><span class="co">#&gt;  3 9           3 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb16-12" data-line-number="12"><span class="co">#&gt;  4 10          1 1 [BAL… 1 [STA…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb16-13" data-line-number="13"><span class="co">#&gt;  5 10          2 1 [BAL… 1 [STA…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb16-14" data-line-number="14"><span class="co">#&gt;  6 10          3 1 [BAL… 1 [STA…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb16-15" data-line-number="15"><span class="co">#&gt;  7 11          1 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb16-16" data-line-number="16"><span class="co">#&gt;  8 11          2 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb16-17" data-line-number="17"><span class="co">#&gt;  9 11          3 3 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb16-18" data-line-number="18"><span class="co">#&gt; 10 12          1 1 [BAL… 2 [ALT…      1        1      501 9 [200…</span></a>
+<a class="sourceLine" id="cb16-19" data-line-number="19"><span class="co">#&gt; # … with 5,990 more rows, and 1,564 more variables: samptype &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-20" data-line-number="20"><span class="co">#&gt; #   vstrat &lt;dbl+lbl&gt;, vpsu &lt;dbl+lbl&gt;, wtpan12 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-21" data-line-number="21"><span class="co">#&gt; #   wtpan123 &lt;dbl+lbl&gt;, wtpannr12 &lt;dbl+lbl&gt;, wtpannr123 &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-22" data-line-number="22"><span class="co">#&gt; #   letin1a &lt;dbl+lbl&gt;, abany &lt;dbl+lbl&gt;, abdefect &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-23" data-line-number="23"><span class="co">#&gt; #   abhlth &lt;dbl+lbl&gt;, abnomore &lt;dbl+lbl&gt;, abpoor &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-24" data-line-number="24"><span class="co">#&gt; #   abrape &lt;dbl+lbl&gt;, absingle &lt;dbl+lbl&gt;, accntsci &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-25" data-line-number="25"><span class="co">#&gt; #   acqasian &lt;dbl+lbl&gt;, acqattnd &lt;dbl+lbl&gt;, acqblack &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-26" data-line-number="26"><span class="co">#&gt; #   acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, acqcohab &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-27" data-line-number="27"><span class="co">#&gt; #   acqcon &lt;dbl+lbl&gt;, acqcops &lt;dbl+lbl&gt;, acqdems &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-28" data-line-number="28"><span class="co">#&gt; #   acqelecs &lt;dbl+lbl&gt;, acqfmasn &lt;dbl+lbl&gt;, acqfmblk &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-29" data-line-number="29"><span class="co">#&gt; #   acqfmcoh &lt;dbl+lbl&gt;, acqfmcon &lt;dbl+lbl&gt;, acqfmgay &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-30" data-line-number="30"><span class="co">#&gt; #   acqfmgo &lt;dbl+lbl&gt;, acqfmhme &lt;dbl+lbl&gt;, acqfmhsp &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-31" data-line-number="31"><span class="co">#&gt; #   acqfmlib &lt;dbl+lbl&gt;, acqfmlin &lt;dbl+lbl&gt;, acqfmmrk &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-32" data-line-number="32"><span class="co">#&gt; #   acqfmno &lt;dbl+lbl&gt;, acqfmpri &lt;dbl+lbl&gt;, acqfmune &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-33" data-line-number="33"><span class="co">#&gt; #   acqfmwht &lt;dbl+lbl&gt;, acqgay &lt;dbl+lbl&gt;, acqgoatt &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-34" data-line-number="34"><span class="co">#&gt; #   acqhisp &lt;dbl+lbl&gt;, acqhome &lt;dbl+lbl&gt;, acqjans &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-35" data-line-number="35"><span class="co">#&gt; #   acqjose &lt;dbl+lbl&gt;, acqkaren &lt;dbl+lbl&gt;, acqkeith &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-36" data-line-number="36"><span class="co">#&gt; #   acqkevin &lt;dbl+lbl&gt;, acqlaws &lt;dbl+lbl&gt;, acqlib &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-37" data-line-number="37"><span class="co">#&gt; #   acqlinda &lt;dbl+lbl&gt;, acqmaria &lt;dbl+lbl&gt;, acqmark &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-38" data-line-number="38"><span class="co">#&gt; #   acqmils &lt;dbl+lbl&gt;, acqmyrac &lt;dbl+lbl&gt;, acqnhasn &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-39" data-line-number="39"><span class="co">#&gt; #   acqnhblk &lt;dbl+lbl&gt;, acqnhcoh &lt;dbl+lbl&gt;, acqnhcon &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-40" data-line-number="40"><span class="co">#&gt; #   acqnhgay &lt;dbl+lbl&gt;, acqnhgo &lt;dbl+lbl&gt;, acqnhhme &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-41" data-line-number="41"><span class="co">#&gt; #   acqnhhsp &lt;dbl+lbl&gt;, acqnhlib &lt;dbl+lbl&gt;, acqnhlin &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-42" data-line-number="42"><span class="co">#&gt; #   acqnhmrk &lt;dbl+lbl&gt;, acqnhno &lt;dbl+lbl&gt;, acqnhpri &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-43" data-line-number="43"><span class="co">#&gt; #   acqnhune &lt;dbl+lbl&gt;, acqnhwht &lt;dbl+lbl&gt;, acqnoatt &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-44" data-line-number="44"><span class="co">#&gt; #   acqntsex &lt;dbl+lbl&gt;, acqprisn &lt;dbl+lbl&gt;, acqrachl &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-45" data-line-number="45"><span class="co">#&gt; #   acqreps &lt;dbl+lbl&gt;, acqshawn &lt;dbl+lbl&gt;, acqsocs &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-46" data-line-number="46"><span class="co">#&gt; #   acqunemp &lt;dbl+lbl&gt;, acqvaasn &lt;dbl+lbl&gt;, acqvablk &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-47" data-line-number="47"><span class="co">#&gt; #   acqvacoh &lt;dbl+lbl&gt;, acqvacon &lt;dbl+lbl&gt;, acqvagay &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-48" data-line-number="48"><span class="co">#&gt; #   acqvago &lt;dbl+lbl&gt;, acqvahme &lt;dbl+lbl&gt;, acqvahsp &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-49" data-line-number="49"><span class="co">#&gt; #   acqvalib &lt;dbl+lbl&gt;, acqvalin &lt;dbl+lbl&gt;, acqvamrk &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-50" data-line-number="50"><span class="co">#&gt; #   acqvano &lt;dbl+lbl&gt;, acqvapri &lt;dbl+lbl&gt;, acqvaune &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-51" data-line-number="51"><span class="co">#&gt; #   acqvawht &lt;dbl+lbl&gt;, acqwhite &lt;dbl+lbl&gt;, acqwkasn &lt;dbl+lbl&gt;,</span></a>
+<a class="sourceLine" id="cb16-52" data-line-number="52"><span class="co">#&gt; #   acqwkblk &lt;dbl+lbl&gt;, acqwkcoh &lt;dbl+lbl&gt;, acqwkcon &lt;dbl+lbl&gt;, …</span></a></code></pre></div>
+<p>The panel data objects are of class <code>panel_data</code>, a type of tibble created by <code>panelr</code>. The column names in long format do not have wave identifiers. Rather, <code>firstid</code> and <code>wave</code> variables track the cases:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb17-1" data-line-number="1">gss_panel06_long <span class="op">%&gt;%</span><span class="st"> </span><span class="kw"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span>(sex, race)</a>
+<a class="sourceLine" id="cb17-2" data-line-number="2"><span class="co">#&gt; # Panel data:    6,000 x 4</span></a>
+<a class="sourceLine" id="cb17-3" data-line-number="3"><span class="co">#&gt; # entities:      firstid [2000]</span></a>
 <a class="sourceLine" id="cb17-4" data-line-number="4"><span class="co">#&gt; # wave variable: wave [1, 2, 3 (3 waves)]</span></a>
-<a class="sourceLine" id="cb17-5" data-line-number="5"><span class="co">#&gt;    id     wave                  fefam</span></a>
-<a class="sourceLine" id="cb17-6" data-line-number="6"><span class="co">#&gt;    &lt;fct&gt; &lt;dbl&gt;              &lt;dbl+lbl&gt;</span></a>
-<a class="sourceLine" id="cb17-7" data-line-number="7"><span class="co">#&gt;  1 1         1 NA                    </span></a>
-<a class="sourceLine" id="cb17-8" data-line-number="8"><span class="co">#&gt;  2 2         1  4 [STRONGLY DISAGREE]</span></a>
-<a class="sourceLine" id="cb17-9" data-line-number="9"><span class="co">#&gt;  3 3         1  2 [AGREE]            </span></a>
-<a class="sourceLine" id="cb17-10" data-line-number="10"><span class="co">#&gt;  4 4         1  3 [DISAGREE]         </span></a>
-<a class="sourceLine" id="cb17-11" data-line-number="11"><span class="co">#&gt;  5 5         1 NA                    </span></a>
-<a class="sourceLine" id="cb17-12" data-line-number="12"><span class="co">#&gt;  6 6         1  2 [AGREE]            </span></a>
-<a class="sourceLine" id="cb17-13" data-line-number="13"><span class="co">#&gt;  7 7         1 NA                    </span></a>
-<a class="sourceLine" id="cb17-14" data-line-number="14"><span class="co">#&gt;  8 8         1  3 [DISAGREE]         </span></a>
-<a class="sourceLine" id="cb17-15" data-line-number="15"><span class="co">#&gt;  9 9         1 NA                    </span></a>
-<a class="sourceLine" id="cb17-16" data-line-number="16"><span class="co">#&gt; 10 10        1  4 [STRONGLY DISAGREE]</span></a>
-<a class="sourceLine" id="cb17-17" data-line-number="17"><span class="co">#&gt; # … with 6,122 more rows</span></a></code></pre></div>
+<a class="sourceLine" id="cb17-5" data-line-number="5"><span class="co">#&gt;    firstid  wave        sex      race</span></a>
+<a class="sourceLine" id="cb17-6" data-line-number="6"><span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt;  &lt;dbl+lbl&gt; &lt;dbl+lbl&gt;</span></a>
+<a class="sourceLine" id="cb17-7" data-line-number="7"><span class="co">#&gt;  1 9           1 2 [FEMALE] 2 [BLACK]</span></a>
+<a class="sourceLine" id="cb17-8" data-line-number="8"><span class="co">#&gt;  2 9           2 2 [FEMALE] 3 [OTHER]</span></a>
+<a class="sourceLine" id="cb17-9" data-line-number="9"><span class="co">#&gt;  3 9           3 2 [FEMALE] 2 [BLACK]</span></a>
+<a class="sourceLine" id="cb17-10" data-line-number="10"><span class="co">#&gt;  4 10          1 2 [FEMALE] 3 [OTHER]</span></a>
+<a class="sourceLine" id="cb17-11" data-line-number="11"><span class="co">#&gt;  5 10          2 2 [FEMALE] 3 [OTHER]</span></a>
+<a class="sourceLine" id="cb17-12" data-line-number="12"><span class="co">#&gt;  6 10          3 2 [FEMALE] 1 [WHITE]</span></a>
+<a class="sourceLine" id="cb17-13" data-line-number="13"><span class="co">#&gt;  7 11          1 2 [FEMALE] 2 [BLACK]</span></a>
+<a class="sourceLine" id="cb17-14" data-line-number="14"><span class="co">#&gt;  8 11          2 2 [FEMALE] 2 [BLACK]</span></a>
+<a class="sourceLine" id="cb17-15" data-line-number="15"><span class="co">#&gt;  9 11          3 2 [FEMALE] 2 [BLACK]</span></a>
+<a class="sourceLine" id="cb17-16" data-line-number="16"><span class="co">#&gt; 10 12          1 1 [MALE]   2 [BLACK]</span></a>
+<a class="sourceLine" id="cb17-17" data-line-number="17"><span class="co">#&gt; # … with 5,990 more rows</span></a></code></pre></div>
 <p>The documentation tibble for the panel data is called <code>gss_panel_doc</code>.</p>
 <div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb18-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(gss_panel_doc)</a>
 <a class="sourceLine" id="cb18-2" data-line-number="2"></a>
@@ -571,7 +579,7 @@
       <li><a href="#integrate-the-survey-weights">Integrate the Survey Weights</a></li>
       <li><a href="#calculate-the-survey-weighted-statistics">Calculate the survey-weighted statistics</a></li>
       <li><a href="#plot-the-results">Plot the Results</a></li>
-      <li><a href="#the-gss-three-wave-panel">The GSS Three Wave Panel</a></li>
+      <li><a href="#the-gss-three-wave-panels">The GSS Three Wave Panels</a></li>
       <li><a href="#references">References</a></li>
       </ul>
 </div>
