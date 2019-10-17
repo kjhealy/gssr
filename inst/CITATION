@@ -8,7 +8,7 @@ bibentry(
            role = c("aut", "cre"),
            email = "kjhealy@soc.duke.edu"),
   year     = "2019",
-  note     = "R package version 0.0.0.900",
+  note     = "R package version 0.2.0",
   url      = "http://kjhealy.github.io/gssr",
   key      = "gssr"
 )
