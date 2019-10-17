@@ -1,0 +1,14 @@
+citHeader("To cite gssr in publications use:")
+
+bibentry(
+  bibtype  = "Manual",
+  title    = "gssr: General Social Survey data for use in R",
+  author   = person(given = "Kieran",
+           family = "Healy",
+           role = c("aut", "cre"),
+           email = "kjhealy@soc.duke.edu")),
+  year     = "2019",
+  note     = "R package version 0.0.0.900",
+  url      = "http://kjhealy.github.io/gssr",
+  key      = "gssr"
+)
