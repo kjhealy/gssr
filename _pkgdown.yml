@@ -2,28 +2,42 @@ destination: docs
 authors:
   Kieran Healy:
     href: http://kieranhealy.org
+
+url: https://kjhealy.github.io/gssr
+
 template:
   params:
     bootswatch: cosmo
+
 reference:
   - title: "Datasets"
     desc: >
       Included datasets.
     contents:
       - gss_all
-      - gss_doc      
+      - gss_doc
       - gss_panel_doc
       - gss_panel06_long
       - gss_panel08_long
-      - gss_panel10_long      
+      - gss_panel10_long
       - gss_sub
   - title: "Functions"
     desc: Package functions.
     contents:
       - gss_get_marginals
       - gss_get_props
-      
+
 navbar:
   right:
    - icon: fa-github
      href: https://github.com/kjhealy/gssr
+
+figures:
+  dev: grDevices::png
+  dpi: 200
+  dev.args: []
+  fig.ext: png
+  fig.width: 7.2916667
+  fig.height: ~
+  fig.retina: 2
+  fig.asp: 1.618

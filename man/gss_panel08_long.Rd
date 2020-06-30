@@ -4,7 +4,8 @@
 \name{gss_panel08_long}
 \alias{gss_panel08_long}
 \title{General Social Survey Survey 2008 Three Wave Panel Data}
-\format{A tibble with 6,069 rows and 1,244 columns. The GSS
+\format{
+A tibble with 6,069 rows and 1,244 columns. The GSS
     Codebook is the authoritative source for the variables in this
     dataset. It is available at
     \url{\code{http://gss.norc.org/Get-Documentation}}. Summary
@@ -12,7 +13,10 @@
     supplied with this package. Respondent ids are contained in the
     variable \code{firstid} (from the GSS \code{id_1} variable).
     Survey waves (years 2008, 2010, 2012) are indicated by the
-    \code{wave} variable as 1, 2, and 3.}
+    \code{wave} variable as 1, 2, and 3.
+
+A tibble.
+}
 \source{
 National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
 }

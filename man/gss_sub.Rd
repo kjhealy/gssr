@@ -4,7 +4,8 @@
 \name{gss_sub}
 \alias{gss_sub}
 \title{GSS Cumulative Data File 1972-2018, Vignette Example}
-\format{A tibble with 64,814 rows and 14 columns.
+\format{
+A tibble with 64,814 rows and 14 columns.
 \describe{
 \item{\code{year}}{Year of the survey.}
 \item{\code{id}}{Respondent id.}
@@ -20,12 +21,13 @@
 \item{\code{wtssall}}{Survey weight}
 \item{\code{sampcode}}{Sampling error code}
 \item{\code{sample}}{Sampling frame and method}
-}}
+}
+}
 \source{
 National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
 }
 \usage{
-gss_sub
+data(gss_sub)
 }
 \description{
 A tibble containing just a few variables from the GSS

@@ -101,7 +101,7 @@
 #' Cumulative Data File. See http://gss.norc.org/Get-Documentation for full
 #' documentation of the variables.
 #'
-#' @format A tibble with 6,114 rows and five columns.
+#' @format A tibble with `r fmt_nr(gss_doc)` rows and `r fmt_nc(gss_doc)` columns.
 #' \describe{
 #' \item{\code{id}}{The short name of the variable. A character vector.}
 #' \item{\code{description}}{Brief description of the variable. A
@@ -116,6 +116,7 @@
 #'}
 #'
 #' @docType data
+#' @usage data(gss_doc)
 #' @keywords datasets
 #' @name gss_doc
 #' @source National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
@@ -147,6 +148,7 @@
 #'}
 #'
 #' @docType data
+#' @usage data(gss_panel_doc)
 #' @keywords datasets
 #' @name gss_panel_doc
 #' @source National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
@@ -178,6 +180,7 @@
 #'}
 #'
 #' @docType data
+#' @usage data(gss_sub)
 #' @keywords datasets
 #' @name gss_sub
 #' @source National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.

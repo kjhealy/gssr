@@ -4,7 +4,8 @@
 \name{gss_doc}
 \alias{gss_doc}
 \title{Codebook for the GSS Cumulative Data File 1972-2018}
-\format{A tibble with 6,114 rows and five columns.
+\format{
+A tibble with `r fmt_nr(gss_doc)` rows and `r fmt_nc(gss_doc)` columns.
 \describe{
 \item{\code{id}}{The short name of the variable. A character vector.}
 \item{\code{description}}{Brief description of the variable. A
@@ -16,12 +17,13 @@ record/column location.}
 values taken by the variable.}
 \item{\code{text}}{Further more detailed information on the
 question asked and the directions provided.}
-}}
+}
+}
 \source{
 National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
 }
 \usage{
-gss_doc
+data(gss_doc)
 }
 \description{
 A tibble containing information on the variable in the GSS

@@ -4,10 +4,14 @@
 \name{gss_all}
 \alias{gss_all}
 \title{General Social Survey Survey Cumulative Data File 1972-2018}
-\format{An object of class \code{tibble} with 64,814 rows and 6,108 columns.
+\format{
+An object of class \code{tibble} with 64,814 rows and 6,108 columns.
 \describe{
 The GSS Codebook is the authoritative source for the variables in
-}}
+}
+
+A tibble.
+}
 \source{
 National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
 }

@@ -4,7 +4,8 @@
 \name{gss_panel_doc}
 \alias{gss_panel_doc}
 \title{Codebook for the GSS Three Wave Panel}
-\format{A tibble with 1,855 rows and five columns.
+\format{
+A tibble with 1,855 rows and five columns.
 \describe{
 \item{\code{id}}{The short name of the variable, in the panel's
     wide-format naming convention. A character vector.}
@@ -17,12 +18,13 @@ record/column location.}
 values taken by the variable.}
 \item{\code{text}}{Further more detailed information on the
 question asked and the directions provided.}
-}}
+}
+}
 \source{
 National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
 }
 \usage{
-gss_panel_doc
+data(gss_panel_doc)
 }
 \description{
 A tibble containing information on the variable in the GSS
