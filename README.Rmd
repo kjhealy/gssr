@@ -89,24 +89,23 @@ Note that the drat repository only contains data packages that are not on CRAN, 
 
 ### The Cumulative Data File
 
-The GSS cumulative data file is rather large, and so it is not loaded by default when you invoke the package. (That is, we don't use R's "lazy loading" facility.) To load the data, do the following:
+The GSS cumulative data file is large. It is not loaded by default when you invoke the package. (That is, `gssr` does not use R's "lazy loading" facility. The data file is too big to have use this without error.) To load one of the datasets, first load the library and then use `data()` to make the data available. For example, load the cumulative GSS file like this:
 
 ```{r load}
 library(gssr)
 data(gss_all)
 ```
 
+This will take a moment. Once it is ready, the `gss_all` object is available to use in the usual way:
+
 ```{r peek}
-
 gss_all
-
 ```
 
 To load the tibble that contains information on the variables in the data, do this:
 
 ```{r load-doc}
 data(gss_doc)
-
 gss_doc
 ```
 
@@ -152,7 +151,9 @@ gss_get_props(varnames = c("race", "sex"))
 
 ## Panel Data
 
-In addition to the Cumulative Data File, the gssr package also includes the GSS's panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The `gssr` package provides three datasets, one for each of three-wave panels. They are `gss_panel06_long`, `gss_panel08_long`, and `gss_panel10_long`.  The datasets are provided by the GSS in wide format but (as their names suggest) are packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Conversion from long back to wide format is possible with the tools provided in `panelr`.
+In addition to the Cumulative Data File, the gssr package also includes the GSS's panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The `gssr` package provides three datasets, one for each of three-wave panels. They are `gss_panel06_long`, `gss_panel08_long`, and `gss_panel10_long`.  The datasets are provided by the GSS in wide format but (as their names suggest) they are packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Conversion from long back to wide format is possible with the tools provided in `panelr`.
+
+The panel data objects must be loaded in the same way as the cumulative data file.
 
 ```{r panel}
 data(gss_panel06_long)
@@ -160,10 +161,13 @@ data(gss_panel06_long)
 gss_panel06_long
 ```
 
-The panel data objects were created by `panelr` but are regular tibbles. The column names in long format do not have wave identifiers. Rather,  `firstid` and `wave` variables track the cases. The `firstid` variable is unique for every row and has no missing values. The `id` variable is from the GSS and tracks individuals within waves.
+Although the panel data objects were created by `panelr`, they are regular tibbles. You do not need to use `panelr` to work with the data.
+
+The column names in long format do not have wave identifiers. Rather,  `firstid` and `wave` variables track the cases. The `firstid` variable is unique for every respondent in the panel and has no missing values. The `wave` variable indexes responses from a given `firstid` panelist in each wave (if observed). The `id` variable is from the GSS and indexes individuals within waves.
 
 ```{r panel-example}
-gss_panel06_long %>% select(firstid, wave, id, sex)
+gss_panel08_long %>% 
+  select(firstid, wave, id, sex)
 ```
 
 We can look at attrition across waves with, e.g.:
@@ -184,7 +188,7 @@ data(gss_panel_doc)
 gss_panel_doc
 ```
 
-Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes `_1`, `_2`, and `_3`, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`.
+Because it was created from the main GSS codebook, it is in wide format. The time-varying variables have wave identifiers. The identifiers are the suffixes `_1`, `_2`, and `_3`, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`.
 
 ```{r paneldocfun}
 gss_get_marginals(varnames = c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)

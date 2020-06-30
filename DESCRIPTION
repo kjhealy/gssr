@@ -22,7 +22,6 @@ Suggests:
     forcats,
     ggplot2,
     haven,
-    panelr,
     scales,
     stringr,
     survey,
