@@ -8,7 +8,7 @@
 A tibble with 1,855 rows and five columns.
 \describe{
 \item{\code{id}}{The short name of the variable, in the panel's
-    wide-format naming convention. A character vector.}
+wide-format naming convention. A character vector.}
 \item{\code{description}}{Brief description of the variable. A
 character vector.}
 \item{\code{properties}}{A list column containing information on

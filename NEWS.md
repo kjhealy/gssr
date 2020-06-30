@@ -1,3 +1,8 @@
+# gssr 0.2.1
+
+* Moved from Travis CI to GitHub Actions for build testing.
+* Minor warnings resolved.
+
 # gssr 0.2.0
 
 * Created a `drat` repository for `gssr` at <http://kjhealy.github.io/drat>.

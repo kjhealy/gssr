@@ -101,7 +101,7 @@
 #' Cumulative Data File. See http://gss.norc.org/Get-Documentation for full
 #' documentation of the variables.
 #'
-#' @format A tibble with `r fmt_nr(gss_doc)` rows and `r fmt_nc(gss_doc)` columns.
+#' @format A tibble with `r fmt_nr(data(gss_doc))` rows and `r fmt_nc(data(gss_doc))` columns.
 #' \describe{
 #' \item{\code{id}}{The short name of the variable. A character vector.}
 #' \item{\code{description}}{Brief description of the variable. A

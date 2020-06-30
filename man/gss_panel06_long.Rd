@@ -6,14 +6,14 @@
 \title{General Social Survey Survey 2006 Three Wave Panel Data}
 \format{
 A tibble with 6,000 rows and 1,572 columns. The GSS
-    Codebook is the authoritative source for the variables in this
-    dataset. It is available at
-    \url{http://gss.norc.org/Get-Documentation}. Summary
-    information is available in \code{gss_panel_doc}, a tibble
-    supplied with this package. Respondent ids are contained in the
-    variable \code{firstid} (from the GSS \code{id\_1} variable).
-    Survey waves (years 2008, 2010, 2012) are contained in the
-    \code{wave} variable as 1, 2, and 3.
+Codebook is the authoritative source for the variables in this
+dataset. It is available at
+\url{http://gss.norc.org/Get-Documentation}. Summary
+information is available in \code{gss_panel_doc}, a tibble
+supplied with this package. Respondent ids are contained in the
+variable \code{firstid} (from the GSS \code{id\_1} variable).
+Survey waves (years 2008, 2010, 2012) are contained in the
+\code{wave} variable as 1, 2, and 3.
 
 A tibble.
 }
@@ -26,6 +26,6 @@ data(gss_panel06_long)
 \description{
 A tibble containing the General Social Survey 2006 Three Wave Panel Data
 File, in long format. Variables are encoded as labelled vectors. See \href{http://gss.norc.org/Get-Documentation}{http://gss.norc.org/Get-Documentation} for full
-documentation of the variables, and the `gss_doc` tibble contained in this package.
+documentation of the variables, and the \code{gss_doc} tibble contained in this package.
 }
 \keyword{datasets}

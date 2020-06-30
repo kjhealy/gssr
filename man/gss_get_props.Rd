@@ -21,8 +21,8 @@ Property information for a GSS variable or variables
 }
 \details{
 Returns the properties of a GSS variable as given in the codebook,
-    typically the Data Type, Missing Data Codes, and Record/Column
-    location.
+typically the Data Type, Missing Data Codes, and Record/Column
+location.
 }
 \examples{
 data(gss_doc)

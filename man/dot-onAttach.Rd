@@ -19,7 +19,7 @@ Message
 }
 \details{
 A message shown when attaching the package, to make clear what the
-    main data objects are.
+main data objects are.
 }
 \author{
 Kieran Healy

@@ -5,7 +5,7 @@
 \alias{gss_doc}
 \title{Codebook for the GSS Cumulative Data File 1972-2018}
 \format{
-A tibble with `r fmt_nr(gss_doc)` rows and `r fmt_nc(gss_doc)` columns.
+A tibble with  rows and  columns.
 \describe{
 \item{\code{id}}{The short name of the variable. A character vector.}
 \item{\code{description}}{Brief description of the variable. A
