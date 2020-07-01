@@ -25,10 +25,12 @@ typically the Data Type, Missing Data Codes, and Record/Column
 location.
 }
 \examples{
+\donttest{
 data(gss_doc)
 gss_get_props(varnames = "age")
 
 gss_get_props(varnames = c("age", "race", "fefam"))
+}
 }
 \author{
 Kieran Healy

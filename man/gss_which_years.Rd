@@ -18,7 +18,8 @@ A tibble showing whether the question or questions were asked in each of the GSS
 What years was a particular question asked in the GSS?
 }
 \examples{
-\dontrun{
+\donttest{
+data(gss_all)
 gss_all \%>\%
   gss_which_years(fefam)
 

@@ -23,10 +23,12 @@ Get marginal summaries for a GSS variable or variables
 Codebook summaries from the \code{gss_doc} object
 }
 \examples{
+\donttest{
 data(gss_doc)
 gss_get_marginals(varnames = "race")
 
 gss_get_marginals(varnames = c("race", "gender", "fefam"))
+}
 }
 \author{
 Kieran Healy

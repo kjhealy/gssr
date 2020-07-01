@@ -62,10 +62,12 @@ fmt_nr <- function(x){
 ##' @return A tibble of marginal distributions from the GSS codebook
 ##' @author Kieran Healy
 ##' @examples
+##' \donttest{
 ##' data(gss_doc)
 ##' gss_get_marginals(varnames = "race")
 ##'
 ##' gss_get_marginals(varnames = c("race", "gender", "fefam"))
+##' }
 ##' @export
 gss_get_marginals <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
@@ -89,10 +91,12 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 ##' @return A tibble of the properies for each variable
 ##' @author Kieran Healy
 ##' @examples
+##' \donttest{
 ##' data(gss_doc)
 ##' gss_get_props(varnames = "age")
 ##'
 ##' gss_get_props(varnames = c("age", "race", "fefam"))
+##' }
 ##' @export
 gss_get_props <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
@@ -123,7 +127,8 @@ get_asked <- function(x) {
 #' @export
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
+#' data(gss_all)
 #' gss_all %>%
 #'   gss_which_years(fefam)
 #'
