@@ -5,12 +5,7 @@
 \alias{gss_all}
 \title{General Social Survey Survey Cumulative Data File 1972-2018}
 \format{
-An object of class \code{tibble} with 64,814 rows and 6,108 columns.
-\describe{
-The GSS Codebook is the authoritative source for the variables in
-}
-
-A tibble.
+An object of class \code{tibble} with 64,814 rows and 6,108 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at \url{http://gss.norc.org/Get-Documentation}. Summary information is available in \code{gss_doc}, a tibble supplied with this package.
 }
 \source{
 National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
@@ -20,7 +15,5 @@ data(gss_all)
 }
 \description{
 A tibble containing the General Social Survey Cumulative Data file.
-Variables are encoded as labelled vectors. See \href{http://gss.norc.org/Get-Documentation}{http://gss.norc.org/Get-Documentation} for full
-documentation of the variables, and the \code{gss_doc} tibble contained in this package.
 }
 \keyword{datasets}
