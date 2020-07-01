@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Property information for a GSS variable or variables — gss_get_props • gssr</title>
+<title>What years was a particular question asked in the GSS? — gss_which_years • gssr</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Property information for a GSS variable or variables — gss_get_props" />
-<meta property="og:description" content="Property information for a GSS variable or variables" />
+<meta property="og:title" content="What years was a particular question asked in the GSS? — gss_which_years" />
+<meta property="og:description" content="What years was a particular question asked in the GSS?" />
 
 
 
@@ -123,64 +123,42 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Property information for a GSS variable or variables</h1>
+    <h1>What years was a particular question asked in the GSS?</h1>
     <small class="dont-index">Source: <a href='https://github.com/kjhealy/gssr/blob/master/R/gssr-package.R'><code>R/gssr-package.R</code></a></small>
-    <div class="hidden name"><code>gss_get_props.Rd</code></div>
+    <div class="hidden name"><code>gss_which_years.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Property information for a GSS variable or variables</p>
+    <p>What years was a particular question asked in the GSS?</p>
     </div>
 
-    <pre class="usage"><span class='fu'><a href='https://rdrr.io/pkg/gssr/man/gss_get_props.html'>gss_get_props</a></span>(varnames = <span class='st'>"id"</span>, data = <span class='kw'>gss_doc</span>)</pre>
+    <pre class="usage"><span class='fu'><a href='https://rdrr.io/pkg/gssr/man/gss_which_years.html'>gss_which_years</a></span>(<span class='kw'>data</span>, <span class='kw'>variable</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>varnames</th>
-      <td><p>The variable or variables you want
-to see properties for. Can be a character string or a character
-vector.</p></td>
+      <th>data</th>
+      <td><p>A tibble of data, usually gss_all</p></td>
     </tr>
     <tr>
-      <th>data</th>
-      <td><p>The codebook data frame, by default <code>gss_doc</code></p></td>
+      <th>variable</th>
+      <td><p>The variable or variables we want to check. Provide variables in tidyselect style, i.e. unquoted, and for multiple variables enclose unquoted in c()</p></td>
     </tr>
     </table>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>A tibble of the properies for each variable</p>
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
-    <p>Returns the properties of a GSS variable as given in the codebook,
-typically the Data Type, Missing Data Codes, and Record/Column
-location.</p>
-    <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
-
-    <p>Kieran Healy</p>
+    <p>A tibble showing whether the question or questions were asked in each of the GSS years</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='kw'>gss_doc</span>)
-<span class='fu'><a href='https://rdrr.io/pkg/gssr/man/gss_get_props.html'>gss_get_props</a></span>(varnames = <span class='st'>"age"</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 3 x 4</span><span>
-#&gt;   variable property           value     id   
-#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>
-#&gt; </span><span style='color: #555555;'>1</span><span> age      Data type          numeric   AGE  
-#&gt; </span><span style='color: #555555;'>2</span><span> age      Missing-data codes 0,98,99   AGE  
-#&gt; </span><span style='color: #555555;'>3</span><span> age      Record/columns     1/233-234 AGE  </div><div class='input'>
-<span class='fu'><a href='https://rdrr.io/pkg/gssr/man/gss_get_props.html'>gss_get_props</a></span>(varnames = <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"age"</span>, <span class='st'>"race"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 9 x 4</span><span>
-#&gt;   variable property           value     id   
-#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>
-#&gt; </span><span style='color: #555555;'>1</span><span> age      Data type          numeric   AGE  
-#&gt; </span><span style='color: #555555;'>2</span><span> age      Missing-data codes 0,98,99   AGE  
-#&gt; </span><span style='color: #555555;'>3</span><span> age      Record/columns     1/233-234 AGE  
-#&gt; </span><span style='color: #555555;'>4</span><span> race     Data type          numeric   RACE 
-#&gt; </span><span style='color: #555555;'>5</span><span> race     Missing-data code  0         RACE 
-#&gt; </span><span style='color: #555555;'>6</span><span> race     Record/column      1/298     RACE 
-#&gt; </span><span style='color: #555555;'>7</span><span> fefam    Data type          numeric   FEFAM
-#&gt; </span><span style='color: #555555;'>8</span><span> fefam    Missing-data codes 0,8,9     FEFAM
-#&gt; </span><span style='color: #555555;'>9</span><span> fefam    Record/column      1/1114    FEFAM</div></span></pre>
+    <pre class="examples"><div class='input'><span class='co'>if</span> (<span class='fl'>FALSE</span>) {
+<span class='kw'>gss_all</span> <span class='op'>%&gt;%</span>
+  <span class='fu'><a href='https://rdrr.io/pkg/gssr/man/gss_which_years.html'>gss_which_years</a></span>(<span class='kw'>fefam</span>)
+
+<span class='kw'>gss_all</span> <span class='op'>%&gt;%</span>
+  <span class='fu'><a href='https://rdrr.io/pkg/gssr/man/gss_which_years.html'>gss_which_years</a></span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='kw'>industry</span>, <span class='kw'>indus80</span>, <span class='kw'>wrkgovt</span>, <span class='kw'>commute</span>))
+}</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

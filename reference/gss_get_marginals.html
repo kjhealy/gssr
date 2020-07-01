@@ -161,32 +161,28 @@ vector.</p></td>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='kw'>gss_doc</span>)
-<span class='fu'><a href='https://rdrr.io/pkg/gssr/man/gss_get_marginals.html'>gss_get_marginals</a></span>(varnames = <span class='st'>"race"</span>)</div><div class='output co'>#&gt; <span class='message'>New names:</span>
-#&gt; <span class='message'>* id -&gt; id...1</span>
-#&gt; <span class='message'>* id -&gt; id...6</span></div><div class='output co'>#&gt; <span class='warning'>Warning: Unknown columns: `id1`</span></div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 4 x 6</span><span>
-#&gt;   id...1 percent     n value label id...6
-#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> 
-#&gt; </span><span style='color: #555555;'>1</span><span> race      80.3 </span><span style='text-decoration: underline;'>52</span><span>033 1     WHITE RACE  
-#&gt; </span><span style='color: #555555;'>2</span><span> race      14.2  </span><span style='text-decoration: underline;'>9</span><span>187 2     BLACK RACE  
-#&gt; </span><span style='color: #555555;'>3</span><span> race       5.5  </span><span style='text-decoration: underline;'>3</span><span>594 3     OTHER RACE  
-#&gt; </span><span style='color: #555555;'>4</span><span> race     100   </span><span style='text-decoration: underline;'>64</span><span>814 </span><span style='color: #BB0000;'>NA</span><span>    Total RACE  </div><div class='input'>
-<span class='fu'><a href='https://rdrr.io/pkg/gssr/man/gss_get_marginals.html'>gss_get_marginals</a></span>(varnames = <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"race"</span>, <span class='st'>"gender"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; <span class='message'>New names:</span>
-#&gt; <span class='message'>* id -&gt; id...1</span>
-#&gt; <span class='message'>* id -&gt; id...6</span></div><div class='output co'>#&gt; <span class='warning'>Warning: Unknown columns: `id1`</span></div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 12 x 6</span><span>
-#&gt;    id...1 percent     n value label             id...6
-#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>             </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> 
-#&gt; </span><span style='color: #555555;'> 1</span><span> race      80.3 </span><span style='text-decoration: underline;'>52</span><span>033 1     WHITE             RACE  
-#&gt; </span><span style='color: #555555;'> 2</span><span> race      14.2  </span><span style='text-decoration: underline;'>9</span><span>187 2     BLACK             RACE  
-#&gt; </span><span style='color: #555555;'> 3</span><span> race       5.5  </span><span style='text-decoration: underline;'>3</span><span>594 3     OTHER             RACE  
-#&gt; </span><span style='color: #555555;'> 4</span><span> race     100   </span><span style='text-decoration: underline;'>64</span><span>814 </span><span style='color: #BB0000;'>NA</span><span>    Total             RACE  
-#&gt; </span><span style='color: #555555;'> 5</span><span> fefam      8.5  </span><span style='text-decoration: underline;'>2</span><span>543 1     STRONGLY AGREE    FEFAM 
-#&gt; </span><span style='color: #555555;'> 6</span><span> fefam     29.9  </span><span style='text-decoration: underline;'>8</span><span>992 2     AGREE             FEFAM 
-#&gt; </span><span style='color: #555555;'> 7</span><span> fefam     43.4 </span><span style='text-decoration: underline;'>13</span><span>061 3     DISAGREE          FEFAM 
-#&gt; </span><span style='color: #555555;'> 8</span><span> fefam     18.2  </span><span style='text-decoration: underline;'>5</span><span>479 4     STRONGLY DISAGREE FEFAM 
-#&gt; </span><span style='color: #555555;'> 9</span><span> fefam     </span><span style='color: #BB0000;'>NA</span><span>   </span><span style='text-decoration: underline;'>34</span><span>111 0     IAP               FEFAM 
-#&gt; </span><span style='color: #555555;'>10</span><span> fefam     </span><span style='color: #BB0000;'>NA</span><span>     534 8     DK                FEFAM 
-#&gt; </span><span style='color: #555555;'>11</span><span> fefam     </span><span style='color: #BB0000;'>NA</span><span>      94 9     </span><span style='color: #BB0000;'>NA</span><span>                FEFAM 
-#&gt; </span><span style='color: #555555;'>12</span><span> fefam    100   </span><span style='text-decoration: underline;'>64</span><span>814 </span><span style='color: #BB0000;'>NA</span><span>    Total             FEFAM </div></span></pre>
+<span class='fu'><a href='https://rdrr.io/pkg/gssr/man/gss_get_marginals.html'>gss_get_marginals</a></span>(varnames = <span class='st'>"race"</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 4 x 6</span><span>
+#&gt;   variable percent     n value label id   
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>
+#&gt; </span><span style='color: #555555;'>1</span><span> race        80.3 </span><span style='text-decoration: underline;'>52</span><span>033 1     WHITE RACE 
+#&gt; </span><span style='color: #555555;'>2</span><span> race        14.2  </span><span style='text-decoration: underline;'>9</span><span>187 2     BLACK RACE 
+#&gt; </span><span style='color: #555555;'>3</span><span> race         5.5  </span><span style='text-decoration: underline;'>3</span><span>594 3     OTHER RACE 
+#&gt; </span><span style='color: #555555;'>4</span><span> race       100   </span><span style='text-decoration: underline;'>64</span><span>814 </span><span style='color: #BB0000;'>NA</span><span>    Total RACE </div><div class='input'>
+<span class='fu'><a href='https://rdrr.io/pkg/gssr/man/gss_get_marginals.html'>gss_get_marginals</a></span>(varnames = <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"race"</span>, <span class='st'>"gender"</span>, <span class='st'>"fefam"</span>))</div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 12 x 6</span><span>
+#&gt;    variable percent     n value label             id   
+#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>             </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>
+#&gt; </span><span style='color: #555555;'> 1</span><span> race        80.3 </span><span style='text-decoration: underline;'>52</span><span>033 1     WHITE             RACE 
+#&gt; </span><span style='color: #555555;'> 2</span><span> race        14.2  </span><span style='text-decoration: underline;'>9</span><span>187 2     BLACK             RACE 
+#&gt; </span><span style='color: #555555;'> 3</span><span> race         5.5  </span><span style='text-decoration: underline;'>3</span><span>594 3     OTHER             RACE 
+#&gt; </span><span style='color: #555555;'> 4</span><span> race       100   </span><span style='text-decoration: underline;'>64</span><span>814 </span><span style='color: #BB0000;'>NA</span><span>    Total             RACE 
+#&gt; </span><span style='color: #555555;'> 5</span><span> fefam        8.5  </span><span style='text-decoration: underline;'>2</span><span>543 1     STRONGLY AGREE    FEFAM
+#&gt; </span><span style='color: #555555;'> 6</span><span> fefam       29.9  </span><span style='text-decoration: underline;'>8</span><span>992 2     AGREE             FEFAM
+#&gt; </span><span style='color: #555555;'> 7</span><span> fefam       43.4 </span><span style='text-decoration: underline;'>13</span><span>061 3     DISAGREE          FEFAM
+#&gt; </span><span style='color: #555555;'> 8</span><span> fefam       18.2  </span><span style='text-decoration: underline;'>5</span><span>479 4     STRONGLY DISAGREE FEFAM
+#&gt; </span><span style='color: #555555;'> 9</span><span> fefam       </span><span style='color: #BB0000;'>NA</span><span>   </span><span style='text-decoration: underline;'>34</span><span>111 0     IAP               FEFAM
+#&gt; </span><span style='color: #555555;'>10</span><span> fefam       </span><span style='color: #BB0000;'>NA</span><span>     534 8     DK                FEFAM
+#&gt; </span><span style='color: #555555;'>11</span><span> fefam       </span><span style='color: #BB0000;'>NA</span><span>      94 9     </span><span style='color: #BB0000;'>NA</span><span>                FEFAM
+#&gt; </span><span style='color: #555555;'>12</span><span> fefam      100   </span><span style='text-decoration: underline;'>64</span><span>814 </span><span style='color: #BB0000;'>NA</span><span>    Total             FEFAM</div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

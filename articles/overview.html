@@ -205,49 +205,41 @@
 <div class="sourceCode" id="cb7"><pre class="downlit">
 
 <span class="fu"><a href="../reference/gss_get_marginals.html">gss_get_marginals</a></span>(varnames = <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"sex"</span>, <span class="st">"race"</span>, <span class="st">"fefam"</span>))
-<span class="co">#&gt; New names:</span>
-<span class="co">#&gt; * id -&gt; id...1</span>
-<span class="co">#&gt; * id -&gt; id...6</span>
-<span class="co">#&gt; Warning: Unknown columns: `id1`</span>
 <span class="co">#&gt; # A tibble: 15 x 6</span>
-<span class="co">#&gt;    id...1 percent     n value label             id...6</span>
-<span class="co">#&gt;    &lt;chr&gt;    &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;             &lt;chr&gt; </span>
-<span class="co">#&gt;  1 sex       44.1 28614 1     MALE              SEX   </span>
-<span class="co">#&gt;  2 sex       55.9 36200 2     FEMALE            SEX   </span>
-<span class="co">#&gt;  3 sex      100   64814 &lt;NA&gt;  Total             SEX   </span>
-<span class="co">#&gt;  4 race      80.3 52033 1     WHITE             RACE  </span>
-<span class="co">#&gt;  5 race      14.2  9187 2     BLACK             RACE  </span>
-<span class="co">#&gt;  6 race       5.5  3594 3     OTHER             RACE  </span>
-<span class="co">#&gt;  7 race     100   64814 &lt;NA&gt;  Total             RACE  </span>
-<span class="co">#&gt;  8 fefam      8.5  2543 1     STRONGLY AGREE    FEFAM </span>
-<span class="co">#&gt;  9 fefam     29.9  8992 2     AGREE             FEFAM </span>
-<span class="co">#&gt; 10 fefam     43.4 13061 3     DISAGREE          FEFAM </span>
-<span class="co">#&gt; 11 fefam     18.2  5479 4     STRONGLY DISAGREE FEFAM </span>
-<span class="co">#&gt; 12 fefam     NA   34111 0     IAP               FEFAM </span>
-<span class="co">#&gt; 13 fefam     NA     534 8     DK                FEFAM </span>
-<span class="co">#&gt; 14 fefam     NA      94 9     &lt;NA&gt;              FEFAM </span>
-<span class="co">#&gt; 15 fefam    100   64814 &lt;NA&gt;  Total             FEFAM</span>
+<span class="co">#&gt;    variable percent     n value label             id   </span>
+<span class="co">#&gt;    &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;             &lt;chr&gt;</span>
+<span class="co">#&gt;  1 sex         44.1 28614 1     MALE              SEX  </span>
+<span class="co">#&gt;  2 sex         55.9 36200 2     FEMALE            SEX  </span>
+<span class="co">#&gt;  3 sex        100   64814 &lt;NA&gt;  Total             SEX  </span>
+<span class="co">#&gt;  4 race        80.3 52033 1     WHITE             RACE </span>
+<span class="co">#&gt;  5 race        14.2  9187 2     BLACK             RACE </span>
+<span class="co">#&gt;  6 race         5.5  3594 3     OTHER             RACE </span>
+<span class="co">#&gt;  7 race       100   64814 &lt;NA&gt;  Total             RACE </span>
+<span class="co">#&gt;  8 fefam        8.5  2543 1     STRONGLY AGREE    FEFAM</span>
+<span class="co">#&gt;  9 fefam       29.9  8992 2     AGREE             FEFAM</span>
+<span class="co">#&gt; 10 fefam       43.4 13061 3     DISAGREE          FEFAM</span>
+<span class="co">#&gt; 11 fefam       18.2  5479 4     STRONGLY DISAGREE FEFAM</span>
+<span class="co">#&gt; 12 fefam       NA   34111 0     IAP               FEFAM</span>
+<span class="co">#&gt; 13 fefam       NA     534 8     DK                FEFAM</span>
+<span class="co">#&gt; 14 fefam       NA      94 9     &lt;NA&gt;              FEFAM</span>
+<span class="co">#&gt; 15 fefam      100   64814 &lt;NA&gt;  Total             FEFAM</span>
 </pre></div>
 <p>A similar function lets you peek at the codebook’s properties for any variable:</p>
 <div class="sourceCode" id="cb8"><pre class="downlit">
 
 <span class="fu"><a href="../reference/gss_get_props.html">gss_get_props</a></span>(varnames = <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"sex"</span>, <span class="st">"race"</span>, <span class="st">"fefam"</span>))
-<span class="co">#&gt; New names:</span>
-<span class="co">#&gt; * id -&gt; id...1</span>
-<span class="co">#&gt; * id -&gt; id...4</span>
-<span class="co">#&gt; Warning: Unknown columns: `id1`</span>
 <span class="co">#&gt; # A tibble: 9 x 4</span>
-<span class="co">#&gt;   id...1 property           value   id...4</span>
-<span class="co">#&gt;   &lt;chr&gt;  &lt;chr&gt;              &lt;chr&gt;   &lt;chr&gt; </span>
-<span class="co">#&gt; 1 sex    Data type          numeric SEX   </span>
-<span class="co">#&gt; 2 sex    Missing-data code  0       SEX   </span>
-<span class="co">#&gt; 3 sex    Record/column      1/297   SEX   </span>
-<span class="co">#&gt; 4 race   Data type          numeric RACE  </span>
-<span class="co">#&gt; 5 race   Missing-data code  0       RACE  </span>
-<span class="co">#&gt; 6 race   Record/column      1/298   RACE  </span>
-<span class="co">#&gt; 7 fefam  Data type          numeric FEFAM </span>
-<span class="co">#&gt; 8 fefam  Missing-data codes 0,8,9   FEFAM </span>
-<span class="co">#&gt; 9 fefam  Record/column      1/1114  FEFAM</span>
+<span class="co">#&gt;   variable property           value   id   </span>
+<span class="co">#&gt;   &lt;chr&gt;    &lt;chr&gt;              &lt;chr&gt;   &lt;chr&gt;</span>
+<span class="co">#&gt; 1 sex      Data type          numeric SEX  </span>
+<span class="co">#&gt; 2 sex      Missing-data code  0       SEX  </span>
+<span class="co">#&gt; 3 sex      Record/column      1/297   SEX  </span>
+<span class="co">#&gt; 4 race     Data type          numeric RACE </span>
+<span class="co">#&gt; 5 race     Missing-data code  0       RACE </span>
+<span class="co">#&gt; 6 race     Record/column      1/298   RACE </span>
+<span class="co">#&gt; 7 fefam    Data type          numeric FEFAM</span>
+<span class="co">#&gt; 8 fefam    Missing-data codes 0,8,9   FEFAM</span>
+<span class="co">#&gt; 9 fefam    Record/column      1/1114  FEFAM</span>
 </pre></div>
 <p>The description and any additional codebook text can be extracted directly:</p>
 <div class="sourceCode" id="cb9"><pre class="downlit">
@@ -607,24 +599,20 @@
 <p>Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes <code>_1</code>, <code>_2</code>, and <code>_3</code>, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code>.</p>
 <div class="sourceCode" id="cb20"><pre class="downlit">
 <span class="fu"><a href="../reference/gss_get_marginals.html">gss_get_marginals</a></span>(varnames = <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"SEX_1"</span>, <span class="st">"SEX_2"</span>, <span class="st">"SEX_3"</span>), data = <span class="kw">gss_panel_doc</span>)
-<span class="co">#&gt; New names:</span>
-<span class="co">#&gt; * id -&gt; id...1</span>
-<span class="co">#&gt; * id -&gt; id...6</span>
-<span class="co">#&gt; Warning: Unknown columns: `id1`</span>
 <span class="co">#&gt; # A tibble: 11 x 6</span>
-<span class="co">#&gt;    id...1 percent     n value label            id...6</span>
-<span class="co">#&gt;    &lt;chr&gt;    &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;            &lt;chr&gt; </span>
-<span class="co">#&gt;  1 SEX_1     42.7   854 "1"   MALE             SEX_1 </span>
-<span class="co">#&gt;  2 SEX_1     57.3  1146 "2"   FEMALE           SEX_1 </span>
-<span class="co">#&gt;  3 SEX_1    100    2000  &lt;NA&gt; Total            SEX_1 </span>
-<span class="co">#&gt;  4 SEX_2     41.7   640 "1"   MALE             SEX_2 </span>
-<span class="co">#&gt;  5 SEX_2     58.3   896 "2"   FEMALE           SEX_2 </span>
-<span class="co">#&gt;  6 SEX_2     NA     464 "."   (Does not apply) SEX_2 </span>
-<span class="co">#&gt;  7 SEX_2    100    2000 ""    Total            SEX_2 </span>
-<span class="co">#&gt;  8 SEX_3     41.1   524 "1"   MALE             SEX_3 </span>
-<span class="co">#&gt;  9 SEX_3     58.9   752 "2"   FEMALE           SEX_3 </span>
-<span class="co">#&gt; 10 SEX_3     NA     724 "."   (Does not apply) SEX_3 </span>
-<span class="co">#&gt; 11 SEX_3    100    2000 ""    Total            SEX_3</span>
+<span class="co">#&gt;    variable percent     n value label            id   </span>
+<span class="co">#&gt;    &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;            &lt;chr&gt;</span>
+<span class="co">#&gt;  1 SEX_1       42.7   854 "1"   MALE             SEX_1</span>
+<span class="co">#&gt;  2 SEX_1       57.3  1146 "2"   FEMALE           SEX_1</span>
+<span class="co">#&gt;  3 SEX_1      100    2000  &lt;NA&gt; Total            SEX_1</span>
+<span class="co">#&gt;  4 SEX_2       41.7   640 "1"   MALE             SEX_2</span>
+<span class="co">#&gt;  5 SEX_2       58.3   896 "2"   FEMALE           SEX_2</span>
+<span class="co">#&gt;  6 SEX_2       NA     464 "."   (Does not apply) SEX_2</span>
+<span class="co">#&gt;  7 SEX_2      100    2000 ""    Total            SEX_2</span>
+<span class="co">#&gt;  8 SEX_3       41.1   524 "1"   MALE             SEX_3</span>
+<span class="co">#&gt;  9 SEX_3       58.9   752 "2"   FEMALE           SEX_3</span>
+<span class="co">#&gt; 10 SEX_3       NA     724 "."   (Does not apply) SEX_3</span>
+<span class="co">#&gt; 11 SEX_3      100    2000 ""    Total            SEX_3</span>
 </pre></div>
 </div>
 <div id="references" class="section level2">
