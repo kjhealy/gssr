@@ -70,12 +70,11 @@ fmt_nr <- function(x){
 gss_get_marginals <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
     dplyr::select(id, marginals) %>%
-    dplyr::mutate_if(is.list, purrr::simplify_all) %>%
-    tidyr::unnest_legacy() %>%
+    dplyr::rename(variable = id) %>%
+    tidyr::unnest(cols = c(marginals)) %>%
     dplyr::mutate(n = stringr::str_remove_all(n, ","),
-           n = as.integer(n)) %>%
-    dplyr::select(-tidyselect::one_of("id1"))
-}
+                  n = as.integer(n))
+  }
 
 ##' Property information for a GSS variable or variables
 ##'
@@ -98,6 +97,44 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 gss_get_props <- function(varnames = "id", data = gss_doc) {
   dplyr::filter(data, id %in% varnames) %>%
     dplyr::select(id, properties) %>%
-    tidyr::unnest_legacy(properties) %>%
-    dplyr::select(-tidyselect::one_of("id1"))
+    dplyr::rename(variable = id) %>%
+    tidyr::unnest(cols = c(properties))
 }
+
+#' Get whether a question was asked
+#'
+#' @param x The GSS variable being assessed
+#'
+#' @return TRUE or FALSE depending on whether it passes the test
+#'
+#' @examples
+#' # See gss_which_years()
+get_asked <- function(x) {
+  ifelse(length(unique(x)) == 1, FALSE, TRUE)
+}
+
+
+#' What years was a particular question asked in the GSS?
+#'
+#' @param data A tibble of data, usually gss_all
+#' @param variable The variable or variables we want to check. Provide variables in tidyselect style, i.e. unquoted, and for multiple variables enclose unquoted in c()
+#'
+#' @return A tibble showing whether the question or questions were asked in each of the GSS years
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' gss_all %>%
+#'   gss_which_years(fefam)
+#'
+#' gss_all %>%
+#'   gss_which_years(c(industry, indus80, wrkgovt, commute))
+#' }
+gss_which_years <- function(data, variable) {
+  data %>%
+    dplyr::select(year, {{ variable }}) %>%
+    dplyr::group_by(year) %>%
+    dplyr::summarize(dplyr::across(dplyr::everything(), get_asked), .groups = "drop")
+}
+
+

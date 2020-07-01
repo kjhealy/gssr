@@ -89,7 +89,7 @@ Note that the drat repository only contains data packages that are not on CRAN, 
 
 ### The Cumulative Data File
 
-The GSS cumulative data file is large. It is not loaded by default when you invoke the package. (That is, `gssr` does not use R's "lazy loading" facility. The data file is too big to have use this without error.) To load one of the datasets, first load the library and then use `data()` to make the data available. For example, load the cumulative GSS file like this:
+The GSS cumulative data file is large. It is not loaded by default when you invoke the package. (That is, `gssr` does not use R's "lazy loading" facility. The data file is too big to do this without error.) To load one of the datasets, first load the library and then use `data()` to make the data available. For example, load the cumulative GSS file like this:
 
 ```{r load}
 library(gssr)
@@ -149,7 +149,76 @@ And one for the properties:
 gss_get_props(varnames = c("race", "sex"))
 ```
 
-## Panel Data
+## Which questions were asked in which years?
+
+We often want to know which years a question or group of questions was asked. We can find this out for one or more variables with `gss_which_years()`.
+
+```r
+gss_which_years(gss_all, fefam)
+
+#> # A tibble: 32 x 2
+#>     year fefam
+#>    <dbl> <lgl>
+#>  1  1972 FALSE
+#>  2  1973 FALSE
+#>  3  1974 FALSE
+#>  4  1975 FALSE
+#>  5  1976 FALSE
+#>  6  1977 TRUE 
+#>  7  1978 FALSE
+#>  8  1980 FALSE
+#>  9  1982 FALSE
+#> 10  1983 FALSE
+#> # … with 22 more rows
+  
+```
+
+When querying more than one variable, use `c()`:
+
+```r
+gss_all %>%
+  gss_which_years(c(industry, indus80, wrkgovt, commute)) %>%
+  print(n = Inf)
+
+#> # A tibble: 32 x 5
+#>     year industry indus80 wrkgovt commute
+#>    <dbl> <lgl>    <lgl>   <lgl>   <lgl>  
+#>  1  1972 TRUE     FALSE   FALSE   FALSE  
+#>  2  1973 TRUE     FALSE   FALSE   FALSE  
+#>  3  1974 TRUE     FALSE   FALSE   FALSE  
+#>  4  1975 TRUE     FALSE   FALSE   FALSE  
+#>  5  1976 TRUE     FALSE   FALSE   FALSE  
+#>  6  1977 TRUE     FALSE   FALSE   FALSE  
+#>  7  1978 TRUE     FALSE   FALSE   FALSE  
+#>  8  1980 TRUE     FALSE   FALSE   FALSE  
+#>  9  1982 TRUE     FALSE   FALSE   FALSE  
+#> 10  1983 TRUE     FALSE   FALSE   FALSE  
+#> 11  1984 TRUE     FALSE   FALSE   FALSE  
+#> 12  1985 TRUE     FALSE   TRUE    FALSE  
+#> 13  1986 TRUE     FALSE   TRUE    TRUE   
+#> 14  1987 TRUE     FALSE   FALSE   FALSE  
+#> 15  1988 TRUE     TRUE    FALSE   FALSE  
+#> 16  1989 TRUE     TRUE    FALSE   FALSE  
+#> 17  1990 TRUE     TRUE    FALSE   FALSE  
+#> 18  1991 FALSE    TRUE    FALSE   FALSE  
+#> 19  1993 FALSE    TRUE    FALSE   FALSE  
+#> 20  1994 FALSE    TRUE    FALSE   FALSE  
+#> 21  1996 FALSE    TRUE    FALSE   FALSE  
+#> 22  1998 FALSE    TRUE    FALSE   FALSE  
+#> 23  2000 FALSE    TRUE    TRUE    FALSE  
+#> 24  2002 FALSE    TRUE    TRUE    FALSE  
+#> 25  2004 FALSE    TRUE    TRUE    FALSE  
+#> 26  2006 FALSE    TRUE    TRUE    FALSE  
+#> 27  2008 FALSE    TRUE    TRUE    FALSE  
+#> 28  2010 FALSE    TRUE    TRUE    FALSE  
+#> 29  2012 FALSE    FALSE   TRUE    FALSE  
+#> 30  2014 FALSE    FALSE   TRUE    FALSE  
+#> 31  2016 FALSE    FALSE   TRUE    FALSE  
+#> 32  2018 FALSE    FALSE   TRUE    FALSE  
+
+```
+
+## Panel data
 
 In addition to the Cumulative Data File, the gssr package also includes the GSS's panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The `gssr` package provides three datasets, one for each of three-wave panels. They are `gss_panel06_long`, `gss_panel08_long`, and `gss_panel10_long`.  The datasets are provided by the GSS in wide format but (as their names suggest) they are packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Conversion from long back to wide format is possible with the tools provided in `panelr`.
 

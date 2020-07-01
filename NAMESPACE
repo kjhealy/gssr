@@ -3,5 +3,6 @@
 export("%>%")
 export(gss_get_marginals)
 export(gss_get_props)
+export(gss_which_years)
 importFrom(magrittr,"%>%")
 importFrom(tibble,tibble)
