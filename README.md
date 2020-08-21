@@ -6,8 +6,7 @@ gssr <img src="man/figures/gssr.png" align="right" width="120" />
 
 <!-- badges: start -->
 
-[![R build
-status](https://github.com/kjhealy/covdata/workflows/R-CMD-check/badge.svg)](https://github.com/kjhealy/gssr/actions)
+[![R build status](https://github.com/kjhealy/gssr/workflows/R-CMD-check/badge.svg)](https://github.com/kjhealy/gssr/actions)
 
 <!-- badges: end -->
 
