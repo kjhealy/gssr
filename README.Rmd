@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- README.md is generated from README.Rmd. Please edit that file --> 
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -225,7 +225,7 @@ In addition to the Cumulative Data File, the gssr package also includes the GSS'
 The panel data objects must be loaded in the same way as the cumulative data file.
 
 ```{r panel}
-data(gss_panel06_long)
+data("gss_panel06_long")
 
 gss_panel06_long
 ```
@@ -235,6 +235,8 @@ Although the panel data objects were created by `panelr`, they are regular tibbl
 The column names in long format do not have wave identifiers. Rather,  `firstid` and `wave` variables track the cases. The `firstid` variable is unique for every respondent in the panel and has no missing values. The `wave` variable indexes responses from a given `firstid` panelist in each wave (if observed). The `id` variable is from the GSS and indexes individuals within waves.
 
 ```{r panel-example}
+data("gss_panel08_long")
+
 gss_panel08_long %>% 
   select(firstid, wave, id, sex)
 ```
@@ -252,7 +254,7 @@ gss_panel06_long %>%
 The documentation tibble for the panel data is called `gss_panel_doc`.
 
 ```{r paneldoc}
-data(gss_panel_doc)
+data("gss_panel_doc")
 
 gss_panel_doc
 ```
