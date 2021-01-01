@@ -47,7 +47,7 @@ The General Social Survey Cumulative Data (1972-2018) and Three Wave Panel Data 
 You can install the beta version of gssr from [GitHub](https://github.com/kjhealy/gssr) with:
 
 ``` r
-devtools::install_github("kjhealy/gssr")
+remotes::install_github("kjhealy/gssr")
 ```
 
 ### Installation using `drat`

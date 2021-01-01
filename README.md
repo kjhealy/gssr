@@ -28,7 +28,7 @@ core R package repository. There are two ways to install it.
 You can install the beta version of gssr from
 [GitHub](https://github.com/kjhealy/gssr) with:
 
-    devtools::install_github("kjhealy/gssr")
+    remotes::install_github("kjhealy/gssr")
 
 ### Installation using `drat`
 
