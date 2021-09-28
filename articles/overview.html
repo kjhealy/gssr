@@ -31,7 +31,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.1.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.1.9000</span>
       </span>
     </div>
 
@@ -65,7 +65,7 @@
 <ul class="nav navbar-nav navbar-right">
 <li>
   <a href="https://github.com/kjhealy/gssr">
-    <span class="fas fa-github"></span>
+    <span class="fa fa-github"></span>
      
   </a>
 </li>
@@ -134,43 +134,44 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kjhealy/gssr">gssr</a></span><span class="op">)</span>
 <span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console.</span>
-<span class="co">#&gt; For the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.</span></code></pre></div>
+<span class="co">#&gt; For the codebook, type data(gss_doc).</span>
+<span class="co">#&gt; For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).</span></code></pre></div>
 <p>We will begin with the Cumulative Data file (1972-2018). As the startup message notes, the data objects are not automatically loaded. That is, we do not use R’s “lazy loading” functionality. This is because the main GSS dataset is rather large. Instead we load it manually with <code><a href="https://rdrr.io/r/utils/data.html">data()</a></code>. For the purposes of this vignette, because the full Cumulative Data object is big, we will use just a few columns of it stored in an object called <code>gss_sub</code>. But all the code here will also work with the full dataset object, <code>gss_all</code>, which you can load with the command <code><a href="https://rdrr.io/r/utils/data.html">data(gss_all)</a></code>. We will also load the tibble that contains the codebook for the Cumulative Data File. This is called <code>gss_doc</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">gss_sub</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">gss_doc</span><span class="op">)</span>
 
 <span class="va">gss_doc</span>
-<span class="co">#&gt; # A tibble: 6,144 x 5</span>
-<span class="co">#&gt;    id     description       properties   marginals   text                       </span>
-<span class="co">#&gt;    &lt;chr&gt;  &lt;chr&gt;             &lt;list&gt;       &lt;list&gt;      &lt;chr&gt;                      </span>
-<span class="co">#&gt;  1 caseid YEAR + Responden… &lt;tibble [2 … &lt;tibble [1… None                       </span>
-<span class="co">#&gt;  2 year   GSS year for thi… &lt;tibble [2 … &lt;tibble [3… None                       </span>
-<span class="co">#&gt;  3 id     Respondent ID nu… &lt;tibble [2 … &lt;tibble [1… None                       </span>
-<span class="co">#&gt;  4 age    Age of respondent &lt;tibble [3 … &lt;tibble [1… 13. Respondent's age       </span>
-<span class="co">#&gt;  5 sex    Respondents sex   &lt;tibble [3 … &lt;tibble [3… 23. Code respondent's sex  </span>
-<span class="co">#&gt;  6 race   Race of responde… &lt;tibble [3 … &lt;tibble [4… 24. What race do you consi…</span>
-<span class="co">#&gt;  7 racec… What Is R's race… &lt;tibble [3 … &lt;tibble [2… 1602. What is your race? I…</span>
-<span class="co">#&gt;  8 racec… What Is R's race… &lt;tibble [3 … &lt;tibble [2… 1602. What is your race? I…</span>
-<span class="co">#&gt;  9 racec… What Is R's race… &lt;tibble [3 … &lt;tibble [2… 1602. What is your race? I…</span>
-<span class="co">#&gt; 10 hispa… Hispanic specifi… &lt;tibble [3 … &lt;tibble [3… 1601. IF R IS FEMALE, READ…</span>
+<span class="co">#&gt; # A tibble: 6,144 × 5</span>
+<span class="co">#&gt;    id       description                  properties       marginals  text       </span>
+<span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;                        &lt;list&gt;           &lt;list&gt;     &lt;chr&gt;      </span>
+<span class="co">#&gt;  1 caseid   YEAR + Respondent ID         &lt;tibble [2 × 3]&gt; &lt;tibble [… None       </span>
+<span class="co">#&gt;  2 year     GSS year for this respondent &lt;tibble [2 × 3]&gt; &lt;tibble [… None       </span>
+<span class="co">#&gt;  3 id       Respondent ID number         &lt;tibble [2 × 3]&gt; &lt;tibble [… None       </span>
+<span class="co">#&gt;  4 age      Age of respondent            &lt;tibble [3 × 3]&gt; &lt;tibble [… 13. Respon…</span>
+<span class="co">#&gt;  5 sex      Respondents sex              &lt;tibble [3 × 3]&gt; &lt;tibble [… 23. Code r…</span>
+<span class="co">#&gt;  6 race     Race of respondent           &lt;tibble [3 × 3]&gt; &lt;tibble [… 24. What r…</span>
+<span class="co">#&gt;  7 racecen1 What Is R's race 1st mention &lt;tibble [3 × 3]&gt; &lt;tibble [… 1602. What…</span>
+<span class="co">#&gt;  8 racecen2 What Is R's race 2nd mention &lt;tibble [3 × 3]&gt; &lt;tibble [… 1602. What…</span>
+<span class="co">#&gt;  9 racecen3 What Is R's race 3rd mention &lt;tibble [3 × 3]&gt; &lt;tibble [… 1602. What…</span>
+<span class="co">#&gt; 10 hispanic Hispanic specified           &lt;tibble [3 × 3]&gt; &lt;tibble [… 1601. IF R…</span>
 <span class="co">#&gt; # … with 6,134 more rows</span></code></pre></div>
 <p>The GSS data comes in a <em>labelled</em> format, mirroring the way it is encoded for Stata and SPSS platforms. The numeric codes are the content of the column cells. The labeling information is stored as an attribute of the column.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_sub</span>
-<span class="co">#&gt; # A tibble: 64,814 x 14</span>
-<span class="co">#&gt;     year    id ballot age   race  sex   fefam vpsu  vstrat oversamp formwt</span>
-<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;hvn_&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn_&gt;    &lt;dbl&gt;  &lt;dbl&gt;</span>
-<span class="co">#&gt;  1  1972     1 NA     23    1     2     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  2  1972     2 NA     70    1     1     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  3  1972     3 NA     48    1     2     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  4  1972     4 NA     27    1     2     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  5  1972     5 NA     61    1     2     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  6  1972     6 NA     26    1     1     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  7  1972     7 NA     28    1     1     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  8  1972     8 NA     27    1     1     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  9  1972     9 NA     21    2     2     NA    NA    NA            1      1</span>
-<span class="co">#&gt; 10  1972    10 NA     30    2     2     NA    NA    NA            1      1</span>
+<span class="co">#&gt; # A tibble: 64,814 × 14</span>
+<span class="co">#&gt;     year    id ballot     age    race   sex   fefam vpsu  vstrat oversamp formwt</span>
+<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;hvn_lbll&gt; &lt;hvn_&gt; &lt;hvn_&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn_&gt;    &lt;dbl&gt;  &lt;dbl&gt;</span>
+<span class="co">#&gt;  1  1972     1 NA         23     1      2     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  2  1972     2 NA         70     1      1     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  3  1972     3 NA         48     1      2     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  4  1972     4 NA         27     1      2     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  5  1972     5 NA         61     1      2     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  6  1972     6 NA         26     1      1     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  7  1972     7 NA         28     1      1     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  8  1972     8 NA         27     1      1     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  9  1972     9 NA         21     2      2     NA    NA    NA            1      1</span>
+<span class="co">#&gt; 10  1972    10 NA         30     2      2     NA    NA    NA            1      1</span>
 <span class="co">#&gt; # … with 64,804 more rows, and 3 more variables: wtssall &lt;hvn_lbll&gt;,</span>
 <span class="co">#&gt; #   sampcode &lt;hvn_lbll&gt;, sample &lt;hvn_lbll&gt;</span></code></pre></div>
 <p>We will use the label information later when recoding the variables into, say, character or factor variables. The labels and values are reflected in the codebook tibble. To see them, pull out the <code>marginals</code> list-column:</p>
@@ -178,7 +179,7 @@
 <code class="sourceCode R"><span class="va">gss_doc</span> <span class="op">%&gt;%</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">id</span> <span class="op">==</span> <span class="st">"race"</span><span class="op">)</span> <span class="op">%&gt;%</span>
   <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">marginals</span><span class="op">)</span> <span class="op">%&gt;%</span> 
   <span class="fu">tidyr</span><span class="fu">::</span><span class="fu"><a href="https://tidyr.tidyverse.org/reference/nest.html">unnest</a></span><span class="op">(</span>cols <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">marginals</span><span class="op">)</span><span class="op">)</span>
-<span class="co">#&gt; # A tibble: 4 x 5</span>
+<span class="co">#&gt; # A tibble: 4 × 5</span>
 <span class="co">#&gt;   percent n      value label id   </span>
 <span class="co">#&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;</span>
 <span class="co">#&gt; 1    80.3 52,033 1     WHITE RACE </span>
@@ -189,7 +190,7 @@
 <code class="sourceCode R"><span class="va">gss_doc</span> <span class="op">%&gt;%</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">id</span> <span class="op">==</span> <span class="st">"sex"</span><span class="op">)</span> <span class="op">%&gt;%</span>
   <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">marginals</span><span class="op">)</span> <span class="op">%&gt;%</span> 
   <span class="fu">tidyr</span><span class="fu">::</span><span class="fu"><a href="https://tidyr.tidyverse.org/reference/nest.html">unnest</a></span><span class="op">(</span>cols <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">marginals</span><span class="op">)</span><span class="op">)</span>
-<span class="co">#&gt; # A tibble: 3 x 5</span>
+<span class="co">#&gt; # A tibble: 3 × 5</span>
 <span class="co">#&gt;   percent n      value label  id   </span>
 <span class="co">#&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt;</span>
 <span class="co">#&gt; 1    44.1 28,614 1     MALE   SEX  </span>
@@ -197,9 +198,8 @@
 <span class="co">#&gt; 3   100   64,814 &lt;NA&gt;  Total  SEX</span></code></pre></div>
 <p>Alternatively, use the function <code><a href="../reference/gss_get_marginals.html">gss_get_marginals()</a></code> to see a tibble for one or more categorical variables:</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
-<code class="sourceCode R">
-<span class="fu"><a href="../reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span>, <span class="st">"fefam"</span><span class="op">)</span><span class="op">)</span>
-<span class="co">#&gt; # A tibble: 15 x 6</span>
+<code class="sourceCode R"><span class="fu"><a href="../reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span>, <span class="st">"fefam"</span><span class="op">)</span><span class="op">)</span>
+<span class="co">#&gt; # A tibble: 15 × 6</span>
 <span class="co">#&gt;    variable percent     n value label             id   </span>
 <span class="co">#&gt;    &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;             &lt;chr&gt;</span>
 <span class="co">#&gt;  1 sex         44.1 28614 1     MALE              SEX  </span>
@@ -219,9 +219,8 @@
 <span class="co">#&gt; 15 fefam      100   64814 &lt;NA&gt;  Total             FEFAM</span></code></pre></div>
 <p>A similar function lets you peek at the codebook’s properties for any variable:</p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
-<code class="sourceCode R">
-<span class="fu"><a href="../reference/gss_get_props.html">gss_get_props</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span>, <span class="st">"fefam"</span><span class="op">)</span><span class="op">)</span>
-<span class="co">#&gt; # A tibble: 9 x 4</span>
+<code class="sourceCode R"><span class="fu"><a href="../reference/gss_get_props.html">gss_get_props</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span>, <span class="st">"fefam"</span><span class="op">)</span><span class="op">)</span>
+<span class="co">#&gt; # A tibble: 9 × 4</span>
 <span class="co">#&gt;   variable property           value   id   </span>
 <span class="co">#&gt;   &lt;chr&gt;    &lt;chr&gt;              &lt;chr&gt;   &lt;chr&gt;</span>
 <span class="co">#&gt; 1 sex      Data type          numeric SEX  </span>
@@ -238,10 +237,10 @@
 <code class="sourceCode R"><span class="va">gss_doc</span> <span class="op">%&gt;%</span>
   <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">id</span> <span class="op">==</span> <span class="st">"fefam"</span><span class="op">)</span> <span class="op">%&gt;%</span>
   <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">description</span>, <span class="va">text</span><span class="op">)</span>
-<span class="co">#&gt; # A tibble: 1 x 2</span>
-<span class="co">#&gt;   description                  text                                             </span>
-<span class="co">#&gt;   &lt;chr&gt;                        &lt;chr&gt;                                            </span>
-<span class="co">#&gt; 1 Better for man to work, wom… 252. Now I'm going to read several more statemen…</span></code></pre></div>
+<span class="co">#&gt; # A tibble: 1 × 2</span>
+<span class="co">#&gt;   description                             text                                  </span>
+<span class="co">#&gt;   &lt;chr&gt;                                   &lt;chr&gt;                                 </span>
+<span class="co">#&gt; 1 Better for man to work, woman tend home 252. Now I'm going to read several mo…</span></code></pre></div>
 </div>
 <div id="descriptive-analysis-of-the-data-an-example" class="section level2">
 <h2 class="hasAnchor">
@@ -285,21 +284,20 @@
 <span class="co">#&gt; ℹ Use `all_of(wt_vars)` instead of `wt_vars` to silence this message.</span>
 <span class="co">#&gt; ℹ See &lt;https://tidyselect.r-lib.org/reference/faq-external-vector.html&gt;.</span>
 <span class="co">#&gt; This message is displayed once per session.</span>
-
 <span class="va">gss_fam</span>
-<span class="co">#&gt; # A tibble: 64,814 x 14</span>
-<span class="co">#&gt;     year    id ballot age   race  sex   fefam vpsu  vstrat oversamp formwt</span>
-<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;hvn_&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn_&gt;    &lt;dbl&gt;  &lt;dbl&gt;</span>
-<span class="co">#&gt;  1  1972     1 NA     23    1     2     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  2  1972     2 NA     70    1     1     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  3  1972     3 NA     48    1     2     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  4  1972     4 NA     27    1     2     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  5  1972     5 NA     61    1     2     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  6  1972     6 NA     26    1     1     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  7  1972     7 NA     28    1     1     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  8  1972     8 NA     27    1     1     NA    NA    NA            1      1</span>
-<span class="co">#&gt;  9  1972     9 NA     21    2     2     NA    NA    NA            1      1</span>
-<span class="co">#&gt; 10  1972    10 NA     30    2     2     NA    NA    NA            1      1</span>
+<span class="co">#&gt; # A tibble: 64,814 × 14</span>
+<span class="co">#&gt;     year    id ballot     age    race   sex   fefam vpsu  vstrat oversamp formwt</span>
+<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;hvn_lbll&gt; &lt;hvn_&gt; &lt;hvn_&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn&gt; &lt;hvn_&gt;    &lt;dbl&gt;  &lt;dbl&gt;</span>
+<span class="co">#&gt;  1  1972     1 NA         23     1      2     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  2  1972     2 NA         70     1      1     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  3  1972     3 NA         48     1      2     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  4  1972     4 NA         27     1      2     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  5  1972     5 NA         61     1      2     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  6  1972     6 NA         26     1      1     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  7  1972     7 NA         28     1      1     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  8  1972     8 NA         27     1      1     NA    NA    NA            1      1</span>
+<span class="co">#&gt;  9  1972     9 NA         21     2      2     NA    NA    NA            1      1</span>
+<span class="co">#&gt; 10  1972    10 NA         30     2      2     NA    NA    NA            1      1</span>
 <span class="co">#&gt; # … with 64,804 more rows, and 3 more variables: wtssall &lt;hvn_lbll&gt;,</span>
 <span class="co">#&gt; #   sampcode &lt;hvn_lbll&gt;, sample &lt;hvn_lbll&gt;</span></code></pre></div>
 </div>
@@ -313,14 +311,12 @@
 <span class="va">qrts</span>
 <span class="co">#&gt;   0%  25%  50%  75% 100% </span>
 <span class="co">#&gt;   18   31   44   59   89</span>
-
 <span class="va">quintiles</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/quantile.html">quantile</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="va">gss_fam</span><span class="op">$</span><span class="va">age</span><span class="op">)</span>, 
                       probs <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">1</span>, <span class="fl">0.2</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
 
 <span class="va">quintiles</span>
 <span class="co">#&gt;   0%  20%  40%  60%  80% 100% </span>
 <span class="co">#&gt;   18   29   38   49   63   89</span>
-
 <span class="co">## Recoding</span>
 <span class="co">## The convert_agegrp() and capwords() functions seen here are defined</span>
 <span class="co">## at the top of the Rmd file used to produce this document.</span>
@@ -349,19 +345,19 @@
                               <span class="cn">TRUE</span> <span class="op">~</span> <span class="va">sample</span><span class="op">)</span><span class="op">)</span>
 
 <span class="va">gss_fam</span>
-<span class="co">#&gt; # A tibble: 64,814 x 22</span>
-<span class="co">#&gt;     year    id ballot   age race  sex   fefam  vpsu vstrat oversamp formwt</span>
-<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl+&gt; &lt;dbl&gt; &lt;fct&gt; &lt;fct&gt; &lt;fct&gt; &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;</span>
-<span class="co">#&gt;  1  1972     1     NA    23 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  2  1972     2     NA    70 White Male  &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  3  1972     3     NA    48 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  4  1972     4     NA    27 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  5  1972     5     NA    61 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  6  1972     6     NA    26 White Male  &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  7  1972     7     NA    28 White Male  &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  8  1972     8     NA    27 White Male  &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  9  1972     9     NA    21 Black Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt; 10  1972    10     NA    30 Black Fema… &lt;NA&gt;     NA     NA        1      1</span>
+<span class="co">#&gt; # A tibble: 64,814 × 22</span>
+<span class="co">#&gt;     year    id    ballot       age race  sex   fefam  vpsu vstrat oversamp formwt</span>
+<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl+lbl&gt; &lt;dbl+lbl&gt; &lt;fct&gt; &lt;fct&gt; &lt;fct&gt; &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;</span>
+<span class="co">#&gt;  1  1972     1        NA        23 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
+<span class="co">#&gt;  2  1972     2        NA        70 White Male  &lt;NA&gt;     NA     NA        1      1</span>
+<span class="co">#&gt;  3  1972     3        NA        48 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
+<span class="co">#&gt;  4  1972     4        NA        27 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
+<span class="co">#&gt;  5  1972     5        NA        61 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
+<span class="co">#&gt;  6  1972     6        NA        26 White Male  &lt;NA&gt;     NA     NA        1      1</span>
+<span class="co">#&gt;  7  1972     7        NA        28 White Male  &lt;NA&gt;     NA     NA        1      1</span>
+<span class="co">#&gt;  8  1972     8        NA        27 White Male  &lt;NA&gt;     NA     NA        1      1</span>
+<span class="co">#&gt;  9  1972     9        NA        21 Black Fema… &lt;NA&gt;     NA     NA        1      1</span>
+<span class="co">#&gt; 10  1972    10        NA        30 Black Fema… &lt;NA&gt;     NA     NA        1      1</span>
 <span class="co">#&gt; # … with 64,804 more rows, and 11 more variables: wtssall &lt;dbl&gt;,</span>
 <span class="co">#&gt; #   sampcode &lt;dbl&gt;, sample &lt;dbl&gt;, ageq &lt;fct&gt;, agequint &lt;fct&gt;, year_f &lt;fct&gt;,</span>
 <span class="co">#&gt; #   young &lt;chr&gt;, fefam_d &lt;fct&gt;, fefam_n &lt;dbl&gt;, compwt &lt;dbl&gt;, samplerc &lt;dbl&gt;</span></code></pre></div>
@@ -371,8 +367,7 @@
 <a href="#integrate-the-survey-weights" class="anchor"></a>Integrate the Survey Weights</h3>
 <p>Nexr, we set up the data so we can properly calculate population means and errors and so on. We use <code>svyr</code>’s wrappers to <code>survey</code> for this.</p>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
-<code class="sourceCode R">
-<span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>survey.lonely.psu <span class="op">=</span> <span class="st">"adjust"</span><span class="op">)</span>
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>survey.lonely.psu <span class="op">=</span> <span class="st">"adjust"</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>na.action<span class="op">=</span><span class="st">"na.pass"</span><span class="op">)</span>
 
 <span class="va">gss_svy</span> <span class="op">&lt;-</span> <span class="va">gss_fam</span> <span class="op">%&gt;%</span>
@@ -410,7 +405,7 @@
     <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span>prop <span class="op">=</span> <span class="fu"><a href="http://gdfe.co/srvyr/reference/survey_mean.html">survey_mean</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span>, vartype <span class="op">=</span> <span class="st">"ci"</span><span class="op">)</span><span class="op">)</span>
 
 <span class="va">out_ff</span>
-<span class="co">#&gt; # A tibble: 168 x 7</span>
+<span class="co">#&gt; # A tibble: 168 × 7</span>
 <span class="co">#&gt; # Groups:   year, sex, young [84]</span>
 <span class="co">#&gt;     year sex    young fefam_d   prop prop_low prop_upp</span>
 <span class="co">#&gt;    &lt;dbl&gt; &lt;fct&gt;  &lt;chr&gt; &lt;fct&gt;    &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;</span>
@@ -449,7 +444,7 @@
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_path.html">geom_line</a></span><span class="op">(</span>size <span class="op">=</span> <span class="fl">1.2</span><span class="op">)</span> <span class="op">+</span>
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_ribbon.html">geom_ribbon</a></span><span class="op">(</span>alpha <span class="op">=</span> <span class="fl">0.3</span>, color <span class="op">=</span> <span class="cn">NA</span><span class="op">)</span> <span class="op">+</span>
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html">scale_x_continuous</a></span><span class="op">(</span>breaks <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">1978</span>, <span class="fl">2018</span>, <span class="fl">4</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>
-  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html">scale_y_continuous</a></span><span class="op">(</span>labels <span class="op">=</span> <span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/label_percent.html">percent_format</a></span><span class="op">(</span>accuracy <span class="op">=</span> <span class="fl">1</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>
+  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html">scale_y_continuous</a></span><span class="op">(</span>labels <span class="op">=</span> <span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/label_percent.html">percent_format</a></span><span class="op">(</span>accuracy <span class="op">=</span> <span class="fl">1</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>
   <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_manual.html">scale_color_manual</a></span><span class="op">(</span>values <span class="op">=</span> <span class="fu">my_colors</span><span class="op">(</span><span class="st">"bly"</span><span class="op">)</span><span class="op">[</span><span class="fl">2</span><span class="op">:</span><span class="fl">1</span><span class="op">]</span>,
                      labels <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"Men"</span>, <span class="st">"Women"</span><span class="op">)</span>,
                      guide <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/guide_legend.html">guide_legend</a></span><span class="op">(</span>title<span class="op">=</span><span class="cn">NULL</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span>
@@ -477,56 +472,30 @@
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">gss_panel06_long</span><span class="op">)</span>
 
 <span class="va">gss_panel06_long</span>
-<span class="co">#&gt; # A tibble: 6,000 x 1,572</span>
-<span class="co">#&gt;    firstid  wave  ballot    form formwt oversamp sampcode  sample   samptype</span>
-<span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;  &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt;  &lt;dbl+lbl&gt;</span>
-<span class="co">#&gt;  1 9           1 3 [BAL… 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
-<span class="co">#&gt;  2 9           2 3 [BAL… 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
-<span class="co">#&gt;  3 9           3 3 [BAL… 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
-<span class="co">#&gt;  4 10          1 1 [BAL… 1 [STA…      1        1      501 9 [200… 2006 [200…</span>
-<span class="co">#&gt;  5 10          2 1 [BAL… 1 [STA…      1        1      501 9 [200… 2006 [200…</span>
-<span class="co">#&gt;  6 10          3 1 [BAL… 1 [STA…      1        1      501 9 [200… 2006 [200…</span>
-<span class="co">#&gt;  7 11          1 3 [BAL… 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
-<span class="co">#&gt;  8 11          2 3 [BAL… 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
-<span class="co">#&gt;  9 11          3 3 [BAL… 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
-<span class="co">#&gt; 10 12          1 1 [BAL… 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt; # A tibble: 6,000 × 1,572</span>
+<span class="co">#&gt;    firstid  wave       ballot    form formwt oversamp sampcode  sample   samptype</span>
+<span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt;    &lt;dbl+lbl&gt; &lt;dbl+l&gt;  &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt;  &lt;dbl+lbl&gt;</span>
+<span class="co">#&gt;  1 9           1 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  2 9           2 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  3 9           3 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  4 10          1 1 [BALLOT A] 1 [STA…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  5 10          2 1 [BALLOT A] 1 [STA…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  6 10          3 1 [BALLOT A] 1 [STA…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  7 11          1 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  8 11          2 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  9 11          3 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt; 10 12          1 1 [BALLOT A] 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
 <span class="co">#&gt; # … with 5,990 more rows, and 1,563 more variables: vstrat &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   vpsu &lt;dbl+lbl&gt;, wtpan12 &lt;dbl+lbl&gt;, wtpan123 &lt;dbl+lbl&gt;, wtpannr12 &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   wtpannr123 &lt;dbl+lbl&gt;, letin1a &lt;dbl+lbl&gt;, abany &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   abdefect &lt;dbl+lbl&gt;, abhlth &lt;dbl+lbl&gt;, abnomore &lt;dbl+lbl&gt;, abpoor &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   abrape &lt;dbl+lbl&gt;, absingle &lt;dbl+lbl&gt;, accntsci &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   acqasian &lt;dbl+lbl&gt;, acqattnd &lt;dbl+lbl&gt;, acqblack &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, acqcohab &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqcon &lt;dbl+lbl&gt;, acqcops &lt;dbl+lbl&gt;, acqdems &lt;dbl+lbl&gt;, acqelecs &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqfmasn &lt;dbl+lbl&gt;, acqfmblk &lt;dbl+lbl&gt;, acqfmcoh &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqfmcon &lt;dbl+lbl&gt;, acqfmgay &lt;dbl+lbl&gt;, acqfmgo &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqfmhme &lt;dbl+lbl&gt;, acqfmhsp &lt;dbl+lbl&gt;, acqfmlib &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqfmlin &lt;dbl+lbl&gt;, acqfmmrk &lt;dbl+lbl&gt;, acqfmno &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqfmpri &lt;dbl+lbl&gt;, acqfmune &lt;dbl+lbl&gt;, acqfmwht &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqgay &lt;dbl+lbl&gt;, acqgoatt &lt;dbl+lbl&gt;, acqhisp &lt;dbl+lbl&gt;, acqhome &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqjans &lt;dbl+lbl&gt;, acqjose &lt;dbl+lbl&gt;, acqkaren &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqkeith &lt;dbl+lbl&gt;, acqkevin &lt;dbl+lbl&gt;, acqlaws &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqlib &lt;dbl+lbl&gt;, acqlinda &lt;dbl+lbl&gt;, acqmaria &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqmark &lt;dbl+lbl&gt;, acqmils &lt;dbl+lbl&gt;, acqmyrac &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqnhasn &lt;dbl+lbl&gt;, acqnhblk &lt;dbl+lbl&gt;, acqnhcoh &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqnhcon &lt;dbl+lbl&gt;, acqnhgay &lt;dbl+lbl&gt;, acqnhgo &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqnhhme &lt;dbl+lbl&gt;, acqnhhsp &lt;dbl+lbl&gt;, acqnhlib &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqnhlin &lt;dbl+lbl&gt;, acqnhmrk &lt;dbl+lbl&gt;, acqnhno &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqnhpri &lt;dbl+lbl&gt;, acqnhune &lt;dbl+lbl&gt;, acqnhwht &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqnoatt &lt;dbl+lbl&gt;, acqntsex &lt;dbl+lbl&gt;, acqprisn &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqrachl &lt;dbl+lbl&gt;, acqreps &lt;dbl+lbl&gt;, acqshawn &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqsocs &lt;dbl+lbl&gt;, acqunemp &lt;dbl+lbl&gt;, acqvaasn &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqvablk &lt;dbl+lbl&gt;, acqvacoh &lt;dbl+lbl&gt;, acqvacon &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqvagay &lt;dbl+lbl&gt;, acqvago &lt;dbl+lbl&gt;, acqvahme &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqvahsp &lt;dbl+lbl&gt;, acqvalib &lt;dbl+lbl&gt;, acqvalin &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqvamrk &lt;dbl+lbl&gt;, acqvano &lt;dbl+lbl&gt;, acqvapri &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqvaune &lt;dbl+lbl&gt;, acqvawht &lt;dbl+lbl&gt;, acqwhite &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqwkasn &lt;dbl+lbl&gt;, acqwkblk &lt;dbl+lbl&gt;, acqwkcoh &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   acqwkcon &lt;dbl+lbl&gt;, acqwkgay &lt;dbl+lbl&gt;, …</span></code></pre></div>
+<span class="co">#&gt; #   acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, acqcohab &lt;dbl+lbl&gt;, …</span></code></pre></div>
 <p>The panel data objects were created by <code>panelr</code> but are regular tibbles. The column names in long format do not have wave identifiers. Rather, <code>firstid</code> and <code>wave</code> variables track the cases. The <code>firstid</code> variable is unique for every row and has no missing values. The <code>id</code> variable is from the GSS and tracks individuals within waves.</p>
 <div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_panel06_long</span> <span class="op">%&gt;%</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">firstid</span>, <span class="va">wave</span>, <span class="va">id</span>, <span class="va">sex</span><span class="op">)</span>
-<span class="co">#&gt; # A tibble: 6,000 x 4</span>
+<span class="co">#&gt; # A tibble: 6,000 × 4</span>
 <span class="co">#&gt;    firstid  wave        id        sex</span>
 <span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;dbl+lbl&gt;  &lt;dbl+lbl&gt;</span>
 <span class="co">#&gt;  1 9           1         9 2 [FEMALE]</span>
@@ -547,8 +516,7 @@
   <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">wave</span><span class="op">)</span> <span class="op">%&gt;%</span>
   <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span>observed <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/n_distinct.html">n_distinct</a></span><span class="op">(</span><span class="va">id</span><span class="op">)</span>,
             missing <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">id</span><span class="op">)</span><span class="op">)</span><span class="op">)</span>
-<span class="co">#&gt; `summarise()` ungrouping output (override with `.groups` argument)</span>
-<span class="co">#&gt; # A tibble: 3 x 3</span>
+<span class="co">#&gt; # A tibble: 3 × 3</span>
 <span class="co">#&gt;    wave observed missing</span>
 <span class="co">#&gt;   &lt;dbl&gt;    &lt;int&gt;   &lt;int&gt;</span>
 <span class="co">#&gt; 1     1     2000       0</span>
@@ -559,37 +527,36 @@
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">gss_panel_doc</span><span class="op">)</span>
 
 <span class="va">gss_panel_doc</span>
-<span class="co">#&gt; # A tibble: 1,855 x 5</span>
-<span class="co">#&gt;    id     description                  properties     marginals    text         </span>
-<span class="co">#&gt;    &lt;chr&gt;  &lt;chr&gt;                        &lt;list&gt;         &lt;list&gt;       &lt;chr&gt;        </span>
-<span class="co">#&gt;  1 CASEID CASE IDENTIFICATION NUMBER … &lt;tibble [2 × … &lt;tibble [1 … None         </span>
-<span class="co">#&gt;  2 YEAR_1 year_1: GSS YEAR FOR THIS R… &lt;tibble [3 × … &lt;tibble [2 … None         </span>
-<span class="co">#&gt;  3 YEAR_2 year_2: GSS YEAR FOR THIS R… &lt;tibble [3 × … &lt;tibble [3 … None         </span>
-<span class="co">#&gt;  4 YEAR_3 year_3: GSS YEAR FOR THIS R… &lt;tibble [3 × … &lt;tibble [3 … None         </span>
-<span class="co">#&gt;  5 ID_1   id_1: RESPONDNT ID NUMBER    &lt;tibble [3 × … &lt;tibble [1 … None         </span>
-<span class="co">#&gt;  6 ID_2   id_2: RESPONDNT ID NUMBER    &lt;tibble [3 × … &lt;tibble [1 … None         </span>
-<span class="co">#&gt;  7 ID_3   id_3: RESPONDNT ID NUMBER    &lt;tibble [3 × … &lt;tibble [1 … None         </span>
-<span class="co">#&gt;  8 AGE_1  age_1: AGE OF RESPONDENT     &lt;tibble [3 × … &lt;tibble [1 … 13. Responde…</span>
-<span class="co">#&gt;  9 AGE_2  age_2: AGE OF RESPONDENT     &lt;tibble [3 × … &lt;tibble [1 … 13. Responde…</span>
-<span class="co">#&gt; 10 AGE_3  age_3: AGE OF RESPONDENT     &lt;tibble [3 × … &lt;tibble [1 … 13. Responde…</span>
-<span class="co">#&gt; # … with 1,845 more rows</span></code></pre></div>
-<p>Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes <code>_1</code>, <code>_2</code>, and <code>_3</code>, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code>.</p>
+<span class="co">#&gt; # A tibble: 628 × 9</span>
+<span class="co">#&gt;    id       description text  properties_1 properties_2 properties_3 marginals_1</span>
+<span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt; &lt;list&gt;       &lt;list&gt;       &lt;list&gt;       &lt;list&gt;     </span>
+<span class="co">#&gt;  1 caseid   CASEID      None  &lt;tibble [2 … &lt;NULL&gt;       &lt;NULL&gt;       &lt;tibble [1…</span>
+<span class="co">#&gt;  2 year     YEAR        None  &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [2…</span>
+<span class="co">#&gt;  3 id       ID          None  &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [1…</span>
+<span class="co">#&gt;  4 age      AGE         13. … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [1…</span>
+<span class="co">#&gt;  5 sex      SEX         23. … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3…</span>
+<span class="co">#&gt;  6 race     RACE        24. … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [4…</span>
+<span class="co">#&gt;  7 racecen1 RACECEN1    1602… &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [1…</span>
+<span class="co">#&gt;  8 racecen2 RACECEN2    1602… &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [2…</span>
+<span class="co">#&gt;  9 racecen3 RACECEN3    1602… &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [1…</span>
+<span class="co">#&gt; 10 hispanic HISPANIC    1601… &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3…</span>
+<span class="co">#&gt; # … with 618 more rows, and 2 more variables: marginals_2 &lt;list&gt;,</span>
+<span class="co">#&gt; #   marginals_3 &lt;list&gt;</span></code></pre></div>
+<p>Each row is a variable. The <code>id</code>, <code>description</code>, and <code>text</code> columns provide the details on each question or measure. The <code>properties</code> and <code>marginals</code> are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code> and we say which property wave or marginals wave we want to see. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code>. Be sure to specify which wave you want marginals for, with the <code>margin</code> argument.</p>
 <div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="../reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"SEX_1"</span>, <span class="st">"SEX_2"</span>, <span class="st">"SEX_3"</span><span class="op">)</span>, data <span class="op">=</span> <span class="va">gss_panel_doc</span><span class="op">)</span>
-<span class="co">#&gt; # A tibble: 11 x 6</span>
-<span class="co">#&gt;    variable percent     n value label            id   </span>
-<span class="co">#&gt;    &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;            &lt;chr&gt;</span>
-<span class="co">#&gt;  1 SEX_1       42.7   854 "1"   MALE             SEX_1</span>
-<span class="co">#&gt;  2 SEX_1       57.3  1146 "2"   FEMALE           SEX_1</span>
-<span class="co">#&gt;  3 SEX_1      100    2000  &lt;NA&gt; Total            SEX_1</span>
-<span class="co">#&gt;  4 SEX_2       41.7   640 "1"   MALE             SEX_2</span>
-<span class="co">#&gt;  5 SEX_2       58.3   896 "2"   FEMALE           SEX_2</span>
-<span class="co">#&gt;  6 SEX_2       NA     464 "."   (Does not apply) SEX_2</span>
-<span class="co">#&gt;  7 SEX_2      100    2000 ""    Total            SEX_2</span>
-<span class="co">#&gt;  8 SEX_3       41.1   524 "1"   MALE             SEX_3</span>
-<span class="co">#&gt;  9 SEX_3       58.9   752 "2"   FEMALE           SEX_3</span>
-<span class="co">#&gt; 10 SEX_3       NA     724 "."   (Does not apply) SEX_3</span>
-<span class="co">#&gt; 11 SEX_3      100    2000 ""    Total            SEX_3</span></code></pre></div>
+<code class="sourceCode R"><span class="fu"><a href="../reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span><span class="op">)</span>, 
+                  data <span class="op">=</span> <span class="va">gss_panel_doc</span>, 
+                  margin <span class="op">=</span> <span class="va">marginals_1</span><span class="op">)</span>
+<span class="co">#&gt; # A tibble: 7 × 6</span>
+<span class="co">#&gt;   variable percent     n value label  id    </span>
+<span class="co">#&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;  &lt;chr&gt; </span>
+<span class="co">#&gt; 1 sex         42.7   854 1     MALE   SEX_1 </span>
+<span class="co">#&gt; 2 sex         57.3  1146 2     FEMALE SEX_1 </span>
+<span class="co">#&gt; 3 sex        100    2000 &lt;NA&gt;  Total  SEX_1 </span>
+<span class="co">#&gt; 4 race        73.2  1464 1     WHITE  RACE_1</span>
+<span class="co">#&gt; 5 race        14.2   285 2     BLACK  RACE_1</span>
+<span class="co">#&gt; 6 race        12.6   251 3     OTHER  RACE_1</span>
+<span class="co">#&gt; 7 race       100    2000 &lt;NA&gt;  Total  RACE_1</span></code></pre></div>
 </div>
 <div id="references" class="section level2">
 <h2 class="hasAnchor">

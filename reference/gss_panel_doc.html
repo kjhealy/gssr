@@ -41,11 +41,8 @@
 
 <meta property="og:title" content="Codebook for the GSS Three Wave Panel — gss_panel_doc" />
 <meta property="og:description" content="A tibble containing information on the variable in the GSS
-Three Wave Panel Data File. See http://gss.norc.org/Get-Documentation for full
-documentation of the variables. The panel codebook is with respect
-to the data in wide format, so time-varying measures have a suffix
-(an underscore followed by the number 1, 2, or 3) indicating which
-wave of the panel they are from." />
+Three Wave Panel Data File, in wide format. See http://gss.norc.org/Get-Documentation for full
+documentation of the variables." />
 
 
 
@@ -77,7 +74,7 @@ wave of the panel they are from." />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.1.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.1.9000</span>
       </span>
     </div>
 
@@ -111,7 +108,7 @@ wave of the panel they are from." />
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/kjhealy/gssr">
-    <span class="fas fa-github"></span>
+    <span class="fa fa-github"></span>
      
   </a>
 </li>
@@ -135,11 +132,8 @@ wave of the panel they are from." />
 
     <div class="ref-description">
     <p>A tibble containing information on the variable in the GSS
-Three Wave Panel Data File. See http://gss.norc.org/Get-Documentation for full
-documentation of the variables. The panel codebook is with respect
-to the data in wide format, so time-varying measures have a suffix
-(an underscore followed by the number 1, 2, or 3) indicating which
-wave of the panel they are from.</p>
+Three Wave Panel Data File, in wide format. See http://gss.norc.org/Get-Documentation for full
+documentation of the variables.</p>
     </div>
 
     <pre class="usage"><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='va'>gss_panel_doc</span><span class='op'>)</span></pre>
@@ -147,18 +141,27 @@ wave of the panel they are from.</p>
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A tibble with 1,855 rows and five columns.</p><dl>
-<dt><code>id</code></dt><dd><p>The short name of the variable, in the panel's
-wide-format naming convention. A character vector.</p></dd>
+    <p>A tibble with 628 rows and nine columns.</p><dl>
+<dt><code>id</code></dt><dd><p>The short name of the variable, without its wave identifier. A character vector.</p></dd>
 <dt><code>description</code></dt><dd><p>Brief description of the variable. A
 character vector.</p></dd>
-<dt><code>properties</code></dt><dd><p>A list column containing information on
-the variable's data type, its missing value codes, and its
-record/column location.</p></dd>
-<dt><code>marginals</code></dt><dd><p>A list column containing a summary of the
-values taken by the variable.</p></dd>
 <dt><code>text</code></dt><dd><p>Further more detailed information on the
 question asked and the directions provided.</p></dd>
+<dt><code>properties_1</code></dt><dd><p>A list column containing information on
+the variable's data type, its missing value codes, and its
+record/column location for Wave 1 of the panel.</p></dd>
+<dt><code>properties_2</code></dt><dd><p>A list column containing information on
+the variable's data type, its missing value codes, and its
+record/column location for Wave 2 of the panel.</p></dd>
+<dt><code>properties_3</code></dt><dd><p>A list column containing information on
+the variable's data type, its missing value codes, and its
+record/column location for Wave 3 of the panel.</p></dd>
+<dt><code>marginals_1</code></dt><dd><p>A list column containing a summary of the
+values taken by the variable in Wave 1 of the panel.</p></dd>
+<dt><code>marginals_2</code></dt><dd><p>A list column containing a summary of the
+values taken by the variable in Wave 2 of the panel.</p></dd>
+<dt><code>marginals_3</code></dt><dd><p>A list column containing a summary of the
+values taken by the variable in Wave 3 of the panel.</p></dd>
 
 </dl>
 
