@@ -11,47 +11,10 @@ vignette: >
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
-)
-```
+  )
 
-## Loading the gssr package and data
+## Three quick-and-dirty functions, one to help clean some labels, one to define some custom colors for our plot, and one to title-case variable labels. 
 
-```{r setup}
-library(gssr)
-```
-
-As the startup message notes, the data objects are not automatically loaded. That is, we do not use R's "lazy loading" functionality. This is because the main GSS dataset is rather large. Instead we load it manually with `data()`. We'll also load the tibble that contains the codebook.
-
-```{r load}
-data(gss_all)
-data(gss_doc)
-
-gss_all
-
-gss_doc
-
-```
-
-## Descriptive analysis of the data: an example
-
-The GSS is a complex survey. When working with it, we need to take its structure into account in order to properly calculate statistics such as the population mean for a variable in some year, its standard error, and so on. For this we use the `survey` and `srvyr` packages. For details on `survey`, see Lumley (2010). We will also do some recoding, so we load several additional `tidyverse` packages to assist us.
-
-### Packages
-
-```{r packages}
-library(dplyr)
-library(ggplot2)
-
-library(survey)
-library(srvyr)
-```
-
-
-### Functions
-
-Three quick-and-dirty functions, one to help clean some labels, the other to define some custom colors. 
-
-```{r functions}
 convert_agegrp <- function(x){
     x <- gsub("\\(", "", x)
     x <- gsub("\\[", "", x)
@@ -65,17 +28,17 @@ convert_agegrp <- function(x){
 
 my_colors <- function (palette = "cb") 
 {
-    cb.palette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", 
+    cb_palette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", 
         "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-    rcb.palette <- rev(cb.palette)
-    bly.palette <- c("#E69F00", "#0072B2", "#000000", "#56B4E9", 
+    rcb_palette <- rev(cb_palette)
+    bly_palette <- c("#E69F00", "#0072B2", "#000000", "#56B4E9", 
         "#009E73", "#F0E442", "#D55E00", "#CC79A7")
     if (palette == "cb") 
-        return(cb.palette)
+        return(cb_palette)
     else if (palette == "rcb") 
-        return(rcb.palette)
+        return(rcb_palette)
     else if (palette == "bly") 
-        return(bly.palette)
+        return(bly_palette)
     else stop("Choose cb, rcb, or bly only.")
 }
 
@@ -89,9 +52,97 @@ capwords <- function(x, strict = FALSE) {
 
 ```
 
-### Subsetting the Dataset
+## Introduction
 
-The GSS data retains labeling information (as it was originally imported via the `haven` package). When working with the data in an analysis, we will probably want to convert the labeled variables to data types such as factors. This should be done with care (and not on the whole dataset all at once). Typically, we will want to focus on some relatively small subset of variables and examine those. For example, let's say we want to explore the `fefam` question.
+The [General Social Survey](http://gss.norc.org), or GSS, is one of the cornerstones of American social science and one of the most-analyzed datasets in Sociology. It is routinely used in research, in teaching, and as a reference point in discussions about changes in American society since the early 1970s. It is also a model of open, public data. The [National Opinion Research Center](http://norc.org) already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the [GSS Data Explorer](https://gssdataexplorer.norc.org), and social scientists can [download complete datasets](http://gss.norc.org/Get-The-Data) directly. At present, the GSS is provided to researchers in a choice of two commercial formats, Stata (`.dta`) and SPSS (`.sav`). It's not too difficult to get the data into R (especially now that the [Haven](http://haven.tidyverse.org) package is pretty reliable), but it can be a little annoying to have to do it repeatedly. After doing it one too many times, I got tired of it and I made a package instead. The `gssr` package provides the GSS Cumulative Data File (1972-2018) and three GSS Three Wave Panel Data Files (for panels beginning in 2006, 2008, and 2010, respectively), together with GSS codebooks, in a format that makes it straightforward to get started working with them in R.  The `gssr` package makes the GSS a little more accessible to users of R, the free software environment for statistical computing, and thus helps in a small way to make the GSS even more open than it already is.
+
+### Packages
+
+This article makes use of some additional packages beyond `gssr` itself. My assumption is that users of `gssr` will most likely use and analyze the data in conjunction with some combination of [Tidyverse](https://tidyverse.org) tools and the [survey](http://r-survey.r-forge.r-project.org/survey/), [srvyr](https://github.com/gergness/srvyr), and [panelr](http://panelr.jacob-long.com) packages.
+
+```{r packages}
+library(dplyr)
+library(ggplot2)
+library(survey)
+library(srvyr)
+```
+
+## Load the gssr package and its data
+
+```{r setup}
+library(gssr)
+```
+
+We will begin with the Cumulative Data file (1972-2018). As the startup message notes, the data objects are not automatically loaded. That is, we do not use R's "lazy loading" functionality. This is because the main GSS dataset is rather large. Instead we load it manually with `data()`. For the purposes of this vignette, because the full Cumulative Data object is big, we will use just a few columns of it stored in an object called `gss_sub`. But all the code here will also work with the full dataset object, `gss_all`, which you can load with the command `data(gss_all)`. We will also load the tibble that contains the codebook for the Cumulative Data File. This is called `gss_doc`.
+
+```{r load}
+data(gss_sub)
+data(gss_doc)
+
+gss_doc
+
+```
+
+The GSS data comes in a *labelled* format, mirroring the way it is encoded for Stata and SPSS platforms. The numeric codes are the content of the column cells. The labeling information is stored as an attribute of the column.
+
+```{r labels}
+gss_sub
+```
+
+We will use the label information later when recoding the variables into, say, character or factor variables. The labels and values are reflected in the codebook tibble. To see them, pull out the `marginals` list-column:
+
+```{r doctib1}
+gss_doc %>% filter(id == "race") %>%
+  select(marginals) %>% 
+  tidyr::unnest(cols = c(marginals))
+```
+
+```{r doctib2}
+gss_doc %>% filter(id == "sex") %>%
+  select(marginals) %>% 
+  tidyr::unnest(cols = c(marginals))
+```
+
+Alternatively, use the function `gss_get_marginals()` to see a tibble for one or more categorical variables:
+
+```{r docfun}
+
+gss_get_marginals(varnames = c("sex", "race", "fefam"))
+
+```
+
+A similar function lets you peek at the codebook's properties for any variable:
+
+```{r docfun2}
+
+gss_get_props(varnames = c("sex", "race", "fefam"))
+
+```
+
+The description and any additional codebook text can be extracted directly:
+
+```{r text}
+gss_doc %>%
+  filter(id == "fefam") %>%
+  select(description, text)
+```
+
+
+## Descriptive analysis of the data: an example
+
+The GSS is a complex survey. When working with it, we need to take its structure into account in order to properly calculate statistics such as the population mean for a variable in some year, its standard error, and so on. For these tasks we use the `survey` and `srvyr` packages. For details on `survey`, see Lumley (2010). We will also do some recoding prior to analyzing the data, so we load several additional `tidyverse` packages to assist us.
+
+We will examine a topic that was the subject of recent media attention, in the *New York Times* and elsewhere, regarding the beliefs of young men about gender roles. Some surveys seemed to point to some recent increasing conservatism on this front amongst young men. As it happens, the GSS has a longstanding question named `fefam`, where respondents are asked to give their opinion on the following statement:
+
+>  It is much better for everyone involved if the man is the achiever outside the home and the woman takes care of the home and family.
+
+Respondents may answer that they Strongly Agree, Agree, Disagree, or Strongly Disagree with the statement (as well as refusing to answer, or saying they don't know). 
+
+
+
+### Subset the Data
+
+The GSS data retains labeling information (as it was originally imported via the `haven` package). When working with the data in an analysis, we will probably want to convert the labeled variables to data types such as factors. This should be done with care (and not on the whole dataset all at once). Typically, we will want to focus on some relatively small subset of variables and examine those. For example, let's say we want to explore the `fefam` question. We will subset the data and then prepare that for analysis. Here we are going to subset `gss_sub` into an object called `gss_fam` containing just the variables we want to examine, along with core measures that identify respondents (such as `id` and `year`) and variables necessary for the survey weighting later (such as `wtssall`).
 
 ```{r setup-subset}
 cont_vars <- c("year", "id", "ballot", "age")
@@ -106,10 +157,10 @@ wt_vars <- c("vpsu",
              "sampcode",            # sampling error code
              "sample")              # sampling frame and method
 
-vars <- c(cont_vars, cat_vars, wt_vars)
+my_vars <- c(cont_vars, cat_vars, wt_vars)
 
-gss_fam <- gss_all %>%
-  select(c(cont_vars, cat_vars, wt_vars))
+gss_fam <- gss_sub %>%
+  select(all_of(my_vars))
 
 gss_fam
 
@@ -117,7 +168,8 @@ gss_fam
 
 ### Recode the Subsetted Data
 
-Next, some recoding, along with creating some new variables.
+Next, some recoding, along with creating some new variables. We will clean up `gss_fam` a bit, discarding some of the label and missing value information we don't need. We also create some new variables: age quintiles, a variable flagging whether a respondent is 25 or younger, recoded `fefam` to binary "Agree" or "Disagree" (with non-responses dropped). 
+
 
 ```{r recodes}
 qrts <- quantile(as.numeric(gss_fam$age), 
@@ -130,26 +182,34 @@ quintiles <- quantile(as.numeric(gss_fam$age),
 quintiles
 
 ## Recoding
-gss_fam <- gss_fam %>%
-  purrr::modify_at(vars(), haven::zap_missing) %>%
-  purrr::modify_at(wt_vars, as.numeric) %>%
-  purrr::modify_at(cat_vars, forcats::as_factor) %>%
-  purrr::modify_at(cat_vars, forcats::fct_relabel, capwords, strict = TRUE) %>%
-  mutate(ageq = cut(x = age, breaks = unique(qrts), include.lowest = TRUE),
-           ageq =  forcats::fct_relabel(ageq, convert_agegrp),
-           agequint = cut(x = age, breaks = unique(quintiles), include.lowest = TRUE),
-           agequint = forcats::fct_relabel(agequint, convert_agegrp),
-           year_f = droplevels(factor(year)),
-           young = ifelse(age < 26, "Yes", "No"),
-           fefam = forcats::fct_recode(fefam, NULL = "IAP", NULL = "DK", NULL = "NA"),
-           fefam_d = forcats::fct_recode(fefam,
-                                Agree = "Strongly Agree",
-                                Disagree = "Strongly Disagree"),
-           fefam_n = recode(fefam_d, "Agree" = 0, "Disagree" = 1))
+## The convert_agegrp() and capwords() functions seen here are defined
+## at the top of the Rmd file used to produce this document.
 
-gss_fam <- gss_fam %>% 
-  mutate(compwt = oversamp * formwt * wtssall, 
-         samplerc = case_when(sample %in% c(3:4) ~ 3, 
+gss_fam <- gss_fam %>%
+  mutate(
+    # Convert all missing to NA
+    across(everything(), haven::zap_missing), 
+    # Convert all weight vars to numeric
+    across(all_of(wt_vars), as.numeric),
+    # Make all categorical variables factors and relabel nicely
+    across(all_of(cat_vars), forcats::as_factor),
+    across(all_of(cat_vars), forcats::fct_relabel, capwords, strict = TRUE),
+    # Create the age groups
+    ageq = cut(x = age, breaks = unique(qrts), include.lowest = TRUE),
+    ageq =  forcats::fct_relabel(ageq, convert_agegrp), 
+    agequint = cut(x = age, breaks = unique(quintiles), include.lowest = TRUE),
+    agequint = forcats::fct_relabel(agequint, convert_agegrp),
+    year_f = droplevels(factor(year)),
+    young = ifelse(age < 26, "Yes", "No"),
+    # Dichotomize femfam
+    fefam = forcats::fct_recode(fefam, NULL = "IAP", NULL = "DK", NULL = "NA"),
+    fefam_d = forcats::fct_recode(fefam,
+                                  Agree = "Strongly Agree",
+                                  Disagree = "Strongly Disagree"),
+    fefam_n = recode(fefam_d, "Agree" = 0, "Disagree" = 1),
+    # Weights
+    compwt = oversamp * formwt * wtssall, 
+    samplerc = case_when(sample %in% c(3:4) ~ 3, 
                               sample %in% c(6:7) ~ 6,
                               TRUE ~ sample))
 
@@ -159,7 +219,7 @@ gss_fam
 
 ### Integrate the Survey Weights 
 
-Now set up the survey object.
+Nexr, we set up the data so we can properly calculate population means and errors and so on. We use `svyr`'s wrappers to `survey` for this.
 
 ```{r weights}
 
@@ -176,9 +236,15 @@ gss_svy <- gss_fam %>%
                      nest = TRUE)
 ```
 
-## Calculate the survey-weighted means and confidence intervals for the question of interest for every year in the data
+The `gss_svy` object contains the same data as `gss_fam`, but incorporates information about the sampling structure in a way that the `survey` package's functions can work with: 
 
-We're now in a position to calculate some properly-weighted summary statistics for the variables we're interested in. 
+```{r svyobj}
+gss_svy
+```
+
+### Calculate the survey-weighted statistics
+
+We're now in a position to calculate some properly-weighted summary statistics for the variable we're interested in, for every year in the data. 
 
 ```{r summary}
 ## Get the breakdown for every year
@@ -228,6 +294,51 @@ out_ff %>%
        caption = "Kieran Healy http://socviz.co.\n
          Data source: General Social Survey") +
   theme(legend.position = "bottom")
+```
+
+## The GSS Three Wave Panels 
+
+In addition to the Cumulative Data File, the gssr package also includes the GSS's panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The `gssr` package provides three datasets, one for each of three-wave panels. They are `gss_panel06_long`, `gss_panel08_long`, and `gss_panel10_long`.  The datasets are provided by the GSS in wide format but (as their names suggest) are packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Conversion from long back to wide format is possible with the tools provided in `panelr`.
+
+We load the panel data as before. For example:
+
+```{r panel}
+data(gss_panel06_long)
+
+gss_panel06_long
+
+```
+
+The panel data objects were created by `panelr` but are regular tibbles. The column names in long format do not have wave identifiers. Rather,  `firstid` and `wave` variables track the cases. The `firstid` variable is unique for every row and has no missing values. The `id` variable is from the GSS and tracks individuals within waves.
+
+```{r panel-example}
+gss_panel06_long %>% select(firstid, wave, id, sex)
+```
+
+We can look at attrition across waves with, e.g.:
+
+```{r attrition}
+gss_panel06_long %>% 
+  select(wave, id) %>%
+  group_by(wave) %>%
+  summarize(observed = n_distinct(id),
+            missing = sum(is.na(id)))
+```
+
+The documentation tibble for the panel data is called `gss_panel_doc`.
+
+```{r paneldoc}
+data(gss_panel_doc)
+
+gss_panel_doc
+```
+
+Each row is a variable. The `id`, `description`, and `text` columns provide the details on each question or measure. The `properties` and `marginals` are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc` and we say which property wave or marginals wave we want to see. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`. Be sure to specify which wave you want marginals for, with the `margin` argument.
+
+```{r paneldocfun}
+gss_get_marginals(varnames = c("sex", "race"), 
+                  data = gss_panel_doc, 
+                  margin = marginals_1)
 ```
 
 ## References

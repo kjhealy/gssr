@@ -157,10 +157,10 @@ wt_vars <- c("vpsu",
              "sampcode",            # sampling error code
              "sample")              # sampling frame and method
 
-vars <- c(cont_vars, cat_vars, wt_vars)
+my_vars <- c(cont_vars, cat_vars, wt_vars)
 
 gss_fam <- gss_sub %>%
-  select(c(cont_vars, cat_vars, wt_vars))
+  select(all_of(my_vars))
 
 gss_fam
 
@@ -186,25 +186,30 @@ quintiles
 ## at the top of the Rmd file used to produce this document.
 
 gss_fam <- gss_fam %>%
-  purrr::modify_at(vars(), haven::zap_missing) %>%
-  purrr::modify_at(wt_vars, as.numeric) %>%
-  purrr::modify_at(cat_vars, forcats::as_factor) %>%
-  purrr::modify_at(cat_vars, forcats::fct_relabel, capwords, strict = TRUE) %>%
-  mutate(ageq = cut(x = age, breaks = unique(qrts), include.lowest = TRUE),
-           ageq =  forcats::fct_relabel(ageq, convert_agegrp), 
-           agequint = cut(x = age, breaks = unique(quintiles), include.lowest = TRUE),
-           agequint = forcats::fct_relabel(agequint, convert_agegrp),
-           year_f = droplevels(factor(year)),
-           young = ifelse(age < 26, "Yes", "No"),
-           fefam = forcats::fct_recode(fefam, NULL = "IAP", NULL = "DK", NULL = "NA"),
-           fefam_d = forcats::fct_recode(fefam,
-                                Agree = "Strongly Agree",
-                                Disagree = "Strongly Disagree"),
-           fefam_n = recode(fefam_d, "Agree" = 0, "Disagree" = 1))
-
-gss_fam <- gss_fam %>% 
-  mutate(compwt = oversamp * formwt * wtssall, 
-         samplerc = case_when(sample %in% c(3:4) ~ 3, 
+  mutate(
+    # Convert all missing to NA
+    across(everything(), haven::zap_missing), 
+    # Convert all weight vars to numeric
+    across(all_of(wt_vars), as.numeric),
+    # Make all categorical variables factors and relabel nicely
+    across(all_of(cat_vars), forcats::as_factor),
+    across(all_of(cat_vars), forcats::fct_relabel, capwords, strict = TRUE),
+    # Create the age groups
+    ageq = cut(x = age, breaks = unique(qrts), include.lowest = TRUE),
+    ageq =  forcats::fct_relabel(ageq, convert_agegrp), 
+    agequint = cut(x = age, breaks = unique(quintiles), include.lowest = TRUE),
+    agequint = forcats::fct_relabel(agequint, convert_agegrp),
+    year_f = droplevels(factor(year)),
+    young = ifelse(age < 26, "Yes", "No"),
+    # Dichotomize femfam
+    fefam = forcats::fct_recode(fefam, NULL = "IAP", NULL = "DK", NULL = "NA"),
+    fefam_d = forcats::fct_recode(fefam,
+                                  Agree = "Strongly Agree",
+                                  Disagree = "Strongly Disagree"),
+    fefam_n = recode(fefam_d, "Agree" = 0, "Disagree" = 1),
+    # Weights
+    compwt = oversamp * formwt * wtssall, 
+    samplerc = case_when(sample %in% c(3:4) ~ 3, 
                               sample %in% c(6:7) ~ 6,
                               TRUE ~ sample))
 
