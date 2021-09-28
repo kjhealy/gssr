@@ -5,19 +5,28 @@
 \alias{gss_panel_doc}
 \title{Codebook for the GSS Three Wave Panel}
 \format{
-A tibble with 1,855 rows and five columns.
+A tibble with 628 rows and nine columns.
 \describe{
-\item{\code{id}}{The short name of the variable, in the panel's
-wide-format naming convention. A character vector.}
+\item{\code{id}}{The short name of the variable, without its wave identifier. A character vector.}
 \item{\code{description}}{Brief description of the variable. A
 character vector.}
-\item{\code{properties}}{A list column containing information on
-the variable's data type, its missing value codes, and its
-record/column location.}
-\item{\code{marginals}}{A list column containing a summary of the
-values taken by the variable.}
 \item{\code{text}}{Further more detailed information on the
 question asked and the directions provided.}
+\item{\code{properties_1}}{A list column containing information on
+the variable's data type, its missing value codes, and its
+record/column location for Wave 1 of the panel.}
+\item{\code{properties_2}}{A list column containing information on
+the variable's data type, its missing value codes, and its
+record/column location for Wave 2 of the panel.}
+\item{\code{properties_3}}{A list column containing information on
+the variable's data type, its missing value codes, and its
+record/column location for Wave 3 of the panel.}
+\item{\code{marginals_1}}{A list column containing a summary of the
+values taken by the variable in Wave 1 of the panel.}
+\item{\code{marginals_2}}{A list column containing a summary of the
+values taken by the variable in Wave 2 of the panel.}
+\item{\code{marginals_3}}{A list column containing a summary of the
+values taken by the variable in Wave 3 of the panel.}
 }
 }
 \source{
@@ -28,10 +37,7 @@ data(gss_panel_doc)
 }
 \description{
 A tibble containing information on the variable in the GSS
-Three Wave Panel Data File. See http://gss.norc.org/Get-Documentation for full
-documentation of the variables. The panel codebook is with respect
-to the data in wide format, so time-varying measures have a suffix
-(an underscore followed by the number 1, 2, or 3) indicating which
-wave of the panel they are from.
+Three Wave Panel Data File, in wide format. See http://gss.norc.org/Get-Documentation for full
+documentation of the variables.
 }
 \keyword{datasets}

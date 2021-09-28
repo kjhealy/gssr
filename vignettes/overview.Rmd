@@ -328,10 +328,12 @@ data(gss_panel_doc)
 gss_panel_doc
 ```
 
-Because it was created from the main GSS codebook, it is in wide format and the time-varying variables have wave identifiers. The identifiers are the suffixes `_1`, `_2`, and `_3`, for the first, second, and third waves. The variable names are capitalized. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`.
+Each row is a variable. The `id`, `description`, and `text` columns provide the details on each question or measure. The `properties` and `marginals` are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc` and we say which property wave or marginals wave we want to see. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`. Be sure to specify which wave you want marginals for, with the `margin` argument.
 
 ```{r paneldocfun}
-gss_get_marginals(varnames = c("SEX_1", "SEX_2", "SEX_3"), data = gss_panel_doc)
+gss_get_marginals(varnames = c("sex", "race"), 
+                  data = gss_panel_doc, 
+                  margin = marginals_1)
 ```
 
 ## References

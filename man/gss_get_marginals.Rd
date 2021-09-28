@@ -4,14 +4,16 @@
 \alias{gss_get_marginals}
 \title{Get marginal summaries for a GSS variable or variables}
 \usage{
-gss_get_marginals(varnames = "id", data = gss_doc)
+gss_get_marginals(varnames = "id", data = gss_doc, margin = marginals)
 }
 \arguments{
 \item{varnames}{The (categorical) variable or variables you want
 to see marginals for. Can be a character string or a character
 vector.}
 
-\item{data}{The codebook data frame, by default \code{gss_doc}}
+\item{data}{The codebook data frame, by default \code{gss_doc}, or alternatively the wide panel documentation in \code{gss_panel_docw}.}
+
+\item{margin}{Which margin. Not needed for \code{gss_doc}, but one of \code{marginals_1}, \code{marginals_2}, or \code{marginals_2} when \code{data} is \code{gss_panel_docw}.}
 }
 \value{
 A tibble of marginal distributions from the GSS codebook
@@ -20,7 +22,7 @@ A tibble of marginal distributions from the GSS codebook
 Get marginal summaries for a GSS variable or variables
 }
 \details{
-Codebook summaries from the \code{gss_doc} object
+Codebook summaries from the \code{gss_doc} or \code{gss_panel_docw} objects
 }
 \examples{
 \donttest{

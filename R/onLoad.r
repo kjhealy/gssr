@@ -8,5 +8,5 @@
 ##' @return Message
 ##' @author Kieran Healy
 .onAttach <- function(libname, pkgname) {
-  packageStartupMessage("Package loaded. To attach the GSS data, type data(gss_all) at the console.\nFor the codebook, type data(gss_doc). The gss_all and gss_doc objects will then be available to use.")
+  packageStartupMessage("Package loaded. To attach the GSS data, type data(gss_all) at the console.\nFor the codebook, type data(gss_doc).\nFor the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).")
 }

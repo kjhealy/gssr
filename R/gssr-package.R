@@ -53,12 +53,13 @@ fmt_nr <- function(x){
 
 ##' Get marginal summaries for a GSS variable or variables
 ##'
-##' Codebook summaries from the \code{gss_doc} object
+##' Codebook summaries from the \code{gss_doc} or \code{gss_panel_docw} objects
 ##' @title Get marginal summaries for a GSS variable or variables
 ##' @param varnames The (categorical) variable or variables you want
 ##'     to see marginals for. Can be a character string or a character
 ##'     vector.
-##' @param data The codebook data frame, by default \code{gss_doc}
+##' @param data The codebook data frame, by default \code{gss_doc}, or alternatively the wide panel documentation in \code{gss_panel_docw}.
+##' @param margin Which margin. Not needed for \code{gss_doc}, but one of \code{marginals_1}, \code{marginals_2}, or \code{marginals_2} when \code{data} is \code{gss_panel_docw}.
 ##' @return A tibble of marginal distributions from the GSS codebook
 ##' @author Kieran Healy
 ##' @examples
@@ -69,11 +70,11 @@ fmt_nr <- function(x){
 ##' gss_get_marginals(varnames = c("race", "gender", "fefam"))
 ##' }
 ##' @export
-gss_get_marginals <- function(varnames = "id", data = gss_doc) {
+gss_get_marginals <- function(varnames = "id", data = gss_doc, margin = marginals) {
   dplyr::filter(data, id %in% varnames) %>%
-    dplyr::select(id, marginals) %>%
+    dplyr::select(id, {{ margin }}) %>%
     dplyr::rename(variable = id) %>%
-    tidyr::unnest(cols = c(marginals)) %>%
+    tidyr::unnest(cols = c({{ margin }})) %>%
     dplyr::mutate(n = stringr::str_remove_all(n, ","),
                   n = as.integer(n))
   }
@@ -88,6 +89,7 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 ##'     to see properties for. Can be a character string or a character
 ##'     vector.
 ##' @param data The codebook data frame, by default \code{gss_doc}
+##' @param props Which properties. Not needed for \code{gss_doc}, but one of \code{properties_1}, \code{properties_2}, or \code{properties_3} when \code{data} is \code{gss_panel_docw}.
 ##' @return A tibble of the properies for each variable
 ##' @author Kieran Healy
 ##' @examples
@@ -98,11 +100,11 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc) {
 ##' gss_get_props(varnames = c("age", "race", "fefam"))
 ##' }
 ##' @export
-gss_get_props <- function(varnames = "id", data = gss_doc) {
+gss_get_props <- function(varnames = "id", data = gss_doc, props = properties) {
   dplyr::filter(data, id %in% varnames) %>%
-    dplyr::select(id, properties) %>%
+    dplyr::select(id, {{ props }}) %>%
     dplyr::rename(variable = id) %>%
-    tidyr::unnest(cols = c(properties))
+    tidyr::unnest(cols = c({{ props }}))
 }
 
 #' Get whether a question was asked

@@ -1,3 +1,7 @@
+# gssr 0.3.1
+
+* The panel documentation tibble, `gss_panel_doc`, has been updated to a wide format that makes it easier to browse the variables.
+
 # gssr 0.2.1
 
 * Moved from Travis CI to GitHub Actions for build testing.

@@ -4,7 +4,7 @@
 \alias{gss_get_props}
 \title{Property information for a GSS variable or variables}
 \usage{
-gss_get_props(varnames = "id", data = gss_doc)
+gss_get_props(varnames = "id", data = gss_doc, props = properties)
 }
 \arguments{
 \item{varnames}{The variable or variables you want
@@ -12,6 +12,8 @@ to see properties for. Can be a character string or a character
 vector.}
 
 \item{data}{The codebook data frame, by default \code{gss_doc}}
+
+\item{props}{Which properties. Not needed for \code{gss_doc}, but one of \code{properties_1}, \code{properties_2}, or \code{properties_3} when \code{data} is \code{gss_panel_docw}.}
 }
 \value{
 A tibble of the properies for each variable
