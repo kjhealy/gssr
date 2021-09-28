@@ -198,7 +198,8 @@
 <span class="co">#&gt; 3   100   64,814 &lt;NA&gt;  Total  SEX</span></code></pre></div>
 <p>Alternatively, use the function <code><a href="../reference/gss_get_marginals.html">gss_get_marginals()</a></code> to see a tibble for one or more categorical variables:</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="../reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span>, <span class="st">"fefam"</span><span class="op">)</span><span class="op">)</span>
+<code class="sourceCode R">
+<span class="fu"><a href="../reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span>, <span class="st">"fefam"</span><span class="op">)</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 15 × 6</span>
 <span class="co">#&gt;    variable percent     n value label             id   </span>
 <span class="co">#&gt;    &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;             &lt;chr&gt;</span>
@@ -219,7 +220,8 @@
 <span class="co">#&gt; 15 fefam      100   64814 &lt;NA&gt;  Total             FEFAM</span></code></pre></div>
 <p>A similar function lets you peek at the codebook’s properties for any variable:</p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="../reference/gss_get_props.html">gss_get_props</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span>, <span class="st">"fefam"</span><span class="op">)</span><span class="op">)</span>
+<code class="sourceCode R">
+<span class="fu"><a href="../reference/gss_get_props.html">gss_get_props</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span>, <span class="st">"fefam"</span><span class="op">)</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 9 × 4</span>
 <span class="co">#&gt;   variable property           value   id   </span>
 <span class="co">#&gt;   &lt;chr&gt;    &lt;chr&gt;              &lt;chr&gt;   &lt;chr&gt;</span>
@@ -268,22 +270,11 @@
              <span class="st">"sampcode"</span>,            <span class="co"># sampling error code</span>
              <span class="st">"sample"</span><span class="op">)</span>              <span class="co"># sampling frame and method</span>
 
-<span class="va">vars</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">cont_vars</span>, <span class="va">cat_vars</span>, <span class="va">wt_vars</span><span class="op">)</span>
+<span class="va">my_vars</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">cont_vars</span>, <span class="va">cat_vars</span>, <span class="va">wt_vars</span><span class="op">)</span>
 
 <span class="va">gss_fam</span> <span class="op">&lt;-</span> <span class="va">gss_sub</span> <span class="op">%&gt;%</span>
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">cont_vars</span>, <span class="va">cat_vars</span>, <span class="va">wt_vars</span><span class="op">)</span><span class="op">)</span>
-<span class="co">#&gt; Note: Using an external vector in selections is ambiguous.</span>
-<span class="co">#&gt; ℹ Use `all_of(cont_vars)` instead of `cont_vars` to silence this message.</span>
-<span class="co">#&gt; ℹ See &lt;https://tidyselect.r-lib.org/reference/faq-external-vector.html&gt;.</span>
-<span class="co">#&gt; This message is displayed once per session.</span>
-<span class="co">#&gt; Note: Using an external vector in selections is ambiguous.</span>
-<span class="co">#&gt; ℹ Use `all_of(cat_vars)` instead of `cat_vars` to silence this message.</span>
-<span class="co">#&gt; ℹ See &lt;https://tidyselect.r-lib.org/reference/faq-external-vector.html&gt;.</span>
-<span class="co">#&gt; This message is displayed once per session.</span>
-<span class="co">#&gt; Note: Using an external vector in selections is ambiguous.</span>
-<span class="co">#&gt; ℹ Use `all_of(wt_vars)` instead of `wt_vars` to silence this message.</span>
-<span class="co">#&gt; ℹ See &lt;https://tidyselect.r-lib.org/reference/faq-external-vector.html&gt;.</span>
-<span class="co">#&gt; This message is displayed once per session.</span>
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">my_vars</span><span class="op">)</span><span class="op">)</span>
+
 <span class="va">gss_fam</span>
 <span class="co">#&gt; # A tibble: 64,814 × 14</span>
 <span class="co">#&gt;     year    id ballot     age    race   sex   fefam vpsu  vstrat oversamp formwt</span>
@@ -311,36 +302,43 @@
 <span class="va">qrts</span>
 <span class="co">#&gt;   0%  25%  50%  75% 100% </span>
 <span class="co">#&gt;   18   31   44   59   89</span>
+
 <span class="va">quintiles</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/quantile.html">quantile</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="va">gss_fam</span><span class="op">$</span><span class="va">age</span><span class="op">)</span>, 
                       probs <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">0</span>, <span class="fl">1</span>, <span class="fl">0.2</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
 
 <span class="va">quintiles</span>
 <span class="co">#&gt;   0%  20%  40%  60%  80% 100% </span>
 <span class="co">#&gt;   18   29   38   49   63   89</span>
+
 <span class="co">## Recoding</span>
 <span class="co">## The convert_agegrp() and capwords() functions seen here are defined</span>
 <span class="co">## at the top of the Rmd file used to produce this document.</span>
 
 <span class="va">gss_fam</span> <span class="op">&lt;-</span> <span class="va">gss_fam</span> <span class="op">%&gt;%</span>
-  <span class="fu">purrr</span><span class="fu">::</span><span class="fu"><a href="https://purrr.tidyverse.org/reference/modify.html">modify_at</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/vars.html">vars</a></span><span class="op">(</span><span class="op">)</span>, <span class="fu">haven</span><span class="fu">::</span><span class="va"><a href="https://haven.tidyverse.org/reference/zap_missing.html">zap_missing</a></span><span class="op">)</span> <span class="op">%&gt;%</span>
-  <span class="fu">purrr</span><span class="fu">::</span><span class="fu"><a href="https://purrr.tidyverse.org/reference/modify.html">modify_at</a></span><span class="op">(</span><span class="va">wt_vars</span>, <span class="va">as.numeric</span><span class="op">)</span> <span class="op">%&gt;%</span>
-  <span class="fu">purrr</span><span class="fu">::</span><span class="fu"><a href="https://purrr.tidyverse.org/reference/modify.html">modify_at</a></span><span class="op">(</span><span class="va">cat_vars</span>, <span class="fu">forcats</span><span class="fu">::</span><span class="va"><a href="https://forcats.tidyverse.org/reference/as_factor.html">as_factor</a></span><span class="op">)</span> <span class="op">%&gt;%</span>
-  <span class="fu">purrr</span><span class="fu">::</span><span class="fu"><a href="https://purrr.tidyverse.org/reference/modify.html">modify_at</a></span><span class="op">(</span><span class="va">cat_vars</span>, <span class="fu">forcats</span><span class="fu">::</span><span class="va"><a href="https://forcats.tidyverse.org/reference/fct_relabel.html">fct_relabel</a></span>, <span class="va">capwords</span>, strict <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">%&gt;%</span>
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>ageq <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/cut.html">cut</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">age</span>, breaks <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="va">qrts</span><span class="op">)</span>, include.lowest <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,
-           ageq <span class="op">=</span>  <span class="fu">forcats</span><span class="fu">::</span><span class="fu"><a href="https://forcats.tidyverse.org/reference/fct_relabel.html">fct_relabel</a></span><span class="op">(</span><span class="va">ageq</span>, <span class="va">convert_agegrp</span><span class="op">)</span>, 
-           agequint <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/cut.html">cut</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">age</span>, breaks <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="va">quintiles</span><span class="op">)</span>, include.lowest <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,
-           agequint <span class="op">=</span> <span class="fu">forcats</span><span class="fu">::</span><span class="fu"><a href="https://forcats.tidyverse.org/reference/fct_relabel.html">fct_relabel</a></span><span class="op">(</span><span class="va">agequint</span>, <span class="va">convert_agegrp</span><span class="op">)</span>,
-           year_f <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/droplevels.html">droplevels</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/factor.html">factor</a></span><span class="op">(</span><span class="va">year</span><span class="op">)</span><span class="op">)</span>,
-           young <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/ifelse.html">ifelse</a></span><span class="op">(</span><span class="va">age</span> <span class="op">&lt;</span> <span class="fl">26</span>, <span class="st">"Yes"</span>, <span class="st">"No"</span><span class="op">)</span>,
-           fefam <span class="op">=</span> <span class="fu">forcats</span><span class="fu">::</span><span class="fu"><a href="https://forcats.tidyverse.org/reference/fct_recode.html">fct_recode</a></span><span class="op">(</span><span class="va">fefam</span>, <span class="cn">NULL</span> <span class="op">=</span> <span class="st">"IAP"</span>, <span class="cn">NULL</span> <span class="op">=</span> <span class="st">"DK"</span>, <span class="cn">NULL</span> <span class="op">=</span> <span class="st">"NA"</span><span class="op">)</span>,
-           fefam_d <span class="op">=</span> <span class="fu">forcats</span><span class="fu">::</span><span class="fu"><a href="https://forcats.tidyverse.org/reference/fct_recode.html">fct_recode</a></span><span class="op">(</span><span class="va">fefam</span>,
-                                Agree <span class="op">=</span> <span class="st">"Strongly Agree"</span>,
-                                Disagree <span class="op">=</span> <span class="st">"Strongly Disagree"</span><span class="op">)</span>,
-           fefam_n <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/recode.html">recode</a></span><span class="op">(</span><span class="va">fefam_d</span>, <span class="st">"Agree"</span> <span class="op">=</span> <span class="fl">0</span>, <span class="st">"Disagree"</span> <span class="op">=</span> <span class="fl">1</span><span class="op">)</span><span class="op">)</span>
-
-<span class="va">gss_fam</span> <span class="op">&lt;-</span> <span class="va">gss_fam</span> <span class="op">%&gt;%</span> 
-  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>compwt <span class="op">=</span> <span class="va">oversamp</span> <span class="op">*</span> <span class="va">formwt</span> <span class="op">*</span> <span class="va">wtssall</span>, 
-         samplerc <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html">case_when</a></span><span class="op">(</span><span class="va">sample</span> <span class="op">%in%</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">3</span><span class="op">:</span><span class="fl">4</span><span class="op">)</span> <span class="op">~</span> <span class="fl">3</span>, 
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>
+    <span class="co"># Convert all missing to NA</span>
+    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/everything.html">everything</a></span><span class="op">(</span><span class="op">)</span>, <span class="fu">haven</span><span class="fu">::</span><span class="va"><a href="https://haven.tidyverse.org/reference/zap_missing.html">zap_missing</a></span><span class="op">)</span>, 
+    <span class="co"># Convert all weight vars to numeric</span>
+    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">wt_vars</span><span class="op">)</span>, <span class="va">as.numeric</span><span class="op">)</span>,
+    <span class="co"># Make all categorical variables factors and relabel nicely</span>
+    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">cat_vars</span><span class="op">)</span>, <span class="fu">forcats</span><span class="fu">::</span><span class="va"><a href="https://forcats.tidyverse.org/reference/as_factor.html">as_factor</a></span><span class="op">)</span>,
+    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">cat_vars</span><span class="op">)</span>, <span class="fu">forcats</span><span class="fu">::</span><span class="va"><a href="https://forcats.tidyverse.org/reference/fct_relabel.html">fct_relabel</a></span>, <span class="va">capwords</span>, strict <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,
+    <span class="co"># Create the age groups</span>
+    ageq <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/cut.html">cut</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">age</span>, breaks <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="va">qrts</span><span class="op">)</span>, include.lowest <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,
+    ageq <span class="op">=</span>  <span class="fu">forcats</span><span class="fu">::</span><span class="fu"><a href="https://forcats.tidyverse.org/reference/fct_relabel.html">fct_relabel</a></span><span class="op">(</span><span class="va">ageq</span>, <span class="va">convert_agegrp</span><span class="op">)</span>, 
+    agequint <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/cut.html">cut</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">age</span>, breaks <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="va">quintiles</span><span class="op">)</span>, include.lowest <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,
+    agequint <span class="op">=</span> <span class="fu">forcats</span><span class="fu">::</span><span class="fu"><a href="https://forcats.tidyverse.org/reference/fct_relabel.html">fct_relabel</a></span><span class="op">(</span><span class="va">agequint</span>, <span class="va">convert_agegrp</span><span class="op">)</span>,
+    year_f <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/droplevels.html">droplevels</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/factor.html">factor</a></span><span class="op">(</span><span class="va">year</span><span class="op">)</span><span class="op">)</span>,
+    young <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/ifelse.html">ifelse</a></span><span class="op">(</span><span class="va">age</span> <span class="op">&lt;</span> <span class="fl">26</span>, <span class="st">"Yes"</span>, <span class="st">"No"</span><span class="op">)</span>,
+    <span class="co"># Dichotomize femfam</span>
+    fefam <span class="op">=</span> <span class="fu">forcats</span><span class="fu">::</span><span class="fu"><a href="https://forcats.tidyverse.org/reference/fct_recode.html">fct_recode</a></span><span class="op">(</span><span class="va">fefam</span>, <span class="cn">NULL</span> <span class="op">=</span> <span class="st">"IAP"</span>, <span class="cn">NULL</span> <span class="op">=</span> <span class="st">"DK"</span>, <span class="cn">NULL</span> <span class="op">=</span> <span class="st">"NA"</span><span class="op">)</span>,
+    fefam_d <span class="op">=</span> <span class="fu">forcats</span><span class="fu">::</span><span class="fu"><a href="https://forcats.tidyverse.org/reference/fct_recode.html">fct_recode</a></span><span class="op">(</span><span class="va">fefam</span>,
+                                  Agree <span class="op">=</span> <span class="st">"Strongly Agree"</span>,
+                                  Disagree <span class="op">=</span> <span class="st">"Strongly Disagree"</span><span class="op">)</span>,
+    fefam_n <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/recode.html">recode</a></span><span class="op">(</span><span class="va">fefam_d</span>, <span class="st">"Agree"</span> <span class="op">=</span> <span class="fl">0</span>, <span class="st">"Disagree"</span> <span class="op">=</span> <span class="fl">1</span><span class="op">)</span>,
+    <span class="co"># Weights</span>
+    compwt <span class="op">=</span> <span class="va">oversamp</span> <span class="op">*</span> <span class="va">formwt</span> <span class="op">*</span> <span class="va">wtssall</span>, 
+    samplerc <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html">case_when</a></span><span class="op">(</span><span class="va">sample</span> <span class="op">%in%</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">3</span><span class="op">:</span><span class="fl">4</span><span class="op">)</span> <span class="op">~</span> <span class="fl">3</span>, 
                               <span class="va">sample</span> <span class="op">%in%</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">6</span><span class="op">:</span><span class="fl">7</span><span class="op">)</span> <span class="op">~</span> <span class="fl">6</span>,
                               <span class="cn">TRUE</span> <span class="op">~</span> <span class="va">sample</span><span class="op">)</span><span class="op">)</span>
 
@@ -367,7 +365,8 @@
 <a href="#integrate-the-survey-weights" class="anchor"></a>Integrate the Survey Weights</h3>
 <p>Nexr, we set up the data so we can properly calculate population means and errors and so on. We use <code>svyr</code>’s wrappers to <code>survey</code> for this.</p>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>survey.lonely.psu <span class="op">=</span> <span class="st">"adjust"</span><span class="op">)</span>
+<code class="sourceCode R">
+<span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>survey.lonely.psu <span class="op">=</span> <span class="st">"adjust"</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>na.action<span class="op">=</span><span class="st">"na.pass"</span><span class="op">)</span>
 
 <span class="va">gss_svy</span> <span class="op">&lt;-</span> <span class="va">gss_fam</span> <span class="op">%&gt;%</span>
