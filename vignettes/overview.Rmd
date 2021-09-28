@@ -201,7 +201,7 @@ gss_fam <- gss_fam %>%
     agequint = forcats::fct_relabel(agequint, convert_agegrp),
     year_f = droplevels(factor(year)),
     young = ifelse(age < 26, "Yes", "No"),
-    # Dichotomize femfam
+    # Dichotomize fefam
     fefam = forcats::fct_recode(fefam, NULL = "IAP", NULL = "DK", NULL = "NA"),
     fefam_d = forcats::fct_recode(fefam,
                                   Agree = "Strongly Agree",
