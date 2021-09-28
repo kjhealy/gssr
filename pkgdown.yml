@@ -3,7 +3,7 @@ pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
   overview: overview.html
-last_built: 2021-09-28T21:51Z
+last_built: 2021-09-28T22:12Z
 urls:
   reference: https://kjhealy.github.io/gssr/reference
   article: https://kjhealy.github.io/gssr/articles
