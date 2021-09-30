@@ -221,8 +221,11 @@ gss_fam <- gss_fam %>%
                               sample %in% c(6:7) ~ 6,
                               TRUE ~ sample))
 
-
-gss_fam
+## Some of the recoded variables
+gss_fam %>%
+  filter(year > 1976) %>% 
+  select(race:fefam, agequint:fefam_d) %>% 
+  relocate(year_f)
 ```
 
 ### Integrate the Survey Weights 
