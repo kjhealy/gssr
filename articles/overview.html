@@ -346,24 +346,25 @@
                               <span class="va">sample</span> <span class="op">%in%</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">6</span><span class="op">:</span><span class="fl">7</span><span class="op">)</span> <span class="op">~</span> <span class="fl">6</span>,
                               <span class="cn">TRUE</span> <span class="op">~</span> <span class="va">sample</span><span class="op">)</span><span class="op">)</span>
 
-
-<span class="va">gss_fam</span>
-<span class="co">#&gt; # A tibble: 64,814 × 22</span>
-<span class="co">#&gt;     year    id    ballot       age race  sex   fefam  vpsu vstrat oversamp formwt</span>
-<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl+lbl&gt; &lt;dbl+lbl&gt; &lt;fct&gt; &lt;fct&gt; &lt;fct&gt; &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;</span>
-<span class="co">#&gt;  1  1972     1        NA        23 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  2  1972     2        NA        70 White Male  &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  3  1972     3        NA        48 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  4  1972     4        NA        27 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  5  1972     5        NA        61 White Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  6  1972     6        NA        26 White Male  &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  7  1972     7        NA        28 White Male  &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  8  1972     8        NA        27 White Male  &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt;  9  1972     9        NA        21 Black Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt; 10  1972    10        NA        30 Black Fema… &lt;NA&gt;     NA     NA        1      1</span>
-<span class="co">#&gt; # … with 64,804 more rows, and 11 more variables: wtssall &lt;dbl&gt;,</span>
-<span class="co">#&gt; #   sampcode &lt;dbl&gt;, sample &lt;dbl&gt;, ageq &lt;fct&gt;, agequint &lt;fct&gt;, year_f &lt;fct&gt;,</span>
-<span class="co">#&gt; #   young &lt;chr&gt;, fefam_d &lt;fct&gt;, fefam_n &lt;dbl&gt;, compwt &lt;dbl&gt;, samplerc &lt;dbl&gt;</span></code></pre></div>
+<span class="co">## Some of the recoded variables</span>
+<span class="va">gss_fam</span> <span class="op">%&gt;%</span>
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">&gt;</span> <span class="fl">1976</span><span class="op">)</span> <span class="op">%&gt;%</span> 
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">race</span><span class="op">:</span><span class="va">fefam</span>, <span class="va">agequint</span><span class="op">:</span><span class="va">fefam_d</span><span class="op">)</span> <span class="op">%&gt;%</span> 
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/relocate.html">relocate</a></span><span class="op">(</span><span class="va">year_f</span><span class="op">)</span>
+<span class="co">#&gt; # A tibble: 57,224 × 7</span>
+<span class="co">#&gt;    year_f race  sex    fefam             agequint  young fefam_d </span>
+<span class="co">#&gt;    &lt;fct&gt;  &lt;fct&gt; &lt;fct&gt;  &lt;fct&gt;             &lt;fct&gt;     &lt;chr&gt; &lt;fct&gt;   </span>
+<span class="co">#&gt;  1 1977   White Female Agree             Age 49-63 No    Agree   </span>
+<span class="co">#&gt;  2 1977   White Female Agree             Age 29-38 No    Agree   </span>
+<span class="co">#&gt;  3 1977   White Male   Strongly Agree    Age 63+   No    Agree   </span>
+<span class="co">#&gt;  4 1977   White Male   Strongly Disagree Age 18-29 No    Disagree</span>
+<span class="co">#&gt;  5 1977   White Female Agree             Age 18-29 Yes   Agree   </span>
+<span class="co">#&gt;  6 1977   White Male   Disagree          Age 29-38 No    Disagree</span>
+<span class="co">#&gt;  7 1977   White Female Agree             Age 63+   No    Agree   </span>
+<span class="co">#&gt;  8 1977   White Female Disagree          Age 29-38 No    Disagree</span>
+<span class="co">#&gt;  9 1977   White Female Agree             Age 63+   No    Agree   </span>
+<span class="co">#&gt; 10 1977   White Female Disagree          Age 38-49 No    Disagree</span>
+<span class="co">#&gt; # … with 57,214 more rows</span></code></pre></div>
 </div>
 <div id="integrate-the-survey-weights" class="section level3">
 <h3 class="hasAnchor">
