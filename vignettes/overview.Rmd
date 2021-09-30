@@ -168,10 +168,11 @@ gss_fam
 
 ### Recode the Subsetted Data
 
-Next, some recoding, along with creating some new variables. We will clean up `gss_fam` a bit, discarding some of the label and missing value information we don't need. We also create some new variables: age quintiles, a variable flagging whether a respondent is 25 or younger, recoded `fefam` to binary "Agree" or "Disagree" (with non-responses dropped). 
+Next, we will do some recoding and create some new variables. We also create some new variables: age quintiles, a variable flagging whether a respondent is 25 or younger, recoded `fefam` to binary "Agree" or "Disagree" (with non-responses dropped). 
 
+We begin by figuring out the cutpoints for age quintiles.
 
-```{r recodes}
+```{r recodes_1}
 qrts <- quantile(as.numeric(gss_fam$age), 
                  na.rm = TRUE)
 qrts
@@ -180,7 +181,12 @@ quintiles <- quantile(as.numeric(gss_fam$age),
                       probs = seq(0, 1, 0.2), na.rm = TRUE)
 
 quintiles
+```
 
+
+Next, we clean up `gss_fam` a bit, discarding some of the label and missing value information we don't need. The data in `gss_all` retains the labeling structure provided by the GSS. Variables are stored numerically with labels attached to them. Often, when using the data in R, it will be convenient to convert the categorical variables we are interested in to character or factor type instead.  
+
+```{r recodes_2}
 ## Recoding
 ## The convert_agegrp() and capwords() functions seen here are defined
 ## at the top of the Rmd file used to produce this document.
@@ -213,13 +219,24 @@ gss_fam <- gss_fam %>%
                               sample %in% c(6:7) ~ 6,
                               TRUE ~ sample))
 
-gss_fam
 
+gss_fam
 ```
 
 ### Integrate the Survey Weights 
 
-Nexr, we set up the data so we can properly calculate population means and errors and so on. We use `svyr`'s wrappers to `survey` for this.
+At this point we can calculate some percentages, such as the percent of male and female respondents disagreeing with the `fefam` proposition each year. 
+
+```{r}
+gss_fam %>% 
+  group_by(year, sex, young, fefam_d) %>% 
+  tally() %>% 
+  drop_na() %>% 
+  mutate(pct = round((n/sum(n))*100, 1)) %>% 
+  select(-n) 
+```
+
+However, these calculations do not take the GSS survey design into account. We set up the data so we can properly calculate population means and errors and so on. We use the `svyr` package's wrappers to `survey` for this.
 
 ```{r weights}
 
@@ -244,7 +261,7 @@ gss_svy
 
 ### Calculate the survey-weighted statistics
 
-We're now in a position to calculate some properly-weighted summary statistics for the variable we're interested in, for every year in the data. 
+We're now in a position to calculate some properly-weighted summary statistics for the variable we're interested in, for every year it is    in the data. 
 
 ```{r summary}
 ## Get the breakdown for every year
