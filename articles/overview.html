@@ -295,7 +295,8 @@
 <div id="recode-the-subsetted-data" class="section level3">
 <h3 class="hasAnchor">
 <a href="#recode-the-subsetted-data" class="anchor"></a>Recode the Subsetted Data</h3>
-<p>Next, some recoding, along with creating some new variables. We will clean up <code>gss_fam</code> a bit, discarding some of the label and missing value information we don’t need. We also create some new variables: age quintiles, a variable flagging whether a respondent is 25 or younger, recoded <code>fefam</code> to binary “Agree” or “Disagree” (with non-responses dropped).</p>
+<p>Next, we will do some recoding and create some new variables. We also create some new variables: age quintiles, a variable flagging whether a respondent is 25 or younger, recoded <code>fefam</code> to binary “Agree” or “Disagree” (with non-responses dropped).</p>
+<p>We begin by figuring out the cutpoints for age quintiles.</p>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">qrts</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/quantile.html">quantile</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="va">gss_fam</span><span class="op">$</span><span class="va">age</span><span class="op">)</span>, 
                  na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>
@@ -308,9 +309,10 @@
 
 <span class="va">quintiles</span>
 <span class="co">#&gt;   0%  20%  40%  60%  80% 100% </span>
-<span class="co">#&gt;   18   29   38   49   63   89</span>
-
-<span class="co">## Recoding</span>
+<span class="co">#&gt;   18   29   38   49   63   89</span></code></pre></div>
+<p>Next, we clean up <code>gss_fam</code> a bit, discarding some of the label and missing value information we don’t need. The data in <code>gss_all</code> retains the labeling structure provided by the GSS. Variables are stored numerically with labels attached to them. Often, when using the data in R, it will be convenient to convert the categorical variables we are interested in to character or factor type instead.</p>
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="co">## Recoding</span>
 <span class="co">## The convert_agegrp() and capwords() functions seen here are defined</span>
 <span class="co">## at the top of the Rmd file used to produce this document.</span>
 
@@ -342,6 +344,7 @@
                               <span class="va">sample</span> <span class="op">%in%</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">6</span><span class="op">:</span><span class="fl">7</span><span class="op">)</span> <span class="op">~</span> <span class="fl">6</span>,
                               <span class="cn">TRUE</span> <span class="op">~</span> <span class="va">sample</span><span class="op">)</span><span class="op">)</span>
 
+
 <span class="va">gss_fam</span>
 <span class="co">#&gt; # A tibble: 64,814 × 22</span>
 <span class="co">#&gt;     year    id    ballot       age race  sex   fefam  vpsu vstrat oversamp formwt</span>
@@ -363,8 +366,31 @@
 <div id="integrate-the-survey-weights" class="section level3">
 <h3 class="hasAnchor">
 <a href="#integrate-the-survey-weights" class="anchor"></a>Integrate the Survey Weights</h3>
-<p>Nexr, we set up the data so we can properly calculate population means and errors and so on. We use <code>svyr</code>’s wrappers to <code>survey</code> for this.</p>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<p>At this point we can calculate some percentages, such as the percent of male and female respondents disagreeing with the <code>fefam</code> proposition each year.</p>
+<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">gss_fam</span> <span class="op">%&gt;%</span> 
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">year</span>, <span class="va">sex</span>, <span class="va">young</span>, <span class="va">fefam_d</span><span class="op">)</span> <span class="op">%&gt;%</span> 
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/count.html">tally</a></span><span class="op">(</span><span class="op">)</span> <span class="op">%&gt;%</span> 
+  <span class="fu"><a href="http://gdfe.co/srvyr/reference/dplyr_single.html">drop_na</a></span><span class="op">(</span><span class="op">)</span> <span class="op">%&gt;%</span> 
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>pct <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="op">(</span><span class="va">n</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/sum.html">sum</a></span><span class="op">(</span><span class="va">n</span><span class="op">)</span><span class="op">)</span><span class="op">*</span><span class="fl">100</span>, <span class="fl">1</span><span class="op">)</span><span class="op">)</span> <span class="op">%&gt;%</span> 
+  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="op">-</span><span class="va">n</span><span class="op">)</span> 
+<span class="co">#&gt; # A tibble: 168 × 5</span>
+<span class="co">#&gt; # Groups:   year, sex, young [84]</span>
+<span class="co">#&gt;     year sex    young fefam_d    pct</span>
+<span class="co">#&gt;    &lt;dbl&gt; &lt;fct&gt;  &lt;chr&gt; &lt;fct&gt;    &lt;dbl&gt;</span>
+<span class="co">#&gt;  1  1977 Male   No    Agree     71.8</span>
+<span class="co">#&gt;  2  1977 Male   No    Disagree  28.2</span>
+<span class="co">#&gt;  3  1977 Male   Yes   Agree     54.3</span>
+<span class="co">#&gt;  4  1977 Male   Yes   Disagree  45.7</span>
+<span class="co">#&gt;  5  1977 Female No    Agree     66.6</span>
+<span class="co">#&gt;  6  1977 Female No    Disagree  33.4</span>
+<span class="co">#&gt;  7  1977 Female Yes   Agree     41.9</span>
+<span class="co">#&gt;  8  1977 Female Yes   Disagree  58.1</span>
+<span class="co">#&gt;  9  1985 Male   No    Agree     53.6</span>
+<span class="co">#&gt; 10  1985 Male   No    Disagree  46.4</span>
+<span class="co">#&gt; # … with 158 more rows</span></code></pre></div>
+<p>However, these calculations do not take the GSS survey design into account. We set up the data so we can properly calculate population means and errors and so on. We use the <code>svyr</code> package’s wrappers to <code>survey</code> for this.</p>
+<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R">
 <span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>survey.lonely.psu <span class="op">=</span> <span class="st">"adjust"</span><span class="op">)</span>
 <span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>na.action<span class="op">=</span><span class="st">"na.pass"</span><span class="op">)</span>
@@ -378,7 +404,7 @@
                      weights <span class="op">=</span> <span class="va">wtssall</span>,
                      nest <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></code></pre></div>
 <p>The <code>gss_svy</code> object contains the same data as <code>gss_fam</code>, but incorporates information about the sampling structure in a way that the <code>survey</code> package’s functions can work with:</p>
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_svy</span>
 <span class="co">#&gt; Stratified 1 - level Cluster Sampling design (with replacement)</span>
 <span class="co">#&gt; With (3583) clusters.</span>
@@ -396,8 +422,8 @@
 <div id="calculate-the-survey-weighted-statistics" class="section level3">
 <h3 class="hasAnchor">
 <a href="#calculate-the-survey-weighted-statistics" class="anchor"></a>Calculate the survey-weighted statistics</h3>
-<p>We’re now in a position to calculate some properly-weighted summary statistics for the variable we’re interested in, for every year in the data.</p>
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
+<p>We’re now in a position to calculate some properly-weighted summary statistics for the variable we’re interested in, for every year it is in the data.</p>
+<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co">## Get the breakdown for every year</span>
 <span class="va">out_ff</span> <span class="op">&lt;-</span> <span class="va">gss_svy</span> <span class="op">%&gt;%</span>
     <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">year</span>, <span class="va">sex</span>, <span class="va">young</span>, <span class="va">fefam_d</span><span class="op">)</span> <span class="op">%&gt;%</span>
@@ -424,7 +450,7 @@
 <h3 class="hasAnchor">
 <a href="#plot-the-results" class="anchor"></a>Plot the Results</h3>
 <p>We finish with a polished plot of the trends in <code>fefam</code> over time, for men and women in two (recoded) age groups over time.</p>
-<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme_get.html">theme_set</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span>
 
 <span class="va">facet_names</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"No"</span> <span class="op">=</span> <span class="st">"Age Over 25 when surveyed"</span>, 
@@ -467,7 +493,7 @@
 <a href="#the-gss-three-wave-panels" class="anchor"></a>The GSS Three Wave Panels</h2>
 <p>In addition to the Cumulative Data File, the gssr package also includes the GSS’s panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The <code>gssr</code> package provides three datasets, one for each of three-wave panels. They are <code>gss_panel06_long</code>, <code>gss_panel08_long</code>, and <code>gss_panel10_long</code>. The datasets are provided by the GSS in wide format but (as their names suggest) are packaged here in long format. The conversion was carried out using the <a href="https://panelr.jacob-long.com"><code>panelr</code> package</a> and its <code>long_panel()</code> function. Conversion from long back to wide format is possible with the tools provided in <code>panelr</code>.</p>
 <p>We load the panel data as before. For example:</p>
-<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">gss_panel06_long</span><span class="op">)</span>
 
 <span class="va">gss_panel06_long</span>
@@ -492,7 +518,7 @@
 <span class="co">#&gt; #   acqasian &lt;dbl+lbl&gt;, acqattnd &lt;dbl+lbl&gt;, acqblack &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, acqcohab &lt;dbl+lbl&gt;, …</span></code></pre></div>
 <p>The panel data objects were created by <code>panelr</code> but are regular tibbles. The column names in long format do not have wave identifiers. Rather, <code>firstid</code> and <code>wave</code> variables track the cases. The <code>firstid</code> variable is unique for every row and has no missing values. The <code>id</code> variable is from the GSS and tracks individuals within waves.</p>
-<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_panel06_long</span> <span class="op">%&gt;%</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">firstid</span>, <span class="va">wave</span>, <span class="va">id</span>, <span class="va">sex</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 6,000 × 4</span>
 <span class="co">#&gt;    firstid  wave        id        sex</span>
@@ -509,7 +535,7 @@
 <span class="co">#&gt; 10 12          1        12 1 [MALE]  </span>
 <span class="co">#&gt; # … with 5,990 more rows</span></code></pre></div>
 <p>We can look at attrition across waves with, e.g.:</p>
-<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_panel06_long</span> <span class="op">%&gt;%</span> 
   <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">wave</span>, <span class="va">id</span><span class="op">)</span> <span class="op">%&gt;%</span>
   <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">wave</span><span class="op">)</span> <span class="op">%&gt;%</span>
@@ -522,7 +548,7 @@
 <span class="co">#&gt; 2     2     1537     464</span>
 <span class="co">#&gt; 3     3     1277     724</span></code></pre></div>
 <p>The documentation tibble for the panel data is called <code>gss_panel_doc</code>.</p>
-<div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb21"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">gss_panel_doc</span><span class="op">)</span>
 
 <span class="va">gss_panel_doc</span>
@@ -542,7 +568,7 @@
 <span class="co">#&gt; # … with 618 more rows, and 2 more variables: marginals_2 &lt;list&gt;,</span>
 <span class="co">#&gt; #   marginals_3 &lt;list&gt;</span></code></pre></div>
 <p>Each row is a variable. The <code>id</code>, <code>description</code>, and <code>text</code> columns provide the details on each question or measure. The <code>properties</code> and <code>marginals</code> are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code> and we say which property wave or marginals wave we want to see. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code>. Be sure to specify which wave you want marginals for, with the <code>margin</code> argument.</p>
-<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb22"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="../reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span><span class="op">)</span>, 
                   data <span class="op">=</span> <span class="va">gss_panel_doc</span>, 
                   margin <span class="op">=</span> <span class="va">marginals_1</span><span class="op">)</span>
