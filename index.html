@@ -48,7 +48,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.1.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.2.9000</span>
       </span>
     </div>
 
@@ -162,26 +162,26 @@
 <p>This will take a moment. Once it is ready, the <code>gss_all</code> object is available to use in the usual way:</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_all</span>
-<span class="co">#&gt; # A tibble: 64,814 × 6,108</span>
-<span class="co">#&gt;     year    id    wrkstat   hrs1   hrs2   evwork   occ prestige   wrkslf wrkgovt</span>
-<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl+lbl&gt; &lt;dbl+&gt; &lt;dbl+&gt; &lt;dbl+lb&gt; &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt;</span>
-<span class="co">#&gt;  1  1972     1 1 [WORKIN…     NA     NA NA         205       50 2 [SOME…      NA</span>
-<span class="co">#&gt;  2  1972     2 5 [RETIRE…     NA     NA  1 [YES]   441       45 2 [SOME…      NA</span>
-<span class="co">#&gt;  3  1972     3 2 [WORKIN…     NA     NA NA         270       44 2 [SOME…      NA</span>
-<span class="co">#&gt;  4  1972     4 1 [WORKIN…     NA     NA NA           1       57 2 [SOME…      NA</span>
-<span class="co">#&gt;  5  1972     5 7 [KEEPIN…     NA     NA  1 [YES]   385       40 2 [SOME…      NA</span>
-<span class="co">#&gt;  6  1972     6 1 [WORKIN…     NA     NA NA         281       49 2 [SOME…      NA</span>
-<span class="co">#&gt;  7  1972     7 1 [WORKIN…     NA     NA NA         522       41 2 [SOME…      NA</span>
-<span class="co">#&gt;  8  1972     8 1 [WORKIN…     NA     NA NA         314       36 2 [SOME…      NA</span>
-<span class="co">#&gt;  9  1972     9 2 [WORKIN…     NA     NA NA         912       26 2 [SOME…      NA</span>
-<span class="co">#&gt; 10  1972    10 1 [WORKIN…     NA     NA NA         984       18 2 [SOME…      NA</span>
-<span class="co">#&gt; # … with 64,804 more rows, and 6,098 more variables: commute &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   industry &lt;dbl+lbl&gt;, occ80 &lt;dbl+lbl&gt;, prestg80 &lt;dbl+lbl&gt;, indus80 &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   indus07 &lt;dbl+lbl&gt;, occonet &lt;dbl+lbl&gt;, found &lt;dbl+lbl&gt;, occ10 &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   occindv &lt;dbl+lbl&gt;, occstatus &lt;dbl+lbl&gt;, occtag &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   prestg10 &lt;dbl+lbl&gt;, prestg105plus &lt;dbl+lbl&gt;, indus10 &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   indstatus &lt;dbl+lbl&gt;, indtag &lt;dbl+lbl&gt;, marital &lt;dbl+lbl&gt;,</span>
-<span class="co">#&gt; #   martype &lt;dbl+lbl&gt;, agewed &lt;dbl+lbl&gt;, divorce &lt;dbl+lbl&gt;, …</span></code></pre></div>
+<span class="co">#&gt; # A tibble: 64,814 × 6,110</span>
+<span class="co">#&gt;     year    id       wrkstat        hrs1        hrs2      evwork    occ prestige</span>
+<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt; &lt;dbl+&gt; &lt;dbl+lb&gt;</span>
+<span class="co">#&gt;  1  1972     1 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    205       50</span>
+<span class="co">#&gt;  2  1972     2 5 [retired]   NA(i) [IAP] NA(i) [IAP]     1 [yes]    441       45</span>
+<span class="co">#&gt;  3  1972     3 2 [working p… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    270       44</span>
+<span class="co">#&gt;  4  1972     4 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]      1       57</span>
+<span class="co">#&gt;  5  1972     5 7 [keeping h… NA(i) [IAP] NA(i) [IAP]     1 [yes]    385       40</span>
+<span class="co">#&gt;  6  1972     6 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    281       49</span>
+<span class="co">#&gt;  7  1972     7 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    522       41</span>
+<span class="co">#&gt;  8  1972     8 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    314       36</span>
+<span class="co">#&gt;  9  1972     9 2 [working p… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    912       26</span>
+<span class="co">#&gt; 10  1972    10 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    984       18</span>
+<span class="co">#&gt; # … with 64,804 more rows, and 6,102 more variables: wrkslf &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   wrkgovt &lt;dbl+lbl&gt;, commute &lt;dbl+lbl&gt;, industry &lt;dbl+lbl&gt;, occ80 &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   prestg80 &lt;dbl+lbl&gt;, indus80 &lt;dbl+lbl&gt;, indus07 &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   occonet &lt;dbl+lbl&gt;, found &lt;dbl+lbl&gt;, occ10 &lt;dbl+lbl&gt;, occindv &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   occstatus &lt;dbl+lbl&gt;, occtag &lt;dbl+lbl&gt;, prestg10 &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   prestg105plus &lt;dbl+lbl&gt;, indus10 &lt;dbl+lbl&gt;, indstatus &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   indtag &lt;dbl+lbl&gt;, marital &lt;dbl+lbl&gt;, martype &lt;dbl+lbl&gt;, agewed &lt;dbl+lbl&gt;, …</span></code></pre></div>
 <p>To load the tibble that contains information on the variables in the data, do this:</p>
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">gss_doc</span><span class="op">)</span>
@@ -404,7 +404,7 @@
 <span class="co">#&gt; 10 hispanic HISPANIC    1601… &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3…</span>
 <span class="co">#&gt; # … with 618 more rows, and 2 more variables: marginals_2 &lt;list&gt;,</span>
 <span class="co">#&gt; #   marginals_3 &lt;list&gt;</span></code></pre></div>
-<p>Each row is a variable. The <code>id</code>, <code>description</code>, and <code>text</code> columns provide the details on each question or measure. The <code>properties</code> and <code>marginals</code> are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_docw</code> rather than <code>gss_doc</code> and we say which property wave or marginals wave we want to see.</p>
+<p>Each row is a variable. The <code>id</code>, <code>description</code>, and <code>text</code> columns provide the details on each question or measure. The <code>properties</code> and <code>marginals</code> are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code> and we say which property wave or marginals wave we want to see.</p>
 <div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span><span class="op">)</span>, data <span class="op">=</span> <span class="va">gss_panel_doc</span>, margin <span class="op">=</span> <span class="va">marginals_2</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 9 × 6</span>
