@@ -1,3 +1,7 @@
+# gssr 0.3.2
+
+* In `gss_all` retain STATA missing codes for IAP, Can't choose, and DK. (Thanks to @dustinstolz.)
+
 # gssr 0.3.1
 
 * The panel documentation tibble, `gss_panel_doc`, has been updated to a wide format that makes it easier to browse the variables.

@@ -100,26 +100,26 @@ available to use in the usual way:
 
 ``` r
 gss_all
-#> # A tibble: 64,814 × 6,108
-#>     year    id    wrkstat   hrs1   hrs2   evwork   occ prestige   wrkslf wrkgovt
-#>    <dbl> <dbl>  <dbl+lbl> <dbl+> <dbl+> <dbl+lb> <dbl> <dbl+lb> <dbl+lb> <dbl+l>
-#>  1  1972     1 1 [WORKIN…     NA     NA NA         205       50 2 [SOME…      NA
-#>  2  1972     2 5 [RETIRE…     NA     NA  1 [YES]   441       45 2 [SOME…      NA
-#>  3  1972     3 2 [WORKIN…     NA     NA NA         270       44 2 [SOME…      NA
-#>  4  1972     4 1 [WORKIN…     NA     NA NA           1       57 2 [SOME…      NA
-#>  5  1972     5 7 [KEEPIN…     NA     NA  1 [YES]   385       40 2 [SOME…      NA
-#>  6  1972     6 1 [WORKIN…     NA     NA NA         281       49 2 [SOME…      NA
-#>  7  1972     7 1 [WORKIN…     NA     NA NA         522       41 2 [SOME…      NA
-#>  8  1972     8 1 [WORKIN…     NA     NA NA         314       36 2 [SOME…      NA
-#>  9  1972     9 2 [WORKIN…     NA     NA NA         912       26 2 [SOME…      NA
-#> 10  1972    10 1 [WORKIN…     NA     NA NA         984       18 2 [SOME…      NA
-#> # … with 64,804 more rows, and 6,098 more variables: commute <dbl+lbl>,
-#> #   industry <dbl+lbl>, occ80 <dbl+lbl>, prestg80 <dbl+lbl>, indus80 <dbl+lbl>,
-#> #   indus07 <dbl+lbl>, occonet <dbl+lbl>, found <dbl+lbl>, occ10 <dbl+lbl>,
-#> #   occindv <dbl+lbl>, occstatus <dbl+lbl>, occtag <dbl+lbl>,
-#> #   prestg10 <dbl+lbl>, prestg105plus <dbl+lbl>, indus10 <dbl+lbl>,
-#> #   indstatus <dbl+lbl>, indtag <dbl+lbl>, marital <dbl+lbl>,
-#> #   martype <dbl+lbl>, agewed <dbl+lbl>, divorce <dbl+lbl>, …
+#> # A tibble: 64,814 × 6,110
+#>     year    id       wrkstat        hrs1        hrs2      evwork    occ prestige
+#>    <dbl> <dbl>     <dbl+lbl>   <dbl+lbl>   <dbl+lbl>   <dbl+lbl> <dbl+> <dbl+lb>
+#>  1  1972     1 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    205       50
+#>  2  1972     2 5 [retired]   NA(i) [IAP] NA(i) [IAP]     1 [yes]    441       45
+#>  3  1972     3 2 [working p… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    270       44
+#>  4  1972     4 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]      1       57
+#>  5  1972     5 7 [keeping h… NA(i) [IAP] NA(i) [IAP]     1 [yes]    385       40
+#>  6  1972     6 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    281       49
+#>  7  1972     7 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    522       41
+#>  8  1972     8 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    314       36
+#>  9  1972     9 2 [working p… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    912       26
+#> 10  1972    10 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    984       18
+#> # … with 64,804 more rows, and 6,102 more variables: wrkslf <dbl+lbl>,
+#> #   wrkgovt <dbl+lbl>, commute <dbl+lbl>, industry <dbl+lbl>, occ80 <dbl+lbl>,
+#> #   prestg80 <dbl+lbl>, indus80 <dbl+lbl>, indus07 <dbl+lbl>,
+#> #   occonet <dbl+lbl>, found <dbl+lbl>, occ10 <dbl+lbl>, occindv <dbl+lbl>,
+#> #   occstatus <dbl+lbl>, occtag <dbl+lbl>, prestg10 <dbl+lbl>,
+#> #   prestg105plus <dbl+lbl>, indus10 <dbl+lbl>, indstatus <dbl+lbl>,
+#> #   indtag <dbl+lbl>, marital <dbl+lbl>, martype <dbl+lbl>, agewed <dbl+lbl>, …
 ```
 
 To load the tibble that contains information on the variables in the
@@ -406,7 +406,7 @@ provide the details on each question or measure. The `properties` and
 `marginals` are provided in the remaining columns, with a suffix
 indicating the wave. The categorical variables in the panel codebook can
 be queried in the same way as those in the cumulative codebook. We
-specify that we want to look at `gss_panel_docw` rather than `gss_doc`
+specify that we want to look at `gss_panel_doc` rather than `gss_doc`
 and we say which property wave or marginals wave we want to see.
 
 ``` r
