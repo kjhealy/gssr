@@ -30,7 +30,9 @@ gss_get_yr(
 A tibble with the requested year's GSS data.
 }
 \description{
-Download GSS data file for a single year from NORC
+Use \code{gss_get_yr()} to get GSS data for a single year from
+NORC's GSS website (where it is available as a zipped Stata file)
+and put it directly into a tibble.
 }
 \examples{
 \donttest{
