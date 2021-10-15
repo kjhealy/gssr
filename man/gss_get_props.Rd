@@ -16,7 +16,7 @@ vector.}
 \item{props}{Which properties. Not needed for \code{gss_doc}, but one of \code{properties_1}, \code{properties_2}, or \code{properties_3} when \code{data} is \code{gss_panel_docw}.}
 }
 \value{
-A tibble of the properies for each variable
+A tibble of the properties for each variable
 }
 \description{
 Property information for a GSS variable or variables

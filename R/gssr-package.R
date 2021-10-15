@@ -1,4 +1,13 @@
+#' @importFrom curl curl_download
+NULL
+
 #' @importFrom tibble tibble
+NULL
+
+#' @importFrom fs file_copy path
+NULL
+
+#' @importFrom haven read_stata
 NULL
 
 #' @importFrom magrittr %>%
@@ -90,7 +99,7 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc, margin = marginal
 ##'     vector.
 ##' @param data The codebook data frame, by default \code{gss_doc}
 ##' @param props Which properties. Not needed for \code{gss_doc}, but one of \code{properties_1}, \code{properties_2}, or \code{properties_3} when \code{data} is \code{gss_panel_docw}.
-##' @return A tibble of the properies for each variable
+##' @return A tibble of the properties for each variable
 ##' @author Kieran Healy
 ##' @examples
 ##' \donttest{
@@ -144,4 +153,51 @@ gss_which_years <- function(data, variable) {
     dplyr::summarize(dplyr::across(dplyr::everything(), get_asked), .groups = "drop")
 }
 
+
+
+#' Download GSS data file for a single year from NORC
+#'
+#' @param year The desired GSS survey year
+#' @param url Location of the file. Defaults to the current NORC URL
+#' @param fname Non-year filename component. Defaults to '_stata'. Usually should not be changed.
+#' @param ext File name extension. Defaults to 'zip'. Usually should not be changed.
+#' @param dest If `save_file` is "y", the directory to put the file in. Defaults to `data-raw` in current directory.
+#' @param save_file Save the data file as well as loading it as an object. Defaults to 'n'.
+#'
+#' @return A tibble with the requested year's GSS data.
+#' @export
+#'
+#' @examples
+##' \donttest{
+##' gss80 <- gss_get_yr(1980)
+##' }
+
+gss_get_yr <- function(year = 2018,
+                       url = "http://www.gss.norc.org/documents/stata/",
+                       fname = "_stata",
+                       ext = "zip",
+                       dest = "data-raw/",
+                       save_file = c("n", "y")) {
+
+  year <- match.arg(as.character(year),
+                    choices = as.character(c(1972:1978, 1980, 1982:1991,
+                                             1993, seq(1994, 2018, 2))))
+  save_file <- match.arg(save_file)
+
+  local_fname <- paste0(year, fname)
+  target <- paste0(url, year, fname, ".", ext)
+  message("Fetching: ", target)
+
+  destination <- fs::path(here::here("data-raw/"), local_fname, ext = ext)
+
+  tf <- tempfile(fileext = ext)
+  curl_download(target, tf)
+
+  switch(save_file,
+         y = fs::file_copy(tf, destination),
+         n = NULL)
+
+  haven::read_stata(tf)
+
+}
 

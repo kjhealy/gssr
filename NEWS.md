@@ -1,3 +1,7 @@
+# gss4 0.3.3
+
+* New `gss_get_yr` function to fetch a specific GSS survey year's data. 
+
 # gssr 0.3.2
 
 * In `gss_all` retain STATA missing codes for IAP, Can't choose, and DK. (Thanks to @dustinstolz.)
