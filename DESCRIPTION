@@ -11,6 +11,7 @@ Description: The General Social Survey (GSS) is a long-running, mostly annual su
 License: MIT + file LICENSE
 Depends: R (>= 3.5)
 Imports:
+    curl,
     dplyr,
     fs,
     haven,
