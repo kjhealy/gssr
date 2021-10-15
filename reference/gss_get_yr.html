@@ -22,7 +22,7 @@
   }
 </script>
 
-<title>fmt_nr — fmt_nr • gssr</title>
+<title>Download GSS data file for a single year from NORC — gss_get_yr • gssr</title>
 
 
 <!-- jquery -->
@@ -65,8 +65,8 @@
 
 
 
-<meta property="og:title" content="fmt_nr — fmt_nr" />
-<meta property="og:description" content="Format fmt_nr in df" />
+<meta property="og:title" content="Download GSS data file for a single year from NORC — gss_get_yr" />
+<meta property="og:description" content="Download GSS data file for a single year from NORC" />
 
 
 
@@ -157,42 +157,61 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>fmt_nr</h1>
+    <h1>Download GSS data file for a single year from NORC</h1>
     <small class="dont-index">Source: <a href='https://github.com/kjhealy/gssr/blob/master/R/gssr-package.R'><code>R/gssr-package.R</code></a></small>
-    <div class="hidden name"><code>fmt_nr.Rd</code></div>
+    <div class="hidden name"><code>gss_get_yr.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Format fmt_nr in df</p>
+    <p>Download GSS data file for a single year from NORC</p>
     </div>
 
-    <pre class="usage"><span class='fu'>fmt_nr</span><span class='op'>(</span><span class='va'>x</span><span class='op'>)</span></pre>
+    <pre class="usage"><span class='fu'>gss_get_yr</span><span class='op'>(</span>
+  year <span class='op'>=</span> <span class='fl'>2018</span>,
+  url <span class='op'>=</span> <span class='st'>"http://www.gss.norc.org/documents/stata/"</span>,
+  fname <span class='op'>=</span> <span class='st'>"_stata"</span>,
+  ext <span class='op'>=</span> <span class='st'>"zip"</span>,
+  dest <span class='op'>=</span> <span class='st'>"data-raw/"</span>,
+  save_file <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"n"</span>, <span class='st'>"y"</span><span class='op'>)</span>
+<span class='op'>)</span></pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>x</th>
-      <td><p>df</p></td>
+      <th>year</th>
+      <td><p>The desired GSS survey year</p></td>
+    </tr>
+    <tr>
+      <th>url</th>
+      <td><p>Location of the file. Defaults to the current NORC URL</p></td>
+    </tr>
+    <tr>
+      <th>fname</th>
+      <td><p>Non-year filename component. Defaults to '_stata'. Usually should not be changed.</p></td>
+    </tr>
+    <tr>
+      <th>ext</th>
+      <td><p>File name extension. Defaults to 'zip'. Usually should not be changed.</p></td>
+    </tr>
+    <tr>
+      <th>dest</th>
+      <td><p>If <code>save_file</code> is "y", the directory to put the file in. Defaults to <code>data-raw</code> in current directory.</p></td>
+    </tr>
+    <tr>
+      <th>save_file</th>
+      <td><p>Save the data file as well as loading it as an object. Defaults to 'n'.</p></td>
     </tr>
     </table>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>formatted string</p>
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
-    <p>use in fn documentation</p>
-    <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
-
-    <p>Kieran Healy</p>
+    <p>A tibble with the requested year's GSS data.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='kw'>if</span> <span class='op'>(</span><span class='cn'>FALSE</span><span class='op'>)</span> <span class='op'>{</span>
-<span class='kw'>if</span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/interactive.html'>interactive</a></span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span><span class='op'>{</span>
- <span class='co'>#EXAMPLE1</span>
- <span class='op'>}</span>
-<span class='op'>}</span>
+    <pre class="examples"><div class='input'><span class='co'># \donttest{</span>
+<span class='va'>gss80</span> <span class='op'>&lt;-</span> <span class='fu'>gss_get_yr</span><span class='op'>(</span><span class='fl'>1980</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='message'>Fetching: http://www.gss.norc.org/documents/stata/1980_stata.zip</span></div><div class='output co'>#&gt; <span class='error'>Error in loadNamespace(x): there is no package called ‘here’</span></div><div class='input'><span class='co'># }</span>
 </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
