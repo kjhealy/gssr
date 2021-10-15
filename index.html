@@ -149,18 +149,48 @@
 <div id="loading-the-data" class="section level2">
 <h2 class="hasAnchor">
 <a href="#loading-the-data" class="anchor"></a>Loading the data</h2>
-<div id="the-cumulative-data-file" class="section level3">
-<h3 class="hasAnchor">
-<a href="#the-cumulative-data-file" class="anchor"></a>The Cumulative Data File</h3>
-<p>The GSS cumulative data file is large. It is not loaded by default when you invoke the package. (That is, <code>gssr</code> does not use R’s “lazy loading” facility. The data file is too big to do this without error.) To load one of the datasets, first load the library and then use <code><a href="https://rdrr.io/r/utils/data.html">data()</a></code> to make the data available. For example, load the cumulative GSS file like this:</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kjhealy/gssr">gssr</a></span><span class="op">)</span>
 <span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console.</span>
 <span class="co">#&gt; For the codebook, type data(gss_doc).</span>
-<span class="co">#&gt; For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).</span>
-<span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">gss_all</span><span class="op">)</span></code></pre></div>
-<p>This will take a moment. Once it is ready, the <code>gss_all</code> object is available to use in the usual way:</p>
+<span class="co">#&gt; For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).</span></code></pre></div>
+<div id="single-gss-years" class="section level3">
+<h3 class="hasAnchor">
+<a href="#single-gss-years" class="anchor"></a>Single GSS years</h3>
+<p>You can quickly get the data for any single GSS year by using <code><a href="reference/gss_get_yr.html">gss_get_yr()</a></code> to download the data file from NORC and put it directly into a tibble.</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">gss18</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/gss_get_yr.html">gss_get_yr</a></span><span class="op">(</span><span class="fl">2018</span><span class="op">)</span>
+<span class="co">#&gt; Fetching: http://www.gss.norc.org/documents/stata/2018_stata.zip</span>
+<span class="va">gss18</span>
+<span class="co">#&gt; # A tibble: 2,348 × 1,065</span>
+<span class="co">#&gt;          abany    abdefect           abfelegl   abhelp1  abhelp2 abhelp3 abhelp4</span>
+<span class="co">#&gt;      &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;          &lt;dbl+lbl&gt; &lt;dbl+lbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;</span>
+<span class="co">#&gt;  1     2 [no]      1 [yes] NA(i) [IAP]          1 [yes]  1 [yes] 1 [yes] 1 [yes]</span>
+<span class="co">#&gt;  2     1 [yes]     1 [yes]     3 [it depends]   2 [no]   2 [no]  2 [no]  2 [no] </span>
+<span class="co">#&gt;  3 NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]          1 [yes]  2 [no]  1 [yes] 1 [yes]</span>
+<span class="co">#&gt;  4 NA(i) [IAP] NA(i) [IAP]     1 [should]       1 [yes]  1 [yes] 1 [yes] 1 [yes]</span>
+<span class="co">#&gt;  5     2 [no]      1 [yes] NA(i) [IAP]          2 [no]   2 [no]  2 [no]  1 [yes]</span>
+<span class="co">#&gt;  6     1 [yes]     1 [yes]     1 [should]       1 [yes]  1 [yes] 1 [yes] 1 [yes]</span>
+<span class="co">#&gt;  7     1 [yes]     1 [yes]     3 [it depends]   1 [yes]  2 [no]  1 [yes] 1 [yes]</span>
+<span class="co">#&gt;  8     2 [no]      1 [yes] NA(i) [IAP]          1 [yes]  2 [no]  1 [yes] 1 [yes]</span>
+<span class="co">#&gt;  9 NA(i) [IAP] NA(i) [IAP]     3 [it depends]   1 [yes]  1 [yes] 1 [yes] 1 [yes]</span>
+<span class="co">#&gt; 10 NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]          1 [yes]  2 [no]  2 [no]  1 [yes]</span>
+<span class="co">#&gt; # … with 2,338 more rows, and 1,058 more variables: abhlth &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   abinspay &lt;dbl+lbl&gt;, abmedgov1 &lt;dbl+lbl&gt;, abmedgov2 &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   abmelegl &lt;dbl+lbl&gt;, abmoral &lt;dbl+lbl&gt;, abnomore &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   abpoor &lt;dbl+lbl&gt;, abpoorw &lt;dbl+lbl&gt;, abrape &lt;dbl+lbl&gt;, absingle &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   abstate1 &lt;dbl+lbl&gt;, abstate2 &lt;dbl+lbl&gt;, acqntsex &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   actssoc &lt;dbl+lbl&gt;, adminconsent &lt;dbl+lbl&gt;, adults &lt;dbl+lbl&gt;,</span>
+<span class="co">#&gt; #   advfront &lt;dbl+lbl&gt;, affrmact &lt;dbl+lbl&gt;, afraidof &lt;dbl+lbl&gt;, …</span></code></pre></div>
+</div>
+<div id="the-cumulative-data-file" class="section level3">
+<h3 class="hasAnchor">
+<a href="#the-cumulative-data-file" class="anchor"></a>The Cumulative Data File</h3>
+<p>The GSS cumulative data file is large. It is not loaded by default when you invoke the package. (That is, <code>gssr</code> does not use R’s “lazy loading” facility. The data file is too big to do this without error.) To load one of the datasets, first load the library and then use <code><a href="https://rdrr.io/r/utils/data.html">data()</a></code> to make the data available. For example, load the cumulative GSS file like this:</p>
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">gss_all</span><span class="op">)</span></code></pre></div>
+<p>This will take a moment. Once it is ready, the <code>gss_all</code> object is available to use in the usual way:</p>
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_all</span>
 <span class="co">#&gt; # A tibble: 64,814 × 6,110</span>
 <span class="co">#&gt;     year    id       wrkstat        hrs1        hrs2      evwork    occ prestige</span>
@@ -183,7 +213,7 @@
 <span class="co">#&gt; #   prestg105plus &lt;dbl+lbl&gt;, indus10 &lt;dbl+lbl&gt;, indstatus &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   indtag &lt;dbl+lbl&gt;, marital &lt;dbl+lbl&gt;, martype &lt;dbl+lbl&gt;, agewed &lt;dbl+lbl&gt;, …</span></code></pre></div>
 <p>To load the tibble that contains information on the variables in the data, do this:</p>
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="va">gss_doc</span><span class="op">)</span>
 <span class="va">gss_doc</span>
 <span class="co">#&gt; # A tibble: 6,144 × 5</span>
@@ -201,7 +231,7 @@
 <span class="co">#&gt; 10 hispanic Hispanic specified           &lt;tibble [3 × 3]&gt; &lt;tibble [… 1601. IF R…</span>
 <span class="co">#&gt; # … with 6,134 more rows</span></code></pre></div>
 <p>You can take a look at information on a particular variable by doing something like this:</p>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_doc</span> <span class="op">%&gt;%</span> <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">id</span> <span class="op">==</span> <span class="st">"race"</span><span class="op">)</span> <span class="op">%&gt;%</span> 
   <span class="fu">select</span><span class="op">(</span><span class="va">id</span>, <span class="va">description</span>, <span class="va">text</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 1 × 3</span>
@@ -209,7 +239,7 @@
 <span class="co">#&gt;   &lt;chr&gt; &lt;chr&gt;              &lt;chr&gt;                                  </span>
 <span class="co">#&gt; 1 race  Race of respondent 24. What race do you consider yourself?</span></code></pre></div>
 <p>To look at a variable’s marginals or its properties, use <code>unnest()</code>:</p>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_doc</span> <span class="op">%&gt;%</span> <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">id</span> <span class="op">==</span> <span class="st">"race"</span><span class="op">)</span> <span class="op">%&gt;%</span>
   <span class="fu">select</span><span class="op">(</span><span class="va">marginals</span><span class="op">)</span> <span class="op">%&gt;%</span> 
   <span class="fu">unnest</span><span class="op">(</span>cols <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">marginals</span><span class="op">)</span><span class="op">)</span>
@@ -220,7 +250,7 @@
 <span class="co">#&gt; 2    14.2 9,187  2     BLACK RACE </span>
 <span class="co">#&gt; 3     5.5 3,594  3     OTHER RACE </span>
 <span class="co">#&gt; 4   100   64,814 &lt;NA&gt;  Total RACE</span></code></pre></div>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_doc</span> <span class="op">%&gt;%</span> <span class="fu"><a href="https://rdrr.io/r/stats/filter.html">filter</a></span><span class="op">(</span><span class="va">id</span> <span class="op">==</span> <span class="st">"race"</span><span class="op">)</span> <span class="op">%&gt;%</span>
     <span class="fu">select</span><span class="op">(</span><span class="va">properties</span><span class="op">)</span> <span class="op">%&gt;%</span>
     <span class="fu">unnest</span><span class="op">(</span>cols <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">properties</span><span class="op">)</span><span class="op">)</span>
@@ -231,7 +261,7 @@
 <span class="co">#&gt; 2 Missing-data code 0       RACE </span>
 <span class="co">#&gt; 3 Record/column     1/298   RACE</span></code></pre></div>
 <p>There are convenience functions to do this as well, for one or more categorical variables. One for the marginals:</p>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"race"</span>, <span class="st">"sex"</span><span class="op">)</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 7 × 6</span>
 <span class="co">#&gt;   variable percent     n value label  id   </span>
@@ -244,7 +274,7 @@
 <span class="co">#&gt; 6 race         5.5  3594 3     OTHER  RACE </span>
 <span class="co">#&gt; 7 race       100   64814 &lt;NA&gt;  Total  RACE</span></code></pre></div>
 <p>And one for the properties:</p>
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gss_get_props.html">gss_get_props</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"race"</span>, <span class="st">"sex"</span><span class="op">)</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 6 × 4</span>
 <span class="co">#&gt;   variable property          value   id   </span>
@@ -261,7 +291,7 @@
 <h2 class="hasAnchor">
 <a href="#which-questions-were-asked-in-which-years" class="anchor"></a>Which questions were asked in which years?</h2>
 <p>We often want to know which years a question or group of questions was asked. We can find this out for one or more variables with <code><a href="reference/gss_which_years.html">gss_which_years()</a></code>.</p>
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gss_which_years.html">gss_which_years</a></span><span class="op">(</span><span class="va">gss_all</span>, <span class="va">fefam</span><span class="op">)</span>
 
 <span class="co">#&gt; # A tibble: 32 x 2</span>
@@ -280,7 +310,7 @@
 <span class="co">#&gt; # … with 22 more rows</span>
   </code></pre></div>
 <p>When querying more than one variable, use <code><a href="https://rdrr.io/r/base/c.html">c()</a></code>:</p>
-<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_all</span> <span class="op">%&gt;%</span>
   <span class="fu"><a href="reference/gss_which_years.html">gss_which_years</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">industry</span>, <span class="va">indus80</span>, <span class="va">wrkgovt</span>, <span class="va">commute</span><span class="op">)</span><span class="op">)</span> <span class="op">%&gt;%</span>
   <span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span>n <span class="op">=</span> <span class="cn">Inf</span><span class="op">)</span>
@@ -326,7 +356,7 @@
 <a href="#panel-data" class="anchor"></a>Panel data</h2>
 <p>In addition to the Cumulative Data File, the gssr package also includes the GSS’s panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The <code>gssr</code> package provides three datasets, one for each of three-wave panels. They are <code>gss_panel06_long</code>, <code>gss_panel08_long</code>, and <code>gss_panel10_long</code>. The datasets are provided by the GSS in wide format but (as their names suggest) they are packaged here in long format. The conversion was carried out using the <a href="https://panelr.jacob-long.com"><code>panelr</code> package</a> and its <code>long_panel()</code> function. Conversion from long back to wide format is possible with the tools provided in <code>panelr</code>.</p>
 <p>The panel data objects must be loaded in the same way as the cumulative data file.</p>
-<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"gss_panel06_long"</span><span class="op">)</span>
 
 <span class="va">gss_panel06_long</span>
@@ -352,7 +382,7 @@
 <span class="co">#&gt; #   acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, acqcohab &lt;dbl+lbl&gt;, …</span></code></pre></div>
 <p>Although the panel data objects were created by <code>panelr</code>, they are regular tibbles. You do not need to use <code>panelr</code> to work with the data.</p>
 <p>The column names in long format do not have wave identifiers. Rather, <code>firstid</code> and <code>wave</code> variables track the cases. The <code>firstid</code> variable is unique for every respondent in the panel and has no missing values. The <code>wave</code> variable indexes responses from a given <code>firstid</code> panelist in each wave (if observed). The <code>id</code> variable is from the GSS and indexes individuals within waves.</p>
-<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"gss_panel08_long"</span><span class="op">)</span>
 
 <span class="va">gss_panel08_long</span> <span class="op">%&gt;%</span> 
@@ -372,7 +402,7 @@
 <span class="co">#&gt; 10 4           1         4  1 [MALE]</span>
 <span class="co">#&gt; # … with 6,059 more rows</span></code></pre></div>
 <p>We can look at attrition across waves with, e.g.:</p>
-<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_panel06_long</span> <span class="op">%&gt;%</span> 
   <span class="fu">select</span><span class="op">(</span><span class="va">wave</span>, <span class="va">id</span><span class="op">)</span> <span class="op">%&gt;%</span>
   <span class="fu">group_by</span><span class="op">(</span><span class="va">wave</span><span class="op">)</span> <span class="op">%&gt;%</span>
@@ -385,7 +415,7 @@
 <span class="co">#&gt; 2     2     1537     464</span>
 <span class="co">#&gt; 3     3     1277     724</span></code></pre></div>
 <p>The documentation tibble for the panel data is called <code>gss_panel_doc</code>.</p>
-<div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb21"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"gss_panel_doc"</span><span class="op">)</span>
 
 <span class="va">gss_panel_doc</span>
@@ -405,7 +435,7 @@
 <span class="co">#&gt; # … with 618 more rows, and 2 more variables: marginals_2 &lt;list&gt;,</span>
 <span class="co">#&gt; #   marginals_3 &lt;list&gt;</span></code></pre></div>
 <p>Each row is a variable. The <code>id</code>, <code>description</code>, and <code>text</code> columns provide the details on each question or measure. The <code>properties</code> and <code>marginals</code> are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code> and we say which property wave or marginals wave we want to see.</p>
-<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb22"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span><span class="op">)</span>, data <span class="op">=</span> <span class="va">gss_panel_doc</span>, margin <span class="op">=</span> <span class="va">marginals_2</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 9 × 6</span>
 <span class="co">#&gt;   variable percent     n value label            id    </span>
