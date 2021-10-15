@@ -78,6 +78,45 @@ any other package.
 
 ## Loading the data
 
+``` r
+library(gssr)
+#> Package loaded. To attach the GSS data, type data(gss_all) at the console.
+#> For the codebook, type data(gss_doc).
+#> For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).
+```
+
+### Single GSS years
+
+You can quickly get the data for any single GSS year by using
+`gss_get_yr()` to download the data file from NORC and put it directly
+into a tibble.
+
+``` r
+gss18 <- gss_get_yr(2018)
+#> Fetching: http://www.gss.norc.org/documents/stata/2018_stata.zip
+gss18
+#> # A tibble: 2,348 × 1,065
+#>          abany    abdefect           abfelegl   abhelp1  abhelp2 abhelp3 abhelp4
+#>      <dbl+lbl>   <dbl+lbl>          <dbl+lbl> <dbl+lbl> <dbl+lb> <dbl+l> <dbl+l>
+#>  1     2 [no]      1 [yes] NA(i) [IAP]          1 [yes]  1 [yes] 1 [yes] 1 [yes]
+#>  2     1 [yes]     1 [yes]     3 [it depends]   2 [no]   2 [no]  2 [no]  2 [no] 
+#>  3 NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]          1 [yes]  2 [no]  1 [yes] 1 [yes]
+#>  4 NA(i) [IAP] NA(i) [IAP]     1 [should]       1 [yes]  1 [yes] 1 [yes] 1 [yes]
+#>  5     2 [no]      1 [yes] NA(i) [IAP]          2 [no]   2 [no]  2 [no]  1 [yes]
+#>  6     1 [yes]     1 [yes]     1 [should]       1 [yes]  1 [yes] 1 [yes] 1 [yes]
+#>  7     1 [yes]     1 [yes]     3 [it depends]   1 [yes]  2 [no]  1 [yes] 1 [yes]
+#>  8     2 [no]      1 [yes] NA(i) [IAP]          1 [yes]  2 [no]  1 [yes] 1 [yes]
+#>  9 NA(i) [IAP] NA(i) [IAP]     3 [it depends]   1 [yes]  1 [yes] 1 [yes] 1 [yes]
+#> 10 NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]          1 [yes]  2 [no]  2 [no]  1 [yes]
+#> # … with 2,338 more rows, and 1,058 more variables: abhlth <dbl+lbl>,
+#> #   abinspay <dbl+lbl>, abmedgov1 <dbl+lbl>, abmedgov2 <dbl+lbl>,
+#> #   abmelegl <dbl+lbl>, abmoral <dbl+lbl>, abnomore <dbl+lbl>,
+#> #   abpoor <dbl+lbl>, abpoorw <dbl+lbl>, abrape <dbl+lbl>, absingle <dbl+lbl>,
+#> #   abstate1 <dbl+lbl>, abstate2 <dbl+lbl>, acqntsex <dbl+lbl>,
+#> #   actssoc <dbl+lbl>, adminconsent <dbl+lbl>, adults <dbl+lbl>,
+#> #   advfront <dbl+lbl>, affrmact <dbl+lbl>, afraidof <dbl+lbl>, …
+```
+
 ### The Cumulative Data File
 
 The GSS cumulative data file is large. It is not loaded by default when
@@ -88,10 +127,6 @@ make the data available. For example, load the cumulative GSS file like
 this:
 
 ``` r
-library(gssr)
-#> Package loaded. To attach the GSS data, type data(gss_all) at the console.
-#> For the codebook, type data(gss_doc).
-#> For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).
 data(gss_all)
 ```
 
