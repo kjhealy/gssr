@@ -12,6 +12,8 @@ License: MIT + file LICENSE
 Depends: R (>= 3.5)
 Imports:
     dplyr,
+    fs,
+    haven,
     magrittr,
     purrr,
     rlang,
@@ -21,7 +23,6 @@ Suggests:
     drat,
     forcats,
     ggplot2,
-    haven,
     scales,
     stringr,
     survey,
