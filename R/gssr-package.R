@@ -63,6 +63,7 @@ fmt_nr <- function(x){
 ##' Get marginal summaries for a GSS variable or variables
 ##'
 ##' Codebook summaries from the \code{gss_doc} or \code{gss_panel_docw} objects
+##'
 ##' @title Get marginal summaries for a GSS variable or variables
 ##' @param varnames The (categorical) variable or variables you want
 ##'     to see marginals for. Can be a character string or a character
@@ -93,6 +94,7 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc, margin = marginal
 ##' Returns the properties of a GSS variable as given in the codebook,
 ##'     typically the Data Type, Missing Data Codes, and Record/Column
 ##'     location.
+##'
 ##' @title Property information for a GSS variable or variables
 ##' @param varnames The variable or variables you want
 ##'     to see properties for. Can be a character string or a character
@@ -131,6 +133,9 @@ get_asked <- function(x) {
 
 #' What years was a particular question asked in the GSS?
 #'
+#' Use `gss_get_years()` to see which years a particular question was
+#' asked in the GSS.
+#'
 #' @param data A tibble of data, usually gss_all
 #' @param variable The variable or variables we want to check. Provide variables in tidyselect style, i.e. unquoted, and for multiple variables enclose unquoted in c()
 #'
@@ -156,6 +161,10 @@ gss_which_years <- function(data, variable) {
 
 
 #' Download GSS data file for a single year from NORC
+#'
+#' Use `gss_get_yr()` to get GSS data for a single year from
+#' NORC's GSS website (where it is available as a zipped Stata file)
+#' and put it directly into a tibble.
 #'
 #' @param year The desired GSS survey year
 #' @param url Location of the file. Defaults to the current NORC URL
