@@ -166,7 +166,7 @@ gss_which_years <- function(data, variable) {
 #' NORC's GSS website (where it is available as a zipped Stata file)
 #' and put it directly into a tibble.
 #'
-#' @param year The desired GSS survey year
+#' @param year The desired GSS survey year, as a number (i.e., not in quotes). Defaults to 2021.
 #' @param url Location of the file. Defaults to the current NORC URL
 #' @param fname Non-year filename component. Defaults to '_stata'. Usually should not be changed.
 #' @param ext File name extension. Defaults to 'zip'. Usually should not be changed.
@@ -181,7 +181,7 @@ gss_which_years <- function(data, variable) {
 ##' gss80 <- gss_get_yr(1980)
 ##' }
 
-gss_get_yr <- function(year = 2018,
+gss_get_yr <- function(year = 2021,
                        url = "http://www.gss.norc.org/documents/stata/",
                        fname = "_stata",
                        ext = "zip",
@@ -190,7 +190,7 @@ gss_get_yr <- function(year = 2018,
 
   year <- match.arg(as.character(year),
                     choices = as.character(c(1972:1978, 1980, 1982:1991,
-                                             1993, seq(1994, 2018, 2))))
+                                             1993, seq(1994, 2018, 2), 2021)))
   save_file <- match.arg(save_file)
 
   local_fname <- paste0(year, fname)
