@@ -10,7 +10,7 @@ status](https://github.com/kjhealy/gssr/workflows/R-CMD-check/badge.svg)](https:
 
 <!-- badges: end -->
 
-The General Social Survey Cumulative Data (1972-2018) and Three Wave
+The General Social Survey Cumulative Data (1972-2021) and Three Wave
 Panel Data files packaged for easy use in R.
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
@@ -94,6 +94,7 @@ into a tibble.
 ``` r
 gss18 <- gss_get_yr(2018)
 #> Fetching: http://www.gss.norc.org/documents/stata/2018_stata.zip
+
 gss18
 #> # A tibble: 2,348 × 1,065
 #>          abany    abdefect           abfelegl   abhelp1  abhelp2 abhelp3 abhelp4
@@ -135,26 +136,26 @@ available to use in the usual way:
 
 ``` r
 gss_all
-#> # A tibble: 64,814 × 6,110
-#>     year    id       wrkstat        hrs1        hrs2      evwork    occ prestige
-#>    <dbl> <dbl>     <dbl+lbl>   <dbl+lbl>   <dbl+lbl>   <dbl+lbl> <dbl+> <dbl+lb>
-#>  1  1972     1 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    205       50
-#>  2  1972     2 5 [retired]   NA(i) [IAP] NA(i) [IAP]     1 [yes]    441       45
-#>  3  1972     3 2 [working p… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    270       44
-#>  4  1972     4 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]      1       57
-#>  5  1972     5 7 [keeping h… NA(i) [IAP] NA(i) [IAP]     1 [yes]    385       40
-#>  6  1972     6 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    281       49
-#>  7  1972     7 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    522       41
-#>  8  1972     8 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    314       36
-#>  9  1972     9 2 [working p… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    912       26
-#> 10  1972    10 1 [working f… NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]    984       18
-#> # … with 64,804 more rows, and 6,102 more variables: wrkslf <dbl+lbl>,
-#> #   wrkgovt <dbl+lbl>, commute <dbl+lbl>, industry <dbl+lbl>, occ80 <dbl+lbl>,
-#> #   prestg80 <dbl+lbl>, indus80 <dbl+lbl>, indus07 <dbl+lbl>,
-#> #   occonet <dbl+lbl>, found <dbl+lbl>, occ10 <dbl+lbl>, occindv <dbl+lbl>,
-#> #   occstatus <dbl+lbl>, occtag <dbl+lbl>, prestg10 <dbl+lbl>,
-#> #   prestg105plus <dbl+lbl>, indus10 <dbl+lbl>, indstatus <dbl+lbl>,
-#> #   indtag <dbl+lbl>, marital <dbl+lbl>, martype <dbl+lbl>, agewed <dbl+lbl>, …
+#> # A tibble: 68,846 × 6,311
+#>     year    id   wrkstat   hrs1  hrs2      evwork   occ prestige  wrkslf wrkgovt
+#>    <dbl> <dbl> <dbl+lbl> <dbl+> <dbl>   <dbl+lbl> <dbl>    <dbl> <dbl+l> <dbl+l>
+#>  1  1972     1 1 [worki…  NA(i) NA(i) NA(i)         205       50 2 [som…   NA(i)
+#>  2  1972     2 5 [retir…  NA(i) NA(i)     1 [yes]   441       45 2 [som…   NA(i)
+#>  3  1972     3 2 [worki…  NA(i) NA(i) NA(i)         270       44 2 [som…   NA(i)
+#>  4  1972     4 1 [worki…  NA(i) NA(i) NA(i)           1       57 2 [som…   NA(i)
+#>  5  1972     5 7 [keepi…  NA(i) NA(i)     1 [yes]   385       40 2 [som…   NA(i)
+#>  6  1972     6 1 [worki…  NA(i) NA(i) NA(i)         281       49 2 [som…   NA(i)
+#>  7  1972     7 1 [worki…  NA(i) NA(i) NA(i)         522       41 2 [som…   NA(i)
+#>  8  1972     8 1 [worki…  NA(i) NA(i) NA(i)         314       36 2 [som…   NA(i)
+#>  9  1972     9 2 [worki…  NA(i) NA(i) NA(i)         912       26 2 [som…   NA(i)
+#> 10  1972    10 1 [worki…  NA(i) NA(i) NA(i)         984       18 2 [som…   NA(i)
+#> # … with 68,836 more rows, and 6,301 more variables: commute <dbl>,
+#> #   industry <dbl>, occ80 <dbl>, prestg80 <dbl>, indus80 <dbl+lbl>,
+#> #   indus07 <dbl>, occonet <dbl>, found <dbl>, occ10 <dbl+lbl>, occindv <dbl>,
+#> #   occstatus <dbl>, occtag <dbl>, prestg10 <dbl>, prestg105plus <dbl>,
+#> #   indus10 <dbl+lbl>, indstatus <dbl>, indtag <dbl>, marital <dbl+lbl>,
+#> #   martype <dbl+lbl>, agewed <dbl>, divorce <dbl+lbl>, widowed <dbl+lbl>,
+#> #   spwrksta <dbl+lbl>, sphrs1 <dbl+lbl>, sphrs2 <dbl+lbl>, …
 ```
 
 To load the tibble that contains information on the variables in the
@@ -259,7 +260,7 @@ asked. We can find this out for one or more variables with
 ``` r
 gss_which_years(gss_all, fefam)
 
-#> # A tibble: 32 x 2
+#> # A tibble: 33 x 2
 #>     year fefam
 #>    <dbl> <lgl>
 #>  1  1972 FALSE
@@ -283,7 +284,7 @@ gss_all %>%
   gss_which_years(c(industry, indus80, wrkgovt, commute)) %>%
   print(n = Inf)
 
-#> # A tibble: 32 x 5
+#> # A tibble: 33 x 5
 #>     year industry indus80 wrkgovt commute
 #>    <dbl> <lgl>    <lgl>   <lgl>   <lgl>  
 #>  1  1972 TRUE     FALSE   FALSE   FALSE  
@@ -318,7 +319,50 @@ gss_all %>%
 #> 30  2014 FALSE    FALSE   TRUE    FALSE  
 #> 31  2016 FALSE    FALSE   TRUE    FALSE  
 #> 32  2018 FALSE    FALSE   TRUE    FALSE  
+#> 33  2021 FALSE    FALSE   TRUE    FALSE
 ```
+
+## The GSS and COVID-19
+
+Due to challenges caused by the COVID-19 pandemic, GSS data users should
+carefully examine how a change they are observing in a trend over time
+may have been impacted by the methodological differences employed in
+2020. The GSS administrators have released a [Methodological
+Primer](https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf)
+along with the [Documentation and Codebook for the 2021
+survey](https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf)
+that users should read carefully.
+
+The Primer notes:
+
+> Since its inception, the GSS has conducted data collection via
+> in-person interviews as its primary mode of data collection. The
+> pandemic forced the GSS to change this design, moving from in-person
+> to address- based sampling and a push-to-web methodology, with the
+> bulk of the interview conducted online via a self- administered
+> questionnaire.
+
+In addition,
+
+> We recommend our users include the one of the following statements
+> when reporting on the GSS 2021 Cross-section data: *Total Survey Error
+> Summary Perspective for the 2021 GSS Cross-section:* Changes in
+> opinions, attitudes, and behaviors observed in 2021 relative to
+> historical trends may be due to actual change in concept over time
+> and/or may have resulted from methodological changes made to the
+> survey methodology during the COVID-19 global pandemic.
+
+And,
+
+> *Suggested Statement to Include in Articles and Reports That Use GSS
+> Data:* To safeguard the health of staff and respondents during the
+> COVID-19 pandemic, the 2021 GSS data collection used a mail-to-web
+> methodology instead of its traditional in-person interviews. Research
+> and interpretation done using the data should take extra care to
+> ensure the analysis reflects actual changes in public opinion and is
+> not unduly influenced by the change in data collection methods. For
+> more information on the 2021 GSS methodology and its implications,
+> please visit <https://gss.norc.org/Get-The-Data>
 
 ## Panel data
 
@@ -345,18 +389,18 @@ data("gss_panel06_long")
 
 gss_panel06_long
 #> # A tibble: 6,000 × 1,572
-#>    firstid  wave       ballot    form formwt oversamp sampcode  sample   samptype
-#>    <fct>   <dbl>    <dbl+lbl> <dbl+l>  <dbl>    <dbl> <dbl+lb> <dbl+l>  <dbl+lbl>
-#>  1 9           1 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#>  2 9           2 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#>  3 9           3 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#>  4 10          1 1 [BALLOT A] 1 [STA…      1        1      501 9 [200… 2006 [200…
-#>  5 10          2 1 [BALLOT A] 1 [STA…      1        1      501 9 [200… 2006 [200…
-#>  6 10          3 1 [BALLOT A] 1 [STA…      1        1      501 9 [200… 2006 [200…
-#>  7 11          1 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#>  8 11          2 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#>  9 11          3 3 [BALLOT C] 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#> 10 12          1 1 [BALLOT A] 2 [ALT…      1        1      501 9 [200… 2006 [200…
+#>    firstid  wave   ballot      form formwt oversamp sampcode  sample    samptype
+#>    <fct>   <dbl> <dbl+lb> <dbl+lbl>  <dbl>    <dbl> <dbl+lb> <dbl+l>   <dbl+lbl>
+#>  1 9           1 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
+#>  2 9           2 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
+#>  3 9           3 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
+#>  4 10          1 1 [BALL… 1 [STAND…      1        1      501 9 [200… 2006 [2006…
+#>  5 10          2 1 [BALL… 1 [STAND…      1        1      501 9 [200… 2006 [2006…
+#>  6 10          3 1 [BALL… 1 [STAND…      1        1      501 9 [200… 2006 [2006…
+#>  7 11          1 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
+#>  8 11          2 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
+#>  9 11          3 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
+#> 10 12          1 1 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
 #> # … with 5,990 more rows, and 1,563 more variables: vstrat <dbl+lbl>,
 #> #   vpsu <dbl+lbl>, wtpan12 <dbl+lbl>, wtpan123 <dbl+lbl>, wtpannr12 <dbl+lbl>,
 #> #   wtpannr123 <dbl+lbl>, letin1a <dbl+lbl>, abany <dbl+lbl>,
@@ -458,6 +502,8 @@ gss_get_marginals(varnames = c("sex", "race"), data = gss_panel_doc, margin = ma
 #> 7 race         7.7   118 "3"   OTHER            RACE_2
 #> 8 race        NA     464 "0"   IAP              RACE_2
 #> 9 race       100    2000  <NA> Total            RACE_2
+
+
 gss_get_marginals(varnames = "padeg", data = gss_panel_doc, margin = marginals_1)
 #> # A tibble: 9 × 6
 #>   variable percent     n value label          id     

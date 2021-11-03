@@ -1,4 +1,8 @@
-# gss4 0.3.3
+# gssr 0.3.4
+
+* `gss_all` now includes the 2021 data release imported from the GSS 1972-2021 Cross-Sectional Cumulative Data (Release 1, Nov. 1, 2021). The documentation tibble does not yet include the 2021 variables.
+
+# gssr 0.3.3
 
 * New `gss_get_yr` function to fetch a specific GSS survey year's data. 
 

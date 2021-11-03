@@ -34,7 +34,7 @@ library(tidyverse)
 
 <!-- badges: end -->
 
-The General Social Survey Cumulative Data (1972-2018) and Three Wave Panel Data files packaged for easy use in R. 
+The General Social Survey Cumulative Data (1972-2021) and Three Wave Panel Data files packaged for easy use in R. 
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
@@ -170,7 +170,7 @@ We often want to know which years a question or group of questions was asked. We
 ```r
 gss_which_years(gss_all, fefam)
 
-#> # A tibble: 32 x 2
+#> # A tibble: 33 x 2
 #>     year fefam
 #>    <dbl> <lgl>
 #>  1  1972 FALSE
@@ -194,7 +194,7 @@ gss_all %>%
   gss_which_years(c(industry, indus80, wrkgovt, commute)) %>%
   print(n = Inf)
 
-#> # A tibble: 32 x 5
+#> # A tibble: 33 x 5
 #>     year industry indus80 wrkgovt commute
 #>    <dbl> <lgl>    <lgl>   <lgl>   <lgl>  
 #>  1  1972 TRUE     FALSE   FALSE   FALSE  
@@ -229,8 +229,28 @@ gss_all %>%
 #> 30  2014 FALSE    FALSE   TRUE    FALSE  
 #> 31  2016 FALSE    FALSE   TRUE    FALSE  
 #> 32  2018 FALSE    FALSE   TRUE    FALSE  
+#> 33  2021 FALSE    FALSE   TRUE    FALSE
 
 ```
+
+## The GSS and COVID-19
+
+Due to challenges caused by the COVID-19 pandemic, GSS data users should carefully examine how a change they are observing in a trend over time may have been impacted by the methodological differences employed in 2020. The GSS administrators have released a [Methodological Primer](https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf) along with the [Documentation and Codebook for the 2021 survey](https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf) that users should read carefully.
+
+The Primer notes:
+
+> Since its inception, the GSS has conducted data collection via in-person interviews as its primary mode of data collection. The pandemic forced the GSS to change this design, moving from in-person to address- based sampling and a push-to-web methodology, with the bulk of the interview conducted online via a self- administered questionnaire.
+
+
+In addition, 
+
+> We recommend our users include the one of the following statements when reporting on the GSS 2021 Cross-section data: 
+> _Total Survey Error Summary Perspective for the 2021 GSS Cross-section:_
+Changes in opinions, attitudes, and behaviors observed in 2021 relative to historical trends may be due to actual change in concept over time and/or may have resulted from methodological changes made to the survey methodology during the COVID-19 global pandemic.
+
+And, 
+
+> _Suggested Statement to Include in Articles and Reports That Use GSS Data:_ To safeguard the health of staff and respondents during the COVID-19 pandemic, the 2021 GSS data collection used a mail-to-web methodology instead of its traditional in-person interviews. Research and interpretation done using the data should take extra care to ensure the analysis reflects actual changes in public opinion and is not unduly influenced by the change in data collection methods. For more information on the 2021 GSS methodology and its implications, please visit https://gss.norc.org/Get-The-Data
 
 ## Panel data
 
