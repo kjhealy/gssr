@@ -235,7 +235,7 @@ gss_all %>%
 
 ## The GSS and COVID-19
 
-Due to challenges caused by the COVID-19 pandemic, GSS data users should carefully examine how a change they are observing in a trend over time may have been impacted by the methodological differences employed in 2020. The GSS administrators have released a [Methodological Primer](https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf) along with the [Documentation and Codebook for the 2021 survey](https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf) that users should read carefully.
+The GSS administrators have released a [Methodological Primer](https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf) along with the [Documentation and Codebook for the 2021 survey](https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf) that users should read carefully in connection with the effects of COVID-19 on data collection for the GSS.
 
 The Primer notes:
 
@@ -244,9 +244,7 @@ The Primer notes:
 
 In addition, 
 
-> We recommend our users include the one of the following statements when reporting on the GSS 2021 Cross-section data: 
-> _Total Survey Error Summary Perspective for the 2021 GSS Cross-section:_
-Changes in opinions, attitudes, and behaviors observed in 2021 relative to historical trends may be due to actual change in concept over time and/or may have resulted from methodological changes made to the survey methodology during the COVID-19 global pandemic.
+> We recommend our users include the one of the following statements when reporting on the GSS 2021 Cross-section data: _Total Survey Error Summary Perspective for the 2021 GSS Cross-section:_ Changes in opinions, attitudes, and behaviors observed in 2021 relative to historical trends may be due to actual change in concept over time and/or may have resulted from methodological changes made to the survey methodology during the COVID-19 global pandemic.
 
 And, 
 

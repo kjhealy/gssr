@@ -324,14 +324,12 @@ gss_all %>%
 
 ## The GSS and COVID-19
 
-Due to challenges caused by the COVID-19 pandemic, GSS data users should
-carefully examine how a change they are observing in a trend over time
-may have been impacted by the methodological differences employed in
-2020. The GSS administrators have released a [Methodological
+The GSS administrators have released a [Methodological
 Primer](https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf)
 along with the [Documentation and Codebook for the 2021
 survey](https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf)
-that users should read carefully.
+that users should read carefully in connection with the effects of
+COVID-19 on data collection for the GSS.
 
 The Primer notes:
 
