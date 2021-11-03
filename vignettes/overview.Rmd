@@ -223,7 +223,7 @@ gss_fam <- gss_fam %>%
 
 ## Some of the recoded variables
 gss_fam %>%
-  filter(year > 1976) %>% 
+  filter(year > 1976 & year < 2021) %>% 
   select(race:fefam, agequint:fefam_d) %>% 
   relocate(year_f)
 ```
@@ -249,7 +249,7 @@ options(survey.lonely.psu = "adjust")
 options(na.action="na.pass")
 
 gss_svy <- gss_fam %>%
-    filter(year > 1974) %>%
+    filter(year > 1974 & year < 2021) %>%
     tidyr::drop_na(fefam_d, young) %>%
     mutate(stratvar = interaction(year, vstrat)) %>%
     as_survey_design(id = vpsu,

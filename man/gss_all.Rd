@@ -3,9 +3,9 @@
 \docType{data}
 \name{gss_all}
 \alias{gss_all}
-\title{General Social Survey Survey Cumulative Data File 1972-2018}
+\title{General Social Survey Survey Cumulative Data File 1972-2021}
 \format{
-An object of class \code{tibble} with 64,814 rows and 6,108 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at \url{http://gss.norc.org/Get-Documentation}. Summary information is available in \code{gss_doc}, a tibble supplied with this package.
+An object of class \code{tibble} with 68,846 rows and 6,311 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at \url{http://gss.norc.org/Get-Documentation}. Summary information is available in \code{gss_doc}, a tibble supplied with this package.
 }
 \source{
 National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.

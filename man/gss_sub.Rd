@@ -5,7 +5,7 @@
 \alias{gss_sub}
 \title{GSS Cumulative Data File 1972-2018, Vignette Example}
 \format{
-A tibble with 64,814 rows and 14 columns.
+A tibble with 68,846 rows and 14 columns.
 \describe{
 \item{\code{year}}{Year of the survey.}
 \item{\code{id}}{Respondent id.}
