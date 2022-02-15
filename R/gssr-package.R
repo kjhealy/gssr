@@ -30,6 +30,7 @@ NULL
 #' @param x df
 #' @return formatted string
 #' @details use in fn documentation
+#' @keywords internal
 #' @examples
 #' \dontrun{
 #' if(interactive()){
@@ -42,12 +43,12 @@ fmt_nc <- function(x){
   prettyNum(ncol(x), big.mark=",", scientific=FALSE)
 }
 
-
 #' @title fmt_nr
 #' @description Format fmt_nr in df
 #' @param x df
 #' @return formatted string
 #' @details use in fn documentation
+#' @keywords internal
 #' @examples
 #' \dontrun{
 #' if(interactive()){
@@ -58,7 +59,6 @@ fmt_nc <- function(x){
 fmt_nr <- function(x){
   prettyNum(nrow(x), big.mark=",", scientific=FALSE)
 }
-
 
 ##' Get marginal summaries for a GSS variable or variables
 ##'
@@ -132,6 +132,7 @@ get_asked <- function(x) {
 #'
 #' @keywords internal
 
+
 #' What years was a particular question asked in the GSS?
 #'
 #' @title gss_which_years
@@ -165,6 +166,7 @@ gss_which_years <- function(data, variable) {
 #' This function is deprecated. Use `gss_which_years()` instead.
 #'
 #' @export
+#' @keywords internal
 #'
 #' @examples
 #' \donttest{
@@ -172,7 +174,6 @@ gss_which_years <- function(data, variable) {
 gss_get_years <- function() {
   message("This function is deprecated. Use `gss_which_years()` instead.")
 }
-
 
 
 #' Download GSS data file for a single year from NORC
@@ -224,4 +225,4 @@ gss_get_yr <- function(year = 2021,
   haven::read_stata(tf)
 
 }
-
+#'
