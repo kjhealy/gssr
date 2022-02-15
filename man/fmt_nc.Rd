@@ -28,3 +28,4 @@ if(interactive()){
 \author{
 Kieran Healy
 }
+\keyword{internal}

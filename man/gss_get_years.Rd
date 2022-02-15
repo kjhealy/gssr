@@ -13,3 +13,4 @@ This function is deprecated. Use \code{gss_which_years()} instead.
 \donttest{
 }
 }
+\keyword{internal}

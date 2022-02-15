@@ -24,3 +24,4 @@ main data objects are.
 \author{
 Kieran Healy
 }
+\keyword{internal}

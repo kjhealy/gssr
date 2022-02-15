@@ -27,7 +27,6 @@ reference:
       - gss_get_props
       - gss_get_yr
       - gss_which_years
-
 navbar:
   right:
    - icon: fa-github
