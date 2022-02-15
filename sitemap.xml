@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://kjhealy.github.io/gssr/404.html</loc>
+  </url>
+  <url>
+    <loc>https://kjhealy.github.io/gssr/LICENSE-text.html</loc>
+  </url>
+  <url>
+    <loc>https://kjhealy.github.io/gssr/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://kjhealy.github.io/gssr/articles/index.html</loc>
+  </url>
+  <url>
+    <loc>https://kjhealy.github.io/gssr/articles/overview.html</loc>
+  </url>
+  <url>
+    <loc>https://kjhealy.github.io/gssr/authors.html</loc>
+  </url>
+  <url>
     <loc>https://kjhealy.github.io/gssr/index.html</loc>
+  </url>
+  <url>
+    <loc>https://kjhealy.github.io/gssr/news/index.html</loc>
   </url>
   <url>
     <loc>https://kjhealy.github.io/gssr/reference/dot-onAttach.html</loc>
@@ -28,6 +49,9 @@
     <loc>https://kjhealy.github.io/gssr/reference/gss_get_props.html</loc>
   </url>
   <url>
+    <loc>https://kjhealy.github.io/gssr/reference/gss_get_years.html</loc>
+  </url>
+  <url>
     <loc>https://kjhealy.github.io/gssr/reference/gss_get_yr.html</loc>
   </url>
   <url>
@@ -52,9 +76,9 @@
     <loc>https://kjhealy.github.io/gssr/reference/gssr-package.html</loc>
   </url>
   <url>
-    <loc>https://kjhealy.github.io/gssr/reference/reexports.html</loc>
+    <loc>https://kjhealy.github.io/gssr/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://kjhealy.github.io/gssr/articles/overview.html</loc>
+    <loc>https://kjhealy.github.io/gssr/reference/reexports.html</loc>
   </url>
 </urlset>
