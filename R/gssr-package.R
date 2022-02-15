@@ -133,7 +133,7 @@ get_asked <- function(x) {
 
 #' What years was a particular question asked in the GSS?
 #'
-#' Use `gss_get_years()` to see which years a particular question was
+#' Use `gss_which_years()` to see which years a particular question was
 #' asked in the GSS.
 #'
 #' @param data A tibble of data, usually gss_all
@@ -159,6 +159,20 @@ gss_which_years <- function(data, variable) {
 }
 
 
+#' (DEPRECATED) What years was a particular question asked in the GSS?
+#'
+#' This function is deprecated. Use `gss_which_years()` instead.
+#'
+#' @export
+#'
+#' @examples
+#' \donttest{
+#' }
+gss_get_years <- function() {
+  message("This function is deprecated. Use `gss_which_years()` instead.")
+}
+
+
 
 #' Download GSS data file for a single year from NORC
 #'
@@ -167,7 +181,7 @@ gss_which_years <- function(data, variable) {
 #' and put it directly into a tibble.
 #'
 #' @param year The desired GSS survey year, as a number (i.e., not in quotes). Defaults to 2021.
-#' @param url Location of the file. Defaults to the current NORC URL
+#' @param url Location of the file. Defaults to the current NORC URL for Stata files.
 #' @param fname Non-year filename component. Defaults to '_stata'. Usually should not be changed.
 #' @param ext File name extension. Defaults to 'zip'. Usually should not be changed.
 #' @param dest If `save_file` is "y", the directory to put the file in. Defaults to `data-raw` in current directory.
@@ -182,7 +196,7 @@ gss_which_years <- function(data, variable) {
 ##' }
 
 gss_get_yr <- function(year = 2021,
-                       url = "http://www.gss.norc.org/documents/stata/",
+                       url = "https://gss.norc.org/documents/stata/",
                        fname = "_stata",
                        ext = "zip",
                        dest = "data-raw/",

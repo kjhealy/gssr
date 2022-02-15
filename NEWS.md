@@ -1,3 +1,9 @@
+# gssr 0.3.5
+
+* `gss_get_years()` has been renamed to `gss_which_years()` to make it less confusingly similar to the `gss_get_yr()` function. The former looks to see when a question was asked. The latter pulls a given year's dataset from the GSS website.
+
+* Update the base URL in `gss_get_yr()`. Thanks to (@lindsaypoirier.)
+
 # gssr 0.3.4
 
 * `gss_all` now includes the 2021 data release imported from the GSS 1972-2021 Cross-Sectional Cumulative Data (Release 1, Nov. 1, 2021). The documentation tibble does not yet include the 2021 variables.

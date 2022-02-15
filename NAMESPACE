@@ -3,6 +3,7 @@
 export("%>%")
 export(gss_get_marginals)
 export(gss_get_props)
+export(gss_get_years)
 export(gss_get_yr)
 export(gss_which_years)
 importFrom(curl,curl_download)

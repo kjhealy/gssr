@@ -15,7 +15,7 @@ gss_which_years(data, variable)
 A tibble showing whether the question or questions were asked in each of the GSS years
 }
 \description{
-Use \code{gss_get_years()} to see which years a particular question was
+Use \code{gss_which_years()} to see which years a particular question was
 asked in the GSS.
 }
 \examples{

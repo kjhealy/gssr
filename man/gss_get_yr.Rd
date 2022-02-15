@@ -6,7 +6,7 @@
 \usage{
 gss_get_yr(
   year = 2021,
-  url = "http://www.gss.norc.org/documents/stata/",
+  url = "https://gss.norc.org/documents/stata/",
   fname = "_stata",
   ext = "zip",
   dest = "data-raw/",
@@ -16,7 +16,7 @@ gss_get_yr(
 \arguments{
 \item{year}{The desired GSS survey year, as a number (i.e., not in quotes). Defaults to 2021.}
 
-\item{url}{Location of the file. Defaults to the current NORC URL}
+\item{url}{Location of the file. Defaults to the current NORC URL for Stata files.}
 
 \item{fname}{Non-year filename component. Defaults to '_stata'. Usually should not be changed.}
 
