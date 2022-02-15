@@ -17,6 +17,9 @@ A tibble showing whether the question or questions were asked in each of the GSS
 \description{
 See which years a particular question was asked in the GSS.
 }
+\details{
+What years was a particular question asked in the GSS?
+}
 \examples{
 \donttest{
 data(gss_all)
@@ -27,14 +30,3 @@ gss_all \%>\%
   gss_which_years(c(industry, indus80, wrkgovt, commute))
 }
 }
-\keyword{GSS?}
-\keyword{What}
-\keyword{a}
-\keyword{asked}
-\keyword{in}
-\keyword{internal}
-\keyword{particular}
-\keyword{question}
-\keyword{the}
-\keyword{was}
-\keyword{years}

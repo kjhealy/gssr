@@ -124,13 +124,13 @@ gss_get_props <- function(varnames = "id", data = gss_doc, props = properties) {
 #'
 #' @return TRUE or FALSE depending on whether it passes the test
 #'
+#' @keywords internal
 #' @examples
 #' # See gss_which_years()
 get_asked <- function(x) {
   ifelse(length(unique(x)) == 1, FALSE, TRUE)
 }
 #'
-#' @keywords internal
 
 
 #' What years was a particular question asked in the GSS?

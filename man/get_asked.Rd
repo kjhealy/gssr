@@ -18,3 +18,4 @@ Get whether a question was asked
 \examples{
 # See gss_which_years()
 }
+\keyword{internal}
