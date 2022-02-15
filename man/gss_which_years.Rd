@@ -2,7 +2,7 @@
 % Please edit documentation in R/gssr-package.R
 \name{gss_which_years}
 \alias{gss_which_years}
-\title{What years was a particular question asked in the GSS?}
+\title{gss_which_years}
 \usage{
 gss_which_years(data, variable)
 }
@@ -15,8 +15,7 @@ gss_which_years(data, variable)
 A tibble showing whether the question or questions were asked in each of the GSS years
 }
 \description{
-Use \code{gss_which_years()} to see which years a particular question was
-asked in the GSS.
+See which years a particular question was asked in the GSS.
 }
 \examples{
 \donttest{
@@ -28,3 +27,14 @@ gss_all \%>\%
   gss_which_years(c(industry, indus80, wrkgovt, commute))
 }
 }
+\keyword{GSS?}
+\keyword{What}
+\keyword{a}
+\keyword{asked}
+\keyword{in}
+\keyword{internal}
+\keyword{particular}
+\keyword{question}
+\keyword{the}
+\keyword{was}
+\keyword{years}

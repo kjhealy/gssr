@@ -129,12 +129,13 @@ gss_get_props <- function(varnames = "id", data = gss_doc, props = properties) {
 get_asked <- function(x) {
   ifelse(length(unique(x)) == 1, FALSE, TRUE)
 }
-
+#'
+#' @keywords internal
 
 #' What years was a particular question asked in the GSS?
 #'
-#' Use `gss_which_years()` to see which years a particular question was
-#' asked in the GSS.
+#' @title gss_which_years
+#' @description See which years a particular question was asked in the GSS.
 #'
 #' @param data A tibble of data, usually gss_all
 #' @param variable The variable or variables we want to check. Provide variables in tidyselect style, i.e. unquoted, and for multiple variables enclose unquoted in c()
