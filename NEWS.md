@@ -1,5 +1,9 @@
 # gssr 0.3.5
 
+* Added `gss_dict` as an alternative way of looking at the documentation.
+
+# gssr 0.3.5
+
 * `gss_get_years()` has been renamed to `gss_which_years()` to make it less confusingly similar to the `gss_get_yr()` function. The former looks to see when a question was asked. The latter pulls a given year's dataset from the GSS website.
 
 * Update the base URL in `gss_get_yr()`. Thanks to (@lindsaypoirier.)

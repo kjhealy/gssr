@@ -82,7 +82,7 @@
 
 #' Codebook for the GSS Cumulative Data File 1972-2018
 #'
-#' A tibble containing information on the variable in the GSS
+#' A tibble containing information on the variables in the GSS
 #' Cumulative Data File. See http://gss.norc.org/Get-Documentation for full
 #' documentation of the variables.
 #'
@@ -106,6 +106,32 @@
 #' @name gss_doc
 #' @source National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
 'gss_doc'
+
+
+#' Data Dictionary for the GSS Cumulative Data File 1972-2018
+#'
+#' A tibble containing information on the variables in the GSS
+#' Cumulative Data File. This is a more compact version of the `gss_doc` codebook.
+#' See http://gss.norc.org/Get-Documentation for full documentation of the variables.
+#'
+#' @format A tibble with `r fmt_nr(data(gss_dict))` rows and `r fmt_nc(data(gss_dict))` columns.
+#' \describe{
+#' \item{\code{pos}}{Column-index position of the variable in `gss_all`. (Integer.)}
+#' \item{\code{variable}}{The name of the variable. (Character.)}
+#' \item{\code{label}}{The variable's label. 'r' means 'Respondent'. (Character.)}
+#' \item{\code{col_type}}{The column type of the variable in `gss_all`. (Character.)}
+#' \item{\code{value_labels}}{The value labels and associated numeric values for the variable. Numeric values are given in square brackets. (Character.)}
+#' \item{\code{years}}{Which years the question was asked. This information is stored as a tibble in a list column. The tibble contains a column for the `year` and a TRUE/FALSE coumn for `present`.}
+#'}
+#'
+#' @docType data
+#' @usage data(gss_dict)
+#' @keywords datasets
+#' @name gss_dict
+#' @source National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
+'gss_dict'
+
+
 
 
 #' Codebook for the GSS Three Wave Panel

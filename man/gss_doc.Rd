@@ -26,7 +26,7 @@ National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org
 data(gss_doc)
 }
 \description{
-A tibble containing information on the variable in the GSS
+A tibble containing information on the variables in the GSS
 Cumulative Data File. See http://gss.norc.org/Get-Documentation for full
 documentation of the variables.
 }

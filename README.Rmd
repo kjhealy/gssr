@@ -116,7 +116,7 @@ This will take a moment. Once it is ready, the `gss_all` object is available to 
 gss_all
 ```
 
-To load the tibble that contains information on the variables in the data, do this:
+The variables are documented in two supplementary tibbles, `gss_doc` and `gss_dict`. To load `gss_doc`, do this:
 
 ```{r load-doc}
 data(gss_doc)
@@ -162,6 +162,14 @@ And one for the properties:
 ```{r getfnex2}
 gss_get_props(varnames = c("race", "sex"))
 ```
+
+The package also comes with `gss_dict`, a tibble with similar information in a slightly different format:
+
+```{r gssdict1}
+data(gss_dict)
+gss_dict
+```
+
 
 ## Which questions were asked in which years?
 

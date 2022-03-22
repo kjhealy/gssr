@@ -93,7 +93,7 @@ into a tibble.
 
 ``` r
 gss18 <- gss_get_yr(2018)
-#> Fetching: http://www.gss.norc.org/documents/stata/2018_stata.zip
+#> Fetching: https://gss.norc.org/documents/stata/2018_stata.zip
 
 gss18
 #> # A tibble: 2,348 × 1,065
@@ -137,18 +137,18 @@ available to use in the usual way:
 ``` r
 gss_all
 #> # A tibble: 68,846 × 6,311
-#>     year    id   wrkstat   hrs1  hrs2      evwork   occ prestige  wrkslf wrkgovt
-#>    <dbl> <dbl> <dbl+lbl> <dbl+> <dbl>   <dbl+lbl> <dbl>    <dbl> <dbl+l> <dbl+l>
-#>  1  1972     1 1 [worki…  NA(i) NA(i) NA(i)         205       50 2 [som…   NA(i)
-#>  2  1972     2 5 [retir…  NA(i) NA(i)     1 [yes]   441       45 2 [som…   NA(i)
-#>  3  1972     3 2 [worki…  NA(i) NA(i) NA(i)         270       44 2 [som…   NA(i)
-#>  4  1972     4 1 [worki…  NA(i) NA(i) NA(i)           1       57 2 [som…   NA(i)
-#>  5  1972     5 7 [keepi…  NA(i) NA(i)     1 [yes]   385       40 2 [som…   NA(i)
-#>  6  1972     6 1 [worki…  NA(i) NA(i) NA(i)         281       49 2 [som…   NA(i)
-#>  7  1972     7 1 [worki…  NA(i) NA(i) NA(i)         522       41 2 [som…   NA(i)
-#>  8  1972     8 1 [worki…  NA(i) NA(i) NA(i)         314       36 2 [som…   NA(i)
-#>  9  1972     9 2 [worki…  NA(i) NA(i) NA(i)         912       26 2 [som…   NA(i)
-#> 10  1972    10 1 [worki…  NA(i) NA(i) NA(i)         984       18 2 [som…   NA(i)
+#>     year    id    wrkstat  hrs1  hrs2      evwork   occ prestige  wrkslf wrkgovt
+#>    <dbl> <dbl>  <dbl+lbl> <dbl> <dbl>   <dbl+lbl> <dbl>    <dbl> <dbl+l> <dbl+l>
+#>  1  1972     1 1 [workin… NA(i) NA(i) NA(i)         205       50 2 [som…   NA(i)
+#>  2  1972     2 5 [retire… NA(i) NA(i)     1 [yes]   441       45 2 [som…   NA(i)
+#>  3  1972     3 2 [workin… NA(i) NA(i) NA(i)         270       44 2 [som…   NA(i)
+#>  4  1972     4 1 [workin… NA(i) NA(i) NA(i)           1       57 2 [som…   NA(i)
+#>  5  1972     5 7 [keepin… NA(i) NA(i)     1 [yes]   385       40 2 [som…   NA(i)
+#>  6  1972     6 1 [workin… NA(i) NA(i) NA(i)         281       49 2 [som…   NA(i)
+#>  7  1972     7 1 [workin… NA(i) NA(i) NA(i)         522       41 2 [som…   NA(i)
+#>  8  1972     8 1 [workin… NA(i) NA(i) NA(i)         314       36 2 [som…   NA(i)
+#>  9  1972     9 2 [workin… NA(i) NA(i) NA(i)         912       26 2 [som…   NA(i)
+#> 10  1972    10 1 [workin… NA(i) NA(i) NA(i)         984       18 2 [som…   NA(i)
 #> # … with 68,836 more rows, and 6,301 more variables: commute <dbl>,
 #> #   industry <dbl>, occ80 <dbl>, prestg80 <dbl>, indus80 <dbl+lbl>,
 #> #   indus07 <dbl>, occonet <dbl>, found <dbl>, occ10 <dbl+lbl>, occindv <dbl>,
@@ -158,25 +158,25 @@ gss_all
 #> #   spwrksta <dbl+lbl>, sphrs1 <dbl+lbl>, sphrs2 <dbl+lbl>, …
 ```
 
-To load the tibble that contains information on the variables in the
-data, do this:
+The variables are documented in two supplementary tibbles, `gss_doc` and
+`gss_dict`. To load `gss_doc`, do this:
 
 ``` r
 data(gss_doc)
 gss_doc
 #> # A tibble: 6,144 × 5
-#>    id       description                  properties       marginals  text       
-#>    <chr>    <chr>                        <list>           <list>     <chr>      
-#>  1 caseid   YEAR + Respondent ID         <tibble [2 × 3]> <tibble [… None       
-#>  2 year     GSS year for this respondent <tibble [2 × 3]> <tibble [… None       
-#>  3 id       Respondent ID number         <tibble [2 × 3]> <tibble [… None       
-#>  4 age      Age of respondent            <tibble [3 × 3]> <tibble [… 13. Respon…
-#>  5 sex      Respondents sex              <tibble [3 × 3]> <tibble [… 23. Code r…
-#>  6 race     Race of respondent           <tibble [3 × 3]> <tibble [… 24. What r…
-#>  7 racecen1 What Is R's race 1st mention <tibble [3 × 3]> <tibble [… 1602. What…
-#>  8 racecen2 What Is R's race 2nd mention <tibble [3 × 3]> <tibble [… 1602. What…
-#>  9 racecen3 What Is R's race 3rd mention <tibble [3 × 3]> <tibble [… 1602. What…
-#> 10 hispanic Hispanic specified           <tibble [3 × 3]> <tibble [… 1601. IF R…
+#>    id       description                  properties       marginals        text 
+#>    <chr>    <chr>                        <list>           <list>           <chr>
+#>  1 caseid   YEAR + Respondent ID         <tibble [2 × 3]> <tibble [1 × 3]> None 
+#>  2 year     GSS year for this respondent <tibble [2 × 3]> <tibble>         None 
+#>  3 id       Respondent ID number         <tibble [2 × 3]> <tibble [1 × 3]> None 
+#>  4 age      Age of respondent            <tibble [3 × 3]> <tibble [1 × 3]> 13. …
+#>  5 sex      Respondents sex              <tibble [3 × 3]> <tibble [3 × 5]> 23. …
+#>  6 race     Race of respondent           <tibble [3 × 3]> <tibble [4 × 5]> 24. …
+#>  7 racecen1 What Is R's race 1st mention <tibble [3 × 3]> <tibble>         1602…
+#>  8 racecen2 What Is R's race 2nd mention <tibble [3 × 3]> <tibble>         1602…
+#>  9 racecen3 What Is R's race 3rd mention <tibble [3 × 3]> <tibble>         1602…
+#> 10 hispanic Hispanic specified           <tibble [3 × 3]> <tibble>         1601…
 #> # … with 6,134 more rows
 ```
 
@@ -249,6 +249,28 @@ gss_get_props(varnames = c("race", "sex"))
 #> 4 race     Data type         numeric RACE 
 #> 5 race     Missing-data code 0       RACE 
 #> 6 race     Record/column     1/298   RACE
+```
+
+The package also comes with `gss_dict`, a tibble with similar
+information in a slightly different format:
+
+``` r
+data(gss_dict)
+gss_dict
+#> # A tibble: 2,469 × 6
+#>      pos variable label                           col_type value_labels years   
+#>    <int> <chr>    <chr>                           <chr>    <chr>        <list>  
+#>  1     1 wrkstat  labor force status              dbl+lbl  [1] working… <tibble>
+#>  2     2 hrs1     number of hours worked last we… dbl+lbl  [89] 80+ ho… <tibble>
+#>  3     3 hrs2     number of hours usually work a… dbl+lbl  [89] 80+ ho… <tibble>
+#>  4     4 evwork   ever work as long as one year   dbl+lbl  [1] yes; [2… <tibble>
+#>  5     5 wrkslf   r self-emp or works for somebo… dbl+lbl  [1] self-em… <tibble>
+#>  6     6 wrkgovt  govt or private employee        dbl+lbl  [1] governm… <tibble>
+#>  7     7 indus80  r's industry code (1980)        dbl+lbl  [1] strongl… <tibble>
+#>  8     8 occ10    r's census occupation code (20… dbl+lbl  [10] chief … <tibble>
+#>  9     9 indus10  r's industry code (naics 2007)  dbl+lbl  [170] crop … <tibble>
+#> 10    10 marital  marital status                  dbl+lbl  [1] married… <tibble>
+#> # … with 2,459 more rows
 ```
 
 ## Which questions were asked in which years?
@@ -387,18 +409,18 @@ data("gss_panel06_long")
 
 gss_panel06_long
 #> # A tibble: 6,000 × 1,572
-#>    firstid  wave   ballot      form formwt oversamp sampcode  sample    samptype
-#>    <fct>   <dbl> <dbl+lb> <dbl+lbl>  <dbl>    <dbl> <dbl+lb> <dbl+l>   <dbl+lbl>
-#>  1 9           1 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
-#>  2 9           2 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
-#>  3 9           3 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
-#>  4 10          1 1 [BALL… 1 [STAND…      1        1      501 9 [200… 2006 [2006…
-#>  5 10          2 1 [BALL… 1 [STAND…      1        1      501 9 [200… 2006 [2006…
-#>  6 10          3 1 [BALL… 1 [STAND…      1        1      501 9 [200… 2006 [2006…
-#>  7 11          1 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
-#>  8 11          2 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
-#>  9 11          3 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
-#> 10 12          1 1 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…
+#>    firstid  wave      ballot    form formwt oversamp sampcode  sample   samptype
+#>    <fct>   <dbl>   <dbl+lbl> <dbl+l>  <dbl>    <dbl> <dbl+lb> <dbl+l>  <dbl+lbl>
+#>  1 9           1 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
+#>  2 9           2 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
+#>  3 9           3 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
+#>  4 10          1 1 [BALLOT … 1 [STA…      1        1      501 9 [200… 2006 [200…
+#>  5 10          2 1 [BALLOT … 1 [STA…      1        1      501 9 [200… 2006 [200…
+#>  6 10          3 1 [BALLOT … 1 [STA…      1        1      501 9 [200… 2006 [200…
+#>  7 11          1 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
+#>  8 11          2 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
+#>  9 11          3 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
+#> 10 12          1 1 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
 #> # … with 5,990 more rows, and 1,563 more variables: vstrat <dbl+lbl>,
 #> #   vpsu <dbl+lbl>, wtpan12 <dbl+lbl>, wtpan123 <dbl+lbl>, wtpannr12 <dbl+lbl>,
 #> #   wtpannr123 <dbl+lbl>, letin1a <dbl+lbl>, abany <dbl+lbl>,
@@ -464,16 +486,16 @@ gss_panel_doc
 #> # A tibble: 628 × 9
 #>    id       description text  properties_1 properties_2 properties_3 marginals_1
 #>    <chr>    <chr>       <chr> <list>       <list>       <list>       <list>     
-#>  1 caseid   CASEID      None  <tibble [2 … <NULL>       <NULL>       <tibble [1…
-#>  2 year     YEAR        None  <tibble [3 … <tibble [3 … <tibble [3 … <tibble [2…
-#>  3 id       ID          None  <tibble [3 … <tibble [3 … <tibble [3 … <tibble [1…
-#>  4 age      AGE         13. … <tibble [3 … <tibble [3 … <tibble [3 … <tibble [1…
-#>  5 sex      SEX         23. … <tibble [3 … <tibble [3 … <tibble [3 … <tibble [3…
-#>  6 race     RACE        24. … <tibble [3 … <tibble [3 … <tibble [3 … <tibble [4…
-#>  7 racecen1 RACECEN1    1602… <tibble [3 … <tibble [3 … <tibble [3 … <tibble [1…
-#>  8 racecen2 RACECEN2    1602… <tibble [3 … <tibble [3 … <tibble [3 … <tibble [2…
-#>  9 racecen3 RACECEN3    1602… <tibble [3 … <tibble [3 … <tibble [3 … <tibble [1…
-#> 10 hispanic HISPANIC    1601… <tibble [3 … <tibble [3 … <tibble [3 … <tibble [3…
+#>  1 caseid   CASEID      None  <tibble>     <NULL>       <NULL>       <tibble>   
+#>  2 year     YEAR        None  <tibble>     <tibble>     <tibble>     <tibble>   
+#>  3 id       ID          None  <tibble>     <tibble>     <tibble>     <tibble>   
+#>  4 age      AGE         13. … <tibble>     <tibble>     <tibble>     <tibble>   
+#>  5 sex      SEX         23. … <tibble>     <tibble>     <tibble>     <tibble>   
+#>  6 race     RACE        24. … <tibble>     <tibble>     <tibble>     <tibble>   
+#>  7 racecen1 RACECEN1    1602… <tibble>     <tibble>     <tibble>     <tibble>   
+#>  8 racecen2 RACECEN2    1602… <tibble>     <tibble>     <tibble>     <tibble>   
+#>  9 racecen3 RACECEN3    1602… <tibble>     <tibble>     <tibble>     <tibble>   
+#> 10 hispanic HISPANIC    1601… <tibble>     <tibble>     <tibble>     <tibble>   
 #> # … with 618 more rows, and 2 more variables: marginals_2 <list>,
 #> #   marginals_3 <list>
 ```
