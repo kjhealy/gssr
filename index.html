@@ -50,7 +50,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.3.5</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.3.6</span>
       </span>
     </div>
 
@@ -155,7 +155,7 @@
 <p>You can quickly get the data for any single GSS year by using <code><a href="reference/gss_get_yr.html">gss_get_yr()</a></code> to download the data file from NORC and put it directly into a tibble.</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss18</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/gss_get_yr.html">gss_get_yr</a></span><span class="op">(</span><span class="fl">2018</span><span class="op">)</span>
-<span class="co">#&gt; Fetching: http://www.gss.norc.org/documents/stata/2018_stata.zip</span>
+<span class="co">#&gt; Fetching: https://gss.norc.org/documents/stata/2018_stata.zip</span>
 
 <span class="va">gss18</span>
 <span class="co">#&gt; # A tibble: 2,348 × 1,065</span>
@@ -189,18 +189,18 @@
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_all</span>
 <span class="co">#&gt; # A tibble: 68,846 × 6,311</span>
-<span class="co">#&gt;     year    id   wrkstat   hrs1  hrs2      evwork   occ prestige  wrkslf wrkgovt</span>
-<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl+lbl&gt; &lt;dbl+&gt; &lt;dbl&gt;   &lt;dbl+lbl&gt; &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;</span>
-<span class="co">#&gt;  1  1972     1 1 [worki…  NA(i) NA(i) NA(i)         205       50 2 [som…   NA(i)</span>
-<span class="co">#&gt;  2  1972     2 5 [retir…  NA(i) NA(i)     1 [yes]   441       45 2 [som…   NA(i)</span>
-<span class="co">#&gt;  3  1972     3 2 [worki…  NA(i) NA(i) NA(i)         270       44 2 [som…   NA(i)</span>
-<span class="co">#&gt;  4  1972     4 1 [worki…  NA(i) NA(i) NA(i)           1       57 2 [som…   NA(i)</span>
-<span class="co">#&gt;  5  1972     5 7 [keepi…  NA(i) NA(i)     1 [yes]   385       40 2 [som…   NA(i)</span>
-<span class="co">#&gt;  6  1972     6 1 [worki…  NA(i) NA(i) NA(i)         281       49 2 [som…   NA(i)</span>
-<span class="co">#&gt;  7  1972     7 1 [worki…  NA(i) NA(i) NA(i)         522       41 2 [som…   NA(i)</span>
-<span class="co">#&gt;  8  1972     8 1 [worki…  NA(i) NA(i) NA(i)         314       36 2 [som…   NA(i)</span>
-<span class="co">#&gt;  9  1972     9 2 [worki…  NA(i) NA(i) NA(i)         912       26 2 [som…   NA(i)</span>
-<span class="co">#&gt; 10  1972    10 1 [worki…  NA(i) NA(i) NA(i)         984       18 2 [som…   NA(i)</span>
+<span class="co">#&gt;     year    id    wrkstat  hrs1  hrs2      evwork   occ prestige  wrkslf wrkgovt</span>
+<span class="co">#&gt;    &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl+lbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl+lbl&gt; &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+l&gt; &lt;dbl+l&gt;</span>
+<span class="co">#&gt;  1  1972     1 1 [workin… NA(i) NA(i) NA(i)         205       50 2 [som…   NA(i)</span>
+<span class="co">#&gt;  2  1972     2 5 [retire… NA(i) NA(i)     1 [yes]   441       45 2 [som…   NA(i)</span>
+<span class="co">#&gt;  3  1972     3 2 [workin… NA(i) NA(i) NA(i)         270       44 2 [som…   NA(i)</span>
+<span class="co">#&gt;  4  1972     4 1 [workin… NA(i) NA(i) NA(i)           1       57 2 [som…   NA(i)</span>
+<span class="co">#&gt;  5  1972     5 7 [keepin… NA(i) NA(i)     1 [yes]   385       40 2 [som…   NA(i)</span>
+<span class="co">#&gt;  6  1972     6 1 [workin… NA(i) NA(i) NA(i)         281       49 2 [som…   NA(i)</span>
+<span class="co">#&gt;  7  1972     7 1 [workin… NA(i) NA(i) NA(i)         522       41 2 [som…   NA(i)</span>
+<span class="co">#&gt;  8  1972     8 1 [workin… NA(i) NA(i) NA(i)         314       36 2 [som…   NA(i)</span>
+<span class="co">#&gt;  9  1972     9 2 [workin… NA(i) NA(i) NA(i)         912       26 2 [som…   NA(i)</span>
+<span class="co">#&gt; 10  1972    10 1 [workin… NA(i) NA(i) NA(i)         984       18 2 [som…   NA(i)</span>
 <span class="co">#&gt; # … with 68,836 more rows, and 6,301 more variables: commute &lt;dbl&gt;,</span>
 <span class="co">#&gt; #   industry &lt;dbl&gt;, occ80 &lt;dbl&gt;, prestg80 &lt;dbl&gt;, indus80 &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   indus07 &lt;dbl&gt;, occonet &lt;dbl&gt;, found &lt;dbl&gt;, occ10 &lt;dbl+lbl&gt;, occindv &lt;dbl&gt;,</span>
@@ -208,23 +208,23 @@
 <span class="co">#&gt; #   indus10 &lt;dbl+lbl&gt;, indstatus &lt;dbl&gt;, indtag &lt;dbl&gt;, marital &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   martype &lt;dbl+lbl&gt;, agewed &lt;dbl&gt;, divorce &lt;dbl+lbl&gt;, widowed &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   spwrksta &lt;dbl+lbl&gt;, sphrs1 &lt;dbl+lbl&gt;, sphrs2 &lt;dbl+lbl&gt;, …</span></code></pre></div>
-<p>To load the tibble that contains information on the variables in the data, do this:</p>
+<p>The variables are documented in two supplementary tibbles, <code>gss_doc</code> and <code>gss_dict</code>. To load <code>gss_doc</code>, do this:</p>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_doc</span><span class="op">)</span>
 <span class="va">gss_doc</span>
 <span class="co">#&gt; # A tibble: 6,144 × 5</span>
-<span class="co">#&gt;    id       description                  properties       marginals  text       </span>
-<span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;                        &lt;list&gt;           &lt;list&gt;     &lt;chr&gt;      </span>
-<span class="co">#&gt;  1 caseid   YEAR + Respondent ID         &lt;tibble [2 × 3]&gt; &lt;tibble [… None       </span>
-<span class="co">#&gt;  2 year     GSS year for this respondent &lt;tibble [2 × 3]&gt; &lt;tibble [… None       </span>
-<span class="co">#&gt;  3 id       Respondent ID number         &lt;tibble [2 × 3]&gt; &lt;tibble [… None       </span>
-<span class="co">#&gt;  4 age      Age of respondent            &lt;tibble [3 × 3]&gt; &lt;tibble [… 13. Respon…</span>
-<span class="co">#&gt;  5 sex      Respondents sex              &lt;tibble [3 × 3]&gt; &lt;tibble [… 23. Code r…</span>
-<span class="co">#&gt;  6 race     Race of respondent           &lt;tibble [3 × 3]&gt; &lt;tibble [… 24. What r…</span>
-<span class="co">#&gt;  7 racecen1 What Is R's race 1st mention &lt;tibble [3 × 3]&gt; &lt;tibble [… 1602. What…</span>
-<span class="co">#&gt;  8 racecen2 What Is R's race 2nd mention &lt;tibble [3 × 3]&gt; &lt;tibble [… 1602. What…</span>
-<span class="co">#&gt;  9 racecen3 What Is R's race 3rd mention &lt;tibble [3 × 3]&gt; &lt;tibble [… 1602. What…</span>
-<span class="co">#&gt; 10 hispanic Hispanic specified           &lt;tibble [3 × 3]&gt; &lt;tibble [… 1601. IF R…</span>
+<span class="co">#&gt;    id       description                  properties       marginals        text </span>
+<span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;                        &lt;list&gt;           &lt;list&gt;           &lt;chr&gt;</span>
+<span class="co">#&gt;  1 caseid   YEAR + Respondent ID         &lt;tibble [2 × 3]&gt; &lt;tibble [1 × 3]&gt; None </span>
+<span class="co">#&gt;  2 year     GSS year for this respondent &lt;tibble [2 × 3]&gt; &lt;tibble&gt;         None </span>
+<span class="co">#&gt;  3 id       Respondent ID number         &lt;tibble [2 × 3]&gt; &lt;tibble [1 × 3]&gt; None </span>
+<span class="co">#&gt;  4 age      Age of respondent            &lt;tibble [3 × 3]&gt; &lt;tibble [1 × 3]&gt; 13. …</span>
+<span class="co">#&gt;  5 sex      Respondents sex              &lt;tibble [3 × 3]&gt; &lt;tibble [3 × 5]&gt; 23. …</span>
+<span class="co">#&gt;  6 race     Race of respondent           &lt;tibble [3 × 3]&gt; &lt;tibble [4 × 5]&gt; 24. …</span>
+<span class="co">#&gt;  7 racecen1 What Is R's race 1st mention &lt;tibble [3 × 3]&gt; &lt;tibble&gt;         1602…</span>
+<span class="co">#&gt;  8 racecen2 What Is R's race 2nd mention &lt;tibble [3 × 3]&gt; &lt;tibble&gt;         1602…</span>
+<span class="co">#&gt;  9 racecen3 What Is R's race 3rd mention &lt;tibble [3 × 3]&gt; &lt;tibble&gt;         1602…</span>
+<span class="co">#&gt; 10 hispanic Hispanic specified           &lt;tibble [3 × 3]&gt; &lt;tibble&gt;         1601…</span>
 <span class="co">#&gt; # … with 6,134 more rows</span></code></pre></div>
 <p>You can take a look at information on a particular variable by doing something like this:</p>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
@@ -281,13 +281,31 @@
 <span class="co">#&gt; 4 race     Data type         numeric RACE </span>
 <span class="co">#&gt; 5 race     Missing-data code 0       RACE </span>
 <span class="co">#&gt; 6 race     Record/column     1/298   RACE</span></code></pre></div>
+<p>The package also comes with <code>gss_dict</code>, a tibble with similar information in a slightly different format:</p>
+<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_dict</span><span class="op">)</span>
+<span class="va">gss_dict</span>
+<span class="co">#&gt; # A tibble: 2,469 × 6</span>
+<span class="co">#&gt;      pos variable label                           col_type value_labels years   </span>
+<span class="co">#&gt;    &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;                           &lt;chr&gt;    &lt;chr&gt;        &lt;list&gt;  </span>
+<span class="co">#&gt;  1     1 wrkstat  labor force status              dbl+lbl  [1] working… &lt;tibble&gt;</span>
+<span class="co">#&gt;  2     2 hrs1     number of hours worked last we… dbl+lbl  [89] 80+ ho… &lt;tibble&gt;</span>
+<span class="co">#&gt;  3     3 hrs2     number of hours usually work a… dbl+lbl  [89] 80+ ho… &lt;tibble&gt;</span>
+<span class="co">#&gt;  4     4 evwork   ever work as long as one year   dbl+lbl  [1] yes; [2… &lt;tibble&gt;</span>
+<span class="co">#&gt;  5     5 wrkslf   r self-emp or works for somebo… dbl+lbl  [1] self-em… &lt;tibble&gt;</span>
+<span class="co">#&gt;  6     6 wrkgovt  govt or private employee        dbl+lbl  [1] governm… &lt;tibble&gt;</span>
+<span class="co">#&gt;  7     7 indus80  r's industry code (1980)        dbl+lbl  [1] strongl… &lt;tibble&gt;</span>
+<span class="co">#&gt;  8     8 occ10    r's census occupation code (20… dbl+lbl  [10] chief … &lt;tibble&gt;</span>
+<span class="co">#&gt;  9     9 indus10  r's industry code (naics 2007)  dbl+lbl  [170] crop … &lt;tibble&gt;</span>
+<span class="co">#&gt; 10    10 marital  marital status                  dbl+lbl  [1] married… &lt;tibble&gt;</span>
+<span class="co">#&gt; # … with 2,459 more rows</span></code></pre></div>
 </div>
 </div>
 <div class="section level2">
 <h2 id="which-questions-were-asked-in-which-years">Which questions were asked in which years?<a class="anchor" aria-label="anchor" href="#which-questions-were-asked-in-which-years"></a>
 </h2>
 <p>We often want to know which years a question or group of questions was asked. We can find this out for one or more variables with <code><a href="reference/gss_which_years.html">gss_which_years()</a></code>.</p>
-<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gss_which_years.html">gss_which_years</a></span><span class="op">(</span><span class="va">gss_all</span>, <span class="va">fefam</span><span class="op">)</span>
 
 <span class="co">#&gt; # A tibble: 33 x 2</span>
@@ -306,7 +324,7 @@
 <span class="co">#&gt; # … with 22 more rows</span>
   </code></pre></div>
 <p>When querying more than one variable, use <code><a href="https://rdrr.io/r/base/c.html" class="external-link">c()</a></code>:</p>
-<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_all</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
   <span class="fu"><a href="reference/gss_which_years.html">gss_which_years</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="va">industry</span>, <span class="va">indus80</span>, <span class="va">wrkgovt</span>, <span class="va">commute</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
   <span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span>n <span class="op">=</span> <span class="cn">Inf</span><span class="op">)</span>
@@ -370,23 +388,23 @@
 </h2>
 <p>In addition to the Cumulative Data File, the gssr package also includes the GSS’s panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The <code>gssr</code> package provides three datasets, one for each of three-wave panels. They are <code>gss_panel06_long</code>, <code>gss_panel08_long</code>, and <code>gss_panel10_long</code>. The datasets are provided by the GSS in wide format but (as their names suggest) they are packaged here in long format. The conversion was carried out using the <a href="https://panelr.jacob-long.com" class="external-link"><code>panelr</code> package</a> and its <code>long_panel()</code> function. Conversion from long back to wide format is possible with the tools provided in <code>panelr</code>.</p>
 <p>The panel data objects must be loaded in the same way as the cumulative data file.</p>
-<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel06_long"</span><span class="op">)</span>
 
 <span class="va">gss_panel06_long</span>
 <span class="co">#&gt; # A tibble: 6,000 × 1,572</span>
-<span class="co">#&gt;    firstid  wave   ballot      form formwt oversamp sampcode  sample    samptype</span>
-<span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+lbl&gt;  &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt;   &lt;dbl+lbl&gt;</span>
-<span class="co">#&gt;  1 9           1 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…</span>
-<span class="co">#&gt;  2 9           2 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…</span>
-<span class="co">#&gt;  3 9           3 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…</span>
-<span class="co">#&gt;  4 10          1 1 [BALL… 1 [STAND…      1        1      501 9 [200… 2006 [2006…</span>
-<span class="co">#&gt;  5 10          2 1 [BALL… 1 [STAND…      1        1      501 9 [200… 2006 [2006…</span>
-<span class="co">#&gt;  6 10          3 1 [BALL… 1 [STAND…      1        1      501 9 [200… 2006 [2006…</span>
-<span class="co">#&gt;  7 11          1 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…</span>
-<span class="co">#&gt;  8 11          2 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…</span>
-<span class="co">#&gt;  9 11          3 3 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…</span>
-<span class="co">#&gt; 10 12          1 1 [BALL… 2 [ALTER…      1        1      501 9 [200… 2006 [2006…</span>
+<span class="co">#&gt;    firstid  wave      ballot    form formwt oversamp sampcode  sample   samptype</span>
+<span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt;   &lt;dbl+lbl&gt; &lt;dbl+l&gt;  &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt;  &lt;dbl+lbl&gt;</span>
+<span class="co">#&gt;  1 9           1 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  2 9           2 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  3 9           3 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  4 10          1 1 [BALLOT … 1 [STA…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  5 10          2 1 [BALLOT … 1 [STA…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  6 10          3 1 [BALLOT … 1 [STA…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  7 11          1 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  8 11          2 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt;  9 11          3 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
+<span class="co">#&gt; 10 12          1 1 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…</span>
 <span class="co">#&gt; # … with 5,990 more rows, and 1,563 more variables: vstrat &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   vpsu &lt;dbl+lbl&gt;, wtpan12 &lt;dbl+lbl&gt;, wtpan123 &lt;dbl+lbl&gt;, wtpannr12 &lt;dbl+lbl&gt;,</span>
 <span class="co">#&gt; #   wtpannr123 &lt;dbl+lbl&gt;, letin1a &lt;dbl+lbl&gt;, abany &lt;dbl+lbl&gt;,</span>
@@ -396,7 +414,7 @@
 <span class="co">#&gt; #   acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, acqcohab &lt;dbl+lbl&gt;, …</span></code></pre></div>
 <p>Although the panel data objects were created by <code>panelr</code>, they are regular tibbles. You do not need to use <code>panelr</code> to work with the data.</p>
 <p>The column names in long format do not have wave identifiers. Rather, <code>firstid</code> and <code>wave</code> variables track the cases. The <code>firstid</code> variable is unique for every respondent in the panel and has no missing values. The <code>wave</code> variable indexes responses from a given <code>firstid</code> panelist in each wave (if observed). The <code>id</code> variable is from the GSS and indexes individuals within waves.</p>
-<div class="sourceCode" id="cb19"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel08_long"</span><span class="op">)</span>
 
 <span class="va">gss_panel08_long</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span> 
@@ -416,7 +434,7 @@
 <span class="co">#&gt; 10 4           1         4  1 [MALE]</span>
 <span class="co">#&gt; # … with 6,059 more rows</span></code></pre></div>
 <p>We can look at attrition across waves with, e.g.:</p>
-<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb21"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">gss_panel06_long</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span> 
   <span class="fu">select</span><span class="op">(</span><span class="va">wave</span>, <span class="va">id</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
   <span class="fu">group_by</span><span class="op">(</span><span class="va">wave</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
@@ -429,27 +447,27 @@
 <span class="co">#&gt; 2     2     1537     464</span>
 <span class="co">#&gt; 3     3     1277     724</span></code></pre></div>
 <p>The documentation tibble for the panel data is called <code>gss_panel_doc</code>.</p>
-<div class="sourceCode" id="cb21"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb22"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel_doc"</span><span class="op">)</span>
 
 <span class="va">gss_panel_doc</span>
 <span class="co">#&gt; # A tibble: 628 × 9</span>
 <span class="co">#&gt;    id       description text  properties_1 properties_2 properties_3 marginals_1</span>
 <span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt; &lt;list&gt;       &lt;list&gt;       &lt;list&gt;       &lt;list&gt;     </span>
-<span class="co">#&gt;  1 caseid   CASEID      None  &lt;tibble [2 … &lt;NULL&gt;       &lt;NULL&gt;       &lt;tibble [1…</span>
-<span class="co">#&gt;  2 year     YEAR        None  &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [2…</span>
-<span class="co">#&gt;  3 id       ID          None  &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [1…</span>
-<span class="co">#&gt;  4 age      AGE         13. … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [1…</span>
-<span class="co">#&gt;  5 sex      SEX         23. … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3…</span>
-<span class="co">#&gt;  6 race     RACE        24. … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [4…</span>
-<span class="co">#&gt;  7 racecen1 RACECEN1    1602… &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [1…</span>
-<span class="co">#&gt;  8 racecen2 RACECEN2    1602… &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [2…</span>
-<span class="co">#&gt;  9 racecen3 RACECEN3    1602… &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [1…</span>
-<span class="co">#&gt; 10 hispanic HISPANIC    1601… &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3 … &lt;tibble [3…</span>
+<span class="co">#&gt;  1 caseid   CASEID      None  &lt;tibble&gt;     &lt;NULL&gt;       &lt;NULL&gt;       &lt;tibble&gt;   </span>
+<span class="co">#&gt;  2 year     YEAR        None  &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span>
+<span class="co">#&gt;  3 id       ID          None  &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span>
+<span class="co">#&gt;  4 age      AGE         13. … &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span>
+<span class="co">#&gt;  5 sex      SEX         23. … &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span>
+<span class="co">#&gt;  6 race     RACE        24. … &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span>
+<span class="co">#&gt;  7 racecen1 RACECEN1    1602… &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span>
+<span class="co">#&gt;  8 racecen2 RACECEN2    1602… &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span>
+<span class="co">#&gt;  9 racecen3 RACECEN3    1602… &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span>
+<span class="co">#&gt; 10 hispanic HISPANIC    1601… &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span>
 <span class="co">#&gt; # … with 618 more rows, and 2 more variables: marginals_2 &lt;list&gt;,</span>
 <span class="co">#&gt; #   marginals_3 &lt;list&gt;</span></code></pre></div>
 <p>Each row is a variable. The <code>id</code>, <code>description</code>, and <code>text</code> columns provide the details on each question or measure. The <code>properties</code> and <code>marginals</code> are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code> and we say which property wave or marginals wave we want to see.</p>
-<div class="sourceCode" id="cb22"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb23"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gss_get_marginals.html">gss_get_marginals</a></span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span><span class="op">)</span>, data <span class="op">=</span> <span class="va">gss_panel_doc</span>, margin <span class="op">=</span> <span class="va">marginals_2</span><span class="op">)</span>
 <span class="co">#&gt; # A tibble: 9 × 6</span>
 <span class="co">#&gt;   variable percent     n value label            id    </span>
