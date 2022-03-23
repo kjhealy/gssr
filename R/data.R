@@ -24,7 +24,7 @@
 #'     information is available in \code{gss_panel_doc}, a tibble
 #'     supplied with this package. Respondent ids are contained in the
 #'     variable \code{firstid} (from the GSS \code{id\_1} variable).
-#'     Survey waves (years 2008, 2010, 2012) are contained in the
+#'     Survey waves (years 2006, 2008, 2010) are contained in the
 #'     \code{wave} variable as 1, 2, and 3. See also the `gss_panel_doc` object in this package.
 #'
 #' @docType data
@@ -172,7 +172,7 @@
 'gss_panel_doc'
 
 
-#' GSS Cumulative Data File 1972-2018, Vignette Example
+#' Example subset of the GSS Cumulative Data File 1972-2018
 #'
 #' A tibble containing just a few variables from the GSS
 #' Cumulative Data File. See http://gss.norc.org/Get-Documentation for full
