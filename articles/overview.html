@@ -421,7 +421,7 @@
     <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html" class="external-link">mutate</a></span><span class="op">(</span>stratvar <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/interaction.html" class="external-link">interaction</a></span><span class="op">(</span><span class="va">year</span>, <span class="va">vstrat</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span>
     <span class="fu"><a href="http://gdfe.co/srvyr/reference/as_survey_design.html" class="external-link">as_survey_design</a></span><span class="op">(</span>id <span class="op">=</span> <span class="va">vpsu</span>,
                      strata <span class="op">=</span> <span class="va">stratvar</span>,
-                     weights <span class="op">=</span> <span class="va">wtssall</span>,
+                     weights <span class="op">=</span> <span class="va">compwt</span>,
                      nest <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></code></pre></div>
 <p>The <code>gss_svy</code> object contains the same data as <code>gss_fam</code>, but incorporates information about the sampling structure in a way that the <code>survey</code> package’s functions can work with:</p>
 <div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
@@ -432,7 +432,7 @@
 <span class="co">#&gt; Sampling variables:</span>
 <span class="co">#&gt;  - ids: vpsu</span>
 <span class="co">#&gt;  - strata: stratvar</span>
-<span class="co">#&gt;  - weights: wtssall</span>
+<span class="co">#&gt;  - weights: compwt</span>
 <span class="co">#&gt; Data variables: year (dbl), id (dbl), ballot (dbl+lbl), age (dbl+lbl), race</span>
 <span class="co">#&gt;   (fct), sex (fct), fefam (fct), vpsu (dbl), vstrat (dbl), oversamp (dbl),</span>
 <span class="co">#&gt;   formwt (dbl), wtssall (dbl), sampcode (dbl), sample (dbl), ageq (fct),</span>
@@ -462,8 +462,8 @@
 <span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span>  <span style="text-decoration: underline;">1</span>977 Female No    Disagree 0.326    0.291    0.361</span>
 <span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span>  <span style="text-decoration: underline;">1</span>977 Female Yes   Agree    0.415    0.316    0.514</span>
 <span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span>  <span style="text-decoration: underline;">1</span>977 Female Yes   Disagree 0.585    0.486    0.684</span>
-<span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span>  <span style="text-decoration: underline;">1</span>985 Male   No    Agree    0.542    0.496    0.587</span>
-<span class="co">#&gt; <span style="color: #BCBCBC;">10</span>  <span style="text-decoration: underline;">1</span>985 Male   No    Disagree 0.458    0.413    0.504</span>
+<span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span>  <span style="text-decoration: underline;">1</span>985 Male   No    Agree    0.554    0.499    0.609</span>
+<span class="co">#&gt; <span style="color: #BCBCBC;">10</span>  <span style="text-decoration: underline;">1</span>985 Male   No    Disagree 0.446    0.391    0.501</span>
 <span class="co">#&gt; <span style="color: #949494;"># … with 158 more rows</span></span></code></pre></div>
 </div>
 <div class="section level3">
