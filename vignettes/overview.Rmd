@@ -254,7 +254,7 @@ gss_svy <- gss_fam %>%
     mutate(stratvar = interaction(year, vstrat)) %>%
     as_survey_design(id = vpsu,
                      strata = stratvar,
-                     weights = wtssall,
+                     weights = compwt,
                      nest = TRUE)
 ```
 
