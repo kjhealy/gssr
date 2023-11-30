@@ -26,7 +26,8 @@ reference:
       - gss_dict
       - gss_panel_doc
   - title: "Functions"
-    desc: Package functions.
+    desc: >
+      Package functions.
     contents:
       - gss_get_yr
       - gss_which_years
