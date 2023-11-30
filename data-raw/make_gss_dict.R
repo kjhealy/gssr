@@ -1,5 +1,5 @@
 ## 2.
-## Run make_doc_crosstabs.R first.
+## Run make_gss_doc.R first.
 
 library(tidyverse)
 library(lubridate)
@@ -9,7 +9,7 @@ library(socviz)
 library(labelled)
 
 ## gss data
-load(here::here("data", "gss_all.rda"))
+load(here::here("data", "objects", "gss_all.rda"))
 gss_all
 
 # make a data dictionary
@@ -43,7 +43,7 @@ gss_dict <- gss_dict |>
 
 
 ## Next we join gss_doc, created in make_doc_crosstabs.R
-load(file = here::here("data-raw", "gss_doc.rda"))
+load(file = here::here("data-raw", "objects", "gss_doc.rda"))
 
 gss_dict <- left_join(gss_dict, gss_doc, by = "variable") |>
   relocate(var_type, .after = col_type) |>

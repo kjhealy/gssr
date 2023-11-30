@@ -1,5 +1,5 @@
 ## Make help pages
-## Run make_doc_crosstabs.R and datadict.R first
+## Run make_gss_doc.R and make_gss_dict.R first
 
 library(tidyverse)
 library(here)
@@ -15,7 +15,7 @@ fix_pct <- function(x){
 
 availableCores()
 
-load(here("data", "gss_dict.rda"))
+load(here("data", "objects", "gss_dict.rda"))
 
 
 prettify_yrtab <- function(x) {

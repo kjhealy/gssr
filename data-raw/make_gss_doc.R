@@ -1,4 +1,4 @@
-## 1.
+## 1. Run make_gss_all.R first to create gss_all
 
 ## Make the tibble of crosstabs
 
@@ -17,7 +17,7 @@ library(labelled)
 
 
 # Load the local dataset; make sure it's up to date
-load(here::here("data", "gss_all.rda"))
+load(here::here("data", "objects", "gss_all.rda"))
 
 
 # Initial data scraping of codebook and saving to local storage
@@ -44,7 +44,7 @@ load(here::here("data", "gss_all.rda"))
 # for integrating into the R help system via a package.
 
 ## The names of all the files we just created
-local_urls <- fs::dir_ls(here::here("codebook-raw", "raw"))
+local_urls <- fs::dir_ls(here::here("data-raw", "codebook-raw", "html"))
 
 ## Read all the pages
 doc_pages <- map(local_urls, \(x) rvest::read_html(x))

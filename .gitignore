@@ -3,3 +3,5 @@
 .RData
 docs/
 inst/doc
+R/gss_vars_*.R
+README.html
