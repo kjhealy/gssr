@@ -139,7 +139,6 @@ gss_get_years <- function() {
 ##' \donttest{
 ##' gss80 <- gss_get_yr(1980)
 ##' }
-
 gss_get_yr <- function(year = 2022,
                        url = "https://gss.norc.org/documents/stata/",
                        fname = "_stata",
