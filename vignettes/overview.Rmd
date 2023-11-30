@@ -254,7 +254,7 @@ gss_svy <- gss_fam %>%
     mutate(stratvar = interaction(year, vstrat)) %>%
     as_survey_design(id = vpsu,
                      strata = stratvar,
-                     weights = compwt,
+                     weights = wtssall,
                      nest = TRUE)
 ```
 
@@ -297,7 +297,7 @@ out_ff %>%
                color = sex, 
                group = sex, 
                fill = sex)) +
-  geom_line(size = 1.2) +
+  geom_line(linewidth = 1.2) +
   geom_ribbon(alpha = 0.3, color = NA) +
   scale_x_continuous(breaks = seq(1978, 2018, 4)) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +

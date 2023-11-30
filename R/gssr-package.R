@@ -62,14 +62,14 @@ fmt_nr <- function(x){
 
 ##' Get marginal summaries for a GSS variable or variables
 ##'
-##' Codebook summaries from the \code{gss_doc} or \code{gss_panel_docw} objects
+##' Codebook summaries from the `gss_doc` or `gss_panel_docw` objects
 ##'
 ##' @title Get marginal summaries for a GSS variable or variables
 ##' @param varnames The (categorical) variable or variables you want
 ##'     to see marginals for. Can be a character string or a character
 ##'     vector.
-##' @param data The codebook data frame, by default \code{gss_doc}, or alternatively the wide panel documentation in \code{gss_panel_docw}.
-##' @param margin Which margin. Not needed for \code{gss_doc}, but one of \code{marginals_1}, \code{marginals_2}, or \code{marginals_2} when \code{data} is \code{gss_panel_docw}.
+##' @param data The codebook data frame, by default `gss_doc`, or alternatively the wide panel documentation in `gss_panel_docw`.
+##' @param margin Which margin. Not needed for `gss_doc`, but one of `marginals_1`, `marginals_2`, or `marginals_2` when `data` is `gss_panel_docw`.
 ##' @return A tibble of marginal distributions from the GSS codebook
 ##' @author Kieran Healy
 ##' @examples
@@ -99,8 +99,8 @@ gss_get_marginals <- function(varnames = "id", data = gss_doc, margin = marginal
 ##' @param varnames The variable or variables you want
 ##'     to see properties for. Can be a character string or a character
 ##'     vector.
-##' @param data The codebook data frame, by default \code{gss_doc}
-##' @param props Which properties. Not needed for \code{gss_doc}, but one of \code{properties_1}, \code{properties_2}, or \code{properties_3} when \code{data} is \code{gss_panel_docw}.
+##' @param data The codebook data frame, by default `gss_doc`
+##' @param props Which properties. Not needed for `gss_doc`, but one of `properties_1`, `properties_2`, or `properties_3` when `data` is `gss_panel_docw`.
 ##' @return A tibble of the properties for each variable
 ##' @author Kieran Healy
 ##' @examples
@@ -145,7 +145,7 @@ get_asked <- function(x) {
 #' @export
 #'
 #' @examples
-#' \donttest{
+#' \dontrun{
 #' data(gss_all)
 #' gss_all %>%
 #'   gss_which_years(fefam)

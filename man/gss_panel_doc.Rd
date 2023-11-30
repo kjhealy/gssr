@@ -7,30 +7,30 @@
 \format{
 A tibble with 628 rows and nine columns.
 \describe{
-\item{\code{id}}{The short name of the variable, without its wave identifier. A character vector.}
-\item{\code{description}}{Brief description of the variable. A
+\item{`id`}{The short name of the variable, without its wave identifier. A character vector.}
+\item{`description`}{Brief description of the variable. A
 character vector.}
-\item{\code{text}}{Further more detailed information on the
+\item{`text`}{Further more detailed information on the
 question asked and the directions provided.}
-\item{\code{properties_1}}{A list column containing information on
+\item{`properties_1`}{A list column containing information on
 the variable's data type, its missing value codes, and its
 record/column location for Wave 1 of the panel.}
-\item{\code{properties_2}}{A list column containing information on
+\item{`properties_2`}{A list column containing information on
 the variable's data type, its missing value codes, and its
 record/column location for Wave 2 of the panel.}
-\item{\code{properties_3}}{A list column containing information on
+\item{`properties_3`}{A list column containing information on
 the variable's data type, its missing value codes, and its
 record/column location for Wave 3 of the panel.}
-\item{\code{marginals_1}}{A list column containing a summary of the
+\item{`marginals_1`}{A list column containing a summary of the
 values taken by the variable in Wave 1 of the panel.}
-\item{\code{marginals_2}}{A list column containing a summary of the
+\item{`marginals_2`}{A list column containing a summary of the
 values taken by the variable in Wave 2 of the panel.}
-\item{\code{marginals_3}}{A list column containing a summary of the
+\item{`marginals_3`}{A list column containing a summary of the
 values taken by the variable in Wave 3 of the panel.}
 }
 }
 \source{
-National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
+National Opinion Research Center, [http://gss.norc.org](http://gss.norc.org).
 }
 \usage{
 data(gss_panel_doc)

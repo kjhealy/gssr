@@ -1,3 +1,6 @@
+## 2.
+## Run make_doc_crosstabs.R first.
+
 library(tidyverse)
 library(lubridate)
 library(here)
@@ -5,45 +8,50 @@ library(janitor)
 library(socviz)
 library(labelled)
 
-## Check for data/ dir in data-raw
-ifelse(!dir.exists(here("data-raw/data")),
-       dir.create(file.path("data-raw/data")),
-       FALSE)
-
-library(gssr)
-
-# sample gss data
-data("gss_all")
+## gss data
+load(here::here("data", "gss_all.rda"))
 gss_all
 
 # make a data dictionary
-gss_dict <- gss_all %>%
-  select(where(is.labelled)) %>%
-  lookfor() %>%
+gss_dict <- gss_all |>
+  select(where(is.labelled)) |>
+  lookfor() |>
   convert_list_columns_to_character()
 
-labn <- gss_all %>%
-  select(where(is.labelled)) %>%
+labn <- gss_all |>
+  select(where(is.labelled)) |>
   colnames()
 
 labn[1]
 labn[length(labn)]
 
-out <- gss_which_years(gss_all, all_of(labn))
-out <- out %>%
+out <- gssr::gss_which_years(gss_all, all_of(labn))
+out <- out |>
   rowid_to_column()
 
-gss_years <- out %>%
-  pivot_longer(wrkstat:hivtestloc,
+gss_years <- out |>
+  pivot_longer(wrkstat:last_col(),
                names_to = "variable",
-               values_to = "present") %>%
-  select(-rowid) %>%
-  group_by(variable) %>%
+               values_to = "present") |>
+  select(-rowid) |>
+  group_by(variable) |>
   nest(years = c(year, present))
 
-gss_dict <- gss_dict %>%
-  left_join(gss_years) %>%
+gss_dict <- gss_dict |>
+  left_join(gss_years) |>
   select(-levels)
 
+
+## Next we join gss_doc, created in make_doc_crosstabs.R
+load(file = here::here("data-raw", "gss_doc.rda"))
+
+gss_dict <- left_join(gss_dict, gss_doc, by = "variable") |>
+  relocate(var_type, .after = col_type) |>
+  relocate(var_doc_label, .before = value_labels) |>
+  relocate(years, .before = var_yrtab) |>
+  relocate(col_type:var_type, .after = var_yrtab) |>
+  relocate(var_na_codes, .after = var_type)
+
+## Save out
 usethis::use_data(gss_dict, overwrite = TRUE, compress = "xz")
 

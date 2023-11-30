@@ -5,22 +5,22 @@
 \alias{gss_doc}
 \title{Codebook for the GSS Cumulative Data File 1972-2018}
 \format{
-A tibble with  rows and  columns.
+A tibble with `r fmt_nr(data(gss_doc))` rows and `r fmt_nc(data(gss_doc))` columns.
 \describe{
-\item{\code{id}}{The short name of the variable. A character vector.}
-\item{\code{description}}{Brief description of the variable. A
+\item{`id`}{The short name of the variable. A character vector.}
+\item{`description`}{Brief description of the variable. A
 character vector.}
-\item{\code{properties}}{A list column containing information on
+\item{`properties`}{A list column containing information on
 the variable's data type, its missing value codes, and its
 record/column location.}
-\item{\code{marginals}}{A list column containing a summary of the
+\item{`marginals`}{A list column containing a summary of the
 values taken by the variable.}
-\item{\code{text}}{Further more detailed information on the
+\item{`text`}{Further more detailed information on the
 question asked and the directions provided.}
 }
 }
 \source{
-National Opinion Research Center, \href{http://gss.norc.org}{http://gss.norc.org}.
+National Opinion Research Center, [http://gss.norc.org](http://gss.norc.org).
 }
 \usage{
 data(gss_doc)
