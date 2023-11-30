@@ -107,7 +107,7 @@ Respondents may answer that they Strongly Agree, Agree, Disagree, or Strongly Di
 
 Variable summaries for the cumulative data file are built in to `gssr` and are integrated into R's help system. For example, we can type `?fefam` at the console and have the variable's documentation appear in the documentation browser.
 
-<img src="man/figures/gssr.png" />
+<img src="man/figures/fefam_help.png" />
 
 Scrolling further down will give a summary of the values the variable can take.
 
