@@ -16,7 +16,7 @@ library(future.apply)
 
 ## Cleaning
 fix_pct <- function(x){
-  x |> str_replace_all("%", "\\\\%")
+  x |> str_replace_all("%", "pct")
 }
 
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 Variable that drives skips in module
 }
 \details{
-Question 1102. Cases in Sample B (Ballots 4-6) should receive this variable. This variable is used to drive skips in a module. This variable should have a value of 1-5 using the following proportions: 1=50\\%, 2,3,4,5 = 12.5\\% each
+Question 1102. Cases in Sample B (Ballots 4-6) should receive this variable. This variable is used to drive skips in a module. This variable should have a value of 1-5 using the following proportions: 1=50pct, 2,3,4,5 = 12.5pct each
 }
 \section{Overview}{
 

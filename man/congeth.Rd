@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 Should ethnic congressmen represent ethnic groups
 }
 \details{
-Question 536. Some people say that it is only fair in a society liek ours, people holding public office should have roughly the same racial or ethnic background as the population as a whole. So, for example, if 30\\% of the people were Hispanic, then 30\\% of the public officials should be Hispanic as well. Others say that in choosing people for public office they should be considered purely on the basis of ability without regard to their ethnic or racial background. Let me ask you abou these ideas in several different areas: a. What about the people in Congress? Should they have the same racial or ethnic background as their constituents, or should they be considered purely ont he basis of their ability without regard to their racial or ethnic background?
+Question 536. Some people say that it is only fair in a society liek ours, people holding public office should have roughly the same racial or ethnic background as the population as a whole. So, for example, if 30pct of the people were Hispanic, then 30pct of the public officials should be Hispanic as well. Others say that in choosing people for public office they should be considered purely on the basis of ability without regard to their ethnic or racial background. Let me ask you abou these ideas in several different areas: a. What about the people in Congress? Should they have the same racial or ethnic background as their constituents, or should they be considered purely ont he basis of their ability without regard to their racial or ethnic background?
 }
 \section{Overview}{
 

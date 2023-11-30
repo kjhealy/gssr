@@ -17,7 +17,7 @@ Question None
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllll}{
-   year \tab iap \tab 0-39.9\\% \tab 40-57.9\\% \tab 58\\% or over \tab no answer \tab Total \cr
+   year \tab iap \tab 0-39.9pct \tab 40-57.9pct \tab 58pct or over \tab no answer \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -59,9 +59,9 @@ Counts by year:\tabular{lllllll}{
 \section{Values}{
 
 \itemize{
-\item \code{1} 0-39.9\\%
-\item \code{2} 40-57.9\\%
-\item \code{3} 58\\% or over
+\item \code{1} 0-39.9pct
+\item \code{2} 40-57.9pct
+\item \code{3} 58pct or over
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job
