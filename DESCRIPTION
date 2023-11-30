@@ -17,10 +17,7 @@ Imports:
     haven,
     here,
     magrittr,
-    purrr,
-    rlang,
-    tibble,
-    tidyselect
+    tibble
 Suggests:
     drat,
     forcats,
