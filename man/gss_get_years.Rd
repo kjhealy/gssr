@@ -7,7 +7,7 @@
 gss_get_years()
 }
 \description{
-This function is deprecated. Use \code{gss_which_years()} instead.
+This function is deprecated. Use `gss_which_years()` instead.
 }
 \examples{
 \donttest{

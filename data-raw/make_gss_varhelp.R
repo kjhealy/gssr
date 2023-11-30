@@ -106,6 +106,7 @@ endstring <- "\n#'\n#' @source General Social Survey https://gss.norc.org\n#' \n
 
 
 ## lol furrr is magic
+plan(multisession, workers = n_cores)
 docstring <- gss_dict |>
   mutate(rd1 = future_pmap_chr(list(variable, label, var_text), make_rd_skel),
          rd2 = future_map_chr(value_labels, make_rd_describe),
@@ -138,6 +139,7 @@ gen_rds <- function(r_file)
 }
 
 # furrr continues magic
+plan(multisession, workers = n_cores)
 gss_varfiles <- fs::dir_ls(here::here("R"), glob = "*.R")
 furrr::future_walk(gss_varfiles, gen_rds)
 
