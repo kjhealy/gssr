@@ -54,7 +54,7 @@ capwords <- function(x, strict = FALSE) {
 
 ## Introduction
 
-The [General Social Survey](http://gss.norc.org), or GSS, is one of the cornerstones of American social science and one of the most-analyzed datasets in Sociology. It is routinely used in research, in teaching, and as a reference point in discussions about changes in American society since the early 1970s. It is also a model of open, public data. The [National Opinion Research Center](http://norc.org) already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the [GSS Data Explorer](https://gssdataexplorer.norc.org), and social scientists can [download complete datasets](http://gss.norc.org/Get-The-Data) directly. At present, the GSS is provided to researchers in a choice of two commercial formats, Stata (`.dta`) and SPSS (`.sav`). It's not too difficult to get the data into R (especially now that the [Haven](http://haven.tidyverse.org) package is pretty reliable), but it can be a little annoying to have to do it repeatedly. After doing it one too many times, I got tired of it and I made a package instead. The `gssr` package provides the GSS Cumulative Data File (1972-2018) and three GSS Three Wave Panel Data Files (for panels beginning in 2006, 2008, and 2010, respectively), together with GSS codebooks, in a format that makes it straightforward to get started working with them in R.  The `gssr` package makes the GSS a little more accessible to users of R, the free software environment for statistical computing, and thus helps in a small way to make the GSS even more open than it already is.
+The [General Social Survey](http://gss.norc.org), or GSS, is one of the cornerstones of American social science and one of the most-analyzed datasets in Sociology. It is routinely used in research, in teaching, and as a reference point in discussions about changes in American society since the early 1970s. It is also a model of open, public data. The [National Opinion Research Center](http://norc.org) already provides many excellent tools for working with the data, and has long made it freely available to researchers. Casual users of the GSS can examine the [GSS Data Explorer](https://gssdataexplorer.norc.org), and social scientists can [download complete datasets](http://gss.norc.org/Get-The-Data) directly. At present, the GSS is provided to researchers in a variety  of commercial formats: Stata (`.dta`), SAS, and SPSS (`.sav`). It's not too difficult to get the data into R using the [Haven](http://haven.tidyverse.org) package, but it can be a little annoying to have to do it repeatedly, or across projects. After doing it one too many times, I got tired of it and I made a package instead. The `gssr` package provides the GSS Cumulative Data File (1972-2022), three GSS Three Wave Panel Data Files (for panels beginning in 2006, 2008, and 2010, respectively), and the 2020 panel file. The package also integrates codebook information about variables into R's help system, allowing them to be accessed via the help browser or from the console with `?`.  The `gssr` package makes the GSS a little more accessible to users of R, the free software environment for statistical computing, and thus helps in a small way to make the GSS even more open than it already is.
 
 ### Packages
 
@@ -91,44 +91,7 @@ The GSS data comes in a *labelled* format, mirroring the way it is encoded for S
 gss_sub
 ```
 
-We will use the label information later when recoding the variables into, say, character or factor variables. The labels and values are reflected in the codebook tibble. To see them, pull out the `marginals` list-column:
-
-```{r doctib1}
-gss_doc %>% filter(id == "race") %>%
-  select(marginals) %>% 
-  tidyr::unnest(cols = c(marginals))
-```
-
-```{r doctib2}
-gss_doc %>% filter(id == "sex") %>%
-  select(marginals) %>% 
-  tidyr::unnest(cols = c(marginals))
-```
-
-Alternatively, use the function `gss_get_marginals()` to see a tibble for one or more categorical variables:
-
-```{r docfun}
-
-gss_get_marginals(varnames = c("sex", "race", "fefam"))
-
-```
-
-A similar function lets you peek at the codebook's properties for any variable:
-
-```{r docfun2}
-
-gss_get_props(varnames = c("sex", "race", "fefam"))
-
-```
-
-The description and any additional codebook text can be extracted directly:
-
-```{r text}
-gss_doc %>%
-  filter(id == "fefam") %>%
-  select(description, text)
-```
-
+We will use the label information later when recoding the variables into, say, character or factor variables. 
 
 ## Descriptive analysis of the data: an example
 
@@ -161,7 +124,7 @@ wt_vars <- c("vpsu",
 
 my_vars <- c(cont_vars, cat_vars, wt_vars)
 
-gss_fam <- gss_sub %>%
+gss_fam <- gss_sub |>
   select(all_of(my_vars))
 
 gss_fam
@@ -193,7 +156,7 @@ Next, we clean up `gss_fam` a bit, discarding some of the label and missing valu
 ## The convert_agegrp() and capwords() functions seen here are defined
 ## at the top of the Rmd file used to produce this document.
 
-gss_fam <- gss_fam %>%
+gss_fam <- gss_fam |>
   mutate(
     # Convert all missing to NA
     across(everything(), haven::zap_missing), 
@@ -222,9 +185,9 @@ gss_fam <- gss_fam %>%
                               TRUE ~ sample))
 
 ## Some of the recoded variables
-gss_fam %>%
-  filter(year > 1976 & year < 2021) %>% 
-  select(race:fefam, agequint:fefam_d) %>% 
+gss_fam |>
+  filter(year > 1976 & year < 2021) |> 
+  select(race:fefam, agequint:fefam_d) |> 
   relocate(year_f)
 ```
 
@@ -233,11 +196,11 @@ gss_fam %>%
 At this point we can calculate some percentages, such as the percent of male and female respondents disagreeing with the `fefam` proposition each year. 
 
 ```{r}
-gss_fam %>% 
-  group_by(year, sex, young, fefam_d) %>% 
-  tally() %>% 
-  drop_na() %>% 
-  mutate(pct = round((n/sum(n))*100, 1)) %>% 
+gss_fam |> 
+  group_by(year, sex, young, fefam_d) |> 
+  tally() |> 
+  drop_na() |> 
+  mutate(pct = round((n/sum(n))*100, 1)) |> 
   select(-n) 
 ```
 
@@ -248,10 +211,10 @@ However, these calculations do not take the GSS survey design into account. We s
 options(survey.lonely.psu = "adjust")
 options(na.action="na.pass")
 
-gss_svy <- gss_fam %>%
-    filter(year > 1974 & year < 2021) %>%
-    tidyr::drop_na(fefam_d, young) %>%
-    mutate(stratvar = interaction(year, vstrat)) %>%
+gss_svy <- gss_fam |>
+    filter(year > 1974 & year < 2021) |>
+    tidyr::drop_na(fefam_d, young) |>
+    mutate(stratvar = interaction(year, vstrat)) |>
     as_survey_design(id = vpsu,
                      strata = stratvar,
                      weights = wtssall,
@@ -270,8 +233,8 @@ We're now in a position to calculate some properly-weighted summary statistics f
 
 ```{r summary}
 ## Get the breakdown for every year
-out_ff <- gss_svy %>%
-    group_by(year, sex, young, fefam_d) %>%
+out_ff <- gss_svy |>
+    group_by(year, sex, young, fefam_d) |>
     summarize(prop = survey_mean(na.rm = TRUE, vartype = "ci"))
 
 out_ff
@@ -288,8 +251,8 @@ facet_names <- c("No" = "Age Over 25 when surveyed",
                  "Yes" = "Age 18-25 when surveyed")
 fefam_txt <- "Disagreement with the statement, ‘It is much better for\neveryone involved if the man is the achiever outside the\nhome and the woman takes care of the home and family’"
 
-out_ff %>% 
-  filter(fefam_d == "Disagree") %>%
+out_ff |> 
+  filter(fefam_d == "Disagree") |>
   ggplot(mapping = 
            aes(x = year, y = prop,
                ymin = prop_low, 
@@ -334,20 +297,20 @@ gss_panel06_long
 The panel data objects were created by `panelr` but are regular tibbles. The column names in long format do not have wave identifiers. Rather,  `firstid` and `wave` variables track the cases. The `firstid` variable is unique for every row and has no missing values. The `id` variable is from the GSS and tracks individuals within waves.
 
 ```{r panel-example}
-gss_panel06_long %>% select(firstid, wave, id, sex)
+gss_panel06_long |> select(firstid, wave, id, sex)
 ```
 
 We can look at attrition across waves with, e.g.:
 
 ```{r attrition}
-gss_panel06_long %>% 
-  select(wave, id) %>%
-  group_by(wave) %>%
+gss_panel06_long |> 
+  select(wave, id) |>
+  group_by(wave) |>
   summarize(observed = n_distinct(id),
             missing = sum(is.na(id)))
 ```
 
-The documentation tibble for the panel data is called `gss_panel_doc`.
+The documentation tibble for the panel data is called `gss_panel_doc`. It does not include information for the 2020 panel.
 
 ```{r paneldoc}
 data(gss_panel_doc)
@@ -355,14 +318,7 @@ data(gss_panel_doc)
 gss_panel_doc
 ```
 
-Each row is a variable. The `id`, `description`, and `text` columns provide the details on each question or measure. The `properties` and `marginals` are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc` and we say which property wave or marginals wave we want to see. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`. Be sure to specify which wave you want marginals for, with the `margin` argument.
-
-```{r paneldocfun}
-gss_get_marginals(varnames = c("sex", "race"), 
-                  data = gss_panel_doc, 
-                  margin = marginals_1)
-```
-
+Each row is a variable. The `id`, `description`, and `text` columns provide the details on each question or measure. The `properties` and `marginals` are provided in the remaining columns, with a suffix indicating the wave. 
 ## References
 
 Lumley, Thomas (2010). *Complex Surveys: A Guide to Analysis Using R*. New York: Wiley.

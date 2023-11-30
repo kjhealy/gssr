@@ -3,15 +3,8 @@
 
 # gssr <img src="man/figures/gssr.png" align="right" width="120" />
 
-<!-- badges: start -->
-
-[![R build
-status](https://github.com/kjhealy/gssr/workflows/R-CMD-check/badge.svg)](https://github.com/kjhealy/gssr/actions)
-
-<!-- badges: end -->
-
-The General Social Survey Cumulative Data (1972-2021) and Three Wave
-Panel Data files packaged for easy use in R.
+The General Social Survey Cumulative Data (1972-2022) and Panel Data
+files packaged for easy use in R.
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
@@ -20,61 +13,16 @@ Panel Data files packaged for easy use in R.
 `gssr` is a data package, bundling several datasets into a convenient
 format. The relatively large size of the data in the package means it is
 not suitable for hosting on [CRAN](https://cran.r-project.org/), the
-core R package repository. There are two ways to install it.
+core R package repository.
 
 ### Install direct from GitHub
 
-You can install the beta version of gssr from
-[GitHub](https://github.com/kjhealy/gssr) with:
+You can install gssr from [GitHub](https://github.com/kjhealy/gssr)
+with:
 
 ``` r
 remotes::install_github("kjhealy/gssr")
 ```
-
-### Installation using `drat`
-
-While using `install_github()` works just fine, it would be nicer to be
-able to just type `install.packages("gssr")` or
-`update.packages("gssr")` in the ordinary way. We can do this using Dirk
-Eddelbuettel’s
-[drat](http://eddelbuettel.github.io/drat/DratForPackageUsers.html)
-package. Drat provides a convenient way to make R aware of package
-repositories other than CRAN.
-
-First, install `drat`:
-
-``` r
-if (!require("drat")) {
-    install.packages("drat")
-    library("drat")
-}
-```
-
-Then use `drat` to tell R about the repository where `gssr` is hosted:
-
-``` r
-drat::addRepo("kjhealy")
-```
-
-You can now install `gssr`:
-
-``` r
-install.packages("gssr")
-```
-
-To ensure that the `gssr` repository is always available, you can add
-the following line to your `.Rprofile` or `.Rprofile.site` file:
-
-``` r
-drat::addRepo("kjhealy")
-```
-
-With that in place you’ll be able to do `install.packages("gssr")` or
-`update.packages("gssr")` and have everything work as you’d expect.
-
-Note that the drat repository only contains data packages that are not
-on CRAN, so you will never be in danger of grabbing the wrong version of
-any other package.
 
 ## Loading the data
 
@@ -83,6 +31,7 @@ library(gssr)
 #> Package loaded. To attach the GSS data, type data(gss_all) at the console.
 #> For the codebook, type data(gss_doc).
 #> For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).
+#> For help on a specific GSS variable, type ?varname at the console.
 ```
 
 ### Single GSS years
@@ -96,26 +45,26 @@ gss18 <- gss_get_yr(2018)
 #> Fetching: https://gss.norc.org/documents/stata/2018_stata.zip
 
 gss18
-#> # A tibble: 2,348 × 1,065
-#>          abany    abdefect           abfelegl   abhelp1  abhelp2 abhelp3 abhelp4
-#>      <dbl+lbl>   <dbl+lbl>          <dbl+lbl> <dbl+lbl> <dbl+lb> <dbl+l> <dbl+l>
-#>  1     2 [no]      1 [yes] NA(i) [IAP]          1 [yes]  1 [yes] 1 [yes] 1 [yes]
-#>  2     1 [yes]     1 [yes]     3 [it depends]   2 [no]   2 [no]  2 [no]  2 [no] 
-#>  3 NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]          1 [yes]  2 [no]  1 [yes] 1 [yes]
-#>  4 NA(i) [IAP] NA(i) [IAP]     1 [should]       1 [yes]  1 [yes] 1 [yes] 1 [yes]
-#>  5     2 [no]      1 [yes] NA(i) [IAP]          2 [no]   2 [no]  2 [no]  1 [yes]
-#>  6     1 [yes]     1 [yes]     1 [should]       1 [yes]  1 [yes] 1 [yes] 1 [yes]
-#>  7     1 [yes]     1 [yes]     3 [it depends]   1 [yes]  2 [no]  1 [yes] 1 [yes]
-#>  8     2 [no]      1 [yes] NA(i) [IAP]          1 [yes]  2 [no]  1 [yes] 1 [yes]
-#>  9 NA(i) [IAP] NA(i) [IAP]     3 [it depends]   1 [yes]  1 [yes] 1 [yes] 1 [yes]
-#> 10 NA(i) [IAP] NA(i) [IAP] NA(i) [IAP]          1 [yes]  2 [no]  2 [no]  1 [yes]
-#> # … with 2,338 more rows, and 1,058 more variables: abhlth <dbl+lbl>,
-#> #   abinspay <dbl+lbl>, abmedgov1 <dbl+lbl>, abmedgov2 <dbl+lbl>,
-#> #   abmelegl <dbl+lbl>, abmoral <dbl+lbl>, abnomore <dbl+lbl>,
-#> #   abpoor <dbl+lbl>, abpoorw <dbl+lbl>, abrape <dbl+lbl>, absingle <dbl+lbl>,
-#> #   abstate1 <dbl+lbl>, abstate2 <dbl+lbl>, acqntsex <dbl+lbl>,
-#> #   actssoc <dbl+lbl>, adminconsent <dbl+lbl>, adults <dbl+lbl>,
-#> #   advfront <dbl+lbl>, affrmact <dbl+lbl>, afraidof <dbl+lbl>, …
+#> # A tibble: 2,348 × 1,068
+#>    year         id wrkstat   hrs1        hrs2        evwork      wrkslf  wrkgovt
+#>    <dbl+lbl> <dbl> <dbl+lbl> <dbl+lbl>   <dbl+lbl>   <dbl+lbl>   <dbl+l> <dbl+l>
+#>  1 2018          1 3 [with … NA(i) [iap]    41       NA(i) [iap] 2 [som… 2 [pri…
+#>  2 2018          2 5 [retir… NA(i) [iap] NA(i) [iap]     1 [yes] 2 [som… 2 [pri…
+#>  3 2018          3 1 [worki…    40       NA(i) [iap] NA(i) [iap] 2 [som… 2 [pri…
+#>  4 2018          4 1 [worki…    40       NA(i) [iap] NA(i) [iap] 2 [som… 2 [pri…
+#>  5 2018          5 5 [retir… NA(i) [iap] NA(i) [iap]     1 [yes] 2 [som… 2 [pri…
+#>  6 2018          6 5 [retir… NA(i) [iap] NA(i) [iap]     1 [yes] 2 [som… 2 [pri…
+#>  7 2018          7 1 [worki…    35       NA(i) [iap] NA(i) [iap] 2 [som… 1 [gov…
+#>  8 2018          8 1 [worki…    89 [89+… NA(i) [iap] NA(i) [iap] 2 [som… 2 [pri…
+#>  9 2018          9 1 [worki…    40       NA(i) [iap] NA(i) [iap] 1 [sel… 2 [pri…
+#> 10 2018         10 1 [worki…    40       NA(i) [iap] NA(i) [iap] 2 [som… 2 [pri…
+#> # ℹ 2,338 more rows
+#> # ℹ 1,060 more variables: occ10 <dbl+lbl>, prestg10 <dbl+lbl>,
+#> #   prestg105plus <dbl+lbl>, indus10 <dbl+lbl>, marital <dbl+lbl>,
+#> #   martype <dbl+lbl>, divorce <dbl+lbl>, widowed <dbl+lbl>,
+#> #   spwrksta <dbl+lbl>, sphrs1 <dbl+lbl>, sphrs2 <dbl+lbl>, spevwork <dbl+lbl>,
+#> #   cowrksta <dbl+lbl>, cowrkslf <dbl+lbl>, coevwork <dbl+lbl>,
+#> #   cohrs1 <dbl+lbl>, cohrs2 <dbl+lbl>, spwrkslf <dbl+lbl>, …
 ```
 
 ### The Cumulative Data File
@@ -136,141 +85,61 @@ available to use in the usual way:
 
 ``` r
 gss_all
-#> # A tibble: 68,846 × 6,311
-#>     year    id    wrkstat  hrs1  hrs2      evwork   occ prestige  wrkslf wrkgovt
-#>    <dbl> <dbl>  <dbl+lbl> <dbl> <dbl>   <dbl+lbl> <dbl>    <dbl> <dbl+l> <dbl+l>
-#>  1  1972     1 1 [workin… NA(i) NA(i) NA(i)         205       50 2 [som…   NA(i)
-#>  2  1972     2 5 [retire… NA(i) NA(i)     1 [yes]   441       45 2 [som…   NA(i)
-#>  3  1972     3 2 [workin… NA(i) NA(i) NA(i)         270       44 2 [som…   NA(i)
-#>  4  1972     4 1 [workin… NA(i) NA(i) NA(i)           1       57 2 [som…   NA(i)
-#>  5  1972     5 7 [keepin… NA(i) NA(i)     1 [yes]   385       40 2 [som…   NA(i)
-#>  6  1972     6 1 [workin… NA(i) NA(i) NA(i)         281       49 2 [som…   NA(i)
-#>  7  1972     7 1 [workin… NA(i) NA(i) NA(i)         522       41 2 [som…   NA(i)
-#>  8  1972     8 1 [workin… NA(i) NA(i) NA(i)         314       36 2 [som…   NA(i)
-#>  9  1972     9 2 [workin… NA(i) NA(i) NA(i)         912       26 2 [som…   NA(i)
-#> 10  1972    10 1 [workin… NA(i) NA(i) NA(i)         984       18 2 [som…   NA(i)
-#> # … with 68,836 more rows, and 6,301 more variables: commute <dbl>,
-#> #   industry <dbl>, occ80 <dbl>, prestg80 <dbl>, indus80 <dbl+lbl>,
-#> #   indus07 <dbl>, occonet <dbl>, found <dbl>, occ10 <dbl+lbl>, occindv <dbl>,
-#> #   occstatus <dbl>, occtag <dbl>, prestg10 <dbl>, prestg105plus <dbl>,
-#> #   indus10 <dbl+lbl>, indstatus <dbl>, indtag <dbl>, marital <dbl+lbl>,
-#> #   martype <dbl+lbl>, agewed <dbl>, divorce <dbl+lbl>, widowed <dbl+lbl>,
-#> #   spwrksta <dbl+lbl>, sphrs1 <dbl+lbl>, sphrs2 <dbl+lbl>, …
+#> # A tibble: 72,390 × 6,693
+#>    year         id wrkstat    hrs1        hrs2        evwork      occ   prestige
+#>    <dbl+lbl> <dbl> <dbl+lbl>  <dbl+lbl>   <dbl+lbl>   <dbl+lbl>   <dbl> <dbl+lb>
+#>  1 1972          1 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 205   50      
+#>  2 1972          2 5 [retire… NA(i) [iap] NA(i) [iap]     1 [yes] 441   45      
+#>  3 1972          3 2 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 270   44      
+#>  4 1972          4 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap]   1   57      
+#>  5 1972          5 7 [keepin… NA(i) [iap] NA(i) [iap]     1 [yes] 385   40      
+#>  6 1972          6 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 281   49      
+#>  7 1972          7 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 522   41      
+#>  8 1972          8 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 314   36      
+#>  9 1972          9 2 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 912   26      
+#> 10 1972         10 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 984   18      
+#> # ℹ 72,380 more rows
+#> # ℹ 6,685 more variables: wrkslf <dbl+lbl>, wrkgovt <dbl+lbl>,
+#> #   commute <dbl+lbl>, industry <dbl+lbl>, occ80 <dbl+lbl>, prestg80 <dbl+lbl>,
+#> #   indus80 <dbl+lbl>, indus07 <dbl+lbl>, occonet <dbl+lbl>, found <dbl+lbl>,
+#> #   occ10 <dbl+lbl>, occindv <dbl+lbl>, occstatus <dbl+lbl>, occtag <dbl+lbl>,
+#> #   prestg10 <dbl+lbl>, prestg105plus <dbl+lbl>, indus10 <dbl+lbl>,
+#> #   indstatus <dbl+lbl>, indtag <dbl+lbl>, marital <dbl+lbl>, …
 ```
 
-The variables are documented in two supplementary tibbles, `gss_doc` and
-`gss_dict`. To load `gss_doc`, do this:
+## Integrated Help
 
-``` r
-data(gss_doc)
-gss_doc
-#> # A tibble: 6,144 × 5
-#>    id       description                  properties       marginals        text 
-#>    <chr>    <chr>                        <list>           <list>           <chr>
-#>  1 caseid   YEAR + Respondent ID         <tibble [2 × 3]> <tibble [1 × 3]> None 
-#>  2 year     GSS year for this respondent <tibble [2 × 3]> <tibble>         None 
-#>  3 id       Respondent ID number         <tibble [2 × 3]> <tibble [1 × 3]> None 
-#>  4 age      Age of respondent            <tibble [3 × 3]> <tibble [1 × 3]> 13. …
-#>  5 sex      Respondents sex              <tibble [3 × 3]> <tibble [3 × 5]> 23. …
-#>  6 race     Race of respondent           <tibble [3 × 3]> <tibble [4 × 5]> 24. …
-#>  7 racecen1 What Is R's race 1st mention <tibble [3 × 3]> <tibble>         1602…
-#>  8 racecen2 What Is R's race 2nd mention <tibble [3 × 3]> <tibble>         1602…
-#>  9 racecen3 What Is R's race 3rd mention <tibble [3 × 3]> <tibble>         1602…
-#> 10 hispanic Hispanic specified           <tibble [3 × 3]> <tibble>         1601…
-#> # … with 6,134 more rows
-```
+Beginning with version 0.4, `gssr` provides documentation for all GSS
+variables in the cumulative data file via R’s help system. You can
+browse variables by name in the package’s help file or type `?` followed
+by the name of the variable at the console to get a standard R help page
+containing information on the variable, the values it takes and (in most
+cases) a crosstabulation of the variable’s values for each year of the
+GSS. This facility is particularly convenient in an IDE such as RStudio
+or Microsoft Visual Studio.
 
-You can take a look at information on a particular variable by doing
-something like this:
-
-``` r
-gss_doc %>% filter(id == "race") %>% 
-  select(id, description, text)
-#> # A tibble: 1 × 3
-#>   id    description        text                                   
-#>   <chr> <chr>              <chr>                                  
-#> 1 race  Race of respondent 24. What race do you consider yourself?
-```
-
-To look at a variable’s marginals or its properties, use `unnest()`:
-
-``` r
-gss_doc %>% filter(id == "race") %>%
-  select(marginals) %>% 
-  unnest(cols = c(marginals))
-#> # A tibble: 4 × 5
-#>   percent n      value label id   
-#>     <dbl> <chr>  <chr> <chr> <chr>
-#> 1    80.3 52,033 1     WHITE RACE 
-#> 2    14.2 9,187  2     BLACK RACE 
-#> 3     5.5 3,594  3     OTHER RACE 
-#> 4   100   64,814 <NA>  Total RACE
-```
-
-``` r
-gss_doc %>% filter(id == "race") %>%
-    select(properties) %>%
-    unnest(cols = c(properties))
-#> # A tibble: 3 × 3
-#>   property          value   id   
-#>   <chr>             <chr>   <chr>
-#> 1 Data type         numeric RACE 
-#> 2 Missing-data code 0       RACE 
-#> 3 Record/column     1/298   RACE
-```
-
-There are convenience functions to do this as well, for one or more
-categorical variables. One for the marginals:
-
-``` r
-gss_get_marginals(varnames = c("race", "sex"))
-#> # A tibble: 7 × 6
-#>   variable percent     n value label  id   
-#>   <chr>      <dbl> <int> <chr> <chr>  <chr>
-#> 1 sex         44.1 28614 1     MALE   SEX  
-#> 2 sex         55.9 36200 2     FEMALE SEX  
-#> 3 sex        100   64814 <NA>  Total  SEX  
-#> 4 race        80.3 52033 1     WHITE  RACE 
-#> 5 race        14.2  9187 2     BLACK  RACE 
-#> 6 race         5.5  3594 3     OTHER  RACE 
-#> 7 race       100   64814 <NA>  Total  RACE
-```
-
-And one for the properties:
-
-``` r
-gss_get_props(varnames = c("race", "sex"))
-#> # A tibble: 6 × 4
-#>   variable property          value   id   
-#>   <chr>    <chr>             <chr>   <chr>
-#> 1 sex      Data type         numeric SEX  
-#> 2 sex      Missing-data code 0       SEX  
-#> 3 sex      Record/column     1/297   SEX  
-#> 4 race     Data type         numeric RACE 
-#> 5 race     Missing-data code 0       RACE 
-#> 6 race     Record/column     1/298   RACE
-```
-
-The package also comes with `gss_dict`, a tibble with similar
-information in a slightly different format:
+Information about the variables are also documented in the `gss_dict`
+object:
 
 ``` r
 data(gss_dict)
 gss_dict
-#> # A tibble: 2,469 × 6
-#>      pos variable label                           col_type value_labels years   
-#>    <int> <chr>    <chr>                           <chr>    <chr>        <list>  
-#>  1     1 wrkstat  labor force status              dbl+lbl  [1] working… <tibble>
-#>  2     2 hrs1     number of hours worked last we… dbl+lbl  [89] 80+ ho… <tibble>
-#>  3     3 hrs2     number of hours usually work a… dbl+lbl  [89] 80+ ho… <tibble>
-#>  4     4 evwork   ever work as long as one year   dbl+lbl  [1] yes; [2… <tibble>
-#>  5     5 wrkslf   r self-emp or works for somebo… dbl+lbl  [1] self-em… <tibble>
-#>  6     6 wrkgovt  govt or private employee        dbl+lbl  [1] governm… <tibble>
-#>  7     7 indus80  r's industry code (1980)        dbl+lbl  [1] strongl… <tibble>
-#>  8     8 occ10    r's census occupation code (20… dbl+lbl  [10] chief … <tibble>
-#>  9     9 indus10  r's industry code (naics 2007)  dbl+lbl  [170] crop … <tibble>
-#> 10    10 marital  marital status                  dbl+lbl  [1] married… <tibble>
-#> # … with 2,459 more rows
+#> # A tibble: 6,662 × 12
+#>      pos variable label     missing var_doc_label value_labels var_text years   
+#>    <int> <chr>    <chr>       <int> <chr>         <chr>        <chr>    <list>  
+#>  1     1 year     gss year…       0 gss year for… [NA(d)] don… None     <NULL>  
+#>  2     2 wrkstat  labor fo…      36 labor force … [1] working… 1. Last… <tibble>
+#>  3     3 hrs1     number o…   30830 number of ho… [89] 89+ ho… 1a. If … <tibble>
+#>  4     4 hrs2     number o…   70989 number of ho… [89] 89+ ho… 1b. If … <tibble>
+#>  5     5 evwork   ever wor…   46944 ever work as… [1] yes; [2… 1c. If … <tibble>
+#>  6     6 occ      r's cens…   48123 r's census o… [NA(d)] don… 2a. Wha… <tibble>
+#>  7     7 prestige r's occu…   48123 r's occupati… [NA(d)] don… 2a. Wha… <tibble>
+#>  8     8 wrkslf   r self-e…    4041 r self-emp o… [1] self-em… 2e. (Ar… <tibble>
+#>  9     9 wrkgovt  govt or …   44311 govt or priv… [1] governm… 2f. (Ar… <tibble>
+#> 10    10 commute  travel t…   71060 travel time … [97] 97+ mi… 2g. Abo… <tibble>
+#> # ℹ 6,652 more rows
+#> # ℹ 4 more variables: var_yrtab <list>, col_type <chr>, var_type <chr>,
+#> #   var_na_codes <chr>
 ```
 
 ## Which questions were asked in which years?
@@ -295,53 +164,54 @@ gss_which_years(gss_all, fefam)
 #>  8  1980 FALSE
 #>  9  1982 FALSE
 #> 10  1983 FALSE
-#> # … with 22 more rows
+#> # … with 24 more rows
   
 ```
 
 When querying more than one variable, use `c()`:
 
 ``` r
-gss_all %>%
-  gss_which_years(c(industry, indus80, wrkgovt, commute)) %>%
+gss_all |> 
+  gss_which_years(c(industry, indus80, wrkgovt, commute)) |> 
   print(n = Inf)
 
-#> # A tibble: 33 x 5
-#>     year industry indus80 wrkgovt commute
-#>    <dbl> <lgl>    <lgl>   <lgl>   <lgl>  
-#>  1  1972 TRUE     FALSE   FALSE   FALSE  
-#>  2  1973 TRUE     FALSE   FALSE   FALSE  
-#>  3  1974 TRUE     FALSE   FALSE   FALSE  
-#>  4  1975 TRUE     FALSE   FALSE   FALSE  
-#>  5  1976 TRUE     FALSE   FALSE   FALSE  
-#>  6  1977 TRUE     FALSE   FALSE   FALSE  
-#>  7  1978 TRUE     FALSE   FALSE   FALSE  
-#>  8  1980 TRUE     FALSE   FALSE   FALSE  
-#>  9  1982 TRUE     FALSE   FALSE   FALSE  
-#> 10  1983 TRUE     FALSE   FALSE   FALSE  
-#> 11  1984 TRUE     FALSE   FALSE   FALSE  
-#> 12  1985 TRUE     FALSE   TRUE    FALSE  
-#> 13  1986 TRUE     FALSE   TRUE    TRUE   
-#> 14  1987 TRUE     FALSE   FALSE   FALSE  
-#> 15  1988 TRUE     TRUE    FALSE   FALSE  
-#> 16  1989 TRUE     TRUE    FALSE   FALSE  
-#> 17  1990 TRUE     TRUE    FALSE   FALSE  
-#> 18  1991 FALSE    TRUE    FALSE   FALSE  
-#> 19  1993 FALSE    TRUE    FALSE   FALSE  
-#> 20  1994 FALSE    TRUE    FALSE   FALSE  
-#> 21  1996 FALSE    TRUE    FALSE   FALSE  
-#> 22  1998 FALSE    TRUE    FALSE   FALSE  
-#> 23  2000 FALSE    TRUE    TRUE    FALSE  
-#> 24  2002 FALSE    TRUE    TRUE    FALSE  
-#> 25  2004 FALSE    TRUE    TRUE    FALSE  
-#> 26  2006 FALSE    TRUE    TRUE    FALSE  
-#> 27  2008 FALSE    TRUE    TRUE    FALSE  
-#> 28  2010 FALSE    TRUE    TRUE    FALSE  
-#> 29  2012 FALSE    FALSE   TRUE    FALSE  
-#> 30  2014 FALSE    FALSE   TRUE    FALSE  
-#> 31  2016 FALSE    FALSE   TRUE    FALSE  
-#> 32  2018 FALSE    FALSE   TRUE    FALSE  
-#> 33  2021 FALSE    FALSE   TRUE    FALSE
+## # A tibble: 34 × 5
+##    year      industry indus80 wrkgovt commute
+##    <dbl+lbl> <lgl>    <lgl>   <lgl>   <lgl>  
+##  1 1972      TRUE     FALSE   FALSE   FALSE  
+##  2 1973      TRUE     FALSE   FALSE   FALSE  
+##  3 1974      TRUE     FALSE   FALSE   FALSE  
+##  4 1975      TRUE     FALSE   FALSE   FALSE  
+##  5 1976      TRUE     FALSE   FALSE   FALSE  
+##  6 1977      TRUE     FALSE   FALSE   FALSE  
+##  7 1978      TRUE     FALSE   FALSE   FALSE  
+##  8 1980      TRUE     FALSE   FALSE   FALSE  
+##  9 1982      TRUE     FALSE   FALSE   FALSE  
+## 10 1983      TRUE     FALSE   FALSE   FALSE  
+## 11 1984      TRUE     FALSE   FALSE   FALSE  
+## 12 1985      TRUE     FALSE   TRUE    FALSE  
+## 13 1986      TRUE     FALSE   TRUE    TRUE   
+## 14 1987      TRUE     FALSE   FALSE   FALSE  
+## 15 1988      TRUE     TRUE    FALSE   FALSE  
+## 16 1989      TRUE     TRUE    FALSE   FALSE  
+## 17 1990      TRUE     TRUE    FALSE   FALSE  
+## 18 1991      FALSE    TRUE    FALSE   FALSE  
+## 19 1993      FALSE    TRUE    FALSE   FALSE  
+## 20 1994      FALSE    TRUE    FALSE   FALSE  
+## 21 1996      FALSE    TRUE    FALSE   FALSE  
+## 22 1998      FALSE    TRUE    FALSE   FALSE  
+## 23 2000      FALSE    TRUE    TRUE    FALSE  
+## 24 2002      FALSE    TRUE    TRUE    FALSE  
+## 25 2004      FALSE    TRUE    TRUE    FALSE  
+## 26 2006      FALSE    TRUE    TRUE    FALSE  
+## 27 2008      FALSE    TRUE    TRUE    FALSE  
+## 28 2010      FALSE    TRUE    TRUE    FALSE  
+## 29 2012      FALSE    FALSE   TRUE    FALSE  
+## 30 2014      FALSE    FALSE   TRUE    FALSE  
+## 31 2016      FALSE    FALSE   TRUE    FALSE  
+## 32 2018      FALSE    FALSE   TRUE    FALSE  
+## 33 2021      FALSE    FALSE   FALSE   FALSE  
+## 34 2022      FALSE    FALSE   FALSE   FALSE 
 ```
 
 ## The GSS and COVID-19
@@ -396,42 +266,43 @@ and 2012. And a third panel began in 2010, with follow-up interviews in
 of three-wave panels. They are `gss_panel06_long`, `gss_panel08_long`,
 and `gss_panel10_long`. The datasets are provided by the GSS in wide
 format but (as their names suggest) they are packaged here in long
-format. The conversion was carried out using the [`panelr`
+format. The 2020 panel is an exception to this, for reasons described
+below. The conversion was carried out using the [`panelr`
 package](https://panelr.jacob-long.com) and its `long_panel()` function.
 Conversion from long back to wide format is possible with the tools
 provided in `panelr`.
 
 The panel data objects must be loaded in the same way as the cumulative
-data file.
+data file, using `data()`.
 
 ``` r
 data("gss_panel06_long")
 
 gss_panel06_long
 #> # A tibble: 6,000 × 1,572
-#>    firstid  wave      ballot    form formwt oversamp sampcode  sample   samptype
-#>    <fct>   <dbl>   <dbl+lbl> <dbl+l>  <dbl>    <dbl> <dbl+lb> <dbl+l>  <dbl+lbl>
-#>  1 9           1 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#>  2 9           2 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#>  3 9           3 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#>  4 10          1 1 [BALLOT … 1 [STA…      1        1      501 9 [200… 2006 [200…
-#>  5 10          2 1 [BALLOT … 1 [STA…      1        1      501 9 [200… 2006 [200…
-#>  6 10          3 1 [BALLOT … 1 [STA…      1        1      501 9 [200… 2006 [200…
-#>  7 11          1 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#>  8 11          2 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#>  9 11          3 3 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#> 10 12          1 1 [BALLOT … 2 [ALT…      1        1      501 9 [200… 2006 [200…
-#> # … with 5,990 more rows, and 1,563 more variables: vstrat <dbl+lbl>,
-#> #   vpsu <dbl+lbl>, wtpan12 <dbl+lbl>, wtpan123 <dbl+lbl>, wtpannr12 <dbl+lbl>,
-#> #   wtpannr123 <dbl+lbl>, letin1a <dbl+lbl>, abany <dbl+lbl>,
-#> #   abdefect <dbl+lbl>, abhlth <dbl+lbl>, abnomore <dbl+lbl>, abpoor <dbl+lbl>,
-#> #   abrape <dbl+lbl>, absingle <dbl+lbl>, accntsci <dbl+lbl>,
-#> #   acqasian <dbl+lbl>, acqattnd <dbl+lbl>, acqblack <dbl+lbl>,
-#> #   acqbrnda <dbl+lbl>, acqchild <dbl+lbl>, acqcohab <dbl+lbl>, …
+#>    firstid  wave ballot      form    formwt oversamp sampcode sample  samptype  
+#>    <fct>   <dbl> <dbl+lbl>   <dbl+l>  <dbl>    <dbl> <dbl+lb> <dbl+l> <dbl+lbl> 
+#>  1 9           1 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
+#>  2 9           2 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
+#>  3 9           3 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
+#>  4 10          1 1 [BALLOT … 1 [STA…      1        1 501      9 [200… 2006 [200…
+#>  5 10          2 1 [BALLOT … 1 [STA…      1        1 501      9 [200… 2006 [200…
+#>  6 10          3 1 [BALLOT … 1 [STA…      1        1 501      9 [200… 2006 [200…
+#>  7 11          1 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
+#>  8 11          2 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
+#>  9 11          3 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
+#> 10 12          1 1 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
+#> # ℹ 5,990 more rows
+#> # ℹ 1,563 more variables: vstrat <dbl+lbl>, vpsu <dbl+lbl>, wtpan12 <dbl+lbl>,
+#> #   wtpan123 <dbl+lbl>, wtpannr12 <dbl+lbl>, wtpannr123 <dbl+lbl>,
+#> #   letin1a <dbl+lbl>, abany <dbl+lbl>, abdefect <dbl+lbl>, abhlth <dbl+lbl>,
+#> #   abnomore <dbl+lbl>, abpoor <dbl+lbl>, abrape <dbl+lbl>, absingle <dbl+lbl>,
+#> #   accntsci <dbl+lbl>, acqasian <dbl+lbl>, acqattnd <dbl+lbl>,
+#> #   acqblack <dbl+lbl>, acqbrnda <dbl+lbl>, acqchild <dbl+lbl>, …
 ```
 
-Although the panel data objects were created by `panelr`, they are
-regular tibbles. You do not need to use `panelr` to work with the data.
+Panel data objects are regular tibbles. You do not need to use `panelr`
+to work with the data.
 
 The column names in long format do not have wave identifiers. Rather,
 `firstid` and `wave` variables track the cases. The `firstid` variable
@@ -443,30 +314,30 @@ individuals within waves.
 ``` r
 data("gss_panel08_long")
 
-gss_panel08_long %>% 
+gss_panel08_long  |>  
   select(firstid, wave, id, sex)
 #> # A tibble: 6,069 × 4
-#>    firstid  wave        id       sex
+#>    firstid  wave id        sex      
 #>    <fct>   <dbl> <dbl+lbl> <dbl+lbl>
-#>  1 1           1         1  1 [MALE]
-#>  2 1           2      8001  1 [MALE]
-#>  3 1           3        NA NA       
-#>  4 2           1         2  1 [MALE]
-#>  5 2           2      8002  1 [MALE]
-#>  6 2           3      8001  1 [MALE]
-#>  7 3           1         3  1 [MALE]
-#>  8 3           2      8003  1 [MALE]
-#>  9 3           3      8002  1 [MALE]
-#> 10 4           1         4  1 [MALE]
-#> # … with 6,059 more rows
+#>  1 1           1    1       1 [MALE]
+#>  2 1           2 8001       1 [MALE]
+#>  3 1           3   NA      NA       
+#>  4 2           1    2       1 [MALE]
+#>  5 2           2 8002       1 [MALE]
+#>  6 2           3 8001       1 [MALE]
+#>  7 3           1    3       1 [MALE]
+#>  8 3           2 8003       1 [MALE]
+#>  9 3           3 8002       1 [MALE]
+#> 10 4           1    4       1 [MALE]
+#> # ℹ 6,059 more rows
 ```
 
 We can look at attrition across waves with, e.g.:
 
 ``` r
-gss_panel06_long %>% 
-  select(wave, id) %>%
-  group_by(wave) %>%
+gss_panel06_long |> 
+  select(wave, id) |>
+  group_by(wave) |>
   summarize(observed = n_distinct(id),
             missing = sum(is.na(id)))
 #> # A tibble: 3 × 3
@@ -496,8 +367,8 @@ gss_panel_doc
 #>  8 racecen2 RACECEN2    1602… <tibble>     <tibble>     <tibble>     <tibble>   
 #>  9 racecen3 RACECEN3    1602… <tibble>     <tibble>     <tibble>     <tibble>   
 #> 10 hispanic HISPANIC    1601… <tibble>     <tibble>     <tibble>     <tibble>   
-#> # … with 618 more rows, and 2 more variables: marginals_2 <list>,
-#> #   marginals_3 <list>
+#> # ℹ 618 more rows
+#> # ℹ 2 more variables: marginals_2 <list>, marginals_3 <list>
 ```
 
 Each row is a variable. The `id`, `description`, and `text` columns
@@ -521,7 +392,7 @@ gss_get_marginals(varnames = c("sex", "race"), data = gss_panel_doc, margin = ma
 #> 6 race        13.7   210 "2"   BLACK            RACE_2
 #> 7 race         7.7   118 "3"   OTHER            RACE_2
 #> 8 race        NA     464 "0"   IAP              RACE_2
-#> 9 race       100    2000  <NA> Total            RACE_2
+#> 9 race       100    2000 <NA>  Total            RACE_2
 
 
 gss_get_marginals(varnames = "padeg", data = gss_panel_doc, margin = marginals_1)
@@ -539,10 +410,58 @@ gss_get_marginals(varnames = "padeg", data = gss_panel_doc, margin = marginals_1
 #> 9 padeg      100    2000 <NA>  Total          PADEG_1
 ```
 
+## The 2020 Panel Data
+
+The COVID-19 pandemic also affected the panel data design. In 2020, the
+GSS was run as two studies; namely, (1) a panel re-interview of past
+respondents from the 2016 and 2018 cross sectional GSS studies (referred
+to as the 2016-2020 GSS Panel), and (2) an independent fresh
+cross-sectional address-based sampling push to web study (referred to as
+2020 cross-sectional survey). The `gssr` package provides the data for
+the first study as `gss_panel20`. This study empaneled former 2016 and
+2018 GSS respondents to answer a GSS questionnaire in 2020 (i.e., the
+2016-2020 GSS panel). In the 2016-2020 GSS Panel, variables only contain
+data from one of the three years. To differentiate between versions of
+each variable, they have been appended with suffixes. Variables from
+2016 (Wave 1a) have `_1a` appended, variables from 2018 (Wave 1b) have
+`_1b` appended, and variables from 2020 (Wave 2) have `_2` appended.
+Users can also track cases from 2016 and 2018, and reinterviews from
+2020 with the variable `samptype`.
+
+``` r
+data("gss_panel20")
+gss_panel20
+#> # A tibble: 5,215 × 4,296
+#>    samptype           yearid fileversion panstat wtssall_1a wtssall_1b wtssall_2
+#>    <dbl+lbl>           <dbl> <chr>       <dbl+l>      <dbl>      <dbl>     <dbl>
+#>  1 2016 [sample from… 2.02e7 GSS 2020 P… 1 [sel…      0.957         NA     1.09 
+#>  2 2016 [sample from… 2.02e7 GSS 2020 P… 1 [sel…      0.478         NA     0.543
+#>  3 2016 [sample from… 2.02e7 GSS 2020 P… 0 [not…      0.957         NA    NA    
+#>  4 2016 [sample from… 2.02e7 GSS 2020 P… 1 [sel…      1.91          NA     2.17 
+#>  5 2016 [sample from… 2.02e7 GSS 2020 P… 0 [not…      1.44          NA    NA    
+#>  6 2016 [sample from… 2.02e7 GSS 2020 P… 2 [sel…      0.957         NA    NA    
+#>  7 2016 [sample from… 2.02e7 GSS 2020 P… 0 [not…      1.44          NA    NA    
+#>  8 2016 [sample from… 2.02e7 GSS 2020 P… 1 [sel…      0.957         NA     1.09 
+#>  9 2016 [sample from… 2.02e7 GSS 2020 P… 1 [sel…      0.957         NA     1.09 
+#> 10 2016 [sample from… 2.02e7 GSS 2020 P… 0 [not…      0.957         NA    NA    
+#> # ℹ 5,205 more rows
+#> # ℹ 4,289 more variables: wtssnr_1a <dbl>, wtssnr_1b <dbl>, wtssnr_2 <dbl>,
+#> #   vstrat_1a <dbl>, vstrat_1b <dbl>, vstrat_2 <dbl>, vpsu_1a <dbl>,
+#> #   vpsu_1b <dbl>, vpsu_2 <dbl>, year_1a <dbl>, year_1b <dbl>, year_2 <dbl>,
+#> #   id_1a <dbl>, id_1b <dbl>, id_2 <dbl>, mar1_1a <dbl+lbl>, mar2_1a <dbl+lbl>,
+#> #   mar3_1a <dbl+lbl>, mar4_1a <dbl+lbl>, mar5_1a <dbl+lbl>, mar6_1a <dbl+lbl>,
+#> #   mar7_1a <dbl+lbl>, mar8_1a <dbl+lbl>, mar9_1a <dbl+lbl>, …
+```
+
+Unlike the other panels, these data are provided in wide format. Users
+are strongly encouraged to read the [official
+documentation](https://gss.norc.org/Documents/codebook/2016-2020%20GSS%20Panel%20Codebook%20-%20R1a.pdf)
+at the NORC website.
+
 ## Further details
 
 The package is documented at <http://kjhealy.github.io/gssr/>. The GSS
 homepage is at <http://gss.norc.org/>. While the `gssr` package
-incorporates the publicly-available GSS cumulative data file, the
+incorporates the publicly-available GSS cumulative data file, this
 package is not associated with or endorsed by the National Opinion
 Research Center or the General Social Survey.

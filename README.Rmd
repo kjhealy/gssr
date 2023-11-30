@@ -29,61 +29,21 @@ library(tidyverse)
 
 # gssr <img src="man/figures/gssr.png" align="right" width="120" />
 
-<!-- badges: start -->
-[![R build status](https://github.com/kjhealy/gssr/workflows/R-CMD-check/badge.svg)](https://github.com/kjhealy/gssr/actions)
-
-<!-- badges: end -->
-
-The General Social Survey Cumulative Data (1972-2021) and Three Wave Panel Data files packaged for easy use in R. 
+The General Social Survey Cumulative Data (1972-2022) and Panel Data files packaged for easy use in R. 
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
 ## Installation
 
-`gssr` is a data package, bundling several datasets into a convenient format. The relatively large size of the data in the package means it is not suitable for hosting on [CRAN](https://cran.r-project.org/), the core R package repository. There are two ways to install it.
+`gssr` is a data package, bundling several datasets into a convenient format. The relatively large size of the data in the package means it is not suitable for hosting on [CRAN](https://cran.r-project.org/), the core R package repository. 
 
 ### Install direct from GitHub
 
-You can install the beta version of gssr from [GitHub](https://github.com/kjhealy/gssr) with:
+You can install gssr from [GitHub](https://github.com/kjhealy/gssr) with:
 
 ``` r
 remotes::install_github("kjhealy/gssr")
 ```
-
-### Installation using `drat`
-
-While using `install_github()` works just fine, it would be nicer to be able to just type `install.packages("gssr")` or `update.packages("gssr")` in the ordinary way. We can do this using Dirk Eddelbuettel's [drat](http://eddelbuettel.github.io/drat/DratForPackageUsers.html) package. Drat provides a convenient way to make R aware of package repositories other than CRAN.
-
-First, install `drat`:
-
-```{r drat, eval = FALSE}
-if (!require("drat")) {
-    install.packages("drat")
-    library("drat")
-}
-```
-
-Then use `drat` to tell R about the repository where `gssr` is hosted:
-
-```{r drat-gssr}
-drat::addRepo("kjhealy")
-```
-
-You can now install `gssr`:
-
-```{r gssr-drat, eval = FALSE}
-install.packages("gssr")
-```
-
-To ensure that the `gssr` repository is always available, you can add the following line to your `.Rprofile` or `.Rprofile.site` file:
-
-```{r rprofile}
-drat::addRepo("kjhealy")
-```
-
-With that in place you'll be able to do `install.packages("gssr")` or `update.packages("gssr")` and have everything work as you'd expect. 
-
-Note that the drat repository only contains data packages that are not on CRAN, so you will never be in danger of grabbing the wrong version of any other package.
 
 ## Loading the data
 
@@ -116,56 +76,13 @@ This will take a moment. Once it is ready, the `gss_all` object is available to 
 gss_all
 ```
 
-The variables are documented in two supplementary tibbles, `gss_doc` and `gss_dict`. To load `gss_doc`, do this:
+## Integrated Help
+
+Beginning with version 0.4, `gssr` provides documentation for all GSS variables in the cumulative data file via R's help system. You can browse variables by name in the package's help file or type `?` followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes and (in most cases) a crosstabulation of the variable's values for each year of the GSS. This facility is particularly convenient in an IDE such as RStudio or Microsoft Visual Studio.
+
+Information about the variables are also documented in the `gss_dict` object: 
 
 ```{r load-doc}
-data(gss_doc)
-gss_doc
-```
-
-You can take a look at information on a particular variable by doing something like this:
-
-```{r varlook}
-
-gss_doc %>% filter(id == "race") %>% 
-  select(id, description, text)
-
-```
-
-To look at a variable's marginals or its properties, use `unnest()`:
-
-```{r marginals}
-
-gss_doc %>% filter(id == "race") %>%
-  select(marginals) %>% 
-  unnest(cols = c(marginals))
-
-```
-
-
-```{r properties}
-
-gss_doc %>% filter(id == "race") %>%
-    select(properties) %>%
-    unnest(cols = c(properties))
-
-```
-
-There are convenience functions to do this as well, for one or more categorical variables. One for the marginals:
-
-```{r getfnex}
-gss_get_marginals(varnames = c("race", "sex"))
-```
-
-And one for the properties:
-
-```{r getfnex2}
-gss_get_props(varnames = c("race", "sex"))
-```
-
-The package also comes with `gss_dict`, a tibble with similar information in a slightly different format:
-
-```{r gssdict1}
 data(gss_dict)
 gss_dict
 ```
@@ -191,53 +108,54 @@ gss_which_years(gss_all, fefam)
 #>  8  1980 FALSE
 #>  9  1982 FALSE
 #> 10  1983 FALSE
-#> # … with 22 more rows
+#> # … with 24 more rows
   
 ```
 
 When querying more than one variable, use `c()`:
 
 ```r
-gss_all %>%
-  gss_which_years(c(industry, indus80, wrkgovt, commute)) %>%
+gss_all |> 
+  gss_which_years(c(industry, indus80, wrkgovt, commute)) |> 
   print(n = Inf)
 
-#> # A tibble: 33 x 5
-#>     year industry indus80 wrkgovt commute
-#>    <dbl> <lgl>    <lgl>   <lgl>   <lgl>  
-#>  1  1972 TRUE     FALSE   FALSE   FALSE  
-#>  2  1973 TRUE     FALSE   FALSE   FALSE  
-#>  3  1974 TRUE     FALSE   FALSE   FALSE  
-#>  4  1975 TRUE     FALSE   FALSE   FALSE  
-#>  5  1976 TRUE     FALSE   FALSE   FALSE  
-#>  6  1977 TRUE     FALSE   FALSE   FALSE  
-#>  7  1978 TRUE     FALSE   FALSE   FALSE  
-#>  8  1980 TRUE     FALSE   FALSE   FALSE  
-#>  9  1982 TRUE     FALSE   FALSE   FALSE  
-#> 10  1983 TRUE     FALSE   FALSE   FALSE  
-#> 11  1984 TRUE     FALSE   FALSE   FALSE  
-#> 12  1985 TRUE     FALSE   TRUE    FALSE  
-#> 13  1986 TRUE     FALSE   TRUE    TRUE   
-#> 14  1987 TRUE     FALSE   FALSE   FALSE  
-#> 15  1988 TRUE     TRUE    FALSE   FALSE  
-#> 16  1989 TRUE     TRUE    FALSE   FALSE  
-#> 17  1990 TRUE     TRUE    FALSE   FALSE  
-#> 18  1991 FALSE    TRUE    FALSE   FALSE  
-#> 19  1993 FALSE    TRUE    FALSE   FALSE  
-#> 20  1994 FALSE    TRUE    FALSE   FALSE  
-#> 21  1996 FALSE    TRUE    FALSE   FALSE  
-#> 22  1998 FALSE    TRUE    FALSE   FALSE  
-#> 23  2000 FALSE    TRUE    TRUE    FALSE  
-#> 24  2002 FALSE    TRUE    TRUE    FALSE  
-#> 25  2004 FALSE    TRUE    TRUE    FALSE  
-#> 26  2006 FALSE    TRUE    TRUE    FALSE  
-#> 27  2008 FALSE    TRUE    TRUE    FALSE  
-#> 28  2010 FALSE    TRUE    TRUE    FALSE  
-#> 29  2012 FALSE    FALSE   TRUE    FALSE  
-#> 30  2014 FALSE    FALSE   TRUE    FALSE  
-#> 31  2016 FALSE    FALSE   TRUE    FALSE  
-#> 32  2018 FALSE    FALSE   TRUE    FALSE  
-#> 33  2021 FALSE    FALSE   TRUE    FALSE
+## # A tibble: 34 × 5
+##    year      industry indus80 wrkgovt commute
+##    <dbl+lbl> <lgl>    <lgl>   <lgl>   <lgl>  
+##  1 1972      TRUE     FALSE   FALSE   FALSE  
+##  2 1973      TRUE     FALSE   FALSE   FALSE  
+##  3 1974      TRUE     FALSE   FALSE   FALSE  
+##  4 1975      TRUE     FALSE   FALSE   FALSE  
+##  5 1976      TRUE     FALSE   FALSE   FALSE  
+##  6 1977      TRUE     FALSE   FALSE   FALSE  
+##  7 1978      TRUE     FALSE   FALSE   FALSE  
+##  8 1980      TRUE     FALSE   FALSE   FALSE  
+##  9 1982      TRUE     FALSE   FALSE   FALSE  
+## 10 1983      TRUE     FALSE   FALSE   FALSE  
+## 11 1984      TRUE     FALSE   FALSE   FALSE  
+## 12 1985      TRUE     FALSE   TRUE    FALSE  
+## 13 1986      TRUE     FALSE   TRUE    TRUE   
+## 14 1987      TRUE     FALSE   FALSE   FALSE  
+## 15 1988      TRUE     TRUE    FALSE   FALSE  
+## 16 1989      TRUE     TRUE    FALSE   FALSE  
+## 17 1990      TRUE     TRUE    FALSE   FALSE  
+## 18 1991      FALSE    TRUE    FALSE   FALSE  
+## 19 1993      FALSE    TRUE    FALSE   FALSE  
+## 20 1994      FALSE    TRUE    FALSE   FALSE  
+## 21 1996      FALSE    TRUE    FALSE   FALSE  
+## 22 1998      FALSE    TRUE    FALSE   FALSE  
+## 23 2000      FALSE    TRUE    TRUE    FALSE  
+## 24 2002      FALSE    TRUE    TRUE    FALSE  
+## 25 2004      FALSE    TRUE    TRUE    FALSE  
+## 26 2006      FALSE    TRUE    TRUE    FALSE  
+## 27 2008      FALSE    TRUE    TRUE    FALSE  
+## 28 2010      FALSE    TRUE    TRUE    FALSE  
+## 29 2012      FALSE    FALSE   TRUE    FALSE  
+## 30 2014      FALSE    FALSE   TRUE    FALSE  
+## 31 2016      FALSE    FALSE   TRUE    FALSE  
+## 32 2018      FALSE    FALSE   TRUE    FALSE  
+## 33 2021      FALSE    FALSE   FALSE   FALSE  
+## 34 2022      FALSE    FALSE   FALSE   FALSE 
 
 ```
 
@@ -260,9 +178,9 @@ And,
 
 ## Panel data
 
-In addition to the Cumulative Data File, the gssr package also includes the GSS's panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The `gssr` package provides three datasets, one for each of three-wave panels. They are `gss_panel06_long`, `gss_panel08_long`, and `gss_panel10_long`.  The datasets are provided by the GSS in wide format but (as their names suggest) they are packaged here in long format. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Conversion from long back to wide format is possible with the tools provided in `panelr`.
+In addition to the Cumulative Data File, the gssr package also includes the GSS's panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The `gssr` package provides three datasets, one for each of three-wave panels. They are `gss_panel06_long`, `gss_panel08_long`, and `gss_panel10_long`.  The datasets are provided by the GSS in wide format but (as their names suggest) they are packaged here in long format. The 2020 panel is an exception to this, for reasons described below. The conversion was carried out using the [`panelr` package](https://panelr.jacob-long.com) and its `long_panel()` function. Conversion from long back to wide format is possible with the tools provided in `panelr`.
 
-The panel data objects must be loaded in the same way as the cumulative data file.
+The panel data objects must be loaded in the same way as the cumulative data file, using `data()`.
 
 ```{r panel}
 data("gss_panel06_long")
@@ -270,23 +188,24 @@ data("gss_panel06_long")
 gss_panel06_long
 ```
 
-Although the panel data objects were created by `panelr`, they are regular tibbles. You do not need to use `panelr` to work with the data.
+Panel data objects are regular tibbles. You do not need to use `panelr` to work with the data.
 
 The column names in long format do not have wave identifiers. Rather,  `firstid` and `wave` variables track the cases. The `firstid` variable is unique for every respondent in the panel and has no missing values. The `wave` variable indexes responses from a given `firstid` panelist in each wave (if observed). The `id` variable is from the GSS and indexes individuals within waves.
+
 
 ```{r panel-example}
 data("gss_panel08_long")
 
-gss_panel08_long %>% 
+gss_panel08_long  |>  
   select(firstid, wave, id, sex)
 ```
 
 We can look at attrition across waves with, e.g.:
 
 ```{r attrition}
-gss_panel06_long %>% 
-  select(wave, id) %>%
-  group_by(wave) %>%
+gss_panel06_long |> 
+  select(wave, id) |>
+  group_by(wave) |>
   summarize(observed = n_distinct(id),
             missing = sum(is.na(id)))
 ```
@@ -308,7 +227,20 @@ gss_get_marginals(varnames = c("sex", "race"), data = gss_panel_doc, margin = ma
 gss_get_marginals(varnames = "padeg", data = gss_panel_doc, margin = marginals_1)
 ```
 
+## The 2020 Panel Data
+
+The COVID-19 pandemic also affected the panel data design. In 2020, the GSS was run as two studies; namely, (1) a panel re-interview of past respondents from the 2016 and 2018 cross sectional GSS studies (referred to as the 2016-2020 GSS Panel), and (2) an independent fresh cross-sectional address-based sampling push to web study (referred to as 2020 cross-sectional survey). The `gssr` package provides the data for the first study as  `gss_panel20`. This study empaneled former 2016 and 2018 GSS respondents to answer a GSS questionnaire in 2020 (i.e., the 2016-2020 GSS panel). In the 2016-2020 GSS Panel, variables only contain data from one of the three years. To differentiate between versions of each variable, they have been appended with suffixes. Variables from 2016 (Wave 1a) have `_1a` appended, variables from 2018 (Wave 1b) have `_1b` appended, and variables from 2020 (Wave 2) have `_2` appended. Users can also track cases from 2016 and 2018, and reinterviews from 2020 with the variable `samptype`. 
+
+
+```{r}
+data("gss_panel20")
+gss_panel20
+```
+
+Unlike the other panels, these data are provided in wide format. Users are strongly encouraged to read the [official documentation](https://gss.norc.org/Documents/codebook/2016-2020%20GSS%20Panel%20Codebook%20-%20R1a.pdf) at the NORC website.
+
+
 ## Further details
 
-The package is documented at <http://kjhealy.github.io/gssr/>. The GSS homepage is at <http://gss.norc.org/>. While the `gssr` package incorporates the publicly-available GSS cumulative data file, the package is not associated with or endorsed by the National Opinion Research Center or the General Social Survey. 
+The package is documented at <http://kjhealy.github.io/gssr/>. The GSS homepage is at <http://gss.norc.org/>. While the `gssr` package incorporates the publicly-available GSS cumulative data file, this package is not associated with or endorsed by the National Opinion Research Center or the General Social Survey. 
 

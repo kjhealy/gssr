@@ -9,8 +9,8 @@ library(socviz)
 library(labelled)
 
 ## gss data
-load(here::here("data", "objects", "gss_all.rda"))
-gss_all
+load(here::here("data", "gss_all.rda"))
+
 
 # make a data dictionary
 gss_dict <- gss_all |>
@@ -21,9 +21,6 @@ gss_dict <- gss_all |>
 labn <- gss_all |>
   select(where(is.labelled)) |>
   colnames()
-
-labn[1]
-labn[length(labn)]
 
 out <- gssr::gss_which_years(gss_all, all_of(labn))
 out <- out |>
@@ -42,8 +39,8 @@ gss_dict <- gss_dict |>
   select(-levels)
 
 
-## Next we join gss_doc, created in make_doc_crosstabs.R
-load(file = here::here("data-raw", "objects", "gss_doc.rda"))
+## Next we join gss_doc, created in make_gss_doc.R
+load(file = here::here("data", "gss_doc.rda"))
 
 gss_dict <- left_join(gss_dict, gss_doc, by = "variable") |>
   relocate(var_type, .after = col_type) |>

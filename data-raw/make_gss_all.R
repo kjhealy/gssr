@@ -49,9 +49,6 @@ library(socviz)
 ## Read the Stata file
 gss_all <- read_stata(here::here("data-raw", "objects", "gss7222_r2.dta"))
 
-## Save out
-save(gss_all, file = here::here("data", "objects", "gss_all.rda"), compress = "xz")
-
 ## Small version for vignettes
 cont_vars <- c("year", "id", "ballot", "age")
 
@@ -75,6 +72,7 @@ gss_sub <- gss_all |>
 gss_sub <- labelled::copy_labels(gss_all, gss_sub)
 
 ## Save out
+usethis::use_data(gss_all, overwrite = TRUE, compress = "xz")
 usethis::use_data(gss_sub, overwrite = TRUE, compress = "xz")
 
 

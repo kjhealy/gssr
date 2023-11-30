@@ -1,6 +1,13 @@
 ## Make help pages
 ## Run make_gss_doc.R and make_gss_dict.R first
 
+## Procedure:
+## So as not to choke devtools::document(), first remove all .Rd files from man/,
+## then remove all gss_vars_*.R from R/. Then run devtools::document() as usual.
+## This will regenerate the "regular" package documentation and vignettes etc.
+## Once done, run this file, which will use future and furrr to generate the ~6,500
+## or so Rd files the variables.
+
 library(tidyverse)
 library(here)
 library(haven)
@@ -14,8 +21,12 @@ fix_pct <- function(x){
 
 
 availableCores()
+n_cores <- availableCores() - 1
+plan(multisession, workers = n_cores)
 
-load(here("data", "objects", "gss_dict.rda"))
+
+
+load(here("data", "gss_dict.rda"))
 
 
 prettify_yrtab <- function(x) {
@@ -26,7 +37,7 @@ prettify_yrtab <- function(x) {
   o <- x |>
     mutate(year = haven::as_factor(year)) |>
     janitor::adorn_totals(where = c("row", "col"))
-  # janitor::adorn_title(col_name = col_name)
+   # janitor::adorn_title(col_name = col_name)
   o <- o |> mutate(across(where(is.numeric), as.character))
   o[is.na(o)] <- "-"
   o
@@ -71,12 +82,12 @@ make_rd_yrfreq <- function(var_yrtab) {
   options(knitr.kable.NA = '-')
 
   headstring <- paste0(
-    c("\n#' @section Overview: \n#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation)",
+    c("\n#' @section Overview: \n#' For further details see the [official GSS documentation](https://gss.norc.org/get-documentation).",
       "#'",
       "#' Counts by year: \n#'\n"), collapse = "\n")
   o <- var_yrtab |>
+    prettify_yrtab() |>
     knitr::kable()
-    #gluedown::md_table()
   paste0(headstring,
              paste("#' ", o, collapse = "\n"))
 }
@@ -95,9 +106,6 @@ endstring <- "\n#'\n#' @source General Social Survey https://gss.norc.org\n#' \n
 
 
 ## lol furrr is magic
-n_cores <- availableCores() - 1
-plan(multisession, workers = n_cores)
-
 docstring <- gss_dict |>
   mutate(rd1 = future_pmap_chr(list(variable, label, var_text), make_rd_skel),
          rd2 = future_map_chr(value_labels, make_rd_describe),
@@ -114,7 +122,6 @@ docs_list <- split(docstring, ceiling(seq_along(docstring)/10))
 docs_list <- set_names(docs_list, paste0("gss_vars_", sprintf("%02i", seq_along(docs_list)), ".R"))
 
 ## save the files
-plan(multisession, workers = n_cores)
 purrr::iwalk(docs_list, \(x, fname) write_lines(x, here::here("R", fname)))
 
 
@@ -131,9 +138,6 @@ gen_rds <- function(r_file)
 }
 
 # furrr continues magic
-n_cores <- availableCores() - 1
-plan(multisession, workers = n_cores)
-
 gss_varfiles <- fs::dir_ls(here::here("R"), glob = "*.R")
 furrr::future_walk(gss_varfiles, gen_rds)
 

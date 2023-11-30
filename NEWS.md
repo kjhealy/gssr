@@ -1,3 +1,11 @@
+# gssr 0.4
+
+* Added the latest cumulative file (1972-2022) and the latest panel data (2020, release 1a).
+* Integrated help: every variable in the cumulative file has an R manual page (like a function would). You can browse the pages in the help viewer or query variables by name from the console with `?`, as you would with any documented object or function.
+* `gss_get_yr()` can now fetch the 2022 cross-sectional file
+* Removed `gss_get_marginals()` and `gss_get_props()` as these are largely superseded by the new built-in variable documentation. 
+* `gss_dict` incorporates additional information. 
+
 # gssr 0.3.5
 
 * Added `gss_dict` as an alternative way of looking at the documentation.

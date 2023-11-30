@@ -1,4 +1,5 @@
 ## 1. Run make_gss_all.R first to create gss_all
+## 2. Make sure gss_all_labelled exists too.
 
 ## Make the tibble of crosstabs
 
@@ -8,16 +9,12 @@ library(tools)
 library(forcats)
 library(rvest)
 library(socviz)
-library(survey)
-library(srvyr)
-library(ggrepel)
 
 ## http://larmarange.github.io/labelled/
 library(labelled)
 
-
-# Load the local dataset; make sure it's up to date
-load(here::here("data", "objects", "gss_all.rda"))
+# Load the local labelled dataset; make sure it's up to date
+load(here::here("data-raw", "objects", "gss_all_labelled.rda"))
 
 
 # Initial data scraping of codebook and saving to local storage
@@ -120,12 +117,14 @@ process_page <- function(x){
 
 ## Get a yearly crosstab of a variable
 make_var_yrtab <- function(x) {
+
   # We don't need yr crosstabs for year or id
   if(rlang::as_name(x) %in% c("year", "id")) {
     return("None")
   }
 
   # Variables with very knarly structure, and weight vars
+  # No need for xtabs there either
   no_xtab <- c("occ",
     "occ10_next",
     "occonet",
@@ -187,17 +186,16 @@ make_var_yrtab <- function(x) {
     return("None")
   }
 
-
-  gss_all |>
+    # Note use of gss_all_labelled here
+    # Every column is already a character vector
+    # with the special NA values preserved
+    gss_all_labelled |>
     select(year, {{x}}) |>
     count(year, {{x}}) |>
-    mutate({{x}} := as_factor({{x}}),
-           {{x}} := as.character({{x}}),
-           {{x}} := str_replace_all({{x}}, "’", "'")) |>
+    mutate({{x}} := str_replace_all({{x}}, "’", "'")) |>
     pivot_wider(names_from = {{x}},
                 values_from = n)
 }
-
 
 
 # Parse the GSS variables into a tibble, with list columns for the
@@ -244,8 +242,6 @@ gss_doc <- gss_doc_raw |>
 gss_doc <- gss_doc |>
   rename(variable = var_name) |>
   rename(var_doc_label = var_label)
-
-save(gss_doc, file = here::here("data-raw", "gss_doc.rda"), compress = "xz")
 
 ## Save out
 usethis::use_data(gss_doc, overwrite = TRUE, compress = "xz")

@@ -60,63 +60,6 @@ fmt_nr <- function(x){
   prettyNum(nrow(x), big.mark=",", scientific=FALSE)
 }
 
-##' Get marginal summaries for a GSS variable or variables
-##'
-##' Codebook summaries from the `gss_doc` or `gss_panel_docw` objects
-##'
-##' @title Get marginal summaries for a GSS variable or variables
-##' @param varnames The (categorical) variable or variables you want
-##'     to see marginals for. Can be a character string or a character
-##'     vector.
-##' @param data The codebook data frame, by default `gss_doc`, or alternatively the wide panel documentation in `gss_panel_docw`.
-##' @param margin Which margin. Not needed for `gss_doc`, but one of `marginals_1`, `marginals_2`, or `marginals_2` when `data` is `gss_panel_docw`.
-##' @return A tibble of marginal distributions from the GSS codebook
-##' @author Kieran Healy
-##' @examples
-##' \donttest{
-##' data(gss_doc)
-##' gss_get_marginals(varnames = "race")
-##'
-##' gss_get_marginals(varnames = c("race", "gender", "fefam"))
-##' }
-##' @export
-gss_get_marginals <- function(varnames = "id", data = gss_doc, margin = marginals) {
-  dplyr::filter(data, id %in% varnames) %>%
-    dplyr::select(id, {{ margin }}) %>%
-    dplyr::rename(variable = id) %>%
-    tidyr::unnest(cols = c({{ margin }})) %>%
-    dplyr::mutate(n = stringr::str_remove_all(n, ","),
-                  n = as.integer(n))
-  }
-
-##' Property information for a GSS variable or variables
-##'
-##' Returns the properties of a GSS variable as given in the codebook,
-##'     typically the Data Type, Missing Data Codes, and Record/Column
-##'     location.
-##'
-##' @title Property information for a GSS variable or variables
-##' @param varnames The variable or variables you want
-##'     to see properties for. Can be a character string or a character
-##'     vector.
-##' @param data The codebook data frame, by default `gss_doc`
-##' @param props Which properties. Not needed for `gss_doc`, but one of `properties_1`, `properties_2`, or `properties_3` when `data` is `gss_panel_docw`.
-##' @return A tibble of the properties for each variable
-##' @author Kieran Healy
-##' @examples
-##' \donttest{
-##' data(gss_doc)
-##' gss_get_props(varnames = "age")
-##'
-##' gss_get_props(varnames = c("age", "race", "fefam"))
-##' }
-##' @export
-gss_get_props <- function(varnames = "id", data = gss_doc, props = properties) {
-  dplyr::filter(data, id %in% varnames) %>%
-    dplyr::select(id, {{ props }}) %>%
-    dplyr::rename(variable = id) %>%
-    tidyr::unnest(cols = c({{ props }}))
-}
 
 #' Get whether a question was asked
 #'
@@ -182,7 +125,7 @@ gss_get_years <- function() {
 #' NORC's GSS website (where it is available as a zipped Stata file)
 #' and put it directly into a tibble.
 #'
-#' @param year The desired GSS survey year, as a number (i.e., not in quotes). Defaults to 2021.
+#' @param year The desired GSS survey year, as a number (i.e., not in quotes). Defaults to 2022.
 #' @param url Location of the file. Defaults to the current NORC URL for Stata files.
 #' @param fname Non-year filename component. Defaults to '_stata'. Usually should not be changed.
 #' @param ext File name extension. Defaults to 'zip'. Usually should not be changed.
@@ -197,7 +140,7 @@ gss_get_years <- function() {
 ##' gss80 <- gss_get_yr(1980)
 ##' }
 
-gss_get_yr <- function(year = 2021,
+gss_get_yr <- function(year = 2022,
                        url = "https://gss.norc.org/documents/stata/",
                        fname = "_stata",
                        ext = "zip",
@@ -206,7 +149,7 @@ gss_get_yr <- function(year = 2021,
 
   year <- match.arg(as.character(year),
                     choices = as.character(c(1972:1978, 1980, 1982:1991,
-                                             1993, seq(1994, 2018, 2), 2021)))
+                                             1993, seq(1994, 2018, 2), 2021, 2022)))
   save_file <- match.arg(save_file)
 
   local_fname <- paste0(year, fname)
