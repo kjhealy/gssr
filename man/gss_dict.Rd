@@ -5,7 +5,7 @@
 \alias{gss_dict}
 \title{Data Dictionary for the GSS Cumulative Data File 1972-2022}
 \format{
-A tibble with `r fmt_nr(data(gss_dict))` rows and `r fmt_nc(data(gss_dict))` columns.
+A tibble with `r gssr:::fmt_nr(data(gss_dict))` rows and `r gssr:::fmt_nc(data(gss_dict))` columns.
 \describe{
 \item{`pos`}{Column-index position of the variable in `gss_all`. (Integer.)}
 \item{`variable`}{The name of the variable. (Character.)}
@@ -17,8 +17,8 @@ A tibble with `r fmt_nr(data(gss_dict))` rows and `r fmt_nc(data(gss_dict))` col
 \item{`years`}{Which years the question was asked. This information is stored as a tibble in a list column. The tibble contains a column for the `year` and a TRUE/FALSE coumn for `present`. (List.)}
 \item{`var_yrtab`}{Crosstab of responses by year. Stored in a list-column. The tibbles contain `year` values in the rows and value labels across their columns, with response freqencies in the cells as counts. (List.)}
 \item{`col_type`}{The column type of the variable in `gss_all`. (Character.)}
-\item{`col_type`}{The variable type of the variable in `gss_all`. (Character.)}
-\item{`col_type`}{The missing value codes associated with the variable in `gss_all`. (Character.)}
+\item{`var_type`}{The variable type of the variable in `gss_all`. (Character.)}
+\item{`var_na_codes`}{The missing value codes associated with the variable in `gss_all`. (Character.)}
 }
 }
 \source{

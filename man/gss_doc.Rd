@@ -3,9 +3,9 @@
 \docType{data}
 \name{gss_doc}
 \alias{gss_doc}
-\title{Codebook for the GSS Cumulative Data File 1972-2018}
+\title{Codebook for the GSS Cumulative Data File 1972-2022}
 \format{
-A tibble with `r fmt_nr(data(gss_doc))` rows and `r fmt_nc(data(gss_doc))` columns.
+A tibble with `r gssr:::fmt_nr(data(gss_doc))` rows and `r gssr:::fmt_nc(data(gss_doc))` columns.
 \describe{
 \item{`id`}{The short name of the variable. A character vector.}
 \item{`description`}{Brief description of the variable. A
