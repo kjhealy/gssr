@@ -188,7 +188,8 @@
 <h2 id="integrated-help">Integrated Help<a class="anchor" aria-label="anchor" href="#integrated-help"></a>
 </h2>
 <p>Beginning with version 0.4, <code>gssr</code> provides documentation for all GSS variables in the cumulative data file via R’s help system. You can browse variables by name in the package’s help file or type <code>?</code> followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes and (in most cases) a crosstabulation of the variable’s values for each year of the GSS. This facility is particularly convenient in an IDE such as RStudio or Microsoft Visual Studio.</p>
-<p>Information about the variables are also documented in the <code>gss_dict</code> object:</p>
+<p><img src="reference/figures/fefam_help.png"></p>
+<p>Information about the variables is also contained in the <code>gss_dict</code> object:</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_dict</span><span class="op">)</span></span>
 <span><span class="va">gss_dict</span></span>
@@ -355,62 +356,12 @@
 <span><span class="co">#&gt; 1     1     2000       0</span></span>
 <span><span class="co">#&gt; 2     2     1537     464</span></span>
 <span><span class="co">#&gt; 3     3     1277     724</span></span></code></pre></div>
-<p>The documentation tibble for the panel data is called <code>gss_panel_doc</code>.</p>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel_doc"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">gss_panel_doc</span></span>
-<span><span class="co">#&gt; # A tibble: 628 × 9</span></span>
-<span><span class="co">#&gt;    id       description text  properties_1 properties_2 properties_3 marginals_1</span></span>
-<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt; &lt;list&gt;       &lt;list&gt;       &lt;list&gt;       &lt;list&gt;     </span></span>
-<span><span class="co">#&gt;  1 caseid   CASEID      None  &lt;tibble&gt;     &lt;NULL&gt;       &lt;NULL&gt;       &lt;tibble&gt;   </span></span>
-<span><span class="co">#&gt;  2 year     YEAR        None  &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span></span>
-<span><span class="co">#&gt;  3 id       ID          None  &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span></span>
-<span><span class="co">#&gt;  4 age      AGE         13. … &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span></span>
-<span><span class="co">#&gt;  5 sex      SEX         23. … &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span></span>
-<span><span class="co">#&gt;  6 race     RACE        24. … &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span></span>
-<span><span class="co">#&gt;  7 racecen1 RACECEN1    1602… &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span></span>
-<span><span class="co">#&gt;  8 racecen2 RACECEN2    1602… &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span></span>
-<span><span class="co">#&gt;  9 racecen3 RACECEN3    1602… &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span></span>
-<span><span class="co">#&gt; 10 hispanic HISPANIC    1601… &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;     &lt;tibble&gt;   </span></span>
-<span><span class="co">#&gt; # ℹ 618 more rows</span></span>
-<span><span class="co">#&gt; # ℹ 2 more variables: marginals_2 &lt;list&gt;, marginals_3 &lt;list&gt;</span></span></code></pre></div>
-<p>Each row is a variable. The <code>id</code>, <code>description</code>, and <code>text</code> columns provide the details on each question or measure. The <code>properties</code> and <code>marginals</code> are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at <code>gss_panel_doc</code> rather than <code>gss_doc</code> and we say which property wave or marginals wave we want to see.</p>
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">gss_get_marginals</span><span class="op">(</span>varnames <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"sex"</span>, <span class="st">"race"</span><span class="op">)</span>, data <span class="op">=</span> <span class="va">gss_panel_doc</span>, margin <span class="op">=</span> <span class="va">marginals_2</span><span class="op">)</span></span>
-<span><span class="co">#&gt; # A tibble: 9 × 6</span></span>
-<span><span class="co">#&gt;   variable percent     n value label            id    </span></span>
-<span><span class="co">#&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;            &lt;chr&gt; </span></span>
-<span><span class="co">#&gt; 1 sex         41.7   640 "1"   MALE             SEX_2 </span></span>
-<span><span class="co">#&gt; 2 sex         58.3   896 "2"   FEMALE           SEX_2 </span></span>
-<span><span class="co">#&gt; 3 sex         NA     464 "."   (Does not apply) SEX_2 </span></span>
-<span><span class="co">#&gt; 4 sex        100    2000 ""    Total            SEX_2 </span></span>
-<span><span class="co">#&gt; 5 race        78.6  1208 "1"   WHITE            RACE_2</span></span>
-<span><span class="co">#&gt; 6 race        13.7   210 "2"   BLACK            RACE_2</span></span>
-<span><span class="co">#&gt; 7 race         7.7   118 "3"   OTHER            RACE_2</span></span>
-<span><span class="co">#&gt; 8 race        NA     464 "0"   IAP              RACE_2</span></span>
-<span><span class="co">#&gt; 9 race       100    2000 &lt;NA&gt;  Total            RACE_2</span></span>
-<span></span>
-<span></span>
-<span><span class="fu">gss_get_marginals</span><span class="op">(</span>varnames <span class="op">=</span> <span class="st">"padeg"</span>, data <span class="op">=</span> <span class="va">gss_panel_doc</span>, margin <span class="op">=</span> <span class="va">marginals_1</span><span class="op">)</span></span>
-<span><span class="co">#&gt; # A tibble: 9 × 6</span></span>
-<span><span class="co">#&gt;   variable percent     n value label          id     </span></span>
-<span><span class="co">#&gt;   &lt;chr&gt;      &lt;dbl&gt; &lt;int&gt; &lt;chr&gt; &lt;chr&gt;          &lt;chr&gt;  </span></span>
-<span><span class="co">#&gt; 1 padeg       38.3   602 0     LT HIGH SCHOOL PADEG_1</span></span>
-<span><span class="co">#&gt; 2 padeg       40.4   635 1     HIGH SCHOOL    PADEG_1</span></span>
-<span><span class="co">#&gt; 3 padeg        2.7    43 2     JUNIOR COLLEGE PADEG_1</span></span>
-<span><span class="co">#&gt; 4 padeg       10.6   167 3     BACHELOR       PADEG_1</span></span>
-<span><span class="co">#&gt; 5 padeg        7.9   124 4     GRADUATE       PADEG_1</span></span>
-<span><span class="co">#&gt; 6 padeg       NA     355 7     IAP            PADEG_1</span></span>
-<span><span class="co">#&gt; 7 padeg       NA      60 8     DK             PADEG_1</span></span>
-<span><span class="co">#&gt; 8 padeg       NA      14 9     &lt;NA&gt;           PADEG_1</span></span>
-<span><span class="co">#&gt; 9 padeg      100    2000 &lt;NA&gt;  Total          PADEG_1</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="the-2020-panel-data">The 2020 Panel Data<a class="anchor" aria-label="anchor" href="#the-2020-panel-data"></a>
 </h2>
 <p>The COVID-19 pandemic also affected the panel data design. In 2020, the GSS was run as two studies; namely, (1) a panel re-interview of past respondents from the 2016 and 2018 cross sectional GSS studies (referred to as the 2016-2020 GSS Panel), and (2) an independent fresh cross-sectional address-based sampling push to web study (referred to as 2020 cross-sectional survey). The <code>gssr</code> package provides the data for the first study as <code>gss_panel20</code>. This study empaneled former 2016 and 2018 GSS respondents to answer a GSS questionnaire in 2020 (i.e., the 2016-2020 GSS panel). In the 2016-2020 GSS Panel, variables only contain data from one of the three years. To differentiate between versions of each variable, they have been appended with suffixes. Variables from 2016 (Wave 1a) have <code>_1a</code> appended, variables from 2018 (Wave 1b) have <code>_1b</code> appended, and variables from 2020 (Wave 2) have <code>_2</code> appended. Users can also track cases from 2016 and 2018, and reinterviews from 2020 with the variable <code>samptype</code>.</p>
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel20"</span><span class="op">)</span></span>
 <span><span class="va">gss_panel20</span></span>
 <span><span class="co">#&gt; # A tibble: 5,215 × 4,296</span></span>

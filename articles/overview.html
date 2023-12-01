@@ -192,27 +192,29 @@ Cumulative Data object is big, we will use just a few columns of it
 stored in an object called <code>gss_sub</code>. But all the code here
 will also work with the full dataset object, <code>gss_all</code>, which
 you can load with the command <code>data(gss_all)</code>. We will also
-load the tibble that contains the codebook for the Cumulative Data File.
-This is called <code>gss_doc</code>.</p>
+load the tibble that contains summary information for the variables in
+the Cumulative Data File. This is called <code>gss_dict</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_sub</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_doc</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_dict</span><span class="op">)</span></span>
 <span></span>
-<span><span class="va">gss_doc</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 6,693 × 6</span></span></span>
-<span><span class="co">#&gt;    variable var_doc_label               var_text var_type var_na_codes var_yrtab</span></span>
-<span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;list&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> abany    abortion if woman wants fo… 206. Pl… numeric  .d,.i,.j,.m… <span style="color: #949494;">&lt;tibble&gt;</span> </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 2</span> abanyg   abortion if woman wants fo… None     numeric  .d,.i,.j,.m… <span style="color: #949494;">&lt;tibble&gt;</span> </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 3</span> abbelief pro-choice vs pro-life      Which o… numeric  .i,.s        <span style="color: #949494;">&lt;tibble&gt;</span> </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 4</span> abcare   how concerned is r about a… 210. Ho… numeric  .d,.i,.j,.m… <span style="color: #949494;">&lt;tibble&gt;</span> </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 5</span> abchoose should a woman get an abor… 1302. D… numeric  .d,.i,.j,.m… <span style="color: #949494;">&lt;tibble&gt;</span> </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span> abcon1   1st argument against abort… 208. An… numeric  .d,.i,.j,.m… <span style="color: #949494;">&lt;tibble&gt;</span> </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span> abcon2   2nd argument against abort… 208. An… numeric  .d,.i,.j,.m… <span style="color: #949494;">&lt;tibble&gt;</span> </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span> abcon3   3rd argument against abort… 208. An… numeric  .d,.i,.j,.m… <span style="color: #949494;">&lt;tibble&gt;</span> </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> abdefct1 law should allow abortion … 1375. D… numeric  .d,.i,.j,.m… <span style="color: #949494;">&lt;tibble&gt;</span> </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> abdefctw wrong for woman to get abo… 1376. D… numeric  .d,.i,.j,.m… <span style="color: #949494;">&lt;tibble&gt;</span> </span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 6,683 more rows</span></span></span></code></pre></div>
+<span><span class="va">gss_dict</span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 6,662 × 12</span></span></span>
+<span><span class="co">#&gt;      pos variable label     missing var_doc_label value_labels var_text years   </span></span>
+<span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;list&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span>     1 year     gss year…       0 gss year for… [NA(d)] don… None     <span style="color: #949494;">&lt;NULL&gt;</span>  </span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 2</span>     2 wrkstat  labor fo…      36 labor force … [1] working… 1. Last… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 3</span>     3 hrs1     number o…   <span style="text-decoration: underline;">30</span>830 number of ho… [89] 89+ ho… 1a. If … <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 4</span>     4 hrs2     number o…   <span style="text-decoration: underline;">70</span>989 number of ho… [89] 89+ ho… 1b. If … <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 5</span>     5 evwork   ever wor…   <span style="text-decoration: underline;">46</span>944 ever work as… [1] yes; [2… 1c. If … <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span>     6 occ      r's cens…   <span style="text-decoration: underline;">48</span>123 r's census o… [NA(d)] don… 2a. Wha… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span>     7 prestige r's occu…   <span style="text-decoration: underline;">48</span>123 r's occupati… [NA(d)] don… 2a. Wha… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span>     8 wrkslf   r self-e…    <span style="text-decoration: underline;">4</span>041 r self-emp o… [1] self-em… 2e. (Ar… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span>     9 wrkgovt  govt or …   <span style="text-decoration: underline;">44</span>311 govt or priv… [1] governm… 2f. (Ar… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span>    10 commute  travel t…   <span style="text-decoration: underline;">71</span>060 travel time … [97] 97+ mi… 2g. Abo… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 6,652 more rows</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 4 more variables: var_yrtab &lt;list&gt;, col_type &lt;chr&gt;, var_type &lt;chr&gt;,</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;">#   var_na_codes &lt;chr&gt;</span></span></span></code></pre></div>
 <p>The GSS data comes in a <em>labelled</em> format, mirroring the way
 it is encoded for Stata and SPSS platforms. The numeric codes are the
 content of the column cells. The labeling information is stored as an
@@ -264,6 +266,17 @@ outside the home and the woman takes care of the home and family.</p>
 <p>Respondents may answer that they Strongly Agree, Agree, Disagree, or
 Strongly Disagree with the statement (as well as refusing to answer, or
 saying they don’t know).</p>
+<div class="section level3">
+<h3 id="look-at-the-variables-summary">Look at the Variable’s summary<a class="anchor" aria-label="anchor" href="#look-at-the-variables-summary"></a>
+</h3>
+<p>Variable summaries for the cumulative data file are built in to
+<code>gssr</code> and are integrated into R’s help system. For example,
+we can type <code><a href="../reference/fefam.html">?fefam</a></code> at the console and have the variable’s
+documentation appear in the documentation browser.</p>
+<p><img src="figures/fefam_help.png"></p>
+<p>Scrolling further down will give a summary of the values the variable
+can take.</p>
+</div>
 <div class="section level3">
 <h3 id="subset-the-data">Subset the Data<a class="anchor" aria-label="anchor" href="#subset-the-data"></a>
 </h3>
@@ -649,7 +662,11 @@ panel.</p>
 <code>description</code>, and <code>text</code> columns provide the
 details on each question or measure. The <code>properties</code> and
 <code>marginals</code> are provided in the remaining columns, with a
-suffix indicating the wave. ## References</p>
+suffix indicating the wave.</p>
+</div>
+<div class="section level2">
+<h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
+</h2>
 <p>Lumley, Thomas (2010). <em>Complex Surveys: A Guide to Analysis Using
 R</em>. New York: Wiley.</p>
 </div>
