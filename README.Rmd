@@ -80,7 +80,9 @@ gss_all
 
 Beginning with version 0.4, `gssr` provides documentation for all GSS variables in the cumulative data file via R's help system. You can browse variables by name in the package's help file or type `?` followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes and (in most cases) a crosstabulation of the variable's values for each year of the GSS. This facility is particularly convenient in an IDE such as RStudio or Microsoft Visual Studio.
 
-Information about the variables are also documented in the `gss_dict` object: 
+<img src="man/figures/fefam_help.png" />
+
+Information about the variables is also contained in the `gss_dict` object: 
 
 ```{r load-doc}
 data(gss_dict)
@@ -208,23 +210,6 @@ gss_panel06_long |>
   group_by(wave) |>
   summarize(observed = n_distinct(id),
             missing = sum(is.na(id)))
-```
-
-The documentation tibble for the panel data is called `gss_panel_doc`.
-
-```{r paneldoc}
-data("gss_panel_doc")
-
-gss_panel_doc
-```
-
-Each row is a variable. The `id`, `description`, and `text` columns provide the details on each question or measure. The `properties` and `marginals` are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc` and we say which property wave or marginals wave we want to see.
-
-```{r paneldocfun}
-gss_get_marginals(varnames = c("sex", "race"), data = gss_panel_doc, margin = marginals_2)
-
-
-gss_get_marginals(varnames = "padeg", data = gss_panel_doc, margin = marginals_1)
 ```
 
 ## The 2020 Panel Data

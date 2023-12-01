@@ -118,7 +118,9 @@ cases) a crosstabulation of the variable’s values for each year of the
 GSS. This facility is particularly convenient in an IDE such as RStudio
 or Microsoft Visual Studio.
 
-Information about the variables are also documented in the `gss_dict`
+<img src="man/figures/fefam_help.png" />
+
+Information about the variables is also contained in the `gss_dict`
 object:
 
 ``` r
@@ -346,68 +348,6 @@ gss_panel06_long |>
 #> 1     1     2000       0
 #> 2     2     1537     464
 #> 3     3     1277     724
-```
-
-The documentation tibble for the panel data is called `gss_panel_doc`.
-
-``` r
-data("gss_panel_doc")
-
-gss_panel_doc
-#> # A tibble: 628 × 9
-#>    id       description text  properties_1 properties_2 properties_3 marginals_1
-#>    <chr>    <chr>       <chr> <list>       <list>       <list>       <list>     
-#>  1 caseid   CASEID      None  <tibble>     <NULL>       <NULL>       <tibble>   
-#>  2 year     YEAR        None  <tibble>     <tibble>     <tibble>     <tibble>   
-#>  3 id       ID          None  <tibble>     <tibble>     <tibble>     <tibble>   
-#>  4 age      AGE         13. … <tibble>     <tibble>     <tibble>     <tibble>   
-#>  5 sex      SEX         23. … <tibble>     <tibble>     <tibble>     <tibble>   
-#>  6 race     RACE        24. … <tibble>     <tibble>     <tibble>     <tibble>   
-#>  7 racecen1 RACECEN1    1602… <tibble>     <tibble>     <tibble>     <tibble>   
-#>  8 racecen2 RACECEN2    1602… <tibble>     <tibble>     <tibble>     <tibble>   
-#>  9 racecen3 RACECEN3    1602… <tibble>     <tibble>     <tibble>     <tibble>   
-#> 10 hispanic HISPANIC    1601… <tibble>     <tibble>     <tibble>     <tibble>   
-#> # ℹ 618 more rows
-#> # ℹ 2 more variables: marginals_2 <list>, marginals_3 <list>
-```
-
-Each row is a variable. The `id`, `description`, and `text` columns
-provide the details on each question or measure. The `properties` and
-`marginals` are provided in the remaining columns, with a suffix
-indicating the wave. The categorical variables in the panel codebook can
-be queried in the same way as those in the cumulative codebook. We
-specify that we want to look at `gss_panel_doc` rather than `gss_doc`
-and we say which property wave or marginals wave we want to see.
-
-``` r
-gss_get_marginals(varnames = c("sex", "race"), data = gss_panel_doc, margin = marginals_2)
-#> # A tibble: 9 × 6
-#>   variable percent     n value label            id    
-#>   <chr>      <dbl> <int> <chr> <chr>            <chr> 
-#> 1 sex         41.7   640 "1"   MALE             SEX_2 
-#> 2 sex         58.3   896 "2"   FEMALE           SEX_2 
-#> 3 sex         NA     464 "."   (Does not apply) SEX_2 
-#> 4 sex        100    2000 ""    Total            SEX_2 
-#> 5 race        78.6  1208 "1"   WHITE            RACE_2
-#> 6 race        13.7   210 "2"   BLACK            RACE_2
-#> 7 race         7.7   118 "3"   OTHER            RACE_2
-#> 8 race        NA     464 "0"   IAP              RACE_2
-#> 9 race       100    2000 <NA>  Total            RACE_2
-
-
-gss_get_marginals(varnames = "padeg", data = gss_panel_doc, margin = marginals_1)
-#> # A tibble: 9 × 6
-#>   variable percent     n value label          id     
-#>   <chr>      <dbl> <int> <chr> <chr>          <chr>  
-#> 1 padeg       38.3   602 0     LT HIGH SCHOOL PADEG_1
-#> 2 padeg       40.4   635 1     HIGH SCHOOL    PADEG_1
-#> 3 padeg        2.7    43 2     JUNIOR COLLEGE PADEG_1
-#> 4 padeg       10.6   167 3     BACHELOR       PADEG_1
-#> 5 padeg        7.9   124 4     GRADUATE       PADEG_1
-#> 6 padeg       NA     355 7     IAP            PADEG_1
-#> 7 padeg       NA      60 8     DK             PADEG_1
-#> 8 padeg       NA      14 9     <NA>           PADEG_1
-#> 9 padeg      100    2000 <NA>  Total          PADEG_1
 ```
 
 ## The 2020 Panel Data
