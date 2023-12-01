@@ -14,9 +14,13 @@ library(haven)
 library(furrr)
 library(future.apply)
 
-## Cleaning
+## Cleaning errant characters that make things crash!
 fix_pct <- function(x){
-  x |> str_replace_all("%", "pct")
+  x |>
+    stringr::str_replace_all("%", "pct") |>
+    stringr::str_replace_all("<", "(") |>
+    stringr::str_replace_all(">", ")")
+
 }
 
 

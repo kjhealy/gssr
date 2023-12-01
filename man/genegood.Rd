@@ -17,7 +17,7 @@ Question 1565a. Some people say that genetic screening is a wonderful medical ad
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab don't know \tab good > harm \tab harm > good \tab it depends \tab no answer \tab refused \tab Total \cr
+   year \tab iap \tab don't know \tab good ) harm \tab harm ) good \tab it depends \tab no answer \tab refused \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -59,8 +59,8 @@ Counts by year:\tabular{lllllllll}{
 \section{Values}{
 
 \itemize{
-\item \code{1} good > harm
-\item \code{2} harm > good
+\item \code{1} good ) harm
+\item \code{2} harm ) good
 \item \code{3} it depends
 \item \code{7} refused
 \item \code{NA(d)} don't know

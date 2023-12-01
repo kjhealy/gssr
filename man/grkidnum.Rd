@@ -17,7 +17,7 @@ Question 1206. Now thinking of all your adult relatives those still living and a
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllll}{
-   year \tab iap \tab # dk but > 0 \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 23 \tab 3 \tab 31 \tab 4 \tab 5 \tab 6 \tab 60 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
+   year \tab iap \tab # dk but ) 0 \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 2 \tab 20 \tab 23 \tab 3 \tab 31 \tab 4 \tab 5 \tab 6 \tab 60 \tab 7 \tab 8 \tab 9 \tab don't know \tab no answer \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -60,7 +60,7 @@ Counts by year:\tabular{lllllllllllllllllllllllllll}{
 
 \itemize{
 \item \code{96} 96 or more
-\item \code{97} # dk but > 0
+\item \code{97} # dk but ) 0
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

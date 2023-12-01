@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_478.R
 \name{daycare3}
 \alias{daycare3}
-\title{Babysitter ok for kid < 3 yrs?}
+\title{Babysitter ok for kid ( 3 yrs?}
 \source{
 General Social Survey https://gss.norc.org
 }

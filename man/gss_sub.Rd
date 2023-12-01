@@ -3,7 +3,7 @@
 \docType{data}
 \name{gss_sub}
 \alias{gss_sub}
-\title{Example subset of the GSS Cumulative Data File 1972-2018}
+\title{Example subset of the GSS Cumulative Data File 1972-2022}
 \format{
 A tibble with 72,390 rows and 19 columns.
 \describe{

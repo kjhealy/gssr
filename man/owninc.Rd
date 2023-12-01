@@ -17,7 +17,7 @@ Question In which of these groups did your earnings from this business fall in c
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllllll}{
-   year \tab iap \tab $15,001-$25,000 \tab $25,001-$30,000 \tab $30,001-$35,000 \tab $35,001-$50,000 \tab $50,001-$60,000 \tab $60,001-$75,000 \tab $75,001-$100,000 \tab < $15,000 \tab > $100,000 \tab don't know \tab no answer \tab Total \cr
+   year \tab iap \tab $15,001-$25,000 \tab $25,001-$30,000 \tab $30,001-$35,000 \tab $35,001-$50,000 \tab $50,001-$60,000 \tab $60,001-$75,000 \tab $75,001-$100,000 \tab ( $15,000 \tab ) $100,000 \tab don't know \tab no answer \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -59,7 +59,7 @@ Counts by year:\tabular{llllllllllllll}{
 \section{Values}{
 
 \itemize{
-\item \code{1} < $15,000
+\item \code{1} ( $15,000
 \item \code{2} $15,001-$25,000
 \item \code{3} $25,001-$30,000
 \item \code{4} $30,001-$35,000
@@ -67,7 +67,7 @@ Counts by year:\tabular{llllllllllllll}{
 \item \code{6} $50,001-$60,000
 \item \code{7} $60,001-$75,000
 \item \code{8} $75,001-$100,000
-\item \code{9} > $100,000
+\item \code{9} ) $100,000
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_478.R
 \name{daycare2}
 \alias{daycare2}
-\title{Private daycare center ok for kid < 3 yrs?}
+\title{Private daycare center ok for kid ( 3 yrs?}
 \source{
 General Social Survey https://gss.norc.org
 }

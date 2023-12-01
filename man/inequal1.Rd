@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{inequal1}
 \alias{inequal1}
-\title{Extra pay -> people take responsibility}
+\title{Extra pay -) people take responsibility}
 \source{
 General Social Survey https://gss.norc.org
 }

@@ -60,7 +60,7 @@ Counts by year:\tabular{llllllllllllll}{
 
 \itemize{
 \item \code{96} 96 or more
-\item \code{97} # dk but > 0
+\item \code{97} # dk but ) 0
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

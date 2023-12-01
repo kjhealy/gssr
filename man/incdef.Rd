@@ -17,7 +17,7 @@ Question 1576b. Income Deficit of Household
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllllllll}{
-   year \tab -10,000 to -5,000 \tab -4,999 to -1,000 \tab -999 to 999 \tab 1,000 to 4,999 \tab 10,000 to 20,000 \tab 20,001 + \tab 5,000 to 9,999 \tab not imputable \tab < -10,000 \tab not available in this year \tab iap \tab Total \cr
+   year \tab -10,000 to -5,000 \tab -4,999 to -1,000 \tab -999 to 999 \tab 1,000 to 4,999 \tab 10,000 to 20,000 \tab 20,001 + \tab 5,000 to 9,999 \tab not imputable \tab ( -10,000 \tab not available in this year \tab iap \tab Total \cr
    1972 \tab 6 \tab 139 \tab 168 \tab 388 \tab 304 \tab 63 \tab 400 \tab 145 \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 4 \tab 89 \tab 156 \tab 325 \tab 298 \tab 94 \tab 418 \tab 120 \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 5 \tab 91 \tab 147 \tab 265 \tab 326 \tab 116 \tab 401 \tab 133 \tab - \tab - \tab - \tab 1484 \cr
@@ -59,7 +59,7 @@ Counts by year:\tabular{lllllllllllll}{
 \section{Values}{
 
 \itemize{
-\item \code{1} < -10,000
+\item \code{1} ( -10,000
 \item \code{2} -10,000 to -5,000
 \item \code{3} -4,999 to -1,000
 \item \code{4} -999 to 999

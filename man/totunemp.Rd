@@ -17,7 +17,7 @@ Question 423. Counting all these times, in total were you unemployed and looking
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllll}{
-   year \tab iap \tab 2-8 weeks \tab 6-12 mon \tab 8 week - 6 mon \tab > 1 year \tab don't know \tab no answer \tab Total \cr
+   year \tab iap \tab 2-8 weeks \tab 6-12 mon \tab 8 week - 6 mon \tab ) 1 year \tab don't know \tab no answer \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -62,7 +62,7 @@ Counts by year:\tabular{lllllllll}{
 \item \code{1} 2-8 weeks
 \item \code{2} 8 week - 6 mon
 \item \code{3} 6-12 mon
-\item \code{4} > 1 year
+\item \code{4} ) 1 year
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

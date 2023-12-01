@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_498.R
 \name{findjob}
 \alias{findjob}
-\title{Could r find a job <unemployed r's>}
+\title{Could r find a job (unemployed r's)}
 \source{
 General Social Survey https://gss.norc.org
 }

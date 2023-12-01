@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{othhrs}
 \alias{othhrs}
-\title{Hours r spends at other job\if{html}{\out{<s>}}}
+\title{Hours r spends at other job(s)}
 \source{
 General Social Survey https://gss.norc.org
 }

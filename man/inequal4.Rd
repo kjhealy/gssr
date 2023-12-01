@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{inequal4}
 \alias{inequal4}
-\title{Extra pay -> people earn degrees}
+\title{Extra pay -) people earn degrees}
 \source{
 General Social Survey https://gss.norc.org
 }

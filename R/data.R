@@ -214,7 +214,7 @@ NULL
 NULL
 
 
-#' Example subset of the GSS Cumulative Data File 1972-2018
+#' Example subset of the GSS Cumulative Data File 1972-2022
 #'
 #' A tibble containing just a few variables from the GSS
 #' Cumulative Data File. See http://gss.norc.org/Get-Documentation for full

@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_478.R
 \name{daycare5}
 \alias{daycare5}
-\title{Relative ok for kid < 3yrs?}
+\title{Relative ok for kid ( 3yrs?}
 \source{
 General Social Survey https://gss.norc.org
 }

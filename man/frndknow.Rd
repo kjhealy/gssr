@@ -17,7 +17,7 @@ Question 327. Some people have friends who mostly know one another. Other people
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab all know each other \tab don't know \tab few know each other \tab most know each other \tab no answer \tab no friends<vol.> \tab none know each other \tab Total \cr
+   year \tab iap \tab all know each other \tab don't know \tab few know each other \tab most know each other \tab no answer \tab no friends(vol.) \tab none know each other \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -63,7 +63,7 @@ Counts by year:\tabular{llllllllll}{
 \item \code{2} most know each other
 \item \code{3} few know each other
 \item \code{4} none know each other
-\item \code{5} no friends<vol.>
+\item \code{5} no friends(vol.)
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

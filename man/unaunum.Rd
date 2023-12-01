@@ -17,7 +17,7 @@ Question 1206. Now thinking of all your adult relatives those still living and a
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab # dk but > 0 \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 24 \tab 25 \tab 26 \tab 28 \tab 3 \tab 30 \tab 32 \tab 34 \tab 35 \tab 36 \tab 38 \tab 4 \tab 40 \tab 48 \tab 5 \tab 50 \tab 55 \tab 6 \tab 64 \tab 7 \tab 70 \tab 8 \tab 9 \tab 96 or more \tab don't know \tab no answer \tab Total \cr
+   year \tab iap \tab # dk but ) 0 \tab 0 \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 16 \tab 17 \tab 18 \tab 19 \tab 2 \tab 20 \tab 21 \tab 22 \tab 24 \tab 25 \tab 26 \tab 28 \tab 3 \tab 30 \tab 32 \tab 34 \tab 35 \tab 36 \tab 38 \tab 4 \tab 40 \tab 48 \tab 5 \tab 50 \tab 55 \tab 6 \tab 64 \tab 7 \tab 70 \tab 8 \tab 9 \tab 96 or more \tab don't know \tab no answer \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -60,7 +60,7 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllll}{
 
 \itemize{
 \item \code{96} 96 or more
-\item \code{97} # dk but > 0
+\item \code{97} # dk but ) 0
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

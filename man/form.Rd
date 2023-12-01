@@ -17,7 +17,7 @@ Question 248. A split ballot was used in the 1973, 1974, 1976, 1978, 1980, and 1
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllll}{
-   year \tab iap \tab alternate \if{html}{\out{<y>}} \tab standard \if{html}{\out{<x>}} \tab alternate \if{html}{\out{<z>}} \tab Total \cr
+   year \tab iap \tab alternate (y) \tab standard (x) \tab alternate (z) \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab - \tab 751 \tab 753 \tab - \tab 1504 \cr
    1974 \tab - \tab 731 \tab 753 \tab - \tab 1484 \cr
@@ -59,9 +59,9 @@ Counts by year:\tabular{llllll}{
 \section{Values}{
 
 \itemize{
-\item \code{1} standard \if{html}{\out{<x>}}
-\item \code{2} alternate \if{html}{\out{<y>}}
-\item \code{3} alternate \if{html}{\out{<z>}}
+\item \code{1} standard (x)
+\item \code{2} alternate (y)
+\item \code{3} alternate (z)
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

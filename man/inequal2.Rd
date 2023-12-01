@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{inequal2}
 \alias{inequal2}
-\title{Extra pay -> workers acquire skills}
+\title{Extra pay -) workers acquire skills}
 \source{
 General Social Survey https://gss.norc.org
 }
