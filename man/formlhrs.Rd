@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_240.R
 \name{formlhrs}
 \alias{formlhrs}
-\title{formlhrs}
+\title{The number of hrs in formal training}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The number of hrs in formal training
+formlhrs
 }
 \details{
 Question 702d. In total, did the total number of hours add up to...

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_650.R
 \name{stockyr}
 \alias{stockyr}
-\title{stockyr}
+\title{Granted shares of stock in past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Granted shares of stock in past year
+stockyr
 }
 \details{
 Question Were you granted shares of stock in the company where you work in 2021? This means shares that the company gave to you for free through a restricted stock plan or an Employee Stock Ownership Plan, a stock bonus plan, or other stock plan. It does not mea

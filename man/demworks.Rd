@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_446.R
 \name{demworks}
 \alias{demworks}
-\title{demworks}
+\title{How well the system of democracy in america works?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well the system of democracy in america works?
+demworks
 }
 \details{
 Question 1195. All in all, how well or badly do you think the system of democracy in America works these days?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_436.R
 \name{opfamily}
 \alias{opfamily}
-\title{opfamily}
+\title{Family bkgd determines success in u.s.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Family bkgd determines success in u.s.
+opfamily
 }
 \details{
 Question 1168. Please indicate whether you agree or disagree with each of the following statements. c. In America what you achieve in life depends largely on your family background.

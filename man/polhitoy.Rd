@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_607.R
 \name{polhitoy}
 \alias{polhitoy}
-\title{polhitoy}
+\title{Ever approve of police striking citizen (form 2)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever approve of police striking citizen (form 2)
+polhitoy
 }
 \details{
 Question None

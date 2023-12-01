@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_321.R
 \name{talkemp}
 \alias{talkemp}
-\title{talkemp}
+\title{How likely to talk directly if coworker not work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely to talk directly if coworker not work
+talkemp
 }
 \details{
 Question 925. If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to: a. Talk directly to the employee

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_212.R
 \name{tlkclrgy}
 \alias{tlkclrgy}
-\title{tlkclrgy}
+\title{X should talk to religious leader}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should talk to religious leader
+tlkclrgy
 }
 \details{
 Question 659. Should NAME do any of the following: b. Talk to a minister, priest, rabbi, or other religious leader

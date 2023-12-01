@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_335.R
 \name{difstand}
 \alias{difstand}
-\title{difstand}
+\title{Some ppl hold standard in workplace that others don?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Some ppl hold standard in workplace that others don?
+difstand
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. a. Some people are held to standards in my workplace that others are not.

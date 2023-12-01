@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_413.R
 \name{mhfeelem}
 \alias{mhfeelem}
-\title{mhfeelem}
+\title{X should feel embarrassed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should feel embarrassed
+mhfeelem
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. m. \link{NAME} should feel embarrassed about (his/her) situation.

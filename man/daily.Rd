@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_240.R
 \name{daily}
 \alias{daily}
-\title{daily}
+\title{What is your daily wage before tax}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is your daily wage before tax
+daily
 }
 \details{
 Question 707b. What was your daily wage, before any taxes or deductions?

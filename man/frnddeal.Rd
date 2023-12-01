@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_197.R
 \name{frnddeal}
 \alias{frnddeal}
-\title{frnddeal}
+\title{People usually get a better price from friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People usually get a better price from friends
+frnddeal
 }
 \details{
 Question How much do you agree with the following statements: 623. People usually get a better price for goods or services when they get them from friends than when they deal with strangers.

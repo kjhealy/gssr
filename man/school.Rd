@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_74.R
 \name{school}
 \alias{school}
-\title{school}
+\title{School related demonstration}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-School related demonstration
+school
 }
 \details{
 Question 228 Have you ever taken part in: e. A school related demonstration?

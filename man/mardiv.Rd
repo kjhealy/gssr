@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_479.R
 \name{mardiv}
 \alias{mardiv}
-\title{mardiv}
+\title{Marriage not taken seriously when div is easy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Marriage not taken seriously when div is easy
+mardiv
 }
 \details{
 Question 1280. Do you agree or disagree? i. Couples don't take marriage seriously enough when divorce is easily available.

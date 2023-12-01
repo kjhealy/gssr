@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_556.R
 \name{geneself2}
 \alias{geneself2}
-\title{geneself2}
+\title{R would want genetic test done on fetus}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would want genetic test done on fetus
+geneself2
 }
 \details{
 Question Today, tests are being developed that make it possible to detect serious genetic defects before a baby is born. But so far, it is impossible either to treat or to correct most of them. If (you were pregnant/you were expecting a child/your partner were pregnant), would you want (the pregnant woman/her) to have a test to find out if the baby has any serious genetic defects?

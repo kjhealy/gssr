@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_35.R
 \name{attend}
 \alias{attend}
-\title{attend}
+\title{How often r attends religious services}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r attends religious services
+attend
 }
 \details{
 Question 105. How often do you attend religious services?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_483.R
 \name{livnowed}
 \alias{livnowed}
-\title{livnowed}
+\title{Did r live with partner before marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r live with partner before marriage
+livnowed
 }
 \details{
 Question 1301. Did you ever live with a partner you didn't marry?

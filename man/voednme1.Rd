@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_12.R
 \name{voednme1}
 \alias{voednme1}
-\title{voednme1}
+\title{Postsecondary institution attended for credit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Postsecondary institution attended for credit
+voednme1
 }
 \details{
 Question None

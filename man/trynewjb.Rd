@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_310.R
 \name{trynewjb}
 \alias{trynewjb}
-\title{trynewjb}
+\title{How likely r make effort for new job next year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely r make effort for new job next year
+trynewjb
 }
 \details{
 Question 899. Taking everything into consideration, how likely is it you will make a genuine effort to find a new job with another employer within the next year?

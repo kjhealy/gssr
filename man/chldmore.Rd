@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_69.R
 \name{chldmore}
 \alias{chldmore}
-\title{chldmore}
+\title{Expect more children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Expect more children
+chldmore
 }
 \details{
 Question 212. Do you expect to have any (more) children?

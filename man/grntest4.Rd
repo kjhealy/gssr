@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_521.R
 \name{grntest4}
 \alias{grntest4}
-\title{grntest4}
+\title{Using coal or gas contrib to greenhouse effect}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Using coal or gas contrib to greenhouse effect
+grntest4
 }
 \details{
 Question 1416. And for each of these statements, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? d. Every time we use coal or oil or gas, we contribute to the greenhouse effect.

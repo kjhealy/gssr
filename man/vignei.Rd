@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_211.R
 \name{vignei}
 \alias{vignei}
-\title{vignei}
+\title{How willing r would have x as a neighbor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How willing r would have x as a neighbor
+vignei
 }
 \details{
 Question 656a. How willing would you be to move next door to NAME -- definitely willing, probably willing, probably unwilling, or definitely unwilling?

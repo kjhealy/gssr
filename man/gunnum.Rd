@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_74.R
 \name{gunnum}
 \alias{gunnum}
-\title{gunnum}
+\title{If threatened or shot at--how many times}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If threatened or shot at--how many times
+gunnum
 }
 \details{
 Question 230b. How many times would you guess this has happened to you?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_540.R
 \name{grpother}
 \alias{grpother}
-\title{grpother}
+\title{R belongs to another voluntary association}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to another voluntary association
+grpother
 }
 \details{
 Question 1469. People sometimes belong to different kinds of groups or associations. For each type of group, please indicate whether you: Belong and actively participate, Belong but don't actively participate, Used to belong but do not any more, Or have never belonged to it. e. Another voluntary association

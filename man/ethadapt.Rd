@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_300.R
 \name{ethadapt}
 \alias{ethadapt}
-\title{ethadapt}
+\title{Minorities must adapt to american culture}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minorities must adapt to american culture
+ethadapt
 }
 \details{
 Question 848. Here are some opinions some people have expressed in connection with ethnic issues in the United States. To what extent do you agree or disagree with each one? d. In order to have a smoothly functioning society, members of ethnic culture.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_433.R
 \name{volactyr}
 \alias{volactyr}
-\title{volactyr}
+\title{Since last yr any volunteering}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Since last yr any volunteering
+volactyr
 }
 \details{
 Question Since \link{CURRENT MONTH} 1st of last year, have you done any volunteer activities through or for an organization?

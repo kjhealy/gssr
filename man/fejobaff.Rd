@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_177.R
 \name{fejobaff}
 \alias{fejobaff}
-\title{fejobaff}
+\title{For or against preferential hiring of women}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-For or against preferential hiring of women
+fejobaff
 }
 \details{
 Question 552. Some people say that because of past discrimination, women should be given preference in hiring and promotion. Others say that such preference in hiring and promotion of women is wrong because it discriminates against men. What about you opinion - are you for or against preferential hiring and promotion of women? Do you favor/opp;ose preference in hiring and promotion strongly or not strongly?

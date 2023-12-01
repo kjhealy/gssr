@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_610.R
 \name{neisafe}
 \alias{neisafe}
-\title{neisafe}
+\title{How safe interviewer thinks neighborhood is}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How safe interviewer thinks neighborhood is
+neisafe
 }
 \details{
 Question Now thinking about safety in this neighborhood, how safe do you think it is?

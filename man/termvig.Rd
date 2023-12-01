@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_250.R
 \name{termvig}
 \alias{termvig}
-\title{termvig}
+\title{One of the vignettes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-One of the vignettes
+termvig
 }
 \details{
 Question 734. Now I'm going to describe a patient to you and then ask you some questions about that patient. READ ONE OF THE FOLLOWING VIGNETTES ON FOLLOWING PAGE ACCORDING TO THE FOLLOWING SCHEDULE: IF VERSION 4, FORM X, READ A IF VERSION 4, FORM Y, READ B IF VERSION 5, FORM X, READ C IF VERSION 5, FORM Y, READ D IF VERSION 6, FORM X, READ E IF VERSION 6, FORM X, READ F

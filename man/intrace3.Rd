@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_602.R
 \name{intrace3}
 \alias{intrace3}
-\title{intrace3}
+\title{Interviewer s race3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interviewer s race3
+intrace3
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be.

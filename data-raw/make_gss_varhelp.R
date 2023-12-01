@@ -45,9 +45,9 @@ prettify_yrtab <- function(x) {
 
 make_rd_skel <- function(variable, label, var_text) {
   paste(c(
-    paste("#' ", variable),
-    paste("#' "),
     paste("#' ", stringr::str_to_sentence(label)),
+    paste("#' "),
+    paste("#' ", variable),
     paste("#' "),
     paste("#' Question", var_text),
     paste("#' ")

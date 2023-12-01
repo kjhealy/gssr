@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_237.R
 \name{arttime}
 \alias{arttime}
-\title{arttime}
+\title{Did not go due to lack of time}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did not go due to lack of time
+arttime
 }
 \details{
 Question Thinking about the most recent exhibit you wanted to attend but did not, which of the following factors were important in your decision not to attend E. Could not find the time.

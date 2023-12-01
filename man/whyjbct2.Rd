@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_423.R
 \name{whyjbct2}
 \alias{whyjbct2}
-\title{whyjbct2}
+\title{Why job abolished or laid off}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why job abolished or laid off
+whyjbct2
 }
 \details{
 Question None

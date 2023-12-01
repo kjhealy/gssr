@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_02.R
 \name{found}
 \alias{found}
-\title{found}
+\title{Case was retrievable in 2012}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Case was retrievable in 2012
+found
 }
 \details{
 Question None

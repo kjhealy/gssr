@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_230.R
 \name{lotr4}
 \alias{lotr4}
-\title{lotr4}
+\title{I hardly ever expect things to go my way}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I hardly ever expect things to go my way
+lotr4
 }
 \details{
 Question Do you agree or disagree that? D. I hardly ever expect things to go my way.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_343.R
 \name{relalt1}
 \alias{relalt1}
-\title{relalt1}
+\title{Rel change altered r's outlook on life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rel change altered r's outlook on life
+relalt1
 }
 \details{
 Question 1002. To what extent did the religious/spiritual change you just told me about do the following?

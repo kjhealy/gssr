@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_464.R
 \name{hlpresde}
 \alias{hlpresde}
-\title{hlpresde}
+\title{Who r would first turn to if they needed help finding a place tolive}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r would first turn to if they needed help finding a place tolive
+hlpresde
 }
 \details{
 Question Who or where would you turn to first to? D. Help you if you needed to find a place to live?

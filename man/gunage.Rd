@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_74.R
 \name{gunage}
 \alias{gunage}
-\title{gunage}
+\title{Threatened or shot at as child or adult}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Threatened or shot at as child or adult
+gunage
 }
 \details{
 Question 230a. If yes: Did this happen to you as a child or as an adult?

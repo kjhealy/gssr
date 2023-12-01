@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_639.R
 \name{racopennv}
 \alias{racopennv}
-\title{racopennv}
+\title{Vote on open housing law (no volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote on open housing law (no volunteered response on web)
+racopennv
 }
 \details{
 Question None

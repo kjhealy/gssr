@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_556.R
 \name{geneabrt2}
 \alias{geneabrt2}
-\title{geneabrt2}
+\title{R would want to abort fetus if there were genetic defects}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would want to abort fetus if there were genetic defects
+geneabrt2
 }
 \details{
 Question Suppose a test shows the baby has a serious genetic defect. Would you (yourself want/want the pregnant woman/want your partner) to have an abortion if a test shows the baby has a serious genetic defect?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_473.R
 \name{taxshare}
 \alias{taxshare}
-\title{taxshare}
+\title{Should rich pay bigger share of taxes?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should rich pay bigger share of taxes?
+taxshare
 }
 \details{
 Question 1258. Do you think that people with high incomes should pay a larger share of their income in taxes than those with low incomes, the same share, or a smaller share . . .

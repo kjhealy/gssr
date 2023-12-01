@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_140.R
 \name{spwksup}
 \alias{spwksup}
-\title{spwksup}
+\title{Does spouse supervise anyone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does spouse supervise anyone
+spwksup
 }
 \details{
 Question In your (husband/wife/partner)'s job, does (he/she) supervise anyone who is directly responsible to (him/her)?

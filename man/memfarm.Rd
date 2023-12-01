@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_106.R
 \name{memfarm}
 \alias{memfarm}
-\title{memfarm}
+\title{Membership in farm organization}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Membership in farm organization
+memfarm
 }
 \details{
 Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? l. Farm organizations

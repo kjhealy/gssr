@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_489.R
 \name{paidlv}
 \alias{paidlv}
-\title{paidlv}
+\title{Paid leave for childcare}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Paid leave for childcare
+paidlv
 }
 \details{
 Question Do you think there should be paid leave available and, if so, for how long?

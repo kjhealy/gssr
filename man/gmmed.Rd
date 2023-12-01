@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_374.R
 \name{gmmed}
 \alias{gmmed}
-\title{gmmed}
+\title{How well med researcher know risk by genetically modified foods}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well med researcher know risk by genetically modified foods
+gmmed
 }
 \details{
 Question 1068. Here is another public issue: genetically modified foods. Genetically modified foods come from plants or animals whose characteristics have been changed by the alteration, addition, or deletion of DNA in their genetic material using advanced laboratory techniques. Some say that genetically modified foods are unsafe and pose risks for human health. Others say that they are safe and necessary to reduce world hunger. Please look at Card B15. (On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All"), how well do the following groups understand the risks posed by genetically modified foods? INSTRUCTION: IF ASKED WHAT "ADVANCED LABORATORY TECHNIQUES" MEANS: This typically involves "recombinant DNA" or "gene splicing," in which genetic material from one organism is inserted into the genes of another. Sometimes, the two organisms are members of different species. a. Medical researchers

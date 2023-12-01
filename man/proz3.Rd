@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_247.R
 \name{proz3}
 \alias{proz3}
-\title{proz3}
+\title{Taking prozac interferes with daily activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Taking prozac interferes with daily activities
+proz3
 }
 \details{
 Question 725. How much do you agree or disagree with the following statements? c. Taking Prozac interferes with daily activiites

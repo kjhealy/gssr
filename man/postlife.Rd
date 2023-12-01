@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_35.R
 \name{postlife}
 \alias{postlife}
-\title{postlife}
+\title{Belief in life after death}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Belief in life after death
+postlife
 }
 \details{
 Question 108. Do you believe there is a life after death?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_608.R
 \name{spanself}
 \alias{spanself}
-\title{spanself}
+\title{If this interview had only been available in english, would you...}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If this interview had only been available in english, would you...
+spanself
 }
 \details{
 Question 1667. If this interview had only been available in English, would you...

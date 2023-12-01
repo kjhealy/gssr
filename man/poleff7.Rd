@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_440.R
 \name{poleff7}
 \alias{poleff7}
-\title{poleff7}
+\title{Govt is generally responsive to public}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt is generally responsive to public
+poleff7
 }
 \details{
 Question 1178. Please indicate whether you agree or disagree with each of the following statements. g. The government is generally responsive to public opinion.

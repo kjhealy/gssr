@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_280.R
 \name{perhrh}
 \alias{perhrh}
-\title{perhrh}
+\title{Hours per week use computer personal interest}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per week use computer personal interest
+perhrh
 }
 \details{
 Question 801. About how many minutes or hours a week do you use your home computer for each of the following: b. Personal interests, games, or enjoyment?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_422.R
 \name{eff911i}
 \alias{eff911i}
-\title{eff911i}
+\title{How effective r thinks changing mail handling procedures}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How effective r thinks changing mail handling procedures
+eff911i
 }
 \details{
 Question How effective do you think changing mail handling procedures is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)

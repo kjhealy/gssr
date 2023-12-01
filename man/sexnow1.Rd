@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_627.R
 \name{sexnow1}
 \alias{sexnow1}
-\title{sexnow1}
+\title{R's sex now (2021)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's sex now (2021)
+sexnow1
 }
 \details{
 Question Do you describe yourself as male, female, or transgender?

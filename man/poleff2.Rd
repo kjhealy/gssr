@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_440.R
 \name{poleff2}
 \alias{poleff2}
-\title{poleff2}
+\title{Not worth talking to politicians}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Not worth talking to politicians
+poleff2
 }
 \details{
 Question 1178. Please indicate whether you agree or disagree with each of the following statements. b. The average person can get nowhere by talking to public officials.

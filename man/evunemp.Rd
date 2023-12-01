@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_136.R
 \name{evunemp}
 \alias{evunemp}
-\title{evunemp}
+\title{Ever been unemployed two weeks +}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever been unemployed two weeks +
+evunemp
 }
 \details{
 Question 421. Since your first full-time job have you ever been unemployed and looking for work for as long as two weeks?

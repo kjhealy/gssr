@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_482.R
 \name{hubbywk1}
 \alias{hubbywk1}
-\title{hubbywk1}
+\title{Men should earn money women keep house}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Men should earn money women keep house
+hubbywk1
 }
 \details{
 Question 1297. And, do you agree or disagree: a. A man's job is to earn money; a woman's job is to look after the home and family.

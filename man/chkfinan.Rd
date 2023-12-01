@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_569.R
 \name{chkfinan}
 \alias{chkfinan}
-\title{chkfinan}
+\title{Government should verify financial assets}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Government should verify financial assets
+chkfinan
 }
 \details{
 Question 1588. Before giving an individual a SECRET or TOP SECRET clearance, the government should contact other people and verify information provided by the individual concerning his or her: (READ A-C) a. Financial assets and liabilities

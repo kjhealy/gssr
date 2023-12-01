@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_396.R
 \name{acqfmmrk}
 \alias{acqfmmrk}
-\title{acqfmmrk}
+\title{Number of family member named mark}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of family member named mark
+acqfmmrk
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. a. How many people in your family, including relatives and in-laws, are named Mark?

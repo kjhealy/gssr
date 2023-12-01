@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_334.R
 \name{caninf5}
 \alias{caninf5}
-\title{caninf5}
+\title{Would seek advice for information on candidate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would seek advice for information on candidate
+caninf5
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? e. Would seek advice from friend, relative, or other person for information on candidate.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_150.R
 \name{dosports}
 \alias{dosports}
-\title{dosports}
+\title{Played sports in lst yr}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Played sports in lst yr
+dosports
 }
 \details{
 Question 473. Next I'd like to ask about some leisure or recreational activities that people do during their free time. As I read each activity, can you tell me if it is something you have done in the past twelve months? k. Participate in any sports activity such as softball, basketball, swimming, golf, bowling, skiing, or tennis

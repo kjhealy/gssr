@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_151.R
 \name{tvpbs}
 \alias{tvpbs}
-\title{tvpbs}
+\title{How often r watches public tv shows}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r watches public tv shows
+tvpbs
 }
 \details{
 Question 474. I'll now ask about some different kinds of television shows. Would you tell me how often you watch: c. Programs shown on public television.

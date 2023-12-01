@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_290.R
 \name{advsrch}
 \alias{advsrch}
-\title{advsrch}
+\title{How familiar r is with term advanced search}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How familiar r is with term advanced search
+advsrch
 }
 \details{
 Question 815. Are you very familiar, somewhat familiar, or not familiar with the following internet terms: e. Advanced search

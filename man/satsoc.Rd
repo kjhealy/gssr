@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_314.R
 \name{satsoc}
 \alias{satsoc}
-\title{satsoc}
+\title{R's satisfaction with social activities and relationships}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's satisfaction with social activities and relationships
+satsoc
 }
 \details{
 Question D. In general, how would you rate your satisfaction with your social activities and relationships?

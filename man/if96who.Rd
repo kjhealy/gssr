@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_22.R
 \name{if96who}
 \alias{if96who}
-\title{if96who}
+\title{Who would r have voted for-1996 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who would r have voted for-1996 election
+if96who
 }
 \details{
 Question 64b. If did not vote or ineligible: Who would you have voted for, for President, if you had voted?

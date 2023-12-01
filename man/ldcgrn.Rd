@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_525.R
 \name{ldcgrn}
 \alias{ldcgrn}
-\title{ldcgrn}
+\title{Poor countries less than rich for environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Poor countries less than rich for environment
+ldcgrn
 }
 \details{
 Question 1433. How much do you agree or disagree with each of these statements? b. Poorer countries should be expected to make less effort than richer countries to protect the environment.

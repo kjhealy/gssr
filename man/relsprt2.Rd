@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_344.R
 \name{relsprt2}
 \alias{relsprt2}
-\title{relsprt2}
+\title{Find comfort in religion or spirituality}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Find comfort in religion or spirituality
+relsprt2
 }
 \details{
 Question You may experience the following in your daily life, if so how often. 1007b. I find comfort in my religion or spirituality

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_176.R
 \name{rimmdisc}
 \alias{rimmdisc}
-\title{rimmdisc}
+\title{Chances illegal immigrants favored over family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Chances illegal immigrants favored over family
+rimmdisc
 }
 \details{
 Question 544b. What about immigrants? Is it very likely, somewhat likely, somewhat unlikely, or very unlikely that you or anyone in your family won't get a job or promotion while an equally or less qualified immigrant employee receives one instead?

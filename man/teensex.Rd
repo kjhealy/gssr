@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_70.R
 \name{teensex}
 \alias{teensex}
-\title{teensex}
+\title{Sex before marriage:teens 14-16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex before marriage:teens 14-16
+teensex
 }
 \details{
 Question 217a. What if they are in their early teens, say 14 to 16 years old? In that case, do you think sex relations before marriage are always wrong, almost always wrong, wrong only sometimes, or not wrong at all?

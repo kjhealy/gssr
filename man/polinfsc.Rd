@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_373.R
 \name{polinfsc}
 \alias{polinfsc}
-\title{polinfsc}
+\title{Influence on funding for stem cell rsch: elected officials}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence on funding for stem cell rsch: elected officials
+polinfsc
 }
 \details{
 Question 1061. Please look at Card B8. How much influence should each of the following groups have in deciding about government funding for stem cell research? c. Elected officials

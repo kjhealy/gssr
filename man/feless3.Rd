@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_180.R
 \name{feless3}
 \alias{feless3}
-\title{feless3}
+\title{How important give men better paying jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important give men better paying jobs
+feless3
 }
 \details{
 Question 565. On average, women who are employed full time earn less than men. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is. c. Employers tend to give men better paying jobs than they give women.

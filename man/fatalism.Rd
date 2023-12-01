@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_511.R
 \name{fatalism}
 \alias{fatalism}
-\title{fatalism}
+\title{People can't change the course of their lives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People can't change the course of their lives
+fatalism
 }
 \details{
 Question 1387. Do you agree or disagree with the following. . . b. There is little that people can do to change the course of their lives.

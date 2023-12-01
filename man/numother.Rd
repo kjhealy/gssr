@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_349.R
 \name{numother}
 \alias{numother}
-\title{numother}
+\title{How many r belongs to other groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to other groups
+numother
 }
 \details{
 Question 1025p. How many of any other groups do you belong to?

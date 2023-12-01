@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_328.R
 \name{violtv}
 \alias{violtv}
-\title{violtv}
+\title{Situation caused by watching violent tv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Situation caused by watching violent tv
+violtv
 }
 \details{
 Question 942f. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by watching violent TV or playing violent video games?

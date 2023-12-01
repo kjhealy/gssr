@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_629.R
 \name{exweathr}
 \alias{exweathr}
-\title{exweathr}
+\title{Neighborhood affected by extreme weather over the last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Neighborhood affected by extreme weather over the last 12 months
+exweathr
 }
 \details{
 Question To what degree was your neighborhood affected by extreme weather over the last twelve months?

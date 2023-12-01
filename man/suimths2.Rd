@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_73.R
 \name{suimths2}
 \alias{suimths2}
-\title{suimths2}
+\title{How many months since 2nd closest suicide}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many months since 2nd closest suicide
+suimths2
 }
 \details{
 Question E. MONTHS

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_478.R
 \name{wrksch}
 \alias{wrksch}
-\title{wrksch}
+\title{Shld woman work after youngest in school?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Shld woman work after youngest in school?
+wrksch
 }
 \details{
 Question 1276. Do you think that women should work outside the home full-time, part-time or not at all under these circumstances: c. After the youngest child starts school?

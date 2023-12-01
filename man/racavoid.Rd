@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_81.R
 \name{racavoid}
 \alias{racavoid}
-\title{racavoid}
+\title{Avoid driving thru black neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Avoid driving thru black neighborhood
+racavoid
 }
 \details{
 Question 264. If you were driving through the neighbhorhoods in a city, would you go out of your way to avoid going through a (negro/black/African-American) section?

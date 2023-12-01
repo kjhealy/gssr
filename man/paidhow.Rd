@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_303.R
 \name{paidhow}
 \alias{paidhow}
-\title{paidhow}
+\title{How are you paid}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How are you paid
+paidhow
 }
 \details{
 Question In this section, we ask about your work hours and how you are paid. When referring to jobs, we are referring to jobs for which you work for pay, not volunteer work, unpaid housework, or other unpaid activities. When we refer to work hours, we ask you to include all hours performed for a paid job, including any extra hours, overtime, work you did at home for your paid job, and hours that may not have been directly billable or compensated. Are you salaried, paid by the hour, or paid some other way? If you have more than one job, think of the job in which you spend the most hours working each week.

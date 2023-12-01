@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_255.R
 \name{letinasn}
 \alias{letinasn}
-\title{letinasn}
+\title{Immigration from asia should be increased}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immigration from asia should be increased
+letinasn
 }
 \details{
 Question 748. What about the number of immigrants from Asia? (Should it be increased a lot, increased a little, left the same as it is now, decreased a little, or decreased a lot?)

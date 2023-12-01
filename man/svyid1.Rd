@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_652.R
 \name{svyid1}
 \alias{svyid1}
-\title{svyid1}
+\title{Willingness to use video chat}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Willingness to use video chat
+svyid1
 }
 \details{
 Question How likely is it that you would be willing to use a video chat for a survey interview within the next few months?

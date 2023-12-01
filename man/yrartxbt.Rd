@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_652.R
 \name{yrartxbt}
 \alias{yrartxbt}
-\title{yrartxbt}
+\title{Attend art exhibit in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attend art exhibit in past 12 months
+yrartxbt
 }
 \details{
 Question (During the last 12 months, did you...) go in person to an art exhibit, such as paintings, sculpture, textiles, graphic design, or photography?

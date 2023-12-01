@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_507.R
 \name{jbtrain}
 \alias{jbtrain}
-\title{jbtrain}
+\title{Did r have any training to improve job skill past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r have any training to improve job skill past 12 months
+jbtrain
 }
 \details{
 Question 1510. Over the past 12 months, have you had any training to improve your job skills, either at the workplace or somewhere else?

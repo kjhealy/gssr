@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_313.R
 \name{cesd2}
 \alias{cesd2}
-\title{cesd2}
+\title{How much time sleep was restless in past wk}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much time sleep was restless in past wk
+cesd2
 }
 \details{
 Question I will now read out a list of the ways you might have felt or behaved during the past week. Using this card, please tell me how much of the time during the past week? B. ...your sleep was restless?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_445.R
 \name{gvinflu1}
 \alias{gvinflu1}
-\title{gvinflu1}
+\title{What peo or org have most inf}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What peo or org have most inf
+gvinflu1
 }
 \details{
 Question A. Here is a list of people and organizations that can influence government actions. Please read th corresponding to the one you think has the most influence on the actions of the American gove

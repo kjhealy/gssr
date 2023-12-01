@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_181.R
 \name{fekids5}
 \alias{fekids5}
-\title{fekids5}
+\title{How important it is god's will}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important it is god's will
+fekids5
 }
 \details{
 Question 566. Women are more likely than ment ot ake care of children. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is: e. It is God's will that women care for children.

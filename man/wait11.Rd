@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_298.R
 \name{wait11}
 \alias{wait11}
-\title{wait11}
+\title{How long r wait treatment health interfere}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long r wait treatment health interfere
+wait11
 }
 \details{
 Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? k. Having physical health or emotional problems interfere with you social life, like visiting friends, relatives, etc.?

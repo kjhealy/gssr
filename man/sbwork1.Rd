@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_169.R
 \name{sbwork1}
 \alias{sbwork1}
-\title{sbwork1}
+\title{Does r sibling do paid work?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r sibling do paid work?
+sbwork1
 }
 \details{
 Question 511. Is \link{NAME} currently working at a paid job?

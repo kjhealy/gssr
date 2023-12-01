@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_220.R
 \name{mniltime}
 \alias{mniltime}
-\title{mniltime}
+\title{When feelings of mental illness happened}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When feelings of mental illness happened
+mniltime
 }
 \details{
 Question The timing of R's mental illness.

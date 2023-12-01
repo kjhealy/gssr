@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_451.R
 \name{daunum}
 \alias{daunum}
-\title{daunum}
+\title{Number of adult daughter's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of adult daughter's
+daunum
 }
 \details{
 Question 1203. 1203. How many daughters age 18 or older do you have? (We mean daughters who are still alive; please include stepdaughters, halfdaughters and adopted daughters.)

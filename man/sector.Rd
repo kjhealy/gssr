@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_11.R
 \name{sector}
 \alias{sector}
-\title{sector}
+\title{Type of college respondent attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of college respondent attended
+sector
 }
 \details{
 Question None

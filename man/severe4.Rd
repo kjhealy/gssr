@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_224.R
 \name{severe4}
 \alias{severe4}
-\title{severe4}
+\title{How severe person 4's mental health problem is}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How severe person 4's mental health problem is
+severe4
 }
 \details{
 Question On a scale from 1 to 10, with 1 being not at all and 10 being very, how severe is NAME 4 ?s mental health problem?

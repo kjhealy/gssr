@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_342.R
 \name{entity}
 \alias{entity}
-\title{entity}
+\title{Entity mentions in religious change}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Entity mentions in religious change
+entity
 }
 \details{
 Question 998. Open-ended questions for how people who had undergone spiritual or religious change described their experiences. Specific religious figures mentioned in religious change.

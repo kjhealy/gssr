@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_227.R
 \name{conghrm2}
 \alias{conghrm2}
-\title{conghrm2}
+\title{How often congregation critical of things r do}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often congregation critical of things r do
+conghrm2
 }
 \details{
 Question 675. How often are the people in your congregation critical of you and the things you do ...

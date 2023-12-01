@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_475.R
 \name{richeduc}
 \alias{richeduc}
-\title{richeduc}
+\title{Rich buy better education than poor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rich buy better education than poor
+richeduc
 }
 \details{
 Question 1267. Is it just or unjust - right or wrong - that people with higher incomes can: b. Buy better education for their children than people with lower incomes?

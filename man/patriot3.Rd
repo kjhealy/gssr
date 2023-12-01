@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_537.R
 \name{patriot3}
 \alias{patriot3}
-\title{patriot3}
+\title{Patriotic feelings are needed for america to remain united}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Patriotic feelings are needed for america to remain united
+patriot3
 }
 \details{
 Question How much do you agree of disagree that strong patriotic feelings in America... C. Are needed for America to remain united.

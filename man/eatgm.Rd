@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_375.R
 \name{eatgm}
 \alias{eatgm}
-\title{eatgm}
+\title{R's view about eating genetically modified foods}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's view about eating genetically modified foods
+eatgm
 }
 \details{
 Question 1071d. Which statement best describes your own view about eating foods that have been genetically modified? 1. I don't care whether the food I eat has been genetically modified. 2. I am willing to eat genetically modified foods, but would prefer unmodified foods if they are available. 3. I will not eat food that I know has been genetically modified.

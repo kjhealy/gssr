@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_398.R
 \name{acqnhasn}
 \alias{acqnhasn}
-\title{acqnhasn}
+\title{Number of asian in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of asian in neighborhood
+acqnhasn
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. f. How many are Asian or Asian-American?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_662.R
 \name{rheight}
 \alias{rheight}
-\title{rheight}
+\title{Respondent height}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondent height
+rheight
 }
 \details{
 Question None

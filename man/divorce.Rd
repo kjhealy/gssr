@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_03.R
 \name{divorce}
 \alias{divorce}
-\title{divorce}
+\title{Ever been divorced or separated}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever been divorced or separated
+divorce
 }
 \details{
 Question 4b. If currently married or widowed: Have you ever been divorced or legally separated?

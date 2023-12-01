@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_117.R
 \name{permoral}
 \alias{permoral}
-\title{permoral}
+\title{R agrees that morality a personal matter}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R agrees that morality a personal matter
+permoral
 }
 \details{
 Question 374. Please consider the following statements and tell me whether you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each statement. d. Morality is a personal matter and society should not force everyone to follow one standard.

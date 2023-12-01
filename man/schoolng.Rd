@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_145.R
 \name{schoolng}
 \alias{schoolng}
-\title{schoolng}
+\title{Importance formal school for you job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance formal school for you job
+schoolng
 }
 \details{
 Question 462. How important were each of the following as sources fo the skills that you use in your job? a. Formal schooling

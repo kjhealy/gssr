@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_659.R
 \name{vaxsafe}
 \alias{vaxsafe}
-\title{vaxsafe}
+\title{Vaccines are safe}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vaccines are safe
+vaxsafe
 }
 \details{
 Question (Please tell us the extent to which you agree or disagree with the following statements:) Vaccines are safe.

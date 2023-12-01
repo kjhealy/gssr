@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_557.R
 \name{pargovt}
 \alias{pargovt}
-\title{pargovt}
+\title{Govt too involved in family life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt too involved in family life
+pargovt
 }
 \details{
 Question 1569. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements regarding parents: f. The role of the federal government in family life today is too large.

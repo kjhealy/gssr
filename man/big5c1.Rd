@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_544.R
 \name{big5c1}
 \alias{big5c1}
-\title{big5c1}
+\title{R see oneself as someone who does a thorough job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R see oneself as someone who does a thorough job
+big5c1
 }
 \details{
 Question 1514. To what extent do you agree or disagree with the following statements? I see myself as someone who... c. Does a thorough job

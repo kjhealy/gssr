@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_576.R
 \name{racethot}
 \alias{racethot}
-\title{racethot}
+\title{Points assigned to other}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Points assigned to other
+racethot
 }
 \details{
 Question How would you describe your race and ethnicity using this 10-point system using the following choices: F. Other

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_437.R
 \name{fehlpcol}
 \alias{fehlpcol}
-\title{fehlpcol}
+\title{Govt should aid women seeking higher ed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should aid women seeking higher ed
+fehlpcol
 }
 \details{
 Question 1172. Here are three things the government might do. Some people are in favor of them while other people are against them. Please circle one number for each statement to show how you feel. b. The government should increase opportunities for women to go to college.

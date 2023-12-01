@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_290.R
 \name{browser3}
 \alias{browser3}
-\title{browser3}
+\title{R specify name of web browser}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R specify name of web browser
+browser3
 }
 \details{
 Question 815d. Specify name of web browser

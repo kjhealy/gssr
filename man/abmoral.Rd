@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_315.R
 \name{abmoral}
 \alias{abmoral}
-\title{abmoral}
+\title{R has a moral opposition to abortion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has a moral opposition to abortion
+abmoral
 }
 \details{
 Question Leaving aside whether or not you think abortion should be legal, are you morally opposed to abortion or not, or would you say it depends?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_432.R
 \name{knwclsex}
 \alias{knwclsex}
-\title{knwclsex}
+\title{R knows other people who were obj of sexual advances}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R knows other people who were obj of sexual advances
+knwclsex
 }
 \details{
 Question Do you know of other people who, as adults, were the object of sexual advances or propositions from a minister, priest, rabbi, or other clergyperson or religious leader in a place you were attending religious services?

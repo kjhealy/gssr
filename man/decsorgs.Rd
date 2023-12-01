@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_535.R
 \name{decsorgs}
 \alias{decsorgs}
-\title{decsorgs}
+\title{America should follow decision of intl org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-America should follow decision of intl org
+decsorgs
 }
 \details{
 Question 1460. How much do you agree or disagree with the following statements? c. In general, America should follow the decisions of international organizations to which it belongs, even if the government does not agree with them.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_496.R
 \name{lowpay}
 \alias{lowpay}
-\title{lowpay}
+\title{I would accept job for lower pay}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I would accept job for lower pay
+lowpay
 }
 \details{
 Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? B. To accept a position with lower pay.

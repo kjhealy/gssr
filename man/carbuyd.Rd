@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_192.R
 \name{carbuyd}
 \alias{carbuyd}
-\title{carbuyd}
+\title{General reputation made r buy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-General reputation made r buy
+carbuyd
 }
 \details{
 Question 594. What made you think that this would be a good place to make your purchase? d. General reputation in the community

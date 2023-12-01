@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_496.R
 \name{tempwork}
 \alias{tempwork}
-\title{tempwork}
+\title{I would accept temporary employment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I would accept temporary employment
+tempwork
 }
 \details{
 Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? C. To accept temporary employment.

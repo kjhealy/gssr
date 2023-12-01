@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_58.R
 \name{chldsex}
 \alias{chldsex}
-\title{chldsex}
+\title{Qualities for boys or girls}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Qualities for boys or girls
+chldsex
 }
 \details{
 Question 171a. When you rated the importance of various qualities for children, were you thinking mostly about boys, mostly about girls, or about both boys and girls equally?

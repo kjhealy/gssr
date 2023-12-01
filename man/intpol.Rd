@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_111.R
 \name{intpol}
 \alias{intpol}
-\title{intpol}
+\title{How interested in politics is r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How interested in politics is r
+intpol
 }
 \details{
 Question 341. How interested are you in politics and national affairs?

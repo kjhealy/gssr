@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_523.R
 \name{pubdecid}
 \alias{pubdecid}
-\title{pubdecid}
+\title{Govt should let peop decide how to protect envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should let peop decide how to protect envir
+pubdecid
 }
 \details{
 Question 1423a. If you had to choose, which one of the following would be closest to your views? Government should let ordinary people decide for themselves how to protect the environment, even if it means they don't always do the right thing, or government should pass laws to make ordinary people protect the environment, even if it interferes with people's right to make their own decisions.

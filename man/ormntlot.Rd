@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_214.R
 \name{ormntlot}
 \alias{ormntlot}
-\title{ormntlot}
+\title{In what order go to a therapist, or counselor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what order go to a therapist, or counselor
+ormntlot
 }
 \details{
 Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? e. Go to a therapist, or counselor, like a psychologist, social worker, or other mental health professional for help

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_241.R
 \name{trusting}
 \alias{trusting}
-\title{trusting}
+\title{Most people can be trusted}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most people can be trusted
+trusting
 }
 \details{
 Question 708. Do you think of yourself as a trusting person? Are you...

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_507.R
 \name{newjob}
 \alias{newjob}
-\title{newjob}
+\title{How helpful present work skill would be for new job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How helpful present work skill would be for new job
+newjob
 }
 \details{
 Question 1509. If you were to look for a new job, how helpful would your present work experience and/or job skills be?

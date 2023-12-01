@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_86.R
 \name{polltrue}
 \alias{polltrue}
-\title{polltrue}
+\title{Trust results of surveys}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Trust results of surveys
+polltrue
 }
 \details{
 Question 287. How often do you think you can trust the results of surveys, do you think they are almost always right, right most of the time, only some of the time, or hardly ever right?

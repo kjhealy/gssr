@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_452.R
 \name{posslqy}
 \alias{posslqy}
-\title{posslqy}
+\title{Relationship status and cohabitation or not}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship status and cohabitation or not
+posslqy
 }
 \details{
 Question Which of these statements applies to you?

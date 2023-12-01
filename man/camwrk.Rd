@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_573.R
 \name{camwrk}
 \alias{camwrk}
-\title{camwrk}
+\title{Govt camera surveillance at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt camera surveillance at work
+camwrk
 }
 \details{
 Question 1594. Protecting secrets is a continuing concern of the government. I am going to ask you about various security measures that the government might apply to individuals with a SECRET or TOP SECRET clearance. Do you (strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree) that people with SECRET or TOP SECRET clearance should be subject to: h. Video camera surveillance in the workplace

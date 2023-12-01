@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_146.R
 \name{wherewrk}
 \alias{wherewrk}
-\title{wherewrk}
+\title{Doing your job in one or several different places}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doing your job in one or several different places
+wherewrk
 }
 \details{
 Question 463. When you are doing your job, do you usually do it in one place (like the same street address) or in several different places?

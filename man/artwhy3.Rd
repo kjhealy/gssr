@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_235.R
 \name{artwhy3}
 \alias{artwhy3}
-\title{artwhy3}
+\title{Imp of wanting to socialize with friends or fam in decision to attend exhibit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of wanting to socialize with friends or fam in decision to attend exhibit
+artwhy3
 }
 \details{
 Question People attend exhibits for different reasons. C. How big a reason was wanting to socialize with family or friends in your decision to attend this exhibit? Was it a major reason, a minor reason, or not a reason at all?

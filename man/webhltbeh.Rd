@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_647.R
 \name{webhltbeh}
 \alias{webhltbeh}
-\title{webhltbeh}
+\title{Infomration online affected health positively}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Infomration online affected health positively
+webhltbeh
 }
 \details{
 Question To what extent do you agree or disagree with the following statements? During the past 12 months, information on the internet... affected my health behavior in a positive way.

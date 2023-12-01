@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_332.R
 \name{medsymps}
 \alias{medsymps}
-\title{medsymps}
+\title{Med for mental health problem help people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Med for mental health problem help people
+medsymps
 }
 \details{
 Question 961. Please tell me how much you agree or disagree with the following statements about medicines prescribed by doctors that are intended to help people who are having problems with their emotions, nerves or their mental health. a. These medications help people control their symptoms. Do you . . .

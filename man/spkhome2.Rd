@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_533.R
 \name{spkhome2}
 \alias{spkhome2}
-\title{spkhome2}
+\title{What language(s) do you speak at home?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What language(s) do you speak at home?
+spkhome2
 }
 \details{
 Question 1451. What language(s) do you speak at home? PLEASE FILL IN At home, I speak...

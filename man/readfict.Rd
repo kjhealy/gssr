@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_231.R
 \name{readfict}
 \alias{readfict}
-\title{readfict}
+\title{Read novels poems or plays}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Read novels poems or plays
+readfict
 }
 \details{
 Question 690. Next I'd like to ask about some leisure or recreational activities that people do during their free time. As I read each activity, can you tell me if it is something you have done in the past twelve months? a. Read novels, short stories, poems, or plays, other than those required by work or school.

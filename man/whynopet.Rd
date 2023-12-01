@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_317.R
 \name{whynopet}
 \alias{whynopet}
-\title{whynopet}
+\title{Reason why r's family has no pet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Reason why r's family has no pet
+whynopet
 }
 \details{
 Question Why doesn?t your family have a pet? Please choose the most important reason.

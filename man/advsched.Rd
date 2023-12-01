@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_304.R
 \name{advsched}
 \alias{advsched}
-\title{advsched}
+\title{How far in advance do you schedule work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How far in advance do you schedule work
+advsched
 }
 \details{
 Question How far in advance do you usually know what days and hours you will need to work?

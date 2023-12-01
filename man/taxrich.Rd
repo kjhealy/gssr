@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_472.R
 \name{taxrich}
 \alias{taxrich}
-\title{taxrich}
+\title{Taxes on high income people too high}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Taxes on high income people too high
+taxrich
 }
 \details{
 Question 1257. Generally, how would you describe taxes in America today... We mean all taxes together, including social security, income tax, sales tax, and all the rest. a. For those with high incomes, are taxes...

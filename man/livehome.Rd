@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_455.R
 \name{livehome}
 \alias{livehome}
-\title{livehome}
+\title{Length at present dwelling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Length at present dwelling
+livehome
 }
 \details{
 Question 1216. How long have you lived in your present home, that is, the address where you live now?

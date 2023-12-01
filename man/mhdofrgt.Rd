@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_409.R
 \name{mhdofrgt}
 \alias{mhdofrgt}
-\title{mhdofrgt}
+\title{What x should do: try to forget}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: try to forget
+mhdofrgt
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? n. Try to forget about it

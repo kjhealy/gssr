@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_88.R
 \name{fefight}
 \alias{fefight}
-\title{fefight}
+\title{Are women assigned to combat}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Are women assigned to combat
+fefight
 }
 \details{
 Question 293a. As far as you know, are women now assigned to jobs in the armed forces that would expose them to combat, or are women not assigned to such jobs?

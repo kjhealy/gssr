@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_278.R
 \name{gamegn}
 \alias{gamegn}
-\title{gamegn}
+\title{R play an indoor game past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R play an indoor game past year
+gamegn
 }
 \details{
 Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: e. played an indoor game with other people, like a board game, card game, or strategy game?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_478.R
 \name{femarry}
 \alias{femarry}
-\title{femarry}
+\title{Way of life recommendation for woman}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Way of life recommendation for woman
+femarry
 }
 \details{
 Question 1278. If you were advising a young woman, which of the following ways of life would you recommend?

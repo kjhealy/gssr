@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_320.R
 \name{petb4cmfrt}
 \alias{petb4cmfrt}
-\title{petb4cmfrt}
+\title{How often r used to seek pet for comfort when feeling bad}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r used to seek pet for comfort when feeling bad
+petb4cmfrt
 }
 \details{
 Question When you felt bad, how often did you seek your pet for comfort?

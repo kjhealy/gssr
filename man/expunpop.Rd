@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_294.R
 \name{expunpop}
 \alias{expunpop}
-\title{expunpop}
+\title{Expression of unpopular ideas important for freedom}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Expression of unpopular ideas important for freedom
+expunpop
 }
 \details{
 Question 828. I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important? f. Freedom is being able to express unpopular ideas without fearing for my safety.

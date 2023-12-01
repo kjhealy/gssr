@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_110.R
 \name{churhgrp}
 \alias{churhgrp}
-\title{churhgrp}
+\title{Is church group church itself}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is church group church itself
+churhgrp
 }
 \details{
 Question 331. You said you were a member of a church affiliated group. Is that group or organization the church (synagogue) itself, or some other group related to the church?

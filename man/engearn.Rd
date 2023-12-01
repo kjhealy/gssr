@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_389.R
 \name{engearn}
 \alias{engearn}
-\title{engearn}
+\title{Engineers earn less}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Engineers earn less
+engearn
 }
 \details{
 Question Engineers earn less than other people with equally demanding jobs. Do you strongly agree, agree, disagree, or strongly disagree?

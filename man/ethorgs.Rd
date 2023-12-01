@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_171.R
 \name{ethorgs}
 \alias{ethorgs}
-\title{ethorgs}
+\title{Do ethnic orgs promote separatism}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do ethnic orgs promote separatism
+ethorgs
 }
 \details{
 Question 520. Now I'm going to read you some statements and would like to get your reaction to them. After I read each statement, please tell me if you strongly agree, aggee, neither agree nor disagree, disagree, or strongly disagree with the statement. Political organizations based on race or ethnicity promote separatism and make it hard for all of us to live together.

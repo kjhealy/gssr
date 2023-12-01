@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_279.R
 \name{usehome}
 \alias{usehome}
-\title{usehome}
+\title{Does r use computer at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r use computer at home
+usehome
 }
 \details{
 Question 799b. Do you, yourself, ever use a computer at home?

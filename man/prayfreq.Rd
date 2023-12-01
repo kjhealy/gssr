@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_513.R
 \name{prayfreq}
 \alias{prayfreq}
-\title{prayfreq}
+\title{How often does r pray}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r pray
+prayfreq
 }
 \details{
 Question 1393. Now thinking about the present, about how often do you pray?

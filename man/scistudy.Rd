@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_368.R
 \name{scistudy}
 \alias{scistudy}
-\title{scistudy}
+\title{R has clear understanding of scientific study}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has clear understanding of scientific study
+scistudy
 }
 \details{
 Question 1039. Now, for a slightly different type of question. When you read news stories, you see certain sets of words and terms. We are interested in how many people recognize certain kinds of terms. First, some articles refer to the results of a scientific study. When you read or hear the term scientific study, do you have a clear understanding of what it means, a general sense of what it means, or little understanding of what it means?

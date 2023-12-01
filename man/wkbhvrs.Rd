@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_337.R
 \name{wkbhvrs}
 \alias{wkbhvrs}
-\title{wkbhvrs}
+\title{Employee doing these things at work to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Employee doing these things at work to r
+wkbhvrs
 }
 \details{
 Question In the past 12 months, the person who has engaged in these types of behaviors has most often been: A co-worker, your supervisor or boss, a customer/client/patient

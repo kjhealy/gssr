@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_53.R
 \name{success}
 \alias{success}
-\title{success}
+\title{Tries hard to succeed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Tries hard to succeed
+success
 }
 \details{
 Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE TRIES HARD TO SUCCEED

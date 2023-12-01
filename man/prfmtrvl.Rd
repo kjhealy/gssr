@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_236.R
 \name{prfmtrvl}
 \alias{prfmtrvl}
-\title{prfmtrvl}
+\title{Did not go because too dificult to get there}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did not go because too dificult to get there
+prfmtrvl
 }
 \details{
 Question Thinking about the most recent performance you wanted to attend but did not, which of the following factors were important in your decision not to attend? C. Too difficult to get there.

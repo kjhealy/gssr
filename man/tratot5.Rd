@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_84.R
 \name{tratot5}
 \alias{tratot5}
-\title{tratot5}
+\title{Trauma last 5 yrs, self & relatives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Trauma last 5 yrs, self & relatives
+tratot5
 }
 \details{
 Question 278b. Total number of traumatic events happening to respondent and relatives during last five years.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_33.R
 \name{crimfirm}
 \alias{crimfirm}
-\title{crimfirm}
+\title{How firm is r's opinion on crime issue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How firm is r's opinion on crime issue
+crimfirm
 }
 \details{
 Question 92c. How firm are you about your opinion on crime?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_78.R
 \name{ablegal}
 \alias{ablegal}
-\title{ablegal}
+\title{Should abortion ever be legal}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should abortion ever be legal
+ablegal
 }
 \details{
 Question 251. Do you think abortions should be legal under any circumstances, legal only under certain circumstances, or never legal under any circumstances?

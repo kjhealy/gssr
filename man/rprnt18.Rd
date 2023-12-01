@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_663.R
 \name{rprnt18}
 \alias{rprnt18}
-\title{rprnt18}
+\title{R is parent of another adult in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is parent of another adult in hh
+rprnt18
 }
 \details{
 Question None

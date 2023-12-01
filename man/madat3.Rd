@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_185.R
 \name{madat3}
 \alias{madat3}
-\title{madat3}
+\title{Angry at daughter}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Angry at daughter
+madat3
 }
 \details{
 Question 576. Who were you angry, irritated, or annoyed at? c. Daughter

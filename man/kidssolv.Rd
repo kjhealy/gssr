@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_638.R
 \name{kidssolv}
 \alias{kidssolv}
-\title{kidssolv}
+\title{R's kids living standard compared to r (with volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's kids living standard compared to r (with volunteered response on web)
+kidssolv
 }
 \details{
 Question None

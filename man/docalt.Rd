@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_648.R
 \name{docalt}
 \alias{docalt}
-\title{docalt}
+\title{How often visit alt health care practitioner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often visit alt health care practitioner
+docalt
 }
 \details{
 Question (During the past 12 months, how often did you visit or were visited by... ) an alternative health care practitioner?

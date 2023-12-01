@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_512.R
 \name{religkid}
 \alias{religkid}
-\title{religkid}
+\title{Religion r was raised in}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion r was raised in
+religkid
 }
 \details{
 Question 1388. What religion, if any, were you raised in? Was it Protestant, Catholic, Jewish, some other religion, or no religion?

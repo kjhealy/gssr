@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_609.R
 \name{spanint}
 \alias{spanint}
-\title{spanint}
+\title{If no spanish, r could have been interviewed in english}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If no spanish, r could have been interviewed in english
+spanint
 }
 \details{
 Question 1668. Before 2006 the GSS was only administered in English. Those without enough English to do the interview were excluded as out-of-scope, language problems. In 2006 a Spanish version of the GSS was added. If there had been no Spanish version available in 2006, could this respondent have been interviewed in English or do you think (s/he) would have been excluded as a language problem?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_543.R
 \name{polinter}
 \alias{polinter}
-\title{polinter}
+\title{Expressed political views on internet past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Expressed political views on internet past year
+polinter
 }
 \details{
 Question Here are some different forms of political and social action that people can take. Please indicate, for each one, whether you have done any of these things in the past year, whether you have done it in the more distant past, whether you have not done it but might do it, or have not done it and would never, under any circumstances, do it. I. Expressed political views on the internet

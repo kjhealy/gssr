@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_198.R
 \name{sellbaby}
 \alias{sellbaby}
-\title{sellbaby}
+\title{Surrogate mothers should be permitted}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Surrogate mothers should be permitted
+sellbaby
 }
 \details{
 Question 629. Recently, some married couples who are unable to have children have paid women, called "surrogate mothers," to bear a child for them. When the child is born, the couple becomes its adoptive parents and the surrogate mother receives a fee. Do you think that this practice should be permitted or forbidden under the law?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_265.R
 \name{relig30}
 \alias{relig30}
-\title{relig30}
+\title{R use religion site in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use religion site in past 30 days
+relig30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: n. Religion/church related?

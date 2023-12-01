@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_52.R
 \name{conbusy}
 \alias{conbusy}
-\title{conbusy}
+\title{Major companies:version z}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Major companies:version z
+conbusy
 }
 \details{
 Question 166. I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in teh people running these institutions. Suppose these people are at the other end, at point 7. Where would you place yourself on this scale for: b. Major companies?

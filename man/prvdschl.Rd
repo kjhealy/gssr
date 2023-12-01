@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_445.R
 \name{prvdschl}
 \alias{prvdschl}
-\title{prvdschl}
+\title{Who provides school educ}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who provides school educ
+prvdschl
 }
 \details{
 Question C. (People have different opinions on who should provide services in America. Who do you thin School education for children? (Should it be?)

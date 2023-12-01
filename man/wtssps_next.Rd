@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_667.R
 \name{wtssps_next}
 \alias{wtssps_next}
-\title{wtssps_next}
+\title{Poststratification weight for analyzing gss next follow-on}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Poststratification weight for analyzing gss next follow-on
+wtssps_next
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_337.R
 \name{eharaswk}
 \alias{eharaswk}
-\title{eharaswk}
+\title{Harassed electronically at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Harassed electronically at work
+eharaswk
 }
 \details{
 Question I have received emails, text messages, mobile cell phone calls, or other electronic, internet, or social network communications from people at work that were harassing or threatening. Often, sometimes, rarely, never.

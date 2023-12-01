@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_446.R
 \name{polgbeco}
 \alias{polgbeco}
-\title{polgbeco}
+\title{What is your view on politics in us & world}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is your view on politics in us & world
+polgbeco
 }
 \details{
 Question Here are two options about what affects policies in America. Which of them comes closest to your view

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_316.R
 \name{abhelp4}
 \alias{abhelp4}
-\title{abhelp4}
+\title{R would help with emotional support for abortion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would help with emotional support for abortion
+abhelp4
 }
 \details{
 Question If a close family member or friend decided to have an abortion, which of the following kinds of help, if any, would you give if you were able? D. Help by providing emotional support?

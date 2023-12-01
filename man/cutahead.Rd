@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_323.R
 \name{cutahead}
 \alias{cutahead}
-\title{cutahead}
+\title{R allowed a stranger to go ahead of you in line}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R allowed a stranger to go ahead of you in line
+cutahead
 }
 \details{
 Question 927. During the past 12 months, how often have you done each of the following things: d. Allowed a stranger to go ahead of you in line

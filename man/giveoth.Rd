@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_122.R
 \name{giveoth}
 \alias{giveoth}
-\title{giveoth}
+\title{Given money non-religious charities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Given money non-religious charities
+giveoth
 }
 \details{
 Question 390. During the last year, approximately how much money did you and the other family members in your household contribute to each of the following: c. To non-religious charities, organizations, or causes

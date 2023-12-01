@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_496.R
 \name{jbendyr}
 \alias{jbendyr}
-\title{jbendyr}
+\title{Year last paid job ended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Year last paid job ended
+jbendyr
 }
 \details{
 Question A. When did your last paid job end?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_63.R
 \name{jobaccmp}
 \alias{jobaccmp}
-\title{jobaccmp}
+\title{Doing something meaningful}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doing something meaningful
+jobaccmp
 }
 \details{
 Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? GIVES A FEELING OF DOING SOMETHING MEANINGFUL

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_144.R
 \name{raisefav}
 \alias{raisefav}
-\title{raisefav}
+\title{Workers have favored relation to boss got raise}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Workers have favored relation to boss got raise
+raisefav
 }
 \details{
 Question 456. Think about how pay raises are given where you work. Please tell me all statements that apply. Do you feel that raises are given to: c. Those workers with some favored relationship with the boss.

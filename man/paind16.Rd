@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_07.R
 \name{paind16}
 \alias{paind16}
-\title{paind16}
+\title{Father's industry code (1970)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's industry code (1970)
+paind16
 }
 \details{
 Question 8c. What kind of place did he work for? d. What did they (make/do)?

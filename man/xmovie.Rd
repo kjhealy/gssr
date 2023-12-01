@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_71.R
 \name{xmovie}
 \alias{xmovie}
-\title{xmovie}
+\title{Seen x-rated movie in last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Seen x-rated movie in last year
+xmovie
 }
 \details{
 Question 223a. Have you seen an x-rated movie in the last year?

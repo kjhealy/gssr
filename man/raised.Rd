@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_327.R
 \name{raised}
 \alias{raised}
-\title{raised}
+\title{Situation caused by the way he or she was raised}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Situation caused by the way he or she was raised
+raised
 }
 \details{
 Question 942e. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by the way he or she was raised?

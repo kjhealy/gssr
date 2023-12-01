@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_324.R
 \name{othshelp}
 \alias{othshelp}
-\title{othshelp}
+\title{People should help less fortunate others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People should help less fortunate others
+othshelp
 }
 \details{
 Question 929. Please tell me whether you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree with the following statements: a. People should be willing to help others who are less fortunate

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_155.R
 \name{wrkslfst}
 \alias{wrkslfst}
-\title{wrkslfst}
+\title{R 1st job: self-employed or no?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R 1st job: self-employed or no?
+wrkslfst
 }
 \details{
 Question 488. (Are/were) you self-employed or (do/did) you work for someone else?

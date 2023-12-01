@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_107.R
 \name{solunion}
 \alias{solunion}
-\title{solunion}
+\title{Labor union tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Labor union tries to solve problems
+solunion
 }
 \details{
 Question 329. Do the labor unions to which you belong do anything to try to solve individual or community problems?

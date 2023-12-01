@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_280.R
 \name{wwwhome}
 \alias{wwwhome}
-\title{wwwhome}
+\title{Can r use www at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Can r use www at home
+wwwhome
 }
 \details{
 Question 800a. Can you use the World Wide Web when you are at home?

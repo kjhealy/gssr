@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_441.R
 \name{cuthours}
 \alias{cuthours}
-\title{cuthours}
+\title{Reduction in length of work week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Reduction in length of work week
+cuthours
 }
 \details{
 Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. h. Reducing the work week to create more jobs

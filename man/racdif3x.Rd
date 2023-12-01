@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_661.R
 \name{racdif3x}
 \alias{racdif3x}
-\title{racdif3x}
+\title{Differences due to lack of education}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences due to lack of education
+racdif3x
 }
 \details{
 Question None

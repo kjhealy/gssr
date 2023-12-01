@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_190.R
 \name{amimp}
 \alias{amimp}
-\title{amimp}
+\title{How important is being an american to you}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important is being an american to you
+amimp
 }
 \details{
 Question 585. How important is bein an American to you, where 0 is not at all important and 10 is the most important thing in your life?

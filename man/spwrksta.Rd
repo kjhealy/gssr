@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_04.R
 \name{spwrksta}
 \alias{spwrksta}
-\title{spwrksta}
+\title{Spouse labor force status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse labor force status
+spwrksta
 }
 \details{
 Question 5. Last week was your (wife/husband) working full time, part time, going to school, keeping house, or what?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_239.R
 \name{formldys}
 \alias{formldys}
-\title{formldys}
+\title{The number of days in formal training}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The number of days in formal training
+formldys
 }
 \details{
 Question 702c. In total, did the total number of days add up to...

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_511.R
 \name{nihilism}
 \alias{nihilism}
-\title{nihilism}
+\title{Life serves no purpose}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Life serves no purpose
+nihilism
 }
 \details{
 Question 1387. Do you agree or disagree with the following. . . d. In my opinion, life does not serve any purpose.

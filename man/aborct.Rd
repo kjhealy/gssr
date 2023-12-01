@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_68.R
 \name{aborct}
 \alias{aborct}
-\title{aborct}
+\title{Heard supreme court decision on abortion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Heard supreme court decision on abortion
+aborct
 }
 \details{
 Question 207. Have you heard or read of the recent Supreme Court decision concerning abortion?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_545.R
 \name{forbdcom}
 \alias{forbdcom}
-\title{forbdcom}
+\title{Forbid communist to speak}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Forbid communist to speak
+forbdcom
 }
 \details{
 Question 1517a. Now I would like to ask you some questions about a man who admits he is a Communist. Suppose this admitted Communist wanted to make a speech in your community. Should he be forbidden from speaking or not?

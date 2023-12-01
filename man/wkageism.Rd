@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_310.R
 \name{wkageism}
 \alias{wkageism}
-\title{wkageism}
+\title{R feels discriminated because of age}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R feels discriminated because of age
+wkageism
 }
 \details{
 Question Do you feel in any way discriminated against on your job because of your age?

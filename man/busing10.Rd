@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_46.R
 \name{busing10}
 \alias{busing10}
-\title{busing10}
+\title{Favor busing 10 yrs ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Favor busing 10 yrs ago
+busing10
 }
 \details{
 Question 134b. Now, thinking about ten years ago, that is in 1972, did you then favor or oppose the busing of (negro/black) and white school children from one school district to another?

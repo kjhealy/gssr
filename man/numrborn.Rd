@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_341.R
 \name{numrborn}
 \alias{numrborn}
-\title{numrborn}
+\title{How many born-again experience r had}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many born-again experience r had
+numrborn
 }
 \details{
 Question 995. How many "born-again" experiences have you had?

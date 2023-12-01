@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_210.R
 \name{charactr}
 \alias{charactr}
-\title{charactr}
+\title{How likely x s situation caused by bad character}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x s situation caused by bad character
+charactr
 }
 \details{
 Question 650. In your opinion, how likely is it that NAME's situation might be caused by (READ a-f) -- very likely, somewhat likely, not very likely, or not at all likely? a. His/her own bad character

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_35.R
 \name{jewaj}
 \alias{jewaj}
-\title{jewaj}
+\title{What sort of jew r is}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What sort of jew r is
+jewaj
 }
 \details{
 Question Do you consider yourself Orthodox, Conservative, Reform or none of these? (PROBE FOR EXACT DENOMINATION)

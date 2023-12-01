@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_290.R
 \name{doself}
 \alias{doself}
-\title{doself}
+\title{R figured out problems with web on own}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R figured out problems with web on own
+doself
 }
 \details{
 Question 814. When you want advice or assistance with surfing on the Web, finding a Web site, downloading software or some other online service, or getting your Internet connection to work, which of the following do you do? (Name as many as are correct.) g. Figure it out yourself

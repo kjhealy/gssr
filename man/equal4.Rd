@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_28.R
 \name{equal4}
 \alias{equal4}
-\title{equal4}
+\title{Responsibility of govt to meet needs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Responsibility of govt to meet needs
+equal4
 }
 \details{
 Question 71. On these cards are some opinions about the government and the economy. For each one I'd like you to tell me whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. d. It is the responsibility of government to meet everyone's needs, even in teh case of sickness, poverty, unemployment, and old age.

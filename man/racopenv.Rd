@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_637.R
 \name{racopenv}
 \alias{racopenv}
-\title{racopenv}
+\title{Vote on open housing law (with volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote on open housing law (with volunteered response on web)
+racopenv
 }
 \details{
 Question Suppose there is a community-wide vote on the general housing issue. There are two possible laws to vote on:One law says that a homeowner can decide whom to sell their house to, even if that homeowner prefers not to sell to someone because of their race or color.The second law says that a homeowner cannot refuse to sell to someone because of their race or color.Which law would you vote for?

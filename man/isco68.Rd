@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_595.R
 \name{isco68}
 \alias{isco68}
-\title{isco68}
+\title{Respondent's occupation, 1970 census}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondent's occupation, 1970 census
+isco68
 }
 \details{
 Question 1635. Respondent's occupation (International Standard Classification Codes-1968)

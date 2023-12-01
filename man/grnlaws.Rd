@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_445.R
 \name{grnlaws}
 \alias{grnlaws}
-\title{grnlaws}
+\title{Gov resp tomake industry less damaging}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gov resp tomake industry less damaging
+grnlaws
 }
 \details{
 Question 1193. On the whole, do you think it should or should not be the government's responsibility to impose strict laws to make industry do less damage to the environment? PLEASE CHECK ONLY ONE BOX ONE EACH LINE.

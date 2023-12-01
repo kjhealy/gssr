@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_296.R
 \name{socacts}
 \alias{socacts}
-\title{socacts}
+\title{Physical and emotion social activities past 4}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Physical and emotion social activities past 4
+socacts
 }
 \details{
 Question These questions are about how you feel and how things have been with you during the past 4 weeks. For each question, please give the one answer that comes closest to the way you have been feeling. 841. During the past 4 weeks, how much of the time has your physical health or emotional problems interfered with your social activities (like visiting friends, relatives, etc.)?

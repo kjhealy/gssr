@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_657.R
 \name{brv16dadnum}
 \alias{brv16dadnum}
-\title{brv16dadnum}
+\title{Number of father deaths}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of father deaths
+brv16dadnum
 }
 \details{
 Question Number

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_633.R
 \name{advfmsci}
 \alias{advfmsci}
-\title{advfmsci}
+\title{All of the greatest advances for humanity have come from science and technology}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-All of the greatest advances for humanity have come from science and technology
+advfmsci
 }
 \details{
 Question All of the greatest advances for humanity have come from science and technology.

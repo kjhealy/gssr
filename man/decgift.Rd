@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_199.R
 \name{decgift}
 \alias{decgift}
-\title{decgift}
+\title{Deciding on major charitable gifts.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Deciding on major charitable gifts.
+decgift
 }
 \details{
 Question 638. This question is about some of the financial decisions that you and your (husband/wife) may make. For each decision, please tell me how it was made the last time you faced this decision. c. Deciding on major charitable gifts.

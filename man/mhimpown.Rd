@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_411.R
 \name{mhimpown}
 \alias{mhimpown}
-\title{mhimpown}
+\title{How likely x s situation will improve on its own}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x s situation will improve on its own
+mhimpown
 }
 \details{
 Question 1136. How likely is it that \link{NAME}'s situation will improve on its own? Is it very likely, somewhat likely, not very likely, or not at all likely?

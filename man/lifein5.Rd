@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_313.R
 \name{lifein5}
 \alias{lifein5}
-\title{lifein5}
+\title{R's rating of life overall in five years from 0-10}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's rating of life overall in five years from 0-10
+lifein5
 }
 \details{
 Question If you were asked to rate your overall life from 0-10, where 10 represents the best possible state and 0 represents the worst possible state? B. How do you think you would rate your life five years from today?

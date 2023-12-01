@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_386.R
 \name{sciinfgo}
 \alias{sciinfgo}
-\title{sciinfgo}
+\title{Where online get info}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where online get info
+sciinfgo
 }
 \details{
 Question None

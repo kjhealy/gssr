@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_318.R
 \name{bird}
 \alias{bird}
-\title{bird}
+\title{Bird}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Bird
+bird
 }
 \details{
 Question What kind of pet\link{s} does your family have? D. Bird

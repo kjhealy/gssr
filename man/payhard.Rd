@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_476.R
 \name{payhard}
 \alias{payhard}
-\title{payhard}
+\title{How much pay dependent on working hard}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much pay dependent on working hard
+payhard
 }
 \details{
 Question 1268. In deciding how much people ought to earn, how important should each of these things be, in your opinion: g. How hard he or she works at the job?

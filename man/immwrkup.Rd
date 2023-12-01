@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_173.R
 \name{immwrkup}
 \alias{immwrkup}
-\title{immwrkup}
+\title{Should immigrants overcome bias without help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should immigrants overcome bias without help
+immwrkup
 }
 \details{
 Question 531. Now I'm going to read you some statements and would like to get your reaction to them. After I read each statement, please tell me if you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree with the satement. b. The Irish, Italians, Jews, and many other minorities overcame prejudice and worked their way up. Today's immigrants should do the same without any special favors.

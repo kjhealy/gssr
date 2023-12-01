@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_135.R
 \name{profits2}
 \alias{profits2}
-\title{profits2}
+\title{Should co. pay workers more than shareholders}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should co. pay workers more than shareholders
+profits2
 }
 \details{
 Question 417. To what extent do you agree or disagree with the following statements? b. Corporations should pay more of their profits to workers and less to shareholders.

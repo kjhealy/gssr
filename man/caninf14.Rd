@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_335.R
 \name{caninf14}
 \alias{caninf14}
-\title{caninf14}
+\title{First site mentioned}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-First site mentioned
+caninf14
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? n. First site mentioned.

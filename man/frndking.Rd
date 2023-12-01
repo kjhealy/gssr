@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_39.R
 \name{frndking}
 \alias{frndking}
-\title{frndking}
+\title{Contrast between friend and king}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contrast between friend and king
+frndking
 }
 \details{
 Question 114. There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? d. 1. Friend 7. King

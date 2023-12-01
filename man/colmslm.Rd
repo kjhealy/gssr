@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_32.R
 \name{colmslm}
 \alias{colmslm}
-\title{colmslm}
+\title{Allow anti-american muslim clergymen teaching in college}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow anti-american muslim clergymen teaching in college
+colmslm
 }
 \details{
 Question Should such a person be allowed to teach in a college or university, or not?

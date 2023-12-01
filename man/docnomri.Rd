@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_302.R
 \name{docnomri}
 \alias{docnomri}
-\title{docnomri}
+\title{R agree with doc decision to not order mri}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R agree with doc decision to not order mri
+docnomri
 }
 \details{
 Question 866. Do you agree with the doctor's decision nor to order the MRI at this time?

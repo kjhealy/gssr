@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_644.R
 \name{rsprltv1}
 \alias{rsprltv1}
-\title{rsprltv1}
+\title{Offer sibling place to live}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Offer sibling place to live
+rsprltv1
 }
 \details{
 Question People have different opinions about responsibilities towards relatives. Consider a couple living with their two children who has enough space in their home for someone to come and stay. A sibling of one of the couple needs a place to stay for a few mo

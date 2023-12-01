@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_527.R
 \name{knowsol}
 \alias{knowsol}
-\title{knowsol}
+\title{Know solutions to environment issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Know solutions to environment issues
+knowsol
 }
 \details{
 Question And how much do you feel you know about solutions to these sorts of environmental problems? Please tell me what you think, where 1 indicates you feel you know nothing at all and 5 indicates you feel you know a great deal.

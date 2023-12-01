@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_542.R
 \name{servepeo}
 \alias{servepeo}
-\title{servepeo}
+\title{How committed govt admnstrator's are to serve people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How committed govt admnstrator's are to serve people
+servepeo
 }
 \details{
 Question 1484. Thinking of government administrators in America, how committed are they to serve the people?

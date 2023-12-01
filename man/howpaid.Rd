@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_240.R
 \name{howpaid}
 \alias{howpaid}
-\title{howpaid}
+\title{How get paid last week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How get paid last week
+howpaid
 }
 \details{
 Question 706. As of last week, did your main job pay an hourly wage, daily wage, weekly wage, monthly salary, annual salary, or other pay rate (e.g. piece rate, commission, wage + tips, and other mixed payment methods), irrespective of the time between payrolls and the use of bonuses or profit-sharing?

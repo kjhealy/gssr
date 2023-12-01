@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_449.R
 \name{hlpinflu}
 \alias{hlpinflu}
-\title{hlpinflu}
+\title{Does r have people to ask to influence important decision}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r have people to ask to influence important decision
+hlpinflu
 }
 \details{
 Question 1494. Some people because of their job, position in the community or contacts, are asked by others to help influence important decisions in their favor. b. And are there people you could ask to help influence important decisions in your favor?

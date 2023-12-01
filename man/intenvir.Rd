@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_381.R
 \name{intenvir}
 \alias{intenvir}
-\title{intenvir}
+\title{Interested in environmental issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested in environmental issues
+intenvir
 }
 \details{
 Question Issues about environmental pollution. (Are you very interested, moderately interested, or not at all interested?)

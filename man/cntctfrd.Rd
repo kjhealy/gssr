@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_465.R
 \name{cntctfrd}
 \alias{cntctfrd}
-\title{cntctfrd}
+\title{How often r contacts their most-contacted close friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r contacts their most-contacted close friend
+cntctfrd
 }
 \details{
 Question And, think about the close friend you have contact with most frequently: How often do you have contact with that close friend, either face-to-face, by phone, internet or any other communication device?

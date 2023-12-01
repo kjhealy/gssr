@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_577.R
 \name{dwelown16}
 \alias{dwelown16}
-\title{dwelown16}
+\title{Did rs family own or rent home when r was age 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did rs family own or rent home when r was age 16
+dwelown16
 }
 \details{
 Question B. When you were 16 years old, did your family own your own home, pay rent, or something else?

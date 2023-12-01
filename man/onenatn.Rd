@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_529.R
 \name{onenatn}
 \alias{onenatn}
-\title{onenatn}
+\title{One nation or allowed to become fully separate?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-One nation or allowed to become fully separate?
+onenatn
 }
 \details{
 Question 1438. Which of these two statements comes closer to your own view?

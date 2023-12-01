@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_458.R
 \name{grppol}
 \alias{grppol}
-\title{grppol}
+\title{Participated in activity of political party}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Participated in activity of political party
+grppol
 }
 \details{
 Question 1236. People sometimes belong to different kinds of groups or associations. The next few questions contain different types of groups. For each type of group, please select a response to say whether you have participated in the activities of this group in the past 12 months. a. A political party, club, or association

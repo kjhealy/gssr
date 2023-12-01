@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_414.R
 \name{mhhlprel}
 \alias{mhhlprel}
-\title{mhhlprel}
+\title{How important: turn to religious leader}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: turn to religious leader
+mhhlprel
 }
 \details{
 Question 1141. Now I'm going to read you a list of things that \link{NAME} might do to get help with (her/his) situation. For each statement please tell me using a scale from 1 to 10, where 1 is not at all important and 10 is very important, how important you think each would be for \link{NAME} to use in order to get help with (his/her) situation. c. Turn to a minister, priest, Rabbi, or other religious leader

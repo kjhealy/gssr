@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_633.R
 \name{freemind}
 \alias{freemind}
-\title{freemind}
+\title{To understand the world, we must free our minds from old traditions and beliefs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-To understand the world, we must free our minds from old traditions and beliefs
+freemind
 }
 \details{
 Question To understand the world, we must free our minds from old traditions and beliefs.

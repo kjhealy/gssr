@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_472.R
 \name{govminc}
 \alias{govminc}
-\title{govminc}
+\title{Govmnt should provide minimum income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govmnt should provide minimum income
+govminc
 }
 \details{
 Question 1256. Do you agree or disagree: g. The government should provide everyone with a guaranteed basic income.

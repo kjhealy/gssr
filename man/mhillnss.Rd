@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_410.R
 \name{mhillnss}
 \alias{mhillnss}
-\title{mhillnss}
+\title{X is experiencing mental illness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X is experiencing mental illness
+mhillnss
 }
 \details{
 Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... i. Mental illness

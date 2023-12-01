@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_512.R
 \name{densp}
 \alias{densp}
-\title{densp}
+\title{If protestant, r's spouse's denomination}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If protestant, r's spouse's denomination
+densp
 }
 \details{
 Question 1389a. If Protestant, what specific denomination was that?

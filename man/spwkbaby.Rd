@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_485.R
 \name{spwkbaby}
 \alias{spwkbaby}
-\title{spwkbaby}
+\title{Did spouse work with young children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did spouse work with young children
+spwkbaby
 }
 \details{
 Question 1307. What about your spouse/partner at that time -- did he or she work outside the home full-time, part-time, or not at all: b. And what about when a child was under school age?

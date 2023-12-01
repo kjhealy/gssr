@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_504.R
 \name{helporg1}
 \alias{helporg1}
-\title{helporg1}
+\title{Willing to work harder for the firm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Willing to work harder for the firm
+helporg1
 }
 \details{
 Question 1361. To what extent do you agree or disagree with each of the following statements? a. I am willing to work harder than I have to in order to help the firm or organization I work for succeed.

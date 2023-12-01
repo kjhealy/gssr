@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_116.R
 \name{reborn}
 \alias{reborn}
-\title{reborn}
+\title{Has r ever had a 'born again' experience}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r ever had a 'born again' experience
+reborn
 }
 \details{
 Question 370. Would you say you have been "born again" or have had a "born again" experience -- that is, a turning point in your life when you committed yourself to Christ?

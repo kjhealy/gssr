@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_11.R
 \name{whencol}
 \alias{whencol}
-\title{whencol}
+\title{When received college degree}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When received college degree
+whencol
 }
 \details{
 Question In what year did you receive the {response to RDEGHIfill} degree?

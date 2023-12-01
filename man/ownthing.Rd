@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_125.R
 \name{ownthing}
 \alias{ownthing}
-\title{ownthing}
+\title{Youthful protest is good}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Youthful protest is good
+ownthing
 }
 \details{
 Question 400. Now I am going to read you several statements. For each one please tell me whether you agree strongly, agree, disagree, or disagree strongly: a. It is wonderful that young people today have greater freedom to protest against things they don't like and to 'do their own thing.'

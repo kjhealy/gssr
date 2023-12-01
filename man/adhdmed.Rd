@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_332.R
 \name{adhdmed}
 \alias{adhdmed}
-\title{adhdmed}
+\title{Children should be given medication to treat adhd}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children should be given medication to treat adhd
+adhdmed
 }
 \details{
 Question 959. Should children be given medication to treat ADHD?

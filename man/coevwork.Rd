@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_04.R
 \name{coevwork}
 \alias{coevwork}
-\title{coevwork}
+\title{Partner ever work as long as a year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner ever work as long as a year
+coevwork
 }
 \details{
 Question None

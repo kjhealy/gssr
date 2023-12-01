@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_504.R
 \name{proudwrk}
 \alias{proudwrk}
-\title{proudwrk}
+\title{I am proud of the type of work i do}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I am proud of the type of work i do
+proudwrk
 }
 \details{
 Question 1361. To what extent do you agree or disagree with each of the following statements? e. I am proud of the type of work I do.

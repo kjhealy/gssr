@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_529.R
 \name{moveusa}
 \alias{moveusa}
-\title{moveusa}
+\title{Willing to move outside america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Willing to move outside america
+moveusa
 }
 \details{
 Question 1437. If you could improve your work or living conditions, how willing or unwilling would you be to... d. Move outside America

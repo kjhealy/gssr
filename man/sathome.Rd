@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_194.R
 \name{sathome}
 \alias{sathome}
-\title{sathome}
+\title{How satisfied with your purchase}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How satisfied with your purchase
+sathome
 }
 \details{
 Question 606. How satisfied are you with your purchase?

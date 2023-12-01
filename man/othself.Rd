@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_112.R
 \name{othself}
 \alias{othself}
-\title{othself}
+\title{Was this prob of narrow or wide concern}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was this prob of narrow or wide concern
+othself
 }
 \details{
 Question 346a. If yes: Was this need or problem primarily of concern to you, your friends, and family, or was it an issue of wider concern?

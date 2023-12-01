@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_312.R
 \name{depress}
 \alias{depress}
-\title{depress}
+\title{Told have depression}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Told have depression
+depress
 }
 \details{
 Question Now I would like to ask you some questions about general health conditions. Has a doctor, nurse, or other health professional EVER told you that you had: D. Depression?

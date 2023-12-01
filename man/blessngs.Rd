@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_344.R
 \name{blessngs}
 \alias{blessngs}
-\title{blessngs}
+\title{Feel thankful for r's blessings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel thankful for r's blessings
+blessngs
 }
 \details{
 Question You may experience the following in your daily life, if so how often. 1012. I feel thankful for my blessings.

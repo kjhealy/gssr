@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_348.R
 \name{numpolit}
 \alias{numpolit}
-\title{numpolit}
+\title{How many r belongs to political clubs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to political clubs
+numpolit
 }
 \details{
 Question 1025d. How many political clubs do you belong to?

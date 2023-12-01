@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_109.R
 \name{actfarm}
 \alias{actfarm}
-\title{actfarm}
+\title{R active in farm organization}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in farm organization
+actfarm
 }
 \details{
 Question 330. Have you ever done any active work for the farm organizations? I mean been a leader, helped organize meetings, been an officer, or given time or money?

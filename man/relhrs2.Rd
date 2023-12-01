@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_123.R
 \name{relhrs2}
 \alias{relhrs2}
-\title{relhrs2}
+\title{Hours religious act outside of home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours religious act outside of home
+relhrs2
 }
 \details{
 Question 391b. In the past month, about how many hours have you spent doing religious services activities outside your home (such as attending religious services, prayer groups, bible studies, fellowship meetings, church leadership meetings, etc.)?

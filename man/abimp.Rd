@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_68.R
 \name{abimp}
 \alias{abimp}
-\title{abimp}
+\title{Importance of abortion issue to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of abortion issue to r
+abimp
 }
 \details{
 Question 209a. How important is the abortion issue to you?

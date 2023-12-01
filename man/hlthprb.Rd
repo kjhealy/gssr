@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_647.R
 \name{hlthprb}
 \alias{hlthprb}
-\title{hlthprb}
+\title{Difficulties with work or housework due to health prob}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Difficulties with work or housework due to health prob
+hlthprb
 }
 \details{
 Question During the past 4 weeks how often... Have you had difficulties with work or household activities because of health problems?

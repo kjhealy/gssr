@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_294.R
 \name{freeprss}
 \alias{freeprss}
-\title{freeprss}
+\title{Press should be completely free}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Press should be completely free
+freeprss
 }
 \details{
 Question 829. Many people think it is important to have complete freedom of the press and news media in the United States. Others think that the press too often invades the privacy of public figures�like Senators or members of Congress by printing stories that contain personal details about their private lives. Which of the three statements on this card comes closest to your feelings about balancing freedom of the press and the right to privacy? READ STATEMENTS 1-3 ONLY. CIRCLE ONLY ONE CODE.829. Many people think it is important to have complete freedom of the press and news media in the United States. Others think that the press too often invades the privacy of public figures�like Senators or members of Congress by printing stories that contain personal details about their private lives. Which of the three statements on this card comes closest to your feelings about balancing freedom of the press and the right to privacy?

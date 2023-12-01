@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_336.R
 \name{wrkslffam}
 \alias{wrkslffam}
-\title{wrkslffam}
+\title{Does r work in family business or farm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r work in family business or farm
+wrkslffam
 }
 \details{
 Question (Do/did) you work in your own family business or farm?

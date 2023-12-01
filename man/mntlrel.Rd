@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_332.R
 \name{mntlrel}
 \alias{mntlrel}
-\title{mntlrel}
+\title{Effect of mental health problem on relation with}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Effect of mental health problem on relation with
+mntlrel
 }
 \details{
 Question 960. I want you to think about the person with a mental health problem with whom you have had the most contact. As a result of the mental health problem, would you say that your relationship with this person...

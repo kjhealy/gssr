@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_516.R
 \name{relext3}
 \alias{relext3}
-\title{relext3}
+\title{Religious extremists should be allowed to publish their views on the internet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religious extremists should be allowed to publish their views on the internet
+relext3
 }
 \details{
 Question There are some people whose views are considered extreme by the majority. Consider religious extremists, that is people who believe that their religion is the only true faith and all other religions should be considered as enemies. C. Do you think such people should be allowed to publish their views on the Internet or social media? Would you say?

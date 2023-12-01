@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_441.R
 \name{makejobs}
 \alias{makejobs}
-\title{makejobs}
+\title{Govt create new jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt create new jobs
+makejobs
 }
 \details{
 Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. d. Government financing of projects to create new jobs

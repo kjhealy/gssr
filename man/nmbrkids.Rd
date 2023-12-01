@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_645.R
 \name{nmbrkids}
 \alias{nmbrkids}
-\title{nmbrkids}
+\title{Number of children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of children
+nmbrkids
 }
 \details{
 Question How many children have you ever had? Please include any biological, adoptive, foster or step-children.

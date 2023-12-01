@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_72.R
 \name{suicide4}
 \alias{suicide4}
-\title{suicide4}
+\title{Suicide if tired of living}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suicide if tired of living
+suicide4
 }
 \details{
 Question 227. Do you think a person has the right to end his or her own life if this person: d. Is tired of living and ready to die?

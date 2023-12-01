@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_66.R
 \name{fework}
 \alias{fework}
-\title{fework}
+\title{Should women work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should women work
+fework
 }
 \details{
 Question 200. Do you approve or disapprove of a married woman earning money in business or industry if she has a husband capable of supporting her?

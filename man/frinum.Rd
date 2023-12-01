@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_453.R
 \name{frinum}
 \alias{frinum}
-\title{frinum}
+\title{Number of close friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of close friends
+frinum
 }
 \details{
 Question Thinking now of close friends not your husband or wife or partner or family members but people you feel fairly close to... 1208. How many close friends would you say you have?

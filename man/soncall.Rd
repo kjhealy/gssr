@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_452.R
 \name{soncall}
 \alias{soncall}
-\title{soncall}
+\title{Contact with son}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contact with son
+soncall
 }
 \details{
 Question 1204c. And how often do you have any other contact with your son besides visiting, either by telephone or letter?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_543.R
 \name{crimlose}
 \alias{crimlose}
-\title{crimlose}
+\title{People convicted of serious crimes lose citizen rights}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People convicted of serious crimes lose citizen rights
+crimlose
 }
 \details{
 Question On a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it: B. That people convicted of serious crimes lose their citizen rights

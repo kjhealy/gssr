@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_165.R
 \name{kdpres105plus}
 \alias{kdpres105plus}
-\title{kdpres105plus}
+\title{R child occupational prestige score using threshold method (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R child occupational prestige score using threshold method (2010)
+kdpres105plus
 }
 \details{
 Question None

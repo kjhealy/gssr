@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_573.R
 \name{ethnic}
 \alias{ethnic}
-\title{ethnic}
+\title{Country of family origin}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Country of family origin
+ethnic
 }
 \details{
 Question 1596. From what countries or part of the world did your ancestors come?

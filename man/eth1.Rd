@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_573.R
 \name{eth1}
 \alias{eth1}
-\title{eth1}
+\title{1st mentioned country of origin}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-1st mentioned country of origin
+eth1
 }
 \details{
 Question A. IF MORE THAN ONE COUNTRY NAMED:Which one of these countries do you feel closer to?

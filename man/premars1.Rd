@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_508.R
 \name{premars1}
 \alias{premars1}
-\title{premars1}
+\title{Is premarital sex wrong?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is premarital sex wrong?
+premars1
 }
 \details{
 Question 1374a. Do you think it is wrong or not wrong if a man and a woman have sexual relations before marriage?

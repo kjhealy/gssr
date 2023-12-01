@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_164.R
 \name{kdindstatus}
 \alias{kdindstatus}
-\title{kdindstatus}
+\title{Kdind10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kdind10 coding status
+kdindstatus
 }
 \details{
 Question None

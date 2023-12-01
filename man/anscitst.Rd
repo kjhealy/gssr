@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_382.R
 \name{anscitst}
 \alias{anscitst}
-\title{anscitst}
+\title{Scientists shld be allowed to do research animals' pain & injury}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientists shld be allowed to do research animals' pain & injury
+anscitst
 }
 \details{
 Question Scientists should be allowed to do research that causes pain and injury to animals like dogs and chimpanzees if it produces new information about human health problems. (Do you strongly agree, agree, disagree, or strongly disagree?)

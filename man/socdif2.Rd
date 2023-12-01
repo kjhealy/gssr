@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_126.R
 \name{socdif2}
 \alias{socdif2}
-\title{socdif2}
+\title{Paid what you need}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Paid what you need
+socdif2
 }
 \details{
 Question 402. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. b. Personal income should not be determined solely by one's work. Rather, everybody should get what he/she needs to provide a decent life to his/her family.

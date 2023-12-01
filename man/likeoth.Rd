@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_190.R
 \name{likeoth}
 \alias{likeoth}
-\title{likeoth}
+\title{How much do you like or dislike the person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much do you like or dislike the person
+likeoth
 }
 \details{
 Question 584. Thinking generally now, how much do you like or dislike the person, the people who made you angry or annoyed?

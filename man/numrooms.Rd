@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_629.R
 \name{numrooms}
 \alias{numrooms}
-\title{numrooms}
+\title{Number of rooms in home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of rooms in home
+numrooms
 }
 \details{
 Question How many rooms are there in your home (apartment or house)? Do not count any separate kitchens, bathrooms, garages, balconies, hallways or cupboards.

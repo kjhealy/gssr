@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_11.R
 \name{codipged}
 \alias{codipged}
-\title{codipged}
+\title{Partner diploma, ged, or other}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner diploma, ged, or other
+codipged
 }
 \details{
 Question None

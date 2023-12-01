@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_340.R
 \name{sadblue}
 \alias{sadblue}
-\title{sadblue}
+\title{R is a person who feels sad and blue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is a person who feels sad and blue
+sadblue
 }
 \details{
 Question 985. For each of the following, please indicate how well the description applies to you by circling one number: b. A person who often feels sad and blue

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_626.R
 \name{abpoorg}
 \alias{abpoorg}
-\title{abpoorg}
+\title{Low income--cant afford more children (grid on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Low income--cant afford more children (grid on web)
+abpoorg
 }
 \details{
 Question (Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .) If the family has a very low income and cannot afford any more children?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_454.R
 \name{fricall}
 \alias{fricall}
-\title{fricall}
+\title{Contact with closest friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contact with closest friend
+fricall
 }
 \details{
 Question 1208f. About how long would it take you to get to where this friend lives? Think of the time it usually takes door to door.

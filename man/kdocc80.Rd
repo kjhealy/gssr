@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_163.R
 \name{kdocc80}
 \alias{kdocc80}
-\title{kdocc80}
+\title{R child census occupation code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R child census occupation code (1980)
+kdocc80
 }
 \details{
 Question 507a. What kind of work is/was \link{CHILD} doing? That is, what is/was his/her job called? b. What (does/did) (he/she) actually do in that job? Tell me what (are/were) some of (his/her) main duties?

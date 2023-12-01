@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_276.R
 \name{srcheng1}
 \alias{srcheng1}
-\title{srcheng1}
+\title{Does r know the name of a search engine}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know the name of a search engine
+srcheng1
 }
 \details{
 Question 791. Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. a. Do you know the name of any search engine?

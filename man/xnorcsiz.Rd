@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_17.R
 \name{xnorcsiz}
 \alias{xnorcsiz}
-\title{xnorcsiz}
+\title{Expanded norc size code}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Expanded norc size code
+xnorcsiz
 }
 \details{
 Question None

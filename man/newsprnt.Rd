@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_406.R
 \name{newsprnt}
 \alias{newsprnt}
-\title{newsprnt}
+\title{How often does r read traditional newspaper}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r read traditional newspaper
+newsprnt
 }
 \details{
 Question 1122. How often do you read a traditional newspaper (i.e. one that is printed with ink on paper and NOT counting what you read online) -- every day, a few times a week, once a week, less than once a week, or never?

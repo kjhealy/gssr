@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_137.R
 \name{fndjob8}
 \alias{fndjob8}
-\title{fndjob8}
+\title{Heard job just came here and asked for work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Heard job just came here and asked for work
+fndjob8
 }
 \details{
 Question 425. There are many ways people hear about jobs - such as from ads, employment agencies, or from other people. Could you tell me how you found out about work at your present employer? Please tell me all the ways that you found out about this jo. h. I just came here and asked for work.

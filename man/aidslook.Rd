@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_554.R
 \name{aidslook}
 \alias{aidslook}
-\title{aidslook}
+\title{A health-look person may have aids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A health-look person may have aids
+aidslook
 }
 \details{
 Question A. Is it possible for a healthy-looking person to have the AIDS virus?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_436.R
 \name{opprof}
 \alias{opprof}
-\title{opprof}
+\title{Child of profssnl has better opportunity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Child of profssnl has better opportunity
+opprof
 }
 \details{
 Question 1168. Please indicate whether you agree or disagree with each of the following statements. b. A person whose father is a professional has much better chance of getting ahead in life than a person whose father is a factory worker.

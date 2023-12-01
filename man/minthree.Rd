@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_567.R
 \name{minthree}
 \alias{minthree}
-\title{minthree}
+\title{Imputed poverty line for family of three}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imputed poverty line for family of three
+minthree
 }
 \details{
 Question 1581. And finally, what amount of weekly income would you use as a "poverty line" for a family of three, made up of a woman and two children, in this community?

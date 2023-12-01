@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_274.R
 \name{doonown}
 \alias{doonown}
-\title{doonown}
+\title{Has r figured out problems with software on own}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r figured out problems with software on own
+doonown
 }
 \details{
 Question 789. When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) \link{PROMPT: Anything else?} g. Figure it out yourself?

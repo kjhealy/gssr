@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_494.R
 \name{unionsbd}
 \alias{unionsbd}
-\title{unionsbd}
+\title{Strong trade unions are bad for us economy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Strong trade unions are bad for us economy
+unionsbd
 }
 \details{
 Question C. (To what extent do you agree or disagree with the following statements?) Strong trade unions are bad for America?s economy.

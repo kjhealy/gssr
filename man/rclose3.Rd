@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_94.R
 \name{rclose3}
 \alias{rclose3}
-\title{rclose3}
+\title{R feels especially close to person #3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R feels especially close to person #3
+rclose3
 }
 \details{
 Question 314a. Which of these people do you feel especially close to?

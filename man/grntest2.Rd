@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_521.R
 \name{grntest2}
 \alias{grntest2}
-\title{grntest2}
+\title{Nuke waste dangerous for thousands of yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nuke waste dangerous for thousands of yrs
+grntest2
 }
 \details{
 Question 1416. And for each of these statements, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? b. Some radioactive waste from nuclear power stations will stay dangerous for thousands of years.

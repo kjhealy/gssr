@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_227.R
 \name{conghlp2}
 \alias{conghlp2}
-\title{conghlp2}
+\title{How much congregation help out with prob}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much congregation help out with prob
+conghlp2
 }
 \details{
 Question 673. If you had a problem or were faced with a difficult situation, how much comfort would the people in your congregation be willing to give you?

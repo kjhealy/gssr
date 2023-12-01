@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_488.R
 \name{eldersup}
 \alias{eldersup}
-\title{eldersup}
+\title{Adult children are imp to help elderly parents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Adult children are imp to help elderly parents
+eldersup
 }
 \details{
 Question Adult children are an important source of help for elderly parents.

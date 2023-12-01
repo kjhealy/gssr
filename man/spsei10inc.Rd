@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_598.R
 \name{spsei10inc}
 \alias{spsei10inc}
-\title{spsei10inc}
+\title{Percentage of $45k+ earners in spocc10 based on acs 2010}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage of $45k+ earners in spocc10 based on acs 2010
+spsei10inc
 }
 \details{
 Question None

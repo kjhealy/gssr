@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_234.R
 \name{prfmwhy7}
 \alias{prfmwhy7}
-\title{prfmwhy7}
+\title{Imp of location in decision to attend perf}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of location in decision to attend perf
+prfmwhy7
 }
 \details{
 Question People attend performances for different reasons. G. How big a reason was wanting to experience a performance at this location in your decision to attend this performance? Was it a major reason, a minor reason, or not a reason at all?

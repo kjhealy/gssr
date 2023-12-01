@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_165.R
 \name{sbsex7}
 \alias{sbsex7}
-\title{sbsex7}
+\title{Sex of r 7th sibling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of r 7th sibling
+sbsex7
 }
 \details{
 Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is \link{NAME} male or female?

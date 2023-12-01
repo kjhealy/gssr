@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_126.R
 \name{socdif4}
 \alias{socdif4}
-\title{socdif4}
+\title{Don't give equal chance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Don't give equal chance
+socdif4
 }
 \details{
 Question 402. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. d. One of the big problems in this country is that we don't give everyone an equal choice.

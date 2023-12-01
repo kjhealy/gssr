@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_452.R
 \name{daucall}
 \alias{daucall}
-\title{daucall}
+\title{Contact with daughter}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contact with daughter
+daucall
 }
 \details{
 Question 1203c. And how often do you have any other contact with your daughter besides visiting, either by telephone or letter?

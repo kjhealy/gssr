@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_270.R
 \name{artschng}
 \alias{artschng}
-\title{artschng}
+\title{Web change mind about arts on web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Web change mind about arts on web
+artschng
 }
 \details{
 Question 782. Now I would like you to think about the last time you used the Web to get information or exchange views about music, film, the visual arts, dance, theater, museums, literature, or related topics. b. Did your Web experience change your tastes or opinions in any way?

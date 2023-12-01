@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_525.R
 \name{genegen}
 \alias{genegen}
-\title{genegen}
+\title{How dangerous modifying genes in crops}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How dangerous modifying genes in crops
+genegen
 }
 \details{
 Question 1430. Do you think that modifying the genes of certain crops is:

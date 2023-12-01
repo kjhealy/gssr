@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_349.R
 \name{numfarm}
 \alias{numfarm}
-\title{numfarm}
+\title{How many r belongs to farm organizations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to farm organizations
+numfarm
 }
 \details{
 Question 1025l. How many farm organizations do you belong to?

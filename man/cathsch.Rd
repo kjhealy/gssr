@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_123.R
 \name{cathsch}
 \alias{cathsch}
-\title{cathsch}
+\title{Children attend catholic school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children attend catholic school
+cathsch
 }
 \details{
 Question 394a. If no to Q.394: Which types of school do/did your children attend? 2. Catholic school

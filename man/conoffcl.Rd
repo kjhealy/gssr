@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_326.R
 \name{conoffcl}
 \alias{conoffcl}
-\title{conoffcl}
+\title{Have ever contacted an elected official}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have ever contacted an elected official
+conoffcl
 }
 \details{
 Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? d. Contact an elected official by phone, letter, or e-mail

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_141.R
 \name{othduty1}
 \alias{othduty1}
-\title{othduty1}
+\title{You train employees safe use equip. not supervise}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You train employees safe use equip. not supervise
+othduty1
 }
 \details{
 Question 444. (On the card you have/Here is a card listing) 7 different kinds of work activities. Which ones do you do with employees whom you do not officially supervise? Please mention all that apply: a. Train employees in the safe use of equipment or tools.

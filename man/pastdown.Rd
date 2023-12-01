@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_175.R
 \name{pastdown}
 \alias{pastdown}
-\title{pastdown}
+\title{Degree national economy has gotten worse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Degree national economy has gotten worse
+pastdown
 }
 \details{
 Question 542b. Would you say much worse or somewhat worse?

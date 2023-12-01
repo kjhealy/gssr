@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_47.R
 \name{racinc}
 \alias{racinc}
-\title{racinc}
+\title{Equality in income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Equality in income
+racinc
 }
 \details{
 Question 147. If a black person has the same qualifications as a white person, do you feel that he or she can make as much money?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_407.R
 \name{disabld7}
 \alias{disabld7}
-\title{disabld7}
+\title{R has difficulty in daily activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has difficulty in daily activities
+disabld7
 }
 \details{
 Question 1130. Participating fully in school, housework, or other daily activities?

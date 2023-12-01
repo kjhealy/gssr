@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_545.R
 \name{big5c2}
 \alias{big5c2}
-\title{big5c2}
+\title{R see oneself as someone who tends to be lazy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R see oneself as someone who tends to be lazy
+big5c2
 }
 \details{
 Question 1515. To what extent do you agree or disagree with the following statements? I see myself as someone who... c. Tends to be lazy

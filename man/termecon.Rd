@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_249.R
 \name{termecon}
 \alias{termecon}
-\title{termecon}
+\title{Worry about economic burden of terminal illness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Worry about economic burden of terminal illness
+termecon
 }
 \details{
 Question 732. Now, I would like to talk about concerns you may have when considering what may happen at the end of your life. Please tell me how much you agree or disagree with each of these statements: a. I worry about the economic burden that a terminal illness might cause my family.

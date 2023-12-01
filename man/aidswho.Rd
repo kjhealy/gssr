@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_547.R
 \name{aidswho}
 \alias{aidswho}
-\title{aidswho}
+\title{R's relationship to closest aids victim}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's relationship to closest aids victim
+aidswho
 }
 \details{
 Question 1526. Think about the person you have known best, living or dead, who came down with AIDS. Please tell me the letter of the category on the card which best describes your relationship to that person.

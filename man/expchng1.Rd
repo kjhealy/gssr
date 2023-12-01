@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_342.R
 \name{expchng1}
 \alias{expchng1}
-\title{expchng1}
+\title{Cause of religious change1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Cause of religious change1
+expchng1
 }
 \details{
 Question 999. Open-ended questions for how people who had undergone spiritual or religious change described their experiences. Occurrence or aspects of religious or spiritual change.

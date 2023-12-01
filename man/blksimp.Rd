@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_48.R
 \name{blksimp}
 \alias{blksimp}
-\title{blksimp}
+\title{Have conditions for blacks improved}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have conditions for blacks improved
+blksimp
 }
 \details{
 Question 154. In the past few years, do you think conditions for black people have improved, gotten worse, or stayed about the same?

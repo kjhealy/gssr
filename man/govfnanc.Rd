@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_634.R
 \name{govfnanc}
 \alias{govfnanc}
-\title{govfnanc}
+\title{Govt should finance projects to create new jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should finance projects to create new jobs
+govfnanc
 }
 \details{
 Question The government should finance projects to create new jobs, even if it might require a tax increase

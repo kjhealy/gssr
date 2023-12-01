@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_498.R
 \name{findjob}
 \alias{findjob}
-\title{findjob}
+\title{Could r find a job <unemployed r's>}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Could r find a job <unemployed r's>
+findjob
 }
 \details{
 Question 1331. If you were looking actively, how easy or difficult do you think it would be for you to find an acceptable job?

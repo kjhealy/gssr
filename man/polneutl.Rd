@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_268.R
 \name{polneutl}
 \alias{polneutl}
-\title{polneutl}
+\title{Visit politically neutral sites}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Visit politically neutral sites
+polneutl
 }
 \details{
 Question 776. Is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that you: b. Visit sites that provide information without promoting a particular political point of view?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_164.R
 \name{kdind10}
 \alias{kdind10}
-\title{kdind10}
+\title{R child census industry code (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R child census industry code (2010)
+kdind10
 }
 \details{
 Question None

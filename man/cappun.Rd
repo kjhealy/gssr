@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_32.R
 \name{cappun}
 \alias{cappun}
-\title{cappun}
+\title{Favor or oppose death penalty for murder}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Favor or oppose death penalty for murder
+cappun
 }
 \details{
 Question 82b. Do you favor or oppose the death enalty for persons convicted of murder?

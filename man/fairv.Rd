@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_637.R
 \name{fairv}
 \alias{fairv}
-\title{fairv}
+\title{People fair or try to take advantage (with volunteered resposne on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People fair or try to take advantage (with volunteered resposne on web)
+fairv
 }
 \details{
 Question None

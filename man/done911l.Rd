@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_422.R
 \name{done911l}
 \alias{done911l}
-\title{done911l}
+\title{Has r avoided tall buildings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r avoided tall buildings
+done911l
 }
 \details{
 Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know avoided tall buildings? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?

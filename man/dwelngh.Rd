@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_577.R
 \name{dwelngh}
 \alias{dwelngh}
-\title{dwelngh}
+\title{Dwelling compared to others in nbrhd}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Dwelling compared to others in nbrhd
+dwelngh
 }
 \details{
 Question 1610a. Compared to houses/apartments in the neighborhood, would you say the house/ apartment was . . .

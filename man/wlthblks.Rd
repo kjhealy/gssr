@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_126.R
 \name{wlthblks}
 \alias{wlthblks}
-\title{wlthblks}
+\title{Rich - poor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rich - poor
+wlthblks
 }
 \details{
 Question 403. Now I have some questions about different groups in our society. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. A score of 1 means that you think almost all of the people in that group are "rich." A score of 7 means that you think almost everyone in the group are "poor." A score of 4 means you think that the group is not towards one end or another, and of course you may choose any number in between that comes closest to where you think people in that group stand. 3. Blacks

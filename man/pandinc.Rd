@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_659.R
 \name{pandinc}
 \alias{pandinc}
-\title{pandinc}
+\title{Change in household income over covid pandemic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Change in household income over covid pandemic
+pandinc
 }
 \details{
 Question Thinking about the income of your household before the COVID-19 pandemic compared with now, would you say it has increased, decreased or stayed about the same?

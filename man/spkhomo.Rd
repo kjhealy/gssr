@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_31.R
 \name{spkhomo}
 \alias{spkhomo}
-\title{spkhomo}
+\title{Allow homosexual to speak}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow homosexual to speak
+spkhomo
 }
 \details{
 Question 81. And what about a man who admits that he is a homosexual? a. Suppose this admitted homosexual wanted to make a speech in your community. Should he be allowed to speak, or not?

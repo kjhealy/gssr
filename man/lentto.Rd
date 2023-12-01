@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_459.R
 \name{lentto}
 \alias{lentto}
-\title{lentto}
+\title{Lent money to another person past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Lent money to another person past 12 months
+lentto
 }
 \details{
 Question 1240. During the past 12 months, how often have you done any of the following things for people you know personally, such as relatives, friends, neighbors or other acquaintances? b. Lent quite a bit of money to another person

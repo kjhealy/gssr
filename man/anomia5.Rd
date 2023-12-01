@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_60.R
 \name{anomia5}
 \alias{anomia5}
-\title{anomia5}
+\title{Lot of the average man getting worse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Lot of the average man getting worse
+anomia5
 }
 \details{
 Question 178. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. e. In spite of what some people say, the lot (situation/condition) of the average man is getting worse, not better.

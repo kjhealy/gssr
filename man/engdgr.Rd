@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_388.R
 \name{engdgr}
 \alias{engdgr}
-\title{engdgr}
+\title{Engineering work dangerous}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Engineering work dangerous
+engdgr
 }
 \details{
 Question Engineering work is dangerous. Do you strongly agree, agree, disagree, or strongly disagree?

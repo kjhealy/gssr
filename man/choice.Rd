@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_294.R
 \name{choice}
 \alias{choice}
-\title{choice}
+\title{Choice what to do in life important for freedom}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Choice what to do in life important for freedom
+choice
 }
 \details{
 Question 828. I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important? e. Freedom is having the power to choose and do what I want in life.

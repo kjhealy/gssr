@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_108.R
 \name{actvet}
 \alias{actvet}
-\title{actvet}
+\title{R active in veteran group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in veteran group
+actvet
 }
 \details{
 Question 330. Have you ever done any active work for the veterans' groups? I mean been a leader, helped organize meetings, been an officer, or given time or money?

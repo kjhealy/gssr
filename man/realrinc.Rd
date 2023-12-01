@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_567.R
 \name{realrinc}
 \alias{realrinc}
-\title{realrinc}
+\title{R's income in constant $}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's income in constant $
+realrinc
 }
 \details{
 Question 1578. Respondent's income on 1972-2006 surveys in constant dollars (base = 1986)

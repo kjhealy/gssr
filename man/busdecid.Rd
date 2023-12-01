@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_523.R
 \name{busdecid}
 \alias{busdecid}
-\title{busdecid}
+\title{Govt should let biz decide how to protect envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should let biz decide how to protect envir
+busdecid
 }
 \details{
 Question 1423b. nd which one of the following closest to your views? Government should let businesses decide for themselves how to protect the environment, even if it means they don't always do the right thing, or government should pass laws to make businesses protect the environment, even if it interferes with business' right to make their own decisions.

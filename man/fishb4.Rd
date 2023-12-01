@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_319.R
 \name{fishb4}
 \alias{fishb4}
-\title{fishb4}
+\title{Fish}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fish
+fishb4
 }
 \details{
 Question What kind of pet\link{s} did your family have? E.Fish

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_191.R
 \name{ushopefl}
 \alias{ushopefl}
-\title{ushopefl}
+\title{Thinking us how often feel hopeful?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Thinking us how often feel hopeful?
+ushopefl
 }
 \details{
 Question 587. Now I want to ask some questions about how you feel when you think about this country, the United States. When you think about the United States: f. How often do you feel hopeful?

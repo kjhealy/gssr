@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_92.R
 \name{resdefwk}
 \alias{resdefwk}
-\title{resdefwk}
+\title{Local economy depends on defense work?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Local economy depends on defense work?
+resdefwk
 }
 \details{
 Question 307. Would you say the economy of \link{NAME METROPOLITAN AREA OR COUNTY} is very dependent on defense business, somewhat dependent, or not dependent at all on defense business?

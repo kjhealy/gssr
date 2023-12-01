@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_291.R
 \name{newsgrps}
 \alias{newsgrps}
-\title{newsgrps}
+\title{How familiar r is with term newsgroups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How familiar r is with term newsgroups
+newsgrps
 }
 \details{
 Question 815. Are you very familiar, somewhat familiar, or not familiar with the following internet terms: i. Newsgroups

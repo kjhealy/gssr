@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_525.R
 \name{bizpeop}
 \alias{bizpeop}
-\title{bizpeop}
+\title{Business people do more for environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Business people do more for environment
+bizpeop
 }
 \details{
 Question 1432a. On balance, which of these two do you think is making more effort to look after the environment:

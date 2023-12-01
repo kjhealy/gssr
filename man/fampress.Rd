@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_464.R
 \name{fampress}
 \alias{fampress}
-\title{fampress}
+\title{Do r family's members put pressure on r about the way r lives or organizes their}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do r family's members put pressure on r about the way r lives or organizes their
+fampress
 }
 \details{
 Question In general, do your family members put pressure on you about the way you live or organize your personal life?

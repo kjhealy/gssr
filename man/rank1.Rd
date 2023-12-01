@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_630.R
 \name{rank1}
 \alias{rank1}
-\title{rank1}
+\title{R's self ranking of social position (2021)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's self ranking of social position (2021)
+rank1
 }
 \details{
 Question In our society there are groups which tend to be towards the top and groups which tend to be towards the bottom. On the handcard is a scale that runs from top to bottom. Where would you put yourself now on this scale?

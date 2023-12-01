@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_559.R
 \name{chldtime}
 \alias{chldtime}
-\title{chldtime}
+\title{Time with kids improving?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Time with kids improving?
+chldtime
 }
 \details{
 Question 1571. Compared with 10 years ago, would you say that American children today are much better off, better off, about the same, worse off, or much worse off regarding: i. The time children have with their parents

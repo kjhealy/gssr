@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_457.R
 \name{macall1}
 \alias{macall1}
-\title{macall1}
+\title{How often does r contact mother by telephone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r contact mother by telephone
+macall1
 }
 \details{
 Question 1229. How often do you have any other contact with your mother besides visiting, either by telephone, letter, fax or e-mail?

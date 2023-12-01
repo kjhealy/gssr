@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_417.R
 \name{mhtrtslf}
 \alias{mhtrtslf}
-\title{mhtrtslf}
+\title{R have ever personally received treatment for mental health problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R have ever personally received treatment for mental health problem
+mhtrtslf
 }
 \details{
 Question 1147. Have you personally ever received treatment for a mental health problem?

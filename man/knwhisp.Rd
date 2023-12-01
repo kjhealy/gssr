@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_258.R
 \name{knwhisp}
 \alias{knwhisp}
-\title{knwhisp}
+\title{Does r personally any hispanics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r personally any hispanics
+knwhisp
 }
 \details{
 Question 757. Do you personally know any...? d. Hispanics or Latin Americans

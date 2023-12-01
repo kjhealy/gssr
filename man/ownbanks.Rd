@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_443.R
 \name{ownbanks}
 \alias{ownbanks}
-\title{ownbanks}
+\title{Govts role in banking and insurance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts role in banking and insurance
+ownbanks
 }
 \details{
 Question 1187. What do you think the government's role in each of these industries should be? d. Banking and insurance

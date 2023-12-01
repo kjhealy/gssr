@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_627.R
 \name{suicide4g}
 \alias{suicide4g}
-\title{suicide4g}
+\title{Suicide if tired of living}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suicide if tired of living
+suicide4g
 }
 \details{
 Question None

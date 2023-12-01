@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_383.R
 \name{gills}
 \alias{gills}
-\title{gills}
+\title{How fish get oxygen}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How fish get oxygen
+gills
 }
 \details{
 Question How do most fish get the oxygen they need to survive? {response to acceptDK} {response to probeDK}

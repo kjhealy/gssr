@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_214.R
 \name{orslfhlp}
 \alias{orslfhlp}
-\title{orslfhlp}
+\title{In what order join a self-help group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what order join a self-help group
+orslfhlp
 }
 \details{
 Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? g. Join a self-help group where people with similar problems help each other

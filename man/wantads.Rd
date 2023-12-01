@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_505.R
 \name{wantads}
 \alias{wantads}
-\title{wantads}
+\title{Answered advertisements for jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Answered advertisements for jobs
+wantads
 }
 \details{
 Question 1369. Thinking about the last 12 months, have you done any of the following in order to find a job? c. Answered advertisements for jobs?

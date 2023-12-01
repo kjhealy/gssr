@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_93.R
 \name{obfewar}
 \alias{obfewar}
-\title{obfewar}
+\title{Obligation--wartime mil service-female}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Obligation--wartime mil service-female
+obfewar
 }
 \details{
 Question 308. And one last question. We all know that American citizens have certain rights. For example, they have the right to free public education and to police protection, the right to attend religious services of their choice, and the right to elect public officials. I'd like to ask now about certain obligations that some people feel American citizens owe their country. I just want your own opinion on these - whether you feel it is a very important obligation, a somewhat important obligation, or not an obligation that a citizen owes to the country. j. For young women, serving in the military when the country is at war?

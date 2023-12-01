@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_537.R
 \name{letin1a}
 \alias{letin1a}
-\title{letin1a}
+\title{Number of immigrants nowadays should be}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of immigrants nowadays should be
+letin1a
 }
 \details{
 Question Do you think the number of immigrants to America nowadays should be...

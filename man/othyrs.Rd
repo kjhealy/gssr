@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_238.R
 \name{othyrs}
 \alias{othyrs}
-\title{othyrs}
+\title{Years worked full time at other parts of org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Years worked full time at other parts of org
+othyrs
 }
 \details{
 Question 697b. How many years in total (at those parts) have you worked?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_121.R
 \name{frndrac2}
 \alias{frndrac2}
-\title{frndrac2}
+\title{What is friend 2s race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is friend 2s race
+frndrac2
 }
 \details{
 Question 385. Is \link{NAME} Asian, Black, Hispanic, White, or something else?

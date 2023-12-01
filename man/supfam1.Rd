@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_325.R
 \name{supfam1}
 \alias{supfam1}
-\title{supfam1}
+\title{Aged should be able to support family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Aged should be able to support family
+supfam1
 }
 \details{
 Question 934. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to be... Be capable of supporting a family financially a. By what age should this normally occur?

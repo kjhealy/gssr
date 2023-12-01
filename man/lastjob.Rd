@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_474.R
 \name{lastjob}
 \alias{lastjob}
-\title{lastjob}
+\title{Type of current job held by r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of current job held by r
+lastjob
 }
 \details{
 Question 1263. And how about your job now? (If you are not working now, please tell us about your last job.)

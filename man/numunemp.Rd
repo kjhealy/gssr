@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_136.R
 \name{numunemp}
 \alias{numunemp}
-\title{numunemp}
+\title{How many times unemployed more than two weeks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many times unemployed more than two weeks
+numunemp
 }
 \details{
 Question 422. About how many different times have you been unemployed and looking for work for as long as two weeks?

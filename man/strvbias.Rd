@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_635.R
 \name{strvbias}
 \alias{strvbias}
-\title{strvbias}
+\title{Priority for criminal justice system}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Priority for criminal justice system
+strvbias
 }
 \details{
 Question Which do you think should be the bigger priority for the U.S. criminal justice system today?

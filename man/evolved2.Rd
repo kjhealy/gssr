@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_370.R
 \name{evolved2}
 \alias{evolved2}
-\title{evolved2}
+\title{Elephants evolved from earlier species: true or false}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Elephants evolved from earlier species: true or false
+evolved2
 }
 \details{
 Question I3. Elephants, as we know them today, descended from earlier species of animals. (Is that true or false?)

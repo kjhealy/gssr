@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_171.R
 \name{gvtmelt}
 \alias{gvtmelt}
-\title{gvtmelt}
+\title{Should govt help blend cultures}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt help blend cultures
+gvtmelt
 }
 \details{
 Question 519b. Should it be up to the government to help racial and ethnic groups change so that they blend into the larger society, or should this be left up to the groups themselves?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_348.R
 \name{numunion}
 \alias{numunion}
-\title{numunion}
+\title{How many r belongs to labor unions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to labor unions
+numunion
 }
 \details{
 Question 1025e. How many labor unions do you belong to?

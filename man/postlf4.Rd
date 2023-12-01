@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_36.R
 \name{postlf4}
 \alias{postlf4}
-\title{postlf4}
+\title{Life without many earthly joys}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Life without many earthly joys
+postlf4
 }
 \details{
 Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 4. A life without many things which make our present life enjoyable.

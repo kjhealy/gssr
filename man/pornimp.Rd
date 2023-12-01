@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_71.R
 \name{pornimp}
 \alias{pornimp}
-\title{pornimp}
+\title{Importance of pornography issue to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of pornography issue to r
+pornimp
 }
 \details{
 Question 224a. How important is the pornography issue to you?

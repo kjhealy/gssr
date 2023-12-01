@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{moonlite}
 \alias{moonlite}
-\title{moonlite}
+\title{Does r have a second job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r have a second job
+moonlite
 }
 \details{
 Question 1343. And aside from your main job, do you have any other paid jobs, like a second job or other paid work?

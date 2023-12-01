@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_61.R
 \name{anomia9}
 \alias{anomia9}
-\title{anomia9}
+\title{Most don't care what happens to others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most don't care what happens to others
+anomia9
 }
 \details{
 Question 179. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. c. Most people don't really care what happens to the next fellow.

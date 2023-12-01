@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_33.R
 \name{courtsy}
 \alias{courtsy}
-\title{courtsy}
+\title{Courts dealing with criminals-version y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Courts dealing with criminals-version y
+courtsy
 }
 \details{
 Question 91. In general, do you think the courts in this area deal too harshly, or not harshly enough with criminals, or don't you have enough information about the courts to say?

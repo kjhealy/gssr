@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_143.R
 \name{notloyal}
 \alias{notloyal}
-\title{notloyal}
+\title{Feel very little loyalty to this org.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel very little loyalty to this org.
+notloyal
 }
 \details{
 Question 453. Please tell me how much you agree or disagree with the following statements: c. I feel very little loyalty to this organization.

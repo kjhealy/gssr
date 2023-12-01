@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_132.R
 \name{povcol}
 \alias{povcol}
-\title{povcol}
+\title{Give college aid to poor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Give college aid to poor
+povcol
 }
 \details{
 Question 407. Here are several things that the government in Washington might do to deal with the problems of poverty and unemployment. I would like you to tell me if you favor or oppose them. c. Provide special college scholarships for children from economically disadvantaged backgrounds who maintain good grades.

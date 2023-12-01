@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_59.R
 \name{drink}
 \alias{drink}
-\title{drink}
+\title{Ever drink alcoholic beverages?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever drink alcoholic beverages?
+drink
 }
 \details{
 Question 176. Do you ever have occasion to use any alcoholic beverages such as liquor, wine, or beer, or are you a total abstainer?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_466.R
 \name{opwlth}
 \alias{opwlth}
-\title{opwlth}
+\title{Need wealthy family to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need wealthy family to get ahead
+opwlth
 }
 \details{
 Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . a. How important is coming from a wealthy family?

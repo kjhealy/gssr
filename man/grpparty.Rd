@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_539.R
 \name{grpparty}
 \alias{grpparty}
-\title{grpparty}
+\title{R belongs to a political party}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to a political party
+grpparty
 }
 \details{
 Question 1469. People sometimes belong to different kinds of groups or associations. For each type of group, please indicate whether you: Belong and actively participate, Belong but don't actively participate, Used to belong but do not any more, Or have never belonged to it. a. A political party

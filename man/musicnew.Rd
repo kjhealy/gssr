@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_272.R
 \name{musicnew}
 \alias{musicnew}
-\title{musicnew}
+\title{Visit sites about music not usually heard}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Visit sites about music not usually heard
+musicnew
 }
 \details{
 Question 785. Is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that: c. You visit sites where you can learn about or hear types of music that you wouldn't ordinarily listen to?

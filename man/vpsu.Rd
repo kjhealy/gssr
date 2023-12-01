@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_611.R
 \name{vpsu}
 \alias{vpsu}
-\title{vpsu}
+\title{Variance primary sampling unit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Variance primary sampling unit
+vpsu
 }
 \details{
 Question None

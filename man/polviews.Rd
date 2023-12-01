@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_23.R
 \name{polviews}
 \alias{polviews}
-\title{polviews}
+\title{Think of self as liberal or conservative}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Think of self as liberal or conservative
+polviews
 }
 \details{
 Question 67a. We hear a lot of talk these days about liberals and conservatives. I'm going to show you a seven-point scale on which the political views that people might hold are arranged from extremely liberal - point 1 - to extremely conservative - point 7. Where would you place yourself on this scale?

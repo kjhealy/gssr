@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_635.R
 \name{ptnrsxnow}
 \alias{ptnrsxnow}
-\title{ptnrsxnow}
+\title{Recent partner's sex now}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Recent partner's sex now
+ptnrsxnow
 }
 \details{
 Question To the best of your knowledge, does your most recent sexual partner describe themselves as male, female, or transgender?

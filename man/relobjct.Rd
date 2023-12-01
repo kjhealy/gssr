@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_516.R
 \name{relobjct}
 \alias{relobjct}
-\title{relobjct}
+\title{For religious reasons r has in home shrine, altar, or religious object on displa}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-For religious reasons r has in home shrine, altar, or religious object on displa
+relobjct
 }
 \details{
 Question None

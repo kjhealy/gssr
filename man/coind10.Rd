@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_06.R
 \name{coind10}
 \alias{coind10}
-\title{coind10}
+\title{Partner's industry code (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner's industry code (2010)
+coind10
 }
 \details{
 Question None

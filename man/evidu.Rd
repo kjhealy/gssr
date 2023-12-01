@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_554.R
 \name{evidu}
 \alias{evidu}
-\title{evidu}
+\title{R ever inject drugs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R ever inject drugs
+evidu
 }
 \details{
 Question 1558. Have you ever, even once, taken any drugs by injection with a needle (like heroin, cocaine, amphetamines, or steroids)...Do not include anything you took under a doctor's orders.

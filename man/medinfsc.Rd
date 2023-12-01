@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_372.R
 \name{medinfsc}
 \alias{medinfsc}
-\title{medinfsc}
+\title{Influence on funding for stem cell rsch: medical researchers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence on funding for stem cell rsch: medical researchers
+medinfsc
 }
 \details{
 Question 1061. Please look at Card B8. How much influence should each of the following groups have in deciding about government funding for stem cell research? a. Medical researchers

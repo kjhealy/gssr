@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_508.R
 \name{stiffpun}
 \alias{stiffpun}
-\title{stiffpun}
+\title{Lawbreakers should get stiffer sentences}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Lawbreakers should get stiffer sentences
+stiffpun
 }
 \details{
 Question 1373. Here are some measures to deal with crime. Some people are in favor of them while other people are against them. Do you agree or disagree that: a. People who break the law should be given stiffer sentences.

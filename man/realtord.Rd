@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_193.R
 \name{realtord}
 \alias{realtord}
-\title{realtord}
+\title{General reputation made r choose}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-General reputation made r choose
+realtord
 }
 \details{
 Question 603. What made you choose the realtor with whom you worked? d. General reputation in the community

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_504.R
 \name{jobskill}
 \alias{jobskill}
-\title{jobskill}
+\title{How important training in developing skills}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important training in developing skills
+jobskill
 }
 \details{
 Question 1359. Now think about the skills that you actually use in your job. How important would you say each of the following was in developing these skills? b. Training or experience gained in my present or a previous job

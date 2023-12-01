@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_563.R
 \name{work10}
 \alias{work10}
-\title{work10}
+\title{During past 12 mo, r was unemployed and looking for work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-During past 12 mo, r was unemployed and looking for work
+work10
 }
 \details{
 Question B. Second, what about work-related matters? Did any of the following happen to you since (CURRENT MONTH), 2003? 10. During the past twelve months, that is since (CURRENT MONTH) 2003, were you unemployed and looking for work for as long as a month?

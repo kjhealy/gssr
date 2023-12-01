@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_41.R
 \name{coden}
 \alias{coden}
-\title{coden}
+\title{Partner's denomination}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner's denomination
+coden
 }
 \details{
 Question None

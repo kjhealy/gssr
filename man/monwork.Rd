@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_202.R
 \name{monwork}
 \alias{monwork}
-\title{monwork}
+\title{Done volunteer work in work-related org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done volunteer work in work-related org
+monwork
 }
 \details{
 Question 641. In which, if any, of the areas listed on this card have you done some volunteer work in the past month? i. Work-related organizations

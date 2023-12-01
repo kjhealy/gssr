@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_82.R
 \name{divrel1}
 \alias{divrel1}
-\title{divrel1}
+\title{Relatives divorced in last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relatives divorced in last year
+divrel1
 }
 \details{
 Question 269a. Number of relatives divorced last year.

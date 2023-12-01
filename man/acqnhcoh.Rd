@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_399.R
 \name{acqnhcoh}
 \alias{acqnhcoh}
-\title{acqnhcoh}
+\title{Number of cohabiting ppl in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of cohabiting ppl in neighborhood
+acqnhcoh
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. o. How many women that you are acquainted with in your neighborhood are you pretty certain live in a romantic relationship with a man to whom they are not married?

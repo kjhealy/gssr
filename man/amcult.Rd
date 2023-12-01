@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_532.R
 \name{amcult}
 \alias{amcult}
-\title{amcult}
+\title{It is impossible to become fully american}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-It is impossible to become fully american
+amcult
 }
 \details{
 Question Now we would like to ask a few questions about minorities in America. 1443. How much do you agree or disagree with the following statements? a. It is impossible for people who do not share American customs and traditions to become fully American

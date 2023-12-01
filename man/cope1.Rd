@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_227.R
 \name{cope1}
 \alias{cope1}
-\title{cope1}
+\title{Think about life is part of larger force}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Think about life is part of larger force
+cope1
 }
 \details{
 Question 676. Think about how you try to understand and deal with major problems in your life. To what extent is each of the following involved in the way you cope: a. I think about how my life is part of a larger spiritual force

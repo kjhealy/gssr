@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_411.R
 \name{mhsocial}
 \alias{mhsocial}
-\title{mhsocial}
+\title{R would spend time socializing with x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would spend time socializing with x
+mhsocial
 }
 \details{
 Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... b. To spend time socializing with \link{NAME}?

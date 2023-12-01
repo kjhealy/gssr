@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_295.R
 \name{wlthpov}
 \alias{wlthpov}
-\title{wlthpov}
+\title{Some rich some poor ok in free society}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Some rich some poor ok in free society
+wlthpov
 }
 \details{
 Question 830. Please tell me whether you strongly agree, agree, neither agree nor disagree, or strongly disagree with the following statement: In a free society, it is all right if a few people accumulate a lot of wealth and property while many others live in poverty.

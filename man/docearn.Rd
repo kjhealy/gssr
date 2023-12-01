@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_646.R
 \name{docearn}
 \alias{docearn}
-\title{docearn}
+\title{Docs care more about earnings than patients}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Docs care more about earnings than patients
+docearn
 }
 \details{
 Question (How much do you agree or disagree with the following statements about doctors in general in the United States?) Doctors care more about their earnings than about their patients.

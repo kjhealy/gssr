@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_254.R
 \name{nobiling}
 \alias{nobiling}
-\title{nobiling}
+\title{Bilingual education should be abolished}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Bilingual education should be abolished
+nobiling
 }
 \details{
 Question 745. Now please tell us whether you strongly agree, agree, disagree or strongly disagree with each of these statements: b. Bilingual education programs should be eliminated in American public schools.

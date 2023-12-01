@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_03.R
 \name{indstatus}
 \alias{indstatus}
-\title{indstatus}
+\title{Indus10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Indus10 coding status
+indstatus
 }
 \details{
 Question None

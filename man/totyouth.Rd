@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_207.R
 \name{totyouth}
 \alias{totyouth}
-\title{totyouth}
+\title{How much money contributed in youth development}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much money contributed in youth development
+totyouth
 }
 \details{
 Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? k. Youth development

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_164.R
 \name{kdocctag}
 \alias{kdocctag}
-\title{kdocctag}
+\title{Kdocc10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kdocc10 coding tag
+kdocctag
 }
 \details{
 Question None

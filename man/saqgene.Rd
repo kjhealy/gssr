@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_606.R
 \name{saqgene}
 \alias{saqgene}
-\title{saqgene}
+\title{R did gene module for 2004}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R did gene module for 2004
+saqgene
 }
 \details{
 Question None

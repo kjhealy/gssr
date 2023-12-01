@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_629.R
 \name{enjoynat}
 \alias{enjoynat}
-\title{enjoynat}
+\title{How much do you enjoy being outside in nature?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much do you enjoy being outside in nature?
+enjoynat
 }
 \details{
 Question How much, if at all, do you enjoy being outside in nature?

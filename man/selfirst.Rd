@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_146.R
 \name{selfirst}
 \alias{selfirst}
-\title{selfirst}
+\title{Take care of yourself first before others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Take care of yourself first before others
+selfirst
 }
 \details{
 Question 468. As I read each of the following statemetns, please tell me whether you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree with it: a. You have to take care of yourself first, and if you have any energy left over, then help other people.

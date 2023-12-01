@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_484.R
 \name{chldcare}
 \alias{chldcare}
-\title{chldcare}
+\title{Should families get benefits if both parents work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should families get benefits if both parents work
+chldcare
 }
 \details{
 Question 1302. Do you agree or disagree: b. Families should receive financial benefits for child care when both parents work.

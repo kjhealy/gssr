@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_601.R
 \name{wkcontct}
 \alias{wkcontct}
-\title{wkcontct}
+\title{How often contacted about work when not working}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often contacted about work when not working
+wkcontct
 }
 \details{
 Question Some workers must respond to coworkers, supervisors, managers, customers, or clients about work-related matters when they are not working. These contacts may be by phone, text, instant message, email, etc. How often are you contacted about work-related matters when you are not working?

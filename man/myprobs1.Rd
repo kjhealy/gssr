@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_223.R
 \name{myprobs1}
 \alias{myprobs1}
-\title{myprobs1}
+\title{How much person 1's mental health condition causes r problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much person 1's mental health condition causes r problems
+myprobs1
 }
 \details{
 Question On a scale from 1 to 10, with 1 being not at all and 10 being very much, how much does NAME 1's mental health condition cause you problems, create stress, or make your life difficult?

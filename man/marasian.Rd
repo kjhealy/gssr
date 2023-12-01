@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_131.R
 \name{marasian}
 \alias{marasian}
-\title{marasian}
+\title{Close relative marry asian}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Close relative marry asian
+marasian
 }
 \details{
 Question 405. What about having a close relative marry an Asian American person? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?

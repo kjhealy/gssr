@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_515.R
 \name{reltruth}
 \alias{reltruth}
-\title{reltruth}
+\title{How much truth in religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much truth in religion
+reltruth
 }
 \details{
 Question 1404. Which of the following statements come closest to your own views: 1. There is very little truth in any religion 2. There are basic truths in many religions 3. There is truth in one religion

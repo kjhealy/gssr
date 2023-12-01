@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_458.R
 \name{bstcall}
 \alias{bstcall}
-\title{bstcall}
+\title{How often does r call best friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r call best friend
+bstcall
 }
 \details{
 Question 1235. And how often do you have any other contact with this friend besides visiting, either by telephone, letter, fax or e-mail?

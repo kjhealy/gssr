@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_327.R
 \name{stressfl}
 \alias{stressfl}
-\title{stressfl}
+\title{Situation caused by stressful circumstances}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Situation caused by stressful circumstances
+stressfl
 }
 \details{
 Question 942c. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by stressful circumstances in (his/her) life?

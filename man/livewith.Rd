@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_176.R
 \name{livewith}
 \alias{livewith}
-\title{livewith}
+\title{Do you live together?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you live together?
+livewith
 }
 \details{
 Question 546. Do you live together?

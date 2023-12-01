@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_556.R
 \name{geneself}
 \alias{geneself}
-\title{geneself}
+\title{Would genetically test fetus}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would genetically test fetus
+geneself
 }
 \details{
 Question 1566. Today, tests are being developed that make it possible to detect serious genetic defects before a baby is born. But so far, it is impossible either to treat or to correct most of them. If (you/your partner) were pregnant, would you want (her) to have a test to find out if the baby has any serious genetic defects?

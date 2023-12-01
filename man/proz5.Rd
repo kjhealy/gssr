@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_247.R
 \name{proz5}
 \alias{proz5}
-\title{proz5}
+\title{Taking prozac makes relations easier}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Taking prozac makes relations easier
+proz5
 }
 \details{
 Question 725. How much do you agree or disagree with the following statements? e. Taking Prozac makes things easier in relations with family and friends.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_248.R
 \name{proz8}
 \alias{proz8}
-\title{proz8}
+\title{Prozac should be taken to enhance personalities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prozac should be taken to enhance personalities
+proz8
 }
 \details{
 Question 725. How much do you agree or disagree with the following statements? h. Prozac should be taken to enhance the strengths of people's personalities.

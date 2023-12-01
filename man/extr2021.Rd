@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_650.R
 \name{extr2021}
 \alias{extr2021}
-\title{extr2021}
+\title{Extra pay in 2021}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Extra pay in 2021
+extr2021
 }
 \details{
 Question Did you receive any of these performance-based payments in the year 2021? Performance-based pay means individual or group bonuses, commissions, or any type of profit-sharing.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_290.R
 \name{browser2}
 \alias{browser2}
-\title{browser2}
+\title{Can r give the name of a web browser}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Can r give the name of a web browser
+browser2
 }
 \details{
 Question 815c. Can you give me the name of a web browser?

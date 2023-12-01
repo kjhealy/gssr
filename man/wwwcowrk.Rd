@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_273.R
 \name{wwwcowrk}
 \alias{wwwcowrk}
-\title{wwwcowrk}
+\title{Has anyone met on web become coworker}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has anyone met on web become coworker
+wwwcowrk
 }
 \details{
 Question 788. Did any of these people become: d. Coworker

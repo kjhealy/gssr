@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_178.R
 \name{refpromo}
 \alias{refpromo}
-\title{refpromo}
+\title{Refuse a job promotion?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Refuse a job promotion?
+refpromo
 }
 \details{
 Question 559. In your (present/most recent) job, (have you ever done/did you ever do) any of the following because of your responsibilities to members of your family? a. Refuse a job promotion

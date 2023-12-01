@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_311.R
 \name{strredpg}
 \alias{strredpg}
-\title{strredpg}
+\title{Access to stress management}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Access to stress management
+strredpg
 }
 \details{
 Question Do you have access to stress management or stress reduction programs at your current workplace?

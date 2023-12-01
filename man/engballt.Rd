@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_172.R
 \name{engballt}
 \alias{engballt}
-\title{engballt}
+\title{Attitude toward printing ballots only in english}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attitude toward printing ballots only in english
+engballt
 }
 \details{
 Question 525. Do you believe that election ballots should be printed only in English, or in areas where lots of people don't speak English, should they also be printed in some other languages?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_576.R
 \name{racethbl}
 \alias{racethbl}
-\title{racethbl}
+\title{Points assigned to black/african american}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Points assigned to black/african american
+racethbl
 }
 \details{
 Question How would you describe your race and ethnicity using this 10-point system using the following choices: C. Black or African American

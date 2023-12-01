@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_283.R
 \name{perhro}
 \alias{perhro}
-\title{perhro}
+\title{Hours per week using other computer personal in}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per week using other computer personal in
+perhro
 }
 \details{
 Question 806. For about how many minutes or hours a week do you use (this other computer/these other computers) for each of the following: b. Personal interests, games, or enjoyment?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_531.R
 \name{proudpol}
 \alias{proudpol}
-\title{proudpol}
+\title{How proud its political influence in the world}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How proud its political influence in the world
+proudpol
 }
 \details{
 Question 1441. How proud are you of America in each of the following? b. Its political influence in the world

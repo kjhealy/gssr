@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_107.R
 \name{solhobby}
 \alias{solhobby}
-\title{solhobby}
+\title{Hobby club tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hobby club tries to solve problems
+solhobby
 }
 \details{
 Question 329. Do the hobby or garden clubs to which you belong do anything to try to solve individual or community problems?

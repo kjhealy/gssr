@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_178.R
 \name{balwkfam}
 \alias{balwkfam}
-\title{balwkfam}
+\title{How successful balancing work & family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How successful balancing work & family
+balwkfam
 }
 \details{
 Question 558. How successful do you feel at balancing your paid work and your family life?

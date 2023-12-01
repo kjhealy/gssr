@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_650.R
 \name{stockval1}
 \alias{stockval1}
-\title{stockval1}
+\title{Estimate of total value of stocks if sold today}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Estimate of total value of stocks if sold today
+stockval1
 }
 \details{
 Question Please give a general estimate of how much cash you would get if all this stock were sold today.

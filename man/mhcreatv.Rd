@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_413.R
 \name{mhcreatv}
 \alias{mhcreatv}
-\title{mhcreatv}
+\title{People like x are more creative than others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People like x are more creative than others
+mhcreatv
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. j. People like \link{NAME} are more creative than most other people.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_371.R
 \name{sciinfgw}
 \alias{sciinfgw}
-\title{sciinfgw}
+\title{Influence on global warming policy: environmntal scientists}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence on global warming policy: environmntal scientists
+sciinfgw
 }
 \details{
 Question 1056. Please look at Card B4. How much influence should each of the following groups have in deciding what to do about global warming? a. Environmental scientists

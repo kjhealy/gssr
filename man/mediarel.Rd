@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_580.R
 \name{mediarel}
 \alias{mediarel}
-\title{mediarel}
+\title{Watch a religious program on television-radio?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Watch a religious program on television-radio?
+mediarel
 }
 \details{
 Question 1616. During the last seven days did you do the following: b. Watch a religious program on television or listen to a religious program on the radio?

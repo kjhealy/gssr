@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_326.R
 \name{boycott}
 \alias{boycott}
-\title{boycott}
+\title{Have ever boycotted a product past 5 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have ever boycotted a product past 5 years
+boycott
 }
 \details{
 Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? a. Boycotting a product

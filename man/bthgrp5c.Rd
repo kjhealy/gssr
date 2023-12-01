@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_604.R
 \name{bthgrp5c}
 \alias{bthgrp5c}
-\title{bthgrp5c}
+\title{What are the groups you both belong to?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What are the groups you both belong to?
+bthgrp5c
 }
 \details{
 Question None

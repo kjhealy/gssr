@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_494.R
 \name{flexhrs1}
 \alias{flexhrs1}
-\title{flexhrs1}
+\title{Importance of flexible hrs. at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of flexible hrs. at work
+flexhrs1
 }
 \details{
 Question On the following list there are various aspects of jobs. Please circle one number to show how important you personally consider it is in a job: J. A job that allows someone to decide the times or days of work

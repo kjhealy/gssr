@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_449.R
 \name{fewtrsty}
 \alias{fewtrsty}
-\title{fewtrsty}
+\title{There are only a few people r can trust completely}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-There are only a few people r can trust completely
+fewtrsty
 }
 \details{
 Question 1493. To what extent do you agree or disagree with the following statements? a. There are only a few people I can trust completely

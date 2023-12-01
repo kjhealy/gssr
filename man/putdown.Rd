@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_335.R
 \name{putdown}
 \alias{putdown}
-\title{putdown}
+\title{Ppl at work treat r in a manner putting r down}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ppl at work treat r in a manner putting r down
+putdown
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. d. People at work treat me in a manner that puts me down or address me in unprofessional terms, either publicly or privately.

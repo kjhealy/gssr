@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_66.R
 \name{fepol}
 \alias{fepol}
-\title{fepol}
+\title{Women not suited for politics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women not suited for politics
+fepol
 }
 \details{
 Question 202a. Tell me if you agree or disagree with this statement: Most men are better suited emotionally for politics than are most women.

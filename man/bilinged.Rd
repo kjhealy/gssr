@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_172.R
 \name{bilinged}
 \alias{bilinged}
-\title{bilinged}
+\title{Support or oppose bilingual education}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Support or oppose bilingual education
+bilinged
 }
 \details{
 Question 523. How do you feel about bilingual education?

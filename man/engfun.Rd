@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_388.R
 \name{engfun}
 \alias{engfun}
-\title{engfun}
+\title{Engineers don? Have fun}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Engineers don? Have fun
+engfun
 }
 \details{
 Question Engineers don't get as much fun out of life as other people do. Do you strongly agree, agree, disagree, or strongly disagree?

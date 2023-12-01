@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_93.R
 \name{helpsick}
 \alias{helpsick}
-\title{helpsick}
+\title{Should govt help pay for medical care?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt help pay for medical care?
+helpsick
 }
 \details{
 Question 311. Look at card BE. In general, some people think that it is the responsibility of the government in Washington to see to it that people have help in paying for doctors and hospital bills; they are at point 1. Others think that these matters are not the responsibility of the federal government and that people should take care of these things themselves; they are at point 5. a. Where would you place yourself on this scale, or haven't you made up your mind on this?

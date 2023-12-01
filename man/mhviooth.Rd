@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_415.R
 \name{mhviooth}
 \alias{mhviooth}
-\title{mhviooth}
+\title{How likely x violent toward other people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x violent toward other people
+mhviooth
 }
 \details{
 Question 1144a. How likely is it \link{NAME} would do something violent or harmful toward other people. Is it... IF ASKED: Violent toward self means; suicide, not eating, wandering in traffic, and self-mutilation.

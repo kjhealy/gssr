@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_268.R
 \name{polagree}
 \alias{polagree}
-\title{polagree}
+\title{Visit political sites r agrees with}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Visit political sites r agrees with
+polagree
 }
 \details{
 Question 776. Is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that you: a. Visit political sites with points of view that you agree with?

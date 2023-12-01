@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_339.R
 \name{ofworth}
 \alias{ofworth}
-\title{ofworth}
+\title{I am a person of worth at least equal to others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I am a person of worth at least equal to others
+ofworth
 }
 \details{
 Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: d. I feel that I'm a person of worth, at least equal to others.

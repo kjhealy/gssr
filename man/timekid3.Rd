@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_291.R
 \name{timekid3}
 \alias{timekid3}
-\title{timekid3}
+\title{Time r spends with child 3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Time r spends with child 3
+timekid3
 }
 \details{
 Question 816. Would you say that the amount of time you spend with (NAME OF CHILD) is too much, about the right amount, or too little?

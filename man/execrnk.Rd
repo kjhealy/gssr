@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_476.R
 \name{execrnk}
 \alias{execrnk}
-\title{execrnk}
+\title{Rank in society of chairmen}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rank in society of chairmen
+execrnk
 }
 \details{
 Question 1272. Now we would like to know where you and other people fit in. Please look at the diagram you think best describes America today, the one you chose first: c. The chairman of a large national corporation?

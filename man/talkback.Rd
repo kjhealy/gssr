@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_125.R
 \name{talkback}
 \alias{talkback}
-\title{talkback}
+\title{Talking back to parents is bad}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Talking back to parents is bad
+talkback
 }
 \details{
 Question 400. Now I am going to read you several statements. For each one please tell me whether you agree strongly, agree, disagree, or disagree strongly: b. A child should never be allowed to talk back to his parents, or else he will lose respect for them.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_514.R
 \name{religinf}
 \alias{religinf}
-\title{religinf}
+\title{The u.s. would be a better country if religion had less influence}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The u.s. would be a better country if religion had less influence
+religinf
 }
 \details{
 Question 1402. Do you agree or disagree with the following statements? c. The U.S. would be a better country if religion had less influence

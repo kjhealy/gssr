@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_578.R
 \name{wordj}
 \alias{wordj}
-\title{wordj}
+\title{Word j}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Word j
+wordj
 }
 \details{
 Question 1612. We would like to know something about how people go about guessing words they do not know. On this card are listed some words--you may know some of them, and you may not know quite a few of them. On each line the first word is in capital letters like BEAST. Then there are five other words. Tell me the number of the word that comes closest to the meaning of the word in capital letters. For example, if the word in capital letters is BEAST, you would say "4" since "animal" come closer to BEAST than any of the other words. If you wish, I will read the words to you. These words are difficult for almost everyone just give me your best guess if you are not sure of the answer.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_522.R
 \name{indusfam}
 \alias{indusfam}
-\title{indusfam}
+\title{Indust air pollution danger to my family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Indust air pollution danger to my family
+indusfam
 }
 \details{
 Question 1419b. And do you think that air pollution caused by industry is...

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_32.R
 \name{cappun2}
 \alias{cappun2}
-\title{cappun2}
+\title{Does r favor capital punishment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r favor capital punishment
+cappun2
 }
 \details{
 Question 82a. Are you in favor of the death penalty for persons convicted of murder?

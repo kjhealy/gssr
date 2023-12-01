@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_20.R
 \name{if80who}
 \alias{if80who}
-\title{if80who}
+\title{Who would r have voted for-1980 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who would r have voted for-1980 election
+if80who
 }
 \details{
 Question 60b. If did not vote or ineligible: Who would you have voted for, for President, if you had voted?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_510.R
 \name{clerggov}
 \alias{clerggov}
-\title{clerggov}
+\title{Clergy shouldn't try to influence govt decisions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Clergy shouldn't try to influence govt decisions
+clerggov
 }
 \details{
 Question 1379. How much do you agree or disagree with each of the following... d. Religious leaders should not try to influence government decisions.

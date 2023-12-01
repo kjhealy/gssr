@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_487.R
 \name{happy7}
 \alias{happy7}
-\title{happy7}
+\title{How happy r is}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How happy r is
+happy7
 }
 \details{
 Question 1317. If you were to consider your life in general, how happy or unhappy would you say you are, on the whole?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_640.R
 \name{postlifenv}
 \alias{postlifenv}
-\title{postlifenv}
+\title{Belief in life after death (no volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Belief in life after death (no volunteered response on web)
+postlifenv
 }
 \details{
 Question None

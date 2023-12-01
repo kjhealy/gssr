@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_84.R
 \name{defspdr}
 \alias{defspdr}
-\title{defspdr}
+\title{Defense spending--r's position}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Defense spending--r's position
+defspdr
 }
 \details{
 Question 279. Some people believe that we should spend much less money for defense. Suppose these people are at one end of the scale at point number 1. Others feel that defense spending should be greatly increased. Suppose these poeple are at the other end, at point 7. a. Where would you place yourself on this scale, or haven't you thought much about this?

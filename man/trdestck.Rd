@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_391.R
 \name{trdestck}
 \alias{trdestck}
-\title{trdestck}
+\title{Company stock publicly traded}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Company stock publicly traded
+trdestck
 }
 \details{
 Question C. If your company has stock, is the stock of the company where your work traded on a stock market such as the New York Stock Exchange or the NASDAQ

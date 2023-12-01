@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_71.R
 \name{letdie1}
 \alias{letdie1}
-\title{letdie1}
+\title{Allow incurable patients to die}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow incurable patients to die
+letdie1
 }
 \details{
 Question 226. When a person has a disease that cannot be cured, do you think doctors should be allowed by law to end the patient's life by some painless means if the patient and his family request it?

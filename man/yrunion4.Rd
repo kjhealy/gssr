@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_352.R
 \name{yrunion4}
 \alias{yrunion4}
-\title{yrunion4}
+\title{How many years r born a member of labor union4}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years r born a member of labor union4
+yrunion4
 }
 \details{
 Question 1026e. How many years have you been a member of \link{LABOR UNION}?

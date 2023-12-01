@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_651.R
 \name{numorg1}
 \alias{numorg1}
-\title{numorg1}
+\title{Estimate of total people in r's business or organization}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Estimate of total people in r's business or organization
+numorg1
 }
 \details{
 Question About how many people work in your organization at all locations? Count part-time as well as full-time employees.

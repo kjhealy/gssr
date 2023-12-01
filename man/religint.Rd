@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_514.R
 \name{religint}
 \alias{religint}
-\title{religint}
+\title{Religious people are often too intolerant}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religious people are often too intolerant
+religint
 }
 \details{
 Question 1402. Do you agree or disagree with the following statements? b. People with very strong religious beliefs are often too intolerant of others.

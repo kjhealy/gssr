@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_519.R
 \name{sciworse}
 \alias{sciworse}
-\title{sciworse}
+\title{Humans change nature for the worse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Humans change nature for the worse
+sciworse
 }
 \details{
 Question 1409. How much do you agree or disagree with each of these statements? c. Any change humans cause in nature - no matter how scientific - is likely to make things worse.

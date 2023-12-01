@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_573.R
 \name{usterror}
 \alias{usterror}
-\title{usterror}
+\title{Terrorism by u.s. citizens more threat 10 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Terrorism by u.s. citizens more threat 10 yrs
+usterror
 }
 \details{
 Question 1595. Are the following threats to the United States greater, about the same, or less today than they were 10 years ago? c. Terrorism by U.S. citizens

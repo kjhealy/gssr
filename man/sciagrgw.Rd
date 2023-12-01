@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_371.R
 \name{sciagrgw}
 \alias{sciagrgw}
-\title{sciagrgw}
+\title{Extent of agreement on global warming amg env scientists}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Extent of agreement on global warming amg env scientists
+sciagrgw
 }
 \details{
 Question 1055. Please look at Card B3. On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all", to what extent do environmental scientists agree among themselves about the existence and causes of global warming?

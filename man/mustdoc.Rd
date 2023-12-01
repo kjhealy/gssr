@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_214.R
 \name{mustdoc}
 \alias{mustdoc}
-\title{mustdoc}
+\title{X should be forced to be examined at a clinic by law}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should be forced to be examined at a clinic by law
+mustdoc
 }
 \details{
 Question 661. Some cities and states have laws that force people with problems like NAME into treatment. Do you think that people like NAME should be forced by law to... a. Get treatment at a clinic or from a doctor

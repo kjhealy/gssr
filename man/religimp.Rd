@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_632.R
 \name{religimp}
 \alias{religimp}
-\title{religimp}
+\title{How important is religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important is religion
+religimp
 }
 \details{
 Question How important is religion in your life -- very important, somewhat important, not too important, or not at all important?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_524.R
 \name{chemfree}
 \alias{chemfree}
-\title{chemfree}
+\title{Buy pesticide free fruits, vegetables}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Buy pesticide free fruits, vegetables
+chemfree
 }
 \details{
 Question 1424b. And how often do you make a special effort to buy fruits and vegetables grown without pesticides or chemicals?

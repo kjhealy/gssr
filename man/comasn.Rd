@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_257.R
 \name{comasn}
 \alias{comasn}
-\title{comasn}
+\title{Percentage asian living in r's community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage asian living in r's community
+comasn
 }
 \details{
 Question 755. Just your best guess�what percentage of the people who live in your local community is each group? e. Asian Americans

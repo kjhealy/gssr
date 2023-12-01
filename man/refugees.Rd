@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_533.R
 \name{refugees}
 \alias{refugees}
-\title{refugees}
+\title{Refugees should be allowed to stay in america?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Refugees should be allowed to stay in america?
+refugees
 }
 \details{
 Question 1447. How much do you agree or disagree that refugees who have suffered political repression in their own country should be allowed to stay in America?

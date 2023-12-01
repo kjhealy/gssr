@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_159.R
 \name{kdsex1}
 \alias{kdsex1}
-\title{kdsex1}
+\title{Sex of r 1st child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of r 1st child
+kdsex1
 }
 \details{
 Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. b. Is \link{CHILD} male or female?

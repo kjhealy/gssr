@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_237.R
 \name{prfmgst}
 \alias{prfmgst}
-\title{prfmgst}
+\title{Did not go because couldn't find anyone to go with}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did not go because couldn't find anyone to go with
+prfmgst
 }
 \details{
 Question Thinking about the most recent performance you wanted to attend but did not, which of the following factors were important in your decision not to attend? D. Could not find anyone to go with.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_130.R
 \name{marjew}
 \alias{marjew}
-\title{marjew}
+\title{Close relative marry jew}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Close relative marry jew
+marjew
 }
 \details{
 Question 405. What about having a close relative marry a jewish person? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?

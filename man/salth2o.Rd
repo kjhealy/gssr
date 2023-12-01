@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_383.R
 \name{salth2o}
 \alias{salth2o}
-\title{salth2o}
+\title{Ocean water for vegetables}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ocean water for vegetables
+salth2o
 }
 \details{
 Question A farmer thinks that the vegetables on her farm are not getting enough water. Her son suggests that they use water from the nearby ocean to water the vegetables. Is this a good idea? {response to acceptDK} {response to probeDK}

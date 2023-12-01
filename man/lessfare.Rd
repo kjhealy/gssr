@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_131.R
 \name{lessfare}
 \alias{lessfare}
-\title{lessfare}
+\title{If less welfare more will work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If less welfare more will work
+lessfare
 }
 \details{
 Question 406. Here are some proposals about welfare. I would like to know if you favor or oppose them: b. Second, reducing welfare benefits to make working for a living more attractive.

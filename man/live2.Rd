@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_566.R
 \name{live2}
 \alias{live2}
-\title{live2}
+\title{Your home in poor condition}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Your home in poor condition
+live2
 }
 \details{
 Question G. What about things concerning where you live? During the last year, did any of the following happen? 2. Your home in poor condition (e.g. leaks, broken windows, insects, heating breakdowns, exposed wires, etc.)

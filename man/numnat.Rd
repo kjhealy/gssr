@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_349.R
 \name{numnat}
 \alias{numnat}
-\title{numnat}
+\title{How many r belongs to nationality groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to nationality groups
+numnat
 }
 \details{
 Question 1025k. How many nationality groups do you belong to?

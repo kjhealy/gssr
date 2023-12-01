@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_422.R
 \name{eff911k}
 \alias{eff911k}
-\title{eff911k}
+\title{How effective r thinks avoiding travel to certain cities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How effective r thinks avoiding travel to certain cities
+eff911k
 }
 \details{
 Question How effective do you think avoiding travel to certain cities is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)

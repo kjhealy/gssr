@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_78.R
 \name{abhave3}
 \alias{abhave3}
-\title{abhave3}
+\title{Have abortion if couldn't afford child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have abortion if couldn't afford child
+abhave3
 }
 \details{
 Question 250. WOMEN: Would you yourself have an abortion if: MEN: Would you yourself advise the woman you were married to have an abortion if: c. You did not think you could afford another child?

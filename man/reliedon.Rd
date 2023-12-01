@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_336.R
 \name{reliedon}
 \alias{reliedon}
-\title{reliedon}
+\title{Ppl at work can be relied on when needs help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ppl at work can be relied on when needs help
+reliedon
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. k. People at work with can be relied on when someone needs help.

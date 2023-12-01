@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_384.R
 \name{weighing}
 \alias{weighing}
-\title{weighing}
+\title{Which is the best method to report weight of leaf}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which is the best method to report weight of leaf
+weighing
 }
 \details{
 Question As part of a laboratory experiment, five students measured the weight of the same leaf four times. They recorded 20 slightly different weights. All of the work was done carefully and correctly. Their goal was to be as accurate as possible and reduce Which of the following is the best method to report the weight of the leaf? {response to acceptDK} {response to probeDK}

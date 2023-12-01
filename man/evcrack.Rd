@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_554.R
 \name{evcrack}
 \alias{evcrack}
-\title{evcrack}
+\title{R ever use crack cocaine}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R ever use crack cocaine
+evcrack
 }
 \details{
 Question 1560. Have you ever, even once, used "crack" cocaine in chunk or rock form?

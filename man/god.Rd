@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_116.R
 \name{god}
 \alias{god}
-\title{god}
+\title{R's confidence in the existence of god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's confidence in the existence of god
+god
 }
 \details{
 Question 369. Please look at this card and tell me which statement comes closest to expresing what you believe about God: 1. I don't believe in God. 2. I don't know whether there is a God and I don't believe there is any way to find out. 3. I don't believe in a personal God, but I do believe in a Higher Power of some kind. 4. I find myself believing in God some of the time, but not at others. 5. While I have doubts, I feel that I do believe in God. 6. I know God really exists and I have no doubts about it.

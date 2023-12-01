@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_69.R
 \name{chldsoon}
 \alias{chldsoon}
-\title{chldsoon}
+\title{Children expected in 5 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children expected in 5 years
+chldsoon
 }
 \details{
 Question 212b. How many (more) in the next five years?

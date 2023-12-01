@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_193.R
 \name{realtorf}
 \alias{realtorf}
-\title{realtorf}
+\title{Convenience made r choose the realtor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Convenience made r choose the realtor
+realtorf
 }
 \details{
 Question 603. What made you choose the realtor with whom you worked? f. Convenience

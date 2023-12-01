@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_372.R
 \name{bizinfgw}
 \alias{bizinfgw}
-\title{bizinfgw}
+\title{Influence on global warming policy: business leader}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence on global warming policy: business leader
+bizinfgw
 }
 \details{
 Question 1056. Please look at Card B4. How much influence should each of the following groups have in deciding what to do about global warming? c. Business leaders

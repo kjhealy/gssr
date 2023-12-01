@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_29.R
 \name{usclass3}
 \alias{usclass3}
-\title{usclass3}
+\title{Achievement depends on educ and ability}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Achievement depends on educ and ability
+usclass3
 }
 \details{
 Question 72. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. c. America has an open society. What one achieves in life no longer depends on one's family bakcground, but on the abilities one has and the education one acquires.

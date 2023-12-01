@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_156.R
 \name{fstspedc}
 \alias{fstspedc}
-\title{fstspedc}
+\title{Educ of first spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Educ of first spouse
+fstspedc
 }
 \details{
 Question 492. What is the highest grade in elementary school or high school that your (first/former) (husband/wife) finished and got credit for?

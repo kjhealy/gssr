@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_659.R
 \name{abgender}
 \alias{abgender}
-\title{abgender}
+\title{Aboriton legal for gender selection}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Aboriton legal for gender selection
+abgender
 }
 \details{
 Question (Please tell us whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if...) ...she is pregnant with a boy but wants a girl, or is pregnant with a girl but wants a boy.

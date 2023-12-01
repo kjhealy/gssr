@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_88.R
 \name{febrass}
 \alias{febrass}
-\title{febrass}
+\title{Do women command over men}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do women command over men
+febrass
 }
 \details{
 Question 293c. As far as you know, are women in the armed forces now assigned to jobs where they have command over men, or are women not assigned to such jobs?

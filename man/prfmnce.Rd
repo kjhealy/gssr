@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_232.R
 \name{prfmnce}
 \alias{prfmnce}
-\title{prfmnce}
+\title{Did r go to a performance in last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r go to a performance in last 12 months
+prfmnce
 }
 \details{
 Question With the exception of elementary or high school performances, did you go to a live music, theater, or dance performance, during the last 12 months?

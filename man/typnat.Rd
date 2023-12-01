@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_347.R
 \name{typnat}
 \alias{typnat}
-\title{typnat}
+\title{R belongs to more than one nationality groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one nationality groups
+typnat
 }
 \details{
 Question 1024k. Do you belong to more than one nationality club?

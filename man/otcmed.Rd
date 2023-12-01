@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{otcmed}
 \alias{otcmed}
-\title{otcmed}
+\title{X should take non-prescription medication}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should take non-prescription medication
+otcmed
 }
 \details{
 Question 659. Should NAME do any of the following: h. Take non-prescription medication, like over the counter sleeping pills

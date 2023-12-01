@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_534.R
 \name{ethclose}
 \alias{ethclose}
-\title{ethclose}
+\title{How close feel to your ethnic or racial group?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How close feel to your ethnic or racial group?
+ethclose
 }
 \details{
 Question 1454. How close do you feel to your ethnic or racial group?

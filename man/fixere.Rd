@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_196.R
 \name{fixere}
 \alias{fixere}
-\title{fixere}
+\title{I saw their advertisement}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I saw their advertisement
+fixere
 }
 \details{
 Question 612. Think about the most recent time you've paid for home maintenance service - e.g. a roofer, a painter, a plumber or something like that. What made you choose the person or business that did the work? e. I saw their advertisement

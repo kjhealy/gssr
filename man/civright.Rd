@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_74.R
 \name{civright}
 \alias{civright}
-\title{civright}
+\title{Civil rights demonstration}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Civil rights demonstration
+civright
 }
 \details{
 Question 228 Have you ever taken part in: b. A civil rights demonstration?

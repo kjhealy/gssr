@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_503.R
 \name{sethours}
 \alias{sethours}
-\title{sethours}
+\title{Who set working hours}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who set working hours
+sethours
 }
 \details{
 Question 1355. Which of the following statements best describes how your working hours are decided? (By working hours we mean here the times you start and finish work, and not the total hours you work per week or month.) 1. Starting and finishing times are decided by my employer and I cannot change them on my own. 2. I can decide the time I start and finish work, within certain limits. 3. I am entirely free to decide when I start and finish work.

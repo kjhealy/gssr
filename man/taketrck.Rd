@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_570.R
 \name{taketrck}
 \alias{taketrck}
-\title{taketrck}
+\title{Punishment for stealing and selling truck parts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment for stealing and selling truck parts
+taketrck
 }
 \details{
 Question 1590. Now I'm going to ask you about several offenses. For each case, indicate (Number 1-6) what you would consider the appropriate punishment for each case. e. government employee was convicted of stealing truck parts and tires from a military depot and selling them to civilians.

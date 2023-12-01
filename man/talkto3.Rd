@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_102.R
 \name{talkto3}
 \alias{talkto3}
-\title{talkto3}
+\title{How often does r talk to person #3?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r talk to person #3?
+talkto3
 }
 \details{
 Question 319. Thinking about how often you usually talk to \link{NAME}, on the average, do you talk to (him/her) almost every day, at least once a week, at least once a month, or less than once a month?

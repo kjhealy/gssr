@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_314.R
 \name{physacts}
 \alias{physacts}
-\title{physacts}
+\title{To what extent r can accomplish everyday physical activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-To what extent r can accomplish everyday physical activities
+physacts
 }
 \details{
 Question To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_06.R
 \name{papres16}
 \alias{papres16}
-\title{papres16}
+\title{Father's occupational prestige score (1970)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's occupational prestige score (1970)
+papres16
 }
 \details{
 Question 8a. What kind of work did your father \link{FATHER SUBSTITUTE} normally do while you were growing up? That is, what was his job called? b. What did he actually do in that job? Tell me, what were some of his main duties?

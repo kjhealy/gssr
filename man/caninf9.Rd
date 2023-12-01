@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_334.R
 \name{caninf9}
 \alias{caninf9}
-\title{caninf9}
+\title{Would go to news site for information on candid}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would go to news site for information on candid
+caninf9
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? i. Would go to news or media site for information on candidate.

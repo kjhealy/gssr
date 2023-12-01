@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_470.R
 \name{payfctry}
 \alias{payfctry}
-\title{payfctry}
+\title{How much r thinks owner of a large factory makes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much r thinks owner of a large factory makes
+payfctry
 }
 \details{
 Question 1254. We would like to know what you think people in these jobs actually earn. Please write in how much you think they usually earn, each year, before taxes. Many people are not exactly sure about this but your best guess will be close enough. This may be difficult, but it is very important. So please try. Please write in how much they actually earn each year: n. Owner-manager of a large factory

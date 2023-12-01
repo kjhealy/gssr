@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_128.R
 \name{intljews}
 \alias{intljews}
-\title{intljews}
+\title{Unintelligent - intelligent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unintelligent - intelligent
+intljews
 }
 \details{
 Question 403d. Do people in these groups tend to be unintelligent or tend to be intelligent? 2. Jews

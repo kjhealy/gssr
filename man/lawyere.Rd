@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_194.R
 \name{lawyere}
 \alias{lawyere}
-\title{lawyere}
+\title{I saw their advertisement}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I saw their advertisement
+lawyere
 }
 \details{
 Question 608. Think about the most recent time you hired a lawyer. What made you choose this law firm or attorney? e. I saw their advertisement

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_90.R
 \name{femilop}
 \alias{femilop}
-\title{femilop}
+\title{Fem opportunities better in military?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fem opportunities better in military?
+femilop
 }
 \details{
 Question 298b. And what about women? Would you say that their treatment and opportunities are better in teh military, better in civilian employment, or that there isn't any difference these days?

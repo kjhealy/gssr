@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_221.R
 \name{mhp3r1}
 \alias{mhp3r1}
-\title{mhp3r1}
+\title{Relation to person 3 (1st mentioned)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relation to person 3 (1st mentioned)
+mhp3r1
 }
 \details{
 Question R's relationship with the third named person A. First relationship

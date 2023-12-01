@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_572.R
 \name{emailhme}
 \alias{emailhme}
-\title{emailhme}
+\title{Govt audit email and internet at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt audit email and internet at home
+emailhme
 }
 \details{
 Question 1594. Protecting secrets is a continuing concern of the government. I am going to ask you about various security measures that the government might apply to individuals with a SECRET or TOP SECRET clearance. Do you (strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree) that people with SECRET or TOP SECRET clearance should be subject to: d. Auditing of email and internet use aat home

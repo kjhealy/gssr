@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_610.R
 \name{hlthstrt}
 \alias{hlthstrt}
-\title{hlthstrt}
+\title{Would you say the respondent? Health in general is excellent, good, fair, or poo}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would you say the respondent? Health in general is excellent, good, fair, or poo
+hlthstrt
 }
 \details{
 Question Would you say the respondent's health in general is Excellent, Good, Fair, or Poor?

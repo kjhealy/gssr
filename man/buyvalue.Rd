@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_390.R
 \name{buyvalue}
 \alias{buyvalue}
-\title{buyvalue}
+\title{Percent of company stock r bought from own money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percent of company stock r bought from own money
+buyvalue
 }
 \details{
 Question 1084. Approximately what percent of the company stock that you own today did you buy with your own savings or money from your wages?

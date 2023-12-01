@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_151.R
 \name{classics}
 \alias{classics}
-\title{classics}
+\title{Hs and coll studts read too many classics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hs and coll studts read too many classics
+classics
 }
 \details{
 Question 475. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it: c. High schools and colleges make students spend too much time reading "classics" that have little relevance in today's world.

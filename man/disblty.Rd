@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_649.R
 \name{disblty}
 \alias{disblty}
-\title{disblty}
+\title{Does r have disability}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r have disability
+disblty
 }
 \details{
 Question Do you have a long-standing illness, a chronic condition, or a disability?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_343.R
 \name{joylifts}
 \alias{joylifts}
-\title{joylifts}
+\title{Feel joy during worship}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel joy during worship
+joylifts
 }
 \details{
 Question You may experience the following in your daily life, if so how often. 1006. During worship, or at other times when connecting with God, I feel joy which lifts me out of my daily concerns.

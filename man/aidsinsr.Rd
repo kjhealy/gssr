@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_551.R
 \name{aidsinsr}
 \alias{aidsinsr}
-\title{aidsinsr}
+\title{Allow insurer's to test applicant for aids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow insurer's to test applicant for aids
+aidsinsr
 }
 \details{
 Question 1539. Do you support or oppose the following measures to deal with AIDS? c. Permit insurance companies to test applicants for the AIDS virus

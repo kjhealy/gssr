@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_443.R
 \name{ownsteel}
 \alias{ownsteel}
-\title{ownsteel}
+\title{Govts role in the steel industry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts role in the steel industry
+ownsteel
 }
 \details{
 Question 1187. What do you think the government's role in each of these industries should be? c. The steel industry

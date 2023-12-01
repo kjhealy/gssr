@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_266.R
 \name{buyit12}
 \alias{buyit12}
-\title{buyit12}
+\title{R use web to purchase products in past 12 month}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use web to purchase products in past 12 month
+buyit12
 }
 \details{
 Question 774. In the past 12 months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/02 have you used the Web to do each of these things: d. Actually buy something?

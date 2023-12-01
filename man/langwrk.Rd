@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_254.R
 \name{langwrk}
 \alias{langwrk}
-\title{langwrk}
+\title{How often are other languages heard at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often are other languages heard at work
+langwrk
 }
 \details{
 Question 743b. How often do you hear languages other than English spoken in the place where you work?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_458.R
 \name{bestfrd}
 \alias{bestfrd}
-\title{bestfrd}
+\title{Number of other close friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of other close friends
+bestfrd
 }
 \details{
 Question 1233. Now think about your best friend, the friend you feel closest to (but not your partner). Is this best friend ...

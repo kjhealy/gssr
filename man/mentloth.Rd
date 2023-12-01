@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{mentloth}
 \alias{mentloth}
-\title{mentloth}
+\title{X should go to other mental health professional for help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should go to other mental health professional for help
+mentloth
 }
 \details{
 Question 659. Should NAME do any of the following: e. Go to a therapist, or counselor, like a psychologist, social worker, or other mental health professional for help

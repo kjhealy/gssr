@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_381.R
 \name{intintl}
 \alias{intintl}
-\title{intintl}
+\title{Interested in international issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested in international issues
+intintl
 }
 \details{
 Question There are a lot of issues in the news, and it is hard to keep up with every area. I�m going to read you a short list of issues, and for each one -- as I read it -- I would like you to tell me if you are very interested, moderately interested, or not International and foreign policy issues. Are you very interested, moderately interested, or not at all interested?

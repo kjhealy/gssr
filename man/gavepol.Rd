@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_112.R
 \name{gavepol}
 \alias{gavepol}
-\title{gavepol}
+\title{Has r given money to candidate or cause}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r given money to candidate or cause
+gavepol
 }
 \details{
 Question 352. In the past three or four years, have you contributed money to a political party or candidate or to any other political cause?

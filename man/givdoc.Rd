@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_470.R
 \name{givdoc}
 \alias{givdoc}
-\title{givdoc}
+\title{How much ought doctor make?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much ought doctor make?
+givdoc
 }
 \details{
 Question 1255. Next, what do you think people in these jobs ought to be paid how much do you think they should earn each year before taxes, regardless of what they actually get? Please write in how much they should earn each year. b. Doctor in general practice

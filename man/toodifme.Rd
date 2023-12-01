@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_520.R
 \name{toodifme}
 \alias{toodifme}
-\title{toodifme}
+\title{Too diff to do anything about envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Too diff to do anything about envir
+toodifme
 }
 \details{
 Question 1414. How much do you agree or disagree with each of these statements? a. It is just too difficult for someone like me to do much about the environment.

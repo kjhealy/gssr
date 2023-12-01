@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_443.R
 \name{hlthcare}
 \alias{hlthcare}
-\title{hlthcare}
+\title{Govts resp: provide hlth care for sick}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts resp: provide hlth care for sick
+hlthcare
 }
 \details{
 Question 1188. On the whole, do you think it should or should not be the government's responsibility to . . . c. Provide health care for the sick

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_381.R
 \name{inttech}
 \alias{inttech}
-\title{inttech}
+\title{Interested in technologies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested in technologies
+inttech
 }
 \details{
 Question Issues about the use of new inventions and technologies. (Are you very interested, moderately interested, or not at all interested?)

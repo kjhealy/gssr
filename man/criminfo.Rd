@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_33.R
 \name{criminfo}
 \alias{criminfo}
-\title{criminfo}
+\title{How much info does r have on crime issue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much info does r have on crime issue
+criminfo
 }
 \details{
 Question 92b. How much information do you have about the crime issue?

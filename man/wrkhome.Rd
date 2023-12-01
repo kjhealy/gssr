@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_304.R
 \name{wrkhome}
 \alias{wrkhome}
-\title{wrkhome}
+\title{How often r works at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r works at home
+wrkhome
 }
 \details{
 Question 879. How often do you work at home as part of your job?

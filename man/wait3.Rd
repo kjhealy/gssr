@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_297.R
 \name{wait3}
 \alias{wait3}
-\title{wait3}
+\title{How long r wait treatment doing less work p}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long r wait treatment doing less work p
+wait3
 }
 \details{
 Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? c. Accomplishing less than you would like with your work or other regular daily activities as a result of your physical health?

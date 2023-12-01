@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_465.R
 \name{dinefrds}
 \alias{dinefrds}
-\title{dinefrds}
+\title{How often r went out to eat or drink with at least 3 non-family members}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r went out to eat or drink with at least 3 non-family members
+dinefrds
 }
 \details{
 Question How often do you go out to eat or drink with three or more friends or acquaintances who are not family members?

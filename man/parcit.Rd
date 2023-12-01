@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_534.R
 \name{parcit}
 \alias{parcit}
-\title{parcit}
+\title{Were your parents citizens of america?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Were your parents citizens of america?
+parcit
 }
 \details{
 Question 1453b. At the time of your birth, were both, one or neither of your parents citizens of America?

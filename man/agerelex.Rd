@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_341.R
 \name{agerelex}
 \alias{agerelex}
-\title{agerelex}
+\title{Age of r at religious experience}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age of r at religious experience
+agerelex
 }
 \details{
 Question 993. How old were you when this occurred?

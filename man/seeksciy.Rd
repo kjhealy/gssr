@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_386.R
 \name{seeksciy}
 \alias{seeksciy}
-\title{seeksciy}
+\title{Where get science issue news}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where get science issue news
+seeksciy
 }
 \details{
 Question If you wanted to learn about scientific issues such as global warming or biotechnology, where would you get information -- printed newspapers, online newspapers, printed magazines, online magazines, other places on the Internet, books or other printed materials, TV, radio, family, friends, colleagues, or some other source? PROBE: What would be your main source of information?

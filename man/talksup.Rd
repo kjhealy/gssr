@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_322.R
 \name{talksup}
 \alias{talksup}
-\title{talksup}
+\title{How likely to speak supervisor if coworker not w}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely to speak supervisor if coworker not w
+talksup
 }
 \details{
 Question 925. If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to: b. Speak to your supervisor or manager

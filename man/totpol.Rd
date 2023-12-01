@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_207.R
 \name{totpol}
 \alias{totpol}
-\title{totpol}
+\title{How much money contributed in political org. etc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much money contributed in political org. etc
+totpol
 }
 \details{
 Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? j. Political organizations or campaigns

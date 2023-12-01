@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_562.R
 \name{hlth12}
 \alias{hlth12}
-\title{hlth12}
+\title{A death of spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A death of spouse
+hlth12
 }
 \details{
 Question Now I am going to ask about some things that happen in families. Did any deaths occur during the past year, that is since (CURRENT MONTH) 2003? Who was that? 12. Husband or wife

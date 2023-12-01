@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_435.R
 \name{racpub}
 \alias{racpub}
-\title{racpub}
+\title{Allow racists to publish books}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow racists to publish books
+racpub
 }
 \details{
 Question 1161. Second, consider people who believe that whites are racially superior to all other races. Circle a number after each question to show if you think such people should be allowed to . . . c. Publish books expressing their views.

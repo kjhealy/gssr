@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_171.R
 \name{meltpot}
 \alias{meltpot}
-\title{meltpot}
+\title{R attitude toward mixing cultures in us}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R attitude toward mixing cultures in us
+meltpot
 }
 \details{
 Question 519. Some people say that it is better for America if different racial and ethnic groups maintain their distinct cultures. Others say that it is better if groups change so that they blend into the larger society as in the idea of a melting pot. Here is a card with a scale from 1 to 7. Think of a score of 1 as meaning that racial and ethnic groups should maintain their distinct cultures, and a score fo 7 as meaning that groups should change so that they blend into the larger society. What score between 1 and 7 comes closest to the way you feel?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_04.R
 \name{cowrksta}
 \alias{cowrksta}
-\title{cowrksta}
+\title{Partner's labor force status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner's labor force status
+cowrksta
 }
 \details{
 Question None

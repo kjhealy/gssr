@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_523.R
 \name{chemfam}
 \alias{chemfam}
-\title{chemfam}
+\title{Pesticides danger to my family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pesticides danger to my family
+chemfam
 }
 \details{
 Question 1420b. And do you think that pesticides and chemicals used in farming are...

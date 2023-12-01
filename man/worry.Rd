@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_651.R
 \name{worry}
 \alias{worry}
-\title{worry}
+\title{How often could not control worrying in past 2 weeks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often could not control worrying in past 2 weeks
+worry
 }
 \details{
 Question Over the last 2 weeks, how often have you been bothered by the following problems: Not being able to stop or control worrying.

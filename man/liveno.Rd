@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_130.R
 \name{liveno}
 \alias{liveno}
-\title{liveno}
+\title{Neighborhood half northern white}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Neighborhood half northern white
+liveno
 }
 \details{
 Question 404. Now I'm going to ask you about different types of contact with various groups of people. In each situation would you please tell me whether you would be very much in favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very much opposed to it happening? e. Living in a neighborhod where half of your neighbors were raised in the \link{OPPOSITE OF R'S REGION}

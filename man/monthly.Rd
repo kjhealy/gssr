@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_241.R
 \name{monthly}
 \alias{monthly}
-\title{monthly}
+\title{What is your monthly wage before tax}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is your monthly wage before tax
+monthly
 }
 \details{
 Question 707d. What is your monthly salary, before any taxes or deductions?

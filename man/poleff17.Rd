@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_446.R
 \name{poleff17}
 \alias{poleff17}
-\title{poleff17}
+\title{Most government administrator's can be trusted}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most government administrator's can be trusted
+poleff17
 }
 \details{
 Question 1194. How much do you agree or disagree with each of the following statements? g. Most government administrators can be trusted to do what is best for the country

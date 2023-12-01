@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_158.R
 \name{sphedpre105plus}
 \alias{sphedpre105plus}
-\title{sphedpre105plus}
+\title{Spouse's father's occ pres when spouse was 16 using threshold method (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's father's occ pres when spouse was 16 using threshold method (2010)
+sphedpre105plus
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_414.R
 \name{mhgvthme}
 \alias{mhgvthme}
-\title{mhgvthme}
+\title{Govt responsibility: provide housing for x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt responsibility: provide housing for x
+mhgvthme
 }
 \details{
 Question 1142. The next few questions deal with the government's responsibility to help people like \link{NAME}. For each statement please tell me if you think the government definitely should, probably should, probably should not, or definitely should not be responsible for helping people with situations like \link{NAME}. c. Provide housing for \link{NAME} if \link{NAME} can't afford it.

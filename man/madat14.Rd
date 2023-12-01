@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_187.R
 \name{madat14}
 \alias{madat14}
-\title{madat14}
+\title{Angry at subordinate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Angry at subordinate
+madat14
 }
 \details{
 Question 576. Who were you angry, irritated, or annoyed at? n. A subordinate at work; someone who works under you

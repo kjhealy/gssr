@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_297.R
 \name{wait2}
 \alias{wait2}
-\title{wait2}
+\title{How long r wait treatment climbing stairs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long r wait treatment climbing stairs
+wait2
 }
 \details{
 Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? b. Not being able to climb several flights of stairs?

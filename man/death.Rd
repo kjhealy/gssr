@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_608.R
 \name{death}
 \alias{death}
-\title{death}
+\title{R's possible vital status as of 2014}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's possible vital status as of 2014
+death
 }
 \details{
 Question None

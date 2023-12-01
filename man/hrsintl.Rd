@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_204.R
 \name{hrsintl}
 \alias{hrsintl}
-\title{hrsintl}
+\title{How many hours spent in international}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many hours spent in international
+hrsintl
 }
 \details{
 Question 642. I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for: m. International/foregin

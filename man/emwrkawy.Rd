@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_284.R
 \name{emwrkawy}
 \alias{emwrkawy}
-\title{emwrkawy}
+\title{R send or receive to or from business contacts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R send or receive to or from business contacts
+emwrkawy
 }
 \details{
 Question Do any of the personal one-to-one messages you receive or send come from: f. Business or work contacts away from your workplace?

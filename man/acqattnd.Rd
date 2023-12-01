@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_402.R
 \name{acqattnd}
 \alias{acqattnd}
-\title{acqattnd}
+\title{Number of regular church attendee r is acquainted with}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of regular church attendee r is acquainted with
+acqattnd
 }
 \details{
 Question 1108. Now thinking about all the people you are acquainted with: c. How many do you think attend religious services regularly? Would you say...

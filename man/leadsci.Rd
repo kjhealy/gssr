@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_367.R
 \name{leadsci}
 \alias{leadsci}
-\title{leadsci}
+\title{Shld pay attntn only to theory accepted by leading scientists}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Shld pay attntn only to theory accepted by leading scientists
+leadsci
 }
 \details{
 Question 1035. I'm going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. e. Government decision makers should pay attention only to those scientific theories that have been accepted

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_60.R
 \name{anomia1}
 \alias{anomia1}
-\title{anomia1}
+\title{Next to health, money is most important}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Next to health, money is most important
+anomia1
 }
 \details{
 Question 178. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. a. Next to health, money is the most important thing in life.

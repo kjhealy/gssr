@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_487.R
 \name{famvswrk}
 \alias{famvswrk}
-\title{famvswrk}
+\title{Difficult to concentrate wrk bc of fam responsibility}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Difficult to concentrate wrk bc of fam responsibility
+famvswrk
 }
 \details{
 Question 1316. How often has each of the following happened to you during the past three months? d. I have found it difficult to concentrate at work because of my family responsibilities.

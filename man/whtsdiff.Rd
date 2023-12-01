@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_301.R
 \name{whtsdiff}
 \alias{whtsdiff}
-\title{whtsdiff}
+\title{Whites different from minorities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Whites different from minorities
+whtsdiff
 }
 \details{
 Question 850. Think about Whites in the U.S. compared to ethnic minority groups. To what extent do you agree with the following statement? c. Whites as a group are very distinct and different from ethnic minority groups.

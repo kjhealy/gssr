@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_151.R
 \name{grtbooks}
 \alias{grtbooks}
-\title{grtbooks}
+\title{Appeal of greatest books is univer'sal}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Appeal of greatest books is univer'sal
+grtbooks
 }
 \details{
 Question 475. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it: d. The greatest books are universal in their appeal: there is no "white literature," "black literature," or "Asian literature," ther eis only human literature.

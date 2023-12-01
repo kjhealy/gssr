@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_509.R
 \name{govcheat}
 \alias{govcheat}
-\title{govcheat}
+\title{Wrong to give govt false info for benefits?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Wrong to give govt false info for benefits?
+govcheat
 }
 \details{
 Question 1377. Consider the situations listed below. Do you feel it is wrong or not wrong if. . . b. A person gives the government incorrect information about himself to get government benefits that he is not entitled to.

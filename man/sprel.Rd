@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_40.R
 \name{sprel}
 \alias{sprel}
-\title{sprel}
+\title{Spouse's religious preference}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's religious preference
+sprel
 }
 \details{
 Question 115. In what religion were you raised?

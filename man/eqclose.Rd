@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_93.R
 \name{eqclose}
 \alias{eqclose}
-\title{eqclose}
+\title{R feels equally close to all persons}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R feels equally close to all persons
+eqclose
 }
 \details{
 Question 314. Do you feel equally close to all these people?

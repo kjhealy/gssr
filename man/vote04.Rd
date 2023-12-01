@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_22.R
 \name{vote04}
 \alias{vote04}
-\title{vote04}
+\title{Did r vote in 2004 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r vote in 2004 election
+vote04
 }
 \details{
 Question 66. In 2004, you remember that Kerry ran for President on the Democratic ticket against Bush for the Republicans. Do you remember for sure whether or not you voted in that election?

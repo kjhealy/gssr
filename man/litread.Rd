@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_273.R
 \name{litread}
 \alias{litread}
-\title{litread}
+\title{Read book after seeing author on web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Read book after seeing author on web
+litread
 }
 \details{
 Question 787e. Read a book by an author whose work you first discovered on the Web?

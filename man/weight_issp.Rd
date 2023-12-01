@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_649.R
 \name{weight_issp}
 \alias{weight_issp}
-\title{weight_issp}
+\title{Respondent weight}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondent weight
+weight_issp
 }
 \details{
 Question What is your weight?

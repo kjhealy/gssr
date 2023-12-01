@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_03.R
 \name{martype}
 \alias{martype}
-\title{martype}
+\title{Marital type}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Marital type
+martype
 }
 \details{
 Question \link{CODE TYPE OF MARRIAGE}

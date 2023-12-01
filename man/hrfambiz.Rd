@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_199.R
 \name{hrfambiz}
 \alias{hrfambiz}
-\title{hrfambiz}
+\title{How many hours per week?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many hours per week?
+hrfambiz
 }
 \details{
 Question 634. How many hours per week?

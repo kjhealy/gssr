@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_420.R
 \name{done911d}
 \alias{done911d}
-\title{done911d}
+\title{Has r learned where to get more info about terrorism}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r learned where to get more info about terrorism
+done911d
 }
 \details{
 Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know learned where to get more information about terrorism? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?

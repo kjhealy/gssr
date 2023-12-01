@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_388.R
 \name{engprob}
 \alias{engprob}
-\title{engprob}
+\title{Engineers help solve prob}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Engineers help solve prob
+engprob
 }
 \details{
 Question Engineers are helping to solve challenging problems. Do you strongly agree, agree, disagree, or strongly disagree?

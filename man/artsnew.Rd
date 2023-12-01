@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_270.R
 \name{artsnew}
 \alias{artsnew}
-\title{artsnew}
+\title{R learn something new on web about arts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R learn something new on web about arts
+artsnew
 }
 \details{
 Question 782. Now I would like you to think about the last time you used the Web to get information or exchange views about music, film, the visual arts, dance, theater, museums, literature, or related topics. a. On that occasion, did you come across or learn about anything new with regard to any of these topics?

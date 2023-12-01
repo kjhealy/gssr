@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_117.R
 \name{believe}
 \alias{believe}
-\title{believe}
+\title{Importance of believing in god w o doubt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of believing in god w o doubt
+believe
 }
 \details{
 Question 376. People have many differing views about what makes a person a good Christian or Jew. Please tell me how important is each of the following to you. Once again, please indicate where you would place your feelings on a scale from 1 to 5. b. To believe in God without question or doubt.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_76.R
 \name{fear}
 \alias{fear}
-\title{fear}
+\title{Afraid to walk at night in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Afraid to walk at night in neighborhood
+fear
 }
 \details{
 Question 233. Is there any area right around here - that is, within a mile - where you would be afraid to walk alone at night?

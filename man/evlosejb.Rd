@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_428.R
 \name{evlosejb}
 \alias{evlosejb}
-\title{evlosejb}
+\title{In life, r has ever been denied a job or fired bc employers believed r was gay/l}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In life, r has ever been denied a job or fired bc employers believed r was gay/l
+evlosejb
 }
 \details{
 Question Have you ever in your life been denied a job or been fired from a job because an employer believed you were gay, lesbian, or bisexual?

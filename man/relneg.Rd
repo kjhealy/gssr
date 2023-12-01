@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_366.R
 \name{relneg}
 \alias{relneg}
-\title{relneg}
+\title{Any turning point when less committed to religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Any turning point when less committed to religion
+relneg
 }
 \details{
 Question 1031. Has there ever been a turning point in your life when you became less commited to religion?

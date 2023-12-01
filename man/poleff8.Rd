@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_440.R
 \name{poleff8}
 \alias{poleff8}
-\title{poleff8}
+\title{I am usually interested in local elections}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I am usually interested in local elections
+poleff8
 }
 \details{
 Question 1178. Please indicate whether you agree or disagree with each of the following statements. h. I am usually interested in local elections.

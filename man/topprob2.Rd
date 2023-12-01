@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_526.R
 \name{topprob2}
 \alias{topprob2}
-\title{topprob2}
+\title{Next important issue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Next important issue
+topprob2
 }
 \details{
 Question Which is the next most important?

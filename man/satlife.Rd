@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_466.R
 \name{satlife}
 \alias{satlife}
-\title{satlife}
+\title{R is satisfied with their life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is satisfied with their life
+satlife
 }
 \details{
 Question All things considered, how satisfied are you with your life as a whole nowadays?

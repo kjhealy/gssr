@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_407.R
 \name{disabld6}
 \alias{disabld6}
-\title{disabld6}
+\title{R has difficulty in learning remembering or concentrating}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has difficulty in learning remembering or concentrating
+disabld6
 }
 \details{
 Question 1129. Because of a physical, mental, or emotional condition lasting 3 months or longer, do you have difficulty doing any of the following... Learning, remembering or concentrating?

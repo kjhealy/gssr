@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_331.R
 \name{outsider}
 \alias{outsider}
-\title{outsider}
+\title{Getting mental health treatment make child an}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Getting mental health treatment make child an
+outsider
 }
 \details{
 Question 953. That was my last question about (John/Mary). Now, I have some questions about children, but not about (John/Mary). Please tell me whether you Strongly Agree, Agree Somewhat, Disagree Somewhat or Strongly Disagree with the following statements: a. Getting mental health treatment for a child would make him/her an outsider at school.

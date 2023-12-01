@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_509.R
 \name{congovt}
 \alias{congovt}
-\title{congovt}
+\title{Confidence in government departments}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confidence in government departments
+congovt
 }
 \details{
 Question 1378. How much confidence do you have in. . . c. Government departments

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_287.R
 \name{clssmtes}
 \alias{clssmtes}
-\title{clssmtes}
+\title{Use clssmtes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use clssmtes
+clssmtes
 }
 \details{
 Question Which of the following social networking or social media sites are you a member or regular user of? Classmates

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_662.R
 \name{cowksup}
 \alias{cowksup}
-\title{cowksup}
+\title{Does partner supervise anyone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does partner supervise anyone
+cowksup
 }
 \details{
 Question None

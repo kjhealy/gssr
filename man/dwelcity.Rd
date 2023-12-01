@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_577.R
 \name{dwelcity}
 \alias{dwelcity}
-\title{dwelcity}
+\title{Dwelling compared to others in city}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Dwelling compared to others in city
+dwelcity
 }
 \details{
 Question 1610b. Compared to houses/apartments in the city/town/county, would you say the house was . . .

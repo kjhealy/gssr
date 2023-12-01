@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_391.R
 \name{slfmangd}
 \alias{slfmangd}
-\title{slfmangd}
+\title{R involved in a self-managed team}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R involved in a self-managed team
+slfmangd
 }
 \details{
 Question 1090a. Are you currently involved in a self-managed team?

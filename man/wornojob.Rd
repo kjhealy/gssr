@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_496.R
 \name{wornojob}
 \alias{wornojob}
-\title{wornojob}
+\title{Do you worry about not finding job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you worry about not finding job
+wornojob
 }
 \details{
 Question A. To what extent, if at all, do you worry about the possibility of not finding a job?

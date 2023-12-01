@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_399.R
 \name{acqwkblk}
 \alias{acqwkblk}
-\title{acqwkblk}
+\title{Number of black in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of black in current or previous work
+acqwkblk
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. g. How many are Black or African-American?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_609.R
 \name{res2012}
 \alias{res2012}
-\title{res2012}
+\title{Was r living in usa during april-june 2012}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was r living in usa during april-june 2012
+res2012
 }
 \details{
 Question During April through June 2012, were you living in the United States or were you living outside of the country?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_344.R
 \name{rosaries}
 \alias{rosaries}
-\title{rosaries}
+\title{Catholic rosaries are superstitious}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Catholic rosaries are superstitious
+rosaries
 }
 \details{
 Question 1015. To what extent to you agree or disagree with the following statements? b. Catholic rosaries and holy medals are superstitious.

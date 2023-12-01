@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_307.R
 \name{wkdecide}
 \alias{wkdecide}
-\title{wkdecide}
+\title{How often r take part in decisions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r take part in decisions
+wkdecide
 }
 \details{
 Question 888a. In your job, how often do you take part with others in making decisions that affect you?

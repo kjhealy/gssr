@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_511.R
 \name{ownfate}
 \alias{ownfate}
-\title{ownfate}
+\title{We each make our own fate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-We each make our own fate
+ownfate
 }
 \details{
 Question 1387. Do you agree or disagree with the following. . . g. We each make our own fate.

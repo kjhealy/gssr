@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_119.R
 \name{frndcon2}
 \alias{frndcon2}
-\title{frndcon2}
+\title{Does friend 2 belong to r's congregation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does friend 2 belong to r's congregation
+frndcon2
 }
 \details{
 Question 380. Many people have some good friends they feel close to. Who are your good friends (other than your spouse)? Is \link{NAME} a member of your congregation?

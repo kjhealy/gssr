@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_484.R
 \name{dinner}
 \alias{dinner}
-\title{dinner}
+\title{Who in household plans meals}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who in household plans meals
+dinner
 }
 \details{
 Question 1306. In your household who does the following things: e. Deciding what to have for dinner

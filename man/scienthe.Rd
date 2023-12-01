@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_387.R
 \name{scienthe}
 \alias{scienthe}
-\title{scienthe}
+\title{Scientists help solve prob}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientists help solve prob
+scienthe
 }
 \details{
 Question Scientists are helping to solve challenging problems. Do you strongly agree, agree, disagree, or strongly disagree?

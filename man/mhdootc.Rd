@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_408.R
 \name{mhdootc}
 \alias{mhdootc}
-\title{mhdootc}
+\title{What x should do: take non-prescription medication}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: take non-prescription medication
+mhdootc
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? h. Take non-prescription medication

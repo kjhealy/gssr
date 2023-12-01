@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_646.R
 \name{hlthpoor}
 \alias{hlthpoor}
-\title{hlthpoor}
+\title{Suffer health prob because poor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suffer health prob because poor
+hlthpoor
 }
 \details{
 Question (People suffer from severe health problems...) Because they are poor.

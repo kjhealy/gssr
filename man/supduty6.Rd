@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_141.R
 \name{supduty6}
 \alias{supduty6}
-\title{supduty6}
+\title{You evaluate job performance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You evaluate job performance
+supduty6
 }
 \details{
 Question 443. Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities? Please mention all that apply: f. Evaluate job performance.

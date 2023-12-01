@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_641.R
 \name{whatslf2}
 \alias{whatslf2}
-\title{whatslf2}
+\title{How would you classify the place where you {#whatslf2fill}? Was this mainly...?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How would you classify the place where you {#whatslf2fill}? Was this mainly...?
+whatslf2
 }
 \details{
 Question How would you classify the place where you {#whatslf2fill}? Was this mainly...?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_383.R
 \name{goldfish}
 \alias{goldfish}
-\title{goldfish}
+\title{Experiment about goldfish and temperature}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Experiment about goldfish and temperature
+goldfish
 }
 \details{
 Question Please look at Card I-2. A student wants to find out if temperature affects the behavior of goldfish. He has 4 fish bowls and 20 goldfish. Which of the experiments on Card I-2 should he do? {response to acceptDK} {response to probeDK}

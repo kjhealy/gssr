@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_203.R
 \name{hrspub}
 \alias{hrspub}
-\title{hrspub}
+\title{How many hours spent in pub-soc benefit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many hours spent in pub-soc benefit
+hrspub
 }
 \details{
 Question 642. I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for: f. Public/societey benefit

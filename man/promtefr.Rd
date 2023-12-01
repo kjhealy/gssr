@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_308.R
 \name{promtefr}
 \alias{promtefr}
-\title{promtefr}
+\title{Promotions are handled fairly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Promotions are handled fairly
+promtefr
 }
 \details{
 Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. i. Promotions are handled fairly

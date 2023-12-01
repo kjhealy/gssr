@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_134.R
 \name{discwhy4}
 \alias{discwhy4}
-\title{discwhy4}
+\title{Heard about it in media}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Heard about it in media
+discwhy4
 }
 \details{
 Question 414a. Do you feel this way because of something that happened to you personally, because it happened to a relative, family member, or lcose friend, because you saw it occuring at work, or because you have heard about it from the media or other sources? 4. Heard about it on the media

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_452.R
 \name{sonnum}
 \alias{sonnum}
-\title{sonnum}
+\title{Number of adult sons}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of adult sons
+sonnum
 }
 \details{
 Question 1204. How many sons age 18 or older do you have? (We mean sons who are still alive; please include step sons, halfsons, and adopted sons.)

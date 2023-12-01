@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_228.R
 \name{rellife}
 \alias{rellife}
-\title{rellife}
+\title{Try to carry beliefs into other dealings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Try to carry beliefs into other dealings
+rellife
 }
 \details{
 Question Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements: 679. I try hard to carry my religious beliefs over into all my other dealings in life.

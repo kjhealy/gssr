@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_163.R
 \name{kdwork1}
 \alias{kdwork1}
-\title{kdwork1}
+\title{Does r child do paid work?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r child do paid work?
+kdwork1
 }
 \details{
 Question 504. I have some questions about \link{SELECTED CHILD}. First his/her work. Is s/he currently working at a paid job?

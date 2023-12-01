@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_303.R
 \name{doccosts}
 \alias{doccosts}
-\title{doccosts}
+\title{How r trust doc put health above costs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How r trust doc put health above costs
+doccosts
 }
 \details{
 Question 868. How much would you trust the doctor to put your health above costs? Would you say...

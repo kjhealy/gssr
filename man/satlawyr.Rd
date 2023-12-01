@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_195.R
 \name{satlawyr}
 \alias{satlawyr}
-\title{satlawyr}
+\title{How satisfied with the legal services}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How satisfied with the legal services
+satlawyr
 }
 \details{
 Question 610. How satisfied were you with the legal services you received?

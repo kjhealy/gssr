@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_89.R
 \name{draftfem}
 \alias{draftfem}
-\title{draftfem}
+\title{If emergency, draft women also?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If emergency, draft women also?
+draftfem
 }
 \details{
 Question 295c. If draft on b: If we should return to a military draft in a national emergency, should young women be drafted as well as young men, or not?

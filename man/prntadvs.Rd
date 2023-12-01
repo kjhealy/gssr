@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_644.R
 \name{prntadvs}
 \alias{prntadvs}
-\title{prntadvs}
+\title{Mother vs father advise child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother vs father advise child
+prntadvs
 }
 \details{
 Question (In your opinion, which parent should do the following? Who should...) ...take time to listen to and advise the child if he/she has problems?

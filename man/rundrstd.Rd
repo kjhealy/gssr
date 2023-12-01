@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_338.R
 \name{rundrstd}
 \alias{rundrstd}
-\title{rundrstd}
+\title{Did r appear to understand 3-box answer format}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r appear to understand 3-box answer format
+rundrstd
 }
 \details{
 Question 974. INTERVIEWER: BY THE TIME YOU HANDED HAND CARD C4 TO THE RESPONDENT, DID HE OR SHE APPEAR TO UNDERSTAND THE 3-BOX ANSWER FORMAT?

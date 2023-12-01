@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_310.R
 \name{wkracism}
 \alias{wkracism}
-\title{wkracism}
+\title{R feels discriminated because of race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R feels discriminated because of race
+wkracism
 }
 \details{
 Question 901. Do you feel in any way discriminated against on your job because of your race or ethnic origin?

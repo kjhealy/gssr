@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_56.R
 \name{considey}
 \alias{considey}
-\title{considey}
+\title{Considerate of others-version y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Considerate of others-version y
+considey
 }
 \details{
 Question 168a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT A CHILD IS CONSIDERATE OF OTHERS

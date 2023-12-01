@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_426.R
 \name{othplan}
 \alias{othplan}
-\title{othplan}
+\title{Other name for insurance or hmo policy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other name for insurance or hmo policy
+othplan
 }
 \details{
 Question Is there any other name for the {insname} policy, such as Option A, $100 Deductible Plan, 90/80 Plan, Gold Plan, or High Option Plan?

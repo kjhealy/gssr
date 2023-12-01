@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_272.R
 \name{artview}
 \alias{artview}
-\title{artview}
+\title{Use web to look at art works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to look at art works
+artview
 }
 \details{
 Question 786d. Visit a Web site that is not associated with an art museum or art gallery in order to look at art works?

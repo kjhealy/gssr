@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_601.R
 \name{marcohrt}
 \alias{marcohrt}
-\title{marcohrt}
+\title{Year of first marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Year of first marriage
+marcohrt
 }
 \details{
 Question 1652. Marriage cohort of the respondent.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_88.R
 \name{transair}
 \alias{transair}
-\title{transair}
+\title{Women as jet transport pilot}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women as jet transport pilot
+transair
 }
 \details{
 Question 292. I'm going to read you a list of jobs that people might have in the armed forces. Please tell me whether you think a woman should or should not be assigned to each job, assuming she is trained to do it. g. A jet transport pilot

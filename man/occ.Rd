@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_01.R
 \name{occ}
 \alias{occ}
-\title{occ}
+\title{R's census occupation code (1970)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's census occupation code (1970)
+occ
 }
 \details{
 Question 2a. What kind of work do you (did you normally) do? That is, what (is/was)your job called?

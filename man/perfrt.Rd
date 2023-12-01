@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_651.R
 \name{perfrt}
 \alias{perfrt}
-\title{perfrt}
+\title{Performance rating last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Performance rating last year
+perfrt
 }
 \details{
 Question If you received a performance rating from your organization in 2021, which statement best describes the rating you received?

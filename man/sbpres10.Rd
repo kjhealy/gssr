@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_170.R
 \name{sbpres10}
 \alias{sbpres10}
-\title{sbpres10}
+\title{R sibling occupational prestige score (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sibling occupational prestige score (2010)
+sbpres10
 }
 \details{
 Question None

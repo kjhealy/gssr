@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_446.R
 \name{poleff13}
 \alias{poleff13}
-\title{poleff13}
+\title{Have a pretty good understanding of issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have a pretty good understanding of issues
+poleff13
 }
 \details{
 Question 1194. How much do you agree or disagree with each of the following statements? c. I feel that I have a pretty good understanding of the important political issues facing our country

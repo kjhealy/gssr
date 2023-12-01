@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_265.R
 \name{health30}
 \alias{health30}
-\title{health30}
+\title{R use health site in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use health site in past 30 days
+health30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: m. Health and fitness?

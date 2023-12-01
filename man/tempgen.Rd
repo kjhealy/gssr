@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_523.R
 \name{tempgen}
 \alias{tempgen}
-\title{tempgen}
+\title{Greenhouse effect danger to envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Greenhouse effect danger to envir
+tempgen
 }
 \details{
 Question 1422a. In general, do you think that a rise in the world's temperature caused by the `greenhouse effect' , is...

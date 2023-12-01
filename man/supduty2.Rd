@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_140.R
 \name{supduty2}
 \alias{supduty2}
-\title{supduty2}
+\title{You train employees in other ways}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You train employees in other ways
+supduty2
 }
 \details{
 Question 443. Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities? Please mention all that apply: b. Train employees in other ways.

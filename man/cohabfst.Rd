@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_483.R
 \name{cohabfst}
 \alias{cohabfst}
-\title{cohabfst}
+\title{People should live together before marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People should live together before marriage
+cohabfst
 }
 \details{
 Question 1298. Do you agree or disagree: c. It's a good idea for a couple who intend to get married to live together first.

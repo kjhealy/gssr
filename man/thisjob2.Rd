@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_138.R
 \name{thisjob2}
 \alias{thisjob2}
-\title{thisjob2}
+\title{Heard job through my union}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Heard job through my union
+thisjob2
 }
 \details{
 Question 429. Which of the answers on this card describe how you heard about your present job with your employer? Please tell me all of the ways that you found out about this job. b. Through my union.

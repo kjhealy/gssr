@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_131.R
 \name{marblk}
 \alias{marblk}
-\title{marblk}
+\title{Close relative marry black}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Close relative marry black
+marblk
 }
 \details{
 Question 405. What about having a close relative marry a black person? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?

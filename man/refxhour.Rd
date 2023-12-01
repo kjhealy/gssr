@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_178.R
 \name{refxhour}
 \alias{refxhour}
-\title{refxhour}
+\title{Refuse to work overtime or extra hours?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Refuse to work overtime or extra hours?
+refxhour
 }
 \details{
 Question 559. In your (present/most recent) job, (have you ever done/did you ever do) any of the following because of your responsibilities to members of your family? c. Refuse to work overtime or extra hours

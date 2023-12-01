@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_631.R
 \name{skipmeal}
 \alias{skipmeal}
-\title{skipmeal}
+\title{How often r's household skip a meal}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r's household skip a meal
+skipmeal
 }
 \details{
 Question How often do you or other members of your household skip a meal because there is not enough money for food?

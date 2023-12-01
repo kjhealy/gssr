@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_241.R
 \name{weekly}
 \alias{weekly}
-\title{weekly}
+\title{What is your weekly wage before tax}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is your weekly wage before tax
+weekly
 }
 \details{
 Question 707c. What was your weekly wage, before any taxes or deductions?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_317.R
 \name{natactive}
 \alias{natactive}
-\title{natactive}
+\title{Natural environments are a good place for physical activity, such as walking, cy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Natural environments are a good place for physical activity, such as walking, cy
+natactive
 }
 \details{
 Question Thinking about your day to day experience of nature, please tell me how much do you agree or disagree with the following statements. B. Natural environments are a good place for physical activity, such as walking, cycling, sports, etc.

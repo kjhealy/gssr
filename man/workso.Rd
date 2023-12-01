@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_127.R
 \name{workso}
 \alias{workso}
-\title{workso}
+\title{Hard working - lazy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hard working - lazy
+workso
 }
 \details{
 Question 403b. The second set of characteristics asks if people in the group tend to be hard-working or if they tend to be lazy. 6. Southern whites

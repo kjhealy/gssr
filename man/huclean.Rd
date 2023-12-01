@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_293.R
 \name{huclean}
 \alias{huclean}
-\title{huclean}
+\title{R hu interior cleanliness rating}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R hu interior cleanliness rating
+huclean
 }
 \details{
 Question 820a. How clean was the interior of the housing unit?

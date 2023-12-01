@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_140.R
 \name{supothrs}
 \alias{supothrs}
-\title{supothrs}
+\title{Any people supervised by you supervise others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Any people supervised by you supervise others
+supothrs
 }
 \details{
 Question 440. Do any of these people supervise anyone else?

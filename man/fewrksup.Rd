@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_482.R
 \name{fewrksup}
 \alias{fewrksup}
-\title{fewrksup}
+\title{Do most women work to support family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do most women work to support family
+fewrksup
 }
 \details{
 Question 1296. Do you agree or disagree . . . Most women have to work these days to support their families.

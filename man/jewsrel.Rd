@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_259.R
 \name{jewsrel}
 \alias{jewsrel}
-\title{jewsrel}
+\title{Does r know jews as relative}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know jews as relative
+jewsrel
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. c. Do you know any of these Jews as a relative?

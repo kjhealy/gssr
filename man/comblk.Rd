@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_257.R
 \name{comblk}
 \alias{comblk}
-\title{comblk}
+\title{Percentage black living in r's community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage black living in r's community
+comblk
 }
 \details{
 Question 755. Just your best guess�what percentage of the people who live in your local community is each group? b. Blacks/African-Americans

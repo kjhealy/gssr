@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_368.R
 \name{expdesgn}
 \alias{expdesgn}
-\title{expdesgn}
+\title{Better way to test drug btw control and non-control}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Better way to test drug btw control and non-control
+expdesgn
 }
 \details{
 Question 1041. Now, please think about this situation. Two scientists want to know if a certain drug is effective against high blood pressure. The first scientist wants to give the drug to one thousand people with high blood pressure and see how many of them experience lower blood pressure levels. The second scientist wants to give the drug to five hundred people with high blood pressure, and not give the drug to another five hundred people with high blood pressure, and see how many in both groups experience lower blood pressure levels. Which is the better way to test this drug?

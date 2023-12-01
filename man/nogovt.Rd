@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_294.R
 \name{nogovt}
 \alias{nogovt}
-\title{nogovt}
+\title{No govt interference important for freedom}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-No govt interference important for freedom
+nogovt
 }
 \details{
 Question 828. I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important? b. Freedom is having a government that doesn't spy on me or interfere in my life .

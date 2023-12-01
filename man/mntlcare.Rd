@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_243.R
 \name{mntlcare}
 \alias{mntlcare}
-\title{mntlcare}
+\title{Were able to get mental health care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Were able to get mental health care
+mntlcare
 }
 \details{
 Question 718. Were you able to get the treatment you sought?

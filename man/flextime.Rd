@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_179.R
 \name{flextime}
 \alias{flextime}
-\title{flextime}
+\title{Allow workers more flexible hours}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow workers more flexible hours
+flextime
 }
 \details{
 Question 562. It is becoming more common for employers to offer ways for people to comine work and being a parent. For each of the following, please tell me whether or not you think that employers should offer these options to their workers. a. Allow workers more flexible working hours, to handle family responsibilities.

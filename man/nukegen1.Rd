@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_629.R
 \name{nukegen1}
 \alias{nukegen1}
-\title{nukegen1}
+\title{Nuke power danger to envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nuke power danger to envir
+nukegen1
 }
 \details{
 Question And do you think that nuclear power stations are...

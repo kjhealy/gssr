@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_410.R
 \name{mhdonone}
 \alias{mhdonone}
-\title{mhdonone}
+\title{What x should do: nothing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: nothing
+mhdonone
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? u. Nothing

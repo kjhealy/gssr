@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_395.R
 \name{acqsocs}
 \alias{acqsocs}
-\title{acqsocs}
+\title{Number of social worker r is acquainted with}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of social worker r is acquainted with
+acqsocs
 }
 \details{
 Question I'm going to ask you some questions about all the people that you are acquainted with, meaning that you know their name and would stop and talk at least for a moment if you ran into the person on the street or in a shopping mall. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. 1103c. How many are social workers?

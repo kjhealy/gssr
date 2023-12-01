@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_194.R
 \name{lawyer}
 \alias{lawyer}
-\title{lawyer}
+\title{Hired a lawyer in the past 10 yrs?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hired a lawyer in the past 10 yrs?
+lawyer
 }
 \details{
 Question 607. Have you hired a lawyer for any legal work in the past 10 years?

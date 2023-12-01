@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_164.R
 \name{kdocc10}
 \alias{kdocc10}
-\title{kdocc10}
+\title{R child census occupation code (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R child census occupation code (2010)
+kdocc10
 }
 \details{
 Question None

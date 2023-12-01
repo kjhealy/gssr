@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_312.R
 \name{ntwkhard}
 \alias{ntwkhard}
-\title{ntwkhard}
+\title{Past week not work hard enough}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Past week not work hard enough
+ntwkhard
 }
 \details{
 Question During the past week, about what percentage of time did you not work as hard as you should have?

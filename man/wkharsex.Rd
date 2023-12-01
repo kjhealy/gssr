@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_310.R
 \name{wkharsex}
 \alias{wkharsex}
-\title{wkharsex}
+\title{R sexually harassed on the job last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sexually harassed on the job last 12 months
+wkharsex
 }
 \details{
 Question 903. In the last 12 months, were you sexually harassed by anyone while you were on the job?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_483.R
 \name{mapaid}
 \alias{mapaid}
-\title{mapaid}
+\title{Should working women have paid maternity leave}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should working women have paid maternity leave
+mapaid
 }
 \details{
 Question 1302. Do you agree or disagree: a. Working women should receive paid maternity leave when they have a baby.

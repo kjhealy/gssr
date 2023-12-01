@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_632.R
 \name{relidins}
 \alias{relidins}
-\title{relidins}
+\title{To what extent r feels insulted if someone criticized r's religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-To what extent r feels insulted if someone criticized r's religion
+relidins
 }
 \details{
 Question If someone criticized your religion, to what extent would it feel like a personal insult?

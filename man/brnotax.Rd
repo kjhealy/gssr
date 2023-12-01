@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_447.R
 \name{brnotax}
 \alias{brnotax}
-\title{brnotax}
+\title{Do private companies avoid taxes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do private companies avoid taxes
+brnotax
 }
 \details{
 Question In general, how often do you think that the tax authorities in America do the following D. Try to avoid paying their taxes? (Would you say...)

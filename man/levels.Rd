@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_140.R
 \name{levels}
 \alias{levels}
-\title{levels}
+\title{How many levels of supervision beneath you}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many levels of supervision beneath you
+levels
 }
 \details{
 Question 441. In total, how many levels of supervision are ther ebeneath yours (including the one immediately under you)?

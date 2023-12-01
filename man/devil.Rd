@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_510.R
 \name{devil}
 \alias{devil}
-\title{devil}
+\title{Belief in the devil}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Belief in the devil
+devil
 }
 \details{
 Question 1382. Do you believe in. . . b. The devil

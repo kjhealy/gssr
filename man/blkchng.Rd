@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_256.R
 \name{blkchng}
 \alias{blkchng}
-\title{blkchng}
+\title{Percentage change population of blacks in 25 yr}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage change population of blacks in 25 yr
+blkchng
 }
 \details{
 Question 753. In the next 25 years, which of these groups do you think will increase their share of the population by a lot, which will increase by a little, which will stay the same, which will decrease by a little, and which will decrease by a lot? b. Blacks

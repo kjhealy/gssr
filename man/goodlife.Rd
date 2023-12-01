@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{goodlife}
 \alias{goodlife}
-\title{goodlife}
+\title{Standard of living of r will improve}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Standard of living of r will improve
+goodlife
 }
 \details{
 Question 1251. The way things are in America, people like me and my family have a good chance of improving our standard of living. Do you agree or disagree?

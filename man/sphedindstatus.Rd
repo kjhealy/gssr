@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_158.R
 \name{sphedindstatus}
 \alias{sphedindstatus}
-\title{sphedindstatus}
+\title{Sphedind10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sphedind10 coding status
+sphedindstatus
 }
 \details{
 Question None

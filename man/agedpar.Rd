@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_59.R
 \name{agedpar}
 \alias{agedpar}
-\title{agedpar}
+\title{Should aged live with their children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should aged live with their children
+agedpar
 }
 \details{
 Question B. As you know, many older people move into the homes of their grown children. Do you think this is generally a good idea or a bad idea?

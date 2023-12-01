@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_174.R
 \name{owneth}
 \alias{owneth}
-\title{owneth}
+\title{Do ethic politicians serve ethnic groups better}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do ethic politicians serve ethnic groups better
+owneth
 }
 \details{
 Question 535. Do you feel that people are best represented in politics by leaders from their own racial or ethnic background, or doesn't the leader's background make very much difference?

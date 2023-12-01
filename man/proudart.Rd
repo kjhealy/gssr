@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_531.R
 \name{proudart}
 \alias{proudart}
-\title{proudart}
+\title{How proud its achievements in the arts & lit.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How proud its achievements in the arts & lit.
+proudart
 }
 \details{
 Question 1441. How proud are you of America in each of the following? g. Its achievements in the arts and literature

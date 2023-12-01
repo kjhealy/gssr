@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_241.R
 \name{seenmntl}
 \alias{seenmntl}
-\title{seenmntl}
+\title{You or anyone you know seen a psychiatrist}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You or anyone you know seen a psychiatrist
+seenmntl
 }
 \details{
 Question Next, I'd like to ask you about your opinions about medicine, health, and health care. 709. Have you or has anyone else you know ever seen a psychiatrist, psychologist, or counselor?

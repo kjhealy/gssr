@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_481.R
 \name{divkids}
 \alias{divkids}
-\title{divkids}
+\title{Kids better if bad marrge ended by div}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kids better if bad marrge ended by div
+divkids
 }
 \details{
 Question 1287. When a marriage is troubled and unhappy, do you think it is generally better for the children if the couple stays together or gets divorced?

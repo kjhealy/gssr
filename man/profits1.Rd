@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_135.R
 \name{profits1}
 \alias{profits1}
-\title{profits1}
+\title{Whether management only care about profit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Whether management only care about profit
+profits1
 }
 \details{
 Question 417. To what extent do you agree or disagree with the following statements? a. The way most companies work, the only thing management cares about is profits, regardless of what workers want or need.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_21.R
 \name{if84who}
 \alias{if84who}
-\title{if84who}
+\title{Who would r have voted for-1984 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who would r have voted for-1984 election
+if84who
 }
 \details{
 Question 61b. If did not vote or ineligible: Who would you have voted for, for President, if you have voted?

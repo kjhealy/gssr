@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_348.R
 \name{numvet}
 \alias{numvet}
-\title{numvet}
+\title{How many r belongs to veterans groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to veterans groups
+numvet
 }
 \details{
 Question 1025c. How many veterans' groups do you belong to?

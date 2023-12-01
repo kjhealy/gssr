@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_113.R
 \name{blkgains}
 \alias{blkgains}
-\title{blkgains}
+\title{Best way for blacks to improve position}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Best way for blacks to improve position
+blkgains
 }
 \details{
 Question ASK ONLY IF R IS BLACK: 354. People have different ideas about the best way for blacks to improve their position in American life and politics. Some people think that the best way for blacks to improve their position is through civil rights groups, they would be at point 1 on this card. Other poeple think that the best way for blacks to improve their position is for each individual black to become better trained and more qualified. They would be located at point 7. And other people have opinions somewhere in between. Where would you place yourself on this scale?

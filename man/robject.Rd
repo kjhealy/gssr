@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_338.R
 \name{robject}
 \alias{robject}
-\title{robject}
+\title{Did r object to or delay answering card c4}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r object to or delay answering card c4
+robject
 }
 \details{
 Question 975. INTERVIEWER: DID THE RESPONDENT OBJECT TO OR DELAY ANSWERING CARD C4?

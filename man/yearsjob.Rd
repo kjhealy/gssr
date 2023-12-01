@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_304.R
 \name{yearsjob}
 \alias{yearsjob}
-\title{yearsjob}
+\title{Time at current job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Time at current job
+yearsjob
 }
 \details{
 Question 873. How long have you worked in your present job for your current employer?

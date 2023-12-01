@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_427.R
 \name{kidnow1}
 \alias{kidnow1}
-\title{kidnow1}
+\title{R's children under 18 living with r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's children under 18 living with r
+kidnow1
 }
 \details{
 Question Are your biological or adopted children under age 18 living with you now at least some of the time?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_424.R
 \name{whylose3}
 \alias{whylose3}
-\title{whylose3}
+\title{Why that much possibility of job abolished or laid off}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why that much possibility of job abolished or laid off
+whylose3
 }
 \details{
 Question None

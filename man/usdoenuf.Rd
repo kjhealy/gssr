@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_523.R
 \name{usdoenuf}
 \alias{usdoenuf}
-\title{usdoenuf}
+\title{U.s. protect environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-U.s. protect environment
+usdoenuf
 }
 \details{
 Question Some countries are doing more to protect the world environment than other countries are. In general, do you think that America is doing…

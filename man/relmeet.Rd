@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_538.R
 \name{relmeet}
 \alias{relmeet}
-\title{relmeet}
+\title{Allowed to hold pub meeting for religious extremist}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allowed to hold pub meeting for religious extremist
+relmeet
 }
 \details{
 Question There are a number of groups in society. 1465. Should religious extremists be allowed to hold public meetings?

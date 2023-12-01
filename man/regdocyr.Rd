@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_301.R
 \name{regdocyr}
 \alias{regdocyr}
-\title{regdocyr}
+\title{R has had doctor for more than one year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has had doctor for more than one year
+regdocyr
 }
 \details{
 Question 853. Have you been a patient with this doctor or clinic for more than one year?

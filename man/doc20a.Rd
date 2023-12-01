@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_333.R
 \name{doc20a}
 \alias{doc20a}
-\title{doc20a}
+\title{Doctor tell me if a mistake was made}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctor tell me if a mistake was made
+doc20a
 }
 \details{
 Question 963. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. e. I trust my doctor to tell me if a mistake was made about my treatment.

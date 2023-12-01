@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_328.R
 \name{allergic}
 \alias{allergic}
-\title{allergic}
+\title{Situation caused by food or chemical allergies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Situation caused by food or chemical allergies
+allergic
 }
 \details{
 Question 942h. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by food or chemical allergies?

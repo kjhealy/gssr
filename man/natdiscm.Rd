@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_406.R
 \name{natdiscm}
 \alias{natdiscm}
-\title{natdiscm}
+\title{Should rebuilding community in disaster be govt resp}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should rebuilding community in disaster be govt resp
+natdiscm
 }
 \details{
 Question 1121b. Do you think it should or should not be the government's responsibility to help rebuild communities affected by natural disasters?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_484.R
 \name{fambudgt}
 \alias{fambudgt}
-\title{fambudgt}
+\title{How couples monitor budget}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How couples monitor budget
+fambudgt
 }
 \details{
 Question 1305. How do you and your spouse/partner organize the income that one or both of you receive? Please choose the option that comes closest. 1. I manage all the money and give my partner his/her share 2. My partner manages all the money and gives me my share 3. We pool all the money and each take out what we need 4. We pool some of the money and keep the rest separate 5. We each keep our own money separate 5. I am not currently living with a spouse or partner

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_507.R
 \name{nounemp4}
 \alias{nounemp4}
-\title{nounemp4}
+\title{R would accept travel longer to work to avoid unemployment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would accept travel longer to work to avoid unemployment
+nounemp4
 }
 \details{
 Question 1512. To what extent do you agree or disagree with the following statements? In order to avoid unemployment I would be willing... d. To travel longer to get to work

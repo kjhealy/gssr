@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_666.R
 \name{agehef10}
 \alias{agehef10}
-\title{agehef10}
+\title{Age of tenth person in household screening (if applicable)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age of tenth person in household screening (if applicable)
+agehef10
 }
 \details{
 Question None

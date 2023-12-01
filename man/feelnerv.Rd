@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_651.R
 \name{feelnerv}
 \alias{feelnerv}
-\title{feelnerv}
+\title{How often felt nervious in past 2 weeks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often felt nervious in past 2 weeks
+feelnerv
 }
 \details{
 Question Over the last 2 weeks, how often have you been bothered by the following problems: Feeling nervous, anxious, or on edge.

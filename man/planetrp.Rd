@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_629.R
 \name{planetrp}
 \alias{planetrp}
-\title{planetrp}
+\title{Plane trip in the past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Plane trip in the past 12 months
+planetrp
 }
 \details{
 Question In the last twelve months, how many trips did you make by plane? Count outward and return journeys, including transfers, as one trip.

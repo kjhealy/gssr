@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_173.R
 \name{immpush}
 \alias{immpush}
-\title{immpush}
+\title{Are immigrants demanding too many rights?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Are immigrants demanding too many rights?
+immpush
 }
 \details{
 Question 531. Now I'm going to read you some statements and would like to get your reaction to them. After I read each statement, please tell me if you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree with the satement. a. Immigrants are getting too demanding in their push for equal rights.

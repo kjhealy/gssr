@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_610.R
 \name{dwellpre}
 \alias{dwellpre}
-\title{dwellpre}
+\title{Type of structure in which the respondent lives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of structure in which the respondent lives
+dwellpre
 }
 \details{
 Question SELECT ONE FROM THE LIST BELOW WHICH BEST DESCRIBES THE TYPE OF STRUCTURE IN WHICH THE RESPONDENT LIVES

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_444.R
 \name{racists}
 \alias{racists}
-\title{racists}
+\title{Feel about people who are racist}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel about people who are racist
+racists
 }
 \details{
 Question 1189. What are your personal feelings about: c. People who believe whites are racially superior to all other races.

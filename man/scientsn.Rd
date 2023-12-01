@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_386.R
 \name{scientsn}
 \alias{scientsn}
-\title{scientsn}
+\title{Happy if son scientist}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Happy if son scientist
+scientsn
 }
 \details{
 Question If you had a son, how would you feel if he wanted to be a scientist? Would you feel happy, unhappy, or would you not care one way or the other?

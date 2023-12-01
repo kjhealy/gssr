@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_88.R
 \name{fehlpmil}
 \alias{fehlpmil}
-\title{fehlpmil}
+\title{Do women raise effectiveness of military}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do women raise effectiveness of military
+fehlpmil
 }
 \details{
 Question 294. In the past 10 years the number of women in the armed forces has increased from about 2 percent to about 8 percent today. In general, would you say the increased number of women has raised the effectiveness of our armed forces, has it made no difference, or has it made our armed forces less effective?

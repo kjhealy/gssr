@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_134.R
 \name{discwhy2}
 \alias{discwhy2}
-\title{discwhy2}
+\title{Happened to someone close}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Happened to someone close
+discwhy2
 }
 \details{
 Question 414a. Do you feel this way because of something that happened to you personally, because it happened to a relative, family member, or lcose friend, because you saw it occuring at work, or because you have heard about it from the media or other sources? 2. Something that happened to a relative, family member, or a close friend

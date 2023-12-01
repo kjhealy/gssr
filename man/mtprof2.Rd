@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_363.R
 \name{mtprof2}
 \alias{mtprof2}
-\title{mtprof2}
+\title{Professional society2 meets in this area}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Professional society2 meets in this area
+mtprof2
 }
 \details{
 Question 1027n. Does the professional or academic society meet in this area?

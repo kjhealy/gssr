@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_199.R
 \name{fambiz}
 \alias{fambiz}
-\title{fambiz}
+\title{What kind of business is this?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What kind of business is this?
+fambiz
 }
 \details{
 Question 635. What kind of business is this?

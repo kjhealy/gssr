@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_548.R
 \name{aidsage}
 \alias{aidsage}
-\title{aidsage}
+\title{Age of aids victim closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age of aids victim closest to r
+aidsage
 }
 \details{
 Question 1526. We would like to know a few other things about that person. c. How old (is/was) that person?

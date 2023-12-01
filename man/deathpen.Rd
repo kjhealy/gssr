@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_508.R
 \name{deathpen}
 \alias{deathpen}
-\title{deathpen}
+\title{Murderers should get death penalty}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Murderers should get death penalty
+deathpen
 }
 \details{
 Question 1373. Here are some measures to deal with crime. Some people are in favor of them while other people are against them. Do you agree or disagree that: b. People convicted of murder should be subject to the death penalty.

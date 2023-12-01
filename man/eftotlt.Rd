@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_12.R
 \name{eftotlt}
 \alias{eftotlt}
-\title{eftotlt}
+\title{Total number of students enrolled in college respondent attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total number of students enrolled in college respondent attended
+eftotlt
 }
 \details{
 Question None

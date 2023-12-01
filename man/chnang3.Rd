@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_188.R
 \name{chnang3}
 \alias{chnang3}
-\title{chnang3}
+\title{Talked to the person i was angry at}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Talked to the person i was angry at
+chnang3
 }
 \details{
 Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? c. Talked to the person I was angry or annoyed at

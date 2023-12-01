@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_106.R
 \name{solserv}
 \alias{solserv}
-\title{solserv}
+\title{Service group tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Service group tries to solve problems
+solserv
 }
 \details{
 Question 329. Do the service groups to which you belong do anything to try to solve individual or community problems?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_510.R
 \name{godchnge}
 \alias{godchnge}
-\title{godchnge}
+\title{Describe your beliefs about god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Describe your beliefs about god
+godchnge
 }
 \details{
 Question 1381. Which best describes your beliefs about God?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_568.R
 \name{rptcowrk}
 \alias{rptcowrk}
-\title{rptcowrk}
+\title{Report coworkers threatening secrecy of work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Report coworkers threatening secrecy of work
+rptcowrk
 }
 \details{
 Question 1584. When faced with a conflict between loyalty to one's employer and loyalty to a co-worker who is violating rules for protecting SECRET and TOP SECRET information, a person should:

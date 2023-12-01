@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_380.R
 \name{noicecap}
 \alias{noicecap}
-\title{noicecap}
+\title{Effect of global warming: northern ice cap melt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Effect of global warming: northern ice cap melt
+noicecap
 }
 \details{
 Question 1079. Please look at Card B24. Scientists predict that global warming may soon have big effects on the polar regions. I will describe some of these possible effects and, for each one, please say whether it would bother you a great deal, some, a little, or not at all if it actually happened. e. The northern ice cap may completely melt.

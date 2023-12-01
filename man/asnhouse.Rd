@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_133.R
 \name{asnhouse}
 \alias{asnhouse}
-\title{asnhouse}
+\title{Asians discriminated in housing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Asians discriminated in housing
+asnhouse
 }
 \details{
 Question 411c. How much discrimination is there that makes it hard for Asian Americans to buy or rent housing wherever they want?

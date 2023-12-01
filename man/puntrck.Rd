@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_571.R
 \name{puntrck}
 \alias{puntrck}
-\title{puntrck}
+\title{Punishment stealing govt truck parts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment stealing govt truck parts
+puntrck
 }
 \details{
 Question 1451. I'm going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee. e. Stealing and selling truck parts and tires from a military depot.

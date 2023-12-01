@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_123.R
 \name{homesch}
 \alias{homesch}
-\title{homesch}
+\title{Children attend home schooling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children attend home schooling
+homesch
 }
 \details{
 Question 394a. If no to Q.394: Which types of school do/did your children attend? 1. Home schooling

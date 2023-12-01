@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_307.R
 \name{partteam}
 \alias{partteam}
-\title{partteam}
+\title{R work as part of a team}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R work as part of a team
+partteam
 }
 \details{
 Question 887. 887. In your job, do you normally work as part of a team, or do you mostly work on your own?

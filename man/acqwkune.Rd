@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_399.R
 \name{acqwkune}
 \alias{acqwkune}
-\title{acqwkune}
+\title{Number of ppl unemployed in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of ppl unemployed in current or previous work
+acqwkune
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. c. How many are you pretty certain are currently unemployed?

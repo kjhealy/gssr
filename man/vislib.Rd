@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_382.R
 \name{vislib}
 \alias{vislib}
-\title{vislib}
+\title{How often r visited public library last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r visited public library last year
+vislib
 }
 \details{
 Question None

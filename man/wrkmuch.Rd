@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_142.R
 \name{wrkmuch}
 \alias{wrkmuch}
-\title{wrkmuch}
+\title{How much you compare to people do same job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much you compare to people do same job
+wrkmuch
 }
 \details{
 Question 452. Compared to other people who do the same or similar kind of work that you do, how much work would you say you do?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_192.R
 \name{carbuy1}
 \alias{carbuy1}
-\title{carbuy1}
+\title{What was the most important reason?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What was the most important reason?
+carbuy1
 }
 \details{
 Question 594h. What was the most important reason?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_632.R
 \name{relidimp}
 \alias{relidimp}
-\title{relidimp}
+\title{How important is r's religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important is r's religion
+relidimp
 }
 \details{
 Question How important is religion in your life? very important, somewhat important, not too important, or not at all important?

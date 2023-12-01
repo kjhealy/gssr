@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_83.R
 \name{madeath}
 \alias{madeath}
-\title{madeath}
+\title{Death of mother}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Death of mother
+madeath
 }
 \details{
 Question 275b. Death of respondent's mother.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_501.R
 \name{findwork}
 \alias{findwork}
-\title{findwork}
+\title{Could r find a job <employed r's>}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Could r find a job <employed r's>
+findwork
 }
 \details{
 Question 1339. If you lost your job for any reason, and were looking actively for another one, how easy or difficult do you think it would be for you to find an acceptable job?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_596.R
 \name{isco88}
 \alias{isco88}
-\title{isco88}
+\title{Respondent's occupation, 1980 census & 1988 isco code}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondent's occupation, 1980 census & 1988 isco code
+isco88
 }
 \details{
 Question 1642. Respondent's Occupation, 1988 Census

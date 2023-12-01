@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_644.R
 \name{eldfnce}
 \alias{eldfnce}
-\title{eldfnce}
+\title{Grandparents should help grandchildren financially}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Grandparents should help grandchildren financially
+eldfnce
 }
 \details{
 Question Consider an elderly couple. One of their grandchildren is in need of temporary financial help because the company he/she worked for closed down recently. Do you think they should, or should not, try their best to help their grandchild financially? Pleas

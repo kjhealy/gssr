@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_289.R
 \name{webable}
 \alias{webable}
-\title{webable}
+\title{R's ability to use internet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's ability to use internet
+webable
 }
 \details{
 Question 812. Would you rate your ability to use the World Wide Web as excellent, good, fair, poor, or very poor?

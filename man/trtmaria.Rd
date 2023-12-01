@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_403.R
 \name{trtmaria}
 \alias{trtmaria}
-\title{trtmaria}
+\title{Number ofmaria r trust}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number ofmaria r trust
+trtmaria
 }
 \details{
 Question 1110. Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. j. How many are named Maria?

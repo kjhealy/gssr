@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_447.R
 \name{helphlth}
 \alias{helphlth}
-\title{helphlth}
+\title{How successful is govt: providing hlth care for the sick}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How successful is govt: providing hlth care for the sick
+helphlth
 }
 \details{
 Question 1491. How successful do you think the government in America is nowadays in each of the following areas? a. Providing health care for the sick

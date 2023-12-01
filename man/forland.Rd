@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_532.R
 \name{forland}
 \alias{forland}
-\title{forland}
+\title{Foreigner's should not be allowed to buy land}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Foreigner's should not be allowed to buy land
+forland
 }
 \details{
 Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? e. Foreigners should not be allowed to buy land in America

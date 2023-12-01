@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_423.R
 \name{curempyr}
 \alias{curempyr}
-\title{curempyr}
+\title{How many yrs r worked for current employer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many yrs r worked for current employer
+curempyr
 }
 \details{
 Question None

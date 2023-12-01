@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_480.R
 \name{onekid}
 \alias{onekid}
-\title{onekid}
+\title{Desirability of one-kid family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Desirability of one-kid family
+onekid
 }
 \details{
 Question 1282. In general, what do you feel about each of these family sizes? b. A family with one child

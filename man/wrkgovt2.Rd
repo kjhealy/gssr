@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_622.R
 \name{wrkgovt2}
 \alias{wrkgovt2}
-\title{wrkgovt2}
+\title{Private employee}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Private employee
+wrkgovt2
 }
 \details{
 Question Are/were you employed by a private employer (including non-profit organizations)?

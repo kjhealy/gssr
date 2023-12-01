@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_125.R
 \name{ferespct}
 \alias{ferespct}
-\title{ferespct}
+\title{How well local church respects women's rights}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well local church respects women's rights
+ferespct
 }
 \details{
 Question 399. How do you rate how your local church does each of the following? b. Respecting the rights of women

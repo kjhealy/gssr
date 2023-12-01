@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_08.R
 \name{paind10}
 \alias{paind10}
-\title{paind10}
+\title{Father's industry code (naics 2007)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's industry code (naics 2007)
+paind10
 }
 \details{
 Question None

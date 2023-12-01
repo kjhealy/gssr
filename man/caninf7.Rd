@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_334.R
 \name{caninf7}
 \alias{caninf7}
-\title{caninf7}
+\title{Would go to candidate site for information on c}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would go to candidate site for information on c
+caninf7
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? g. Would go to candidate or party site for information on candidate.

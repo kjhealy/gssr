@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_175.R
 \name{obrespct}
 \alias{obrespct}
-\title{obrespct}
+\title{Teach children respect for authority and obedience}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Teach children respect for authority and obedience
+obrespct
 }
 \details{
 Question 541. Please respond to the following statements by saying whether you strongly agree, agree, disagree, or strongly disagree with them: Obedience and respect for authority are the most important virtues children should learn.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_48.R
 \name{raccare}
 \alias{raccare}
-\title{raccare}
+\title{R's concern about racial issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's concern about racial issues
+raccare
 }
 \details{
 Question 150. How concerned are you personally about race relations?

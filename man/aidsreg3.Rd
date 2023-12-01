@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_549.R
 \name{aidsreg3}
 \alias{aidsreg3}
-\title{aidsreg3}
+\title{Region of aids victim 3rd closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Region of aids victim 3rd closest to r
+aidsreg3
 }
 \details{
 Question 1531. We would like to know a few other things about that person. e. What state did this person live in?

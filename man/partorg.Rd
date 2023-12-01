@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_239.R
 \name{partorg}
 \alias{partorg}
-\title{partorg}
+\title{In what ways part of the larger org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what ways part of the larger org
+partorg
 }
 \details{
 Question 697c. In what way is the place part of the larger organization? Is it...

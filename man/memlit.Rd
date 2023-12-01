@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_106.R
 \name{memlit}
 \alias{memlit}
-\title{memlit}
+\title{Membership in literary or art group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Membership in literary or art group
+memlit
 }
 \details{
 Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? m. Literary, art, discussion or study groups

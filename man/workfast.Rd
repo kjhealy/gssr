@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_305.R
 \name{workfast}
 \alias{workfast}
-\title{workfast}
+\title{Job requires r to work fast}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job requires r to work fast
+workfast
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. b. My job requires that I work very fast.

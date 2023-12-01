@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_303.R
 \name{leasthrs}
 \alias{leasthrs}
-\title{leasthrs}
+\title{Fewest hrs/week worked in past month}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fewest hrs/week worked in past month
+leasthrs
 }
 \details{
 Question In the last month, what is the fewest number of hours you worked in a week, at all paid jobs? Please do not include weeks in which you missed some or all hours because of illness, vacation, or other personal obligations.

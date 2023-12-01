@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_440.R
 \name{poleff10}
 \alias{poleff10}
-\title{poleff10}
+\title{The world is getting better}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The world is getting better
+poleff10
 }
 \details{
 Question 1178. Please indicate whether you agree or disagree with each of the following statements. j. Taking everything into account, the world is getting better.

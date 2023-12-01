@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_538.R
 \name{helpwrld}
 \alias{helpwrld}
-\title{helpwrld}
+\title{How important to help worse off ppl in rest of world}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important to help worse off ppl in rest of world
+helpwrld
 }
 \details{
 Question 1464. There are different opinions as to what it takes to be a good citizen. As far as you are concerned personally on a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it... i. To help people in the rest of the world who are worse off than yourself

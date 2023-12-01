@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_309.R
 \name{manvsemp}
 \alias{manvsemp}
-\title{manvsemp}
+\title{Relations bw management and employees}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relations bw management and employees
+manvsemp
 }
 \details{
 Question 890. In general, how would you describe relations in your work place between management and employees?

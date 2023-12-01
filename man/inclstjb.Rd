@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_425.R
 \name{inclstjb}
 \alias{inclstjb}
-\title{inclstjb}
+\title{Earnings from all sources for this job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Earnings from all sources for this job
+inclstjb
 }
 \details{
 Question Thinking about your last job, in which of these groups did your earnings from all sources for this job fall? That is, before taxes or other deductions.

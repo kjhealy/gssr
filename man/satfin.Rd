@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_63.R
 \name{satfin}
 \alias{satfin}
-\title{satfin}
+\title{Satisfaction with financial situation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Satisfaction with financial situation
+satfin
 }
 \details{
 Question 187a. We are interested in how people are getting along financially these days. So far as you and your family are concerned, would you say that you are pretty well satisfied with your present financial situation, more or less satisfied, or not satisfied at all?

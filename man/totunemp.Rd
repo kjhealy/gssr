@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_136.R
 \name{totunemp}
 \alias{totunemp}
-\title{totunemp}
+\title{Total times unemployed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total times unemployed
+totunemp
 }
 \details{
 Question 423. Counting all these times, in total were you unemployed and looking for work for:

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_37.R
 \name{dejavu}
 \alias{dejavu}
-\title{dejavu}
+\title{Thought one was someplace before}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Thought one was someplace before
+dejavu
 }
 \details{
 Question 111. How often have you had any of the following experiences? a. Thought you were somewhere you had been before, but knew that it was impossible.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_276.R
 \name{hlthinfo}
 \alias{hlthinfo}
-\title{hlthinfo}
+\title{R sought health information past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sought health information past year
+hlthinfo
 }
 \details{
 Question 792. In the past year, that is, between (INSERT CURRENT MONTH) 1999/2001/2003 and (INSERT CURRENT MONTH) 2000/02�have you looked for information about a health concern or medical problem?

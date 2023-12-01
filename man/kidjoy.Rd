@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_480.R
 \name{kidjoy}
 \alias{kidjoy}
-\title{kidjoy}
+\title{Kids are life's greatest joy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kids are life's greatest joy
+kidjoy
 }
 \details{
 Question 1282. Do you agree or disagree ... b. Watching children grow up is life's greatest joy.

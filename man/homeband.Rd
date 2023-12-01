@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_293.R
 \name{homeband}
 \alias{homeband}
-\title{homeband}
+\title{How home is connected to www}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How home is connected to www
+homeband
 }
 \details{
 Question 820b. Is your home connected to the World Wide Web by a telephone line, a DSL, cable, some other way, or not at all?

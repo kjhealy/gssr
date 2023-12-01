@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_485.R
 \name{spwrksch}
 \alias{spwrksch}
-\title{spwrksch}
+\title{Did spouse work with school age children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did spouse work with school age children
+spwrksch
 }
 \details{
 Question 1307. What about your spouse/partner at that time -- did he or she work outside the home full-time, part-time, or not at all: c. After the youngest child started school?

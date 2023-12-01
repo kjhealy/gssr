@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_475.R
 \name{paychild}
 \alias{paychild}
-\title{paychild}
+\title{How much pay dependent on children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much pay dependent on children
+paychild
 }
 \details{
 Question 1268. In deciding how much people ought to earn, how important should each of these things be, in your opinion: e. Whether the person has children to support (how important should that be in deciding pay)?

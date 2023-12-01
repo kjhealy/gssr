@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_639.R
 \name{relitennv}
 \alias{relitennv}
-\title{relitennv}
+\title{Strength of affiliation (no volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Strength of affiliation (no volunteered response on web)
+relitennv
 }
 \details{
 Question None

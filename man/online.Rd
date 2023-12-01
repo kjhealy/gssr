@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_274.R
 \name{online}
 \alias{online}
-\title{online}
+\title{Has r used online help for software}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r used online help for software
+online
 }
 \details{
 Question 789. When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) \link{PROMPT: Anything else?} a. Look in the on-line "help" provided as part of the software?

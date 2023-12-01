@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_33.R
 \name{crimimp}
 \alias{crimimp}
-\title{crimimp}
+\title{Importance of crime issue to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of crime issue to r
+crimimp
 }
 \details{
 Question 92a. How important is the crime issue to you?

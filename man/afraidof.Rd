@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_314.R
 \name{afraidof}
 \alias{afraidof}
-\title{afraidof}
+\title{People act as if they are afraid of r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People act as if they are afraid of r
+afraidof
 }
 \details{
 Question In your day-to-day life how often have any of the following things happened to you? D. People act as if they are afraid of you.

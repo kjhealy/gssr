@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_10.R
 \name{madeg}
 \alias{madeg}
-\title{madeg}
+\title{Mothers highest degree}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers highest degree
+madeg
 }
 \details{
 Question 21. If finished 9th-12th grade: Did she ever get a high school diploma or a GED certificate?

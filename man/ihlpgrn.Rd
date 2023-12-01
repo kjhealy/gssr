@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_521.R
 \name{ihlpgrn}
 \alias{ihlpgrn}
-\title{ihlpgrn}
+\title{Do what i can to help envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do what i can to help envir
+ihlpgrn
 }
 \details{
 Question 1414. How much do you agree or disagree with each of these statements? b. I do what is right for the environment, even when it costs more money or takes up more time.

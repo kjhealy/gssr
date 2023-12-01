@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_59.R
 \name{quitsmk}
 \alias{quitsmk}
-\title{quitsmk}
+\title{Ever tried to quit smoking}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever tried to quit smoking
+quitsmk
 }
 \details{
 Question 177a. Have you ever tried to give up smoking?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_545.R
 \name{allowmar}
 \alias{allowmar}
-\title{allowmar}
+\title{Allow racial intermarriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow racial intermarriage
+allowmar
 }
 \details{
 Question 1517f. Do you think the law should allow marriages between blacks and whites?

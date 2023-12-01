@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_80.R
 \name{racmarpr}
 \alias{racmarpr}
-\title{racmarpr}
+\title{Expect probs in interracial marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Expect probs in interracial marriage
+racmarpr
 }
 \details{
 Question 263. Please tell me whether you agree or disagree with the following statements: a. You can expect special problems with marriages between (negroes/blacks) and whites.

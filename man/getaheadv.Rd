@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_637.R
 \name{getaheadv}
 \alias{getaheadv}
-\title{getaheadv}
+\title{Opinion of how people get ahead (with volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opinion of how people get ahead (with volunteered response on web)
+getaheadv
 }
 \details{
 Question None

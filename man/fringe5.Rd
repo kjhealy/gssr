@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_144.R
 \name{fringe5}
 \alias{fringe5}
-\title{fringe5}
+\title{Maternity leave with full re-employment rights}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Maternity leave with full re-employment rights
+fringe5
 }
 \details{
 Question 457. I am going to read a list of fringe benefits that workers sometimes get in addition to their wages. Whether you receive it or not, please tell me whether you are eligible to receive each fringe benefit: e. Maternity or paternity leave with full re-employment rights.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_487.R
 \name{tiredwrk}
 \alias{tiredwrk}
-\title{tiredwrk}
+\title{Arrived at work too tired to function bc of hhwork}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Arrived at work too tired to function bc of hhwork
+tiredwrk
 }
 \details{
 Question 1316. How often has each of the following happened to you during the past three months? c. I have arrived at work too tired to function well because of the household work I had done.

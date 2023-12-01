@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_194.R
 \name{lawyerd}
 \alias{lawyerd}
-\title{lawyerd}
+\title{General reputation in the community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-General reputation in the community
+lawyerd
 }
 \details{
 Question 608. Think about the most recent time you hired a lawyer. What made you choose this law firm or attorney? d. General reputation in the community

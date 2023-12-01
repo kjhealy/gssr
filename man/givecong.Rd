@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_122.R
 \name{givecong}
 \alias{givecong}
-\title{givecong}
+\title{Given money to local congregation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Given money to local congregation
+givecong
 }
 \details{
 Question 390. During the last year, approximately how much money did you and the other family members in your household contribute to each of the following: a. To your local congregation

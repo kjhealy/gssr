@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_191.R
 \name{carprivt}
 \alias{carprivt}
-\title{carprivt}
+\title{Have you purchased a used car past 5 yrs?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have you purchased a used car past 5 yrs?
+carprivt
 }
 \details{
 Question 588. Have you purchased a used car from a private individual in the past five years?

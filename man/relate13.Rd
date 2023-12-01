@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_588.R
 \name{relate13}
 \alias{relate13}
-\title{relate13}
+\title{Relation of 13th person (visitor) to head}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relation of 13th person (visitor) to head
+relate13
 }
 \details{
 Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. a. What is \link{PERSON}'s relationship to the head of household?

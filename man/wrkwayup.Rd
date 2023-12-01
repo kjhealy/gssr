@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_48.R
 \name{wrkwayup}
 \alias{wrkwayup}
-\title{wrkwayup}
+\title{Blacks overcome prejudice without favors}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Blacks overcome prejudice without favors
+wrkwayup
 }
 \details{
 Question 153b. Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with the following statement: Irish, Italian, Jewish and many other should do the same without special favors.

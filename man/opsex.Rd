@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_467.R
 \name{opsex}
 \alias{opsex}
-\title{opsex}
+\title{Need to be right sex to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need to be right sex to get ahead
+opsex
 }
 \details{
 Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . l. Being born a man or a woman -- how important is that for getting ahead?

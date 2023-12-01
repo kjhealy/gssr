@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_115.R
 \name{paden}
 \alias{paden}
-\title{paden}
+\title{What was father's religious denomination}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What was father's religious denomination
+paden
 }
 \details{
 Question 360a. What specific denomination is that, if any?

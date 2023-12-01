@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_647.R
 \name{hlthwbanx}
 \alias{hlthwbanx}
-\title{hlthwbanx}
+\title{Looked up online - anxiety or stress}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Looked up online - anxiety or stress
+hlthwbanx
 }
 \details{
 Question (During the past 12 months, how often, if at all, have you used the internet to look for information on the following topics?) Information related to anxiety, stress, or similar problems?

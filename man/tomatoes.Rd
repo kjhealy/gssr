@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_370.R
 \name{tomatoes}
 \alias{tomatoes}
-\title{tomatoes}
+\title{Regular tomatoes no genes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Regular tomatoes no genes
+tomatoes
 }
 \details{
 Question Ordinary tomatoes do not contain genes, while genetically modified tomatoes do. (Is that true or false?) FI INSTRUCTION: DO NOT PROBE 'DON'T KNOW'

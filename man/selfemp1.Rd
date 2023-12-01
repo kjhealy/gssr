@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_506.R
 \name{selfemp1}
 \alias{selfemp1}
-\title{selfemp1}
+\title{Employee have more job security than the self-employed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Employee have more job security than the self-employed
+selfemp1
 }
 \details{
 Question 1501. To what extent do you agree or disagree with the following statements? a. Employees have more job security than the self-employed

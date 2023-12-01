@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_501.R
 \name{planwrk}
 \alias{planwrk}
-\title{planwrk}
+\title{How much can r plan daily work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much can r plan daily work
+planwrk
 }
 \details{
 Question 1338. And which of the following statements about your work is most true? 1. My job allows me to design or plan most of my daily work 2. My job allows me to design or plan parts of my daily work 3. My job does not really allow me to design or plan my daily work.

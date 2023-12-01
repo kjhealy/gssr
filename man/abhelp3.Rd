@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_315.R
 \name{abhelp3}
 \alias{abhelp3}
-\title{abhelp3}
+\title{R would help with paying for abortion-related other costs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would help with paying for abortion-related other costs
+abhelp3
 }
 \details{
 Question If a close family member or friend decided to have an abortion, which of the following kinds of help, if any, would you give if you were able? C. Help paying for costs other than the abortion, like for a ride or hotel if she needs to stay overnight?

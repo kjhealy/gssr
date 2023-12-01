@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_525.R
 \name{peopgovt}
 \alias{peopgovt}
-\title{peopgovt}
+\title{People do more for environment than govt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People do more for environment than govt
+peopgovt
 }
 \details{
 Question 1432c. And which of these two groups is making more effort to look after the environment:

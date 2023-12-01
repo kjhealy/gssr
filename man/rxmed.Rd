@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{rxmed}
 \alias{rxmed}
-\title{rxmed}
+\title{X should take prescription medication}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should take prescription medication
+rxmed
 }
 \details{
 Question 659. Should NAME do any of the following: i. Take prescription medication

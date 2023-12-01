@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_567.R
 \name{minfour}
 \alias{minfour}
-\title{minfour}
+\title{Imputed poverty line for family of four}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imputed poverty line for family of four
+minfour
 }
 \details{
 Question 1579. People who have incomes below a certain level can be considered poor. That level is called the "poverty line." What Amount of weekly income would you use as a poverty line for a family of four (husband, wife, and two children) in this community?

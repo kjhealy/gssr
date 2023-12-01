@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_349.R
 \name{numprof}
 \alias{numprof}
-\title{numprof}
+\title{How many r belongs to professional societies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to professional societies
+numprof
 }
 \details{
 Question 1025n. How many professional or academic societies do you belong to?

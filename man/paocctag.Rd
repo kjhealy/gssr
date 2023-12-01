@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_07.R
 \name{paocctag}
 \alias{paocctag}
-\title{paocctag}
+\title{Paocc10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Paocc10 coding tag
+paocctag
 }
 \details{
 Question None

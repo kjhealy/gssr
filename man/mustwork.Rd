@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_304.R
 \name{mustwork}
 \alias{mustwork}
-\title{mustwork}
+\title{Mandatory to work extra hours}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mandatory to work extra hours
+mustwork
 }
 \details{
 Question 877. When you work extra hours on your main job, is it mandatory (required by your employer)?

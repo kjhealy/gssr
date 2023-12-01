@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_09.R
 \name{maindtag}
 \alias{maindtag}
-\title{maindtag}
+\title{Maind10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Maind10 coding tag
+maindtag
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_445.R
 \name{rprtst1}
 \alias{rprtst1}
-\title{rprtst1}
+\title{Would you attend a public meeting}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would you attend a public meeting
+rprtst1
 }
 \details{
 Question Would you or would you not do any of the following to protest against a government action you strongly opposed? a. Attend a public meeting organized to protest against the government

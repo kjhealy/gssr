@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_533.R
 \name{res161}
 \alias{res161}
-\title{res161}
+\title{Where spend childhood until age 16?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where spend childhood until age 16?
+res161
 }
 \details{
 Question 1448. Where did you spend most of your childhood until age 16?

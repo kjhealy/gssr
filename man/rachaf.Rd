@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_45.R
 \name{rachaf}
 \alias{rachaf}
-\title{rachaf}
+\title{Children to school half opposite race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children to school half opposite race
+rachaf
 }
 \details{
 Question 133b. Where half of the children are \link{whites/(negroes/blacks/African-Americans)}?

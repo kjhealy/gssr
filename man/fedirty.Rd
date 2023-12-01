@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_88.R
 \name{fedirty}
 \alias{fedirty}
-\title{fedirty}
+\title{Are women assigned to dirty jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Are women assigned to dirty jobs
+fedirty
 }
 \details{
 Question 293b. As far as you know, are women in the armed forces now assigned to dirty jobs like repairing trucks or other heavy equipment, or are women not assigned to such jobs?

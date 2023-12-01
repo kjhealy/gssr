@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_111.R
 \name{swayvote}
 \alias{swayvote}
-\title{swayvote}
+\title{Has r tried to influence votes of others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r tried to influence votes of others
+swayvote
 }
 \details{
 Question 342. During elections, do you ever try to show people why they should vote for one of the parties or candidates?

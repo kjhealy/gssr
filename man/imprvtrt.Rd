@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_211.R
 \name{imprvtrt}
 \alias{imprvtrt}
-\title{imprvtrt}
+\title{How likely x s situation will improve with treatment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x s situation will improve with treatment
+imprvtrt
 }
 \details{
 Question 655. In your opinion, how likely is it that NAME's situation will improve with treatment -- very likely, somewhat likely, somewhat unlikely, or not likely at all?

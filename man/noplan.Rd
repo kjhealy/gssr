@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_184.R
 \name{noplan}
 \alias{noplan}
-\title{noplan}
+\title{There's no sense planning a lot}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-There's no sense planning a lot
+noplan
 }
 \details{
 Question 573. The following are some statements that people have made. For each one, please tell me if you strongly agree, agree, disagree, or strongly disagree with the statement. a. There's no sense planning a lot - if something good is going to happen, it will.

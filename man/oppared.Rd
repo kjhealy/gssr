@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_466.R
 \name{oppared}
 \alias{oppared}
-\title{oppared}
+\title{Need educated parents to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need educated parents to get ahead
+oppared
 }
 \details{
 Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . b. Having well-educated parents?

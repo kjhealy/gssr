@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_598.R
 \name{cosei10}
 \alias{cosei10}
-\title{cosei10}
+\title{Partner's socioeconomic index (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner's socioeconomic index (2010)
+cosei10
 }
 \details{
 Question None

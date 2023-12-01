@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_527.R
 \name{grncon}
 \alias{grncon}
-\title{grncon}
+\title{Concerned about environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Concerned about environment
+grncon
 }
 \details{
 Question Generally speaking, how concerned are you about environmental issues? Please tell me what you think, where 1 means you are not at all concerned and 5 means you are very concerned.

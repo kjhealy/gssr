@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_524.R
 \name{popgrwth}
 \alias{popgrwth}
-\title{popgrwth}
+\title{Earth cannot support population growth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Earth cannot support population growth
+popgrwth
 }
 \details{
 Question 1428. And please circle one number for each of these statements to show how much you agree or disagree with it. The earth cannot continue to support population growth at its present rate.

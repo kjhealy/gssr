@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_175.R
 \name{asngovt}
 \alias{asngovt}
-\title{asngovt}
+\title{Do asian-americans get proper govt attention}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do asian-americans get proper govt attention
+asngovt
 }
 \details{
 Question 539a. Do you think that Asian Americans in this country get much more attention from government than they deserve, more attention than they deserve, about the right amount of attention, less attention than they deserve, or much less attention from government than they deserve?

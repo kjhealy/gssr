@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_436.R
 \name{eqincome}
 \alias{eqincome}
-\title{eqincome}
+\title{Govt should redistribute wealth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should redistribute wealth
+eqincome
 }
 \details{
 Question 1167. What is your opinion of the following statement? It is the responsibility of the government to reduce the differences in income between people with high incomes and those with low incomes.

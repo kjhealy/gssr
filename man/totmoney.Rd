@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_142.R
 \name{totmoney}
 \alias{totmoney}
-\title{totmoney}
+\title{How much money in the largest of these decisions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much money in the largest of these decisions
+totmoney
 }
 \details{
 Question 446. About how much money was involved in the largest of these decisions?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_473.R
 \name{conwlth}
 \alias{conwlth}
-\title{conwlth}
+\title{Conflict between poor and rich in usa?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Conflict between poor and rich in usa?
+conwlth
 }
 \details{
 Question 1259. In all countries, there are differences or conflicts between different social groups. In your opinion, in America, how much conflict is there between . . . a. Poor people and rich people?

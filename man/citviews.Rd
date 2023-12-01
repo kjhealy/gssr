@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_540.R
 \name{citviews}
 \alias{citviews}
-\title{citviews}
+\title{How important: politician consider views of citizen}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: politician consider views of citizen
+citviews
 }
 \details{
 Question 1470. There are different opinions about people's rights in a democracy. On a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it: d. That politicians take into account the views of citizens before making decisions

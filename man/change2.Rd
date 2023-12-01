@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_455.R
 \name{change2}
 \alias{change2}
-\title{change2}
+\title{Help regarding important change #2}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Help regarding important change #2
+change2
 }
 \details{
 Question 1214. Suppose you needed advice about an important change in your life for example, about a job or moving to another part of the country? b. Who would you turn to second?

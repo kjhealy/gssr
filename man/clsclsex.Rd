@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_432.R
 \name{clsclsex}
 \alias{clsclsex}
-\title{clsclsex}
+\title{Any of them were close friends or family members}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Any of them were close friends or family members
+clsclsex
 }
 \details{
 Question Were any of these adults close friends or family members of yours at the time they experienced this sexual advance?

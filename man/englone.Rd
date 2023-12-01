@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_388.R
 \name{englone}
 \alias{englone}
-\title{englone}
+\title{Engineers usually work alone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Engineers usually work alone
+englone
 }
 \details{
 Question Now I'd like to read you some statements about engineers. Please tell me if you agree or disagree with each one. If you feel especially strongly about a statement, please say that you strongly agree or strongly disagree. Okay? An engineer usually works alone. Do you strongly agree, agree, disagree, or strongly disagree?

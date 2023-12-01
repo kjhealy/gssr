@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_427.R
 \name{kidnow2}
 \alias{kidnow2}
-\title{kidnow2}
+\title{R is living in a hh where children under 18 are living with r under r's care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is living in a hh where children under 18 are living with r under r's care
+kidnow2
 }
 \details{
 Question Right now are you living in a household where any children under 18 are living with you at least some of the time and are under your care and responsibility?

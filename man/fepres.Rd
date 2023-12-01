@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_66.R
 \name{fepres}
 \alias{fepres}
-\title{fepres}
+\title{Vote for woman president}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote for woman president
+fepres
 }
 \details{
 Question 201. If your party nominated a woman for President, would you vote for her if she were qualified for the job?

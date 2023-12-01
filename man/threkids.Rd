@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_480.R
 \name{threkids}
 \alias{threkids}
-\title{threkids}
+\title{Desirability of three-kid family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Desirability of three-kid family
+threkids
 }
 \details{
 Question 1282. In general, what do you feel about each of these family sizes? d. A family with three kids

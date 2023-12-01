@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_302.R
 \name{fininc1}
 \alias{fininc1}
-\title{fininc1}
+\title{Importance to r to be told about incentives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance to r to be told about incentives
+fininc1
 }
 \details{
 Question 860. Please assume that your health plan has a financial incentive for your doctor to limit the use of expensive tests. OR Please assume that you have a health plan and the plan has a financial incentive for your doctor to limit the use of expensive tests How important is it for you to be told about these financial incentives?

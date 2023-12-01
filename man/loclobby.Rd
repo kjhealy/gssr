@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_111.R
 \name{loclobby}
 \alias{loclobby}
-\title{loclobby}
+\title{Has r lobbied local officials}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r lobbied local officials
+loclobby
 }
 \details{
 Question 345. Have you ever personally gone to see, or spokent to, or written to some member of local government or some other person of influence in the community about some needs or problems?

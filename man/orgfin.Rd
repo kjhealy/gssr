@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_135.R
 \name{orgfin}
 \alias{orgfin}
-\title{orgfin}
+\title{R's financial situation after org. changes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's financial situation after org. changes
+orgfin
 }
 \details{
 Question 419. As a result of these organizational changes, would you say that your financial situation is now much better, better, worse, much worse, or have these things not affected your finances?

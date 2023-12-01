@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_31.R
 \name{colrac}
 \alias{colrac}
-\title{colrac}
+\title{Allow racist to teach}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow racist to teach
+colrac
 }
 \details{
 Question 78. Or consider a person who believes that Blacks are genetically inferior. b. Should such a person be allowed to teach in a college or university, or not?

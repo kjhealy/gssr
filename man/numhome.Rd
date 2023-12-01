@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_280.R
 \name{numhome}
 \alias{numhome}
-\title{numhome}
+\title{How many computers at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many computers at home
+numhome
 }
 \details{
 Question 799c. How many computers in working condition do you have in your home?

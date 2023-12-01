@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_606.R
 \name{intage}
 \alias{intage}
-\title{intage}
+\title{Age of interviewer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age of interviewer
+intage
 }
 \details{
 Question None

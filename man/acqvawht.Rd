@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_401.R
 \name{acqvawht}
 \alias{acqvawht}
-\title{acqvawht}
+\title{Number of white in voluntary association}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of white in voluntary association
+acqvawht
 }
 \details{
 Question 1107. Next, we are going to ask about people that you are acquainted with through schools, clubs, associations, or places of worship. i. How many are white?

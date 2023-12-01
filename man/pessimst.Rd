@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_339.R
 \name{pessimst}
 \alias{pessimst}
-\title{pessimst}
+\title{I hardly ever expect things to go my way}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I hardly ever expect things to go my way
+pessimst
 }
 \details{
 Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: g. I hardly ever expect things to go my way.

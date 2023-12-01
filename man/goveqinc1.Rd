@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_627.R
 \name{goveqinc1}
 \alias{goveqinc1}
-\title{goveqinc1}
+\title{Govnmnt should fix income differences}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govnmnt should fix income differences
+goveqinc1
 }
 \details{
 Question None

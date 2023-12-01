@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_314.R
 \name{actssoc}
 \alias{actssoc}
-\title{actssoc}
+\title{How well r carries out usual social activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well r carries out usual social activities
+actssoc
 }
 \details{
 Question E. In general, please rate how well you carry out your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)

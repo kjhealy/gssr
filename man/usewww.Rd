@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_263.R
 \name{usewww}
 \alias{usewww}
-\title{usewww}
+\title{R use www other than email}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use www other than email
+usewww
 }
 \details{
 Question 768. Other than for e-mail, do you ever use the Internet or World Wide Web?

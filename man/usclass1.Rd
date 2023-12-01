@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_29.R
 \name{usclass1}
 \alias{usclass1}
-\title{usclass1}
+\title{Traditional class divisions still remain}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Traditional class divisions still remain
+usclass1
 }
 \details{
 Question 72. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. a. In the United States traditional divisions between owners and workers still remain. A person's social standing depends upon whether he/she belongs to the upper or lower class.

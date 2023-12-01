@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_255.R
 \name{immnojob}
 \alias{immnojob}
-\title{immnojob}
+\title{Immigrants cause american to lose jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immigrants cause american to lose jobs
+immnojob
 }
 \details{
 Question 750. What do you think will happen as a result of more immigrants coming to this country? Is each of these possible results very likely, somewhat likely, not too likely, or not likely at all? c. People born in the U.S. losing their jobs

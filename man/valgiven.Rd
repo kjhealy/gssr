@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_324.R
 \name{valgiven}
 \alias{valgiven}
-\title{valgiven}
+\title{Total donations past year r and immediate family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total donations past year r and immediate family
+valgiven
 }
 \details{
 Question Altogether, what was the total dollar value of all donations you and your immediate family made in the past year towards religious and charitable purposes?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_572.R
 \name{chkother}
 \alias{chkother}
-\title{chkother}
+\title{People with secret should be subject to monitoring of}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People with secret should be subject to monitoring of
+chkother
 }
 \details{
 Question 1593. Protecting secrets is a continuing concern of the government. I am going to ask you about various security measures that the government might apply to individuals with a SECRET of TOP SECRET clearance. Do you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree that people with SECRET or TOP SECRET clearance should be subject to... f. Monitoring off the job (e.g., reviews of airline and financial databases, court records)

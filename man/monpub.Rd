@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_202.R
 \name{monpub}
 \alias{monpub}
-\title{monpub}
+\title{Done volunteer work in pub-soc benefit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done volunteer work in pub-soc benefit
+monpub
 }
 \details{
 Question 641. In which, if any, of the areas listed on this card have you done some volunteer work in the past month? f. Public/society benefit

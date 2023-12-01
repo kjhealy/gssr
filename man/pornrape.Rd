@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_71.R
 \name{pornrape}
 \alias{pornrape}
-\title{pornrape}
+\title{Materials lead to rape}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Materials lead to rape
+pornrape
 }
 \details{
 Question 221. The next questions are about pornography - books, movies, magazines, and photographs that show or describe sex activities. I'm going to read some opinions about the effects of looking at or reading such sexual materials. As I read each one, please tell me if you think sexual materials do or do not have that effect: c. Sexual materials lead people to commit rape.

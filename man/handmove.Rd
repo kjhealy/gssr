@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_309.R
 \name{handmove}
 \alias{handmove}
-\title{handmove}
+\title{R perform forceful hand movements}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R perform forceful hand movements
+handmove
 }
 \details{
 Question 892. Does your job regularly require you to perform repetitive or forceful hand movements or involve awkward postures?

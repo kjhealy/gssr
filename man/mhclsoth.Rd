@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_416.R
 \name{mhclsoth}
 \alias{mhclsoth}
-\title{mhclsoth}
+\title{Closeness to person with mental health problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Closeness to person with mental health problem
+mhclsoth
 }
 \details{
 Question 1146a. I want you to think about the person with a mental health problem with whom you have had the most contact, would you say you were extremely close, very close, not very close, or not at all close to that person?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_19.R
 \name{padotpeo}
 \alias{padotpeo}
-\title{padotpeo}
+\title{Fa. d.o.t. code - relation to people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fa. d.o.t. code - relation to people
+padotpeo
 }
 \details{
 Question None

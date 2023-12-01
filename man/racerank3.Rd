@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_642.R
 \name{racerank3}
 \alias{racerank3}
-\title{racerank3}
+\title{Third race selected}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Third race selected
+racerank3
 }
 \details{
 Question After {#racerankfill1} and {#racerankfill2}, which of these races do you identify most with?

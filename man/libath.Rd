@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_30.R
 \name{libath}
 \alias{libath}
-\title{libath}
+\title{Allow anti-religious book in library}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow anti-religious book in library
+libath
 }
 \details{
 Question 76. There are always some people whose ideas are considered bad or dangerous by other people. For instance, somebody who is against churches and religion... c. If some people in your community suggested a book he wrote against churches and religion should be taken out of your public library, would you favor removing this book or not?

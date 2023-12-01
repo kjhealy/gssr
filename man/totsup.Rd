@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_140.R
 \name{totsup}
 \alias{totsup}
-\title{totsup}
+\title{How many people responsible to you}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people responsible to you
+totsup
 }
 \details{
 Question 442. Counting all of these levels, how many people are responsible to you both directly and indirectly?

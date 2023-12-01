@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_664.R
 \name{radptprnt18}
 \alias{radptprnt18}
-\title{radptprnt18}
+\title{R is adopted parent of another adult in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is adopted parent of another adult in hh
+radptprnt18
 }
 \details{
 Question None

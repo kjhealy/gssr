@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_577.R
 \name{workhr}
 \alias{workhr}
-\title{workhr}
+\title{Hours r usually works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours r usually works
+workhr
 }
 \details{
 Question 1606. What hours do you usually workdays, evenings, or nights? CIRCLE ONE CODE.

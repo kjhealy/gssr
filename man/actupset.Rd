@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_335.R
 \name{actupset}
 \alias{actupset}
-\title{actupset}
+\title{Ppl at work throw things when upset with r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ppl at work throw things when upset with r
+actupset
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. h. People at work throw things, slam doors, or hit objects when they are upset with me.

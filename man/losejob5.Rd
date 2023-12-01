@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_428.R
 \name{losejob5}
 \alias{losejob5}
-\title{losejob5}
+\title{In last 5 yrs, r has been denied a job or fired bc employer believed r was gay/l}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In last 5 yrs, r has been denied a job or fired bc employer believed r was gay/l
+losejob5
 }
 \details{
 Question In the last five years, have you been denied a job or been fired from a job because an employer believed you were gay, lesbian, or bisexual?

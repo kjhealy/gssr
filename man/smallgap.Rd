@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_462.R
 \name{smallgap}
 \alias{smallgap}
-\title{smallgap}
+\title{For a society to be fair, differences in people's standard of living should be s}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-For a society to be fair, differences in people's standard of living should be s
+smallgap
 }
 \details{
 Question Do you agree or disagree with the following statement? B. For a society to be fair, differences in people's standards of living should be small

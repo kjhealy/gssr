@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_271.R
 \name{wwwgthic}
 \alias{wwwgthic}
-\title{wwwgthic}
+\title{In last month listen gothic music on web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In last month listen gothic music on web
+wwwgthic
 }
 \details{
 Question c. Gothic or industrial

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_554.R
 \name{hivtest}
 \alias{hivtest}
-\title{hivtest}
+\title{Have you ever been tested for hiv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have you ever been tested for hiv
+hivtest
 }
 \details{
 Question 1562. Have you ever been tested for HIV? Do not count tests you may have had as part of a blood donation. Include oral test (where they take a swab from your mouth).

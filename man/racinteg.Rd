@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_45.R
 \name{racinteg}
 \alias{racinteg}
-\title{racinteg}
+\title{Will neighborhood become all black}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Will neighborhood become all black
+racinteg
 }
 \details{
 Question 129c. Do you think this neighborhood will become all (negro/black/African-American) in the next few years, or will it remain integrated?

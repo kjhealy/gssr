@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_348.R
 \name{numsport}
 \alias{numsport}
-\title{numsport}
+\title{How many r belongs to sports groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to sports groups
+numsport
 }
 \details{
 Question 1025f. How many sports groups do you belong to?

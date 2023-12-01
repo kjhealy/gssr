@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_622.R
 \name{wrkgovt1}
 \alias{wrkgovt1}
-\title{wrkgovt1}
+\title{Govt employee}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt employee
+wrkgovt1
 }
 \details{
 Question Are/were you employed by the government? (Please consider federal, state, or local government.)

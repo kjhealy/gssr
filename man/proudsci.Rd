@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_531.R
 \name{proudsci}
 \alias{proudsci}
-\title{proudsci}
+\title{How proud its scientific and tech achievements}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How proud its scientific and tech achievements
+proudsci
 }
 \details{
 Question 1441. How proud are you of America in each of the following? e. its scientific and technological achievements

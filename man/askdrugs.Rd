@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_568.R
 \name{askdrugs}
 \alias{askdrugs}
-\title{askdrugs}
+\title{Govt investigate workers illegal drug use}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt investigate workers illegal drug use
+askdrugs
 }
 \details{
 Question 585. Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to ask him or her detailed, personal questions in the following areas: c. Illegal drug use

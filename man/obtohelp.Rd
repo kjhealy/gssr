@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_147.R
 \name{obtohelp}
 \alias{obtohelp}
-\title{obtohelp}
+\title{Obligation to care for ill parent or spouse?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Obligation to care for ill parent or spouse?
+obtohelp
 }
 \details{
 Question 470b. Sometimes people are asked to make great sacrifices for others in their family by caring for an elderly parent or a spouse who is seriously ill or injured. When someone is asked to give such care, is it their obligation to do so, or should they give care only if they really want to?

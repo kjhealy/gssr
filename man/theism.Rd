@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_511.R
 \name{theism}
 \alias{theism}
-\title{theism}
+\title{God concerned with human beings personally}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-God concerned with human beings personally
+theism
 }
 \details{
 Question 1387. Do you agree or disagree with the following. . . a. There is a God who concerns Himself with every human being personally.

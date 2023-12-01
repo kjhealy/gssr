@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_219.R
 \name{brkdtime}
 \alias{brkdtime}
-\title{brkdtime}
+\title{When feelings of nervous breakdown happened}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When feelings of nervous breakdown happened
+brkdtime
 }
 \details{
 Question 4. The timing of R's nervous breakdown.

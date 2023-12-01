@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_422.R
 \name{done911j}
 \alias{done911j}
-\title{done911j}
+\title{Has r become vigilant of what is going on around r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r become vigilant of what is going on around r
+done911j
 }
 \details{
 Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know become more vigilant or aware of what is going on around them? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_663.R
 \name{preteen_exp}
 \alias{preteen_exp}
-\title{preteen_exp}
+\title{Kids 7-12 in hh(experimental version)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kids 7-12 in hh(experimental version)
+preteen_exp
 }
 \details{
 Question None

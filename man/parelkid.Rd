@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_512.R
 \name{parelkid}
 \alias{parelkid}
-\title{parelkid}
+\title{Father's religion when r was child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's religion when r was child
+parelkid
 }
 \details{
 Question 1387. What was your father's religious preference when you were a child? Was it Protestant, Catholic, Jewish, some other" religion, or no religion?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_307.R
 \name{wksmooth}
 \alias{wksmooth}
-\title{wksmooth}
+\title{Workplace runs in smooth manner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Workplace runs in smooth manner
+wksmooth
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. q. The place where I work is run in a smooth and effective manner.

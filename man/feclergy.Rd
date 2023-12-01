@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_44.R
 \name{feclergy}
 \alias{feclergy}
-\title{feclergy}
+\title{R favors women as ministers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R favors women as ministers
+feclergy
 }
 \details{
 Question 123b. Non-Catholic respondents: Do you favor or oppose women as pastors, ministers, priests, or rabbis in your own faith or denomination?

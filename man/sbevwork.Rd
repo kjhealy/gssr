@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_169.R
 \name{sbevwork}
 \alias{sbevwork}
-\title{sbevwork}
+\title{Did r sibling work for 1 or more yr?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r sibling work for 1 or more yr?
+sbevwork
 }
 \details{
 Question 513. Has s/he ever worked at one job for as long as one year?

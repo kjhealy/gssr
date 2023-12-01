@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_483.R
 \name{cohabok}
 \alias{cohabok}
-\title{cohabok}
+\title{Living together as an acceptable option}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Living together as an acceptable option
+cohabok
 }
 \details{
 Question 1298. Do you agree or disagree: b. It is alright for a couple to live together without intending to get married.

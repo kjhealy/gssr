@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_405.R
 \name{trtmyrac}
 \alias{trtmyrac}
-\title{trtmyrac}
+\title{Proportion of same race as r among ppl r trust}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Proportion of same race as r among ppl r trust
+trtmyrac
 }
 \details{
 Question 1112. Are the people that you trust: 1. Almost all the same race as you 2. Mostly the same race as you 3. About evenly divided between the same race as you and other races 4. Mostly a different race than you 5. Almost all a different race than you

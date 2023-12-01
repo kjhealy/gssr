@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_612.R
 \name{ethworld3}
 \alias{ethworld3}
-\title{ethworld3}
+\title{From what part of the world did your ancestors come?  Asia}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-From what part of the world did your ancestors come?  Asia
+ethworld3
 }
 \details{
 Question None

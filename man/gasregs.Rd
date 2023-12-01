@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_372.R
 \name{gasregs}
 \alias{gasregs}
-\title{gasregs}
+\title{How much r favor requiring to make car's using less gasoline}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much r favor requiring to make car's using less gasoline
+gasregs
 }
 \details{
 Question 1058. How much do you favor or oppose requiring car makers to make cars and trucks that use less gasoline? Do you strongly favor, favor, neither favor nor oppose, oppose, or strongly oppose such a requirement?

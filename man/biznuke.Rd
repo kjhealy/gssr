@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_384.R
 \name{biznuke}
 \alias{biznuke}
-\title{biznuke}
+\title{How well business leader know risk by nuclear power}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well business leader know risk by nuclear power
+biznuke
 }
 \details{
 Question None

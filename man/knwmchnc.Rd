@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_462.R
 \name{knwmchnc}
 \alias{knwmchnc}
-\title{knwmchnc}
+\title{Does r know someone who is a car mechanic?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know someone who is a car mechanic?
+knwmchnc
 }
 \details{
 Question Do you know a woman or a man who is? G. A car mechanic?

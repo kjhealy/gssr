@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_577.R
 \name{workdy}
 \alias{workdy}
-\title{workdy}
+\title{Days r normally works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Days r normally works
+workdy
 }
 \details{
 Question 1605. What days of the week do you normally work? CODE ALL THAT APPLY.

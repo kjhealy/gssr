@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_17.R
 \name{rincom16}
 \alias{rincom16}
-\title{rincom16}
+\title{Respondents income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondents income
+rincom16
 }
 \details{
 Question In which of these groups did your earnings from (OCC), from all sources for \link{last year} fall? That is, before taxes or other deductions. Just tell me the letter.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_625.R
 \name{raceacs13}
 \alias{raceacs13}
-\title{raceacs13}
+\title{Samoan}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Samoan
+raceacs13
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. Samoan

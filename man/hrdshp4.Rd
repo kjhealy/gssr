@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_564.R
 \name{hrdshp4}
 \alias{hrdshp4}
-\title{hrdshp4}
+\title{Being unable to purchase needed food}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Being unable to purchase needed food
+hrdshp4
 }
 \details{
 Question D. Now I am going to ask about specific hardships. Did any of the following occur to you since (CURRENT MONTH), 2003? 4. Unable to purchase needed food

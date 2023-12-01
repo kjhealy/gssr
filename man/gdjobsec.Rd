@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_336.R
 \name{gdjobsec}
 \alias{gdjobsec}
-\title{gdjobsec}
+\title{Job security is good}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job security is good
+gdjobsec
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. l. At work, job security is good.

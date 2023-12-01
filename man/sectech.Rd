@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_568.R
 \name{sectech}
 \alias{sectech}
-\title{sectech}
+\title{Should govt maintain secrecy over technology}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt maintain secrecy over technology
+sectech
 }
 \details{
 Question 1582. In order to maintain America's leadership in the world, the government should maintain a high level of secrecy surrounding technology with military uses. Do you . . .

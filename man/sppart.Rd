@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_429.R
 \name{sppart}
 \alias{sppart}
-\title{sppart}
+\title{R's current insurance plan covers spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's current insurance plan covers spouse
+sppart
 }
 \details{
 Question Are the following people in your family covered by your current insurance plan? My {response to uniontxt}

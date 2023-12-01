@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_276.R
 \name{cmpvirus}
 \alias{cmpvirus}
-\title{cmpvirus}
+\title{Does r know what a computer virus is}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know what a computer virus is
+cmpvirus
 }
 \details{
 Question 791. Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. e. Do you know what a computer virus is?

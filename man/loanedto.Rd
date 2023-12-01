@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_197.R
 \name{loanedto}
 \alias{loanedto}
-\title{loanedto}
+\title{Oto whom did you lend this money?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Oto whom did you lend this money?
+loanedto
 }
 \details{
 Question 620. Think of the most recent loan of this type. To whom did you lend this money?

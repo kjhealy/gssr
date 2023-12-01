@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_134.R
 \name{discwhy5}
 \alias{discwhy5}
-\title{discwhy5}
+\title{Heard about it elsewhere}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Heard about it elsewhere
+discwhy5
 }
 \details{
 Question 414a. Do you feel this way because of something that happened to you personally, because it happened to a relative, family member, or lcose friend, because you saw it occuring at work, or because you have heard about it from the media or other sources? 5. Heard about it from another source

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_139.R
 \name{jobcntrl}
 \alias{jobcntrl}
-\title{jobcntrl}
+\title{Who makes decision for your job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who makes decision for your job
+jobcntrl
 }
 \details{
 Question 437. I'm going to read four statements. Please tell me which one best describes your job: 1. Someone else decides both what I do and how I do it. 2. Someone else decides what I do, but I decide how I do it. 3. I have some freedom in deciding what I do and how I do it. 4. I am basically my own boss.

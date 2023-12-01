@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_301.R
 \name{docvig}
 \alias{docvig}
-\title{docvig}
+\title{Vignette about the doctor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vignette about the doctor
+docvig
 }
 \details{
 Question 851. Vignette number given to respondent.

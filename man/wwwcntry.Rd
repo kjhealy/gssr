@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_271.R
 \name{wwwcntry}
 \alias{wwwcntry}
-\title{wwwcntry}
+\title{In last month listen country music on web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In last month listen country music on web
+wwwcntry
 }
 \details{
 Question b. Country

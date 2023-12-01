@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_218.R
 \name{evbrkdwn}
 \alias{evbrkdwn}
-\title{evbrkdwn}
+\title{Ever felt going to have a nervous breakdown?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever felt going to have a nervous breakdown?
+evbrkdwn
 }
 \details{
 Question 669a. Have you ever felt that you were going to have a nervous breakdown?

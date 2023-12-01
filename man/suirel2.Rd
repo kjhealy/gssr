@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_73.R
 \name{suirel2}
 \alias{suirel2}
-\title{suirel2}
+\title{R's relationship to 2nd closest suicide}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's relationship to 2nd closest suicide
+suirel2
 }
 \details{
 Question A. Please tell me the relationship category of the person you knew second best that died by suicide.

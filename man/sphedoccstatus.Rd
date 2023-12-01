@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_158.R
 \name{sphedoccstatus}
 \alias{sphedoccstatus}
-\title{sphedoccstatus}
+\title{Sphedocc10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sphedocc10 coding status
+sphedoccstatus
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{meditate}
 \alias{meditate}
-\title{meditate}
+\title{How often meditate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often meditate
+meditate
 }
 \details{
 Question 671. Within your religious or spiritual tradition, how often do you meditate?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_534.R
 \name{spklang3}
 \alias{spklang3}
-\title{spklang3}
+\title{What language(s) do you speak well?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What language(s) do you speak well?
+spklang3
 }
 \details{
 Question 1452. What language(s) do you speak well? PLEASE FILL IN.

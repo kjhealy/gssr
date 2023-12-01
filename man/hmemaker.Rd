@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_181.R
 \name{hmemaker}
 \alias{hmemaker}
-\title{hmemaker}
+\title{Full-time homemaker's lives improved}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Full-time homemaker's lives improved
+hmemaker
 }
 \details{
 Question 571. We'd like your views on how the women's movement has affected certain groups. For each group I name, please tell me whether you think the women's movement has improved their lives, made their lives worse, or had no effect on their lives. a. Full-time homemaker

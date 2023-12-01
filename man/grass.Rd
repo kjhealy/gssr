@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_34.R
 \name{grass}
 \alias{grass}
-\title{grass}
+\title{Should marijuana be made legal}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should marijuana be made legal
+grass
 }
 \details{
 Question 95. Do you think the use of marijuana should be made legal or not?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_323.R
 \name{givblood}
 \alias{givblood}
-\title{givblood}
+\title{R donated blood during the past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R donated blood during the past 12 months
+givblood
 }
 \details{
 Question 927. During the past 12 months, how often have you done each of the following things: a. Donated blood

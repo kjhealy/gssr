@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_286.R
 \name{googlesn}
 \alias{googlesn}
-\title{googlesn}
+\title{Use googlesn}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use googlesn
+googlesn
 }
 \details{
 Question Which of the following social networking or social media sites are you a member or regular user of? Google+

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_256.R
 \name{usmixed}
 \alias{usmixed}
-\title{usmixed}
+\title{What percentage of population is of mixed heritage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What percentage of population is of mixed heritage
+usmixed
 }
 \details{
 Question 752. People may come from one racial group such as being White, Black/African-American, Hispanic, Asian, or American Indian, or people may come from two or more of these groups. What percent of people in the United States today do you think have parents or their ancestors from two or more racial groups?

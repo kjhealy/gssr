@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_344.R
 \name{godclose}
 \alias{godclose}
-\title{godclose}
+\title{How close to god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How close to god
+godclose
 }
 \details{
 Question 1014. In general, how close do you feel to God?

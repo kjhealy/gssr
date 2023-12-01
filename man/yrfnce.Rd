@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_645.R
 \name{yrfnce}
 \alias{yrfnce}
-\title{yrfnce}
+\title{Financial situation compared to last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Financial situation compared to last year
+yrfnce
 }
 \details{
 Question Compared to 12 months ago, how do you think the financial situation of your household has changed? Would you say the current situation is...

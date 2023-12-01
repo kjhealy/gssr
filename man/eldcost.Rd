@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_489.R
 \name{eldcost}
 \alias{eldcost}
-\title{eldcost}
+\title{Who should pay for help for elderly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who should pay for help for elderly
+eldcost
 }
 \details{
 Question And who do you think should primarily cover the costs of this help to these elderly people?

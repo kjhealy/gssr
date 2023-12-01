@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_644.R
 \name{cabgndr}
 \alias{cabgndr}
-\title{cabgndr}
+\title{Man vs woman cabinet position}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Man vs woman cabinet position
+cabgndr
 }
 \details{
 Question People may have different opinions about whether women or men are best suited to serve in certain leadership positions. Please consider the following positions and select the options that come closest to your own opinion. A member of the cabinet in the f

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_282.R
 \name{perhrw}
 \alias{perhrw}
-\title{perhrw}
+\title{Hours per week using work computer personal int}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per week using work computer personal int
+perhrw
 }
 \details{
 Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: d. Personal interests, games, or enjoyment?

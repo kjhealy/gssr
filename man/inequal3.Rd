@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{inequal3}
 \alias{inequal3}
-\title{inequal3}
+\title{Inequality exists for benefit of rich}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Inequality exists for benefit of rich
+inequal3
 }
 \details{
 Question 1253. Do you agree or disagree: c. Inequality continues to exist because it benefits the rich and powerful.

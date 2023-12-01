@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_86.R
 \name{feserve}
 \alias{feserve}
-\title{feserve}
+\title{Mandatory conscription for females?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mandatory conscription for females?
+feserve
 }
 \details{
 Question 288a. How would you feel about a program that required all young women to give one year of service to the nation - either in the military forces or in non-military work such as in hospitals or with elderly people - would you strongly favor it, probably favor it, probably oppose it, or strongly oppose it?

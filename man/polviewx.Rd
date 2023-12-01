@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_23.R
 \name{polviewx}
 \alias{polviewx}
-\title{polviewx}
+\title{Liberal or conservative-version x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Liberal or conservative-version x
+polviewx
 }
 \details{
 Question 67c. In political matters, people talk of "the left" and "the right." How would you place your views on this scale?

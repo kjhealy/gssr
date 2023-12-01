@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_632.R
 \name{relidwe}
 \alias{relidwe}
-\title{relidwe}
+\title{How often r says 'we' when talking about r's religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r says 'we' when talking about r's religion
+relidwe
 }
 \details{
 Question When talking about your religion, how often do you say we instead of they?

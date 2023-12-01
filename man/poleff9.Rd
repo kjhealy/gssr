@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_440.R
 \name{poleff9}
 \alias{poleff9}
-\title{poleff9}
+\title{People can control world affairs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People can control world affairs
+poleff9
 }
 \details{
 Question 1178. Please indicate whether you agree or disagree with each of the following statements. i. By taking an active part in political and social affairs the people can control world affairs.

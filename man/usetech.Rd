@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_312.R
 \name{usetech}
 \alias{usetech}
-\title{usetech}
+\title{Percentage of time use tech}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage of time use tech
+usetech
 }
 \details{
 Question During a typical week, about what percentage of your total time at work would you normally spend using different types of electronic technologies (such as computers, tablets, smart phones, cash registers, scanners, GPS devices, robotic devices, and so on)?

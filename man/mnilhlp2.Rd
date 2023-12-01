@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_220.R
 \name{mnilhlp2}
 \alias{mnilhlp2}
-\title{mnilhlp2}
+\title{2nd mention what help r sought}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-2nd mention what help r sought
+mnilhlp2
 }
 \details{
 Question D. (IF YES TO Q.669C ASK:) Could you tell me about when you felt that way? What was it about? (PROBE: GET EXACT DATE and complete details.) R's sources of help during mental illness

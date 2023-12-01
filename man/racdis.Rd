@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_45.R
 \name{racdis}
 \alias{racdis}
-\title{racdis}
+\title{How far are closest opp. race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How far are closest opp. race
+racdis
 }
 \details{
 Question 129b. How many blocks (or miles) away do they live (the Negro/black/African American] families who live closest to you) live?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_214.R
 \name{orotcmed}
 \alias{orotcmed}
-\title{orotcmed}
+\title{In what order take non-prescription medication}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what order take non-prescription medication
+orotcmed
 }
 \details{
 Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? h. Take non-prescription medication, like over the counter sleeping pills

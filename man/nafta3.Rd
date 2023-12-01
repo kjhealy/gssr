@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_536.R
 \name{nafta3}
 \alias{nafta3}
-\title{nafta3}
+\title{America should follow nafta decision}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-America should follow nafta decision
+nafta3
 }
 \details{
 Question 1463b. How strongly do you agree or disagree with the following statement? (Please, select one response) America should follow NAFTA decisions, even if it does not agree with them.

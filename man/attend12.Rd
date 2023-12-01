@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_513.R
 \name{attend12}
 \alias{attend12}
-\title{attend12}
+\title{Freq of r's relig svc attendance at age 12}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Freq of r's relig svc attendance at age 12
+attend12
 }
 \details{
 Question 1392. And what about when you were around 11 or 12, how often did you attend religious services then?

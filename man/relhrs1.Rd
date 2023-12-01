@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_123.R
 \name{relhrs1}
 \alias{relhrs1}
-\title{relhrs1}
+\title{Hours religious act in home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours religious act in home
+relhrs1
 }
 \details{
 Question 391a. In the past month, about how many hours have you spent doing religious activities in your home (such as time spent praying, meditating, reading religious books, listening to religious broadcasts, etc.)?

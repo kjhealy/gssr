@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_309.R
 \name{fairearn}
 \alias{fairearn}
-\title{fairearn}
+\title{How fair is what r earn on the job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How fair is what r earn on the job
+fairearn
 }
 \details{
 Question 895. How fair is what you earn on your job in comparison to others doing the same type of work you do?

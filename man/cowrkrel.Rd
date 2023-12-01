@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_145.R
 \name{cowrkrel}
 \alias{cowrkrel}
-\title{cowrkrel}
+\title{Relations between coworkers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relations between coworkers
+cowrkrel
 }
 \details{
 Question 461. In general how would you describe relations in your workplace between coworkers/colleagues?

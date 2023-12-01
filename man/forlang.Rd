@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_532.R
 \name{forlang}
 \alias{forlang}
-\title{forlang}
+\title{American schools should teach foreign languages}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-American schools should teach foreign languages
+forlang
 }
 \details{
 Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? c. American schools should make much more effort to teach foreign languages properly

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_321.R
 \name{cowrkhrd}
 \alias{cowrkhrd}
-\title{cowrkhrd}
+\title{How hard to say how people work at workplace}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How hard to say how people work at workplace
+cowrkhrd
 }
 \details{
 Question 924b. t your workplace, how hard would you say that people work with 0 meaning not at all hard and 10 meaning very hard?

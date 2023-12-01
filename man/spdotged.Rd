@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_18.R
 \name{spdotged}
 \alias{spdotged}
-\title{spdotged}
+\title{Sp. d.o.t. code - general educ develop.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sp. d.o.t. code - general educ develop.
+spdotged
 }
 \details{
 Question None

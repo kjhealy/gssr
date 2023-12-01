@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_576.R
 \name{yearsusa}
 \alias{yearsusa}
-\title{yearsusa}
+\title{Lived in u.s., years:}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Lived in u.s., years:
+yearsusa
 }
 \details{
 Question How long have you lived in the United States? If you have lived in the United States for more than one period during your life, what is the total number of years you have lived in the United States? A. Years in US

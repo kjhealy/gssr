@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_564.R
 \name{famper3}
 \alias{famper3}
-\title{famper3}
+\title{Breaking up with fianc?E)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Breaking up with fianc?E)
+famper3
 }
 \details{
 Question E. What about family and personal relationships? During the last year, did you... 3. Break up with a steady boyfriend/girlfriend or fiance(e)

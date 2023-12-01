@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_67.R
 \name{abrape}
 \alias{abrape}
-\title{abrape}
+\title{Pregnant as result of rape}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pregnant as result of rape
+abrape
 }
 \details{
 Question 206. Please tell me whether or not you think it should be possible for a pregnant woman to obtaina legal abortion if: e. She became pregnant as a result of rape?

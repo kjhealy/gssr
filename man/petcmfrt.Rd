@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_318.R
 \name{petcmfrt}
 \alias{petcmfrt}
-\title{petcmfrt}
+\title{How often r seeks pet for comfort when feeling bad}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r seeks pet for comfort when feeling bad
+petcmfrt
 }
 \details{
 Question When you feel bad, how often do you seek your pet for comfort?

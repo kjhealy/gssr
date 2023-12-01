@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_610.R
 \name{huaddwhy}
 \alias{huaddwhy}
-\title{huaddwhy}
+\title{Why there is no hu at this address}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why there is no hu at this address
+huaddwhy
 }
 \details{
 Question A. SELECT ONE FROM THE LIST BELOW WHICH BEST DESCRIBES WHY THERE IS NO HU AT THIS ADDRESS

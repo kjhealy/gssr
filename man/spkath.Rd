@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_30.R
 \name{spkath}
 \alias{spkath}
-\title{spkath}
+\title{Allow anti-religionist to speak}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow anti-religionist to speak
+spkath
 }
 \details{
 Question 76. There are always some people whose ideas are considered bad or dangerous by other people. For instance, somebody who is against churches and religion... a. If such a person wanted to make a speech in your (city/town/community) against churches and religion, should he be allowed to speak, or not?

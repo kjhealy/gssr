@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_131.R
 \name{povzone}
 \alias{povzone}
-\title{povzone}
+\title{Tax breaks for poor areas}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Tax breaks for poor areas
+povzone
 }
 \details{
 Question 407. Here are several things that the government in Washington might do to deal with the problems of poverty and unemployment. I would like you to tell me if you favor or oppose them. a. Giving businesses and industry special tax breaks for locating in poor and high unemployment areas.

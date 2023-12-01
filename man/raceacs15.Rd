@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_626.R
 \name{raceacs15}
 \alias{raceacs15}
-\title{raceacs15}
+\title{Some other race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Some other race
+raceacs15
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. Some other race

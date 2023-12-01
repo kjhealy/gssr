@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_477.R
 \name{hubbywrk}
 \alias{hubbywrk}
-\title{hubbywrk}
+\title{Husb shld work wife shld look after home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Husb shld work wife shld look after home
+hubbywrk
 }
 \details{
 Question 1275. Do you agree or disagree: i. A husband's job is to earn money; a wife's job is to look after the home and family.

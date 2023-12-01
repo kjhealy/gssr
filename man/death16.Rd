@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_83.R
 \name{death16}
 \alias{death16}
-\title{death16}
+\title{Relatives died since age 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relatives died since age 16
+death16
 }
 \details{
 Question 274b. Number of relatives dying since respondent 16 years old and prior to the last five years.

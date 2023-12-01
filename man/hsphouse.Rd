@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_133.R
 \name{hsphouse}
 \alias{hsphouse}
-\title{hsphouse}
+\title{Hispanics discriminated in housing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hispanics discriminated in housing
+hsphouse
 }
 \details{
 Question 411a. How much discrimination is there that makes it hard for Hispanic Americans to buy or rent housing wherever they want?

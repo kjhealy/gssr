@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_433.R
 \name{polefy17}
 \alias{polefy17}
-\title{polefy17}
+\title{How many govt admins can be trusted to do what's best}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many govt admins can be trusted to do what's best
+polefy17
 }
 \details{
 Question How many government administrators can be trusted to do what is best for the country: None, a few, some, most, or all?

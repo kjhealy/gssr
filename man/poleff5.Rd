@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_440.R
 \name{poleff5}
 \alias{poleff5}
-\title{poleff5}
+\title{People like me have much to say re govt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People like me have much to say re govt
+poleff5
 }
 \details{
 Question 1178. Please indicate whether you agree or disagree with each of the following statements. e. People like me have much to say about government.

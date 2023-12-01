@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_541.R
 \name{discpol}
 \alias{discpol}
-\title{discpol}
+\title{How often r discuss politics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r discuss politics
+discpol
 }
 \details{
 Question 1476. When you get together with your friends, relatives or fellow workers, how often do you discuss politics?

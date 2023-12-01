@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_640.R
 \name{abanyg}
 \alias{abanyg}
-\title{abanyg}
+\title{Abortion if woman wants for any reason (grid on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Abortion if woman wants for any reason (grid on web)
+abanyg
 }
 \details{
 Question None

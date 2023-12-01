@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_255.R
 \name{spklangw}
 \alias{spklangw}
-\title{spklangw}
+\title{How well r speaks the language in betrlang}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well r speaks the language in betrlang
+spklangw
 }
 \details{
 Question 746c. How well do you speak that language?

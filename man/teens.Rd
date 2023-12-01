@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_15.R
 \name{teens}
 \alias{teens}
-\title{teens}
+\title{Household members 13 thru 17 yrs old}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Household members 13 thru 17 yrs old
+teens
 }
 \details{
 Question 34c. Number of members 13 to 17 years old.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_264.R
 \name{fin30}
 \alias{fin30}
-\title{fin30}
+\title{R use financial information site in past 30 day}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use financial information site in past 30 day
+fin30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: a. Financial information?

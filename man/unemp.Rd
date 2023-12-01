@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_65.R
 \name{unemp}
 \alias{unemp}
-\title{unemp}
+\title{Ever unemployed in last ten yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever unemployed in last ten yrs
+unemp
 }
 \details{
 Question 193. At any time during the last ten years, have you been unemployed and looking for work for as long as a month?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_283.R
 \name{complib}
 \alias{complib}
-\title{complib}
+\title{Does r use computer at library}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r use computer at library
+complib
 }
 \details{
 Question 804. From which of these locations do you use this other computer? c. Library

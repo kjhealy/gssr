@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_115.R
 \name{parelig}
 \alias{parelig}
-\title{parelig}
+\title{What was father's religious preference}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What was father's religious preference
+parelig
 }
 \details{
 Question 360. What was your father's religious preference when you were growing up? Was it Protestant, Catholic, Jewish, some other religion, or no religion?

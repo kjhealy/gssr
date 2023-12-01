@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_520.R
 \name{antests}
 \alias{antests}
-\title{antests}
+\title{Ok to test on animals to save humans}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ok to test on animals to save humans
+antests
 }
 \details{
 Question 1411. How much do you agree or disagree with each of the following statements? d. It is right to use animals for medical testing if it might save human lives.

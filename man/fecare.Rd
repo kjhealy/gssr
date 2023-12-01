@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_66.R
 \name{fecare}
 \alias{fecare}
-\title{fecare}
+\title{R's concern about women's rights}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's concern about women's rights
+fecare
 }
 \details{
 Question 204a. How concerned are you personally about women's rights?

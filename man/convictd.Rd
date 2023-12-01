@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_77.R
 \name{convictd}
 \alias{convictd}
-\title{convictd}
+\title{Convicted of crime ever}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Convicted of crime ever
+convictd
 }
 \details{
 Question Not counting minor traffic offenses, have you ever been convicted of a crime?

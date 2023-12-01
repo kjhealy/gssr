@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_462.R
 \name{knwcuttr}
 \alias{knwcuttr}
-\title{knwcuttr}
+\title{Does r know someone who is a hairdresser or barber?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know someone who is a hairdresser or barber?
+knwcuttr
 }
 \details{
 Question Do you know a woman or a man who is? D. A hairdresser/barber?

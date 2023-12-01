@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_630.R
 \name{mkt1}
 \alias{mkt1}
-\title{mkt1}
+\title{Private companies should reduce inc differences}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Private companies should reduce inc differences
+mkt1
 }
 \details{
 Question It is the responsibility of private companies to reduce the differences in pay between their employees with high pay and those with low pay.

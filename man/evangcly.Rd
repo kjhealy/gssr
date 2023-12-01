@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_632.R
 \name{evangcly}
 \alias{evangcly}
-\title{evangcly}
+\title{Is r evangelical christian}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r evangelical christian
+evangcly
 }
 \details{
 Question Would you describe yourself as an evangelical Christian, or not?

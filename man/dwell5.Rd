@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_428.R
 \name{dwell5}
 \alias{dwell5}
-\title{dwell5}
+\title{In last 5 yrs, r has been prevented from moving bc landlord believed r was gay/l}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In last 5 yrs, r has been prevented from moving bc landlord believed r was gay/l
+dwell5
 }
 \details{
 Question In the last five years, have you been forced to move or prevented from buying or moving into a house or apartment because a landlord or realtor believed you were gay, lesbian, or bisexual?

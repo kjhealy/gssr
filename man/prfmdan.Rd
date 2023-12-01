@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_233.R
 \name{prfmdan}
 \alias{prfmdan}
-\title{prfmdan}
+\title{Was it a dance performance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was it a dance performance
+prfmdan
 }
 \details{
 Question You said that in the last 12 months you attended a performance. I?d like to ask you a few questions about the last time you did this type of activity. Was this a music, dance, or theater performance? B. Dance

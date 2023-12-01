@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_77.R
 \name{news}
 \alias{news}
-\title{news}
+\title{How often does r read newspaper}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r read newspaper
+news
 }
 \details{
 Question 241. How often do you read the newspaper - every day, a few times a week, once a week, less than once a week, or never?

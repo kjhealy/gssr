@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_647.R
 \name{webdocexp}
 \alias{webdocexp}
-\title{webdocexp}
+\title{Information online helped me understand a doctor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Information online helped me understand a doctor
+webdocexp
 }
 \details{
 Question (To what extent do you agree or disagree with the following statements? During the past 12 months, information on the internet...) ...helped me understand what a doctor tried to explain to me.

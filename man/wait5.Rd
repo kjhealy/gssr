@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_297.R
 \name{wait5}
 \alias{wait5}
-\title{wait5}
+\title{How long r wait treatment doing less work e}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long r wait treatment doing less work e
+wait5
 }
 \details{
 Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? e. Accomplishing less than you would like with your work or other regular daily activities as a result of any emotional problems (such as feeling depressed or anxious)?

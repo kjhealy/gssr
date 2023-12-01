@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_323.R
 \name{givhmlss}
 \alias{givhmlss}
-\title{givhmlss}
+\title{R has given food or money to a homeless person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has given food or money to a homeless person
+givhmlss
 }
 \details{
 Question 927. During the past 12 months, how often have you done each of the following things: b. Given food or money to a homeless person

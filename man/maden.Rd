@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_114.R
 \name{maden}
 \alias{maden}
-\title{maden}
+\title{What was mother's religious denomination}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What was mother's religious denomination
+maden
 }
 \details{
 Question 359a. If Protestant: What specific denomination is that, if any?

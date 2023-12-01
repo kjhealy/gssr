@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_437.R
 \name{feinc}
 \alias{feinc}
-\title{feinc}
+\title{Income for women vs. men with same bkgd}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Income for women vs. men with same bkgd
+feinc
 }
 \details{
 Question 1171. And how about income and wages -- compared with men who have similar education and jobs -- are women in general paid better or worse than men?

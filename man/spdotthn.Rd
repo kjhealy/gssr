@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_18.R
 \name{spdotthn}
 \alias{spdotthn}
-\title{spdotthn}
+\title{Sp. d.o.t. code - relation to things}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sp. d.o.t. code - relation to things
+spdotthn
 }
 \details{
 Question None

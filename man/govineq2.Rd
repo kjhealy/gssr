@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_630.R
 \name{govineq2}
 \alias{govineq2}
-\title{govineq2}
+\title{Us govt success in reducing inc differences}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Us govt success in reducing inc differences
+govineq2
 }
 \details{
 Question How successful do you think the government in America is nowadays in reducing the differences in income between people with high incomes and people with low incomes?

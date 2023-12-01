@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_445.R
 \name{prvdhlth}
 \alias{prvdhlth}
-\title{prvdhlth}
+\title{Who provides for sick people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who provides for sick people
+prvdhlth
 }
 \details{
 Question A. People have different opinions on who should provide services in America. Who do you think Healthcare for the sick? Should it be?

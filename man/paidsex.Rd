@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_552.R
 \name{paidsex}
 \alias{paidsex}
-\title{paidsex}
+\title{R had sex for pay last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had sex for pay last year
+paidsex
 }
 \details{
 Question 1543. If you had other partners, please indicate all categories that apply to them. d. Person you paid or paid you for sex

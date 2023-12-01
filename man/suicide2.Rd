@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_72.R
 \name{suicide2}
 \alias{suicide2}
-\title{suicide2}
+\title{Suicide if bankrupt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suicide if bankrupt
+suicide2
 }
 \details{
 Question 227. Do you think a person has the right to end his or her own life if this person: b. Has gone bankrupt?

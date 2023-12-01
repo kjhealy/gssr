@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_233.R
 \name{prfmfree}
 \alias{prfmfree}
-\title{prfmfree}
+\title{Was performance attended free}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was performance attended free
+prfmfree
 }
 \details{
 Question Was the performance you attended free, or was there an admission fee?

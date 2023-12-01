@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_211.R
 \name{dectreat}
 \alias{dectreat}
-\title{dectreat}
+\title{How able is x to decide receive treatment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How able is x to decide receive treatment
+dectreat
 }
 \details{
 Question 652. In your opinion, how able is NAME to make his/her own decisions about the treatment s/he should receive -- very able, somewhat able, not very able or not able at all?

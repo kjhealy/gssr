@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_441.R
 \name{spenviro}
 \alias{spenviro}
-\title{spenviro}
+\title{Govt spending on environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt spending on environment
+spenviro
 }
 \details{
 Question 1180. Listed below are various areas of government spending. Please indicate whether you would like to see more or less government spending in each area. Remember that if you say "much more," it might require a tax increase to pay for it. a. The environment

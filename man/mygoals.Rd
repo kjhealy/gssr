@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_466.R
 \name{mygoals}
 \alias{mygoals}
-\title{mygoals}
+\title{It is easy for r to accomplish their goals}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-It is easy for r to accomplish their goals
+mygoals
 }
 \details{
 Question To what extent is the following statement true or untrue for you? It is easy for me to accomplish my goals

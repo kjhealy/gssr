@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_369.R
 \name{bigbang1}
 \alias{bigbang1}
-\title{bigbang1}
+\title{Universe began with a big explosion: true or false}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Universe began with a big explosion: true or false
+bigbang1
 }
 \details{
 Question According to astronomers, the universe began with a huge explosion. (Is that true or false?)

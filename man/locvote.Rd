@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_112.R
 \name{locvote}
 \alias{locvote}
-\title{locvote}
+\title{How often does r vote in local elections}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r vote in local elections
+locvote
 }
 \details{
 Question 351. What about local elections - do you always vote in those, do you sometimes miss one, or do you rarely vote, or do you never vote?

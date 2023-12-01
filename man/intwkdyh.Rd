@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_288.R
 \name{intwkdyh}
 \alias{intwkdyh}
-\title{intwkdyh}
+\title{Hours of internet use on weekdays}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours of internet use on weekdays
+intwkdyh
 }
 \details{
 Question How many minutes or hours do you spend actively using the Internet or web-enabled applications/APPS on a typical weekday? A. HOURS:

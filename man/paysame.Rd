@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_492.R
 \name{paysame}
 \alias{paysame}
-\title{paysame}
+\title{Importance of standard rates to pay}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of standard rates to pay
+paysame
 }
 \details{
 Question 1324. Think of two people doing the same kind of work. What do you personally think should be important in deciding how much to pay them? Looking at the things below, please write '1' next to the thing that you think should be most important. Then write '2' next to the thing that you think should be next most important, and '3' next to the thing that you think should be third most important. Leave the other boxes blank. d. The standard rate, giving both employees the same pay

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_382.R
 \name{intmil}
 \alias{intmil}
-\title{intmil}
+\title{Interested in military policy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested in military policy
+intmil
 }
 \details{
 Question Issues about military and defense policy. (Are you very interested, moderately interested, or not at all interested?)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_151.R
 \name{english}
 \alias{english}
-\title{english}
+\title{Better if english is only language used in school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Better if english is only language used in school
+english
 }
 \details{
 Question 475. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it: f. It is better for everyone if English is the only language used in the public schools.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_474.R
 \name{paslf}
 \alias{paslf}
-\title{paslf}
+\title{Was father self-employed?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was father self-employed?
+paslf
 }
 \details{
 Question 1261a. Was your father self employed, or did he work for someone else?

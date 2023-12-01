@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_139.R
 \name{lottosay}
 \alias{lottosay}
-\title{lottosay}
+\title{I have a lot to say on my job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I have a lot to say on my job
+lottosay
 }
 \details{
 Question 438. How true would you say each of the following statements is about your job? b. I have a lot to say over what happens on my job.

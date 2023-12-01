@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_285.R
 \name{intrecnt}
 \alias{intrecnt}
-\title{intrecnt}
+\title{Used internet/apps yesterday}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Used internet/apps yesterday
+intrecnt
 }
 \details{
 Question Did you happen to use the internet or web-enabled applications/APPS yesterday?

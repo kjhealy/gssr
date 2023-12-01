@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_565.R
 \name{law5}
 \alias{law5}
-\title{law5}
+\title{Arrested}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Arrested
+law5
 }
 \details{
 Question F. Next, did any of the following criminal or legal events occur to you since (CURRENT MONTH), 2003... 5. Arrested.

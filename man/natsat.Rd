@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_316.R
 \name{natsat}
 \alias{natsat}
-\title{natsat}
+\title{I am satisfied with my day to day experience of nature}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I am satisfied with my day to day experience of nature
+natsat
 }
 \details{
 Question Please tell me how much you agree or disagree with the following statements. E. I am satisfied with my day to day experience of nature.

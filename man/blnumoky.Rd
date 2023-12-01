@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_87.R
 \name{blnumoky}
 \alias{blnumoky}
-\title{blnumoky}
+\title{Number of blacks in military-version y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of blacks in military-version y
+blnumoky
 }
 \details{
 Question 290b. At the present time, about 33 percent of the armed forces are black. All things considered, do you think there are too many blacks in the armed forces, about the right number, or should there be more blacks in the armed forces?

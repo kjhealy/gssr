@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_309.R
 \name{wkbonus}
 \alias{wkbonus}
-\title{wkbonus}
+\title{R is likely to get a bonus or pay increase}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is likely to get a bonus or pay increase
+wkbonus
 }
 \details{
 Question 894. When you do your job well, are you likely to get a bonus or pay increase?

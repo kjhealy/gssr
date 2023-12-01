@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_232.R
 \name{relart}
 \alias{relart}
-\title{relart}
+\title{Had experience of art at place of worship}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Had experience of art at place of worship
+relart
 }
 \details{
 Question 691. Within the past twelve months, have you had any experiences with the arts at your place of worship? I mean activities like viewing performances or exhibits, singing in a choir, or playing an instrument.

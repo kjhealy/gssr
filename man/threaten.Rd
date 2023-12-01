@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_314.R
 \name{threaten}
 \alias{threaten}
-\title{threaten}
+\title{R is threatened or harassed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is threatened or harassed
+threaten
 }
 \details{
 Question In your day-to-day life how often have any of the following things happened to you? E. You are threatened or harassed.

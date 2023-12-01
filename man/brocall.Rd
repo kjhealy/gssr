@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_451.R
 \name{brocall}
 \alias{brocall}
-\title{brocall}
+\title{Contact with brother}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contact with brother
+brocall
 }
 \details{
 Question 1202c. And how often do you have any other contact with your brother besides visiting, either by telephone or letter?

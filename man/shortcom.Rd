@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_536.R
 \name{shortcom}
 \alias{shortcom}
-\title{shortcom}
+\title{World better if america acknowledged shortcomings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-World better if america acknowledged shortcomings
+shortcom
 }
 \details{
 Question How much do you agree of disagree with the following statements? A. The world would be a better place if Americans acknowledged America's shortcomings.

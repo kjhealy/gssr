@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_338.R
 \name{immstats}
 \alias{immstats}
-\title{immstats}
+\title{R's current immigration status right now}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's current immigration status right now
+immstats
 }
 \details{
 Question 973. Thinking of your current immigration status right now, is that in Box A, B, or C? If it's in Box B, we do not want to know which specific category applies to you, and there will be no more questions about Box B. (IF RESPONDENT ASKS WHY, SAY: Because right now we are focusing on Box A.) A: legal permanent resident with a valid and official green card issued to me by the U.S. government B: United States citizen; student, work, or tourist visa; undocumented (I do not have my own valid official green card); refugee or asylee without a green card C: Some other category

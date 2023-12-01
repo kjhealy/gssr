@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_216.R
 \name{brkdimp1}
 \alias{brkdimp1}
-\title{brkdimp1}
+\title{1st mention, what nervous breakdown is, imputed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-1st mention, what nervous breakdown is, imputed
+brkdimp1
 }
 \details{
 Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)

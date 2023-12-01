@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_575.R
 \name{racethwh}
 \alias{racethwh}
-\title{racethwh}
+\title{Points assigned to white}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Points assigned to white
+racethwh
 }
 \details{
 Question How would you describe your race and ethnicity using this 10-point system using the following choices:A. White

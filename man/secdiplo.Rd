@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_569.R
 \name{secdiplo}
 \alias{secdiplo}
-\title{secdiplo}
+\title{Government maintain secrecy on diplomatic initiatives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Government maintain secrecy on diplomatic initiatives
+secdiplo
 }
 \details{
 Question 1587. Should or should not the government maintain a high level of secrecy surrounding: (READ A-D) a. Diplomatic initiatives

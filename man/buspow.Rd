@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_442.R
 \name{buspow}
 \alias{buspow}
-\title{buspow}
+\title{Power of business and industry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Power of business and industry
+buspow
 }
 \details{
 Question 1185. How about business and industry, do they have too much power or too little power?

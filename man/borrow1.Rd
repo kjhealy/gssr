@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_455.R
 \name{borrow1}
 \alias{borrow1}
-\title{borrow1}
+\title{Borrow money #1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Borrow money #1
+borrow1
 }
 \details{
 Question 1211. Suppose you needed to borrow a large sum of money. a. Who would you turn to first for help?

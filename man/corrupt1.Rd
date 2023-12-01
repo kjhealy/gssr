@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_449.R
 \name{corrupt1}
 \alias{corrupt1}
-\title{corrupt1}
+\title{Opinion of corruption by politician}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opinion of corruption by politician
+corrupt1
 }
 \details{
 Question 1497. In your opinion, about how many politicians in America are involved in corruption? Would you say...

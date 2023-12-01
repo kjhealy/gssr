@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_276.R
 \name{hlthpapr}
 \alias{hlthpapr}
-\title{hlthpapr}
+\title{R sought health information newspaper articles}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sought health information newspaper articles
+hlthpapr
 }
 \details{
 Question 793. If YES, please tell me if you tried to find such health information from: a. Articles in a daily newspaper

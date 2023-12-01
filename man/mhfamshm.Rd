@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_415.R
 \name{mhfamshm}
 \alias{mhfamshm}
-\title{mhfamshm}
+\title{X family should be ashamed to receive govt assistance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X family should be ashamed to receive govt assistance
+mhfamshm
 }
 \details{
 Question 1142. The next few questions deal with the government's responsibility to help people like \link{NAME}. For each statement please tell me if you think the government definitely should, probably should, probably should not, or definitely should not be responsible for helping people with situations like \link{NAME}. g. How about \link{NAME}'s family? Should \link{NAME}'s family be ashamed if \link{NAME} receives governmental assistance?

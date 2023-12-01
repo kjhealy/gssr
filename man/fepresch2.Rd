@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_643.R
 \name{fepresch2}
 \alias{fepresch2}
-\title{fepresch2}
+\title{Preschool kids suffer if mother works  - issp version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Preschool kids suffer if mother works  - issp version
+fepresch2
 }
 \details{
 Question (To what extent do you agree or disagree...?) A pre-school child is likely to suffer if his or her mother works.

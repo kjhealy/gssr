@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_243.R
 \name{hlthinsr}
 \alias{hlthinsr}
-\title{hlthinsr}
+\title{Have health insurance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have health insurance
+hlthinsr
 }
 \details{
 Question 714. First, are you, yourself, covered by health insurance, a government plan like Medicare or Medicaid, or some other plan that pays for your medical care?

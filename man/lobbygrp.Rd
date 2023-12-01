@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_110.R
 \name{lobbygrp}
 \alias{lobbygrp}
-\title{lobbygrp}
+\title{Has r contacted government for group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r contacted government for group
+lobbygrp
 }
 \details{
 Question 334. Here is a list of things that members of organizations may participate in. Could you tell me whether or not you have ever done any of these things as a member of \link{GROUP IN Q.328 OR Q.332}? f. Contacted government officials on behalf of the organization.

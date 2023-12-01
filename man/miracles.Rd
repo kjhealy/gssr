@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_511.R
 \name{miracles}
 \alias{miracles}
-\title{miracles}
+\title{Belief in religious miracles}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Belief in religious miracles
+miracles
 }
 \details{
 Question 1382. Do you believe in. . . e. Religious miracles

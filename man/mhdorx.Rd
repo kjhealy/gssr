@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_408.R
 \name{mhdorx}
 \alias{mhdorx}
-\title{mhdorx}
+\title{What x should do: take prescription medication}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: take prescription medication
+mhdorx
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? i. Take prescription medication

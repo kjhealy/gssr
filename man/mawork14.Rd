@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_481.R
 \name{mawork14}
 \alias{mawork14}
-\title{mawork14}
+\title{Did mom work before r was 14 yrs old}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did mom work before r was 14 yrs old
+mawork14
 }
 \details{
 Question 1290. Did your mother ever work for pay for as long as one year after you were born and before you were 14?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_542.R
 \name{govngos}
 \alias{govngos}
-\title{govngos}
+\title{Decision left to natl govt representative or citizen or}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Decision left to natl govt representative or citizen or
+govngos
 }
 \details{
 Question 1479. Which of these two statements comes closer to your view? 1. In international organizations, decisions should be left to national government representatives 2. In international organizations, citizens' organizations should be involved directly in the decision-making process

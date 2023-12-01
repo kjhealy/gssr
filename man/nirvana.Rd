@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_516.R
 \name{nirvana}
 \alias{nirvana}
-\title{nirvana}
+\title{Believe in nirvana}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Believe in nirvana
+nirvana
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_537.R
 \name{patriot4}
 \alias{patriot4}
-\title{patriot4}
+\title{Patriotic feelings lead to negative feelings towards immigrants}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Patriotic feelings lead to negative feelings towards immigrants
+patriot4
 }
 \details{
 Question How much do you agree of disagree that strong patriotic feelings in America... D. Lead to negative attitudes towards immigrants in America.

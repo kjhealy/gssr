@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_558.R
 \name{chldhome}
 \alias{chldhome}
-\title{chldhome}
+\title{Housing improving?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Housing improving?
+chldhome
 }
 \details{
 Question 1571. Compared with 10 years ago, would you say that American children today are much better off, better off, about the same, worse off, or much worse off regarding: f. Their housing

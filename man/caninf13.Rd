@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_335.R
 \name{caninf13}
 \alias{caninf13}
-\title{caninf13}
+\title{Does r mentioned any specific url?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r mentioned any specific url?
+caninf13
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? m. Did respondent mention any specific URL?

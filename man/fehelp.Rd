@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_79.R
 \name{fehelp}
 \alias{fehelp}
-\title{fehelp}
+\title{Wife should help husbands career first}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Wife should help husbands career first
+fehelp
 }
 \details{
 Question 252. Now I'm going to read several more statements. As I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. b. It is more important for a wife to help her husband's career than to have one herself.

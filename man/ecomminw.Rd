@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_282.R
 \name{ecomminw}
 \alias{ecomminw}
-\title{ecomminw}
+\title{Minutes per week using work computer hsehld mng}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes per week using work computer hsehld mng
+ecomminw
 }
 \details{
 Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: c. Shopping, paying bills and other household management?

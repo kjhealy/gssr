@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_334.R
 \name{caninf10}
 \alias{caninf10}
-\title{caninf10}
+\title{Would go to portal site for information on candidate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would go to portal site for information on candidate
+caninf10
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? j. Would go to portal site ( AOL, MSNBC, SNAP, YAHOO or similar site) for information on candidate.

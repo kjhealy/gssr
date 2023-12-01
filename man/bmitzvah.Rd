@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_418.R
 \name{bmitzvah}
 \alias{bmitzvah}
-\title{bmitzvah}
+\title{R had bar or bat mitzvah when r was a child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had bar or bat mitzvah when r was a child
+bmitzvah
 }
 \details{
 Question Did you have a {response to bmitztxt} mitzvah when you were a child?

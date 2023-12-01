@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_623.R
 \name{spkhomoy}
 \alias{spkhomoy}
-\title{spkhomoy}
+\title{Allow homosexual to speak y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow homosexual to speak y
+spkhomoy
 }
 \details{
 Question And what about a gay person? Suppose this gay person wanted to make a speech in your community. Should this person be allowed to speak, or not?

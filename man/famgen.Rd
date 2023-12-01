@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_592.R
 \name{famgen}
 \alias{famgen}
-\title{famgen}
+\title{Number of family generations in household}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of family generations in household
+famgen
 }
 \details{
 Question 1628. Number of family generations in household.

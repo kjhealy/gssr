@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_37.R
 \name{visions}
 \alias{visions}
-\title{visions}
+\title{Perceived events at great distance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Perceived events at great distance
+visions
 }
 \details{
 Question 111. How often have you had any of the following experiences? c. Seen events that happened at a great distance as they were happening.

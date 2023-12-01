@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_539.R
 \name{cntctgov}
 \alias{cntctgov}
-\title{cntctgov}
+\title{Contacted politician or civil servant to express view}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contacted politician or civil servant to express view
+cntctgov
 }
 \details{
 Question 1468. Here are some different forms of political and social action that people can take. Please indicate, for each one, Whether you have done any of these things in the past year, Whether you have done it in the more distant past, Whether you have not done it but might do it, Or have not done it and would never, under any circumstances, do it. e. Contacted, or attempted to contact, a politician or a civil servant to express your views

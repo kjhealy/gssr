@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_559.R
 \name{chldskls}
 \alias{chldskls}
-\title{chldskls}
+\title{Acquiring job skills improving?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Acquiring job skills improving?
+chldskls
 }
 \details{
 Question 1571. Compared with 10 years ago, would you say that American children today are much better off, better off, about the same, worse off, or much worse off regarding: h. Acquiring the skills needed to get a good job

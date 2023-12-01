@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_133.R
 \name{asnjobs}
 \alias{asnjobs}
-\title{asnjobs}
+\title{Asians discriminated in jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Asians discriminated in jobs
+asnjobs
 }
 \details{
 Question 410c. How much discrimination is there that hurts the chances of Asian Americans to get good paying jobs?

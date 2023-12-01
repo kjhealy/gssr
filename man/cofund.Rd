@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_42.R
 \name{cofund}
 \alias{cofund}
-\title{cofund}
+\title{How fundamentalist is partner's current religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How fundamentalist is partner's current religion
+cofund
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_427.R
 \name{kidlived}
 \alias{kidlived}
-\title{kidlived}
+\title{Children under 18 have ever lived with r under r's care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children under 18 have ever lived with r under r's care
+kidlived
 }
 \details{
 Question Have any children who at the time were under age 18 ever lived with you under your care and responsibility?

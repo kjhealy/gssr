@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_336.R
 \name{hotargus}
 \alias{hotargus}
-\title{hotargus}
+\title{Heated arguments occur in workplace}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Heated arguments occur in workplace
+hotargus
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. j. Heated arguments occur in my workplace.

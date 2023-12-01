@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_631.R
 \name{norelgsp}
 \alias{norelgsp}
-\title{norelgsp}
+\title{Is r atheist or agnostic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r atheist or agnostic
+norelgsp
 }
 \details{
 Question Do you consider yourself to be atheist, agnostic, something else, or nothing in particular?

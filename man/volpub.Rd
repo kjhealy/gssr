@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_200.R
 \name{volpub}
 \alias{volpub}
-\title{volpub}
+\title{Done volunteer work in pub-soc benefit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done volunteer work in pub-soc benefit
+volpub
 }
 \details{
 Question 640. Listed on this card are examples of the many different areas in which people do volunteer activity. By volunteer activity I mean not just belonging to a service organization, but actually working in some way to help others for no monetary pay. In which, if any, of the areas listed on this card have you done some volunteer work in the past twelve months? f. Public/society benefit

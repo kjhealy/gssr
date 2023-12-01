@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_301.R
 \name{chosedoc}
 \alias{chosedoc}
-\title{chosedoc}
+\title{R had enough choices among docs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had enough choices among docs
+chosedoc
 }
 \details{
 Question 856. Do you feel that you had enough choices among different doctors in your health insurance plan when you chose your current doctor?

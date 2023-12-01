@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_152.R
 \name{frddynam}
 \alias{frddynam}
-\title{frddynam}
+\title{Desir qualities of friend: dynamic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Desir qualities of friend: dynamic
+frddynam
 }
 \details{
 Question 476. I'm going to read seven qualities one might look for in a personal friend. All of the qualities may be desirable ones for a personal friend, but I'm interested in those that are most important to you. As I read each one, could you tell me whether it is extremely important, very important, fairly important, not too important, or not at all important. c. Dynamic

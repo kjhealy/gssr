@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_479.R
 \name{marfree}
 \alias{marfree}
-\title{marfree}
+\title{Personal freedom more impt than marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Personal freedom more impt than marriage
+marfree
 }
 \details{
 Question 1280. Do you agree or disagree? b. Personal freedom is more important than the companionship of marriage

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_367.R
 \name{toofast}
 \alias{toofast}
-\title{toofast}
+\title{Science makes our way of life change too fast}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Science makes our way of life change too fast
+toofast
 }
 \details{
 Question 1035. I'm going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. b. Science makes our way of life change too fast.

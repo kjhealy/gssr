@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_254.R
 \name{betrlang}
 \alias{betrlang}
-\title{betrlang}
+\title{Which language r speaks more fluent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which language r speaks more fluent
+betrlang
 }
 \details{
 Question 746b. Which language do you speak more fluent?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_506.R
 \name{unbetter}
 \alias{unbetter}
-\title{unbetter}
+\title{Working condition would be much worse without unions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Working condition would be much worse without unions
+unbetter
 }
 \details{
 Question 1502. To what extent do you agree or disagree with the following statements? b. Without trade unions the working conditions of employees would be much worse than they are

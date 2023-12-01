@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_30.R
 \name{tax}
 \alias{tax}
-\title{tax}
+\title{R's federal income tax}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's federal income tax
+tax
 }
 \details{
 Question 75. Do you consider the amount of federal income tax which you have to pay as too high, about right, or too low?

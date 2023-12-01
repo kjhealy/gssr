@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_66.R
 \name{fethink}
 \alias{fethink}
-\title{fethink}
+\title{How oft r & frnds think abt women's rgts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How oft r & frnds think abt women's rgts
+fethink
 }
 \details{
 Question 204b. How often would you say that you and your friends think about women's rights?

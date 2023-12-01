@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_599.R
 \name{uswary}
 \alias{uswary}
-\title{uswary}
+\title{Expect u.s. in world war in 10 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Expect u.s. in world war in 10 years
+uswary
 }
 \details{
 Question 98. Do you expect the United States to fight in another world war within the next ten years?

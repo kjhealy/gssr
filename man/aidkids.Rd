@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_461.R
 \name{aidkids}
 \alias{aidkids}
-\title{aidkids}
+\title{Govts resp provide childcare}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts resp provide childcare
+aidkids
 }
 \details{
 Question 1244. On the whole, do you think it should or should not be the government's responsibility to ... Provide childcare for everyone who wants it?

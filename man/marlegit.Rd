@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_479.R
 \name{marlegit}
 \alias{marlegit}
-\title{marlegit}
+\title{Those wanting kids should get married}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Those wanting kids should get married
+marlegit
 }
 \details{
 Question 1280. Do you agree or disagree? f. People who want children ought to get married.

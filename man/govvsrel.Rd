@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_517.R
 \name{govvsrel}
 \alias{govvsrel}
-\title{govvsrel}
+\title{Governments should not interfere with the attempts of any religion to spread its}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Governments should not interfere with the attempts of any religion to spread its
+govvsrel
 }
 \details{
 Question Do you agree or disagree with the following statement? A. Governments should not interfere with the attempts of any religion to spread its faith.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_256.R
 \name{usamind}
 \alias{usamind}
-\title{usamind}
+\title{What percentage of population is american india}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What percentage of population is american india
+usamind
 }
 \details{
 Question 751. Just your best guess�what percentage of the United States population is each group? f. American Indians

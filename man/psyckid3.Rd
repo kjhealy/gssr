@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_242.R
 \name{psyckid3}
 \alias{psyckid3}
-\title{psyckid3}
+\title{Will give kid med because kid talked suicide}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Will give kid med because kid talked suicide
+psyckid3
 }
 \details{
 Question 712. How likely would you be to give doctor-prescribed psychiatric medication to your child or a child you were responsible for in the following situations (A child would be considered anyone between the ages of 8 and 15). c. because s/he was talking about killing him or herself.

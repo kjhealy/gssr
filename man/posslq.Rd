@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_452.R
 \name{posslq}
 \alias{posslq}
-\title{posslq}
+\title{Does r have marital partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r have marital partner
+posslq
 }
 \details{
 Question 1205. Which of these statements applies to you? a. I am married and living in the same household as my husband or wife b. I am living as married and my partner and I together live in the same household c. I have a husband or wife or steady partner but we don't live in the same household d. I don't have a steady partner

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_328.R
 \name{imprveat}
 \alias{imprveat}
-\title{imprveat}
+\title{Situation will improve with some changes in diet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Situation will improve with some changes in diet
+imprveat
 }
 \details{
 Question 942k. In your opinion, how likely is it that this youth's/child's situation will improve with some changes in (his/her) diet?

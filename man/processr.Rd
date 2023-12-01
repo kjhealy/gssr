@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_290.R
 \name{processr}
 \alias{processr}
-\title{processr}
+\title{R knows what a processor is}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R knows what a processor is
+processr
 }
 \details{
 Question 815a. Do you know whether the "486" or "pentium" on a personal computer (and G3 on a Mac) refer to...

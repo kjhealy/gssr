@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_195.R
 \name{lawyerg}
 \alias{lawyerg}
-\title{lawyerg}
+\title{Convenience}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Convenience
+lawyerg
 }
 \details{
 Question 608. Think about the most recent time you hired a lawyer. What made you choose this law firm or attorney? g. Convenience

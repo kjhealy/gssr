@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_09.R
 \name{mapres10}
 \alias{mapres10}
-\title{mapres10}
+\title{Mothers occupational prestige score (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers occupational prestige score (2010)
+mapres10
 }
 \details{
 Question None

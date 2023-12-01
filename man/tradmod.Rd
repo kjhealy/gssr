@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_177.R
 \name{tradmod}
 \alias{tradmod}
-\title{tradmod}
+\title{Man alone-both responsible for providing income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Man alone-both responsible for providing income
+tradmod
 }
 \details{
 Question 553. Next, we have some questions about the kind of relationship you would like with a spouse or partner. It doesn't matter whether you are now married or living with someone. For each pair of items on the card, which type of realtionship would you prefer? a1. A relationship where the man has the main responsibility for providing the household income and the woman has the main responsibility for taking care of the home and family. a2. A relationship where the man and woman equally share responsibility for providing the household income and taking care of the home and family.

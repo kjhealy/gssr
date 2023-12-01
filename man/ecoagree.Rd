@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_373.R
 \name{ecoagree}
 \alias{ecoagree}
-\title{ecoagree}
+\title{Agreement by economists on effect of reducing fed inc tax}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Agreement by economists on effect of reducing fed inc tax
+ecoagree
 }
 \details{
 Question 1065. Please look at Card B11. On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all", to what extent do economists agree on the effects of reducing federal income taxes?

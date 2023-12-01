@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_660.R
 \name{relig_next}
 \alias{relig_next}
-\title{relig_next}
+\title{Religion - follow-on version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion - follow-on version
+relig_next
 }
 \details{
 Question What is your religious preference?

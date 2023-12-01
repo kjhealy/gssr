@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_647.R
 \name{webrely}
 \alias{webrely}
-\title{webrely}
+\title{Hard to distinguish reliable and unreliable info online}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hard to distinguish reliable and unreliable info online
+webrely
 }
 \details{
 Question (To what extent do you agree or disagree with the following statements?) It is not easy to distinguish between reliable and unreliable health information on the internet.

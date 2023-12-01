@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_212.R
 \name{vigwork}
 \alias{vigwork}
-\title{vigwork}
+\title{How willing r would work closely with x on a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How willing r would work closely with x on a job
+vigwork
 }
 \details{
 Question 656. How willing would you be to have NAME start working closely with you on a job -- definitely willing, probably willing, probably unwilling, or definitely unwilling?

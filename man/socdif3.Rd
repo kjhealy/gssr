@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_126.R
 \name{socdif3}
 \alias{socdif3}
-\title{socdif3}
+\title{Study for years to get high pay}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Study for years to get high pay
+socdif3
 }
 \details{
 Question 402. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. c. no one would study for years to become a lawyer or doctor unless they expected to earn a lot more than ordinary workers.

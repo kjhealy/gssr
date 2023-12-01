@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_653.R
 \name{yrclass}
 \alias{yrclass}
-\title{yrclass}
+\title{Online class in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Online class in past 12 months
+yrclass
 }
 \details{
 Question (During the last 12 months, did you...) take any online classes or lessons -- or watch instructional videos -- on creating or performing art? This may have included music, theater, or dance; creative writing; crafts or visual arts; digital art;

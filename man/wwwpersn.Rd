@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_273.R
 \name{wwwpersn}
 \alias{wwwpersn}
-\title{wwwpersn}
+\title{Has r met person on web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r met person on web
+wwwpersn
 }
 \details{
 Question 788a. Have you ever first come into contact with someone on the Internet�through a chat room, bulletin board, news group, discussion forum, or other interactive site, or through their Web page--with whom you later established a relationship outside the Internet?

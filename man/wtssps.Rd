@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_636.R
 \name{wtssps}
 \alias{wtssps}
-\title{wtssps}
+\title{Person post-stratification weight}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Person post-stratification weight
+wtssps
 }
 \details{
 Question WEIGHT

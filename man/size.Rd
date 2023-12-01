@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_17.R
 \name{size}
 \alias{size}
-\title{size}
+\title{Size of place in 1000s}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Size of place in 1000s
+size
 }
 \details{
 Question None

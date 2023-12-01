@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_278.R
 \name{polwww}
 \alias{polwww}
-\title{polwww}
+\title{R sought political information www}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sought political information www
+polwww
 }
 \details{
 Question 795. If YES, please tell me if you looked for such candidate information from: g. The Internet or World Wide Web

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_482.R
 \name{cohabit}
 \alias{cohabit}
-\title{cohabit}
+\title{Did r live with spouse before marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r live with spouse before marriage
+cohabit
 }
 \details{
 Question 1293. Did you live with your husband/wife before you got married?

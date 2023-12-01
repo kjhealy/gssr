@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_520.R
 \name{grnprice}
 \alias{grnprice}
-\title{grnprice}
+\title{Pay higher prices to help envir?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pay higher prices to help envir?
+grnprice
 }
 \details{
 Question 1413a. How willing would you be to pay much higher prices in order to protect the environment?

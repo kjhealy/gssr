@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_498.R
 \name{smallbig}
 \alias{smallbig}
-\title{smallbig}
+\title{R preference re: firm size in}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R preference re: firm size in
+smallbig
 }
 \details{
 Question 1328. Suppose you were working and could choose between different kinds of jobs. Which of the following would you personally choose? I would advise... b. Working in a small firm or working in a large firm

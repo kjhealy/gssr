@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_549.R
 \name{aidsrac3}
 \alias{aidsrac3}
-\title{aidsrac3}
+\title{Race of aids victim 3rd closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Race of aids victim 3rd closest to r
+aidsrac3
 }
 \details{
 Question 1531. We would like to know a few other things about that person. d. What (is/was) that person's race?

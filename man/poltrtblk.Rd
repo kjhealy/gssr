@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_635.R
 \name{poltrtblk}
 \alias{poltrtblk}
-\title{poltrtblk}
+\title{Police treats whites better than blacks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Police treats whites better than blacks
+poltrtblk
 }
 \details{
 Question The following questions are about police and law enforcement. In general, do the police (treat Whites better than Blacks, treat them both the same, or treat Blacks better than Whites/treat Blacks better than Whites, treat them both the same, or treat Whites better than Blacks)?

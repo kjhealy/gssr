@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_496.R
 \name{mortravl}
 \alias{mortravl}
-\title{mortravl}
+\title{I would accept a longer commute}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I would accept a longer commute
+mortravl
 }
 \details{
 Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? D. To travel longer to get to work.

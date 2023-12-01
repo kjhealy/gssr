@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_347.R
 \name{typchurh}
 \alias{typchurh}
-\title{typchurh}
+\title{R belongs to more than one church affiliate groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one church affiliate groups
+typchurh
 }
 \details{
 Question 1024o. Do you belong to more than one church-affiliated group?

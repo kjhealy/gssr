@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_500.R
 \name{xhaustn}
 \alias{xhaustn}
-\title{xhaustn}
+\title{How often does work exhaust r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does work exhaust r
+xhaustn
 }
 \details{
 Question 1336. Now some more questions about your working conditions. Please circle one code for each item below to show how often it applies to your work. How often... a. Do you come home from work exhausted?

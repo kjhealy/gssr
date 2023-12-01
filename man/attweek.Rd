@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_580.R
 \name{attweek}
 \alias{attweek}
-\title{attweek}
+\title{Attend religious events during the last week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attend religious events during the last week
+attweek
 }
 \details{
 Question 1618. Did you, yourself, happen to attend church or synagogue in the last seven days?

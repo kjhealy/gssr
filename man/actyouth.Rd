@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_109.R
 \name{actyouth}
 \alias{actyouth}
-\title{actyouth}
+\title{R active in youth group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in youth group
+actyouth
 }
 \details{
 Question 330. Have you ever done any active work for the youth groups? I mean been a leader, helped organize meetings, been an officer, or given time or money?

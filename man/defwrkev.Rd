@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_91.R
 \name{defwrkev}
 \alias{defwrkev}
-\title{defwrkev}
+\title{Ever work for military supplier?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever work for military supplier?
+defwrkev
 }
 \details{
 Question 305. Have you ever worked for a company where a major part of their business was selling supplies or services to the armed forces?

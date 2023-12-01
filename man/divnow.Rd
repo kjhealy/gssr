@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_481.R
 \name{divnow}
 \alias{divnow}
-\title{divnow}
+\title{How easy is it to get a divorce today}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How easy is it to get a divorce today
+divnow
 }
 \details{
 Question 1284. In general, would you say that the law now makes it easy or difficult for people who want to get divorced?

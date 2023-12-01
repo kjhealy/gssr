@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_467.R
 \name{ophrdwrk}
 \alias{ophrdwrk}
-\title{ophrdwrk}
+\title{Need to work hard to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need to work hard to get ahead
+ophrdwrk
 }
 \details{
 Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . f. Hard work -- how important is that for getting ahead in life?

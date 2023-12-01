@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_112.R
 \name{governor}
 \alias{governor}
-\title{governor}
+\title{Did r correctly name governor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r correctly name governor
+governor
 }
 \details{
 Question 347. We would want to know how well known the different governmental leaders are around here. Could you tell me the name of the governor of this state?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_490.R
 \name{rfamlook}
 \alias{rfamlook}
-\title{rfamlook}
+\title{How many hours a week r spends looking after family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many hours a week r spends looking after family
+rfamlook
 }
 \details{
 Question On average, how many hours a week do you spend looking after family members (e.g. children, elderly, ill or disabled family members?

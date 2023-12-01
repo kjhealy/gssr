@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_474.R
 \name{firstslf}
 \alias{firstslf}
-\title{firstslf}
+\title{First job self-employment?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-First job self-employment?
+firstslf
 }
 \details{
 Question 1262a. Were you selfemployed, or did you work for someone else?

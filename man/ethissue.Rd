@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_170.R
 \name{ethissue}
 \alias{ethissue}
-\title{ethissue}
+\title{Degree r invokes ethnic identity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Degree r invokes ethnic identity
+ethissue
 }
 \details{
 Question 516b. Do you think of yourself as a(n) \link{GROUP} on all issues, most issues, some issues, or just a few issues?

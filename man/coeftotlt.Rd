@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_13.R
 \name{coeftotlt}
 \alias{coeftotlt}
-\title{coeftotlt}
+\title{Total number of students enrolled at college partner attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total number of students enrolled at college partner attended
+coeftotlt
 }
 \details{
 Question None

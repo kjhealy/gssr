@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_451.R
 \name{siscall}
 \alias{siscall}
-\title{siscall}
+\title{Contact with sister}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contact with sister
+siscall
 }
 \details{
 Question 1201c. And how often do you have any other contact with your sister besides visiting, either by telephone or letter?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_503.R
 \name{placewrk}
 \alias{placewrk}
-\title{placewrk}
+\title{Where do you work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where do you work
+placewrk
 }
 \details{
 Question 1356. Which of the following statements best describes where you work?

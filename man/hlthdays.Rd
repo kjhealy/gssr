@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_311.R
 \name{hlthdays}
 \alias{hlthdays}
-\title{hlthdays}
+\title{Days of activity limitation past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Days of activity limitation past 30 days
+hlthdays
 }
 \details{
 Question 908. During the past 30 days, for about how many days did your poor physical or mental health keep you from doing your usual activities, such as self-care, work, or recreation?

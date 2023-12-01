@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_118.R
 \name{goownway}
 \alias{goownway}
-\title{goownway}
+\title{Importance of following own conscience}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of following own conscience
+goownway
 }
 \details{
 Question 376. People have many differing views about what makes a person a good Christian or Jew. Please tell me how important is each of the following to you. Once again, please indicate where you would place your feelings on a scale from 1 to 5. d. To follow one's conscience even if it means going against what the churches or synagoges say and do.

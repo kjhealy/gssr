@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_530.R
 \name{amsports}
 \alias{amsports}
-\title{amsports}
+\title{Agree sports makes me proud to be an american}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Agree sports makes me proud to be an american
+amsports
 }
 \details{
 Question 1440. How much do you agree or disagree with the following statements? f. When my country does well in international sports, it makes me proud to be an American

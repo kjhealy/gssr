@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_389.R
 \name{engodd}
 \alias{engodd}
-\title{engodd}
+\title{Engineers odd and peculiar}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Engineers odd and peculiar
+engodd
 }
 \details{
 Question Engineers are apt to be odd and peculiar people. Do you strongly agree, agree, disagree, or strongly disagree?

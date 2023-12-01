@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_285.R
 \name{intuse}
 \alias{intuse}
-\title{intuse}
+\title{Use internet/apps more than occassionally}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use internet/apps more than occassionally
+intuse
 }
 \details{
 Question Do you use the internet or web-enabled applications, known as APPS, for more than email, at least occasionally?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_17.R
 \name{srcbelt}
 \alias{srcbelt}
-\title{srcbelt}
+\title{Src beltcode}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Src beltcode
+srcbelt
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_454.R
 \name{friwork}
 \alias{friwork}
-\title{friwork}
+\title{Number of close friends are coworkers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of close friends are coworkers
+friwork
 }
 \details{
 Question 1208a. How many of these close friends are people you work with now?

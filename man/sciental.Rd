@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_387.R
 \name{sciental}
 \alias{sciental}
-\title{sciental}
+\title{Scientists usually work alone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientists usually work alone
+sciental
 }
 \details{
 Question Now I'd like to read you some statements about scientists. Please tell me if you agree or disagree with each one. If you feel especially strongly about a statement, please say that you strongly agree or strongly disagree. Okay? A scientist usually works alone. Do you strongly agree, agree, disagree, or strongly disagree?

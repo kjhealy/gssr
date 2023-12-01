@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_337.R
 \name{natborn}
 \alias{natborn}
-\title{natborn}
+\title{What country r were born in}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What country r were born in
+natborn
 }
 \details{
 Question 970. What country were you born in?

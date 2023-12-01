@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_42.R
 \name{tithing}
 \alias{tithing}
-\title{tithing}
+\title{How much does r give to religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much does r give to religion
+tithing
 }
 \details{
 Question 118. About how much do you contribute to your religion every year (not including school tuition)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_441.R
 \name{lessreg}
 \alias{lessreg}
-\title{lessreg}
+\title{Less govt regulation of business}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Less govt regulation of business
+lessreg
 }
 \details{
 Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. e. Less government regulation of business

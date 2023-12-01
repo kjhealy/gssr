@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_664.R
 \name{rrltu18}
 \alias{rrltu18}
-\title{rrltu18}
+\title{R is extended family of child under 18 in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is extended family of child under 18 in hh
+rrltu18
 }
 \details{
 Question None

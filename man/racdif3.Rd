@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_81.R
 \name{racdif3}
 \alias{racdif3}
-\title{racdif3}
+\title{Differences due to lack of education}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences due to lack of education
+racdif3
 }
 \details{
 Question 266. On the average (negroes/blacks/African-Americans) have worse jobs, income, and housing than white people. Do you think these differences are: c. Because most (negroes/blacks/African-Americans) don't have the chance for education that it takes to rise out of poverty?

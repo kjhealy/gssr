@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_451.R
 \name{bronum}
 \alias{bronum}
-\title{bronum}
+\title{Number of adult brothers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of adult brothers
+bronum
 }
 \details{
 Question 1202. How many brothers age 18 or older do you have? (We mean brothers who are still alive; please include stepbrothers, halfbrothers, and adopted brothers.)

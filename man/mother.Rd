@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_38.R
 \name{mother}
 \alias{mother}
-\title{mother}
+\title{Image of god as mother}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Image of god as mother
+mother
 }
 \details{
 Question 113. When you think about God, how likely are each of these images to come to your mind? e. Mother

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_87.R
 \name{nurse}
 \alias{nurse}
-\title{nurse}
+\title{Women as nurses in combat zone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women as nurses in combat zone
+nurse
 }
 \details{
 Question 292. I'm going to read you a list of jobs that people might have in the armed forces. Please tell me whether you think a woman should or should not be assigned to each job, assuming she is trained to do it. c. A nurse in a combat zone

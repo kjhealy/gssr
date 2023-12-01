@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_187.R
 \name{madat20}
 \alias{madat20}
-\title{madat20}
+\title{Angry at stranger (include crowds)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Angry at stranger (include crowds)
+madat20
 }
 \details{
 Question 576. Who were you angry, irritated, or annoyed at? t. Stranger (include crowds)

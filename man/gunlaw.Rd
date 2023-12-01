@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_33.R
 \name{gunlaw}
 \alias{gunlaw}
-\title{gunlaw}
+\title{Favor or oppose gun permits}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Favor or oppose gun permits
+gunlaw
 }
 \details{
 Question 86. Would you favor or oppose a law which would require a person to obtain a police permit before he or she could buy a gun?

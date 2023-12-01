@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_185.R
 \name{angryev}
 \alias{angryev}
-\title{angryev}
+\title{Was an event recalled?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was an event recalled?
+angryev
 }
 \details{
 Question 574e. WAS AN EVENT RECALLED?

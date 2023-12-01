@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_511.R
 \name{predeter}
 \alias{predeter}
-\title{predeter}
+\title{God decides the course of our lives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-God decides the course of our lives
+predeter
 }
 \details{
 Question 1387. Do you agree or disagree with the following. . . e. The course of our lives is decided by God.

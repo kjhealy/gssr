@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_445.R
 \name{rprtst3}
 \alias{rprtst3}
-\title{rprtst3}
+\title{Would you go on a protest march-demonstration}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would you go on a protest march-demonstration
+rprtst3
 }
 \details{
 Question Would you or would you not do any of the following to protest against a government action you strongly opposed? b. Go on a protest march or demonstration

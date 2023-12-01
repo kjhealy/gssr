@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_568.R
 \name{askfinan}
 \alias{askfinan}
-\title{askfinan}
+\title{Govt investigate workers finances for security}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt investigate workers finances for security
+askfinan
 }
 \details{
 Question 585. Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to ask him or her detailed, personal questions in the following areas: a. Financial and credit history

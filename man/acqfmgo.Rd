@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_397.R
 \name{acqfmgo}
 \alias{acqfmgo}
-\title{acqfmgo}
+\title{Number of family member going church regularly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of family member going church regularly
+acqfmgo
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. k. How many attend religious services on a regular basis?

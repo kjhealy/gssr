@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_626.R
 \name{absingleg}
 \alias{absingleg}
-\title{absingleg}
+\title{Not married (grid on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Not married (grid on web)
+absingleg
 }
 \details{
 Question (Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .) If she is not married and does not want to marry the man?

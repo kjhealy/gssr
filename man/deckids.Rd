@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_486.R
 \name{deckids}
 \alias{deckids}
-\title{deckids}
+\title{Who makes decision about how to bring up children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who makes decision about how to bring up children
+deckids
 }
 \details{
 Question 1313. Who usually makes/made the decisions about how to bring up your children?

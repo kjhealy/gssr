@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_170.R
 \name{sbindstatus}
 \alias{sbindstatus}
-\title{sbindstatus}
+\title{Sbind10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sbind10 coding status
+sbindstatus
 }
 \details{
 Question None

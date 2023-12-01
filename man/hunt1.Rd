@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_77.R
 \name{hunt1}
 \alias{hunt1}
-\title{hunt1}
+\title{Does r or spouse or partner hunt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r or spouse or partner hunt
+hunt1
 }
 \details{
 Question B. Do you (or does your \link{husband/wife/partner}) go hunting?

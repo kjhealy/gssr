@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_269.R
 \name{polalter}
 \alias{polalter}
-\title{polalter}
+\title{Web help change mind}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Web help change mind
+polalter
 }
 \details{
 Question 779. In general, when you visit Web sites devoted to political or social policy issues, current affairs, or political campaigns, is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that: c. Visiting such sites leads you to change your mind on issues?

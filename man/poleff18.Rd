@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_540.R
 \name{poleff18}
 \alias{poleff18}
-\title{poleff18}
+\title{Govt do not care much what ppl like r think}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt do not care much what ppl like r think
+poleff18
 }
 \details{
 Question 1471. To what extent do you agree or disagree with the following statements? a. I don't think the government cares much what people like me think

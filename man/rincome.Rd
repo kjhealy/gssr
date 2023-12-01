@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_15.R
 \name{rincome}
 \alias{rincome}
-\title{rincome}
+\title{Respondents income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondents income
+rincome
 }
 \details{
 Question 38. Did you earn any income from \link{OCCUPATION DESCRIBED IN Q2} last year? a. If yes: In which of these groups did your earnings from \link{OCCUPATION IN Q2} for last year fall? That is, before taxes or other deductions.

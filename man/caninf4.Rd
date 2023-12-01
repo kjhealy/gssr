@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_334.R
 \name{caninf4}
 \alias{caninf4}
-\title{caninf4}
+\title{Would guess or type site name for information o}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would guess or type site name for information o
+caninf4
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? d. Would guess or type site name for information on candidate.

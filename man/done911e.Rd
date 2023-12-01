@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_421.R
 \name{done911e}
 \alias{done911e}
-\title{done911e}
+\title{Has r duplicated important documents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r duplicated important documents
+done911e
 }
 \details{
 Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know duplicated important documents (birth certificate, medication prescriptions, and passports)? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?

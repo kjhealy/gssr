@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_626.R
 \name{raceacs16}
 \alias{raceacs16}
-\title{raceacs16}
+\title{Hispanic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hispanic
+raceacs16
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. No more mentioned

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_511.R
 \name{egomeans}
 \alias{egomeans}
-\title{egomeans}
+\title{Life meaningful only if you provide meaning}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Life meaningful only if you provide meaning
+egomeans
 }
 \details{
 Question 1387. Do you agree or disagree with the following. . . f. Life is only meaningful if you provide the meaning yourself.

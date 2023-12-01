@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_593.R
 \name{relhh13}
 \alias{relhh13}
-\title{relhh13}
+\title{Relationship of person 13 to head of household}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship of person 13 to head of household
+relhh13
 }
 \details{
 Question 1632. What is (PERSON)'s relationship to head of household?

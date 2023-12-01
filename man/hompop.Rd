@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_15.R
 \name{hompop}
 \alias{hompop}
-\title{hompop}
+\title{Number of persons in household}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of persons in household
+hompop
 }
 \details{
 Question 34. Household size and composition.

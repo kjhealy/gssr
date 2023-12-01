@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_12.R
 \name{barate}
 \alias{barate}
-\title{barate}
+\title{Rate of ba degree earning in college respondent attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rate of ba degree earning in college respondent attended
+barate
 }
 \details{
 Question None

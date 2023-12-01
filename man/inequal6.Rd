@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{inequal6}
 \alias{inequal6}
-\title{inequal6}
+\title{Everyone benefits from business profits}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Everyone benefits from business profits
+inequal6
 }
 \details{
 Question 1253. Do you agree or disagree: f. Allowing business to make good profits is the best way to improve everyone's standard of living.

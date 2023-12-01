@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_209.R
 \name{homeless}
 \alias{homeless}
-\title{homeless}
+\title{Contributed to the homeless}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contributed to the homeless
+homeless
 }
 \details{
 Question 646. People help other people in ways besides giving money, time, or other things to organized groups. Sometimes people help needy people directly. During the past 12 months, did you or members of your family or household give money, food, or clothing to any of the following types of people? a. The homeless or street-people

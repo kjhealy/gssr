@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_427.R
 \name{sexunion}
 \alias{sexunion}
-\title{sexunion}
+\title{Sex of r's spouse/civil union partner/domestic partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of r's spouse/civil union partner/domestic partner
+sexunion
 }
 \details{
 Question What is the sex of your {response to uniontxt}?

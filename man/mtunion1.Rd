@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_359.R
 \name{mtunion1}
 \alias{mtunion1}
-\title{mtunion1}
+\title{Labor union1 meets in this area}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Labor union1 meets in this area
+mtunion1
 }
 \details{
 Question 1027e. Does the labor union meet in this area?

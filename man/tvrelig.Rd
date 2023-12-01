@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_116.R
 \name{tvrelig}
 \alias{tvrelig}
-\title{tvrelig}
+\title{Hours per week r watches religious tv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per week r watches religious tv
+tvrelig
 }
 \details{
 Question 368. About how much time per week, in hours and minutes, do you normally spend watching religious shows on television?

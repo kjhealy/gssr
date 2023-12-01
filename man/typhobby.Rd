@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_347.R
 \name{typhobby}
 \alias{typhobby}
-\title{typhobby}
+\title{R belongs to more than one hobby clubs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one hobby clubs
+typhobby
 }
 \details{
 Question 1024i. Do you belong to more than one hobby or garden club?

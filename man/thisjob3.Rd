@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_138.R
 \name{thisjob3}
 \alias{thisjob3}
-\title{thisjob3}
+\title{Heard job from my supervisor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Heard job from my supervisor
+thisjob3
 }
 \details{
 Question 429. Which of the answers on this card describe how you heard about your present job with your employer? Please tell me all of the ways that you found out about this job. c. From my supervisor

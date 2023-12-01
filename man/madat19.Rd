@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_187.R
 \name{madat19}
 \alias{madat19}
-\title{madat19}
+\title{Angry at public figure}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Angry at public figure
+madat19
 }
 \details{
 Question 576. Who were you angry, irritated, or annoyed at? s. A public figure (politician, actor, newsmaker).

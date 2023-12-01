@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_520.R
 \name{naturpax}
 \alias{naturpax}
-\title{naturpax}
+\title{Nature would be at peace if humans left alone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nature would be at peace if humans left alone
+naturpax
 }
 \details{
 Question 1411. How much do you agree or disagree with each of the following statements? b. Nature would be at peace and in harmony if only human beings would leave it alone.

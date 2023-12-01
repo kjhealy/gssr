@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_557.R
 \name{parwork}
 \alias{parwork}
-\title{parwork}
+\title{If parents work, kids get in trouble}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If parents work, kids get in trouble
+parwork
 }
 \details{
 Question 1569. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements regarding parents: h. When both parents work, children are more likely to get into trouble.

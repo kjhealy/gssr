@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_474.R
 \name{firstjob}
 \alias{firstjob}
-\title{firstjob}
+\title{Type of first job held by r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of first job held by r
+firstjob
 }
 \details{
 Question 1262. And how about your first job the first job you had after you finished fulltime education?

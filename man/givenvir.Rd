@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_205.R
 \name{givenvir}
 \alias{givenvir}
-\title{givenvir}
+\title{Contributed money in environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contributed money in environment
+givenvir
 }
 \details{
 Question 43. Listed on this card are examples of many different fields in which people and families contribute money or other property for charitable purposes. I mean making a voluntary contribution and not with the intention of making a profit or obtaining goods and/or services for yourself. In which, if any, of the fields listed on this card have you and the members of your family or household contributed some money or other property in 1995? Just read off the letter of each field: e. Environment

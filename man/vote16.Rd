@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_23.R
 \name{vote16}
 \alias{vote16}
-\title{vote16}
+\title{Remember if voted in 2016 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Remember if voted in 2016 election
+vote16
 }
 \details{
 Question In 2016, you remember that Clinton ran for President on the Democratic ticket against Trump for the Republicans. Do you remember for sure whether or not you voted in that election?

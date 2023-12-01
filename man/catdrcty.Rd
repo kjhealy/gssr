@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_263.R
 \name{catdrcty}
 \alias{catdrcty}
-\title{catdrcty}
+\title{How often r uses web directories}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r uses web directories
+catdrcty
 }
 \details{
 Question 771. Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: e. Go to a category directory or web guide and select an option?

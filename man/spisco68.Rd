@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_595.R
 \name{spisco68}
 \alias{spisco68}
-\title{spisco68}
+\title{R's spouse's occupation, 1970 census}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's spouse's occupation, 1970 census
+spisco68
 }
 \details{
 Question 1637. Occupation of respondent's spouse (International Standard Classification Codes-1968)

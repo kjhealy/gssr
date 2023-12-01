@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_309.R
 \name{wkpraise}
 \alias{wkpraise}
-\title{wkpraise}
+\title{R is likely to be praised by supervisor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is likely to be praised by supervisor
+wkpraise
 }
 \details{
 Question 893. When you do your job well, are you likely to be praised by your supervisor or employer?

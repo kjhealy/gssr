@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_289.R
 \name{jobcntct}
 \alias{jobcntct}
-\title{jobcntct}
+\title{Times r sought job information from contact outside}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Times r sought job information from contact outside
+jobcntct
 }
 \details{
 Question Please tell me how many times you tried to find such information from... e. Business or work contacts outside your workplace�that is outside where you were then working?

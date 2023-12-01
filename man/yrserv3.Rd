@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_350.R
 \name{yrserv3}
 \alias{yrserv3}
-\title{yrserv3}
+\title{How many years r been a member of service club3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years r been a member of service club3
+yrserv3
 }
 \details{
 Question 1026b. How many years have you been a member of \link{SERVICE CLUB}?

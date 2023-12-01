@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_64.R
 \name{finalter}
 \alias{finalter}
-\title{finalter}
+\title{Change in financial situation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Change in financial situation
+finalter
 }
 \details{
 Question 187b. During the last few years, has your financial situation been getting better, worse, or has it stayed the same?

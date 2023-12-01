@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_34.R
 \name{relig}
 \alias{relig}
-\title{relig}
+\title{R's religious preference}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's religious preference
+relig
 }
 \details{
 Question 104. What is your religous preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_527.R
 \name{enprbus}
 \alias{enprbus}
-\title{enprbus}
+\title{Most important environment problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most important environment problem
+enprbus
 }
 \details{
 Question Here is a list of some different environmental problems. Which problem, if any, do you think is the most important for America as a whole?

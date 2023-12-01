@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_284.R
 \name{emgetp}
 \alias{emgetp}
-\title{emgetp}
+\title{How many personal messages received per day}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many personal messages received per day
+emgetp
 }
 \details{
 Question 807. Thinking now about all your home, work or other computers, d. About how many of these messages are personal one-to-one, rather than ones you receive as a member of a group or e-list?

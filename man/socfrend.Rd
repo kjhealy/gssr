@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_58.R
 \name{socfrend}
 \alias{socfrend}
-\title{socfrend}
+\title{Spend evening with friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spend evening with friends
+socfrend
 }
 \details{
 Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: c. Spend a social evening with friends who live outside the neighborhood

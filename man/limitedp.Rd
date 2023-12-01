@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_295.R
 \name{limitedp}
 \alias{limitedp}
-\title{limitedp}
+\title{Health limit type of work past 4 wks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Health limit type of work past 4 wks
+limitedp
 }
 \details{
 Question During the past 4 weeks, have you had any of the following problems with your work or other regular daily activities as a result of your physical health? 834. Were limited in the kind of work or other activities?

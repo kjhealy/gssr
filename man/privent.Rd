@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_518.R
 \name{privent}
 \alias{privent}
-\title{privent}
+\title{Private enterprise will solve u.s. problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Private enterprise will solve u.s. problems
+privent
 }
 \details{
 Question 1407. How much do you agree or disagree with each of these statements? Private enterprise is the best way to solve America's economic problems.

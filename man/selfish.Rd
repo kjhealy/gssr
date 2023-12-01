@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_340.R
 \name{selfish}
 \alias{selfish}
-\title{selfish}
+\title{R is a selfish person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is a selfish person
+selfish
 }
 \details{
 Question 985. For each of the following, please indicate how well the description applies to you by circling one number: e. A selfish person

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_14.R
 \name{parborn}
 \alias{parborn}
-\title{parborn}
+\title{Were r's parents born in this country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Were r's parents born in this country
+parborn
 }
 \details{
 Question 32. Were both your parents born in this country?

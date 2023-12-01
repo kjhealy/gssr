@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_191.R
 \name{typdealr}
 \alias{typdealr}
-\title{typdealr}
+\title{Rwas the agency a new or used car dealer'ship?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rwas the agency a new or used car dealer'ship?
+typdealr
 }
 \details{
 Question 593. Was the agency a new car dealership or did it only sell used cars?

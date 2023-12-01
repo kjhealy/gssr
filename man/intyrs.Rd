@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_607.R
 \name{intyrs}
 \alias{intyrs}
-\title{intyrs}
+\title{Years of service as an interviewer at norc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Years of service as an interviewer at norc
+intyrs
 }
 \details{
 Question None

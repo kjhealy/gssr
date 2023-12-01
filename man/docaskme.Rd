@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_301.R
 \name{docaskme}
 \alias{docaskme}
-\title{docaskme}
+\title{R prefers doc ask opinion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R prefers doc ask opinion
+docaskme
 }
 \details{
 Question 854. I will read you some statements of beliefs people have. Please look at the card and decide which answer best applies to you. a. I prefer that my doctor offers me choices and asks my opinion.

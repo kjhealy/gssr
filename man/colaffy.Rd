@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_173.R
 \name{colaffy}
 \alias{colaffy}
-\title{colaffy}
+\title{Chance whites excluded from college over blacks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Chance whites excluded from college over blacks
+colaffy
 }
 \details{
 Question 533a. What do you think the chances are these days that a white person won't get admitted to a college or university program while a less qualified black person gets admitted instead?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_661.R
 \name{cowrkslffam}
 \alias{cowrkslffam}
-\title{cowrkslffam}
+\title{Partner work at family business or on family farm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner work at family business or on family farm
+cowrkslffam
 }
 \details{
 Question None

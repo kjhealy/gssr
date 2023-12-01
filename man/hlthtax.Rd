@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_645.R
 \name{hlthtax}
 \alias{hlthtax}
-\title{hlthtax}
+\title{Willing to pay higher taxes to imp health care for all}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Willing to pay higher taxes to imp health care for all
+hlthtax
 }
 \details{
 Question How willing would you be to pay higher taxes to improve the level of health care for all people in the United States? Would you be ...

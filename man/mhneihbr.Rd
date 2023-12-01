@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_411.R
 \name{mhneihbr}
 \alias{mhneihbr}
-\title{mhneihbr}
+\title{R would have x as a neighbor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would have x as a neighbor
+mhneihbr
 }
 \details{
 Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... a. To have \link{NAME} as a neighbor?

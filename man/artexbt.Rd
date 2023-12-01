@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_232.R
 \name{artexbt}
 \alias{artexbt}
-\title{artexbt}
+\title{Did r go to an art exhibit in last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r go to an art exhibit in last 12 months
+artexbt
 }
 \details{
 Question During the last 12 months, did you go to an art exhibit, such as paintings, sculpture, textiles, graphic design, or photography?

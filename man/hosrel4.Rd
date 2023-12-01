@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_83.R
 \name{hosrel4}
 \alias{hosrel4}
-\title{hosrel4}
+\title{Rels hospitalized betw 5 & 1 yrs ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rels hospitalized betw 5 & 1 yrs ago
+hosrel4
 }
 \details{
 Question 273b. Number of relatives hospitalized/disabled during previous four years.

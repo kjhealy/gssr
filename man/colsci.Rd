@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_370.R
 \name{colsci}
 \alias{colsci}
-\title{colsci}
+\title{R has taken any college-level sci course}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has taken any college-level sci course
+colsci
 }
 \details{
 Question 1048. Have you ever taken any college-level science courses?

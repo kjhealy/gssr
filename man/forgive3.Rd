@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_228.R
 \name{forgive3}
 \alias{forgive3}
-\title{forgive3}
+\title{Know that god forgives me}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Know that god forgives me
+forgive3
 }
 \details{
 Question 680. Because of your religious or spiritual beliefs have you always, almost always, often, seldom, or never felt the following ways: c. I know that God forgives me.

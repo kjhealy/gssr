@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_72.R
 \name{suinum}
 \alias{suinum}
-\title{suinum}
+\title{People r knows suicide over lifetime}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People r knows suicide over lifetime
+suinum
 }
 \details{
 Question The next questions deal with a difficult topic that may be sensitive for you. It is not clearly understood how a relative or friend?s death by suicide may affect one?s life afterwards. Please answer these questions as best as you can, and you can decline to answer any question if you are uncomfortable. Over your lifetime how many people have you known personally that died by suicide? Please tell us the total number of people that died by suicide. PROBE: IF R REPORTS NUMBER OF KNOWN SUICIDE VICTIMS=0, ASK: Just to be sure, thinking about anyone you may have known in your lifetime, is there anyone you have known personally that died by suicide?

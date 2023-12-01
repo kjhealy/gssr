@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_298.R
 \name{wait7}
 \alias{wait7}
-\title{wait7}
+\title{How long r wait treatment pain interfere wi}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long r wait treatment pain interfere wi
+wait7
 }
 \details{
 Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? g. Having pain interfere with your normal work, including both work outside the home and housework?

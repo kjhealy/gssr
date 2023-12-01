@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_266.R
 \name{work12}
 \alias{work12}
-\title{work12}
+\title{R use web for work in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use web for work in past 12 months
+work12
 }
 \details{
 Question 774. In the past 12 months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/02 have you used the Web to do each of these things: a. Look for information you needed for your work?

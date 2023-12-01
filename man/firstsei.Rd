@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_597.R
 \name{firstsei}
 \alias{firstsei}
-\title{firstsei}
+\title{R's socioeconomic index of 1st occupation (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's socioeconomic index of 1st occupation (1980)
+firstsei
 }
 \details{
 Question 1647. Socioeconomic index of respondent's first occupation.

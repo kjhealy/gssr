@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_104.R
 \name{talkpol3}
 \alias{talkpol3}
-\title{talkpol3}
+\title{R discusses politics with person #3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R discusses politics with person #3
+talkpol3
 }
 \details{
 Question 325. About how often do you talk to \link{NAME} about political matters?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_463.R
 \name{hlpadvce}
 \alias{hlpadvce}
-\title{hlpadvce}
+\title{Who r would first turn to if they needed advice about family problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r would first turn to if they needed advice about family problems
+hlpadvce
 }
 \details{
 Question Who would you turn to first to?. D. Give you advice about family problems?

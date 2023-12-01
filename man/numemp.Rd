@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_240.R
 \name{numemp}
 \alias{numemp}
-\title{numemp}
+\title{For how many employers ever worked full time}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-For how many employers ever worked full time
+numemp
 }
 \details{
 Question 705. For how many employers have you ever worked full time?

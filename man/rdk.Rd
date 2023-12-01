@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_499.R
 \name{rdk}
 \alias{rdk}
-\title{rdk}
+\title{Don't know response to unemployment items}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Don't know response to unemployment items
+rdk
 }
 \details{
 Question 1334. Think of two people doing the same kind of work in your place. What do you personally think is important in deciding how much to pay them? Looking at the things below, please write '1' in the box next to the thing that you think is most important at your place of work. Then write '2' next to the thing that you think is next most important, and '3' next to the thing that you think is third most important. Leave the other boxes blank. At my work, deciding on two people doing the same kind of work, how important is... h. Respondent can't choose

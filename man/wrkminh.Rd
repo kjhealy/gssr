@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_280.R
 \name{wrkminh}
 \alias{wrkminh}
-\title{wrkminh}
+\title{Minutes per week use computer make money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes per week use computer make money
+wrkminh
 }
 \details{
 Question 801. About how many minutes or hours a week do you use your home computer for each of the following: c. Paid work or other income-producing activity?

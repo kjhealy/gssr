@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_513.R
 \name{relactiv}
 \alias{relactiv}
-\title{relactiv}
+\title{How often does r take part in relig activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r take part in relig activities
+relactiv
 }
 \details{
 Question 1394. How often do you take part in the activities and organizations of a church or place of worship other than attending services?

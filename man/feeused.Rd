@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_606.R
 \name{feeused}
 \alias{feeused}
-\title{feeused}
+\title{Fee given to get case}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fee given to get case
+feeused
 }
 \details{
 Question WAS A RESPONDENT INCENTIVE OR FEE USED AS PART OF GETTING THIS CASE?

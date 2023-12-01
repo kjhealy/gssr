@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_142.R
 \name{youmoney}
 \alias{youmoney}
-\title{youmoney}
+\title{Largest decision in which you had the final say}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Largest decision in which you had the final say
+youmoney
 }
 \details{
 Question 447. About how much money was involved in the largest decision in which you had the final say?

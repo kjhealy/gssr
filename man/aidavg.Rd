@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_438.R
 \name{aidavg}
 \alias{aidavg}
-\title{aidavg}
+\title{Gov $ for stdnts with avg inc and grades}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gov $ for stdnts with avg inc and grades
+aidavg
 }
 \details{
 Question 1175. Some people think the government should provide financial assistance to college students. Others think the government should not provide such aid. In each of the circumstances listed below should the government provide grants that would not have to be paid back, provide loans which the student would have to pay back, or should the government not provide any financial assistance? c. For students who have average grades and middle income parents

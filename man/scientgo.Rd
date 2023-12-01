@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_387.R
 \name{scientgo}
 \alias{scientgo}
-\title{scientgo}
+\title{Scientists work for good of humanity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientists work for good of humanity
+scientgo
 }
 \details{
 Question Scientific researchers are dedicated people who work for the good of humanity. Do you strongly agree, agree, disagree, or strongly disagree?

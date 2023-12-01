@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_425.R
 \name{agecmeus}
 \alias{agecmeus}
-\title{agecmeus}
+\title{If born outside usa, what age were you when you permanently moved to usa}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If born outside usa, what age were you when you permanently moved to usa
+agecmeus
 }
 \details{
 Question If you were born outside US, what age were you when you permanently moved to the US?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_512.R
 \name{religsp}
 \alias{religsp}
-\title{religsp}
+\title{R's spouse's religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's spouse's religion
+religsp
 }
 \details{
 Question 1389. What is your husband's/wife's religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?

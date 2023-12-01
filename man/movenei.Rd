@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_529.R
 \name{movenei}
 \alias{movenei}
-\title{movenei}
+\title{Willing to move to another neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Willing to move to another neighborhood
+movenei
 }
 \details{
 Question 1437. If you could improve your work or living conditions, how willing or unwilling would you be to... a. Move to another neighborhood (or village)

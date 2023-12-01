@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_432.R
 \name{toldrel3}
 \alias{toldrel3}
-\title{toldrel3}
+\title{R ever told any authority in congregation about experience with leader3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R ever told any authority in congregation about experience with leader3
+toldrel3
 }
 \details{
 Question None

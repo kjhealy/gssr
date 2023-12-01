@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_565.R
 \name{law4}
 \alias{law4}
-\title{law4}
+\title{Accused of crime}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Accused of crime
+law4
 }
 \details{
 Question F. Next, did any of the following criminal or legal events occur to you since (CURRENT MONTH), 2003... 4. Accused of something for which a person might be sent to jail

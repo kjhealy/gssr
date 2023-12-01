@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_194.R
 \name{lawyera}
 \alias{lawyera}
-\title{lawyera}
+\title{My own previous knowledge of the firm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-My own previous knowledge of the firm
+lawyera
 }
 \details{
 Question 608. Think about the most recent time you hired a lawyer. What made you choose this law firm or attorney? a. My own previous knowledge of the firm or attorney.

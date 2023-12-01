@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_54.R
 \name{judgment}
 \alias{judgment}
-\title{judgment}
+\title{Good sense and sound judgment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Good sense and sound judgment
+judgment
 }
 \details{
 Question 167a. Which three qualities listed on this card would you say are the most desirable for a child to have? b. Which one of these three is the most desirable of all? c. All of the qualities listed on this card may be desirable, but could you tell me which three you consider least important? d. And which of these three is least important of all? THAT HE HAS GOOD SENSE AND SOUND JUDGMENT

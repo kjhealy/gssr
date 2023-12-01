@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_329.R
 \name{adcoumed}
 \alias{adcoumed}
-\title{adcoumed}
+\title{Would r have child on med by counselor's advice}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r have child on med by counselor's advice
+adcoumed
 }
 \details{
 Question 947a. If the therapist or counselor said your child should be on medication, how likely would you be to do that? Very likely, somewhat likely, not very likely, or not at all likely?

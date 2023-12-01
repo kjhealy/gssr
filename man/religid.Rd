@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_581.R
 \name{religid}
 \alias{religid}
-\title{religid}
+\title{R's religious identity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's religious identity
+religid
 }
 \details{
 Question 1619a. When it comes to your religious identity, would you say you are a fundamentalist, evangelical, mainline, or liberal Protestant or do none of these describe you?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_407.R
 \name{disabld3}
 \alias{disabld3}
-\title{disabld3}
+\title{R has a physical disability}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has a physical disability
+disabld3
 }
 \details{
 Question 1126. Do you have any condition that substantially limits one or more basic physical activities such as walking, climbing stairs, reaching, lifting, or carrying?

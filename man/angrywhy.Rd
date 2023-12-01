@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_185.R
 \name{angrywhy}
 \alias{angrywhy}
-\title{angrywhy}
+\title{Last time r felt really angry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Last time r felt really angry
+angrywhy
 }
 \details{
 Question 574. Within the past month, think about the last time you felt really angry, irritated, or annoyed. Could you describe in a couple of sentences what made you feel that way - what the situation was? Reasons

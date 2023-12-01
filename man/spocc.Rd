@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_05.R
 \name{spocc}
 \alias{spocc}
-\title{spocc}
+\title{Spouse census occupation code (1970)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse census occupation code (1970)
+spocc
 }
 \details{
 Question 6a. What kind of work (does/did) your \link{SPOUSE} normally do? That is, what (is/was) (his/her) job called? b. What (does/did) \link{SPOUSE} actually do in that job? Tell me, what (are/were) some of (his/her) main duties?

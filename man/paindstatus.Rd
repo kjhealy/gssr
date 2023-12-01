@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_08.R
 \name{paindstatus}
 \alias{paindstatus}
-\title{paindstatus}
+\title{Paind10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Paind10 coding status
+paindstatus
 }
 \details{
 Question None

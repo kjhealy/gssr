@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_551.R
 \name{aidsfare}
 \alias{aidsfare}
-\title{aidsfare}
+\title{Pay aids victims disability benefits}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pay aids victims disability benefits
+aidsfare
 }
 \details{
 Question 1540. Do you support or oppose the following measures to deal with AIDS? d. Make victims with AIDS eligible for disability benefits

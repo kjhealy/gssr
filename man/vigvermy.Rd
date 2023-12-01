@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_407.R
 \name{vigvermy}
 \alias{vigvermy}
-\title{vigvermy}
+\title{Vignette version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vignette version
+vigvermy
 }
 \details{
 Question None

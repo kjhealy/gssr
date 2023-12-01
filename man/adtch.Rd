@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_329.R
 \name{adtch}
 \alias{adtch}
-\title{adtch}
+\title{Would r get advice from teachers child if was r's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r get advice from teachers child if was r's
+adtch
 }
 \details{
 Question 945. If (John/Mary) was your child, would you... Get advice from your child's teachers?

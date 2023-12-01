@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_563.R
 \name{work7}
 \alias{work7}
-\title{work7}
+\title{A husband, wife, partner being fired}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A husband, wife, partner being fired
+work7
 }
 \details{
 Question B. Second, what about work-related matters? Did any of the following happen to you since (CURRENT MONTH), 2003? 7. Your husband/wife/partner was fired or permanently laid-off.

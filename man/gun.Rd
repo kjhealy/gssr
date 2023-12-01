@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_74.R
 \name{gun}
 \alias{gun}
-\title{gun}
+\title{Ever threatened with gun or shot at}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever threatened with gun or shot at
+gun
 }
 \details{
 Question 230. Have you ever been threatened with a gun, or shot at?

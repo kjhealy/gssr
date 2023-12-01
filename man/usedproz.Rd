@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_246.R
 \name{usedproz}
 \alias{usedproz}
-\title{usedproz}
+\title{Have you ever taken prozac}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have you ever taken prozac
+usedproz
 }
 \details{
 Question 723. Next, I'd like to ask you some questions about the medication called Prozac. b. Have you, yourself, ever taken Prozac?

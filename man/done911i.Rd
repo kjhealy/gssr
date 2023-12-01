@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_421.R
 \name{done911i}
 \alias{done911i}
-\title{done911i}
+\title{Has r changed mail handling procedures}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r changed mail handling procedures
+done911i
 }
 \details{
 Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know changed mail handling procedures? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?

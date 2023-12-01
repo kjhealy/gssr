@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_189.R
 \name{reactok}
 \alias{reactok}
-\title{reactok}
+\title{Did r feel reaction was appropriate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r feel reaction was appropriate
+reactok
 }
 \details{
 Question 581. Did you feel like your reaction to the situation was appropriate, or did it seem wrong to you somehow...for example, too intense or the wrong emotion for the occasion? On a scale that runs from 0 as completely right to 10 as completely wrong for the situation, tell me whether your feelings were right or wrong for the situation.

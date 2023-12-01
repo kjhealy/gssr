@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_47.R
 \name{racinfo}
 \alias{racinfo}
-\title{racinfo}
+\title{How much info does r have on race issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much info does r have on race issues
+racinfo
 }
 \details{
 Question 149b. How much information do you have about the race relations issue?

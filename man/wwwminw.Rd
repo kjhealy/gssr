@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_282.R
 \name{wwwminw}
 \alias{wwwminw}
-\title{wwwminw}
+\title{Minutes per week using work computer www}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes per week using work computer www
+wwwminw
 }
 \details{
 Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: f. Using the World Wide Web (other than for email)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_342.R
 \name{whychng3}
 \alias{whychng3}
-\title{whychng3}
+\title{Religious change experience3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religious change experience3
+whychng3
 }
 \details{
 Question 1000. Open-ended questions for how people who had undergone spiritual or religious change described their experiences.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_471.R
 \name{givsales}
 \alias{givsales}
-\title{givsales}
+\title{How much ought salesclerk make}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much ought salesclerk make
+givsales
 }
 \details{
 Question 1255. Next, what do you think people in these jobs ought to be paid how much do you think they should earn each year before taxes, regardless of what they actually get? Please write in how much they should earn each year. m. Salesclerk in a department store

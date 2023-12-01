@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_643.R
 \name{rspgndr}
 \alias{rspgndr}
-\title{rspgndr}
+\title{Women vs men responsibility for the home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women vs men responsibility for the home
+rspgndr
 }
 \details{
 Question People have different opinions about how much responsibility women and men should have for the home and family. Which of the following statements comes closest to your opinion?

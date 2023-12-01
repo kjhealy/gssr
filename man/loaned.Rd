@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_197.R
 \name{loaned}
 \alias{loaned}
-\title{loaned}
+\title{Loaned $100+ past 12 months?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Loaned $100+ past 12 months?
+loaned
 }
 \details{
 Question 619. Have you loaned $100 or more to another person at any time during the past 12 months?

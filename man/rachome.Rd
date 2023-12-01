@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_45.R
 \name{rachome}
 \alias{rachome}
-\title{rachome}
+\title{Opp. race home for dinner recently}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opp. race home for dinner recently
+rachome
 }
 \details{
 Question 131. During the last few years, has anyone in your family brought a friend who was a (negro/black/African-American) home for dinner?

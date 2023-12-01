@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_379.R
 \name{inuit}
 \alias{inuit}
-\title{inuit}
+\title{True-false: inuit live north of the arctic circle}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-True-false: inuit live north of the arctic circle
+inuit
 }
 \details{
 Question 1077. The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. c. Inuit (often called Eskimos) live north of the Arctic Circle. (Is that true or false?)

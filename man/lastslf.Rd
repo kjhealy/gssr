@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_474.R
 \name{lastslf}
 \alias{lastslf}
-\title{lastslf}
+\title{Current job self-employment?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Current job self-employment?
+lastslf
 }
 \details{
 Question 1263a. Are (or were) you selfemployed, or do you work for someone else?

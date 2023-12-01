@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_42.R
 \name{prayery}
 \alias{prayery}
-\title{prayery}
+\title{Bible prayer in schools-version y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Bible prayer in schools-version y
+prayery
 }
 \details{
 Question 119b. What are your views on the reading of the Lord's Prayer or Bible verses in public schools? Do you think it should be required in all public schools, not allowed in any public schools, or that it should be up to each state or local community to decide?

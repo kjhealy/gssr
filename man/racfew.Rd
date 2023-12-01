@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_45.R
 \name{racfew}
 \alias{racfew}
-\title{racfew}
+\title{Children to school with opposite race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children to school with opposite race
+racfew
 }
 \details{
 Question 133a. Would you yourself have any objection to sending your children to a school wehre a few of the children are \link{whites/(negroes/blacks/African-Americans)}?

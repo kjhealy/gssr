@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_143.R
 \name{noticed}
 \alias{noticed}
-\title{noticed}
+\title{People usually notice when i do my job well}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People usually notice when i do my job well
+noticed
 }
 \details{
 Question 453. Please tell me how much you agree or disagree with the following statements: h. People usually notice when I do my job well.

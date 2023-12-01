@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_312.R
 \name{knowschd}
 \alias{knowschd}
-\title{knowschd}
+\title{How far in advance know work schedule}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How far in advance know work schedule
+knowschd
 }
 \details{
 Question How far in advance do you usually know what days and hours you will need to work?

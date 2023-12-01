@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_595.R
 \name{paisco68}
 \alias{paisco68}
-\title{paisco68}
+\title{R's father's occupation, 1970 census}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's father's occupation, 1970 census
+paisco68
 }
 \details{
 Question 1636. Occupation of respondent's father (International Standard Classification Codes-1968)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_551.R
 \name{aidsids}
 \alias{aidsids}
-\title{aidsids}
+\title{Require aids victims to wear id tags}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Require aids victims to wear id tags
+aidsids
 }
 \details{
 Question 1540. Do you support or oppose the following measures to deal with AIDS? c. Require people with the AIDS virus to wear identification tags that look like those carried by people with allergies or diabetes

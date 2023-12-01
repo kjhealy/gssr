@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_646.R
 \name{hlthenv}
 \alias{hlthenv}
-\title{hlthenv}
+\title{Suffer health prob from environ where work or live}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suffer health prob from environ where work or live
+hlthenv
 }
 \details{
 Question (People suffer from severe health problems...) Because of the environment they are exposed to at work or where they live.

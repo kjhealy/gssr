@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_248.R
 \name{socsecrt}
 \alias{socsecrt}
-\title{socsecrt}
+\title{Social security will be better}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Social security will be better
+socsecrt
 }
 \details{
 Question 728. When you retire, do you think Social Security benefits will be much better than those now paid of retirees, somewhat better, about the same, somewhat worse, or much worse?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_507.R
 \name{nounemp3}
 \alias{nounemp3}
-\title{nounemp3}
+\title{R would accept temporary employment to avoid unemployment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would accept temporary employment to avoid unemployment
+nounemp3
 }
 \details{
 Question 1512. To what extent do you agree or disagree with the following statements? In order to avoid unemployment I would be willing... c. To accept temporary employment

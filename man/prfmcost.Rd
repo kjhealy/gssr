@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_236.R
 \name{prfmcost}
 \alias{prfmcost}
-\title{prfmcost}
+\title{Did not go due to cost}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did not go due to cost
+prfmcost
 }
 \details{
 Question Thinking about the most recent performance you wanted to attend but did not, which of the following factors were important in your decision not to attend? A. Cost too much.

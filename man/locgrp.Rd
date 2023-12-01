@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_111.R
 \name{locgrp}
 \alias{locgrp}
-\title{locgrp}
+\title{Has r helped to start new local group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r helped to start new local group
+locgrp
 }
 \details{
 Question 339. Have you ever taken part in forming a new group or a new organization to try to solve some community problems?

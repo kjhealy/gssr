@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_416.R
 \name{mhseroth}
 \alias{mhseroth}
-\title{mhseroth}
+\title{How serious his her mental health problem was}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How serious his her mental health problem was
+mhseroth
 }
 \details{
 Question 1146b. How serious would you say (his/her) mental health problem was, was it...

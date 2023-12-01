@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_158.R
 \name{sphedocc10}
 \alias{sphedocc10}
-\title{sphedocc10}
+\title{Spouse's father's occ when spouse was 16 (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's father's occ when spouse was 16 (2010)
+sphedocc10
 }
 \details{
 Question None

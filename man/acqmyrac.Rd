@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_402.R
 \name{acqmyrac}
 \alias{acqmyrac}
-\title{acqmyrac}
+\title{Proportion of same race as r among all acquaintances}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Proportion of same race as r among all acquaintances
+acqmyrac
 }
 \details{
 Question 1109. Are the people that you are acquainted with... 1. Almost all the same race as you 2. Mostly the same race as you 3. About evenly divided between the same race as you and other races 4. Mostly a different race than you 5. Almost all a different race than you

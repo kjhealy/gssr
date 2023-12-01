@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_231.R
 \name{aimofart}
 \alias{aimofart}
-\title{aimofart}
+\title{Aim of art}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Aim of art
+aimofart
 }
 \details{
 Question 689. I'm going to read two statements about what works of art should do. Please tell me which statement is closest to your opinion: 1. Art works should celebrate what is most beautiful about the world and the human spirit 2. Art works should freely express the artist's deepest thoughts and emotions, good or bad

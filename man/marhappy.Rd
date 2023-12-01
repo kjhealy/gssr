@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_479.R
 \name{marhappy}
 \alias{marhappy}
-\title{marhappy}
+\title{Married people happier than unmarried}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Married people happier than unmarried
+marhappy
 }
 \details{
 Question 1280. Do you agree or disagree? a. Married people are generally happier than unmarried people

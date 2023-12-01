@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_465.R
 \name{newfrds}
 \alias{newfrds}
-\title{newfrds}
+\title{At these occasions, how often did r make new friends or acquaintences}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-At these occasions, how often did r make new friends or acquaintences
+newfrds
 }
 \details{
 Question At these occasions, how often do you make new friends or acquaintances?

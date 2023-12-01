@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_519.R
 \name{harmgood}
 \alias{harmgood}
-\title{harmgood}
+\title{Modern science does more harm than good}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Modern science does more harm than good
+harmgood
 }
 \details{
 Question 1409. How much do you agree or disagree with each of these statements? b. Overall, modern science does more harm than good.

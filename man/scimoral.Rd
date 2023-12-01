@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_113.R
 \name{scimoral}
 \alias{scimoral}
-\title{scimoral}
+\title{Science breaks down ideas of right & wrong}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Science breaks down ideas of right & wrong
+scimoral
 }
 \details{
 Question 357. Here are some things that have been said about science. Would you tell me if you tend to agree or disagree with them? d. One of the bad effects of science is that it breaks down people's ideas of right and wrong.

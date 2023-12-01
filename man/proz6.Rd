@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_247.R
 \name{proz6}
 \alias{proz6}
-\title{proz6}
+\title{Prozac helps people control their symptoms}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prozac helps people control their symptoms
+proz6
 }
 \details{
 Question 725. How much do you agree or disagree with the following statements? f. I think Prozac helps people control their symptoms

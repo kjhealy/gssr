@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_111.R
 \name{workpol}
 \alias{workpol}
-\title{workpol}
+\title{Has r worked for parties or candidates}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r worked for parties or candidates
+workpol
 }
 \details{
 Question 343. Have you done (other) work for one of the parties or candidates in most elections, some elections, only a few, or have you never done such work?

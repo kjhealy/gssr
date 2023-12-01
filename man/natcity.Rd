@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_24.R
 \name{natcity}
 \alias{natcity}
-\title{natcity}
+\title{Solving problems of big cities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Solving problems of big cities
+natcity
 }
 \details{
 Question 68. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. d. Solving the problems of the big cities.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_374.R
 \name{ecoinftx}
 \alias{ecoinftx}
-\title{ecoinftx}
+\title{Influence on reducing fed inc taxby economists}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence on reducing fed inc taxby economists
+ecoinftx
 }
 \details{
 Question 1066. Please look at Card B12. How much influence should each of the following groups have in deciding whether to reduce federal income taxes? a. Economists

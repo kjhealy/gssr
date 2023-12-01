@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_431.R
 \name{ongorel1}
 \alias{ongorel1}
-\title{ongorel1}
+\title{R had an ongoing relationship with leader1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had an ongoing relationship with leader1
+ongorel1
 }
 \details{
 Question None

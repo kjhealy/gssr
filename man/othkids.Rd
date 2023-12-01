@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_429.R
 \name{othkids}
 \alias{othkids}
-\title{othkids}
+\title{R's current insurance plan covers children for whom r not a bio/adoptive parent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's current insurance plan covers children for whom r not a bio/adoptive parent
+othkids
 }
 \details{
 Question (Are the following people in your family covered by your current insurance plan? ) Children for whom I am not a biological or adoptive parent

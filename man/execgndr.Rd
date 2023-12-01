@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_645.R
 \name{execgndr}
 \alias{execgndr}
-\title{execgndr}
+\title{Man vs woman senior executive}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Man vs woman senior executive
+execgndr
 }
 \details{
 Question Please consider the following positions and select the options that come closest to your own opinion.) Senior executive of a large company

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_467.R
 \name{opambit}
 \alias{opambit}
-\title{opambit}
+\title{Need ambition to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need ambition to get ahead
+opambit
 }
 \details{
 Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . d. Ambition? How important is that?

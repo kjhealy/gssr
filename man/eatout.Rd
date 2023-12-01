@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_579.R
 \name{eatout}
 \alias{eatout}
-\title{eatout}
+\title{Last week had a meal at a restaurant}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Last week had a meal at a restaurant
+eatout
 }
 \details{
 Question 1614. Now I'm going to ask you about things you did during the last seven days. I'm only interested in what you did during the last seven days. From last (DAY OF WEEK) to today did you... b. Have a meal (breakfast, lunch or dinner) at a restaurant (including fast food places and take-outs)?

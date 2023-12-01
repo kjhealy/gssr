@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_399.R
 \name{acqwkhsp}
 \alias{acqwkhsp}
-\title{acqwkhsp}
+\title{Number of hispanic in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of hispanic in current or previous work
+acqwkhsp
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. h. How many are Hispanic?

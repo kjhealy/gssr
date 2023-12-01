@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_564.R
 \name{hrdshp5}
 \alias{hrdshp5}
-\title{hrdshp5}
+\title{Unable to afford needed medical care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unable to afford needed medical care
+hrdshp5
 }
 \details{
 Question D. Now I am going to ask about specific hardships. Did any of the following occur to you since (CURRENT MONTH), 2003? 5. Unable to afford needed medical care

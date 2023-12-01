@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_343.R
 \name{relalt5}
 \alias{relalt5}
-\title{relalt5}
+\title{Rel change changed day to day activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rel change changed day to day activities
+relalt5
 }
 \details{
 Question 1002. To what extent did the religious/spiritual change you just told me about do the following?

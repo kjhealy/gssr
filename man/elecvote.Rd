@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_542.R
 \name{elecvote}
 \alias{elecvote}
-\title{elecvote}
+\title{How honest last natl election: counting of votes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How honest last natl election: counting of votes
+elecvote
 }
 \details{
 Question 1482. Thinking of the last national election in America, how honest was it regarding the counting and reporting of the votes?

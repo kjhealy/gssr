@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_370.R
 \name{coldeg1}
 \alias{coldeg1}
-\title{coldeg1}
+\title{The highest degree r have earned}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The highest degree r have earned
+coldeg1
 }
 \details{
 Question 1046. What is the highest degree you have earned?

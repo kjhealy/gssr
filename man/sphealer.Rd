@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{sphealer}
 \alias{sphealer}
-\title{sphealer}
+\title{X should go to spiritual healer for help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should go to spiritual healer for help
+sphealer
 }
 \details{
 Question 659. Should NAME do any of the following: f. Go to a spiritual or a natural healer for help

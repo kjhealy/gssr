@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_383.R
 \name{genes}
 \alias{genes}
-\title{genes}
+\title{Traits are transferred over generation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Traits are transferred over generation
+genes
 }
 \details{
 Question Traits are transferred from generation to generation through the... {response to acceptDK} {response to probeDK}

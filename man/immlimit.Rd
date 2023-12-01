@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_627.R
 \name{immlimit}
 \alias{immlimit}
-\title{immlimit}
+\title{Amerca should limit immigration to protect way of life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Amerca should limit immigration to protect way of life
+immlimit
 }
 \details{
 Question America should limit immigration in order to protect our national way of life.

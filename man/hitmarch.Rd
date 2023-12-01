@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_75.R
 \name{hitmarch}
 \alias{hitmarch}
-\title{hitmarch}
+\title{Stranger in protest march}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Stranger in protest march
+hitmarch
 }
 \details{
 Question 231. If yes or not sure: Would you approve if the stranger: a. Was in a protest march showing opposition to the other man's views?

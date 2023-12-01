@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_233.R
 \name{prfmthe}
 \alias{prfmthe}
-\title{prfmthe}
+\title{Was it a theater performance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was it a theater performance
+prfmthe
 }
 \details{
 Question You said that in the last 12 months you attended a performance. I?d like to ask you a few questions about the last time you did this type of activity. Was this a music, dance, or theater performance? C. Theater

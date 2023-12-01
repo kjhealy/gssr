@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_93.R
 \name{helppoor}
 \alias{helppoor}
-\title{helppoor}
+\title{Should govt improve standard of living?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt improve standard of living?
+helppoor
 }
 \details{
 Question 309. I'd like to talk with you about issues some people tell us are important. Please look at card BC. Some people think that the government in Washington should do everything possible to improve the standard of living of all poor Americans; they are at point 1 on this card. Other people think itis not the government's responsibility, and that each person should take care of himself; they are at point 5. a. Where would you place yourself on this scale, or haven't you made up your mind on this?

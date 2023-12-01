@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_545.R
 \name{big5d2}
 \alias{big5d2}
-\title{big5d2}
+\title{R see oneself as someone who gets nervous easily}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R see oneself as someone who gets nervous easily
+big5d2
 }
 \details{
 Question 1515. To what extent do you agree or disagree with the following statements? I see myself as someone who... d. Gets nervous easily

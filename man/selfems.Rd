@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_641.R
 \name{selfems}
 \alias{selfems}
-\title{selfems}
+\title{{#Selfemsfill}}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-{#Selfemsfill}
+selfems
 }
 \details{
 Question {#selfemsfill}

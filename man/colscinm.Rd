@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_370.R
 \name{colscinm}
 \alias{colscinm}
-\title{colscinm}
+\title{Number of college-level sci courses r have taken}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of college-level sci courses r have taken
+colscinm
 }
 \details{
 Question 1049. How many college-level science courses have you taken?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_473.R
 \name{occmobil}
 \alias{occmobil}
-\title{occmobil}
+\title{Status of job higher than father's?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Status of job higher than father's?
+occmobil
 }
 \details{
 Question 1260. Please think of your present job (or your last one if you don't have one now). If you compare this job with the job your father had when you were 16, would you say that the level or status of your job is (or was) . . .

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_632.R
 \name{biblauth}
 \alias{biblauth}
-\title{biblauth}
+\title{Bible is highest authority}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Bible is highest authority
+biblauth
 }
 \details{
 Question The Bible is the highest authority for what I believe.

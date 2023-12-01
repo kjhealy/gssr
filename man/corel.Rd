@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_41.R
 \name{corel}
 \alias{corel}
-\title{corel}
+\title{Partner's religious preference}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner's religious preference
+corel
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_456.R
 \name{kidmost}
 \alias{kidmost}
-\title{kidmost}
+\title{Do r have the most contact with son or daughter}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do r have the most contact with son or daughter
+kidmost
 }
 \details{
 Question 1223. Of your children aged 18 and older, with whom do you have the most contact?

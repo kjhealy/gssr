@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_245.R
 \name{doc6}
 \alias{doc6}
-\title{doc6}
+\title{I hardly see the same doctors each time}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I hardly see the same doctors each time
+doc6
 }
 \details{
 Question 722. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. f. I hardly ever see the same doctor when I go for medical care

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_392.R
 \name{company}
 \alias{company}
-\title{company}
+\title{Which company would r prefer to work for}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which company would r prefer to work for
+company
 }
 \details{
 Question What kind of company would you be most likely to work for if these were your choices?

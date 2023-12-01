@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_154.R
 \name{colmajr2}
 \alias{colmajr2}
-\title{colmajr2}
+\title{R 2nd major in college}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R 2nd major in college
+colmajr2
 }
 \details{
 Question 479a. Could you tell me your major field of study (while you were) in college?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_322.R
 \name{donothng}
 \alias{donothng}
-\title{donothng}
+\title{How likely to do nothing if coworker not working}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely to do nothing if coworker not working
+donothng
 }
 \details{
 Question 925. If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to: c. Do nothing?

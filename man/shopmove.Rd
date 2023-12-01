@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_124.R
 \name{shopmove}
 \alias{shopmove}
-\title{shopmove}
+\title{Shopped around because had moved}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Shopped around because had moved
+shopmove
 }
 \details{
 Question 396. Thinking about the time you most recently looked for a church or a synagogue, was it because you had moved?

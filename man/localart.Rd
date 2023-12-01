@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_232.R
 \name{localart}
 \alias{localart}
-\title{localart}
+\title{Feel local gov should provide assistance to art}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel local gov should provide assistance to art
+localart
 }
 \details{
 Question 693b. How about municipal or county governments? Should these governments assist arts organizations financially?

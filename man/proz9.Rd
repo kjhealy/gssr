@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_248.R
 \name{proz9}
 \alias{proz9}
-\title{proz9}
+\title{Prozac is for those diagnosed with depression}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prozac is for those diagnosed with depression
+proz9
 }
 \details{
 Question 725. How much do you agree or disagree with the following statements? i. Only people who are diagnosed with clinical depression should take Prozac.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_341.R
 \name{hguncrim}
 \alias{hguncrim}
-\title{hguncrim}
+\title{More restrictions on handgun decrease crime}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-More restrictions on handgun decrease crime
+hguncrim
 }
 \details{
 Question 989. Some people argue that more restrictions on handguns would decrease violent crime by making it harder for criminals to get handguns. Other people argue that more restrictions on handguns would increase violent crime by making it harder for law-abiding citizens to defend themselves with handguns. Which of the following statements is closer to your own opinion?

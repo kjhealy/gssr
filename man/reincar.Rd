@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_516.R
 \name{reincar}
 \alias{reincar}
-\title{reincar}
+\title{Believe in reincarnation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Believe in reincarnation
+reincar
 }
 \details{
 Question None

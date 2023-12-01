@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_79.R
 \name{era}
 \alias{era}
-\title{era}
+\title{Does r favor or oppose era?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r favor or oppose era?
+era
 }
 \details{
 Question 253b. Do you strongly favor, somewhat favor, somewhat oppose, or strongly oppose this amendment?

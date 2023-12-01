@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_389.R
 \name{journlsm}
 \alias{journlsm}
-\title{journlsm}
+\title{How scientific is journalism}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is journalism
+journlsm
 }
 \details{
 Question Journalism. (Is journalism...?)

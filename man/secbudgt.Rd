@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_569.R
 \name{secbudgt}
 \alias{secbudgt}
-\title{secbudgt}
+\title{Government maintain secrecy on the intelligence budget}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Government maintain secrecy on the intelligence budget
+secbudgt
 }
 \details{
 Question 1587. Should or should not the government maintain a high level of secrecy surrounding: (READ A-D) d. The US intelligence budget

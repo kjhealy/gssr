@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_28.R
 \name{natparkz}
 \alias{natparkz}
-\title{natparkz}
+\title{Improving parks and recreation:ver z}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Improving parks and recreation:ver z
+natparkz
 }
 \details{
 Question 70. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. o. Improving parks and recreation

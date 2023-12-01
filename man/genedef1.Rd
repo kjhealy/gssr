@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_556.R
 \name{genedef1}
 \alias{genedef1}
-\title{genedef1}
+\title{Meaning of serious genetic defect}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Meaning of serious genetic defect
+genedef1
 }
 \details{
 Question 1568. When I say "serious genetic defect," what kinds of defects do you think of? Any others?

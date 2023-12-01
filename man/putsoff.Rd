@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_331.R
 \name{putsoff}
 \alias{putsoff}
-\title{putsoff}
+\title{Psychiatric med only put off dealing with problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Psychiatric med only put off dealing with problem
+putsoff
 }
 \details{
 Question 954. Now, I'd like to ask you for your opinions on several issues. For each question, please tell me if you strongly agree, agree somewhat, disagree somewhat or strongly disagree with the statement. c. Giving children psychiatric medications when they are young only puts off dealing with their real problems.

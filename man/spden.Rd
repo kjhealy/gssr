@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_40.R
 \name{spden}
 \alias{spden}
-\title{spden}
+\title{Specific denomination, spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Specific denomination, spouse
+spden
 }
 \details{
 Question 116. What is your \link{SPOUSE}'s religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?

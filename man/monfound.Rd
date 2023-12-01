@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_202.R
 \name{monfound}
 \alias{monfound}
-\title{monfound}
+\title{Done volunteer work in priv & comm. found}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done volunteer work in priv & comm. found
+monfound
 }
 \details{
 Question 641. In which, if any, of the areas listed on this card have you done some volunteer work in the past month? l. Private and community foundations

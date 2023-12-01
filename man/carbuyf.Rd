@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_192.R
 \name{carbuyf}
 \alias{carbuyf}
-\title{carbuyf}
+\title{R searched for the best price}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R searched for the best price
+carbuyf
 }
 \details{
 Question 594. What made you think that this would be a good place to make your purchase? f. I searched for the best price

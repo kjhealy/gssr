@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_268.R
 \name{polcam12}
 \alias{polcam12}
-\title{polcam12}
+\title{Past 12 months r web to learn pol campaigns}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Past 12 months r web to learn pol campaigns
+polcam12
 }
 \details{
 Question 775. In the past 12 months, have you used the Web to find out about or discuss: g. Political campaigns?

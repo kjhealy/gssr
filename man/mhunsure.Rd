@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_412.R
 \name{mhunsure}
 \alias{mhunsure}
-\title{mhunsure}
+\title{People like x are unpredictable}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People like x are unpredictable
+mhunsure
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. e. People like \link{NAME} are unpredictable.

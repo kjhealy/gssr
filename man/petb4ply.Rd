@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_320.R
 \name{petb4ply}
 \alias{petb4ply}
-\title{petb4ply}
+\title{How often r used to spend time each day playing with or training pet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r used to spend time each day playing with or training pet
+petb4ply
 }
 \details{
 Question Thinking about your favorite pet, how often did you spend time each day playing with or exercising your pet? Would you say almost always, often, sometimes, or never?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_83.R
 \name{hosdis5}
 \alias{hosdis5}
-\title{hosdis5}
+\title{Hospitalized, disabled last 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hospitalized, disabled last 5 yrs
+hosdis5
 }
 \details{
 Question 272. Hospitalization and disability during last five years.

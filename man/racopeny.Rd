@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_642.R
 \name{racopeny}
 \alias{racopeny}
-\title{racopeny}
+\title{Vote on open housing law - gender neutral version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote on open housing law - gender neutral version
+racopeny
 }
 \details{
 Question Suppose there is a community-wide vote on the general housing issue. There are two possible laws to vote on: One law says that a homeowner can decide whom to sell their house to, even if that homeowner prefers not to sell to {#racefill}. The second law

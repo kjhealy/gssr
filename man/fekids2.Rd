@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_180.R
 \name{fekids2}
 \alias{fekids2}
-\title{fekids2}
+\title{How important women are taught from childhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important women are taught from childhood
+fekids2
 }
 \details{
 Question 566. Women are more likely than ment ot ake care of children. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is: b. Women are taught from childhood how to care for children.

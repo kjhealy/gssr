@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_329.R
 \name{adfam}
 \alias{adfam}
-\title{adfam}
+\title{Would r get advice from family if child was r's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r get advice from family if child was r's
+adfam
 }
 \details{
 Question 944. If (John/Mary) was your child, would you... Get advice from family and friends about (John/Mary)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_490.R
 \name{tiredhm1}
 \alias{tiredhm1}
-\title{tiredhm1}
+\title{How often too tired to do housework}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often too tired to do housework
+tiredhm1
 }
 \details{
 Question How often has each of the following happened to you during the past three months? You have come home from work too tired to do the chores which need to be done.

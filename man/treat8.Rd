@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_297.R
 \name{treat8}
 \alias{treat8}
-\title{treat8}
+\title{R seek treat not calm and peaceful}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R seek treat not calm and peaceful
+treat8
 }
 \details{
 Question 842. Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not. h. Not feeling calm and peaceful?

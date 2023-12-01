@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_509.R
 \name{concourt}
 \alias{concourt}
-\title{concourt}
+\title{Confidence in courts and legal system}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confidence in courts and legal system
+concourt
 }
 \details{
 Question 1378. How much confidence do you have in. . . e. Courts and the legal system

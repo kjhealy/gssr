@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_58.R
 \name{youngen}
 \alias{youngen}
-\title{youngen}
+\title{What should younger generation be taught}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What should younger generation be taught
+youngen
 }
 \details{
 Question 172. Here are two statements. Will you tell me which one you agree with more? a. First, the younger generation should be taught by their elders to do what is right. b. Second, the younger generation should be taught to think for themselves.

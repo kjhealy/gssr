@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_265.R
 \name{person30}
 \alias{person30}
-\title{person30}
+\title{R use personal website in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use personal website in past 30 days
+person30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: r. Personal home pages?

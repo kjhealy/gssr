@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_402.R
 \name{acqvacoh}
 \alias{acqvacoh}
-\title{acqvacoh}
+\title{Number of cohabiting ppl in voluntary association}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of cohabiting ppl in voluntary association
+acqvacoh
 }
 \details{
 Question 1107. Next, we are going to ask about people that you are acquainted with through schools, clubs, associations, or places of worship. o. How many women that you are acquainted with through schools, clubs, associations, or places of worship are you pretty certain live in a romantic relationship with a man to whom they are not married?

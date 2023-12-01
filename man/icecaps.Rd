@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_379.R
 \name{icecaps}
 \alias{icecaps}
-\title{icecaps}
+\title{Polar ice caps got larger or smaller over last 25 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Polar ice caps got larger or smaller over last 25 yrs
+icecaps
 }
 \details{
 Question 1077. The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you don't know or aren't sure, just tell me so, and we will skip to the next question. e. Would you say the polar ice caps have gotten larger or smaller over the last 25 years?

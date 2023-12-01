@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_661.R
 \name{racdif1x}
 \alias{racdif1x}
-\title{racdif1x}
+\title{Differences due to discrimination (longer intro)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences due to discrimination (longer intro)
+racdif1x
 }
 \details{
 Question None

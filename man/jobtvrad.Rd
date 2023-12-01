@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_289.R
 \name{jobtvrad}
 \alias{jobtvrad}
-\title{jobtvrad}
+\title{Times r sought job information from radio or tv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Times r sought job information from radio or tv
+jobtvrad
 }
 \details{
 Question Please tell me how many times you tried to find such information from... h. Radio or television programs?

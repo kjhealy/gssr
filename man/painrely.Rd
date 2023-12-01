@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_299.R
 \name{painrely}
 \alias{painrely}
-\title{painrely}
+\title{Treatment for pain rely less on others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Treatment for pain rely less on others
+painrely
 }
 \details{
 Question 845. As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following: If you went for treatment because you have PAIN that interferes with your work or other daily activities so that you accomplish less than you would like... d. Would you definitely expect, probably expect, probably not expect, or definitely not expect to need to rely less on others?

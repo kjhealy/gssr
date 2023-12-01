@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_198.R
 \name{adoption}
 \alias{adoption}
-\title{adoption}
+\title{Best way to match birth mothers with adopters?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Best way to match birth mothers with adopters?
+adoption
 }
 \details{
 Question 628. As you know, when a parent is unable to care for a baby, the parent often puts the baby up for adoption. For certain kinds of babies, the number of couples who want to adopt is much greater than the number of babies available for adoption. What do you think is the best way to mach birth mothers with couples who want to adopt?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_08.R
 \name{maocc10}
 \alias{maocc10}
-\title{maocc10}
+\title{Mothers census occupation code (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers census occupation code (2010)
+maocc10
 }
 \details{
 Question None

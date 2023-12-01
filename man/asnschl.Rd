@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_260.R
 \name{asnschl}
 \alias{asnschl}
-\title{asnschl}
+\title{Does r know asians from school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know asians from school
+asnschl
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. a. Do you know any of these Asian Americans from when you went to school or college?

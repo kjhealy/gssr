@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_524.R
 \name{grnmoney}
 \alias{grnmoney}
-\title{grnmoney}
+\title{Give money to envir group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Give money to envir group
+grnmoney
 }
 \details{
 Question 1426. In the last five years, have you... b. given money to an environmental group?

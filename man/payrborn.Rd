@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_154.R
 \name{payrborn}
 \alias{payrborn}
-\title{payrborn}
+\title{Yr r father born}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Yr r father born
+payrborn
 }
 \details{
 Question 484. In what year was your father born?

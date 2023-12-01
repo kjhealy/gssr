@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_434.R
 \name{protest4}
 \alias{protest4}
-\title{protest4}
+\title{Allow occupation of govt office}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow occupation of govt office
+protest4
 }
 \details{
 Question 1159. There are many ways people or organizations can protest against a government action they strongly oppose. Please show which you think should be allowed and which should not be allowed by circling a number after each question. d. Occupying a government office and stopping work there for several days.

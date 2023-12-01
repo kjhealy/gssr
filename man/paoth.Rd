@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_115.R
 \name{paoth}
 \alias{paoth}
-\title{paoth}
+\title{Other protestant denomination for father}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other protestant denomination for father
+paoth
 }
 \details{
 Question None

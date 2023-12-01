@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_90.R
 \name{copunish}
 \alias{copunish}
-\title{copunish}
+\title{Punish draft resister's?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punish draft resister's?
+copunish
 }
 \details{
 Question 299. Even though they are no longer drafted for military service, young men are still required by law to register for the draft when they become 18 years old. If a young man refuses to register for the draft, do you think he should be punished in any way?

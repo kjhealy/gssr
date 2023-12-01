@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_368.R
 \name{balpos}
 \alias{balpos}
-\title{balpos}
+\title{Sci research is strongly in favor of benefits}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sci research is strongly in favor of benefits
+balpos
 }
 \details{
 Question 1038a. Would you say that the balance has been strongly in favor of the benefits, or only slightly?

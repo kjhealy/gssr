@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_301.R
 \name{hlthplan}
 \alias{hlthplan}
-\title{hlthplan}
+\title{R had medicare or medicaid}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had medicare or medicaid
+hlthplan
 }
 \details{
 Question 855. Do you have any health insurance, including Medicare or Medicaid?

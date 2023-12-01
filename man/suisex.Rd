@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_549.R
 \name{suisex}
 \alias{suisex}
-\title{suisex}
+\title{Sex of suicide victim closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of suicide victim closest to r
+suisex
 }
 \details{
 Question 1534. We would like to know a few other things about that person. a. Was that person male or female?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_551.R
 \name{partners}
 \alias{partners}
-\title{partners}
+\title{How many sex partner's r had in last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many sex partner's r had in last year
+partners
 }
 \details{
 Question 1541. How many sex partners have you had in the last 12 months?

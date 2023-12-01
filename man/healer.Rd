@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_39.R
 \name{healer}
 \alias{healer}
-\title{healer}
+\title{Image of god as healer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Image of god as healer
+healer
 }
 \details{
 Question 113. When you think about God, how likely are each of these images to come to your mind? l. Healer

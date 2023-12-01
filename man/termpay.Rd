@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_249.R
 \name{termpay}
 \alias{termpay}
-\title{termpay}
+\title{Worry if no money get second class care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Worry if no money get second class care
+termpay
 }
 \details{
 Question 732. Now, I would like to talk about concerns you may have when considering what may happen at the end of your life. Please tell me how much you agree or disagree with each of these statements: e. I worry that if I run out of money or health insurance I will get second class health care.

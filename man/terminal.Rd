@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_249.R
 \name{terminal}
 \alias{terminal}
-\title{terminal}
+\title{Have you or close friends relative faced with terminal illness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have you or close friends relative faced with terminal illness
+terminal
 }
 \details{
 Question 731. Now in this section, I will ask you some questions about the end of life. Have you or any close friend or family members been faced with a terminal or life-threatening illness?

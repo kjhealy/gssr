@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_505.R
 \name{yrjobend}
 \alias{yrjobend}
-\title{yrjobend}
+\title{When did your last paid job end}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When did your last paid job end
+yrjobend
 }
 \details{
 Question 1365. When did your last paid job end?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_639.R
 \name{agednv}
 \alias{agednv}
-\title{agednv}
+\title{Should aged live with their children (no volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should aged live with their children (no volunteered response on web)
+agednv
 }
 \details{
 Question None

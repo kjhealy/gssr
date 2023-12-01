@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_67.R
 \name{fejoin}
 \alias{fejoin}
-\title{fejoin}
+\title{Ever joined org working on women's rgts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever joined org working on women's rgts
+fejoin
 }
 \details{
 Question 205. Have you ever: c. Joined an organization concerned with women's rights?

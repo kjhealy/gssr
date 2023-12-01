@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_307.R
 \name{prodctiv}
 \alias{prodctiv}
-\title{prodctiv}
+\title{Work conditions allow productivity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Work conditions allow productivity
+prodctiv
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. p. Conditions on my job allow me to be about as productive as I could be.

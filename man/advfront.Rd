@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_367.R
 \name{advfront}
 \alias{advfront}
-\title{advfront}
+\title{Sci rsch is necessary and should be supported by federal govt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sci rsch is necessary and should be supported by federal govt
+advfront
 }
 \details{
 Question 1035. I'm going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. c. Even if it brings no immediate benefits, scientific research that advances the frontiers of knowledge is necessary and should be supported by the federal government.

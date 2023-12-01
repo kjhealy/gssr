@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_215.R
 \name{medcare2}
 \alias{medcare2}
-\title{medcare2}
+\title{Who r thinks should be next most responsible for cost of xs medical care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r thinks should be next most responsible for cost of xs medical care
+medcare2
 }
 \details{
 Question 662a. Who should be next most responsible?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_507.R
 \name{nounemp1}
 \alias{nounemp1}
-\title{nounemp1}
+\title{R would accept job requiring new skill to avoid unemployment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would accept job requiring new skill to avoid unemployment
+nounemp1
 }
 \details{
 Question 1512. To what extent do you agree or disagree with the following statements? In order to avoid unemployment I would be willing... a. To accept a job that requires new skills

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_309.R
 \name{laidoff}
 \alias{laidoff}
-\title{laidoff}
+\title{R was laid off main job last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R was laid off main job last year
+laidoff
 }
 \details{
 Question 897. Were you laid off your main job at any time in the last year?

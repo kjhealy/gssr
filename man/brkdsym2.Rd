@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_217.R
 \name{brkdsym2}
 \alias{brkdsym2}
-\title{brkdsym2}
+\title{2nd mention, what nervous breakdown is, symptoms}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-2nd mention, what nervous breakdown is, symptoms
+brkdsym2
 }
 \details{
 Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)

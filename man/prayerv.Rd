@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_636.R
 \name{prayerv}
 \alias{prayerv}
-\title{prayerv}
+\title{Bible prayer in public schools (with volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Bible prayer in public schools (with volunteered response on web)
+prayerv
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_331.R
 \name{ovrmedkd}
 \alias{ovrmedkd}
-\title{ovrmedkd}
+\title{Docs are over medicating child with common problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Docs are over medicating child with common problem
+ovrmedkd
 }
 \details{
 Question 954. Now, I'd like to ask you for your opinions on several issues. For each question, please tell me if you strongly agree, agree somewhat, disagree somewhat or strongly disagree with the statement. a. Doctors today are over-medicating children with common behavior problems.

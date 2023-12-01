@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_466.R
 \name{healthissp}
 \alias{healthissp}
-\title{healthissp}
+\title{Merged healthissp_d and healthissp_e}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Merged healthissp_d and healthissp_e
+healthissp
 }
 \details{
 Question In general, would you say your health is excellent, very good, good, fair, or poor?

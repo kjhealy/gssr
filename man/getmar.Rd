@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_326.R
 \name{getmar}
 \alias{getmar}
-\title{getmar}
+\title{Young should get married}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Young should get married
+getmar
 }
 \details{
 Question 936. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... ...get married

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_536.R
 \name{amproud1}
 \alias{amproud1}
-\title{amproud1}
+\title{How proud being american}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How proud being american
+amproud1
 }
 \details{
 Question 1462. How proud are you of being American? (Please, select one response

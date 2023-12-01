@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_368.R
 \name{scitext}
 \alias{scitext}
-\title{scitext}
+\title{What it means to r to study scientifically}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What it means to r to study scientifically
+scitext
 }
 \details{
 Question 1040. In your own words, could you tell me what it means to study something scientifically?

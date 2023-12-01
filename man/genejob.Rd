@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_134.R
 \name{genejob}
 \alias{genejob}
-\title{genejob}
+\title{Should employers give genetic tests}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should employers give genetic tests
+genejob
 }
 \details{
 Question 415. Here are some questions about a new scientfic technology called "genetic screening." Using genetic screening, it is now possible to tell whether someone has inherited a tendency to develop certain cancers and certain forms of heart disease. These tests do not mean that a person will always develop the disease, but only that he or she may do so, depending on other conditions. a. Should employers have the right to give these genetic tests to people who are applying for a job, or shouldn't they have that right?

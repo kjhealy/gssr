@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_316.R
 \name{abmedgov1}
 \alias{abmedgov1}
-\title{abmedgov1}
+\title{Woman and doctor or govt should decide what info needed for abortion - ver x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Woman and doctor or govt should decide what info needed for abortion - ver x
+abmedgov1
 }
 \details{
 Question Which of these statements comes closer to your view about what information a woman should have when she makes a decision about whether to have an abortion?

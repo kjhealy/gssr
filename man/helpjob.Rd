@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_460.R
 \name{helpjob}
 \alias{helpjob}
-\title{helpjob}
+\title{Helped somebody to find a job past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Helped somebody to find a job past 12 months
+helpjob
 }
 \details{
 Question 1240. During the past 12 months, how often have you done any of the following things for people you know personally, such as relatives, friends, neighbors or other acquaintances? d. Helped somebody to find a job

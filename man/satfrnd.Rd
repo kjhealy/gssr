@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_51.R
 \name{satfrnd}
 \alias{satfrnd}
-\title{satfrnd}
+\title{Friendships}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Friendships
+satfrnd
 }
 \details{
 Question 164. For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. d. Your friendships.

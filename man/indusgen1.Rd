@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_628.R
 \name{indusgen1}
 \alias{indusgen1}
-\title{indusgen1}
+\title{In general, do you think that air pollution caused by industry is…}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In general, do you think that air pollution caused by industry is…
+indusgen1
 }
 \details{
 Question In general, do you think that air pollution caused by industry is...

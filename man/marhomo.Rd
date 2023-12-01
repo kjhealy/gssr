@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_479.R
 \name{marhomo}
 \alias{marhomo}
-\title{marhomo}
+\title{Homosexuals should have right to marry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Homosexuals should have right to marry
+marhomo
 }
 \details{
 Question 1280. Do you agree or disagree? j. Homosexual couples should have the right to marry one another.

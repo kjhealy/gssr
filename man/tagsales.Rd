@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_199.R
 \name{tagsales}
 \alias{tagsales}
-\title{tagsales}
+\title{How frequently do you go to garage sales etc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How frequently do you go to garage sales etc
+tagsales
 }
 \details{
 Question 631. How frequently do you go to garage sales, tag sales, or yard sales -- that is, one-time sales in which homeowners sell items that they no longer need from out of their homes, yards, or garages?

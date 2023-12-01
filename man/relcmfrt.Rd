@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_228.R
 \name{relcmfrt}
 \alias{relcmfrt}
-\title{relcmfrt}
+\title{Find strength and comfort in religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Find strength and comfort in religion
+relcmfrt
 }
 \details{
 Question 681. The following questions deal with possible daily spiritual experiences. To what extent can you say you experience the following: b. I find strength and comfort in my religion

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_142.R
 \name{wrkwell}
 \alias{wrkwell}
-\title{wrkwell}
+\title{How well youcompare to people do same job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well youcompare to people do same job
+wrkwell
 }
 \details{
 Question 451. Compared to other pepole who do the same or similar kind of work that you do, how well would you say you do your job?

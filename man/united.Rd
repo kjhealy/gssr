@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_146.R
 \name{united}
 \alias{united}
-\title{united}
+\title{Americans united or divided on values}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Americans united or divided on values
+united
 }
 \details{
 Question 470a. There is a lot of discussion today about whether Americans are divided or united. Some say that Americans are united in agreement about the most important values. Others think that Americans are greatly divided when it comes to the most important values. What is your view about this?

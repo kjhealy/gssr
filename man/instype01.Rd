@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_662.R
 \name{instype01}
 \alias{instype01}
-\title{instype01}
+\title{First type of insurance mentioned}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-First type of insurance mentioned
+instype01
 }
 \details{
 Question None

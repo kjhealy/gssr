@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_192.R
 \name{homeyear}
 \alias{homeyear}
-\title{homeyear}
+\title{Rmost recent home you have purchased.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rmost recent home you have purchased.
+homeyear
 }
 \details{
 Question 598. Tell me about he most recent home you have purchased. When did you buy this home?

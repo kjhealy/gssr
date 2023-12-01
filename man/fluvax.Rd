@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_659.R
 \name{fluvax}
 \alias{fluvax}
-\title{fluvax}
+\title{Flu vaccine in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Flu vaccine in past 12 months
+fluvax
 }
 \details{
 Question Did you receive a seasonal influenza vaccine (�flu shot�) in the past 12 months?

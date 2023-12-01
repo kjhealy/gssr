@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_623.R
 \name{libmily}
 \alias{libmily}
-\title{libmily}
+\title{Allow militarists book in library y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow militarists book in library y
+libmily
 }
 \details{
 Question Suppose this person wrote a book advocating doing away with elections and letting the military run the country. Somebody in your community suggests that the book be removed from the public library. Would you favor removing it, or not?

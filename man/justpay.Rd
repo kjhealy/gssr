@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_476.R
 \name{justpay}
 \alias{justpay}
-\title{justpay}
+\title{Is r's pay just}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r's pay just
+justpay
 }
 \details{
 Question 1269. Given your skills and effort, is your pay:

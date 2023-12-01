@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_288.R
 \name{byemprob}
 \alias{byemprob}
-\title{byemprob}
+\title{How many friends discuss problems via email}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many friends discuss problems via email
+byemprob
 }
 \details{
 Question 808a. Of these (NUMPROBS) friends and relatives that you feel really close to, how many do you stay in contact with through electronic mail or instant messaging?

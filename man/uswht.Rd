@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_255.R
 \name{uswht}
 \alias{uswht}
-\title{uswht}
+\title{What percentage of population is white}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What percentage of population is white
+uswht
 }
 \details{
 Question 751. Just your best guess�what percentage of the United States population is each group? a. Whites

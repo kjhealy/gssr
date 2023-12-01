@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_50.R
 \name{health}
 \alias{health}
-\title{health}
+\title{Condition of health}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Condition of health
+health
 }
 \details{
 Question 159. Would you say your own health, in general, is excellent, good, fair, or poor?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_208.R
 \name{valrec}
 \alias{valrec}
-\title{valrec}
+\title{Estimated value contributed in recreation adults}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Estimated value contributed in recreation adults
+valrec
 }
 \details{
 Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? g. Recreation - adults

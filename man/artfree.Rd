@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_235.R
 \name{artfree}
 \alias{artfree}
-\title{artfree}
+\title{Was exhibit attended free}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was exhibit attended free
+artfree
 }
 \details{
 Question Was the exhibit you attended free, or was there an admission fee?

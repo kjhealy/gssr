@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_15.R
 \name{income}
 \alias{income}
-\title{income}
+\title{Total family income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total family income
+income
 }
 \details{
 Question 37. In which of these groups did your total family income, from all sources, fall last year before taxes, that is?

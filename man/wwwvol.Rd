@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_274.R
 \name{wwwvol}
 \alias{wwwvol}
-\title{wwwvol}
+\title{Has anyone met on web become volunteer with r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has anyone met on web become volunteer with r
+wwwvol
 }
 \details{
 Question 788. Did any of these people become: h. Someone you worked with on a civic, community, or political project?

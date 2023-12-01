@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_513.R
 \name{godright}
 \alias{godright}
-\title{godright}
+\title{God's laws should decide right and wrong}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-God's laws should decide right and wrong
+godright
 }
 \details{
 Question 1397. Do you agree or disagree with the following statements. . . a. Right and wrong should be based on God's laws.

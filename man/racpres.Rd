@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_46.R
 \name{racpres}
 \alias{racpres}
-\title{racpres}
+\title{Would vote for black president}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would vote for black president
+racpres
 }
 \details{
 Question 135. If your party nominated a (negro/black/African-American) for President, would you vote for him if he were qualified for the job?

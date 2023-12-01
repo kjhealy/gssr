@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_151.R
 \name{trstprof}
 \alias{trstprof}
-\title{trstprof}
+\title{Trust profs judgments in assigning reading}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Trust profs judgments in assigning reading
+trstprof
 }
 \details{
 Question 475. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it: b. I trust the judgment of the teachers and professors who decide whta high school and college students should be reading.

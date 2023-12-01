@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_508.R
 \name{otherwrk}
 \alias{otherwrk}
-\title{otherwrk}
+\title{Does r have any additional job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r have any additional job
+otherwrk
 }
 \details{
 Question 1513. In addition to your main job, do you do any other work for additional income?

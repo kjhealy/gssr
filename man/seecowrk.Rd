@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_321.R
 \name{seecowrk}
 \alias{seecowrk}
-\title{seecowrk}
+\title{How easy to see whether co-workers working}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How easy to see whether co-workers working
+seecowrk
 }
 \details{
 Question 924a. In your job how easy is it for you to see whether your co-workers are working well or poorly? On a scale of 0 to 10 please describe with 0 meaning not at all easy to see and 10 meaning very easy to see.

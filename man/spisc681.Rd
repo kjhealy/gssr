@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_595.R
 \name{spisc681}
 \alias{spisc681}
-\title{spisc681}
+\title{R's spouse's occupation, 1980 census}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's spouse's occupation, 1980 census
+spisc681
 }
 \details{
 Question 1641. Occupation of respondent's spouse (International Standard Classification Codes-1968)

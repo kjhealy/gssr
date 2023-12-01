@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_423.R
 \name{paychnge}
 \alias{paychnge}
-\title{paychnge}
+\title{How much has r pay changed on r's current job since r began}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much has r pay changed on r's current job since r began
+paychnge
 }
 \details{
 Question Thinking about your current employer, how much has your pay changed on your current job since you began? Would you say...

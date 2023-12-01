@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_370.R
 \name{majorcol}
 \alias{majorcol}
-\title{majorcol}
+\title{The field of degree r earned}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The field of degree r earned
+majorcol
 }
 \details{
 Question 1047. In what field was that degree?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_300.R
 \name{ethtrads}
 \alias{ethtrads}
-\title{ethtrads}
+\title{Society recognize right of ethnic traditions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Society recognize right of ethnic traditions
+ethtrads
 }
 \details{
 Question 848. Here are some opinions some people have expressed in connection with ethnic issues in the United States. To what extent do you agree or disagree with each one? c. If we want to help create a harmonious society, we must recognize that each ethnic group has the right to maintain its own unique traditions.

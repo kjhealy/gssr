@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_278.R
 \name{poldisgn}
 \alias{poldisgn}
-\title{poldisgn}
+\title{R discuss political views past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R discuss political views past year
+poldisgn
 }
 \details{
 Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: g. Discussed your views about political or social policy issues, current affairs, or political campaigns with other people?

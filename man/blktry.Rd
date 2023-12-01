@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_654.R
 \name{blktry}
 \alias{blktry}
-\title{blktry}
+\title{Black people do not try hard enough}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Black people do not try hard enough
+blktry
 }
 \details{
 Question (Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with the following statements?) It's really a matter of some people not trying hard enough; if black people would only try harder they could be

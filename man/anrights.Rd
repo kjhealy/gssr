@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_519.R
 \name{anrights}
 \alias{anrights}
-\title{anrights}
+\title{Animals have rights too}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Animals have rights too
+anrights
 }
 \details{
 Question 1410. And please check one box for each of these statements to show how much you agree or disagree with it. c. Animals should have the same moral rights that human beings do.

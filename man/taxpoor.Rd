@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_473.R
 \name{taxpoor}
 \alias{taxpoor}
-\title{taxpoor}
+\title{Taxes on low income people too high}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Taxes on low income people too high
+taxpoor
 }
 \details{
 Question 1257. Generally, how would you describe taxes in America today... We mean all taxes together, including social security, income tax, sales tax, and all the rest. c. For those with low incomes, are taxes...

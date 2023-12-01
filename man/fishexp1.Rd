@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_384.R
 \name{fishexp1}
 \alias{fishexp1}
-\title{fishexp1}
+\title{What is scientist trying to find out from this experiment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is scientist trying to find out from this experiment
+fishexp1
 }
 \details{
 Question Please look at Card I-5. What is the scientist trying to find out from this experiment?

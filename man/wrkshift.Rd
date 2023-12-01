@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_495.R
 \name{wrkshift}
 \alias{wrkshift}
-\title{wrkshift}
+\title{What is your working schedule}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is your working schedule
+wrkshift
 }
 \details{
 Question Which of the following statements best describes your usual working schedule in your main job?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_411.R
 \name{mhfriend}
 \alias{mhfriend}
-\title{mhfriend}
+\title{R would make friends with x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would make friends with x
+mhfriend
 }
 \details{
 Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... d. To make friends with \link{NAME}?

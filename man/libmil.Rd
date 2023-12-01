@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_31.R
 \name{libmil}
 \alias{libmil}
-\title{libmil}
+\title{Allow militarists book in library}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow militarists book in library
+libmil
 }
 \details{
 Question 80. Consider a person who advocates doing away with elections and letting the military run the country. c. Suppose he wrote a book advocating doing away with elections and letting the military run the country. Somebody in your community suggests that the book should be removed from the library. Would you favor removing it, or not?

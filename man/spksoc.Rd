@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_30.R
 \name{spksoc}
 \alias{spksoc}
-\title{spksoc}
+\title{Allow socialist to speak}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow socialist to speak
+spksoc
 }
 \details{
 Question 77. Or consider a person who favored government ownership of all the railroads and all big industries: a. If such a person wanted to make a speech in your community favoring government ownership of all the railroads and big industries, should he be allowed to speak, or not?

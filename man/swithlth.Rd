@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_243.R
 \name{swithlth}
 \alias{swithlth}
-\title{swithlth}
+\title{Ever switched plan medical care provider}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever switched plan medical care provider
+swithlth
 }
 \details{
 Question 716. Have you ever switched your plan or the medical care provider within your plan due to dissatisfaction with a prior one?

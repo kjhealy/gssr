@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_01.R
 \name{prestige}
 \alias{prestige}
-\title{prestige}
+\title{R's occupational prestige score(1970)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's occupational prestige score(1970)
+prestige
 }
 \details{
 Question 2a. What kind of work do you (did you normally) do? That is, what (is/was)your job called? b. What (do/did) you actually do in that job? Tell me, what (are/were) some of your main duties?

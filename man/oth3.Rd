@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_566.R
 \name{oth3}
 \alias{oth3}
-\title{oth3}
+\title{Child have trouble in school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Child have trouble in school
+oth3
 }
 \details{
 Question H. And finally, since (CURRENT MONTH), 2003, did any of the following occur to you? 3. Child had serious trouble in school (e.g. failing, dropping out, expelled, held back).

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_517.R
 \name{rightpeo}
 \alias{rightpeo}
-\title{rightpeo}
+\title{Religion helps people to meet the right kind of people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion helps people to meet the right kind of people
+rightpeo
 }
 \details{
 Question None

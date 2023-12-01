@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_504.R
 \name{worryjob}
 \alias{worryjob}
-\title{worryjob}
+\title{Do you worry about losing job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you worry about losing job
+worryjob
 }
 \details{
 Question 1363. To what extent, if at all, do you worry about the possibility of losing your job?

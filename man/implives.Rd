@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_124.R
 \name{implives}
 \alias{implives}
-\title{implives}
+\title{Way of life more important than being catholic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Way of life more important than being catholic
+implives
 }
 \details{
 Question 398. If Catholic: Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements: b. How a person lives is more important than whether or not he or she is Catholic.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_440.R
 \name{poleff4}
 \alias{poleff4}
-\title{poleff4}
+\title{Avg person can influence local govt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Avg person can influence local govt
+poleff4
 }
 \details{
 Question 1178. Please indicate whether you agree or disagree with each of the following statements. d. The average person has much to say about running local government.

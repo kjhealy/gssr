@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_492.R
 \name{wrkimp}
 \alias{wrkimp}
-\title{wrkimp}
+\title{Work is persons most impt. activity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Work is persons most impt. activity
+wrkimp
 }
 \details{
 Question 1322. Thinking of work in general, please circle one number for each statement below to show how much you agree or disagree with each. c. Work is a person's most important activity

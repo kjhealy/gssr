@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_114.R
 \name{switwhy2}
 \alias{switwhy2}
-\title{switwhy2}
+\title{Why did r make second switch}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why did r make second switch
+switwhy2
 }
 \details{
 Question 358c2. Why did you become a \link{RELIGION}?

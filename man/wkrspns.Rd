@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_337.R
 \name{wkrspns}
 \alias{wkrspns}
-\title{wkrspns}
+\title{Response to misbehavior from coworkers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Response to misbehavior from coworkers
+wkrspns
 }
 \details{
 Question What did you typically do in response to these behaviors?

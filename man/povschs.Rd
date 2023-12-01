@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_131.R
 \name{povschs}
 \alias{povschs}
-\title{povschs}
+\title{Spend more on poor schools}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spend more on poor schools
+povschs
 }
 \details{
 Question 407. Here are several things that the government in Washington might do to deal with the problems of poverty and unemployment. I would like you to tell me if you favor or oppose them. b. Spending more money on the schools in poor neighborhods especially for pre-school and early education programs.

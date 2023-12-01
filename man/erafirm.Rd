@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_80.R
 \name{erafirm}
 \alias{erafirm}
-\title{erafirm}
+\title{How firm is r's opinion on era}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How firm is r's opinion on era
+erafirm
 }
 \details{
 Question 257. How firm are you about (your opinion/the way you feel about) the Equal Rights Amendment?

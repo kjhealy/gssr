@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_584.R
 \name{gender5}
 \alias{gender5}
-\title{gender5}
+\title{Gender of 5th person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gender of 5th person
+gender5
 }
 \details{
 Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. b. Code sex \link{ASK IF NOT OBVIOUS}

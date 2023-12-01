@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_50.R
 \name{helpful}
 \alias{helpful}
-\title{helpful}
+\title{People helpful or looking out for selves}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People helpful or looking out for selves
+helpful
 }
 \details{
 Question 161. Would you say that most of the time people try to be helpful, or that they are mostly just looking out for themselves?

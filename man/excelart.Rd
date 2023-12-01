@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_151.R
 \name{excelart}
 \alias{excelart}
-\title{excelart}
+\title{Artistic excellence found in folk art}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Artistic excellence found in folk art
+excelart
 }
 \details{
 Question 475. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it: h. Artistic excellence can be found in popular and folk culture just as much as in the fine arts.

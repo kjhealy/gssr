@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_123.R
 \name{numcong}
 \alias{numcong}
-\title{numcong}
+\title{Number of members of the congregation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of members of the congregation
+numcong
 }
 \details{
 Question 392. About how many members does this congregation have?

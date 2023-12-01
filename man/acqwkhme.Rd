@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_399.R
 \name{acqwkhme}
 \alias{acqwkhme}
-\title{acqwkhme}
+\title{Number of ppl owning second home in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of ppl owning second home in current or previous work
+acqwkhme
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. d. How many are you pretty certain own a second home?

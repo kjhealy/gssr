@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_12.R
 \name{spsector}
 \alias{spsector}
-\title{spsector}
+\title{Type of college spouse attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of college spouse attended
+spsector
 }
 \details{
 Question None

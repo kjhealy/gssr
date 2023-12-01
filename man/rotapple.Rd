@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_117.R
 \name{rotapple}
 \alias{rotapple}
-\title{rotapple}
+\title{R agrees immoral person corrupts society}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R agrees immoral person corrupts society
+rotapple
 }
 \details{
 Question 374. Please consider the following statements and tell me whether you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each statement. c. Immoral actions by one person can corrupt society in general.

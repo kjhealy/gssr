@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_243.R
 \name{mntldeny}
 \alias{mntldeny}
-\title{mntldeny}
+\title{Ever denied services under plans package}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever denied services under plans package
+mntldeny
 }
 \details{
 Question 720. Were you denied services under your plan's benefit package?

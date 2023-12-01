@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_275.R
 \name{advfam}
 \alias{advfam}
-\title{advfam}
+\title{R can ask other family members software help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R can ask other family members software help
+advfam
 }
 \details{
 Question 790. Do the people you can ask for advice include? (Name as many as are correct): e. Other family

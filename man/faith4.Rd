@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_119.R
 \name{faith4}
 \alias{faith4}
-\title{faith4}
+\title{Has sexual pleasure strengthened faith}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has sexual pleasure strengthened faith
+faith4
 }
 \details{
 Question 379. How often have these events strengthened your religious faith? d. Intense sexual pleasure

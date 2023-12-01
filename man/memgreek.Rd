@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_106.R
 \name{memgreek}
 \alias{memgreek}
-\title{memgreek}
+\title{Membership in school fraternity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Membership in school fraternity
+memgreek
 }
 \details{
 Question 328. Now we would like to know something about the groups or organizations to which individuals belong. Here is a list of various organizations. Could you tell me whether or not you are a member of each type? j. School fraternities or sororities

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_06.R
 \name{spind10}
 \alias{spind10}
-\title{spind10}
+\title{Spouse's industry code (naics 2007)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's industry code (naics 2007)
+spind10
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_415.R
 \name{mhgvtdis}
 \alias{mhgvtdis}
-\title{mhgvtdis}
+\title{Govt responsibility: provide disability benefits for x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt responsibility: provide disability benefits for x
+mhgvtdis
 }
 \details{
 Question 1142. The next few questions deal with the government's responsibility to help people like \link{NAME}. For each statement please tell me if you think the government definitely should, probably should, probably should not, or definitely should not be responsible for helping people with situations like \link{NAME}. e. Provide disability benefits for \link{NAME}.

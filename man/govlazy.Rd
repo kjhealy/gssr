@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_462.R
 \name{govlazy}
 \alias{govlazy}
-\title{govlazy}
+\title{The social benefits from the government make people lazy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The social benefits from the government make people lazy
+govlazy
 }
 \details{
 Question Do you agree or disagree with the following statement? D. The social benefits from the government make people lazy.

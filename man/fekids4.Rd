@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_181.R
 \name{fekids4}
 \alias{fekids4}
-\title{fekids4}
+\title{How important men have more freedom}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important men have more freedom
+fekids4
 }
 \details{
 Question 566. Women are more likely than ment ot ake care of children. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is: d. Men have more freedom to do other things.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_139.R
 \name{automatn}
 \alias{automatn}
-\title{automatn}
+\title{My job is controlled by my machine}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-My job is controlled by my machine
+automatn
 }
 \details{
 Question 438. How true would you say each of the following statements is about your job? d. How I do my job is controlled by the machines I work with.

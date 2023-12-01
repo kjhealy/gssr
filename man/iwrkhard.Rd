@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_498.R
 \name{iwrkhard}
 \alias{iwrkhard}
-\title{iwrkhard}
+\title{How hard does r work at job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How hard does r work at job
+iwrkhard
 }
 \details{
 Question 1332. Which of the following statements best describes your feelings about the job?

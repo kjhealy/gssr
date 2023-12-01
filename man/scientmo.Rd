@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_387.R
 \name{scientmo}
 \alias{scientmo}
-\title{scientmo}
+\title{Scientists earn less}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientists earn less
+scientmo
 }
 \details{
 Question Scientists earn less than other people with equally demanding jobs. Do you strongly agree, agree, disagree, or strongly disagree?

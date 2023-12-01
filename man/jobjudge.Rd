@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_142.R
 \name{jobjudge}
 \alias{jobjudge}
-\title{jobjudge}
+\title{Someone evaluate your performance regularly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Someone evaluate your performance regularly
+jobjudge
 }
 \details{
 Question 448. Does someone formally evaluate your job performance on a regular basis?

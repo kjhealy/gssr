@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_454.R
 \name{frineigh}
 \alias{frineigh}
-\title{frineigh}
+\title{Number of close friends are neighbors}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of close friends are neighbors
+frineigh
 }
 \details{
 Question 1208b. How many of these close friends are your neighbors now?

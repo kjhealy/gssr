@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_21.R
 \name{pres88}
 \alias{pres88}
-\title{pres88}
+\title{Vote for dukakis or bush}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote for dukakis or bush
+pres88
 }
 \details{
 Question 62a. If voted: Did you vote for Dukakis or Bush?

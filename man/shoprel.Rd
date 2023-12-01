@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_124.R
 \name{shoprel}
 \alias{shoprel}
-\title{shoprel}
+\title{Ever shopped around for a church}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever shopped around for a church
+shoprel
 }
 \details{
 Question 395. As an adult, have you ever shopped around for a church or synagogue -- that is, gone to different churches or synagogues or to other places of worship in order to compare and decide which one you wanted to attend regularly?

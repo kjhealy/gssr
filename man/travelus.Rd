@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_338.R
 \name{travelus}
 \alias{travelus}
-\title{travelus}
+\title{Transportation r took when travelling to us}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Transportation r took when travelling to us
+travelus
 }
 \details{
 Question 972. Thinking about the most recent time you traveled to the United States from another country--please tell me which box shows the kind of transportation you took: A, B, or C. A: boat B: airplane; train; car, truck, or bus; walking C: other type of transportation

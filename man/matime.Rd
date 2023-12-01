@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_450.R
 \name{matime}
 \alias{matime}
-\title{matime}
+\title{Travel time to mother}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Travel time to mother
+matime
 }
 \details{
 Question 1199b. About how long would it take you to get to where your mother lives? Think of the time it usually takes door to door.

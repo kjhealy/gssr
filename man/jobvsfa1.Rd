@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_490.R
 \name{jobvsfa1}
 \alias{jobvsfa1}
-\title{jobvsfa1}
+\title{How often jobtakes too much time to fulfill family resp}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often jobtakes too much time to fulfill family resp
+jobvsfa1
 }
 \details{
 Question It has been difficult for you to fulfil your family responsibilities because of the amount of time you spent on your job.

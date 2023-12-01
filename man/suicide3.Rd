@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_72.R
 \name{suicide3}
 \alias{suicide3}
-\title{suicide3}
+\title{Suicide if dishonored family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suicide if dishonored family
+suicide3
 }
 \details{
 Question 227. Do you think a person has the right to end his or her own life if this person: c. Has dishonored his or her family?

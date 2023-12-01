@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_110.R
 \name{leadgrp}
 \alias{leadgrp}
-\title{leadgrp}
+\title{Has r served as officer in group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r served as officer in group
+leadgrp
 }
 \details{
 Question 334. Here is a list of things that members of organizations may participate in. Could you tell me whether or not you have ever done any of these things as a member of \link{GROUP IN Q.328 OR Q.332}? b. Served as an officer

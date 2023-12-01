@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_387.R
 \name{scientdn}
 \alias{scientdn}
-\title{scientdn}
+\title{Scientific work dangerous}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientific work dangerous
+scientdn
 }
 \details{
 Question Scientific work is dangerous. Do you strongly agree, agree, disagree, or strongly disagree?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_566.R
 \name{oth1}
 \alias{oth1}
-\title{oth1}
+\title{Being discriminated against}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Being discriminated against
+oth1
 }
 \details{
 Question H. And finally, since (CURRENT MONTH), 2003, did any of the following occur to you? 1. Discriminated against because of your race or nationality, sex, or for a similar reason.

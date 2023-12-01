@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_399.R
 \name{acqwkpri}
 \alias{acqwkpri}
-\title{acqwkpri}
+\title{Number of ppl in prison in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of ppl in prison in current or previous work
+acqwkpri
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. e. How many are you pretty certain are currently in state or federal prison?

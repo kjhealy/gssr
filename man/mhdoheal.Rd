@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_408.R
 \name{mhdoheal}
 \alias{mhdoheal}
-\title{mhdoheal}
+\title{What x should do: go to spiritual healer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: go to spiritual healer
+mhdoheal
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? g. Go to a spiritual or traditional healer

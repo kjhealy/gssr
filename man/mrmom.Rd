@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_483.R
 \name{mrmom}
 \alias{mrmom}
-\title{mrmom}
+\title{Gender role reversal hurts family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gender role reversal hurts family
+mrmom
 }
 \details{
 Question 1297. And, do you agree or disagree: b. It is not good if the man stays at home and cares for the children and the woman goes out to work.

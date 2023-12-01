@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_78.R
 \name{abspno}
 \alias{abspno}
-\title{abspno}
+\title{Abortion if husband opposes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Abortion if husband opposes
+abspno
 }
 \details{
 Question 249. If a woman has decided to have an abortion but her husband is against it, do you think she should go ahead and have it, or not?

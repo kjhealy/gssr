@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_608.R
 \name{sample}
 \alias{sample}
-\title{sample}
+\title{Sampling frame and method}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sampling frame and method
+sample
 }
 \details{
 Question 1664. The GSS has employed various sampling procedures and frames.

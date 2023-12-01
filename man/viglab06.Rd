@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_392.R
 \name{viglab06}
 \alias{viglab06}
-\title{viglab06}
+\title{X is experiencing alchl dependencedepression schizophrenia}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X is experiencing alchl dependencedepression schizophrenia
+viglab06
 }
 \details{
 Question 1095. In your opinion, how likely is it that \link{NAME} is experiencing... IF VIGVER06 = 1, DISPLAY Alcohol dependence? IF VIGVER06 = 2, DISPLAY A major depression? IF VIGVER06 = 3, DISPLAY Schizophrenia? IF VIGVER06 = 4, Skip to Q.1096

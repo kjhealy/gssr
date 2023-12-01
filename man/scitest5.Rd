@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_521.R
 \name{scitest5}
 \alias{scitest5}
-\title{scitest5}
+\title{All man-made chems cause cancer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-All man-made chems cause cancer
+scitest5
 }
 \details{
 Question 1415. For each statement below, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? e. All man-made chemicals cause cancer if you eat enough of them.

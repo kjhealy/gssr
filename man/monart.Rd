@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_202.R
 \name{monart}
 \alias{monart}
-\title{monart}
+\title{Done volunteer work in arts, culture, etc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done volunteer work in arts, culture, etc
+monart
 }
 \details{
 Question 641. In which, if any, of the areas listed on this card have you done some volunteer work in the past month? h. Arts, culture, and humanities

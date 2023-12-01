@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_382.R
 \name{sciintro}
 \alias{sciintro}
-\title{sciintro}
+\title{Which version of science introduction was used}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which version of science introduction was used
+sciintro
 }
 \details{
 Question None

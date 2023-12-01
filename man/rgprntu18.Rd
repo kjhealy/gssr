@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_664.R
 \name{rgprntu18}
 \alias{rgprntu18}
-\title{rgprntu18}
+\title{R is grandparent of child under 18 in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is grandparent of child under 18 in hh
+rgprntu18
 }
 \details{
 Question None

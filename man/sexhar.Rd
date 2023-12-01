@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_484.R
 \name{sexhar}
 \alias{sexhar}
-\title{sexhar}
+\title{R experienced sexual harassment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R experienced sexual harassment
+sexhar
 }
 \details{
 Question 1304. Sometimes at work people find themselves the object of sexual advances, propositions, or unwanted sexual discussions from co-workers or supervisors. The advances sometimes involve physical contact and sometimes just involve sexual conversations. Has this ever happened to you?

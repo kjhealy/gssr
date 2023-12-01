@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_209.R
 \name{needynei}
 \alias{needynei}
-\title{needynei}
+\title{Contributed to a needy neighbor.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contributed to a needy neighbor.
+needynei
 }
 \details{
 Question 646. People help other people in ways besides giving money, time, or other things to organized groups. Sometimes people help needy people directly. During the past 12 months, did you or members of your family or household give money, food, or clothing to any of the following types of people? b. A needy neighbor

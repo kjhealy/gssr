@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_655.R
 \name{brv5partnum}
 \alias{brv5partnum}
-\title{brv5partnum}
+\title{Number of partner deaths}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of partner deaths
+brv5partnum
 }
 \details{
 Question Number

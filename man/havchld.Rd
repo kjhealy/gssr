@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_326.R
 \name{havchld}
 \alias{havchld}
-\title{havchld}
+\title{Young should have child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Young should have child
+havchld
 }
 \details{
 Question 935. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to... ...have a child

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_398.R
 \name{acqnhcon}
 \alias{acqnhcon}
-\title{acqnhcon}
+\title{Number of conservative in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of conservative in neighborhood
+acqnhcon
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. n. How many are you pretty certain are strongly conservative?

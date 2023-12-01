@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_167.R
 \name{sbalive1}
 \alias{sbalive1}
-\title{sbalive1}
+\title{R 1st sibling alive?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R 1st sibling alive?
+sbalive1
 }
 \details{
 Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. e. Is \link{NAME} alive?

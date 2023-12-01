@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_392.R
 \name{mhtrtoth}
 \alias{mhtrtoth}
-\title{mhtrtoth}
+\title{R personally has known someone who received treatment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R personally has known someone who received treatment
+mhtrtoth
 }
 \details{
 Question 1096. Leaving yourself aside, have you personally ever known someone who has received treatment for a mental health situation?

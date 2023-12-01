@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_370.R
 \name{earthsun}
 \alias{earthsun}
-\title{earthsun}
+\title{Sci knowledge: the earth goes around the sun}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sci knowledge: the earth goes around the sun
+earthsun
 }
 \details{
 Question 1044. Now, I would like to ask you a few short questions like those you might see on a television game show. For each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. j. Now, does the Earth go around the Sun, or does the Sun go around the Earth?

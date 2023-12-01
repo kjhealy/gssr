@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_611.R
 \name{rweight}
 \alias{rweight}
-\title{rweight}
+\title{R weight rating}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R weight rating
+rweight
 }
 \details{
 Question How would you rate the respondent's weight?

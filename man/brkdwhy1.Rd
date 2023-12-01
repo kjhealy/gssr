@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_218.R
 \name{brkdwhy1}
 \alias{brkdwhy1}
-\title{brkdwhy1}
+\title{1st mention cause of ner. break feelings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-1st mention cause of ner. break feelings
+brkdwhy1
 }
 \details{
 Question 669a1.(IF YES TO Q.669A) Could you tell me about when you felt that way? What was it about? (PROBE: GET EXACT DATE and complete details.)

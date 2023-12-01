@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_582.R
 \name{relate2}
 \alias{relate2}
-\title{relate2}
+\title{Relationship of 2nd person to household head}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship of 2nd person to household head
+relate2
 }
 \details{
 Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. a. What is \link{PERSON}'s relationship to the head of household?

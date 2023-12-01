@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_485.R
 \name{spwkgrwn}
 \alias{spwkgrwn}
-\title{spwkgrwn}
+\title{Did spouse work after children left home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did spouse work after children left home
+spwkgrwn
 }
 \details{
 Question 1307. What about your spouse/partner at that time -- did he or she work outside the home full-time, part-time, or not at all: d. How about after the children left home?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_440.R
 \name{poleff6}
 \alias{poleff6}
-\title{poleff6}
+\title{Avg person can influence govt decisions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Avg person can influence govt decisions
+poleff6
 }
 \details{
 Question 1178. Please indicate whether you agree or disagree with each of the following statements. f. The average person has a great deal of influence on government decisions.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_566.R
 \name{oth5}
 \alias{oth5}
-\title{oth5}
+\title{Do not have a car}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do not have a car
+oth5
 }
 \details{
 Question H. And finally, since (CURRENT MONTH), 2003, did any of the following occur to you? 5. Did not have a car (one month or more).

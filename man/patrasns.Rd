@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_129.R
 \name{patrasns}
 \alias{patrasns}
-\title{patrasns}
+\title{Unpatriotic - patriotic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unpatriotic - patriotic
+patrasns
 }
 \details{
 Question 403f. Do people in these groups tend to be patriotic or do they tend to be unpatriotic? 4. Asian Americans

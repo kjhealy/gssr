@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_495.R
 \name{wkwkends}
 \alias{wkwkends}
-\title{wkwkends}
+\title{Do you work weekends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you work weekends
+wkwkends
 }
 \details{
 Question B. And how often does your job involve working on weekends?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_220.R
 \name{mnildur}
 \alias{mnildur}
-\title{mnildur}
+\title{Duration, severity of feelings of mental illness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Duration, severity of feelings of mental illness
+mnildur
 }
 \details{
 Question The duration and severity of R's mental illness.

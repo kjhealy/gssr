@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_212.R
 \name{viggrp}
 \alias{viggrp}
-\title{viggrp}
+\title{How willing r would have a group home for x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How willing r would have a group home for x
+viggrp
 }
 \details{
 Question 656e. How willing would you be to have a group home for people like NAME opened in your home -- definitely willing, probably willing, probably unwilling, or definitely unwilling?

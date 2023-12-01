@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_516.R
 \name{relext1}
 \alias{relext1}
-\title{relext1}
+\title{Religious extremists should be allowed to hold public meeting to express views}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religious extremists should be allowed to hold public meeting to express views
+relext1
 }
 \details{
 Question None

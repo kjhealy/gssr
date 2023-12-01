@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_552.R
 \name{sexfreq2}
 \alias{sexfreq2}
-\title{sexfreq2}
+\title{Number of times, sex last month}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of times, sex last month
+sexfreq2
 }
 \details{
 Question 1547. About how many times did you engage in intercourse during the month?

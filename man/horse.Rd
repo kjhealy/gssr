@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_318.R
 \name{horse}
 \alias{horse}
-\title{horse}
+\title{Horse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Horse
+horse
 }
 \details{
 Question What kind of pet\link{s} does your family have? G. Horse

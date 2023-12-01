@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_390.R
 \name{slsmnshp}
 \alias{slsmnshp}
-\title{slsmnshp}
+\title{How scientific is salesmanship}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is salesmanship
+slsmnshp
 }
 \details{
 Question Salesmanship. (Is salesmanship...?)

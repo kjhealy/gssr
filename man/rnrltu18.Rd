@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_664.R
 \name{rnrltu18}
 \alias{rnrltu18}
-\title{rnrltu18}
+\title{R is not related to child under 18 in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is not related to child under 18 in hh
+rnrltu18
 }
 \details{
 Question None

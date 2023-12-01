@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_11.R
 \name{cosector}
 \alias{cosector}
-\title{cosector}
+\title{Type of college partner attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of college partner attended
+cosector
 }
 \details{
 Question None

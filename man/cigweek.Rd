@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_60.R
 \name{cigweek}
 \alias{cigweek}
-\title{cigweek}
+\title{Has r smoked cigarettes in last week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r smoked cigarettes in last week
+cigweek
 }
 \details{
 Question 177c. Have you, yourself, smoked any cigarettes in the past week?

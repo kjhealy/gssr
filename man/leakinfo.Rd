@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_570.R
 \name{leakinfo}
 \alias{leakinfo}
-\title{leakinfo}
+\title{Punishment for official leaking information}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment for official leaking information
+leakinfo
 }
 \details{
 Question 1590. Now I'm going to ask you about several offenses. For each case, indicate (Number 1-6) what you would consider the appropriate punishment for each case. b. A high-placed government official leaked sensitive information to a newspaper in order to influence public opinion about a controversial political issue. The official received no money.

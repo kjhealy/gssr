@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_506.R
 \name{selfemp2}
 \alias{selfemp2}
-\title{selfemp2}
+\title{Being employee interfere more with family life than self-employment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Being employee interfere more with family life than self-employment
+selfemp2
 }
 \details{
 Question 1501. To what extent do you agree or disagree with the following statements? b. Being an employee interferes more with family life than self-employment

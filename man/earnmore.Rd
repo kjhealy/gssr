@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_177.R
 \name{earnmore}
 \alias{earnmore}
-\title{earnmore}
+\title{Who earns more money?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who earns more money?
+earnmore
 }
 \details{
 Question 555. Who earns more money?

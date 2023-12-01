@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_17.R
 \name{region}
 \alias{region}
-\title{region}
+\title{Region of interview}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Region of interview
+region
 }
 \details{
 Question None

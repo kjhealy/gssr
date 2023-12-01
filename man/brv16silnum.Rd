@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_658.R
 \name{brv16silnum}
 \alias{brv16silnum}
-\title{brv16silnum}
+\title{Number of brother-in-law or sister-in-law deaths}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of brother-in-law or sister-in-law deaths
+brv16silnum
 }
 \details{
 Question Number

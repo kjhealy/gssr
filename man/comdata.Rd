@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_571.R
 \name{comdata}
 \alias{comdata}
-\title{comdata}
+\title{Punishment damaging national security computer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment damaging national security computer
+comdata
 }
 \details{
 Question 1592. Now I'm going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee. b. Intentionally damaging national security data in a computer system.

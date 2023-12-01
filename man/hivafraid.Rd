@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_635.R
 \name{hivafraid}
 \alias{hivafraid}
-\title{hivafraid}
+\title{Afraid to be around a person with hiv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Afraid to be around a person with hiv
+hivafraid
 }
 \details{
 Question Please indicate how much you agree or disagree with each of the following comments. I would be afraid to be around a person with HIV because I would be worried I could get infected.

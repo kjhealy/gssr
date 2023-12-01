@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_391.R
 \name{esop}
 \alias{esop}
-\title{esop}
+\title{R is member of esop}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is member of esop
+esop
 }
 \details{
 Question A. Are you a member of an Employee Stock Ownership Plan commonly called an ESOP?

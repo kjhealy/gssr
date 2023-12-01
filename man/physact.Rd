@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_649.R
 \name{physact}
 \alias{physact}
-\title{physact}
+\title{How often r does physical activity for 20 min a day}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r does physical activity for 20 min a day
+physact
 }
 \details{
 Question (How often do you...) do physical activity for at least 20 minutes that makes you sweat or breathe more heavily than usual?

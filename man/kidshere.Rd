@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_536.R
 \name{kidshere}
 \alias{kidshere}
-\title{kidshere}
+\title{Parent of america born child should become citizen}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Parent of america born child should become citizen
+kidshere
 }
 \details{
 Question 1461. There are different opinions about immigrants from other countries living in America. (By "immigrants" we mean people who come to settle in America). How much do you agree or disagree with each of the following statements? c. Children born in America of parents who are not citizens should have the right to become American citizens.

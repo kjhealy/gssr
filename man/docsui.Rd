@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_250.R
 \name{docsui}
 \alias{docsui}
-\title{docsui}
+\title{Ask for physician-assisted suicide}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ask for physician-assisted suicide
+docsui
 }
 \details{
 Question 735. How much do you agree of disagree with the following options for this person? This person should... f. Ask for physician-assisted suicide

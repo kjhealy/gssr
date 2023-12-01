@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_390.R
 \name{lawenfrc}
 \alias{lawenfrc}
-\title{lawenfrc}
+\title{How scientific is law enforcement}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is law enforcement
+lawenfrc
 }
 \details{
 Question Law Enforcement. (Is law enforcement...?)

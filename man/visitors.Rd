@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_592.R
 \name{visitors}
 \alias{visitors}
-\title{visitors}
+\title{Number of visitor's in household}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of visitor's in household
+visitors
 }
 \details{
 Question 1631. Number of visitors in household.

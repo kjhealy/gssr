@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_254.R
 \name{engvote}
 \alias{engvote}
-\title{engvote}
+\title{Ballots should offered other languages than eng}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ballots should offered other languages than eng
+engvote
 }
 \details{
 Question 745. Now please tell us whether you strongly agree, agree, disagree or strongly disagree with each of these statements: f. Election ballots should be printed in other languages in areas where lots of people don't speak English.

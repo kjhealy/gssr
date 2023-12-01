@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_84.R
 \name{hlpminr}
 \alias{hlpminr}
-\title{hlpminr}
+\title{Help minorities--r's position}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Help minorities--r's position
+hlpminr
 }
 \details{
 Question 280. Some people feel that the government in Washington should make every possible effort to improve the social and economic position of blacks and other minority groups, even if it means giving them preferential treatment. (Suppose these people are at one end of the scale at point number 1.) Others feel that the government should not make any special effort to help minorities because they should help themselves. (Suppose these people are at the other end, at point 7.) a. Where would you place yourself on this scale, or haven't you thought much about this?

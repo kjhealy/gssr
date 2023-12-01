@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_540.R
 \name{solok}
 \alias{solok}
-\title{solok}
+\title{How important: citizens have adequate standard of living}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: citizens have adequate standard of living
+solok
 }
 \details{
 Question 1470. There are different opinions about people's rights in a democracy. On a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it: a. That all citizens have an adequate standard of living

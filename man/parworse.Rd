@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_556.R
 \name{parworse}
 \alias{parworse}
-\title{parworse}
+\title{Parents doing worse than before}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Parents doing worse than before
+parworse
 }
 \details{
 Question 1569. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements regarding parents: b. Parents today are not doing as good a job as their own parents did.

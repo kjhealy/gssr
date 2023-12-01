@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_326.R
 \name{givchng}
 \alias{givchng}
-\title{givchng}
+\title{Have given money to group advocating social change}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have given money to group advocating social change
+givchng
 }
 \details{
 Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? e. Give money to a group advocating social change

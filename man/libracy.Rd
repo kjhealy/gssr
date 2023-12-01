@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_623.R
 \name{libracy}
 \alias{libracy}
-\title{libracy}
+\title{Allow racists book in library y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow racists book in library y
+libracy
 }
 \details{
 Question (Or consider a person who believes that Blacks are genetically inferior...) If some people in your community suggested that a book this person wrote which said Blacks are inferior should be taken out of your public library, would you favor removing this book, or not?

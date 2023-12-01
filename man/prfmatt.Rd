@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_233.R
 \name{prfmatt}
 \alias{prfmatt}
-\title{prfmatt}
+\title{Did r attend alone or with others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r attend alone or with others
+prfmatt
 }
 \details{
 Question Did you attend this performance alone, with one other person, or with two or more other people?

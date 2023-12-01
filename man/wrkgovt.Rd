@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_01.R
 \name{wrkgovt}
 \alias{wrkgovt}
-\title{wrkgovt}
+\title{Govt or private employee}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt or private employee
+wrkgovt
 }
 \details{
 Question 2f. (Are/were) you employed by the federal, state, or local government or by a private employer (including non-profit organizations)?

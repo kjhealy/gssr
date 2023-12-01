@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_553.R
 \name{numwomen}
 \alias{numwomen}
-\title{numwomen}
+\title{Number of female sex partner's since 18}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of female sex partner's since 18
+numwomen
 }
 \details{
 Question 1548. Now thinking about the time since your 18th birthday(including the past 12 months) how many female partners have you had sex with.

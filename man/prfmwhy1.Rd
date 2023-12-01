@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_233.R
 \name{prfmwhy1}
 \alias{prfmwhy1}
-\title{prfmwhy1}
+\title{Imp of low cost in decision to attend performance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of low cost in decision to attend performance
+prfmwhy1
 }
 \details{
 Question People attend performances for different reasons. A. How big a reason was low cost in your decision to attend this performance? Was it a major reason, a minor reason, or not a reason at all?

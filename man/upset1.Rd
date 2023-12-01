@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_455.R
 \name{upset1}
 \alias{upset1}
-\title{upset1}
+\title{Help for marital problem #1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Help for marital problem #1
+upset1
 }
 \details{
 Question 1212. Suppose you were very upset about a problem with your husband, wife or partner and hadn't been able to work it out with them. Who would you turn to for help? Even if you are not married or have no partner, what would you do? a. Who would you turn to first for help?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_526.R
 \name{nukeacc}
 \alias{nukeacc}
-\title{nukeacc}
+\title{Likelihood of nuclear meltdown in 5 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Likelihood of nuclear meltdown in 5 years
+nukeacc
 }
 \details{
 Question 1434. Within the next five years, how likely is it that an accident at a nuclear power station will cause long-term environmental damage across many countries?

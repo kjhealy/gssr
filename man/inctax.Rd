@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_442.R
 \name{inctax}
 \alias{inctax}
-\title{inctax}
+\title{Amount of tax on r's household income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Amount of tax on r's household income
+inctax
 }
 \details{
 Question 1181. Do you consider the amount of federal income tax that your household has to pay is . . .

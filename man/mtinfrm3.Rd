@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_364.R
 \name{mtinfrm3}
 \alias{mtinfrm3}
-\title{mtinfrm3}
+\title{Informal group3 meets in this area}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Informal group3 meets in this area
+mtinfrm3
 }
 \details{
 Question 1027q. Do any of the other informal groups meet in this area?

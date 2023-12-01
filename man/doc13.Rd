@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_245.R
 \name{doc13}
 \alias{doc13}
-\title{doc13}
+\title{Doctors deny me the treatment needed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctors deny me the treatment needed
+doc13
 }
 \details{
 Question 722. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. m. I worry that I will be denied the treatment or services I need.

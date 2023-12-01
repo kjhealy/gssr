@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_465.R
 \name{intcntct}
 \alias{intcntct}
-\title{intcntct}
+\title{How much of r's communication is via text, mobile phone, or internet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much of r's communication is via text, mobile phone, or internet
+intcntct
 }
 \details{
 Question Think now of your contact with all of your family members and close friends. How much of it is through text messages, mobile phones, or other communication devices that use the internet?

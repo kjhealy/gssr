@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_238.R
 \name{artloc}
 \alias{artloc}
-\title{artloc}
+\title{Did not want to go to that location}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did not want to go to that location
+artloc
 }
 \details{
 Question Thinking about the most recent exhibit you wanted to attend but did not, which of the following factors were important in your decision not to attend F. Did not want to go to that location.

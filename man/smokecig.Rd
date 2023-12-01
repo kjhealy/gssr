@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_60.R
 \name{smokecig}
 \alias{smokecig}
-\title{smokecig}
+\title{Does r smoke cigarettes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r smoke cigarettes
+smokecig
 }
 \details{
 Question 177b. Do you smoke cigarettes?

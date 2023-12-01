@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_426.R
 \name{visa}
 \alias{visa}
-\title{visa}
+\title{Do you hold a special visa}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you hold a special visa
+visa
 }
 \details{
 Question Do you hold a special visa?

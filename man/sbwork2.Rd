@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_169.R
 \name{sbwork2}
 \alias{sbwork2}
-\title{sbwork2}
+\title{Does r sibling do paid or unpaid work?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r sibling do paid or unpaid work?
+sbwork2
 }
 \details{
 Question 512. Does (she/he) do any work at all, even if it's only a part time job? Include unpaid work of 15 or more hours per week in a family business or farm.

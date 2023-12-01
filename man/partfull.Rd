@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_59.R
 \name{partfull}
 \alias{partfull}
-\title{partfull}
+\title{Was r's work part-time or full-time?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was r's work part-time or full-time?
+partfull
 }
 \details{
 Question 175a. When you worked last year, was it usually full or part time?

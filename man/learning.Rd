@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_145.R
 \name{learning}
 \alias{learning}
-\title{learning}
+\title{Importance of learning from co-workers for you job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of learning from co-workers for you job
+learning
 }
 \details{
 Question 462. How important were each of the following as sources fo the skills that you use in your job? c. Informal learning from co-workers or supervisors where you work now.

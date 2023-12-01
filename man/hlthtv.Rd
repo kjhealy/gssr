@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_277.R
 \name{hlthtv}
 \alias{hlthtv}
-\title{hlthtv}
+\title{R sought health information tv or radio}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sought health information tv or radio
+hlthtv
 }
 \details{
 Question 793. If YES, please tell me if you tried to find such health information from: f. Radio or television programs

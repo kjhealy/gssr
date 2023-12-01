@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_634.R
 \name{govchrst}
 \alias{govchrst}
-\title{govchrst}
+\title{The federal government should advocate christian values.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The federal government should advocate christian values.
+govchrst
 }
 \details{
 Question The federal government should advocate Christian values.

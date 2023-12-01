@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_104.R
 \name{partyid2}
 \alias{partyid2}
-\title{partyid2}
+\title{Party id of person #2}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Party id of person #2
+partyid2
 }
 \details{
 Question 324. Is \link{NAME} a Democrat, a Republican, an Independent, or what?

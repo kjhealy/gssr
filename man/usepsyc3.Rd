@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_242.R
 \name{usepsyc3}
 \alias{usepsyc3}
-\title{usepsyc3}
+\title{Will take medicine because feeling depressed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Will take medicine because feeling depressed
+usepsyc3
 }
 \details{
 Question 711. How likely would you be to take doctor-prescribed psychiatric medication in the following situations? c. because you were feeling depressed, tired, were having trouble sleeping and concentrating, and felt worthless

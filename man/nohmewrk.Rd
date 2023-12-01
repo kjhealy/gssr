@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_178.R
 \name{nohmewrk}
 \alias{nohmewrk}
-\title{nohmewrk}
+\title{Unable to do the work around the house?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unable to do the work around the house?
+nohmewrk
 }
 \details{
 Question 560. In your (present/most recent) job, (have you ever don/did you ever do) any of the following because of your responsibilities to the job? c. Been unable to do the work you usually do around the house?

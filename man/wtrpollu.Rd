@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_629.R
 \name{wtrpollu}
 \alias{wtrpollu}
-\title{wtrpollu}
+\title{Neighborhood affected by water pollution over the last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Neighborhood affected by water pollution over the last 12 months
+wtrpollu
 }
 \details{
 Question To what degree was your neighborhood affected by water polution over the last twelve months?

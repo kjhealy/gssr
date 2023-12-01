@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_519.R
 \name{grnecon}
 \alias{grnecon}
-\title{grnecon}
+\title{Worry too much about envir, too little econ}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Worry too much about envir, too little econ
+grnecon
 }
 \details{
 Question 1410. And please check one box for each of these statements to show how much you agree or disagree with it. a. We worry too much about the future of the environment, and not enough about prices and jobs today.

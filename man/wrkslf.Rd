@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_01.R
 \name{wrkslf}
 \alias{wrkslf}
-\title{wrkslf}
+\title{R self-emp or works for somebody}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R self-emp or works for somebody
+wrkslf
 }
 \details{
 Question 2e. (Are/were) you self employed or (do/did) you work for someone else?

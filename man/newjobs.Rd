@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_424.R
 \name{newjobs}
 \alias{newjobs}
-\title{newjobs}
+\title{Jobs created are better than r's current job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Jobs created are better than r's current job
+newjobs
 }
 \details{
 Question On average, do you think the jobs that have been created in the United States for people with jobs like yours are better than your job (with higher pay and better benefits) or worse?

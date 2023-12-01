@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_74.R
 \name{hitage}
 \alias{hitage}
-\title{hitage}
+\title{Beaten as child or adult}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Beaten as child or adult
+hitage
 }
 \details{
 Question 229a. If yes: Did this happen to you as a child or as an adult?

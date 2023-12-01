@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_654.R
 \name{brv5}
 \alias{brv5}
-\title{brv5}
+\title{Death of someone close in past 5 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Death of someone close in past 5 years
+brv5
 }
 \details{
 Question These next questions are about your experiences losing people close to you. Thinking back five years, to the period from January 1, 2017 through today, did you experience the death of someone close to you?

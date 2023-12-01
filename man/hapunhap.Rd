@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_508.R
 \name{hapunhap}
 \alias{hapunhap}
-\title{hapunhap}
+\title{Happy or unhappy with life today}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Happy or unhappy with life today
+hapunhap
 }
 \details{
 Question 1372. If you were to consider your life in general these days, how happy or unhappy would you say you are, on the whole...

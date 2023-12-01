@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_274.R
 \name{advchld}
 \alias{advchld}
-\title{advchld}
+\title{R can ask son or daughter for software help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R can ask son or daughter for software help
+advchld
 }
 \details{
 Question 790. Do the people you can ask for advice include? (Name as many as are correct): b. Son or daugher

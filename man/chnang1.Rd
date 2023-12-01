@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_188.R
 \name{chnang1}
 \alias{chnang1}
-\title{chnang1}
+\title{Think about the situation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Think about the situation
+chnang1
 }
 \details{
 Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? a. Tried to think about the situation in a different way.

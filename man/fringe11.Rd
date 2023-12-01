@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_145.R
 \name{fringe11}
 \alias{fringe11}
-\title{fringe11}
+\title{Assistance with the costs of day care for children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Assistance with the costs of day care for children
+fringe11
 }
 \details{
 Question 457. I am going to read a list of fringe benefits that workers sometimes get in addition to their wages. Whether you receive it or not, please tell me whether you are eligible to receive each fringe benefit: k. Assistance with the costs of day care for children.

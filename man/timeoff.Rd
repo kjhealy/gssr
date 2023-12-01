@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_506.R
 \name{timeoff}
 \alias{timeoff}
-\title{timeoff}
+\title{How difficult r takes an hour off during working hours}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How difficult r takes an hour off during working hours
+timeoff
 }
 \details{
 Question 1506. How difficult would it be for you to take an hour or two off during working hours, to take care of personal or family matters?

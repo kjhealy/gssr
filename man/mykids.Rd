@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_429.R
 \name{mykids}
 \alias{mykids}
-\title{mykids}
+\title{R's current insurance plan covers children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's current insurance plan covers children
+mykids
 }
 \details{
 Question (Are the following people in your family covered by your current insurance plan?) Children for whom I am a biological or adoptive parent

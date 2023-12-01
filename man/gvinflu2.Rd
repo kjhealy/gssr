@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_446.R
 \name{gvinflu2}
 \alias{gvinflu2}
-\title{gvinflu2}
+\title{What peo or org have 2nd most inf}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What peo or org have 2nd most inf
+gvinflu2
 }
 \details{
 Question B. And which do you think has the second most influence on the actions of the American govern

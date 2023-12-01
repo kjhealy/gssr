@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_32.R
 \name{capfirm}
 \alias{capfirm}
-\title{capfirm}
+\title{How firm is r's opinion of death penalty}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How firm is r's opinion of death penalty
+capfirm
 }
 \details{
 Question 85. How firm are you about your opinion on the death penalty?

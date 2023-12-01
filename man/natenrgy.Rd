@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_25.R
 \name{natenrgy}
 \alias{natenrgy}
-\title{natenrgy}
+\title{Developing alternative energy sources}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Developing alternative energy sources
+natenrgy
 }
 \details{
 Question We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)? Developing alternative energy sources

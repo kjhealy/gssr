@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_547.R
 \name{aidsknow}
 \alias{aidsknow}
-\title{aidsknow}
+\title{#People r knows infected with aids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-#People r knows infected with aids
+aidsknow
 }
 \details{
 Question 1525. How many people have you known personally, either living or dead, who came down with the disease called AIDS?

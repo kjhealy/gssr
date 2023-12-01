@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_536.R
 \name{kidsaway}
 \alias{kidsaway}
-\title{kidsaway}
+\title{Child born abroad of american should become citizen}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Child born abroad of american should become citizen
+kidsaway
 }
 \details{
 Question 1461. There are different opinions about immigrants from other countries living in America. (By "immigrants" we mean people who come to settle in America). How much do you agree or disagree with each of the following statements? d. Children born abroad should have the right to become American citizens if at least one of their parents is an American citizen.

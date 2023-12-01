@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_434.R
 \name{revspeak}
 \alias{revspeak}
-\title{revspeak}
+\title{Allow revolutionary public meetings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow revolutionary public meetings
+revspeak
 }
 \details{
 Question 1160. There are some people whose views are considered extreme by the majority. First, consider people who want to overthrow the government by revolution. Please circle a number after each question to show if you think such people should be allowed to . . . a. Hold public meetings to express their views.

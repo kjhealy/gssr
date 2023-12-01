@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_346.R
 \name{typsport}
 \alias{typsport}
-\title{typsport}
+\title{R belongs to more than one sports groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one sports groups
+typsport
 }
 \details{
 Question 1024f. Do you belong to more than one sport club?

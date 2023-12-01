@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_647.R
 \name{hlthwbvax}
 \alias{hlthwbvax}
-\title{hlthwbvax}
+\title{Looked up online - vaccines}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Looked up online - vaccines
+hlthwbvax
 }
 \details{
 Question (During the past 12 months, how often, if at all, have you used the internet to look for information on the following topics?) Information on vaccinations?

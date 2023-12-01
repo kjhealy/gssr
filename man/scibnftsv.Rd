@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_640.R
 \name{scibnftsv}
 \alias{scibnftsv}
-\title{scibnftsv}
+\title{Benefits of sci research outweigh harmful results (with volunteered response on}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Benefits of sci research outweigh harmful results (with volunteered response on
+scibnftsv
 }
 \details{
 Question None

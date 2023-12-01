@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_86.R
 \name{meserve}
 \alias{meserve}
-\title{meserve}
+\title{Mandatory conscription for males?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mandatory conscription for males?
+meserve
 }
 \details{
 Question 288b. And how would you feel about such a program for all young men - would you strongly favor it, probably favor it, probably oppose it, or strongly oppose it?

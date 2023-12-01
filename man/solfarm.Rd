@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_107.R
 \name{solfarm}
 \alias{solfarm}
-\title{solfarm}
+\title{Farm org tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Farm org tries to solve problems
+solfarm
 }
 \details{
 Question 329. Do the farm organizations to which you belong do anything to try to solve individual or community problems?

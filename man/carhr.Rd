@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_629.R
 \name{carhr}
 \alias{carhr}
-\title{carhr}
+\title{Car trip in the past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Car trip in the past 12 months
+carhr
 }
 \details{
 Question In a typical week, about how many hours do you spend in a car or another motor vehicle, including motorcycles, trucks, and vans, but not counting public transport? Do not include shared rides in buses, collective taxis, or carpooling services such as Uber

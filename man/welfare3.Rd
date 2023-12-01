@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_600.R
 \name{welfare3}
 \alias{welfare3}
-\title{welfare3}
+\title{Encourages out-of-wedlock children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Encourages out-of-wedlock children
+welfare3
 }
 \details{
 Question 1613. Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. Welfare . . . c. Encourage young women to have babies before marriage.

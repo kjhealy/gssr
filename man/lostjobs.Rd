@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_424.R
 \name{lostjobs}
 \alias{lostjobs}
-\title{lostjobs}
+\title{Jobs taken away are better than r's current job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Jobs taken away are better than r's current job
+lostjobs
 }
 \details{
 Question On average, do you think the jobs in the United States that have been taken away from people with jobs like yours are better than your job (with higher pay and better benefits) or worse?

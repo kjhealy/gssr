@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_269.R
 \name{contact}
 \alias{contact}
-\title{contact}
+\title{Web make r contact elected official}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Web make r contact elected official
+contact
 }
 \details{
 Question 777. Have you ever taken any of the following actions because of something you learned about or discussed on the Web? b. Contacted a senator, congressman, or other elected official to express an opinion?

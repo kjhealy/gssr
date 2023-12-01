@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_651.R
 \name{psysamephys}
 \alias{psysamephys}
-\title{psysamephys}
+\title{Management supports psychological health}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Management supports psychological health
+psysamephys
 }
 \details{
 Question (To what extent to do you agree or disagree with the following statements?) Senior management considers psychological health to be as important as productivity.

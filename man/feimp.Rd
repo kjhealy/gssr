@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_66.R
 \name{feimp}
 \alias{feimp}
-\title{feimp}
+\title{Importance of women's rights issue to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of women's rights issue to r
+feimp
 }
 \details{
 Question 203a. How important is the women's rights issue to you?

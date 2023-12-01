@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_247.R
 \name{proz4}
 \alias{proz4}
-\title{proz4}
+\title{Taking prozac helps people deal with stress}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Taking prozac helps people deal with stress
+proz4
 }
 \details{
 Question 725. How much do you agree or disagree with the following statements? d. Taking Prozac helps people deal with day-to-day stresses

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_420.R
 \name{done911a}
 \alias{done911a}
-\title{done911a}
+\title{Has r developed emergency plans}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r developed emergency plans
+done911a
 }
 \details{
 Question Community-wide disasters happen, and these happen for a variety of reasons, such as acts of nature, terrorism, industrial accidents, and other causes. Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001? Have you, or anyone you know developed emergency plans (evacuation, meeting places)? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?

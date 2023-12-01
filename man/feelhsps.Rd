@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_300.R
 \name{feelhsps}
 \alias{feelhsps}
-\title{feelhsps}
+\title{How r feels towards hispanics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How r feels towards hispanics
+feelhsps
 }
 \details{
 Question 849c. In general, how warm or cool do you feel towards Hispanics?

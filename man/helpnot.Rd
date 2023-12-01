@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_93.R
 \name{helpnot}
 \alias{helpnot}
-\title{helpnot}
+\title{Should govt do more or less?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt do more or less?
+helpnot
 }
 \details{
 Question 310. Please look at card BD. Some people think that the government in Washington is trying to do too many things that should be left to individuals and private busienss; they are at point 5 on this card. Others disagree and think that the government should do even more to solve our country's problems; they are at point 1. a. Where would you place yourself on this scale, or haven't you made up your mind on this?

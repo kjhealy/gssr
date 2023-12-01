@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_491.R
 \name{wrkenjoy}
 \alias{wrkenjoy}
-\title{wrkenjoy}
+\title{Enjoy job even if $ not needed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Enjoy job even if $ not needed
+wrkenjoy
 }
 \details{
 Question 1322. Thinking of work in general, please circle one number for each statement below to show how much you agree or disagree with each. b. I would enjoy having a paying job even if I did not need that money

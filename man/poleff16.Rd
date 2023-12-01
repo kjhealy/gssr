@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_446.R
 \name{poleff16}
 \alias{poleff16}
-\title{poleff16}
+\title{People elected to congress try to keep promises}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People elected to congress try to keep promises
+poleff16
 }
 \details{
 Question 1194. How much do you agree or disagree with each of the following statements? f. People we elect to Congress try to keep the promises they have made during the election

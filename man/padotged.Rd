@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_19.R
 \name{padotged}
 \alias{padotged}
-\title{padotged}
+\title{Fa. d.o.t. code - general educ develop.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fa. d.o.t. code - general educ develop.
+padotged
 }
 \details{
 Question None

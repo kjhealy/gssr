@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_311.R
 \name{slpprblm}
 \alias{slpprblm}
-\title{slpprblm}
+\title{Trouble sleeping last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Trouble sleeping last 12 months
+slpprblm
 }
 \details{
 Question During the past 12 months, how often have you had trouble going to sleep or staying asleep?

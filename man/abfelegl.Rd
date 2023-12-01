@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_315.R
 \name{abfelegl}
 \alias{abfelegl}
-\title{abfelegl}
+\title{Women only: women should be able to have legal abortions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women only: women should be able to have legal abortions
+abfelegl
 }
 \details{
 Question Leaving aside what you think of abortion for yourself, do you think a woman should continue to be able to have an abortion legally or not, or would you say it depends?

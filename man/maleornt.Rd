@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_556.R
 \name{maleornt}
 \alias{maleornt}
-\title{maleornt}
+\title{Interviewer coded male sexual orientation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interviewer coded male sexual orientation
+maleornt
 }
 \details{
 Question INTERVIEWER ONLY, DO NOT ASK R (Sexual Orientation)

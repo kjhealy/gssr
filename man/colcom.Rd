@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_31.R
 \name{colcom}
 \alias{colcom}
-\title{colcom}
+\title{Should communist teacher be fired}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should communist teacher be fired
+colcom
 }
 \details{
 Question 79. Now, I should like to ask you some questions about a man who admits he is a Communist: b. Suppose he is teaching in a college. Should he be fired, or not?

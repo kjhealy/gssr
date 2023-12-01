@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_528.R
 \name{tempgen1}
 \alias{tempgen1}
-\title{tempgen1}
+\title{Greenhouse effect danger to envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Greenhouse effect danger to envir
+tempgen1
 }
 \details{
 Question In general, do you think that a rise in the world's temperature caused by climate change is…

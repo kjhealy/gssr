@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_336.R
 \name{ignorwk}
 \alias{ignorwk}
-\title{ignorwk}
+\title{Feel ignored at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel ignored at work
+ignorwk
 }
 \details{
 Question I have felt ignored, excluded or isolated from others at work. Often, sometimes, rarely, never.

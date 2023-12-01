@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_508.R
 \name{homosex1}
 \alias{homosex1}
-\title{homosex1}
+\title{Is homosexual sex wrong?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is homosexual sex wrong?
+homosex1
 }
 \details{
 Question 1374c. And what about sexual relations between two adults of the same sex, is it. . .

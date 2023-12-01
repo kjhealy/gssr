@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_623.R
 \name{libathy}
 \alias{libathy}
-\title{libathy}
+\title{Allow anti-religionist to teach y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow anti-religionist to teach y
+libathy
 }
 \details{
 Question (There are always some people whose ideas are considered bad or dangerous by other people. For instance, somebody who is against all churches and religion...) If some people in your community suggested that a book this person wrote against churches and religion should be taken out of your public library, would you favor removing this book, or not? VERSION Y

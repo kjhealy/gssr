@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_417.R
 \name{yearbiz}
 \alias{yearbiz}
-\title{yearbiz}
+\title{Year business started}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Year business started
+yearbiz
 }
 \details{
 Question None

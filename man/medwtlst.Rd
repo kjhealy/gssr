@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_648.R
 \name{medwtlst}
 \alias{medwtlst}
-\title{medwtlst}
+\title{Couldn't get care because waitlist too long}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Couldn't get care because waitlist too long
+medwtlst
 }
 \details{
 Question (During the past 12 months did it ever happen that you did not get the medical treatment you needed because...) The waiting list was too long?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_236.R
 \name{artwhy8}
 \alias{artwhy8}
-\title{artwhy8}
+\title{Was there another major reason in decision to attend exhibit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was there another major reason in decision to attend exhibit
+artwhy8
 }
 \details{
 Question People attend exhibits for different reasons. H. Was there some other major reason for your decision to attend that is not shown on the card?

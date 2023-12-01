@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_643.R
 \name{prntcre}
 \alias{prntcre}
-\title{prntcre}
+\title{Mother vs father daily child care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother vs father daily child care
+prntcre
 }
 \details{
 Question (In your opinion, which parent should do the following? Who should...) ...take care of the child on a daily basis?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_381.R
 \name{inteduc}
 \alias{inteduc}
-\title{inteduc}
+\title{Interested in local school issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested in local school issues
+inteduc
 }
 \details{
 Question Local school issues. (Are you very interested, moderately interested, or not at all interested?)

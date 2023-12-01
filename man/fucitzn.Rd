@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_576.R
 \name{fucitzn}
 \alias{fucitzn}
-\title{fucitzn}
+\title{Is r planning/appling for us citizenship or not}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r planning/appling for us citizenship or not
+fucitzn
 }
 \details{
 Question Are you...

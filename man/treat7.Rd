@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_296.R
 \name{treat7}
 \alias{treat7}
-\title{treat7}
+\title{R seek treat pain interfere with work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R seek treat pain interfere with work
+treat7
 }
 \details{
 Question 842. Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not. g. Having pain interfere with your normal work, including both work outside the home and housework?

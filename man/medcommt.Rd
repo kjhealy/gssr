@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_648.R
 \name{medcommt}
 \alias{medcommt}
-\title{medcommt}
+\title{Couldn't get care because work/oth commitments}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Couldn't get care because work/oth commitments
+medcommt
 }
 \details{
 Question (During the past 12 months did it ever happen that you did not get the medical treatment you needed because...) You could not take the time off work or had other commitments?

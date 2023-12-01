@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_169.R
 \name{sbdeg}
 \alias{sbdeg}
-\title{sbdeg}
+\title{Highest schl grade of selected r sibling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Highest schl grade of selected r sibling
+sbdeg
 }
 \details{
 Question 510a. Did (s/he) ever get a high school diploma or a GED certificate?

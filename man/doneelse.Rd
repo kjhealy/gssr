@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_423.R
 \name{doneelse}
 \alias{doneelse}
-\title{doneelse}
+\title{Specify what it is r has done}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Specify what it is r has done
+doneelse
 }
 \details{
 Question None

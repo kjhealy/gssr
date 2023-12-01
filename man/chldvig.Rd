@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_327.R
 \name{chldvig}
 \alias{chldvig}
-\title{chldvig}
+\title{Vignette asked}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vignette asked
+chldvig
 }
 \details{
 Question 938. Vignette number given to respondent.

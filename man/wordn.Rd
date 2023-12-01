@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_643.R
 \name{wordn}
 \alias{wordn}
-\title{wordn}
+\title{Word n}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Word n
+wordn
 }
 \details{
 Question Please indicate the word that comes closest to the meaning of the word in capital letters. RECIPROCAL

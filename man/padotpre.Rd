@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_19.R
 \name{padotpre}
 \alias{padotpre}
-\title{padotpre}
+\title{Fa. temme prestige scale}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fa. temme prestige scale
+padotpre
 }
 \details{
 Question None

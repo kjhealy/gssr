@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_625.R
 \name{raceacs9}
 \alias{raceacs9}
-\title{raceacs9}
+\title{Vietnamese}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vietnamese
+raceacs9
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. Vietnamese

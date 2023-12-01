@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_289.R
 \name{jobonwww}
 \alias{jobonwww}
-\title{jobonwww}
+\title{Times r sought job information from internet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Times r sought job information from internet
+jobonwww
 }
 \details{
 Question Please tell me how many times you tried to find such information from... i. Information posted on the Internet (World Wide Web)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_347.R
 \name{typprof}
 \alias{typprof}
-\title{typprof}
+\title{R belongs to more than one professional societies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one professional societies
+typprof
 }
 \details{
 Question 1024n. Do you belong to more than one professional or academic society?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_62.R
 \name{jobrise}
 \alias{jobrise}
-\title{jobrise}
+\title{Opportunity for advancement}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opportunity for advancement
+jobrise
 }
 \details{
 Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? GOOD OPPORTUNITIES FOR ADVANCEMENT

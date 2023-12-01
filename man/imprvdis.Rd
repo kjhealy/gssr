@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_328.R
 \name{imprvdis}
 \alias{imprvdis}
-\title{imprvdis}
+\title{Situation will improve with strict discipline}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Situation will improve with strict discipline
+imprvdis
 }
 \details{
 Question 942j. In your opinion, how likely is it that this youth's/child's situation will improve with strict discipline?

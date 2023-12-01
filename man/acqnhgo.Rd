@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_398.R
 \name{acqnhgo}
 \alias{acqnhgo}
-\title{acqnhgo}
+\title{Number of regular church attendee in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of regular church attendee in neighborhood
+acqnhgo
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. k. How many are you pretty certain attend religious services on a regular basis?

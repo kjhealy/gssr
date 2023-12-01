@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_447.R
 \name{cutdebt}
 \alias{cutdebt}
-\title{cutdebt}
+\title{Should the government cut debt?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should the government cut debt?
+cutdebt
 }
 \details{
 Question 1198. Suppose the level of taxation in America stays the same as it is now. Should the government...

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_451.R
 \name{sistime}
 \alias{sistime}
-\title{sistime}
+\title{Travel time to sister}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Travel time to sister
+sistime
 }
 \details{
 Question 1201b. About how long would it take you to get to where your sister lives? Think of the time it usually takes door to door.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_577.R
 \name{vetkind}
 \alias{vetkind}
-\title{vetkind}
+\title{Branch of service}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Branch of service
+vetkind
 }
 \details{
 Question 1604a. In what branch of the service was that?

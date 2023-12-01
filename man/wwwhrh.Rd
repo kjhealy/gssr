@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_281.R
 \name{wwwhrh}
 \alias{wwwhrh}
-\title{wwwhrh}
+\title{Hours per week use computer www}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per week use computer www
+wwwhrh
 }
 \details{
 Question 801. About how many minutes or hours a week do you use your home computer for each of the following: e. Using the World Wide Web (other than for email)?

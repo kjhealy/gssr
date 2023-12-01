@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_257.R
 \name{hispwork}
 \alias{hispwork}
-\title{hispwork}
+\title{How many people hispanic at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people hispanic at work
+hispwork
 }
 \details{
 Question 756. How many of the people who work where you work are Hispanic? Are all Hispanic, almost all Hispanic, most Hispanic, about half Hispanic, most not Hispanic, almost none Hispanic, or are none Hispanic?

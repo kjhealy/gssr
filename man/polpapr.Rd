@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_277.R
 \name{polpapr}
 \alias{polpapr}
-\title{polpapr}
+\title{R sought political information daily newspaper}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sought political information daily newspaper
+polpapr
 }
 \details{
 Question 795. If YES, please tell me if you looked for such candidate information from: a. Articles in a daily newspaper

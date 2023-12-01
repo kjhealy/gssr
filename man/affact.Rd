@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_133.R
 \name{affact}
 \alias{affact}
-\title{affact}
+\title{R's firm has aff. action program}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's firm has aff. action program
+affact
 }
 \details{
 Question 413. Does the place where you work have an affirmative action program or make any special effort to hire and promote

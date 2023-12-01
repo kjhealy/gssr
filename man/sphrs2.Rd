@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_04.R
 \name{sphrs2}
 \alias{sphrs2}
-\title{sphrs2}
+\title{No. of hrs spouse usually works a week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-No. of hrs spouse usually works a week
+sphrs2
 }
 \details{
 Question 5b. If with a job, but not at work: How many hours a week does (he/she) usually work, at all jobs?

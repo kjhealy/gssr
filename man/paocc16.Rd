@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_06.R
 \name{paocc16}
 \alias{paocc16}
-\title{paocc16}
+\title{Father's census occupation code (1970)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's census occupation code (1970)
+paocc16
 }
 \details{
 Question 8a. What kind of work did your father \link{FATHER SUBSTITUTE} normally do while you were growing up? That is, what was his job called? b. What did he actually do in that job? Tell me, what were some of his main duties?

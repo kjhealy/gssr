@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_244.R
 \name{hmo6}
 \alias{hmo6}
-\title{hmo6}
+\title{Hmo take medical decisions from physicians}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hmo take medical decisions from physicians
+hmo6
 }
 \details{
 Question 721. The health care system is changing rapidly with more and more people being treated in Health Maintenance Organizations (or HMOs) and in managed care plans. How much do you agree or disagree with how the HMOs and managed care plans are working? f. They take important medical decisions out of the hands of physicians

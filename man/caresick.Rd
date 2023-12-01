@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_484.R
 \name{caresick}
 \alias{caresick}
-\title{caresick}
+\title{Who in household cares for sick in family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who in household cares for sick in family
+caresick
 }
 \details{
 Question 1306. In your household who does the following things: c. Care for sick family members

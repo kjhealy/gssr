@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_267.R
 \name{abort12}
 \alias{abort12}
-\title{abort12}
+\title{Past 12 months r web to learn abortion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Past 12 months r web to learn abortion
+abort12
 }
 \details{
 Question 775. In the past 12 months, have you used the Web to find out about or discuss: b. Abortion issues?

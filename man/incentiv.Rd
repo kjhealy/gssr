@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{incentiv}
 \alias{incentiv}
-\title{incentiv}
+\title{Pay differences needed for motivation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pay differences needed for motivation
+incentiv
 }
 \details{
 Question 1252. Some people earn a lot of money while others do not earn very much at all. In order to get people to work hard, do you think large differences in pay are . . .

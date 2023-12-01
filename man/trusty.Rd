@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_50.R
 \name{trusty}
 \alias{trusty}
-\title{trusty}
+\title{Can people be trusted-version y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Can people be trusted-version y
+trusty
 }
 \details{
 Question 163b. Do you think most people can be trusted?

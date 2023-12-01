@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_427.R
 \name{marunion}
 \alias{marunion}
-\title{marunion}
+\title{Legal marital status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Legal marital status
+marunion
 }
 \details{
 Question What is your current legal marital status?

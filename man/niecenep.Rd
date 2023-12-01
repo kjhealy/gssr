@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_457.R
 \name{niecenep}
 \alias{niecenep}
-\title{niecenep}
+\title{How often does r contact nieces and nephews}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r contact nieces and nephews
+niecenep
 }
 \details{
 Question 1230. Now some questions about your contact with other relatives. Please indicate how often you have been in contact with any of the following types of relatives in the last four weeks. e. Nieces and nephews

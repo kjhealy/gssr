@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_472.R
 \name{govedop}
 \alias{govedop}
-\title{govedop}
+\title{Govmnt should help poor attend college}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govmnt should help poor attend college
+govedop
 }
 \details{
 Question 1256. Do you agree or disagree: c. The government should provide more chances for children from poor families to go to college.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_193.R
 \name{newowned}
 \alias{newowned}
-\title{newowned}
+\title{Was the home new or previously owned?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was the home new or previously owned?
+newowned
 }
 \details{
 Question 600. Was th home new or previously owned?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_249.R
 \name{socsecfx}
 \alias{socsecfx}
-\title{socsecfx}
+\title{How serious is social securities problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How serious is social securities problem
+socsecfx
 }
 \details{
 Question 729. Please tell me which of the following statements comes closest to your opinion about the Social Security program: 1. The Social Security program has no serious problems, certainly none that require changing the current system. 2. Social Security has minor problems that can be fixed with minor changes to the current system. 3. Social Security's problems are serious and can be fixed only with the major changes to the current system. 4. Social Security's problems are so bad that the current system should be replaced.

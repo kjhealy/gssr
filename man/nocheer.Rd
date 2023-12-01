@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_229.R
 \name{nocheer}
 \alias{nocheer}
-\title{nocheer}
+\title{In past 30 days feel sad}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In past 30 days feel sad
+nocheer
 }
 \details{
 Question 682. In the past 30 days, about how often did you feel: a. So sad nothing could cheer you up

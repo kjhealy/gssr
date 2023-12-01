@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_358.R
 \name{mtvet2}
 \alias{mtvet2}
-\title{mtvet2}
+\title{Veteran group2 meets in this area}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Veteran group2 meets in this area
+mtvet2
 }
 \details{
 Question 1027c. Does the veterans' group meet in this area?

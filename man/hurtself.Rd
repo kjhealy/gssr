@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_212.R
 \name{hurtself}
 \alias{hurtself}
-\title{hurtself}
+\title{How likely x violent toward oneself}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x violent toward oneself
+hurtself
 }
 \details{
 Question 658. In your opinion, how likely is it NAME would do something violent toward him/herself (suicide, not eating, wandering in traffic, self-mutilation)? Is it:

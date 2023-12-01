@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_401.R
 \name{acqvalib}
 \alias{acqvalib}
-\title{acqvalib}
+\title{Number of liberal in voluntary association}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of liberal in voluntary association
+acqvalib
 }
 \details{
 Question 1107. Next, we are going to ask about people that you are acquainted with through schools, clubs, associations, or places of worship. m. How many are you pretty certain are strongly liberal?

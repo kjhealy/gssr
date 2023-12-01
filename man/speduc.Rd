@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_10.R
 \name{speduc}
 \alias{speduc}
-\title{speduc}
+\title{Highest year school completed, spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Highest year school completed, spouse
+speduc
 }
 \details{
 Question 18. What is the highest grade in elementary school or high school that your husband/wife finished and got credit for?

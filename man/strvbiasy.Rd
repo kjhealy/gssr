@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_636.R
 \name{strvbiasy}
 \alias{strvbiasy}
-\title{strvbiasy}
+\title{Bigger priority for criminal justice system}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Bigger priority for criminal justice system
+strvbiasy
 }
 \details{
 Question None

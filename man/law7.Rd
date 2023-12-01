@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_565.R
 \name{law7}
 \alias{law7}
-\title{law7}
+\title{Your child arrested}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Your child arrested
+law7
 }
 \details{
 Question F. Next, did any of the following criminal or legal events occur to you since (CURRENT MONTH), 2003... 7. Your child was arrested or got in trouble with the law.

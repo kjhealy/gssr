@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_104.R
 \name{talkpol}
 \alias{talkpol}
-\title{talkpol}
+\title{How often does r discuss politics?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r discuss politics?
+talkpol
 }
 \details{
 Question 326. Thinking of the \link{people/person} we've just been discussing, would hou say you discuss social and political issues with \link{him/her/them} almost all the time, most of the time, occasionally, or almost never?

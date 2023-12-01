@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_281.R
 \name{emhrh}
 \alias{emhrh}
-\title{emhrh}
+\title{Hours per week use computer email}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per week use computer email
+emhrh
 }
 \details{
 Question 801. About how many minutes or hours a week do you use your home computer for each of the following: d. Sending or receiving e-mail?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_487.R
 \name{tiredhme}
 \alias{tiredhme}
-\title{tiredhme}
+\title{Come home from work too tired to do the chores}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Come home from work too tired to do the chores
+tiredhme
 }
 \details{
 Question 1316. How often has each of the following happened to you during the past three months? a. I have come home from work too tired to do the chores which need to be done.

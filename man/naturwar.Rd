@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_520.R
 \name{naturwar}
 \alias{naturwar}
-\title{naturwar}
+\title{Nature is survival of fittest}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nature is survival of fittest
+naturwar
 }
 \details{
 Question 1411. How much do you agree or disagree with each of the following statements? e. Nature is really a fierce struggle for survival of the fittest.

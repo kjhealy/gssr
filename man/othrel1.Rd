@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_580.R
 \name{othrel1}
 \alias{othrel1}
-\title{othrel1}
+\title{What type of religious events or meetings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What type of religious events or meetings
+othrel1
 }
 \details{
 Question 1617. \link{Besides the regular, weekly worship service}, what type of religious events or meetings did you attend during the last seven days?

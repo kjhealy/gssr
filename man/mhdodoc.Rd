@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_408.R
 \name{mhdodoc}
 \alias{mhdodoc}
-\title{mhdodoc}
+\title{What x should do: go to doctor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: go to doctor
+mhdodoc
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? d. Go to a doctor

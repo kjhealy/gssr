@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_169.R
 \name{sbwrkslf}
 \alias{sbwrkslf}
-\title{sbwrkslf}
+\title{R sibling self-employed?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sibling self-employed?
+sbwrkslf
 }
 \details{
 Question 514e. (is/was) (he/she) self employed or (does/did) (he/she) work for someone else?

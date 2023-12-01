@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_372.R
 \name{screlig}
 \alias{screlig}
-\title{screlig}
+\title{How well religious leaders understand stem cells}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well religious leaders understand stem cells
+screlig
 }
 \details{
 Question 1059. Here is another public issue: research that uses human embryonic stem cells. These are cells from human embryos that can develop into many different types of tissue. Some say that cells taken from human embryos are uniquely valuable in medical research. Others say that the same discoveries can be made without destroying living embryos. Please look at Card B6. (On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All"), how well do the following groups understand stem cell research? b. Religious leaders

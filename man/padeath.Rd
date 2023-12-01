@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_83.R
 \name{padeath}
 \alias{padeath}
-\title{padeath}
+\title{Death of father}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Death of father
+padeath
 }
 \details{
 Question 275a. Death of respondent's father.

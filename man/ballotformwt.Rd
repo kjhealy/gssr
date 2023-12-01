@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_640.R
 \name{ballotformwt}
 \alias{ballotformwt}
-\title{ballotformwt}
+\title{NA}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-NA
+ballotformwt
 }
 \details{
 Question None

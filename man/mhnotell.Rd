@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_413.R
 \name{mhnotell}
 \alias{mhnotell}
-\title{mhnotell}
+\title{X should feel afraid to tell about his situation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should feel afraid to tell about his situation
+mhnotell
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. q. \link{NAME} should feel afraid to tell others about (his/her) situation.

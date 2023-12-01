@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_69.R
 \name{divlaw}
 \alias{divlaw}
-\title{divlaw}
+\title{Divorce laws}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Divorce laws
+divlaw
 }
 \details{
 Question 215a. Should divorce in this country be easier or more difficult to obtain than it is now?

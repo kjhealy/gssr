@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_06.R
 \name{sppres10}
 \alias{sppres10}
-\title{sppres10}
+\title{Spouse occupational prestige score (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse occupational prestige score (2010)
+sppres10
 }
 \details{
 Question None

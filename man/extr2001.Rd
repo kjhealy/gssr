@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_321.R
 \name{extr2001}
 \alias{extr2001}
-\title{extr2001}
+\title{Did r receive perf based payment in 2001}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r receive perf based payment in 2001
+extr2001
 }
 \details{
 Question 920. Did you receive any of these performance-based payments in the year 2001?

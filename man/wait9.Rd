@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_298.R
 \name{wait9}
 \alias{wait9}
-\title{wait9}
+\title{How long r wait treatment lack of energy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long r wait treatment lack of energy
+wait9
 }
 \details{
 Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? i. Not having lots of energy?

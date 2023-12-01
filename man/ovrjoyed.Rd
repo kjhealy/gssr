@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_183.R
 \name{ovrjoyed}
 \alias{ovrjoyed}
-\title{ovrjoyed}
+\title{Felt overjoyed about something?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Felt overjoyed about something?
+ovrjoyed
 }
 \details{
 Question 572. Now I'm going to read a list of different feelings that people sometimes have. After each one, I would like you to tell me on how many days you have felt this way during the past 7 days. j. Felt overjoyed about something?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_475.R
 \name{ldctax}
 \alias{ldctax}
-\title{ldctax}
+\title{Rich countries pay tax to help poor countries}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rich countries pay tax to help poor countries
+ldctax
 }
 \details{
 Question 1266. Turning to international differences, do you agree or disagree: b. People in wealthy countries should make an additional tax contribution to help people in poor countries.

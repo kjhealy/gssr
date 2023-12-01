@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_337.R
 \name{liedcwkr}
 \alias{liedcwkr}
-\title{liedcwkr}
+\title{Lied to at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Lied to at work
+liedcwkr
 }
 \details{
 Question I have been lied to by co-workers or supervisors. Often, sometimes, rarely, never.

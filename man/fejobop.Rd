@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_437.R
 \name{fejobop}
 \alias{fejobop}
-\title{fejobop}
+\title{Job opportunities for women}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job opportunities for women
+fejobop
 }
 \details{
 Question 1170. How about job opportunities for women -- do you think they are, in general, better or worse than job opportunities for men with similar education and experience?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_247.R
 \name{proz1}
 \alias{proz1}
-\title{proz1}
+\title{Prozac is harmful to the body}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prozac is harmful to the body
+proz1
 }
 \details{
 Question 725. How much do you agree or disagree with the following statements? a. Prozac is harmful to the body

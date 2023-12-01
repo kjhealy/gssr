@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_46.R
 \name{racname}
 \alias{racname}
-\title{racname}
+\title{Preferred racial name}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Preferred racial name
+racname
 }
 \details{
 Question 139. Which would you most like to be called: black, negro, colored, or Afro-American, or does it make any difference?

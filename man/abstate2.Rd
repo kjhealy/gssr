@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_315.R
 \name{abstate2}
 \alias{abstate2}
-\title{abstate2}
+\title{Change abortion laws in r's state to make it easier or harder to get an abortion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Change abortion laws in r's state to make it easier or harder to get an abortion
+abstate2
 }
 \details{
 Question Here in \link{CURRENT STATE}, do you think that laws should be changed to make it easier for a woman to get an abortion, be changed to make it harder for a woman to get an abortion, or should the laws stay as they are now?

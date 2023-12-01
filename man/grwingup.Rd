@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_330.R
 \name{grwingup}
 \alias{grwingup}
-\title{grwingup}
+\title{Is child experiencing normal ups and downs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is child experiencing normal ups and downs
+grwingup
 }
 \details{
 Question 951. In your opinion, how likely is it that (John/Mary) is experiencing part of the normal ups and downs of growing up -- very likely, somewhat likely, not very likely, or not at all likely?

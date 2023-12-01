@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_530.R
 \name{amfeel}
 \alias{amfeel}
-\title{amfeel}
+\title{How important to feel american}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important to feel american
+amfeel
 }
 \details{
 Question 1439. Some people say the following things are important for being truly American. Others say they are not important. How important do you think each of the following is... g. To feel American

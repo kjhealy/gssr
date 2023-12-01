@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_118.R
 \name{doubts4}
 \alias{doubts4}
-\title{doubts4}
+\title{Has feeling of meaninglessness caused doubt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has feeling of meaninglessness caused doubt
+doubts4
 }
 \details{
 Question 378. How often have these problems caused doubts about your religious faith? d. Feeling that life really has no meaning.

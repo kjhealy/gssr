@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_523.R
 \name{watergen}
 \alias{watergen}
-\title{watergen}
+\title{Water pollution danger to envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Water pollution danger to envir
+watergen
 }
 \details{
 Question 1421a. In general, do you think that pollution of America's rivers, lakes, and streams is...

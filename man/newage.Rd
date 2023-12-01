@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_148.R
 \name{newage}
 \alias{newage}
-\title{newage}
+\title{Like or dislike new age music}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Like or dislike new age music
+newage
 }
 \details{
 Question 472. I'm going to read you a list of some types of music. Can you tell me which of the statements on this card comes closest to your feeling about each type of music. l. New age/space music

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_229.R
 \name{hopeless}
 \alias{hopeless}
-\title{hopeless}
+\title{In past 30 days feel hopeless}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In past 30 days feel hopeless
+hopeless
 }
 \details{
 Question 682. In the past 30 days, about how often did you feel: d. Hopeless

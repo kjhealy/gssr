@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_279.R
 \name{inperson}
 \alias{inperson}
-\title{inperson}
+\title{How many people seen in person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people seen in person
+inperson
 }
 \details{
 Question 798. Of these__________friends and relatives, about how many do you stay in contact with by: a. Seeing them socially, face-to-face?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_13.R
 \name{cobarate}
 \alias{cobarate}
-\title{cobarate}
+\title{Rate of ba degree earning at college partner attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rate of ba degree earning at college partner attended
+cobarate
 }
 \details{
 Question None

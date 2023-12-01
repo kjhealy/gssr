@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_427.R
 \name{evkid}
 \alias{evkid}
-\title{evkid}
+\title{Have ever given birth to/fathered a child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have ever given birth to/fathered a child
+evkid
 }
 \details{
 Question Have you ever {response to evkidtxt} a child?

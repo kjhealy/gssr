@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_595.R
 \name{maisc681}
 \alias{maisc681}
-\title{maisc681}
+\title{R's mothers occupation, 1980 census}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's mothers occupation, 1980 census
+maisc681
 }
 \details{
 Question 1640. Occupation of respondent's mother (International Standard Classification Codes-1968)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_500.R
 \name{rintjob}
 \alias{rintjob}
-\title{rintjob}
+\title{R's job is interesting}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's job is interesting
+rintjob
 }
 \details{
 Question 1335. For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. e. My job is interesting

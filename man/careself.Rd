@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_324.R
 \name{careself}
 \alias{careself}
-\title{careself}
+\title{Those in need have to take care of themselves}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Those in need have to take care of themselves
+careself
 }
 \details{
 Question 929. Please tell me whether you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree with the following statements: b. Those in need have to learn to take care of themselves and not depend on others

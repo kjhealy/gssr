@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_18.R
 \name{dotthng}
 \alias{dotthng}
-\title{dotthng}
+\title{D.o.t. code - relation to things}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-D.o.t. code - relation to things
+dotthng
 }
 \details{
 Question None

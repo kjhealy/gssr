@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_477.R
 \name{housewrk}
 \alias{housewrk}
-\title{housewrk}
+\title{Being housewife as fulfilling as paid work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Being housewife as fulfilling as paid work
+housewrk
 }
 \details{
 Question 1275. Do you agree or disagree: f. Being a housewife is just as fulfilling as working for pay.

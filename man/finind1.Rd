@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_325.R
 \name{finind1}
 \alias{finind1}
-\title{finind1}
+\title{Aged should be financially independent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Aged should be financially independent
+finind1
 }
 \details{
 Question 930a. By what age should this normally occur?

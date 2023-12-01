@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_314.R
 \name{hlthmntl}
 \alias{hlthmntl}
-\title{hlthmntl}
+\title{R's mental health, mood, and ability to think}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's mental health, mood, and ability to think
+hlthmntl
 }
 \details{
 Question C. In general, how would you rate your mental health, including your mood and your ability to think?

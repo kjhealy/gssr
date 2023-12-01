@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_191.R
 \name{newused}
 \alias{newused}
-\title{newused}
+\title{Was the car new or used?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was the car new or used?
+newused
 }
 \details{
 Question 592. Was the car new or used?

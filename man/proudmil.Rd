@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_531.R
 \name{proudmil}
 \alias{proudmil}
-\title{proudmil}
+\title{How proud america's armed forces}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How proud america's armed forces
+proudmil
 }
 \details{
 Question 1441. How proud are you of America in each of the following? h. America's armed forces

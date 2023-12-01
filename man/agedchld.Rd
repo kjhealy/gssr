@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_59.R
 \name{agedchld}
 \alias{agedchld}
-\title{agedchld}
+\title{Should grown children live with parents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should grown children live with parents
+agedchld
 }
 \details{
 Question C. As you know, many grown children move back home to live with their parents. Do you think this is generally a good idea or a bad idea?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_194.R
 \name{relagent}
 \alias{relagent}
-\title{relagent}
+\title{Your relationship to the real estate agent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Your relationship to the real estate agent
+relagent
 }
 \details{
 Question 604. Which of the following best describes your relationship to the real estate agent with whom you worked in your purchase of the home or to the owner of the real estate agency?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_14.R
 \name{mawkborn}
 \alias{mawkborn}
-\title{mawkborn}
+\title{Mothers employment after r was born}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers employment after r was born
+mawkborn
 }
 \details{
 Question 28b. Did she work as long as a year after you were born and before you started first grade?

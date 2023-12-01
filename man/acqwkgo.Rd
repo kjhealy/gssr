@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_400.R
 \name{acqwkgo}
 \alias{acqwkgo}
-\title{acqwkgo}
+\title{Number of regular church attendee in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of regular church attendee in current or previous work
+acqwkgo
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. k. How many are you pretty certain attend religious services on a regular basis?

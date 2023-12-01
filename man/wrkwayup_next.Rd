@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_653.R
 \name{wrkwayup_next}
 \alias{wrkwayup_next}
-\title{wrkwayup_next}
+\title{Blacks overcome prejudice without favors - follow-on version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Blacks overcome prejudice without favors - follow-on version
+wrkwayup_next
 }
 \details{
 Question Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with the following statements? Irish, Italian, Jewish and many other minorities overcame prejudice and worked their way up. Black people should do

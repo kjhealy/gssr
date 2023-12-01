@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_532.R
 \name{amownway}
 \alias{amownway}
-\title{amownway}
+\title{America should follow its own interests}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-America should follow its own interests
+amownway
 }
 \details{
 Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? d. America should follow its own interests, even if this leads to conflicts with other nations

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_332.R
 \name{zombies}
 \alias{zombies}
-\title{zombies}
+\title{Med for behavior problems turn kids into zombies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Med for behavior problems turn kids into zombies
+zombies
 }
 \details{
 Question 954. Now, I'd like to ask you for your opinions on several issues. For each question, please tell me if you strongly agree, agree somewhat, disagree somewhat or strongly disagree with the statement. f. Medications for children with behavior problems turn kids into zombies.

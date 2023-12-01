@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_277.R
 \name{polinfo}
 \alias{polinfo}
-\title{polinfo}
+\title{R sought political information past 2 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sought political information past 2 years
+polinfo
 }
 \details{
 Question 794. In the past two years, that is, between (INSERT CURRENT MONTH) 1998 and (INSERT CURRENT MONTH) 2000� have you looked for information about the views or background of a candidate for political office?

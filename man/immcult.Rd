@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_536.R
 \name{immcult}
 \alias{immcult}
-\title{immcult}
+\title{Immigrants undermine american culture}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immigrants undermine american culture
+immcult
 }
 \details{
 Question How much do you agree of disagree with the following statements? B. American culture is generally undermined by immigrants.

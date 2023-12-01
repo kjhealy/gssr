@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_333.R
 \name{medunacc}
 \alias{medunacc}
-\title{medunacc}
+\title{Med for mental health problem often have side of}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Med for mental health problem often have side of
+medunacc
 }
 \details{
 Question 961. Please tell me how much you agree or disagree with the following statements about medicines prescribed by doctors that are intended to help people who are having problems with their emotions, nerves or their mental health. d. These medications often have unacceptable side effects

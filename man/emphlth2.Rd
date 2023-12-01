@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_428.R
 \name{emphlth2}
 \alias{emphlth2}
-\title{emphlth2}
+\title{Employers coverage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Employers coverage
+emphlth2
 }
 \details{
 Question Which of the following statements best describes your employer�s coverage:

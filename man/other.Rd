@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_34.R
 \name{other}
 \alias{other}
-\title{other}
+\title{Other protestant denominations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other protestant denominations
+other
 }
 \details{
 Question None

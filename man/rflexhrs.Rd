@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_500.R
 \name{rflexhrs}
 \alias{rflexhrs}
-\title{rflexhrs}
+\title{R's job has flexible hrs.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's job has flexible hrs.
+rflexhrs
 }
 \details{
 Question 1335. For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. i. My job has flexible working hours

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_414.R
 \name{mhgvtjob}
 \alias{mhgvtjob}
-\title{mhgvtjob}
+\title{Govt responsibility: provide job for x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt responsibility: provide job for x
+mhgvtjob
 }
 \details{
 Question 1142. The next few questions deal with the government's responsibility to help people like \link{NAME}. For each statement please tell me if you think the government definitely should, probably should, probably should not, or definitely should not be responsible for helping people with situations like \link{NAME}. a. First, provide a job for \link{NAME} if \link{NAME} wants one.

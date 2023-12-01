@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_347.R
 \name{typschl}
 \alias{typschl}
-\title{typschl}
+\title{R belongs to more than one school service groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one school service groups
+typschl
 }
 \details{
 Question 1024h. Do you belong to more than one school service club?

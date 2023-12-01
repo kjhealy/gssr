@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_49.R
 \name{hapmar}
 \alias{hapmar}
-\title{hapmar}
+\title{Happiness of marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Happiness of marriage
+hapmar
 }
 \details{
 Question 158. Taking all things together, how would you describe your marriage?

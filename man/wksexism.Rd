@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_310.R
 \name{wksexism}
 \alias{wksexism}
-\title{wksexism}
+\title{R feels discriminated because of gender}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R feels discriminated because of gender
+wksexism
 }
 \details{
 Question 902. Do you feel in any way discriminated against on your job because of your gender?

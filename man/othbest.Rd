@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_253.R
 \name{othbest}
 \alias{othbest}
-\title{othbest}
+\title{What language other than english does r speak b}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What language other than english does r speak b
+othbest
 }
 \details{
 Question 739d. Which of these languages other than English do you speak most fluently?

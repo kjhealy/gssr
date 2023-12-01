@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_175.R
 \name{workimm}
 \alias{workimm}
-\title{workimm}
+\title{Are legal immigrants hard working}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Are legal immigrants hard working
+workimm
 }
 \details{
 Question 540. Now I have some questions about different groups in our socieety. I'm going to show you a seven-point scale on which the characteristics of people in a group can be rated. A score of 1 means that you think almost all of the people in that group are "hard working." A score of 7 means that you think almost everyone in the group are "lazy." A score of 4 means that you think that the group is not towards one end or the other, and of course you may choose any number in between that comes closest to where you think people in the group stand. b1. Legal immigrants

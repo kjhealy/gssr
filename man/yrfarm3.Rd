@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_354.R
 \name{yrfarm3}
 \alias{yrfarm3}
-\title{yrfarm3}
+\title{How many years r born a member of farm organization3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years r born a member of farm organization3
+yrfarm3
 }
 \details{
 Question 1026l. How many years have you been a member of \link{FARM ORGANIZATION}?

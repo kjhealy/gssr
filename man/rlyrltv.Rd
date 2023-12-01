@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_644.R
 \name{rlyrltv}
 \alias{rlyrltv}
-\title{rlyrltv}
+\title{Rely on friends or close relatives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rely on friends or close relatives
+rlyrltv
 }
 \details{
 Question People have different opinions about who you can rely on and who should be important to you. While some people think that you can rely more on close relatives, others think that you can rely more on close friends. Which view is closer to your opinion?

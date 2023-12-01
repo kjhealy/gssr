@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_83.R
 \name{sibdeath}
 \alias{sibdeath}
-\title{sibdeath}
+\title{Death of sibling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Death of sibling
+sibdeath
 }
 \details{
 Question 275d. Death of sibling or sibling-in-law.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_653.R
 \name{neastatus}
 \alias{neastatus}
-\title{neastatus}
+\title{Nea follow-on status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nea follow-on status
+neastatus
 }
 \details{
 Question None

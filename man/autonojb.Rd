@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_424.R
 \name{autonojb}
 \alias{autonojb}
-\title{autonojb}
+\title{R heard of persons in r's firm having jobs replaced by computers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R heard of persons in r's firm having jobs replaced by computers
+autonojb
 }
 \details{
 Question None

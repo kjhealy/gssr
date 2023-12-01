@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_245.R
 \name{doc10}
 \alias{doc10}
-\title{doc10}
+\title{Doctors recommend surgery if no other way}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctors recommend surgery if no other way
+doc10
 }
 \details{
 Question 722. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. j. Doctors never recommend surgery (an operation) unless there is no other way to solve the problem.

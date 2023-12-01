@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_105.R
 \name{frndknow}
 \alias{frndknow}
-\title{frndknow}
+\title{How many of r's friends know each other?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many of r's friends know each other?
+frndknow
 }
 \details{
 Question 327. Some people have friends who mostly know one another. Other people have friends who don't know one another. Would you say that all of your friends know one another, most of your friends know one another, only a few of your friends know one another, or none of your friends know one another?

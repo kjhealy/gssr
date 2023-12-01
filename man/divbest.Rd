@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_483.R
 \name{divbest}
 \alias{divbest}
-\title{divbest}
+\title{Divorce as best solution to marital problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Divorce as best solution to marital problems
+divbest
 }
 \details{
 Question 1299. Do you agree or disagree... Divorce is usually the best solution when a couple can't seem to work out their marriage problems.

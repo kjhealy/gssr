@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_329.R
 \name{chldsch}
 \alias{chldsch}
-\title{chldsch}
+\title{How willing r have child in same class of r's ch}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How willing r have child in same class of r's ch
+chldsch
 }
 \details{
 Question 943d. How willing would you be to have (John/Mary) in your child's class at school?

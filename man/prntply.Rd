@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_643.R
 \name{prntply}
 \alias{prntply}
-\title{prntply}
+\title{Mother vs father play with child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother vs father play with child
+prntply
 }
 \details{
 Question (In your opinion, which parent should do the following? Who should...) ...play with the child, and take part in his/her leisure activities?

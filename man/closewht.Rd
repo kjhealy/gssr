@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_49.R
 \name{closewht}
 \alias{closewht}
-\title{closewht}
+\title{How close feel to whites}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How close feel to whites
+closewht
 }
 \details{
 Question 154b. And in general, how close do you feel to whites?

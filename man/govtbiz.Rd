@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_525.R
 \name{govtbiz}
 \alias{govtbiz}
-\title{govtbiz}
+\title{Government do more for environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Government do more for environment
+govtbiz
 }
 \details{
 Question 1432b. And which of these two groups do you think is making more effort to look after the environment:

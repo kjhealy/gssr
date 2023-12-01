@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_433.R
 \name{ratetone}
 \alias{ratetone}
-\title{ratetone}
+\title{R's facial coloring by interviewer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's facial coloring by interviewer
+ratetone
 }
 \details{
 Question INTERVIEWER: PLEASE RECORD THE COLOR FROM THE COLOR CARD THAT MOST CLOSELY CORRESPONDS TO THE RESPONDENT'S FACIAL COLORING.

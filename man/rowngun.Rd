@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_76.R
 \name{rowngun}
 \alias{rowngun}
-\title{rowngun}
+\title{Does gun belong to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does gun belong to r
+rowngun
 }
 \details{
 Question 237b. Do any of these guns personally belong to you?

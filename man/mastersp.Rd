@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_39.R
 \name{mastersp}
 \alias{mastersp}
-\title{mastersp}
+\title{Contrast between master and spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contrast between master and spouse
+mastersp
 }
 \details{
 Question 114. There are many different ways of picturing God. We'd like to know the kinds of images you are most likely to associate with God. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of God between the two contrasting images? b. 1. Master 7. Spouse

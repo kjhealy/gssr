@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_239.R
 \name{samework}
 \alias{samework}
-\title{samework}
+\title{Worked at other site with similar product}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Worked at other site with similar product
+samework
 }
 \details{
 Question 700a. Please think about the (products made/services provided) at your work site. Have you worked at any other work site that (makes/provides) a similar kind of (products/services), i.e., similar by your perception?

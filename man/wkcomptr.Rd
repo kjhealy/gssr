@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_424.R
 \name{wkcomptr}
 \alias{wkcomptr}
-\title{wkcomptr}
+\title{Use computer at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use computer at work
+wkcomptr
 }
 \details{
 Question Now I'm going to ask you about computer use in your current job. Do you use a computer or computerized equipment at work?

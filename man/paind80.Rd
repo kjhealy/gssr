@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_07.R
 \name{paind80}
 \alias{paind80}
-\title{paind80}
+\title{Father's industry code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's industry code (1980)
+paind80
 }
 \details{
 Question 9. Father's occupation, prestige, and industry.

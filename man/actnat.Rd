@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_109.R
 \name{actnat}
 \alias{actnat}
-\title{actnat}
+\title{R active in nationality group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in nationality group
+actnat
 }
 \details{
 Question 330. Have you ever done any active work for the nationality groups? I mean been a leader, helped organize meetings, been an officer, or given time or money?

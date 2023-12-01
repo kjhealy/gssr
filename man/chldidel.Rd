@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_69.R
 \name{chldidel}
 \alias{chldidel}
-\title{chldidel}
+\title{Ideal number of children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ideal number of children
+chldidel
 }
 \details{
 Question 211. What do you think is the ideal number of children for a family to have?

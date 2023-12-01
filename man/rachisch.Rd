@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_46.R
 \name{rachisch}
 \alias{rachisch}
-\title{rachisch}
+\title{How integrated was r's high school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How integrated was r's high school
+rachisch
 }
 \details{
 Question 140. Was the high school you attended all black, integrated but mostly black, or integrated but mostly white?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_630.R
 \name{migrpoor}
 \alias{migrpoor}
-\title{migrpoor}
+\title{People from poor countries should be allowed to work in wealthy countries.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People from poor countries should be allowed to work in wealthy countries.
+migrpoor
 }
 \details{
 Question People from poor countries should be allowed to work in wealthy countries.

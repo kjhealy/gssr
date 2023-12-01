@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_534.R
 \name{nafta1}
 \alias{nafta1}
-\title{nafta1}
+\title{How much heard or read about nafta?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much heard or read about nafta?
+nafta1
 }
 \details{
 Question 1455. How much have you heard or read about the North American Free Trade Agreement or NAFTA?

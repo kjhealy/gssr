@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_483.R
 \name{divnokd1}
 \alias{divnokd1}
-\title{divnokd1}
+\title{Childless couples stay married even with problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Childless couples stay married even with problems
+divnokd1
 }
 \details{
 Question 1300. Do you agree or disagree: b. Even when there are no children, a married couple should stay together even if they don't get along.

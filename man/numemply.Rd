@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{numemply}
 \alias{numemply}
-\title{numemply}
+\title{Number of persons r employs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of persons r employs
+numemply
 }
 \details{
 Question 1349. How many people do you employ (include part-time and full-time employees?)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_90.R
 \name{jobtrain}
 \alias{jobtrain}
-\title{jobtrain}
+\title{Obligation to train for civilian jobs?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Obligation to train for civilian jobs?
+jobtrain
 }
 \details{
 Question 302. Most people in the Armed Forces are taught skills they can use in civilian jobs later. But some don't get such training. They are taught only combat skills. Do you think the Armed Forces have an obligation to train everybody in service for civilian jobs later, or is that not a responsibility of the armed forces?

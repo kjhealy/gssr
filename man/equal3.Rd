@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_28.R
 \name{equal3}
 \alias{equal3}
-\title{equal3}
+\title{Govt shld insure jobs and stable prices}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt shld insure jobs and stable prices
+equal3
 }
 \details{
 Question 71. On these cards are some opinions about the government and the economy. For each one I'd like you to tell me whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. c. The government must see to it that everyone has a job and that prices are stable, even if the rights of businessmen have to be restricted.

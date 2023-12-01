@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_85.R
 \name{impchurh}
 \alias{impchurh}
-\title{impchurh}
+\title{Religion and church}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion and church
+impchurh
 }
 \details{
 Question 282. On these cards are various aspects of life. We would like to know how important each of these aspects of life is for you. On each of these cards you see on teh right hand side a scale with seven points. The lowest point with number 1 indicates that this aspect of life is unimportant to you. POint 7 at the top indicates that particular aspect of life is very important to you. The numbers in between indicate varying degrees of importance. Please take a look at all the cards first. Then, tell me for each card its letter and the number you've decided on. f. Religion and church.

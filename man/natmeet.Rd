@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_317.R
 \name{natmeet}
 \alias{natmeet}
-\title{natmeet}
+\title{Natural environments are a good place to meet others from the local community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Natural environments are a good place to meet others from the local community
+natmeet
 }
 \details{
 Question Thinking about your day to day experience of nature, please tell me how much do you agree or disagree with the following statements. C. Natural environments are a good place to meet others from the local community.

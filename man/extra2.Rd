@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_567.R
 \name{extra2}
 \alias{extra2}
-\title{extra2}
+\title{Other problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other problems
+extra2
 }
 \details{
 Question I. Aside from the things we've already covered, what other important problems did you or members of your household have during the last 12 months?

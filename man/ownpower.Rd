@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_443.R
 \name{ownpower}
 \alias{ownpower}
-\title{ownpower}
+\title{Govts role in electric power}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts role in electric power
+ownpower
 }
 \details{
 Question 1187. What do you think the government's role in each of these industries should be? a. Electric power

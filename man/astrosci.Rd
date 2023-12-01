@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_367.R
 \name{astrosci}
 \alias{astrosci}
-\title{astrosci}
+\title{Astrology is scientific}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Astrology is scientific
+astrosci
 }
 \details{
 Question 1037. Would you say that astrology is very scientific, sort of scientific, or not at all scientific?

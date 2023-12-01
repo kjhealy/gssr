@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_612.R
 \name{mawrkslffam}
 \alias{mawrkslffam}
-\title{mawrkslffam}
+\title{Mother owned family business or farm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother owned family business or farm
+mawrkslffam
 }
 \details{
 Question At this job, did your mother work in her own family business or family farm?

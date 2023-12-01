@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_289.R
 \name{cussup}
 \alias{cussup}
-\title{cussup}
+\title{R called software company}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R called software company
+cussup
 }
 \details{
 Question 814. When you want advice or assistance with surfing on the Web, finding a Web site, downloading software or some other online service, or getting your Internet connection to work, which of the following do you do? (Name as many as are correct.) b. Call or email customer support for the product you are using

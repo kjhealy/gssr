@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_406.R
 \name{guns911}
 \alias{guns911}
-\title{guns911}
+\title{Should gun control law be stricter after 911}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should gun control law be stricter after 911
+guns911
 }
 \details{
 Question 1116. As a result of the 9/11 terrorist attacks, do you think that gun control laws should be stricter, making it harder for people to purchase firearms or that gun control laws should be less strict, making it easier for people to purchase firearms?

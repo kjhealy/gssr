@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_366.R
 \name{yrskwn4}
 \alias{yrskwn4}
-\title{yrskwn4}
+\title{Years r has known the named4}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Years r has known the named4
+yrskwn4
 }
 \details{
 Question 1030. How long have you known (NAME)?

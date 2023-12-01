@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_28.R
 \name{equal5}
 \alias{equal5}
-\title{equal5}
+\title{Social welfare benefits are disincentive}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Social welfare benefits are disincentive
+equal5
 }
 \details{
 Question 71. On these cards are some opinions about the government and the economy. For each one I'd like you to tell me whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. e. If social welfare benefits such as disability, unemployment compensation, and early retirement pensions are as high as they are now, it only makes people not want to work anymore.

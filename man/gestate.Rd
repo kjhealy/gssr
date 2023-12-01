@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_659.R
 \name{gestate}
 \alias{gestate}
-\title{gestate}
+\title{Abortion legal past 4.5 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Abortion legal past 4.5 months
+gestate
 }
 \details{
 Question Please tell us whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if... ...she is beyond 4.5 months, that is, about halfway through the pregnancy.

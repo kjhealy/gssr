@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_315.R
 \name{abhelp1}
 \alias{abhelp1}
-\title{abhelp1}
+\title{R would help with arrangements for abortion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would help with arrangements for abortion
+abhelp1
 }
 \details{
 Question If a close family member or friend decided to have an abortion, which of the following kinds of help, if any, would you give if you were able?A. Help with arrangements, like a ride or childcare?

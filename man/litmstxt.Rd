@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_383.R
 \name{litmstxt}
 \alias{litmstxt}
-\title{litmstxt}
+\title{Why litmus paper doesn't change color in mixed solution}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why litmus paper doesn't change color in mixed solution
+litmstxt
 }
 \details{
 Question None

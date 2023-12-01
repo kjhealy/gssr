@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_649.R
 \name{frtvegs}
 \alias{frtvegs}
-\title{frtvegs}
+\title{How often r eats fresh fruit/veggies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r eats fresh fruit/veggies
+frtvegs
 }
 \details{
 Question (How often do you...) eat fresh fruit or vegetables?

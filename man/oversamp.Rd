@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_608.R
 \name{oversamp}
 \alias{oversamp}
-\title{oversamp}
+\title{Weights for black oversamples}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Weights for black oversamples
+oversamp
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_626.R
 \name{suicide1g}
 \alias{suicide1g}
-\title{suicide1g}
+\title{Suicide if incurable disease}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suicide if incurable disease
+suicide1g
 }
 \details{
 Question None

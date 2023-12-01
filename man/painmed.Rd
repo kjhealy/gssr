@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_250.R
 \name{painmed}
 \alias{painmed}
-\title{painmed}
+\title{Ask doctors to increase pain medication}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ask doctors to increase pain medication
+painmed
 }
 \details{
 Question 735. How much do you agree of disagree with the following options for this person? This person should... e. Ask doctors to increase the use of pain medication, even if it might lead to premature death

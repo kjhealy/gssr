@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_407.R
 \name{disabld1}
 \alias{disabld1}
-\title{disabld1}
+\title{R has a hearing problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has a hearing problem
+disabld1
 }
 \details{
 Question 1124. Do you have a hearing problem that prevents you from hearing what is said in normal conversation even with a hearing aid?

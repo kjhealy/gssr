@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_487.R
 \name{strsshme}
 \alias{strsshme}
-\title{strsshme}
+\title{Life at home is rarely stressful}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Life at home is rarely stressful
+strsshme
 }
 \details{
 Question 1315. To what extent do you agree or disagree? b. My life at home is rarely stressful.

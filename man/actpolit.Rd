@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_108.R
 \name{actpolit}
 \alias{actpolit}
-\title{actpolit}
+\title{R active in political club}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in political club
+actpolit
 }
 \details{
 Question 330. Have you ever done any active work for the political clubs? I mean been a leader, helped organize meetings, been an officer, or given time or money?

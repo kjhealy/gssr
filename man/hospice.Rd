@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_250.R
 \name{hospice}
 \alias{hospice}
-\title{hospice}
+\title{Choose hospice until patient dies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Choose hospice until patient dies
+hospice
 }
 \details{
 Question 735. How much do you agree of disagree with the following options for this person? This person should... d. Choose hospice services where the patient will be cared for until the patient dies naturally

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_642.R
 \name{letinhsp1}
 \alias{letinhsp1}
-\title{letinhsp1}
+\title{Immigration from latin america should decrease or increase}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immigration from latin america should decrease or increase
+letinhsp1
 }
 \details{
 Question None

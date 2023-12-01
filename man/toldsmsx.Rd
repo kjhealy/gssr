@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_426.R
 \name{toldsmsx}
 \alias{toldsmsx}
-\title{toldsmsx}
+\title{At what age you first told someone that you had sex with same sex}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-At what age you first told someone that you had sex with same sex
+toldsmsx
 }
 \details{
 Question At about what age were you when you first told someone that you had sex with someone of the same sex?

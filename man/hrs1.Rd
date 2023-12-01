@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_01.R
 \name{hrs1}
 \alias{hrs1}
-\title{hrs1}
+\title{Number of hours worked last week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of hours worked last week
+hrs1
 }
 \details{
 Question 1a. If working, full or part time: how many hours did you work last week, at all jobs?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_577.R
 \name{dwelling}
 \alias{dwelling}
-\title{dwelling}
+\title{Type of structure}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of structure
+dwelling
 }
 \details{
 Question 1609. DWELLING TYPE.

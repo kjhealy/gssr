@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_177.R
 \name{sharesep}
 \alias{sharesep}
-\title{sharesep}
+\title{Man and woman do things together-separate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Man and woman do things together-separate
+sharesep
 }
 \details{
 Question 553. Next, we have some questions about the kind of relationship you would like with a spouse or partner. It doesn't matter whether you are now married or living with someone. For each pair of items on the card, which type of realtionship would you prefer? b1. A relationship where the man and woman do most things in their social life together. b2. A relationship where the man and woman do separate things that interest them.

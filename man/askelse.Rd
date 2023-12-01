@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_290.R
 \name{askelse}
 \alias{askelse}
-\title{askelse}
+\title{R asked someone else for help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R asked someone else for help
+askelse
 }
 \details{
 Question 814. When you want advice or assistance with surfing on the Web, finding a Web site, downloading software or some other online service, or getting your Internet connection to work, which of the following do you do? (Name as many as are correct.) e. Ask someone else you know for help (like a friend or family member)

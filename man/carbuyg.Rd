@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_192.R
 \name{carbuyg}
 \alias{carbuyg}
-\title{carbuyg}
+\title{Convenience made r buy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Convenience made r buy
+carbuyg
 }
 \details{
 Question 594. What made you think that this would be a good place to make your purchase? g. Convenience

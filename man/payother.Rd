@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_274.R
 \name{payother}
 \alias{payother}
-\title{payother}
+\title{Has r paid for help with software}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r paid for help with software
+payother
 }
 \details{
 Question 789. When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) \link{PROMPT: Anything else?} f. Pay someone to help you?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_574.R
 \name{spethnic}
 \alias{spethnic}
-\title{spethnic}
+\title{Country of spouse's family origin}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Country of spouse's family origin
+spethnic
 }
 \details{
 Question 1598. From what countries or part of the world did your (wife's/husband's) ancestors come?

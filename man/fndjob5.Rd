@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_136.R
 \name{fndjob5}
 \alias{fndjob5}
-\title{fndjob5}
+\title{Heard job from newspaper ad}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Heard job from newspaper ad
+fndjob5
 }
 \details{
 Question 425. There are many ways people hear about jobs - such as from ads, employment agencies, or from other people. Could you tell me how you found out about work at your present employer? Please tell me all the ways that you found out about this jo. e. From a newspaper ad

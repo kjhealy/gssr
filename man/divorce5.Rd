@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_82.R
 \name{divorce5}
 \alias{divorce5}
-\title{divorce5}
+\title{Divorced in last 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Divorced in last 5 yrs
+divorce5
 }
 \details{
 Question 268. Divorces during the last five years.

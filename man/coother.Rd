@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_42.R
 \name{coother}
 \alias{coother}
-\title{coother}
+\title{Other protestant denominations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other protestant denominations
+coother
 }
 \details{
 Question None

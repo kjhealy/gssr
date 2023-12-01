@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_473.R
 \name{conage}
 \alias{conage}
-\title{conage}
+\title{Conflict between young and old}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Conflict between young and old
+conage
 }
 \details{
 Question 1259. In all countries, there are differences or conflicts between different social groups. In your opinion, in America, how much conflict is there between . . . g. Young people and older people?

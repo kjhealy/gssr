@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_389.R
 \name{engint}
 \alias{engint}
-\title{engint}
+\title{Engineers only interested in work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Engineers only interested in work
+engint
 }
 \details{
 Question Engineers have few other interests but their work. Do you strongly agree, agree, disagree, or strongly disagree?

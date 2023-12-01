@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_22.R
 \name{pres08}
 \alias{pres08}
-\title{pres08}
+\title{Vote obama or mccain}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote obama or mccain
+pres08
 }
 \details{
 Question IF VOTED: Did you vote for Obama or McCain?

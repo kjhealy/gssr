@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_482.R
 \name{rwrkbaby}
 \alias{rwrkbaby}
-\title{rwrkbaby}
+\title{Did r work when kid was preschooler}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r work when kid was preschooler
+rwrkbaby
 }
 \details{
 Question 1294. Did you work outside the home full-time, part-time, or not at all... b. And what about when a child was under school age?

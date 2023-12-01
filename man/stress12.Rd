@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_312.R
 \name{stress12}
 \alias{stress12}
-\title{stress12}
+\title{Stress management program last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Stress management program last 12 months
+stress12
 }
 \details{
 Question In the past 12 months, have you participated in any of these stress management or stress reduction programs?

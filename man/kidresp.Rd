@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_427.R
 \name{kidresp}
 \alias{kidresp}
-\title{kidresp}
+\title{R is legally responsible biological/adoptive parent of a child under 18}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is legally responsible biological/adoptive parent of a child under 18
+kidresp
 }
 \details{
 Question Are you currently the legally responsible biological or adoptive parent of a child under age 18?

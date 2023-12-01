@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_11.R
 \name{dipged}
 \alias{dipged}
-\title{dipged}
+\title{Diploma, ged, or other}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Diploma, ged, or other
+dipged
 }
 \details{
 Question Was that a diploma awarded by your high school at graduation at the end of 12th grade, a GED awarded after you took a test, or something else?

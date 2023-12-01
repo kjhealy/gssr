@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_532.R
 \name{meltpot1}
 \alias{meltpot1}
-\title{meltpot1}
+\title{Better to maintain distinct cultures}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Better to maintain distinct cultures
+meltpot1
 }
 \details{
 Question 1444. Some people say that it is better for a country if different racial and ethnic groups maintain their distinct customs and traditions. Others say that it is better if these groups adapt and blend into the larger society. Which of these views comes closer to your own?

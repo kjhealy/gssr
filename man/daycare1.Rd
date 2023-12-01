@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_478.R
 \name{daycare1}
 \alias{daycare1}
-\title{daycare1}
+\title{Public daycare center ok for kid < 3 yrs?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Public daycare center ok for kid < 3 yrs?
+daycare1
 }
 \details{
 Question 1277. Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? a. A public day care center

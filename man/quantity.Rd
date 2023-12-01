@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_142.R
 \name{quantity}
 \alias{quantity}
-\title{quantity}
+\title{How easy your supervisor know how much you do}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How easy your supervisor know how much you do
+quantity
 }
 \details{
 Question 449. How easy or hard would you say it is for your supervisor to know how much work a person in a job like yours does in a week?

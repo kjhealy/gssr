@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_652.R
 \name{yrrdg}
 \alias{yrrdg}
-\title{yrrdg}
+\title{Read fiction or poetry in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Read fiction or poetry in past 12 months
+yrrdg
 }
 \details{
 Question (During the last 12 months, did you...) read any novels or short stories, poetry, or plays?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_85.R
 \name{privacy}
 \alias{privacy}
-\title{privacy}
+\title{Is r concerned about privacy?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r concerned about privacy?
+privacy
 }
 \details{
 Question 283. How concerned are you about threats to your personal privacy in America today?

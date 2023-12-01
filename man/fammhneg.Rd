@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_225.R
 \name{fammhneg}
 \alias{fammhneg}
-\title{fammhneg}
+\title{R's family's negative attitudes about mh problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's family's negative attitudes about mh problems
+fammhneg
 }
 \details{
 Question Now I?d like to continue talking about people you know personally. A. Thinking about your family, to what extent do they hold negative attitudes about people with mental health problems?

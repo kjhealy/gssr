@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_438.R
 \name{aidneedy}
 \alias{aidneedy}
-\title{aidneedy}
+\title{Govt money for low income students}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt money for low income students
+aidneedy
 }
 \details{
 Question 1175. Some people think the government should provide financial assistance to college students. Others think the government should not provide such aid. In each of the circumstances listed below should the government provide grants that would not have to be paid back, provide loans which the student would have to pay back, or should the government not provide any financial assistance? a. For students whose parents have a low income

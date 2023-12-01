@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_482.R
 \name{spevdiv}
 \alias{spevdiv}
-\title{spevdiv}
+\title{Has r's current spouse been divorced}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r's current spouse been divorced
+spevdiv
 }
 \details{
 Question 1292. Was your (current) spouse ever divorced?

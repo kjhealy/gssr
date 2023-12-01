@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_234.R
 \name{prfmwhy2}
 \alias{prfmwhy2}
-\title{prfmwhy2}
+\title{Imp of wanting to experience high quality art in decision to attend perf}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of wanting to experience high quality art in decision to attend perf
+prfmwhy2
 }
 \details{
 Question People attend performances for different reasons. B. How big a reason was wanting to experience high quality art in your decision to attend this performance? Was it a major reason, a minor reason, or not a reason at all?

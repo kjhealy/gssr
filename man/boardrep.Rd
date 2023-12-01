@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_634.R
 \name{boardrep}
 \alias{boardrep}
-\title{boardrep}
+\title{Workers should be represented on the board of directors at major companies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Workers should be represented on the board of directors at major companies
+boardrep
 }
 \details{
 Question Workers should be represented on the board of directors at major companies

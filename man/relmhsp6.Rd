@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_218.R
 \name{relmhsp6}
 \alias{relmhsp6}
-\title{relmhsp6}
+\title{Patient was other}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Patient was other
+relmhsp6
 }
 \details{
 Question 668. Was this a relative, a close friend, or just someone you didn't know very well? f. Other (specify)

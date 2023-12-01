@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_326.R
 \name{hlpneedy}
 \alias{hlpneedy}
-\title{hlpneedy}
+\title{Have ever contributed time to help the needy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have ever contributed time to help the needy
+hlpneedy
 }
 \details{
 Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? f. Contribute your time to help the needy

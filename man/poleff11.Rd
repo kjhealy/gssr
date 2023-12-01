@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_446.R
 \name{poleff11}
 \alias{poleff11}
-\title{poleff11}
+\title{Don't have any say about what the government does}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Don't have any say about what the government does
+poleff11
 }
 \details{
 Question 1194. How much do you agree or disagree with each of the following statements? a. People like me don't have any say about what the government does

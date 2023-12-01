@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_552.R
 \name{matesex}
 \alias{matesex}
-\title{matesex}
+\title{Was 1 of r's partner's spouse or regular}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was 1 of r's partner's spouse or regular
+matesex
 }
 \details{
 Question 1542. Was one of the partners your husband or wife or regular sexual partner?

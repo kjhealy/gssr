@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_538.R
 \name{racmeet}
 \alias{racmeet}
-\title{racmeet}
+\title{Allowed to hold pub meeting for racist}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allowed to hold pub meeting for racist
+racmeet
 }
 \details{
 Question 1467. Should people prejudiced against any racial or ethnic group be allowed to hold public meetings?

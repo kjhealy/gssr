@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_554.R
 \name{idu30}
 \alias{idu30}
-\title{idu30}
+\title{R inject drugs in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R inject drugs in past 30 days
+idu30
 }
 \details{
 Question 1559. How long has it been since you last used a needle to inject drugs?

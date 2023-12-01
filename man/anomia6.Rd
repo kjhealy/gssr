@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_60.R
 \name{anomia6}
 \alias{anomia6}
-\title{anomia6}
+\title{Not fair to bring child into world}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Not fair to bring child into world
+anomia6
 }
 \details{
 Question 178. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. f. It's hardly fair to bring a child into the world with the way things look for the future.

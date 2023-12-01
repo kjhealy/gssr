@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_514.R
 \name{perright}
 \alias{perright}
-\title{perright}
+\title{Conscience should decide right and wrong}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Conscience should decide right and wrong
+perright
 }
 \details{
 Question 1397. Do you agree or disagree with the following statements. . . c. Right and wrong should be a matter of personal conscience.

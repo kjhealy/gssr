@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_391.R
 \name{defpensn}
 \alias{defpensn}
-\title{defpensn}
+\title{R has defined benefit pension plan}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has defined benefit pension plan
+defpensn
 }
 \details{
 Question B. Do you have a defined benefit pension plan at your company?

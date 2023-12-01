@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_143.R
 \name{proudorg}
 \alias{proudorg}
-\title{proudorg}
+\title{Proud to be working for this org.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Proud to be working for this org.
+proudorg
 }
 \details{
 Question 453. Please tell me how much you agree or disagree with the following statements: f. I am proud to be working for this organization.

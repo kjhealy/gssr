@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_493.R
 \name{leisure}
 \alias{leisure}
-\title{leisure}
+\title{Importance of leisure time in a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of leisure time in a job
+leisure
 }
 \details{
 Question 1326. On the following list there are various aspects of jobs. Please circle one number to show how important you personally consider it is in a job: d. A job that leaves a lot of leisure time

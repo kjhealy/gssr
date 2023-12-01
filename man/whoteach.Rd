@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_174.R
 \name{whoteach}
 \alias{whoteach}
-\title{whoteach}
+\title{Should only minorities teach minority history}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should only minorities teach minority history
+whoteach
 }
 \details{
 Question 538. Some people say that when the experience of a racial or ethnic minority group is taught in high school or college, it should be taught by a teacher from that group. Do you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree?

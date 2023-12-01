@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_317.R
 \name{nattimeok}
 \alias{nattimeok}
-\title{nattimeok}
+\title{I spend as much time as i would like in natural environments}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I spend as much time as i would like in natural environments
+nattimeok
 }
 \details{
 Question Thinking about your day to day experience of nature, please tell me how much do you agree or disagree with the following statements. D. I spend as much time as I would like in natural environments.

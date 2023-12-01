@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_557.R
 \name{partaxes}
 \alias{partaxes}
-\title{partaxes}
+\title{Taxes reduce childbearing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Taxes reduce childbearing
+partaxes
 }
 \details{
 Question 1569. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements regarding parents: i. The burden of taxes discourages couples from having as many children as they would like.

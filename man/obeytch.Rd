@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_124.R
 \name{obeytch}
 \alias{obeytch}
-\title{obeytch}
+\title{Important to obey church teachings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Important to obey church teachings
+obeytch
 }
 \details{
 Question 398. If Catholic: Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements: c. It's important to obey church teachings even if I don't understand them.

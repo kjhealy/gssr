@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_77.R
 \name{ticket}
 \alias{ticket}
-\title{ticket}
+\title{Ever received a traffic ticket}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever received a traffic ticket
+ticket
 }
 \details{
 Question 238. Have you ever received a ticket, or been charged by the police, for a traffic violation - other than for illegal parking?

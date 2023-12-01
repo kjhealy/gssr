@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_05.R
 \name{sppres80}
 \alias{sppres80}
-\title{sppres80}
+\title{Spouse's occupational prestige score (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's occupational prestige score (1980)
+sppres80
 }
 \details{
 Question 7. Spouse's occupation, prestige, and industry.

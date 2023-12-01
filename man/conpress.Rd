@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_51.R
 \name{conpress}
 \alias{conpress}
-\title{conpress}
+\title{Confidence in press}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confidence in press
+conpress
 }
 \details{
 Question 165. I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them? g. Press.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_280.R
 \name{wwwline1}
 \alias{wwwline1}
-\title{wwwline1}
+\title{Is www through phone line}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is www through phone line
+wwwline1
 }
 \details{
 Question At your home are you connected to the World Wide Web through a regular telephone line connected to your computer, or through some other means?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_346.R
 \name{drinkmin}
 \alias{drinkmin}
-\title{drinkmin}
+\title{How often at least a sip but less than one full drink}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often at least a sip but less than one full drink
+drinkmin
 }
 \details{
 Question 1021f. During the last 12 months, how often did you have at least a sip, but less than one full drink of any kind of alcoholic beverage in a single day, that is, beer, wine, or a drink containing liquor of any kind. Was it:

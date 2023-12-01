@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_303.R
 \name{docsat}
 \alias{docsat}
-\title{docsat}
+\title{How satisfied r with office visit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How satisfied r with office visit
+docsat
 }
 \details{
 Question 867. Based on what the doctor has just told you, how satisfied would you be with the office visit? Would you rate the visit as...

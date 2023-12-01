@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_239.R
 \name{genderwk}
 \alias{genderwk}
-\title{genderwk}
+\title{Mostly men or women at the workplace}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mostly men or women at the workplace
+genderwk
 }
 \details{
 Question 698. Are the people who work at this location mostly men or women?

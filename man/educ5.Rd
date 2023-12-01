@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_103.R
 \name{educ5}
 \alias{educ5}
-\title{educ5}
+\title{Education level of person #5}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Education level of person #5
+educ5
 }
 \details{
 Question 321. This card (BH) lists general levels of education. As far as you know, what is \link{NAME}'s highest level of education?

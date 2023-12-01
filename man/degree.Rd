@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_10.R
 \name{degree}
 \alias{degree}
-\title{degree}
+\title{R's highest degree}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's highest degree
+degree
 }
 \details{
 Question 19. If finished 9th-12th grade: Did you ever get a high school diploma or a GED certificate?

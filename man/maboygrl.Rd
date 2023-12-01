@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_382.R
 \name{maboygrl}
 \alias{maboygrl}
-\title{maboygrl}
+\title{Does mom's gene decide baby's sex}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does mom's gene decide baby's sex
+maboygrl
 }
 \details{
 Question None

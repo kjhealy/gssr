@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_600.R
 \name{egypt}
 \alias{egypt}
-\title{egypt}
+\title{Liking for egypt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Liking for egypt
+egypt
 }
 \details{
 Question 103. You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? h. Egypt

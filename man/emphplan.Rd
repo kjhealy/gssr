@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_426.R
 \name{emphplan}
 \alias{emphplan}
-\title{emphplan}
+\title{Name of insurance or hmo}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Name of insurance or hmo
+emphplan
 }
 \details{
 Question What is the name of the insurance company or HMO from which you receive hospital and physician benefits from your employer?

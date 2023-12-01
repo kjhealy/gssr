@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_537.R
 \name{immeduc}
 \alias{immeduc}
-\title{immeduc}
+\title{Legal immigrants should have same education as americans}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Legal immigrants should have same education as americans
+immeduc
 }
 \details{
 Question How much do you agree of disagree with the following statements? C. Legal immigrants should have equal access to public education as American citizens.

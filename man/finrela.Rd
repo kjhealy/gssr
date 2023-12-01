@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_64.R
 \name{finrela}
 \alias{finrela}
-\title{finrela}
+\title{Opinion of family income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opinion of family income
+finrela
 }
 \details{
 Question 188. Compared with American families in general, would you say your family income is far below average, below average, average, above average, or far above average?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_59.R
 \name{weekswrk}
 \alias{weekswrk}
-\title{weekswrk}
+\title{Weeks r worked last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Weeks r worked last year
+weekswrk
 }
 \details{
 Question 175. Now I'd like to ask you about last year. How many weeks did you work either full-time or part-time not counting work around the house? (Include paid vacations and sick leave.)

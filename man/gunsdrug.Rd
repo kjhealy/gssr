@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_406.R
 \name{gunsdrug}
 \alias{gunsdrug}
-\title{gunsdrug}
+\title{Should penalty for illegal gun sale be tougher than drug}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should penalty for illegal gun sale be tougher than drug
+gunsdrug
 }
 \details{
 Question 1114. Should penalties for illegally selling guns be tougher, less tough, or about as tough as penalties for illegally selling drugs?

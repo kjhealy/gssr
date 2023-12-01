@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_288.R
 \name{jobpaper}
 \alias{jobpaper}
-\title{jobpaper}
+\title{Times r sought job information from newspaper}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Times r sought job information from newspaper
+jobpaper
 }
 \details{
 Question 810. Please tell me how many times you tried to find such information from... b. Classified ads in a daily newspaper? Would you say not at all, 1 or 2 times, or 3 or more times?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_392.R
 \name{mhothyou}
 \alias{mhothyou}
-\title{mhothyou}
+\title{How much distress his mental health problem caused r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much distress his mental health problem caused r
+mhothyou
 }
 \details{
 Question 1097. How much distress did this person's mental health problem cause you...

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_314.R
 \name{emoprobs}
 \alias{emoprobs}
-\title{emoprobs}
+\title{In the past 7 days, how often r has been bothered by emotional problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In the past 7 days, how often r has been bothered by emotional problems
+emoprobs
 }
 \details{
 Question In the past seven days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?

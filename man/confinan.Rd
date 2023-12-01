@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_51.R
 \name{confinan}
 \alias{confinan}
-\title{confinan}
+\title{Confid in banks & financial institutions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confid in banks & financial institutions
+confinan
 }
 \details{
 Question 165. I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them? a. Banks and financial institutions.

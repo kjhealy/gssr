@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_86.R
 \name{civic}
 \alias{civic}
-\title{civic}
+\title{Does r follow public affairs?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r follow public affairs?
+civic
 }
 \details{
 Question 284. Some people seem to follow what's going on in government and public affairs most of the time, whether there's an election going on or not. Others aren't that interested. Would you say you follow what's going on in government and public affairs most of the time, some of the time, only now and then, or hardly at all?

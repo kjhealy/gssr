@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_287.R
 \name{snsmyear}
 \alias{snsmyear}
-\title{snsmyear}
+\title{Year first joined sns}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Year first joined sns
+snsmyear
 }
 \details{
 Question In what year did you start using the internet or web-enabled applications/APPS?

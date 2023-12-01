@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_485.R
 \name{shop1}
 \alias{shop1}
-\title{shop1}
+\title{Who in household shops for groceries}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who in household shops for groceries
+shop1
 }
 \details{
 Question 1309. In your household who does the following things: d. Shopping for groceries?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_488.R
 \name{earnshh}
 \alias{earnshh}
-\title{earnshh}
+\title{Hubby or wife earns more dollars}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hubby or wife earns more dollars
+earnshh
 }
 \details{
 Question 1320b. Considering all sources of income, between you and your spouse/partner, who has the higher income?

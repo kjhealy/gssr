@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_11.R
 \name{whenhs}
 \alias{whenhs}
-\title{whenhs}
+\title{When received hs degree}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When received hs degree
+whenhs
 }
 \details{
 Question In what year did you receive your high school degree?

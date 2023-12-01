@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_355.R
 \name{yrprof6}
 \alias{yrprof6}
-\title{yrprof6}
+\title{How many years r born a member of professional society6}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years r born a member of professional society6
+yrprof6
 }
 \details{
 Question 1026n. How many years have you been a member of \link{PROFESSIONAL OR ACADEMIC SOCIETY}?

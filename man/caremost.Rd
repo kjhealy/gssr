@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_380.R
 \name{caremost}
 \alias{caremost}
-\title{caremost}
+\title{Most concerned possible effect of global warming}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most concerned possible effect of global warming
+caremost
 }
 \details{
 Question 1079f. Which of these possible effects do you care about most?

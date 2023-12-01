@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_85.R
 \name{cutspdr}
 \alias{cutspdr}
-\title{cutspdr}
+\title{Cut govt spending--r's position}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Cut govt spending--r's position
+cutspdr
 }
 \details{
 Question 281. Some people think the government should provide fewer services, even in areas such as health and education, in order to reduce spending. (1 on the scale) Other people feel it is important for the government to continue the services it now provides even if it means no reduction in spending. (7 on the scale) a. Where would you place yourself on this scale, or havne't you thought much about this?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_633.R
 \name{sprtconnct}
 \alias{sprtconnct}
-\title{sprtconnct}
+\title{How often r felt connected to world around them}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r felt connected to world around them
+sprtconnct
 }
 \details{
 Question How often R felt connected to world around them

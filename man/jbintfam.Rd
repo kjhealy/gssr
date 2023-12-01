@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_507.R
 \name{jbintfam}
 \alias{jbintfam}
-\title{jbintfam}
+\title{How often r felt: demand of job interfere with family life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r felt: demand of job interfere with family life
+jbintfam
 }
 \details{
 Question 1507. How often do you feel that the demands of your job interfere with your family life?

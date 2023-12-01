@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_354.R
 \name{yrgreek1}
 \alias{yrgreek1}
-\title{yrgreek1}
+\title{How many years r born a member of school fraternity1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years r born a member of school fraternity1
+yrgreek1
 }
 \details{
 Question 1026j. How many years have you been a member of \link{SCHOOL FRATERNITY OR SORORITY}?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_283.R
 \name{compelse}
 \alias{compelse}
-\title{compelse}
+\title{Does r use computer somewhere else}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r use computer somewhere else
+compelse
 }
 \details{
 Question 804. From which of these locations do you use this other computer? e. Other location

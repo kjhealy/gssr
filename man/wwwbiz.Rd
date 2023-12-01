@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_273.R
 \name{wwwbiz}
 \alias{wwwbiz}
-\title{wwwbiz}
+\title{Has anyone met on web become business partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has anyone met on web become business partner
+wwwbiz
 }
 \details{
 Question 788. Did any of these people become: e. Other business associate?

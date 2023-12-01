@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_473.R
 \name{consoc}
 \alias{consoc}
-\title{consoc}
+\title{Conflict between social top and bottom}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Conflict between social top and bottom
+consoc
 }
 \details{
 Question 1259. In all countries, there are differences or conflicts between different social groups. In your opinion, in America, how much conflict is there between . . . f. People at the top of society and people at the bottom?

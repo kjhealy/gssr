@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_41.R
 \name{spjewaj}
 \alias{spjewaj}
-\title{spjewaj}
+\title{What sort of jew is r's spouse currently}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What sort of jew is r's spouse currently
+spjewaj
 }
 \details{
 Question Does (s/he) consider (her/himself) Orthodox, Conservative, Reform or none of these? (PROBE FOR EXACT DENOMINATION)

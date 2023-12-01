@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_63.R
 \name{class}
 \alias{class}
-\title{class}
+\title{Subjective class identification}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Subjective class identification
+class
 }
 \details{
 Question 185a. If you were asked to use one of four names for your social class, which would you say you belong in: the lower class, the working class, the middle class, or the upper class?

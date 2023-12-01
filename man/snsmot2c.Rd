@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_287.R
 \name{snsmot2c}
 \alias{snsmot2c}
-\title{snsmot2c}
+\title{Third other social network}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Third other social network
+snsmot2c
 }
 \details{
 Question C. Third other social network mentioned.

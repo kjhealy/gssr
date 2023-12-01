@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_653.R
 \name{yrstmus}
 \alias{yrstmus}
-\title{yrstmus}
+\title{Livestreamed music or theater in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Livestreamed music or theater in past 12 months
+yrstmus
 }
 \details{
 Question (During the last 12 months, did you...) watch or listen to a live-streamed event featuring a music, theater, or dance performance?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_09.R
 \name{maindstatus}
 \alias{maindstatus}
-\title{maindstatus}
+\title{Maind10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Maind10 coding status
+maindstatus
 }
 \details{
 Question None

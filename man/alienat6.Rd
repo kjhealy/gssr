@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_49.R
 \name{alienat6}
 \alias{alienat6}
-\title{alienat6}
+\title{People in wash d.c. are out of touch}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People in wash d.c. are out of touch
+alienat6
 }
 \details{
 Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: f. The people in Washington, D.C. are out of touch with the rest of the country.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_559.R
 \name{infnettv}
 \alias{infnettv}
-\title{infnettv}
+\title{Influence of programs on network tv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence of programs on network tv
+infnettv
 }
 \details{
 Question 1572. Children are exposed to many influences in their daily lives. What kind of influence does each of the following have on children: Very positive, positive, neutral, negative, very negative? c. Programs on network television

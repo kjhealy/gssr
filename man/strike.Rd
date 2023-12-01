@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_73.R
 \name{strike}
 \alias{strike}
-\title{strike}
+\title{Picketing for labor strike}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Picketing for labor strike
+strike
 }
 \details{
 Question 228 Have you ever taken part in: a. Picketing for a labor strike?

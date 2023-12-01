@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_347.R
 \name{typlit}
 \alias{typlit}
-\title{typlit}
+\title{R belongs to more than one literary groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one literary groups
+typlit
 }
 \details{
 Question 1024m. Do you belong to more than one literary, art, discussion, or study group?

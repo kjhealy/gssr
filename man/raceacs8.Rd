@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_625.R
 \name{raceacs8}
 \alias{raceacs8}
-\title{raceacs8}
+\title{Korean}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Korean
+raceacs8
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. Korean

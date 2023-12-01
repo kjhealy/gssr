@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_365.R
 \name{grpboth3}
 \alias{grpboth3}
-\title{grpboth3}
+\title{Both belong to the same group on the list}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Both belong to the same group on the list
+grpboth3
 }
 \details{
 Question 1028. Do you and \link{NAME} both belong to one or more of the same groups on the list?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_626.R
 \name{abrapeg}
 \alias{abrapeg}
-\title{abrapeg}
+\title{Pregnant as result of rape (grid on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pregnant as result of rape (grid on web)
+abrapeg
 }
 \details{
 Question (Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .) If she becomes pregnant as a result of rape?

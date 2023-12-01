@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_654.R
 \name{blkdsrv}
 \alias{blkdsrv}
-\title{blkdsrv}
+\title{Black people get less than they deserve}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Black people get less than they deserve
+blkdsrv
 }
 \details{
 Question (Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with the following statements?) Over the past few years, black people have gotten less than they deserve.

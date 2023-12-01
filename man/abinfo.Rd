@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_68.R
 \name{abinfo}
 \alias{abinfo}
-\title{abinfo}
+\title{How much info does r have on abortion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much info does r have on abortion
+abinfo
 }
 \details{
 Question 209b. How much information do you have about the abortion issue?

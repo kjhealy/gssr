@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_231.R
 \name{natarts}
 \alias{natarts}
-\title{natarts}
+\title{Spending right amount on arts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spending right amount on arts
+natarts
 }
 \details{
 Question 686. Earlier we talked about problems in this country, and whether we are spending too much money on them, too little money, or about the right amount. I have one more problem to ask you about: the arts . . . are we spending too much, too little, or about the right amount on that?

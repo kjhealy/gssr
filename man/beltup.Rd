@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_439.R
 \name{beltup}
 \alias{beltup}
-\title{beltup}
+\title{Govt should require use of seat belts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should require use of seat belts
+beltup
 }
 \details{
 Question 1177. Do you think that... a. The wearing of seat belts in cars should be required by law.

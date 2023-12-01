@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_316.R
 \name{natrelax}
 \alias{natrelax}
-\title{natrelax}
+\title{Natural environments are peaceful and relaxing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Natural environments are peaceful and relaxing
+natrelax
 }
 \details{
 Question Thinking about your day to day experience of nature, please tell me how much do you agree or disagree with the following statements. A. Natural environments are peaceful and relaxing.

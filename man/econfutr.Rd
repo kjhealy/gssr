@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_176.R
 \name{econfutr}
 \alias{econfutr}
-\title{econfutr}
+\title{Predictions for national economy in next year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Predictions for national economy in next year
+econfutr
 }
 \details{
 Question 543. What about the next 12 months? Do you expect the national economy to get better, get worse, or stay about the same?

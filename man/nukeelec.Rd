@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_385.R
 \name{nukeelec}
 \alias{nukeelec}
-\title{nukeelec}
+\title{View about nuclear energy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-View about nuclear energy
+nukeelec
 }
 \details{
 Question Which statement best describes your own view about increasing the use of nuclear power to generate electicity in the U.S.? Do you strongly favor, favor, oppose, or strongly oppose such an increase?

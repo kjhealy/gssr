@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_136.R
 \name{empyears}
 \alias{empyears}
-\title{empyears}
+\title{Years worked for your present employer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Years worked for your present employer
+empyears
 }
 \details{
 Question 424. For abou how many years altogether have you worked for your present employer?

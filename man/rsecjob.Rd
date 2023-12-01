@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_499.R
 \name{rsecjob}
 \alias{rsecjob}
-\title{rsecjob}
+\title{R's job is secure}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's job is secure
+rsecjob
 }
 \details{
 Question 1335. For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. a. My job is secure

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_477.R
 \name{hapifwrk}
 \alias{hapifwrk}
-\title{hapifwrk}
+\title{Woman and family happier if she works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Woman and family happier if she works
+hapifwrk
 }
 \details{
 Question 1275. Do you agree or disagree: d. A woman and her family will all be happier if she goes out to work.

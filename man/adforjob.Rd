@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_505.R
 \name{adforjob}
 \alias{adforjob}
-\title{adforjob}
+\title{Advertised for a job in newspaper's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Advertised for a job in newspaper's
+adforjob
 }
 \details{
 Question 1369. Thinking about the last 12 months, have you done any of the following in order to find a job? d. Advertised for a job in newspapers or journals?

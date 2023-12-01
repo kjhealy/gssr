@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_348.R
 \name{numyouth}
 \alias{numyouth}
-\title{numyouth}
+\title{How many r belongs to youth groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to youth groups
+numyouth
 }
 \details{
 Question 1025g. How many youth groups do you belong to?

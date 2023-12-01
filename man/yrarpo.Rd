@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_653.R
 \name{yrarpo}
 \alias{yrarpo}
-\title{yrarpo}
+\title{Archived livestreamed reading event in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Archived livestreamed reading event in past 12 months
+yrarpo
 }
 \details{
 Question (During the last 12 months, did you...) watch or listen to an archived web event featuring poetry, book-reading, or storytelling? This may have included video or audio clips on, for example, YouTube, an organization's website, or a social media

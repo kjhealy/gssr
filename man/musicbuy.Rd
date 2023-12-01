@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_270.R
 \name{musicbuy}
 \alias{musicbuy}
-\title{musicbuy}
+\title{Use web to buy music after hearing on web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to buy music after hearing on web
+musicbuy
 }
 \details{
 Question 783e. Purchased a recording as a result of hearing it on the Web?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_123.R
 \name{denomsch}
 \alias{denomsch}
-\title{denomsch}
+\title{Denomination of school children attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Denomination of school children attended
+denomsch
 }
 \details{
 Question 394a. If no to Q.394: Which types of school do/did your children attend? If yes to Q394a3: What denomination or church was/is theis school affiliated with?

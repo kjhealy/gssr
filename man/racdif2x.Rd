@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_661.R
 \name{racdif2x}
 \alias{racdif2x}
-\title{racdif2x}
+\title{Differences due to in-born learning ability}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences due to in-born learning ability
+racdif2x
 }
 \details{
 Question None

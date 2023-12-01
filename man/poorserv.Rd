@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_313.R
 \name{poorserv}
 \alias{poorserv}
-\title{poorserv}
+\title{R recieves poorer service in restaurants or stores}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R recieves poorer service in restaurants or stores
+poorserv
 }
 \details{
 Question In your day-to-day life how often have any of the following things happened to you? B. You receive poorer service than other people at restaurants or stores.

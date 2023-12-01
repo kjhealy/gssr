@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_463.R
 \name{partlsc}
 \alias{partlsc}
-\title{partlsc}
+\title{In past 12 months, r has participated in orgs for sport, culture, leisure}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In past 12 months, r has participated in orgs for sport, culture, leisure
+partlsc
 }
 \details{
 Question In the past 12 months, how often, if at all, have you taken part in the activities? A. Of groups or associations for leisure, sports or culture?

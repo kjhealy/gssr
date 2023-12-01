@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_70.R
 \name{sppaid}
 \alias{sppaid}
-\title{sppaid}
+\title{Regularly received alimony - chld supprt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Regularly received alimony - chld supprt
+sppaid
 }
 \details{
 Question 216a. During the time you were entitled to alimony or child support, did you receive these payments on a regular basis, occasionally, or not at all?

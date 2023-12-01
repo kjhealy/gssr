@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_339.R
 \name{afailure}
 \alias{afailure}
-\title{afailure}
+\title{I am inclined to feel i am a failure}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I am inclined to feel i am a failure
+afailure
 }
 \details{
 Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: b. All in all, I'm inclinded to feel I'm a failure.

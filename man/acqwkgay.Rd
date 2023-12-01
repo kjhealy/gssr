@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_400.R
 \name{acqwkgay}
 \alias{acqwkgay}
-\title{acqwkgay}
+\title{Number of gay in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of gay in current or previous work
+acqwkgay
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. j. How many are you pretty certain are gay men or women?

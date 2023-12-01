@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_229.R
 \name{lotr2}
 \alias{lotr2}
-\title{lotr2}
+\title{If something can go wrong for me it will}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If something can go wrong for me it will
+lotr2
 }
 \details{
 Question Do you agree or disagree that? B. If something can go wrong for me, it will.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_150.R
 \name{tvnews}
 \alias{tvnews}
-\title{tvnews}
+\title{How often r watches tv news}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r watches tv news
+tvnews
 }
 \details{
 Question 474. I'll now ask about some different kinds of television shows. Would you tell me how often you watch: b. World or national news programs.

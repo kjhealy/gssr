@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_71.R
 \name{porninfo}
 \alias{porninfo}
-\title{porninfo}
+\title{How much info does r have on porn issue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much info does r have on porn issue
+porninfo
 }
 \details{
 Question 224b. How much information do you have about the pornography issue?

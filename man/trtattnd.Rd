@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_405.R
 \name{trtattnd}
 \alias{trtattnd}
-\title{trtattnd}
+\title{Proportion of regular church attendee r trust}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Proportion of regular church attendee r trust
+trtattnd
 }
 \details{
 Question 1111c. How many do you think attend religious services regularly? (Would you say...)

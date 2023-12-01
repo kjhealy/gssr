@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_101.R
 \name{advisor3}
 \alias{advisor3}
-\title{advisor3}
+\title{Person #3 is r's advisor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Person #3 is r's advisor
+advisor3
 }
 \details{
 Question 318. Here is a list of some of the ways in which people are connected to each other. Some people can be connected to you in more than one way. For example a man could be your brother and he may belong to your church and be your lawyer. When I read you a name, please tell me all the ways that person is connected to you. PERSON IS ADVISOR

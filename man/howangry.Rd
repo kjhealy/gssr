@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_188.R
 \name{howangry}
 \alias{howangry}
-\title{howangry}
+\title{How intense would you say your anger was}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How intense would you say your anger was
+howangry
 }
 \details{
 Question 577. How intense would you say your anger or irritation was, if 0 means the least intense emotion that you can imagine experiencing and 10 is the most intense emotion that you can imagine having.

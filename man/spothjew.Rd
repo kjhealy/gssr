@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_40.R
 \name{spothjew}
 \alias{spothjew}
-\title{spothjew}
+\title{Spouse considers self jewish}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse considers self jewish
+spothjew
 }
 \details{
 Question Does your {response to _spfill1} currently consider {response to _spfill4}self Jewish?

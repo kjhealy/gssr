@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_434.R
 \name{revtch15}
 \alias{revtch15}
-\title{revtch15}
+\title{Allow revolutionaries to teach children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow revolutionaries to teach children
+revtch15
 }
 \details{
 Question 1160. There are some people whose views are considered extreme by the majority. First, consider people who want to overthrow the government by revolution. Please circle a number after each question to show if you think such people should be allowed to . . . b. Teach 15 year olds in schools.

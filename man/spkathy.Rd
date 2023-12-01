@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_623.R
 \name{spkathy}
 \alias{spkathy}
-\title{spkathy}
+\title{Allow anti-religionist to speak y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow anti-religionist to speak y
+spkathy
 }
 \details{
 Question (There are always some people whose ideas are considered bad or dangerous by other people. For instance, somebody who is against all churches and religion...)If such a person wanted to make a speech in your community against churches and religion, should this person be allowed to speak, or not?

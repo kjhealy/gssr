@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_61.R
 \name{joblose}
 \alias{joblose}
-\title{joblose}
+\title{Is r likely to lose job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r likely to lose job
+joblose
 }
 \details{
 Question 180a. Thinking about the next 12 months, how likely do you think it is that you will lose your job or be laid off?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{inequal1}
 \alias{inequal1}
-\title{inequal1}
+\title{Extra pay -> people take responsibility}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Extra pay -> people take responsibility
+inequal1
 }
 \details{
 Question 1253. Do you agree or disagree: a. People would not want to take extra responsibility at work unless they were paid extra for it.

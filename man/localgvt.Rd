@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_461.R
 \name{localgvt}
 \alias{localgvt}
-\title{localgvt}
+\title{How likely can r do sth for improvmnt in community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely can r do sth for improvmnt in community
+localgvt
 }
 \details{
 Question 1249. Suppose you wanted the local government to bring about some improvement in your local community. How likely is it that you would be able to do something about it?

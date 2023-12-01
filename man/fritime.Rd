@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_454.R
 \name{fritime}
 \alias{fritime}
-\title{fritime}
+\title{Travel time to closest friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Travel time to closest friend
+fritime
 }
 \details{
 Question 1208e. About how long would it take you to get to where this friend lives? Think of the time it usually takes door to door.

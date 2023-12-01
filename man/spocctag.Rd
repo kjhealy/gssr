@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_06.R
 \name{spocctag}
 \alias{spocctag}
-\title{spocctag}
+\title{Spocc10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spocc10 coding tag
+spocctag
 }
 \details{
 Question None

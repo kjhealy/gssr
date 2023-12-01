@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_537.R
 \name{patriot2}
 \alias{patriot2}
-\title{patriot2}
+\title{Patriotic feelings lead to intolerance in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Patriotic feelings lead to intolerance in america
+patriot2
 }
 \details{
 Question How much do you agree of disagree that strong patriotic feelings in America... B. Lead to intolerance in America

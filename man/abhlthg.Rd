@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_626.R
 \name{abhlthg}
 \alias{abhlthg}
-\title{abhlthg}
+\title{Woman's health seriously endangered (grid on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Woman's health seriously endangered (grid on web)
+abhlthg
 }
 \details{
 Question (Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .) If the woman's own health is seriously endangered by the pregnancy?

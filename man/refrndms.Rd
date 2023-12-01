@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_542.R
 \name{refrndms}
 \alias{refrndms}
-\title{refrndms}
+\title{Referendum are good way to decide important pol quest}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Referendum are good way to decide important pol quest
+refrndms
 }
 \details{
 Question 1481. Thinking now about politics in America, to what extent do you agree or disagree with the following statements? c. Referendums are a good way to decide important political questions.

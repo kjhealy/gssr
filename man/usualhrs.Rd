@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_303.R
 \name{usualhrs}
 \alias{usualhrs}
-\title{usualhrs}
+\title{How many hrs/week do you usually work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many hrs/week do you usually work
+usualhrs
 }
 \details{
 Question How many hours a week do you usually work, at all paid jobs?

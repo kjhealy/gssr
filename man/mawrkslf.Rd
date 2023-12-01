@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_08.R
 \name{mawrkslf}
 \alias{mawrkslf}
-\title{mawrkslf}
+\title{Mother self-emp. or worked for somebody}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother self-emp. or worked for somebody
+mawrkslf
 }
 \details{
 Question 10e. Was she self-employed, or did she work for someone else?

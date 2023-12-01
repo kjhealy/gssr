@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_491.R
 \name{wrkearn}
 \alias{wrkearn}
-\title{wrkearn}
+\title{Job is just a way to earn money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job is just a way to earn money
+wrkearn
 }
 \details{
 Question 1322. Thinking of work in general, please circle one number for each statement below to show how much you agree or disagree with each. a. A job is just a way of earning money - no more

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_14.R
 \name{mawork}
 \alias{mawork}
-\title{mawork}
+\title{Mothers employment since marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers employment since marriage
+mawork
 }
 \details{
 Question 28. Did your mother ever work for pay for as long as a year, after she was married?

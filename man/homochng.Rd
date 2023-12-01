@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_70.R
 \name{homochng}
 \alias{homochng}
-\title{homochng}
+\title{Homosexuality: inherent or choice?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Homosexuality: inherent or choice?
+homochng
 }
 \details{
 Question 220. Do you think being homosexual is something people choose to be, or do you think it is something they cannot change?

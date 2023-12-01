@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_19.R
 \name{partyid}
 \alias{partyid}
-\title{partyid}
+\title{Political party affiliation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Political party affiliation
+partyid
 }
 \details{
 Question 56. Generally speaking, do you usually think of yourself as a Republican, Democrat, Independent, or what?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_36.R
 \name{postlf5}
 \alias{postlf5}
-\title{postlf5}
+\title{Pale or shadowy form of life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pale or shadowy form of life
+postlf5
 }
 \details{
 Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 5. A pale, shadowy form of life, hardly life at all.

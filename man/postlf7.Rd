@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_36.R
 \name{postlf7}
 \alias{postlf7}
-\title{postlf7}
+\title{Paradise of pleasures and delights}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Paradise of pleasures and delights
+postlf7
 }
 \details{
 Question 108a. Of course, no one knows exactly what life after death would be like, but her are some ideas people have had. How likely do you feel each possibility is? 7. A paradise of pleasure and delights.

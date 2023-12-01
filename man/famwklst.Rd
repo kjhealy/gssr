@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_489.R
 \name{famwklst}
 \alias{famwklst}
-\title{famwklst}
+\title{Wor'st way to org family work life with under school age child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Wor'st way to org family work life with under school age child
+famwklst
 }
 \details{
 Question And, in your opinion, which of these options would be the least desirable?

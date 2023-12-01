@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_412.R
 \name{mhnokids}
 \alias{mhnokids}
-\title{mhnokids}
+\title{People like x shouldn't be allowed to have children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People like x shouldn't be allowed to have children
+mhnokids
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. i. People like \link{NAME} should not be allowed to have children.

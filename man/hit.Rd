@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_74.R
 \name{hit}
 \alias{hit}
-\title{hit}
+\title{Ever punched or beaten by another person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever punched or beaten by another person
+hit
 }
 \details{
 Question 229. Have you ever been punched or beaten by another person?

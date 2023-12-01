@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_610.R
 \name{kidsinhh}
 \alias{kidsinhh}
-\title{kidsinhh}
+\title{Does interviewer believe that there are children under the age of 15 present at}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does interviewer believe that there are children under the age of 15 present at
+kidsinhh
 }
 \details{
 Question Based on the features of this housing unit and the surrounding property/neighborhood that you can see, do you believe that there are children under the age of 15 present in the household?

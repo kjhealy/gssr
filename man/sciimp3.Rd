@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_375.R
 \name{sciimp3}
 \alias{sciimp3}
-\title{sciimp3}
+\title{How important: conclusion based on solid evidence}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: conclusion based on solid evidence
+sciimp3
 }
 \details{
 Question 1072. Now I'm going to read you some statements about science and scientists. Please look at Card B19. How important are each of the following in making something scientific? c. The conclusions are based on solid evidence.

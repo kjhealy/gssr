@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_75.R
 \name{hitok}
 \alias{hitok}
-\title{hitok}
+\title{Ever approve of man punching adult male}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever approve of man punching adult male
+hitok
 }
 \details{
 Question 231. Are there any situations that you can imagine in which you would approve of a man punching an adult male stranger?

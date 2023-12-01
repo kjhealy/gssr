@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_344.R
 \name{godguide}
 \alias{godguide}
-\title{godguide}
+\title{Feel guided by god in daily activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel guided by god in daily activities
+godguide
 }
 \details{
 Question You may experience the following in your daily life, if so how often. 1009. I feel guided by God in the midst of daily activities.

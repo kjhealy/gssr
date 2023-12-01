@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_270.R
 \name{artsmin}
 \alias{artsmin}
-\title{artsmin}
+\title{How many minutes at arts websites}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many minutes at arts websites
+artsmin
 }
 \details{
 Question 780. In a typical month, about how many minutes or hours do you use the Web to explore sites that have to do with music, film, the visual arts, dance, theater, museums, literature or related topics? a. Minutes per month

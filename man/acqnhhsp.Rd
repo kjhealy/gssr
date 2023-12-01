@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_398.R
 \name{acqnhhsp}
 \alias{acqnhhsp}
-\title{acqnhhsp}
+\title{Number of hispanic in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of hispanic in neighborhood
+acqnhhsp
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. h. How many are Hispanic?

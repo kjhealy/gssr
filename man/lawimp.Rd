@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_33.R
 \name{lawimp}
 \alias{lawimp}
-\title{lawimp}
+\title{Importance of law enforcement issue to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of law enforcement issue to r
+lawimp
 }
 \details{
 Question 93a. How important is the law enforcement issue to you?

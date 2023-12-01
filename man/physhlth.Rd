@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_310.R
 \name{physhlth}
 \alias{physhlth}
-\title{physhlth}
+\title{Days of poor physical health past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Days of poor physical health past 30 days
+physhlth
 }
 \details{
 Question 906. Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good?

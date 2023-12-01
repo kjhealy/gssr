@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_412.R
 \name{mhoutsdr}
 \alias{mhoutsdr}
-\title{mhoutsdr}
+\title{Getting treatment would make x outsider in community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Getting treatment would make x outsider in community
+mhoutsdr
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. a. Getting treatment would make \link{NAME} an outsider in (his/her) community.

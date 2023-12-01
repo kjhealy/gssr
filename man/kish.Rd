@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_611.R
 \name{kish}
 \alias{kish}
-\title{kish}
+\title{NA}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-NA
+kish
 }
 \details{
 Question None

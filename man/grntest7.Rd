@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_522.R
 \name{grntest7}
 \alias{grntest7}
-\title{grntest7}
+\title{Car's not imp cause of air pollution}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Car's not imp cause of air pollution
+grntest7
 }
 \details{
 Question 1416. And for each of these statements, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? g. Cars are not really an important cause of air pollution in America.

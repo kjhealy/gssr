@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_606.R
 \name{saqissp}
 \alias{saqissp}
-\title{saqissp}
+\title{R did issp module}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R did issp module
+saqissp
 }
 \details{
 Question None

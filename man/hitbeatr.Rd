@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_75.R
 \name{hitbeatr}
 \alias{hitbeatr}
-\title{hitbeatr}
+\title{Stranger was beating up a woman}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Stranger was beating up a woman
+hitbeatr
 }
 \details{
 Question 231. If yes or not sure: Would you approve if the stranger: d. Was beating up a woman and the man saw it?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_275.R
 \name{advcowrk}
 \alias{advcowrk}
-\title{advcowrk}
+\title{R can ask coworker software help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R can ask coworker software help
+advcowrk
 }
 \details{
 Question 790. Do the people you can ask for advice include? (Name as many as are correct): i. Other co-worker

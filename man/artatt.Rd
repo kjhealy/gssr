@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_234.R
 \name{artatt}
 \alias{artatt}
-\title{artatt}
+\title{Attended exhibit alone or with others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attended exhibit alone or with others
+artatt
 }
 \details{
 Question You said that in the last 12 months you attended an exhibit. I?d like to ask you a few questions about the last time you did this type of activity. A. Did you attend this exhibit alone, with one other person, or with two or more other people?

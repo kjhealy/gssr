@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_264.R
 \name{schl30}
 \alias{schl30}
-\title{schl30}
+\title{R use school site in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use school site in past 30 days
+schl30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: b. Sites related to a school that you or your children attend?

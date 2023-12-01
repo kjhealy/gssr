@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_491.R
 \name{splive}
 \alias{splive}
-\title{splive}
+\title{How long been living with spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long been living with spouse
+splive
 }
 \details{
 Question How long have you and your spouse/steady partner been living together?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_530.R
 \name{belikeus}
 \alias{belikeus}
-\title{belikeus}
+\title{Agree better if people were more like americans}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Agree better if people were more like americans
+belikeus
 }
 \details{
 Question 1440. How much do you agree or disagree with the following statements? c. The world would be a better place if people from other countries were more like the Americans

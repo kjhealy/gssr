@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_233.R
 \name{prfmatt4}
 \alias{prfmatt4}
-\title{prfmatt4}
+\title{Attended with relative}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attended with relative
+prfmatt4
 }
 \details{
 Question Did any of the following go with you? D. Relative

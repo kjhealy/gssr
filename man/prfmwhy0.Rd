@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_234.R
 \name{prfmwhy0}
 \alias{prfmwhy0}
-\title{prfmwhy0}
+\title{Other major reason in decision to attend perf}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other major reason in decision to attend perf
+prfmwhy0
 }
 \details{
 Question People attend performances for different reasons. J. Please specify:

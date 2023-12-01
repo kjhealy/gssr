@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_03.R
 \name{marital}
 \alias{marital}
-\title{marital}
+\title{Marital status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Marital status
+marital
 }
 \details{
 Question 4. Are you currently -- married, widowed, divorced, separated, or have you never been married?

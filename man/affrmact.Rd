@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_48.R
 \name{affrmact}
 \alias{affrmact}
-\title{affrmact}
+\title{Favor preference in hiring blacks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Favor preference in hiring blacks
+affrmact
 }
 \details{
 Question 153. Some people say that because of past discrimination, blacks should be given preference in hiring and promotion. Others say that such preference in hiring and promotion of blacks is wrong because it discriminates against whites. What about your opinion - are you for or against preferential hiring and promotion of blacks? If favors: Do you favor preference in hiring and promotion strongly or not strongly? If opposes: Do you oppose preference in hiring and promotion strongly or not strongly?

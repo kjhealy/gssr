@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_128.R
 \name{intlasns}
 \alias{intlasns}
-\title{intlasns}
+\title{Unintelligent - intelligent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unintelligent - intelligent
+intlasns
 }
 \details{
 Question 403d. Do people in these groups tend to be unintelligent or tend to be intelligent? 4. Asian Americans

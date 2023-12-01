@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_212.R
 \name{vigfrnd}
 \alias{vigfrnd}
-\title{vigfrnd}
+\title{How willing r would make friends with x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How willing r would make friends with x
+vigfrnd
 }
 \details{
 Question 656c. How willing would you be to make friends with NAME -- definitely willing, probably willing, probably unwilling, or definitely unwilling?

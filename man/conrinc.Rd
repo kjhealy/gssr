@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_567.R
 \name{conrinc}
 \alias{conrinc}
-\title{conrinc}
+\title{Respondent income in constant dollars}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondent income in constant dollars
+conrinc
 }
 \details{
 Question 1658. Inflation-adjusted personal income.

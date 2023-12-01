@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_189.R
 \name{chnang14}
 \alias{chnang14}
-\title{chnang14}
+\title{Thought about how to get revenge}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Thought about how to get revenge
+chnang14
 }
 \details{
 Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? n. Thought about how to get revenge

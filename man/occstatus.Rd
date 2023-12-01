@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_02.R
 \name{occstatus}
 \alias{occstatus}
-\title{occstatus}
+\title{Occ10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Occ10 coding status
+occstatus
 }
 \details{
 Question None

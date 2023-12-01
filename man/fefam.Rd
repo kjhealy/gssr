@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_79.R
 \name{fefam}
 \alias{fefam}
-\title{fefam}
+\title{Better for man to work, woman tend home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Better for man to work, woman tend home
+fefam
 }
 \details{
 Question 252. Now I'm going to read several more statements. As I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. d. It is much better for everyone involved if the man is the achiever outside the home and the woman takes care of the home and family.

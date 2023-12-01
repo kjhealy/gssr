@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_168.R
 \name{sbpicked}
 \alias{sbpicked}
-\title{sbpicked}
+\title{Number of sibling randomly chosen}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of sibling randomly chosen
+sbpicked
 }
 \details{
 Question None

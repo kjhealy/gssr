@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_490.R
 \name{tiredwk1}
 \alias{tiredwk1}
-\title{tiredwk1}
+\title{How often too tired from housework to do job well}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often too tired from housework to do job well
+tiredwk1
 }
 \details{
 Question You have arrived at work too tired to function well because of the household work you had done.

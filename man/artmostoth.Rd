@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_238.R
 \name{artmostoth}
 \alias{artmostoth}
-\title{artmostoth}
+\title{Most imp factor in not attending art exhibit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most imp factor in not attending art exhibit
+artmostoth
 }
 \details{
 Question Of these factors, which one was the most important in your decision not to attend?

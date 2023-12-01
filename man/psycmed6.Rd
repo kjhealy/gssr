@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_242.R
 \name{psycmed6}
 \alias{psycmed6}
-\title{psycmed6}
+\title{These medications help control symptoms}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-These medications help control symptoms
+psycmed6
 }
 \details{
 Question 710. Please tell me how much you agree or disagree with the following statements: f. These medications help people control their symptoms

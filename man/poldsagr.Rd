@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_268.R
 \name{poldsagr}
 \alias{poldsagr}
-\title{poldsagr}
+\title{Visit political sites r disagrees with}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Visit political sites r disagrees with
+poldsagr
 }
 \details{
 Question 776. Is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that you: c. Visit sites that challenge your own opinions and provide different perspectives on political affairs?

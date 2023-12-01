@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_500.R
 \name{boredom}
 \alias{boredom}
-\title{boredom}
+\title{How often is r bored at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often is r bored at work
+boredom
 }
 \details{
 Question 1336. Now some more questions about your working conditions. Please circle one code for each item below to show how often it applies to your work. How often... d. Are you bored at work?

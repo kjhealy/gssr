@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_541.R
 \name{chngeoth}
 \alias{chngeoth}
-\title{chngeoth}
+\title{How often r try to persuade other to share views}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r try to persuade other to share views
+chngeoth
 }
 \details{
 Question 1477. When you hold a strong opinion about politics, how often do you try to persuade your friends, relatives or fellow workers to share your views?

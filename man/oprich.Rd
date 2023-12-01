@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_436.R
 \name{oprich}
 \alias{oprich}
-\title{oprich}
+\title{Child of rich has better opportunity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Child of rich has better opportunity
+oprich
 }
 \details{
 Question 1168. Please indicate whether you agree or disagree with each of the following statements. a. A person whose parents are rich has a better chance of earning a lot of money than a person whose parents are poor.

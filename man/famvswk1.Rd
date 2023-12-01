@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_490.R
 \name{famvswk1}
 \alias{famvswk1}
-\title{famvswk1}
+\title{How often difficult to conc at work because family resp}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often difficult to conc at work because family resp
+famvswk1
 }
 \details{
 Question You have found it difficult to concentrate at work because of your family responsibilities.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_08.R
 \name{maind80}
 \alias{maind80}
-\title{maind80}
+\title{Mothers industry code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers industry code (1980)
+maind80
 }
 \details{
 Question 10c. What kind of place did she work for? d. What did they (make/do)?

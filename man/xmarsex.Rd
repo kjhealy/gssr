@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_70.R
 \name{xmarsex}
 \alias{xmarsex}
-\title{xmarsex}
+\title{Sex with person other than spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex with person other than spouse
+xmarsex
 }
 \details{
 Question 218. What is yoru opinion about a married person having sexual relations with someone other than the marriage partner?

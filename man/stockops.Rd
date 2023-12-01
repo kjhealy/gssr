@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_320.R
 \name{stockops}
 \alias{stockops}
-\title{stockops}
+\title{R hold any stock options of r's company}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R hold any stock options of r's company
+stockops
 }
 \details{
 Question 917. Do you currently hold any stock options in your company (vested or unvested)?

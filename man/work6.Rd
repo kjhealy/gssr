@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_563.R
 \name{work6}
 \alias{work6}
-\title{work6}
+\title{Own business losing money or failing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Own business losing money or failing
+work6
 }
 \details{
 Question B. Second, what about work-related matters? Did any of the following happen to you since (CURRENT MONTH), 2003? 6. Your own business (farm or professional office) lost money or failed.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_302.R
 \name{fininc2}
 \alias{fininc2}
-\title{fininc2}
+\title{Best time to be told about incentives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Best time to be told about incentives
+fininc2
 }
 \details{
 Question 861. When do you think is the best time to be told about these financial incentives?

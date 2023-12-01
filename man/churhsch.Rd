@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_115.R
 \name{churhsch}
 \alias{churhsch}
-\title{churhsch}
+\title{Number of years r attended church school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of years r attended church school
+churhsch
 }
 \details{
 Question 361. Did you get any of your grade or high school education in parochial schools or other schools run by religious groups? a. How many years did you attend religious schools?

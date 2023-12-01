@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_72.R
 \name{suicide1}
 \alias{suicide1}
-\title{suicide1}
+\title{Suicide if incurable disease}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suicide if incurable disease
+suicide1
 }
 \details{
 Question 227. Do you think a person has the right to end his or her own life if this person: a. Has an incurable disease?

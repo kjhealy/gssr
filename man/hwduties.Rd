@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_492.R
 \name{hwduties}
 \alias{hwduties}
-\title{hwduties}
+\title{Is r mainly respons.for hh chores?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r mainly respons.for hh chores?
+hwduties
 }
 \details{
 Question 1323. Are you the person who is responsible for doing the general domestic duties - like cleaning, cooking, washing and so on - in your household?

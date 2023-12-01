@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_627.R
 \name{sexbirth1}
 \alias{sexbirth1}
-\title{sexbirth1}
+\title{R's sex assigned at birth (2021)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's sex assigned at birth (2021)
+sexbirth1
 }
 \details{
 Question Was your sex recorded as male or female at birth?

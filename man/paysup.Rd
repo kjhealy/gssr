@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_475.R
 \name{paysup}
 \alias{paysup}
-\title{paysup}
+\title{How much pay dependent on supervising others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much pay dependent on supervising others
+paysup
 }
 \details{
 Question 1268. In deciding how much people ought to earn, how important should each of these things be, in your opinion: c. Whether the job requires supervising others (how important should that be in deciding pay)?

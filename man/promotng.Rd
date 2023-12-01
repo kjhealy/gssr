@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_138.R
 \name{promotng}
 \alias{promotng}
-\title{promotng}
+\title{Procedures for promotion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Procedures for promotion
+promotng
 }
 \details{
 Question 430. Are there regular procedures for promoting people in your job to a higher level?

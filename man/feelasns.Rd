@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_300.R
 \name{feelasns}
 \alias{feelasns}
-\title{feelasns}
+\title{How r feels towards asian americans}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How r feels towards asian americans
+feelasns
 }
 \details{
 Question 849b. In general, how warm or cool do you feel towards Asian Americans?

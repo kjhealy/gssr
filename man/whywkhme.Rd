@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_304.R
 \name{whywkhme}
 \alias{whywkhme}
-\title{whywkhme}
+\title{Usual reason r work at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Usual reason r work at home
+whywkhme
 }
 \details{
 Question 880. Is it usually because you want to, you have to in order to keep up with your job, or for some other reason?

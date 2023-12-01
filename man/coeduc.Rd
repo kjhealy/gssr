@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_10.R
 \name{coeduc}
 \alias{coeduc}
-\title{coeduc}
+\title{Highest year school completed, partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Highest year school completed, partner
+coeduc
 }
 \details{
 Question None

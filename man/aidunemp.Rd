@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_444.R
 \name{aidunemp}
 \alias{aidunemp}
-\title{aidunemp}
+\title{Govts resp: provide for the unemployed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts resp: provide for the unemployed
+aidunemp
 }
 \details{
 Question 1188. On the whole, do you think it should or should not be the government's responsibility to . . . f. Provide a decent standard of living for the unemployed

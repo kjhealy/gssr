@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_397.R
 \name{acqnhune}
 \alias{acqnhune}
-\title{acqnhune}
+\title{Number of ppl unemployed in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of ppl unemployed in neighborhood
+acqnhune
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. c. How many are currently unemployed?

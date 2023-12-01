@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_95.R
 \name{sex3}
 \alias{sex3}
-\title{sex3}
+\title{Sex of person number 3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of person number 3
+sex3
 }
 \details{
 Question 316. \link{PERSON} is male/female? Is that correct?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_04.R
 \name{spevwork}
 \alias{spevwork}
-\title{spevwork}
+\title{Spouse ever work as long as a year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse ever work as long as a year
+spevwork
 }
 \details{
 Question 5c. If retired, in school, keeping house, or other: Did (he/she) ever work for as long as one year?

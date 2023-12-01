@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_454.R
 \name{sick1}
 \alias{sick1}
-\title{sick1}
+\title{Help if sick #1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Help if sick #1
+sick1
 }
 \details{
 Question 1210. Suppose you had the flu and you had to stay in bed for a few days and needed help around the home, with shopping and such. a. Who would you turn to first for help?

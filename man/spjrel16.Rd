@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_418.R
 \name{spjrel16}
 \alias{spjrel16}
-\title{spjrel16}
+\title{Religion in which spouse raised}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion in which spouse raised
+spjrel16
 }
 \details{
 Question None

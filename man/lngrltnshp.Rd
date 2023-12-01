@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_663.R
 \name{lngrltnshp}
 \alias{lngrltnshp}
-\title{lngrltnshp}
+\title{R in long-term relationship in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R in long-term relationship in hh
+lngrltnshp
 }
 \details{
 Question None

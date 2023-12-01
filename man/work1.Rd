@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_562.R
 \name{work1}
 \alias{work1}
-\title{work1}
+\title{Unemployed and looking for work a month +}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unemployed and looking for work a month +
+work1
 }
 \details{
 Question B. Second, what about work-related matters? Did any of the following happen to you since (CURRENT MONTH), 2003? 1. Fired or permanently laid-off

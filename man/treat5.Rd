@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_296.R
 \name{treat5}
 \alias{treat5}
-\title{treat5}
+\title{R seek treat doing less than desired emotio}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R seek treat doing less than desired emotio
+treat5
 }
 \details{
 Question 842. Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not. e. Accomplishing less than you would like with your work or other regular daily activities as a result of any emotional problems (such as feeling depressed or anxious)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_114.R
 \name{switch3}
 \alias{switch3}
-\title{switch3}
+\title{What was r's third religious preference}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What was r's third religious preference
+switch3
 }
 \details{
 Question 358a. If yes: Starting when you were 16 years old, what other religious preferences have you had? Please mention your earliest preference first. Any others?

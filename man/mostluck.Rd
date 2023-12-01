@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_184.R
 \name{mostluck}
 \alias{mostluck}
-\title{mostluck}
+\title{Good things are mostly luck.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Good things are mostly luck.
+mostluck
 }
 \details{
 Question 573. The following are some statements that people have made. For each one, please tell me if you strongly agree, agree, disagree, or strongly disagree with the statement. c. The really good things that happen to me are mostly luck.

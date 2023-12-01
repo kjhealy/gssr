@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_18.R
 \name{spdotdat}
 \alias{spdotdat}
-\title{spdotdat}
+\title{Sp. d.o.t. code - relation to data}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sp. d.o.t. code - relation to data
+spdotdat
 }
 \details{
 Question None

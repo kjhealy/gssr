@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_596.R
 \name{sei}
 \alias{sei}
-\title{sei}
+\title{Respondent socioeconomic index (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondent socioeconomic index (1980)
+sei
 }
 \details{
 Question 1646. Respondent socioeconomic index.

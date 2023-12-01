@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_61.R
 \name{satjobhv}
 \alias{satjobhv}
-\title{satjobhv}
+\title{Job satisfaction}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job satisfaction
+satjobhv
 }
 \details{
 Question B. On the whole, how satisfied are you with the job you have -- would you say you are very satisfied, moderately satisfied, a little dissatisfied, or very dissatisfied?

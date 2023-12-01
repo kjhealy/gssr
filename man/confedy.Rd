@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_52.R
 \name{confedy}
 \alias{confedy}
-\title{confedy}
+\title{Exec branch fed govt:version z}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Exec branch fed govt:version z
+confedy
 }
 \details{
 Question 166. I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in teh people running these institutions. Suppose these people are at the other end, at point 7. Where would you place yourself on this scale for: e. Executive branch of the federal government?

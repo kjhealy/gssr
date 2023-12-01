@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_02.R
 \name{prestg80}
 \alias{prestg80}
-\title{prestg80}
+\title{R's occupational prestige score(1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's occupational prestige score(1980)
+prestg80
 }
 \details{
 Question 3. Respondent's occupation, prestige, and industry

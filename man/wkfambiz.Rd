@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_199.R
 \name{wkfambiz}
 \alias{wkfambiz}
-\title{wkfambiz}
+\title{Work for pay in a farm etc owned by your family?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Work for pay in a farm etc owned by your family?
+wkfambiz
 }
 \details{
 Question 633. Do you work for pay in a farm or other business owned in whole or in substantial part by a member or members of your family (parents, grandparents, children, brothers, sisters, aunts, uncles, or first cousins)?

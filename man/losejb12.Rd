@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_423.R
 \name{losejb12}
 \alias{losejb12}
-\title{losejb12}
+\title{How likely r will lose job or laid off in next 1 yr}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely r will lose job or laid off in next 1 yr
+losejb12
 }
 \details{
 Question Thinking now about the next 12 months, how likely do you think it is that you will lose your job or be laid off for reasons other than for your performance? Would you say...

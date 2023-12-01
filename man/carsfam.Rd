@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_522.R
 \name{carsfam}
 \alias{carsfam}
-\title{carsfam}
+\title{Car pollution danger to my family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Car pollution danger to my family
+carsfam
 }
 \details{
 Question 1417. Please check one box for each of the questions below to show what you think. b. And do you think that air pollution caused by cars is...

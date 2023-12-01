@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_147.R
 \name{lfegod}
 \alias{lfegod}
-\title{lfegod}
+\title{Life outcome decided by god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Life outcome decided by god
+lfegod
 }
 \details{
 Question 471. I'm going to read some statements that give reasons why a person's life turns out well or poorly. As I read each one, tell me whether you think it is very important, important, somewhat important, or not at all important for how somebody's life turns out? a. Such things are decided by God.

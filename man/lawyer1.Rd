@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_195.R
 \name{lawyer1}
 \alias{lawyer1}
-\title{lawyer1}
+\title{What was the most important reason?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What was the most important reason?
+lawyer1
 }
 \details{
 Question 608. Think about the most recent time you hired a lawyer. What made you choose this law firm or attorney? h. What was the most important reason?

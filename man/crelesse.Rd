@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_295.R
 \name{crelesse}
 \alias{crelesse}
-\title{crelesse}
+\title{Emotion work less carefully past 4 wks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Emotion work less carefully past 4 wks
+crelesse
 }
 \details{
 Question During the past 4 weeks, have you had any of the following problems with your work or other daily activities as a result of any emotional problems (such as feeling depressed or anxious)? 836. Didn't do work or other activities as carefully as usual?

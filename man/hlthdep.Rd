@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_648.R
 \name{hlthdep}
 \alias{hlthdep}
-\title{hlthdep}
+\title{Felt unhappy or depressed in last 4 weeks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Felt unhappy or depressed in last 4 weeks
+hlthdep
 }
 \details{
 Question (During the past 4 weeks how often...) Have you felt unhappy and depressed?

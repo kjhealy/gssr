@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_504.R
 \name{edcskill}
 \alias{edcskill}
-\title{edcskill}
+\title{How important school in developing skills}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important school in developing skills
+edcskill
 }
 \details{
 Question 1359. Now think about the skills that you actually use in your job. How important would you say each of the following was in developing these skills? a. School, college, or university

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_47.R
 \name{racnobuy}
 \alias{racnobuy}
-\title{racnobuy}
+\title{Ever boycott certain products}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever boycott certain products
+racnobuy
 }
 \details{
 Question 143. Have you ever stopped buying certain products because of the way the company or country which makes them has treated black people?

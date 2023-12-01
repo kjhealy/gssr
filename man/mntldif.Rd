@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_243.R
 \name{mntldif}
 \alias{mntldif}
-\title{mntldif}
+\title{How difficult to get mental health care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How difficult to get mental health care
+mntldif
 }
 \details{
 Question 719. How difficult was it to get the treatment that you sought: very difficult, somewhat difficult, or not at all difficult?

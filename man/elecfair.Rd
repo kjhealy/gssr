@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_542.R
 \name{elecfair}
 \alias{elecfair}
-\title{elecfair}
+\title{How fair last natl election: opprtunities of candidate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How fair last natl election: opprtunities of candidate
+elecfair
 }
 \details{
 Question 1483. Thinking of the last national election in America, how fair was it regarding the opportunities of the candidates and parties to campaign?

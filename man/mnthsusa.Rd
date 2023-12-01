@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_576.R
 \name{mnthsusa}
 \alias{mnthsusa}
-\title{mnthsusa}
+\title{Lived in u.s., if less than one year 		months:}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Lived in u.s., if less than one year 		months:
+mnthsusa
 }
 \details{
 Question How long have you lived in the United States? If you have lived in the United States for more than one period during your life, what is the total number of years you have lived in the United States? B. (If less than 1 year) Months in US

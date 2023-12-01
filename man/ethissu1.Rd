@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_171.R
 \name{ethissu1}
 \alias{ethissu1}
-\title{ethissu1}
+\title{Degree r invokes primary identity as ethnic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Degree r invokes primary identity as ethnic
+ethissu1
 }
 \details{
 Question 516e. Do you think of yourself as a(n) \link{GROUP} on all issues, most issues, some issues, or just a few issues?

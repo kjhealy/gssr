@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_512.R
 \name{madenkid}
 \alias{madenkid}
-\title{madenkid}
+\title{If protestant, mothers denomination}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If protestant, mothers denomination
+madenkid
 }
 \details{
 Question 1386a. If Protestant, what specific denomination was that?

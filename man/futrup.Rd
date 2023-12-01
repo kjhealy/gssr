@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_176.R
 \name{futrup}
 \alias{futrup}
-\title{futrup}
+\title{Degree economy will improve in next year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Degree economy will improve in next year
+futrup
 }
 \details{
 Question 543a. Would you say much better or somewhat better?

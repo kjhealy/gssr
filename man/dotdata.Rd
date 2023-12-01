@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_17.R
 \name{dotdata}
 \alias{dotdata}
-\title{dotdata}
+\title{D.o.t. code - relation to data}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-D.o.t. code - relation to data
+dotdata
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_488.R
 \name{kidsocst}
 \alias{kidsocst}
-\title{kidsocst}
+\title{Having children increases social standing in society}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Having children increases social standing in society
+kidsocst
 }
 \details{
 Question Having children increases people's social standing in society.

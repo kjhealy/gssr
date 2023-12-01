@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_328.R
 \name{discipln}
 \alias{discipln}
-\title{discipln}
+\title{Situation caused by lacking discipline in the}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Situation caused by lacking discipline in the
+discipln
 }
 \details{
 Question 942g. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by lacking discipline in the home?

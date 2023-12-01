@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{mentldoc}
 \alias{mentldoc}
-\title{mentldoc}
+\title{X should go to psychiatrist for help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should go to psychiatrist for help
+mentldoc
 }
 \details{
 Question 659. Should NAME do any of the following: d. Go to a psychiatrist for help

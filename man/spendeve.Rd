@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_328.R
 \name{spendeve}
 \alias{spendeve}
-\title{spendeve}
+\title{How willing r spend evening with child's family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How willing r spend evening with child's family
+spendeve
 }
 \details{
 Question 943b. How willing would you be to spend an evening socializing with (John/Mary)'s family?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_230.R
 \name{hope6}
 \alias{hope6}
-\title{hope6}
+\title{I am meeting my current goals}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I am meeting my current goals
+hope6
 }
 \details{
 Question Using the scale on the showcard, please select the response that best describes how you think about yourself right now. Please focus on yourself and what is going on in your life at this moment. Please answer each item as I read them according to the scale on the card. F. At this time, I am meeting the goals I have set for myself.

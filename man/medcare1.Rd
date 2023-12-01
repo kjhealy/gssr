@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_215.R
 \name{medcare1}
 \alias{medcare1}
-\title{medcare1}
+\title{Who r thinks should be most responsible for cost of xs medical care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r thinks should be most responsible for cost of xs medical care
+medcare1
 }
 \details{
 Question 662. In your opinion, who should be most responsible for paying the cost of NAME's medical care, including mental health care and treatment?

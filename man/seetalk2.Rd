@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_222.R
 \name{seetalk2}
 \alias{seetalk2}
-\title{seetalk2}
+\title{How frequently r sees or talks to person 2}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How frequently r sees or talks to person 2
+seetalk2
 }
 \details{
 Question On a scale from 1 to 10, with 1 being not at all and 10 being very often, how frequently do you see or talk to NAME 2 these days?

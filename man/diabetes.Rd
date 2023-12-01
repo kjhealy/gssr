@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_312.R
 \name{diabetes}
 \alias{diabetes}
-\title{diabetes}
+\title{Told have diabetes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Told have diabetes
+diabetes
 }
 \details{
 Question Now I would like to ask you some questions about general health conditions. Has a doctor, nurse, or other health professional EVER told you that you had: C. Diabetes or high blood pressure?

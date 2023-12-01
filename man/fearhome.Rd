@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_76.R
 \name{fearhome}
 \alias{fearhome}
-\title{fearhome}
+\title{Does r feel safe and secure at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r feel safe and secure at home
+fearhome
 }
 \details{
 Question 234. How about at home at night - do you feel safe and secure, or not?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_507.R
 \name{replaceu}
 \alias{replaceu}
-\title{replaceu}
+\title{How easy r's firm replaces r if r left}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How easy r's firm replaces r if r left
+replaceu
 }
 \details{
 Question 1511b. How difficult or easy do you think it would be for your firm or organization to replace you if you left?

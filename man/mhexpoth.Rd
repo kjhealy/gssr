@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_416.R
 \name{mhexpoth}
 \alias{mhexpoth}
-\title{mhexpoth}
+\title{Effect of experiences with this person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Effect of experiences with this person
+mhexpoth
 }
 \details{
 Question 1146g. Overall, would you say that your experiences with this person have...

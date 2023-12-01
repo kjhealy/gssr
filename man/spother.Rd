@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_40.R
 \name{spother}
 \alias{spother}
-\title{spother}
+\title{Other protestant denominations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other protestant denominations
+spother
 }
 \details{
 Question 116a. If Protestant: What specific denomination is that, if any?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_202.R
 \name{monpol}
 \alias{monpol}
-\title{monpol}
+\title{Done volunteer work in political org. etc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done volunteer work in political org. etc
+monpol
 }
 \details{
 Question 641. In which, if any, of the areas listed on this card have you done some volunteer work in the past month? j. Political organizations or campaigns

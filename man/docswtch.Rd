@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_303.R
 \name{docswtch}
 \alias{docswtch}
-\title{docswtch}
+\title{Would r switch physicians}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r switch physicians
+docswtch
 }
 \details{
 Question 869. Based on what the doctor has just told you, if you could, would you switch physicians?

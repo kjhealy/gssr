@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_418.R
 \name{majwoth}
 \alias{majwoth}
-\title{majwoth}
+\title{R's mom was jewish when r was growing up}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's mom was jewish when r was growing up
+majwoth
 }
 \details{
 Question Was your mother Jewish in any way when you were growing up?

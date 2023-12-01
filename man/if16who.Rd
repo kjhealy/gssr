@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_23.R
 \name{if16who}
 \alias{if16who}
-\title{if16who}
+\title{Who you would have voted for}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who you would have voted for
+if16who
 }
 \details{
 Question AM. Who would you have voted for, for president, if you had voted?

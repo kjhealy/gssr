@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{ortlkclr}
 \alias{ortlkclr}
-\title{ortlkclr}
+\title{In what order talk to a minister, priest, rabbi etc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what order talk to a minister, priest, rabbi etc
+ortlkclr
 }
 \details{
 Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? b. Talk to a minister, priest, rabbi, or other religious leader

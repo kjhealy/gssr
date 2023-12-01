@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_632.R
 \name{relidesc}
 \alias{relidesc}
-\title{relidesc}
+\title{How well r's religion describes r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well r's religion describes r
+relidesc
 }
 \details{
 Question How well does being a member of your religion describe you?

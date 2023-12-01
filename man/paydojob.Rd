@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{paydojob}
 \alias{paydojob}
-\title{paydojob}
+\title{How important job well done in deciding pay}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important job well done in deciding pay
+paydojob
 }
 \details{
 Question 1350. In deciding on pay for two people doing the same kind of work, how important should be ... a. How well the person does the job?

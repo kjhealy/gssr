@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_245.R
 \name{doc5}
 \alias{doc5}
-\title{doc5}
+\title{Doctors treat patients with respect}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctors treat patients with respect
+doc5
 }
 \details{
 Question 722. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. e. Doctors always treat their patients with respect

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_269.R
 \name{polconf}
 \alias{polconf}
-\title{polconf}
+\title{Web help confirm opinions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Web help confirm opinions
+polconf
 }
 \details{
 Question 779. In general, when you visit Web sites devoted to political or social policy issues, current affairs, or political campaigns, is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that: b. Visiting such sites tends to strengthen or confirm the opinions you already hold?

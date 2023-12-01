@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_330.R
 \name{violpeop}
 \alias{violpeop}
-\title{violpeop}
+\title{Would child do something violent toward other}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would child do something violent toward other
+violpeop
 }
 \details{
 Question 952a. How likely in your opinion is it (John/Mary) would do something violent toward other people -- is it very likely, somewhat likely, not very likely, or not at all likely?

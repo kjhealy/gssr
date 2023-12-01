@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_171.R
 \name{gvtapart}
 \alias{gvtapart}
-\title{gvtapart}
+\title{Should govt policy maintain distinct cultures}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt policy maintain distinct cultures
+gvtapart
 }
 \details{
 Question 519a. Should it be up to the government to help racial and ethnic groups maintain their distinct cultures, or should this be left up to the groups themselves?

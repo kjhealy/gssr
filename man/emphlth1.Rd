@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_428.R
 \name{emphlth1}
 \alias{emphlth1}
-\title{emphlth1}
+\title{Current employer offer health care insurance to r as employee}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Current employer offer health care insurance to r as employee
+emphlth1
 }
 \details{
 Question Does your current employer offer health care insurance to you as an employee?

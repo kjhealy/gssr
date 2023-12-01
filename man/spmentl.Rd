@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_215.R
 \name{spmentl}
 \alias{spmentl}
-\title{spmentl}
+\title{Govt spending on health}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt spending on health
+spmentl
 }
 \details{
 Question 663. Earlier, we talked about various areas of government spending. Since we've been talking about the mental health area, please indicate whether you would like to see more or less government spending in the area of mental health care. Remember that if you say "much more," it might require a tax increase to pay for it.

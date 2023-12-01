@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_313.R
 \name{disrspct}
 \alias{disrspct}
-\title{disrspct}
+\title{R is treated with less courtesy or respect than others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is treated with less courtesy or respect than others
+disrspct
 }
 \details{
 Question In your day-to-day life how often have any of the following things happened to you? A. You are treated with less courtesy or respect than other people.

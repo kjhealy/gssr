@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_544.R
 \name{creation}
 \alias{creation}
-\title{creation}
+\title{View about origin and development of man}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-View about origin and development of man
+creation
 }
 \details{
 Question 1489. After I read off three statements, please tell me which one comes closest to your views about the origin and development of man. 1. God created man pretty much in his present form at one time within the last 10,000 years 2. Man has developed over millions of years from less advanced forms of life. God had no part in this process. 3. Man has developed over millions of years from less advanced forms of life, but God guided this process, including man's creation

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_443.R
 \name{jobsall}
 \alias{jobsall}
-\title{jobsall}
+\title{Govts resp: provide jobs for all}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts resp: provide jobs for all
+jobsall
 }
 \details{
 Question 1188. On the whole, do you think it should or should not be the government's responsibility to . . . a. Provide a job for everyone who wants one

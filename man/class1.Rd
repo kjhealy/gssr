@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_631.R
 \name{class1}
 \alias{class1}
-\title{class1}
+\title{Subjective class identification (2021)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Subjective class identification (2021)
+class1
 }
 \details{
 Question None

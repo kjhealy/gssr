@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_271.R
 \name{wwwrock}
 \alias{wwwrock}
-\title{wwwrock}
+\title{In last month listen rock music on web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In last month listen rock music on web
+wwwrock
 }
 \details{
 Question h. Rock

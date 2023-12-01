@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_273.R
 \name{litget}
 \alias{litget}
-\title{litget}
+\title{Use web to download poem or fiction}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to download poem or fiction
+litget
 }
 \details{
 Question 787c. Downloaded a poem or work of fiction from a Web site to your computer?

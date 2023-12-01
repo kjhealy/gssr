@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_521.R
 \name{grntest3}
 \alias{grntest3}
-\title{grntest3}
+\title{Greenhouse effect caused by hole in atmosphere}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Greenhouse effect caused by hole in atmosphere
+grntest3
 }
 \details{
 Question 1416. And for each of these statements, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? c. The greenhouse effect is caused by a hole in the earth's atmosphere.

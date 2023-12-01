@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_599.R
 \name{usun}
 \alias{usun}
-\title{usun}
+\title{Remain in u.n. or pull out}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Remain in u.n. or pull out
+usun
 }
 \details{
 Question 100. Do you think our government should continue to belong to the United Nations, or should we pull out of it now?

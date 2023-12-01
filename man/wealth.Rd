@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_391.R
 \name{wealth}
 \alias{wealth}
-\title{wealth}
+\title{Total wealth of respondent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total wealth of respondent
+wealth
 }
 \details{
 Question 1092. Please estimate your total wealth. IF ASKED: Wealth means the value of your house plus the value of your vehicles, stocks and mutual funds, cash, checking accounts, retirement accounts including 401(k) and pension assets, and any other assets minus what you owe for your mortgage and your debts.

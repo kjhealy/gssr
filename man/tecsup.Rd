@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_290.R
 \name{tecsup}
 \alias{tecsup}
-\title{tecsup}
+\title{Called tech support at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Called tech support at work
+tecsup
 }
 \details{
 Question 814. When you want advice or assistance with surfing on the Web, finding a Web site, downloading software or some other online service, or getting your Internet connection to work, which of the following do you do? (Name as many as are correct.) c. Call or email technical support from your employer or school

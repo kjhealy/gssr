@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_454.R
 \name{frivisit}
 \alias{frivisit}
-\title{frivisit}
+\title{How often visit closest friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often visit closest friend
+frivisit
 }
 \details{
 Question 1208d. How often do you see or visit with your friend (the friend you feel closest to)?

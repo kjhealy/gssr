@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_650.R
 \name{stoptyramt}
 \alias{stoptyramt}
-\title{stoptyramt}
+\title{Value of options granted in past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Value of options granted in past year
+stoptyramt
 }
 \details{
 Question Please give a general estimate of the total number of the stock options that your company granted to you in 2021.

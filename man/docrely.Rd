@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_301.R
 \name{docrely}
 \alias{docrely}
-\title{docrely}
+\title{R relies on doctors knowledge}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R relies on doctors knowledge
+docrely
 }
 \details{
 Question 854. I will read you some statements of beliefs people have. Please look at the card and decide which answer best applies to you. c. I prefer to rely on my doctor's knowledge and not try to find out about my condition on my own.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_646.R
 \name{hlthwblif}
 \alias{hlthwblif}
-\title{hlthwblif}
+\title{Looked up online - healthy lifestyle}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Looked up online - healthy lifestyle
+hlthwblif
 }
 \details{
 Question During the past 12 months, how often, if at all, have you used the internet to look for information on the following topics? Information on healthy lifestyle?

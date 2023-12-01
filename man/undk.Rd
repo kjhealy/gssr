@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_497.R
 \name{undk}
 \alias{undk}
-\title{undk}
+\title{Don't know response to unemployment items}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Don't know response to unemployment items
+undk
 }
 \details{
 Question 1327. Suppose you were unemployed and couldn't find a job. Which of the following problems would be the worst? Please write '1' in the box beside the worst thing, write '2' in the box beside the next worst thing, and '3' beside the third worst thing. Leave the other boxes blank. h. Respondent can't choose

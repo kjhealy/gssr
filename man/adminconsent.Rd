@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_607.R
 \name{adminconsent}
 \alias{adminconsent}
-\title{adminconsent}
+\title{Consent to possible data linkage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Consent to possible data linkage
+adminconsent
 }
 \details{
 Question One important purpose of our survey is to gather information about our society in order to explain trends in attitudes and behaviors. The GSS seeks to support the study of opinion data with more behavioral, fact-based information. To do this, we need your

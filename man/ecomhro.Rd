@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_283.R
 \name{ecomhro}
 \alias{ecomhro}
-\title{ecomhro}
+\title{Hours per week using other computer hsehld mngm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per week using other computer hsehld mngm
+ecomhro
 }
 \details{
 Question 806. For about how many minutes or hours a week do you use (this other computer/these other computers) for each of the following: a. Shopping, paying bills, and other household management?

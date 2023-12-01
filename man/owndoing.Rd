@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_339.R
 \name{owndoing}
 \alias{owndoing}
-\title{owndoing}
+\title{Degree of influence over what happens to me}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Degree of influence over what happens to me
+owndoing
 }
 \details{
 Question 983. Please indicate which of the following statements comes closer to describing you by circling the appropriate letter:

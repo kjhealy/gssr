@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_610.R
 \name{huadd}
 \alias{huadd}
-\title{huadd}
+\title{Housing unit (hu) at address?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Housing unit (hu) at address?
+huadd
 }
 \details{
 Question IS THERE A HOUSING UNIT (HU) AT THE ADDRESS SHOWN ON THE ASSIGNMENT LABEL?

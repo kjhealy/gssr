@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_78.R
 \name{phone}
 \alias{phone}
-\title{phone}
+\title{Does r have telephone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r have telephone
+phone
 }
 \details{
 Question 243. Thank you very much for your time and help. Do you have a telephone?

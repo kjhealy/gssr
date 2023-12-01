@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_79.R
 \name{fepresch}
 \alias{fepresch}
-\title{fepresch}
+\title{Preschool kids suffer if mother works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Preschool kids suffer if mother works
+fepresch
 }
 \details{
 Question 252. Now I'm going to read several more statements. As I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. c. A preschool child is likely to suffer if his or her mother works.

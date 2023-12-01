@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_368.R
 \name{odds2}
 \alias{odds2}
-\title{odds2}
+\title{Test of knowledge about probablity2}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Test of knowledge about probablity2
+odds2
 }
 \details{
 Question 1043. Now, think about this situation. A doctor tells a couple that their genetic makeup means that they've got one in four chances of having a child with an inherited illness. b. Does this mean that each of the couple's children will have the same risk of suffering from the illness?

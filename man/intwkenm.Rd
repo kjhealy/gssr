@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_288.R
 \name{intwkenm}
 \alias{intwkenm}
-\title{intwkenm}
+\title{Minutes of internet use on weekends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes of internet use on weekends
+intwkenm
 }
 \details{
 Question B. MINUTES:

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_411.R
 \name{mhphyscl}
 \alias{mhphyscl}
-\title{mhphyscl}
+\title{X is experiencing physical illness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X is experiencing physical illness
+mhphyscl
 }
 \details{
 Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... j. A physical illness

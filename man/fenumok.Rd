@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_87.R
 \name{fenumok}
 \alias{fenumok}
-\title{fenumok}
+\title{Number of women in military}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of women in military
+fenumok
 }
 \details{
 Question 289c. At the present time, about 9 percent of the armed forces are women. All things considered, do you think there are too many women in the armed forces, about the right number, or should there be more women in the armed forces?

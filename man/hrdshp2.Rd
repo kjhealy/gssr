@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_564.R
 \name{hrdshp2}
 \alias{hrdshp2}
-\title{hrdshp2}
+\title{Eviction from one's apartment, house}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Eviction from one's apartment, house
+hrdshp2
 }
 \details{
 Question D. Now I am going to ask about specific hardships. Did any of the following occur to you since (CURRENT MONTH), 2003? 2. Evicted from your apartment/house

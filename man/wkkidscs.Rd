@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_490.R
 \name{wkkidscs}
 \alias{wkkidscs}
-\title{wkkidscs}
+\title{Did partner work outside home with child under school age}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did partner work outside home with child under school age
+wkkidscs
 }
 \details{
 Question What about your \link{spouse/partner} at that time? Did \link{he/she} work outside the home full-time, part-time, or not at all? When a child was under school age?

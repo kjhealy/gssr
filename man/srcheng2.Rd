@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_276.R
 \name{srcheng2}
 \alias{srcheng2}
-\title{srcheng2}
+\title{Name of search engine given by r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Name of search engine given by r
+srcheng2
 }
 \details{
 Question 791. Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. b. Please name one.

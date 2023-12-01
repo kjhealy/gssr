@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_77.R
 \name{tvhours}
 \alias{tvhours}
-\title{tvhours}
+\title{Hours per day watching tv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per day watching tv
+tvhours
 }
 \details{
 Question 242. On the average day, about how many hours do you personally watch television?

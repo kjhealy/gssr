@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_18.R
 \name{dotged}
 \alias{dotged}
-\title{dotged}
+\title{D.o.t. code - general educ develop.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-D.o.t. code - general educ develop.
+dotged
 }
 \details{
 Question None

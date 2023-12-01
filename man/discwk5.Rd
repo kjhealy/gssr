@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_494.R
 \name{discwk5}
 \alias{discwk5}
-\title{discwk5}
+\title{Discrimination at work in past 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Discrimination at work in past 5 yrs
+discwk5
 }
 \details{
 Question A. Over the past five years, have you been discriminated against with regard to work, for instance when applying for a job, or when being considered for a pay increase or promotion?

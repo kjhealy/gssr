@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_324.R
 \name{loanitem}
 \alias{loanitem}
-\title{loanitem}
+\title{R has let someone borrow a item of some value}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has let someone borrow a item of some value
+loanitem
 }
 \details{
 Question 927. During the past 12 months, how often have you done each of the following things: k. Let someone you didn't know well borrow a item of some value like dishes or tools.

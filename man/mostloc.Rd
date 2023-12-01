@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_283.R
 \name{mostloc}
 \alias{mostloc}
-\title{mostloc}
+\title{Where does r use computer most}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where does r use computer most
+mostloc
 }
 \details{
 Question 805. Which location do you use the most?

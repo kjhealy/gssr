@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_242.R
 \name{psycmed7}
 \alias{psycmed7}
-\title{psycmed7}
+\title{Helps people feel better about themselves}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Helps people feel better about themselves
+psycmed7
 }
 \details{
 Question 710. Please tell me how much you agree or disagree with the following statements: g. Taking medication helps people feel better about themselves.

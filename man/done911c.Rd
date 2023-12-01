@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_420.R
 \name{done911c}
 \alias{done911c}
-\title{done911c}
+\title{Has r purchased things to make them safer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r purchased things to make them safer
+done911c
 }
 \details{
 Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know purchased things to make them safer (gas masks, duct tape, things to make their house safer, etc.)? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_436.R
 \name{databank}
 \alias{databank}
-\title{databank}
+\title{Computer data threat to individual privacy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Computer data threat to individual privacy
+databank
 }
 \details{
 Question 1165. The federal government has a lot of different pieces of information about people which computers can bring together very quickly. Is this a very serious threat to individual privacy, a fairly serious threat, not a serious threat, or not a threat at all to individual privacy?

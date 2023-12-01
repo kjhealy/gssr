@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_115.R
 \name{sunsch16}
 \alias{sunsch16}
-\title{sunsch16}
+\title{How frequently r attended sunday school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How frequently r attended sunday school
+sunsch16
 }
 \details{
 Question 362. When you were growing up, did you attend Sunday school or religious instruction classes regularly, most of the time, some of the time, or never?

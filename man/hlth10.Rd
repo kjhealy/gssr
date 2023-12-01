@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_562.R
 \name{hlth10}
 \alias{hlth10}
-\title{hlth10}
+\title{Respondent in hospital or sanatorium}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondent in hospital or sanatorium
+hlth10
 }
 \details{
 Question Now I am going to ask about some things that happen in families. First I am going to ask you about illness. 10. During the past twelve months, that is since (CURRENT MONTH) 2003, have you, yourself, been a patient in a hospital, sanitorium, convalescent or nursing home (apart from having a baby)?

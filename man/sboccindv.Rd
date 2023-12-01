@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_169.R
 \name{sboccindv}
 \alias{sboccindv}
-\title{sboccindv}
+\title{Sibling's occ/ind verbatim retrieved}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sibling's occ/ind verbatim retrieved
+sboccindv
 }
 \details{
 Question None

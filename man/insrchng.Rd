@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_303.R
 \name{insrchng}
 \alias{insrchng}
-\title{insrchng}
+\title{Would r change insurance plans}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r change insurance plans
+insrchng
 }
 \details{
 Question 870. Based on what the doctor has just told you, if you could, would you switch health insurance plans?

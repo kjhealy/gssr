@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_279.R
 \name{artgn}
 \alias{artgn}
-\title{artgn}
+\title{R obtain information on art exhibit past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R obtain information on art exhibit past year
+artgn
 }
 \details{
 Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: j. Obtained information about an exhibit or other event at an art museum or art gallery?

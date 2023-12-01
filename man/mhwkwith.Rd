@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_411.R
 \name{mhwkwith}
 \alias{mhwkwith}
-\title{mhwkwith}
+\title{R would work closely with x on a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would work closely with x on a job
+mhwkwith
 }
 \details{
 Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... e. To work closely with \link{NAME} on a job?

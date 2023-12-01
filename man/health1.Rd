@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_310.R
 \name{health1}
 \alias{health1}
-\title{health1}
+\title{R's health in general}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's health in general
+health1
 }
 \details{
 Question 905. Would you say that in general your health is Excellent, Very good, Good, Fair, or Poor?

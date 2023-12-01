@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_438.R
 \name{hscaring}
 \alias{hscaring}
-\title{hscaring}
+\title{School subjects: concern for others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-School subjects: concern for others
+hscaring
 }
 \details{
 Question 1173. Here are some things that might be taught in school. How important is it that schools teach each of these to 15-year-olds? h. Concern for minorities and the poor

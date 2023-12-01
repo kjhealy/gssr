@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_428.R
 \name{evnegjob}
 \alias{evnegjob}
-\title{evnegjob}
+\title{In life, r ever been denied promo or recvd bad evaluation bc employr belivd r wa}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In life, r ever been denied promo or recvd bad evaluation bc employr belivd r wa
+evnegjob
 }
 \details{
 Question Have you ever in your life been denied a promotion or received a negative job evaluation because an employer believed you were gay, lesbian, or bisexual?

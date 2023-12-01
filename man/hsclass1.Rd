@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_154.R
 \name{hsclass1}
 \alias{hsclass1}
-\title{hsclass1}
+\title{R favorite subject in hs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R favorite subject in hs
+hsclass1
 }
 \details{
 Question 479b. \link{When you were in high school/in high school}, what (was/is) your favorite course or subject?

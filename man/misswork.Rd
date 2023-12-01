@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_313.R
 \name{misswork}
 \alias{misswork}
-\title{misswork}
+\title{Miss work for health past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Miss work for health past 30 days
+misswork
 }
 \details{
 Question During the past 30 days, about how many days did you miss work due to your mental or physical health?

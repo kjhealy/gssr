@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_48.R
 \name{racjoin}
 \alias{racjoin}
-\title{racjoin}
+\title{Ever joined org working on racial issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever joined org working on racial issues
+racjoin
 }
 \details{
 Question 152. Have you ever: c. Joined an organization concerned with race relations?

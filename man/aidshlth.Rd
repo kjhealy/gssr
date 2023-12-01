@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_551.R
 \name{aidshlth}
 \alias{aidshlth}
-\title{aidshlth}
+\title{Have govt pay for all aids health care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have govt pay for all aids health care
+aidshlth
 }
 \details{
 Question 1539. Do you support or oppose the following measures to deal with AIDS? Have the government pay all of the health care costs of AIDS patients

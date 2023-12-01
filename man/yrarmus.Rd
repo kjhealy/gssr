@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_653.R
 \name{yrarmus}
 \alias{yrarmus}
-\title{yrarmus}
+\title{Archived livestreamed music or theater in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Archived livestreamed music or theater in past 12 months
+yrarmus
 }
 \details{
 Question (During the last 12 months, did you...) watch or listen to an archived web event featuring a music, theater, or dance performance? This may have included video or audio clips on, for example, YouTube, an organization's website, or a social media

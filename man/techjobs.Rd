@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_503.R
 \name{techjobs}
 \alias{techjobs}
-\title{techjobs}
+\title{New techs increase number of jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-New techs increase number of jobs
+techjobs
 }
 \details{
 Question 1351. New kinds of technology are being introduced more and more in the United States: computers, robots, and so on. Do you think these new technologies will over the next few years...

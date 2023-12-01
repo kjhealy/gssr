@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_535.R
 \name{lessprd}
 \alias{lessprd}
-\title{lessprd}
+\title{Agree often less proud of america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Agree often less proud of america
+lessprd
 }
 \details{
 Question 1459. I am often less proud of America than I would like to be.

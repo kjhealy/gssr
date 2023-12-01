@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_555.R
 \name{sexornt}
 \alias{sexornt}
-\title{sexornt}
+\title{Sexual orientation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sexual orientation
+sexornt
 }
 \details{
 Question Which of the following best describes you?

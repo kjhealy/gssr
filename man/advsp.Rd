@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_274.R
 \name{advsp}
 \alias{advsp}
-\title{advsp}
+\title{R can ask spouse or partner for software help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R can ask spouse or partner for software help
+advsp
 }
 \details{
 Question 790. Do the people you can ask for advice include? (Name as many as are correct): a. Spouse or partner

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_501.R
 \name{unpleznt}
 \alias{unpleznt}
-\title{unpleznt}
+\title{How often does r work in unpleasant conds}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r work in unpleasant conds
+unpleznt
 }
 \details{
 Question 1336. Now some more questions about your working conditions. Please circle one code for each item below to show how often it applies to your work. How often... g. Do you work in physically unpleasant conditions?

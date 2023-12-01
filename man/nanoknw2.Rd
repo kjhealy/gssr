@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_380.R
 \name{nanoknw2}
 \alias{nanoknw2}
-\title{nanoknw2}
+\title{True-false: nanoscale differ from same material at larger scale}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-True-false: nanoscale differ from same material at larger scale
+nanoknw2
 }
 \details{
 Question 1082. Here are a couple of true-false questions about nanotechnology. As before, if you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. b. The properties of nanoscale materials often differ fundamentally and unexpectedly from the properties of the same materials at larger scales. (Is that true or false?)

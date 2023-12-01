@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_495.R
 \name{decidwrk}
 \alias{decidwrk}
-\title{decidwrk}
+\title{How are your working hours decided}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How are your working hours decided
+decidwrk
 }
 \details{
 Question Which of the following statements best describes how your working hours are decided? (By working hours we mean here the times you start and finish work, and not the total hours you work per week or month.)

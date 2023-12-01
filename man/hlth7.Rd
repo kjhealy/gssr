@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_561.R
 \name{hlth7}
 \alias{hlth7}
-\title{hlth7}
+\title{A child in hospital}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A child in hospital
+hlth7
 }
 \details{
 Question 1575. Now, I'm going to ask you about various events and conditions that happen to people. I'm interested in those that happened to you during the last 12 months, that is since (CURRENT MONTH), 2003. As I ask you about the specific events, please think carefully, so I can record things accurately. a. First, thinking about health related matters, did any of the following happen to you since February/March, 1990? 7. A child of yours was a patient in a hospital, sanitorium, convalescent or nursing home (apart from having a baby).

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_554.R
 \name{hivvac}
 \alias{hivvac}
-\title{hivvac}
+\title{There is a vaccine that can prevent hiv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-There is a vaccine that can prevent hiv
+hivvac
 }
 \details{
 Question C. There is a vaccine that can stop adults from getting HIV.

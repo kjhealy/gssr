@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_442.R
 \name{infljobs}
 \alias{infljobs}
-\title{infljobs}
+\title{Top priority of govt: inflation or jobs?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Top priority of govt: inflation or jobs?
+infljobs
 }
 \details{
 Question 1183. If the government had to choose between keeping down inflation or keeping down unemployment to which do you think it should give highest priority?

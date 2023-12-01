@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_650.R
 \name{stockoptyr}
 \alias{stockoptyr}
-\title{stockoptyr}
+\title{Granted stock options in past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Granted stock options in past year
+stockoptyr
 }
 \details{
 Question Were you granted stock options in the company where you work in 2021? A stock option is a right to purchase stock at a set price for several years into the future, typically ten years. For example, one stock option at $10 means that you can purchase yo

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_649.R
 \name{smokeday}
 \alias{smokeday}
-\title{smokeday}
+\title{How many cigs a day}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many cigs a day
+smokeday
 }
 \details{
 Question Do you smoke cigarettes, and if so about how many cigarettes a day?

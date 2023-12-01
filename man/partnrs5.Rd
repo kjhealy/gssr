@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_553.R
 \name{partnrs5}
 \alias{partnrs5}
-\title{partnrs5}
+\title{How many sex partner's r had in last 5 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many sex partner's r had in last 5 years
+partnrs5
 }
 \details{
 Question 1552. Now think about the past five years--the time since February/March \link{1999}, and including the past 12 months, how many sex partners have you had in that five year period?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_501.R
 \name{jobsat}
 \alias{jobsat}
-\title{jobsat}
+\title{How satisfied is r with his/her job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How satisfied is r with his/her job
+jobsat
 }
 \details{
 Question 1340. How satisfied are you in your job?

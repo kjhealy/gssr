@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_241.R
 \name{psycmed5}
 \alias{psycmed5}
-\title{psycmed5}
+\title{Makes things easier in relations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Makes things easier in relations
+psycmed5
 }
 \details{
 Question 710. Please tell me how much you agree or disagree with the following statements: e. Taking these medications makes things easier in relations with family and friends

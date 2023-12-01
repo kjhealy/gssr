@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_660.R
 \name{firstkidsex}
 \alias{firstkidsex}
-\title{firstkidsex}
+\title{Sex of first child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of first child
+firstkidsex
 }
 \details{
 Question Was your first biological child's sex recorded as male or female at birth?

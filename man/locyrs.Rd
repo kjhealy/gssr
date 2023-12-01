@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_239.R
 \name{locyrs}
 \alias{locyrs}
-\title{locyrs}
+\title{How long have worked at this location}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long have worked at this location
+locyrs
 }
 \details{
 Question 699. How long have you worked at this location? Include all full-time positions you have had at this location.

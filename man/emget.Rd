@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_284.R
 \name{emget}
 \alias{emget}
-\title{emget}
+\title{How many email messages received per day}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many email messages received per day
+emget
 }
 \details{
 Question 807. Thinking now about all your home, work or other computers, c. About how many messages do you receive on all these computers on an average day?

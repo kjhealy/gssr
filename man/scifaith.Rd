@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_519.R
 \name{scifaith}
 \alias{scifaith}
-\title{scifaith}
+\title{Believe too much in science, not enough faith}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Believe too much in science, not enough faith
+scifaith
 }
 \details{
 Question 1409. How much do you agree or disagree with each of these statements? a. We believe too often in science, and not enough in feelings and faith.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_376.R
 \name{sciimp7}
 \alias{sciimp7}
-\title{sciimp7}
+\title{How important: repeating experiment & finding same result}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: repeating experiment & finding same result
+sciimp7
 }
 \details{
 Question 1072. Now I'm going to read you some statements about science and scientists. Please look at Card B19. How important are each of the following in making something scientific? g. Other scientists repeat the experiment, and find similar results

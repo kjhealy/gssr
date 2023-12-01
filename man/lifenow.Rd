@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_313.R
 \name{lifenow}
 \alias{lifenow}
-\title{lifenow}
+\title{R's rating of life overall now from 0-10}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's rating of life overall now from 0-10
+lifenow
 }
 \details{
 Question If you were asked to rate your overall life from 0-10, where 10 represents the best possible state and 0 represents the worst possible state? A. How would you rate your life today?

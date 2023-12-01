@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_187.R
 \name{madat22}
 \alias{madat22}
-\title{madat22}
+\title{Angry at an object, circumstances, etc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Angry at an object, circumstances, etc
+madat22
 }
 \details{
 Question 576. Who were you angry, irritated, or annoyed at? v. Not angry at anyone (not angry at a person, but an object, circumstances, etc.)

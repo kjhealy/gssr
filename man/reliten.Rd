@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_35.R
 \name{reliten}
 \alias{reliten}
-\title{reliten}
+\title{Strength of affiliation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Strength of affiliation
+reliten
 }
 \details{
 Question 107. Would you call yoruself a strong \link{RELIGIOUS PREFERENCE} or a not very strong \link{RELIGIOUS PREFERENCE}?

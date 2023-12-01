@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_285.R
 \name{emfamloc}
 \alias{emfamloc}
-\title{emfamloc}
+\title{R send or receive to or from family members at}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R send or receive to or from family members at
+emfamloc
 }
 \details{
 Question Do any of the personal one-to-one messages you receive or send come from: g. Family members who live with you?

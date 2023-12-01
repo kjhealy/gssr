@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_33.R
 \name{gunimp}
 \alias{gunimp}
-\title{gunimp}
+\title{Importance of gun control issue to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of gun control issue to r
+gunimp
 }
 \details{
 Question 87. How important is the gun control issue to you?

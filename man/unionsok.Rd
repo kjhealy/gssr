@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_444.R
 \name{unionsok}
 \alias{unionsok}
-\title{unionsok}
+\title{How good union for the country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How good union for the country
+unionsok
 }
 \details{
 Question 1190. In general, how good would you say labor unions are for the country as a whole?

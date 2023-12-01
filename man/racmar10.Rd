@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_44.R
 \name{racmar10}
 \alias{racmar10}
-\title{racmar10}
+\title{Favor law against rac intrmar 10 yrs ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Favor law against rac intrmar 10 yrs ago
+racmar10
 }
 \details{
 Question 125b. Now thinking about ten years ago, that is in 1972, did you then think there should be laws against marriages between (negroes/blacks) and whites?

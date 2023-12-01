@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_514.R
 \name{trustsci}
 \alias{trustsci}
-\title{trustsci}
+\title{We trust too much in science}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-We trust too much in science
+trustsci
 }
 \details{
 Question 1401. We trust too much in science and not enough in religious faith.

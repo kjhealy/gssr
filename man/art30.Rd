@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_265.R
 \name{art30}
 \alias{art30}
-\title{art30}
+\title{R use art site in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use art site in past 30 days
+art30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: k. Visual art/art museums?

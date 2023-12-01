@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_485.R
 \name{spwknokd}
 \alias{spwknokd}
-\title{spwknokd}
+\title{Did spouse work after marriage before kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did spouse work after marriage before kids
+spwknokd
 }
 \details{
 Question 1307. What about your spouse/partner at that time -- did he or she work outside the home full-time, part-time, or not at all: a. After marrying and before you had children?

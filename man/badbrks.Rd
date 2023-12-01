@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_184.R
 \name{badbrks}
 \alias{badbrks}
-\title{badbrks}
+\title{Most of my problems are due to bad breaks.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most of my problems are due to bad breaks.
+badbrks
 }
 \details{
 Question 573. The following are some statements that people have made. For each one, please tell me if you strongly agree, agree, disagree, or strongly disagree with the statement. b. Most of my problems are due to bad breaks.

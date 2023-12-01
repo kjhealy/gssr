@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_04.R
 \name{cohrs2}
 \alias{cohrs2}
-\title{cohrs2}
+\title{No. of hours partner usually works a week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-No. of hours partner usually works a week
+cohrs2
 }
 \details{
 Question None

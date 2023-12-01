@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_597.R
 \name{sei10inc}
 \alias{sei10inc}
-\title{sei10inc}
+\title{Percentage of $45k+ earners in occ10 based on acs 2010}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage of $45k+ earners in occ10 based on acs 2010
+sei10inc
 }
 \details{
 Question None

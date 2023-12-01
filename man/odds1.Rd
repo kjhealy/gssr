@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_368.R
 \name{odds1}
 \alias{odds1}
-\title{odds1}
+\title{Test of knowledge about probablity1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Test of knowledge about probablity1
+odds1
 }
 \details{
 Question 1043. Now, think about this situation. A doctor tells a couple that their genetic makeup means that they've got one in four chances of having a child with an inherited illness. a. Does this mean that if their first child has the illness, the next three will not have the illness?

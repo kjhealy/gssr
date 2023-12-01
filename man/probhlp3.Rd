@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_210.R
 \name{probhlp3}
 \alias{probhlp3}
-\title{probhlp3}
+\title{Third mention to help problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Third mention to help problem
+probhlp3
 }
 \details{
 Question 647. Problems often come up in life. Sometimes they're personal problems -- people are very unhappy, or nervous and irritable all the time. Sometimes there are problems in a marriage -- a husband and wife just can't get along with each other. Or, sometimes it's a personal problem with a child or a job. I'd like to ask you a few questions now about what you think a person might do to handle problems like this. For instance, let's suppose you had a lot of personal problems and you're very unhappy all the time. Let's suppose you've been that way for a long time, and it isn't getting any better. What do you think you'd do about it?

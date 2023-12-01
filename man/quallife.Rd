@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_314.R
 \name{quallife}
 \alias{quallife}
-\title{quallife}
+\title{R's quality of life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's quality of life
+quallife
 }
 \details{
 Question A. In general, would you say your quality of life is?

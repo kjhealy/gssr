@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_180.R
 \name{fekids1}
 \alias{fekids1}
-\title{fekids1}
+\title{How important women biologically better-suited}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important women biologically better-suited
+fekids1
 }
 \details{
 Question 566. Women are more likely than ment ot ake care of children. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is: a. Women are biologically better-suited to care for children.

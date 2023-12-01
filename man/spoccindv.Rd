@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_05.R
 \name{spoccindv}
 \alias{spoccindv}
-\title{spoccindv}
+\title{Spouse's occ/ind verbatim retrieved}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's occ/ind verbatim retrieved
+spoccindv
 }
 \details{
 Question None

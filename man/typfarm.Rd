@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_347.R
 \name{typfarm}
 \alias{typfarm}
-\title{typfarm}
+\title{R belongs to more than one farm organizations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one farm organizations
+typfarm
 }
 \details{
 Question 1024l. Do you belong to more than one farm organization?

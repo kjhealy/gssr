@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_399.R
 \name{acqwkasn}
 \alias{acqwkasn}
-\title{acqwkasn}
+\title{Number of asian in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of asian in current or previous work
+acqwkasn
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. f. How many are Asian or Asian-American?

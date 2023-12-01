@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_381.R
 \name{intsci}
 \alias{intsci}
-\title{intsci}
+\title{Interested in new scientific discoveries}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested in new scientific discoveries
+intsci
 }
 \details{
 Question Issues about new scientific discoveries. (Are you very interested, moderately interested, or not at all interested?)

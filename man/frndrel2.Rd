@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_119.R
 \name{frndrel2}
 \alias{frndrel2}
-\title{frndrel2}
+\title{What is friend 2s religious preference}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is friend 2s religious preference
+frndrel2
 }
 \details{
 Question 381. What is \link{NAME}'s religous preference?

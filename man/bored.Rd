@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_86.R
 \name{bored}
 \alias{bored}
-\title{bored}
+\title{How often does r have extra time}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r have extra time
+bored
 }
 \details{
 Question 285a. If sometimes or never: How often would you say you have time on your hands that you don't know what to do with?

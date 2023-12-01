@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_232.R
 \name{natlart}
 \alias{natlart}
-\title{natlart}
+\title{Feel fed gov should provide assistance to art}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel fed gov should provide assistance to art
+natlart
 }
 \details{
 Question 693. If arts organizations -- such as art museums, dance, operas, theater groups and symphony orchestras -- need financial assistance to operate, do you feel that the federal government should provide assistance or not?

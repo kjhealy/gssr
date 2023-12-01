@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_107.R
 \name{solvet}
 \alias{solvet}
-\title{solvet}
+\title{Veteran group tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Veteran group tries to solve problems
+solvet
 }
 \details{
 Question 329. Do the veterans' groups to which you belong do anything to try to solve individual or community problems?

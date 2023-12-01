@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_387.R
 \name{scientwk}
 \alias{scientwk}
-\title{scientwk}
+\title{Scientists only interested in work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientists only interested in work
+scientwk
 }
 \details{
 Question Scientists have few other interests but their work. Do you strongly agree, agree, disagree, or strongly disagree?

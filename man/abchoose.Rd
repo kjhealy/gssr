@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_484.R
 \name{abchoose}
 \alias{abchoose}
-\title{abchoose}
+\title{Should a woman get an abortion for any reason}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should a woman get an abortion for any reason
+abchoose
 }
 \details{
 Question 1302. Do you agree or disagree: c. pregnant woman should be able to obtain a legal abortion for any reason whatsoever, if she chooses not to have the baby.

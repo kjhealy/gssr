@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_84.R
 \name{trauma1}
 \alias{trauma1}
-\title{trauma1}
+\title{Trauma scale, last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Trauma scale, last year
+trauma1
 }
 \details{
 Question 276a. Number of traumatic events (deaths, divorces, unemployment, and hospitalizations-disabilities) happening to respondent last year.

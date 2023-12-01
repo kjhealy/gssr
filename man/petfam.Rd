@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_318.R
 \name{petfam}
 \alias{petfam}
-\title{petfam}
+\title{How often r considers pet member of family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r considers pet member of family
+petfam
 }
 \details{
 Question How often do you consider your pet to be a member of your family?

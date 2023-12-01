@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_524.R
 \name{grnsign}
 \alias{grnsign}
-\title{grnsign}
+\title{Sign petition on envir issue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sign petition on envir issue
+grnsign
 }
 \details{
 Question 1426. In the last five years, have you... a. signed a petition about an environmental issue?

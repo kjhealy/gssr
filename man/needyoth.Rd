@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_209.R
 \name{needyoth}
 \alias{needyoth}
-\title{needyoth}
+\title{Contributed to other needy person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contributed to other needy person
+needyoth
 }
 \details{
 Question 646. People help other people in ways besides giving money, time, or other things to organized groups. Sometimes people help needy people directly. During the past 12 months, did you or members of your family or household give money, food, or clothing to any of the following types of people? e. Any other needy person

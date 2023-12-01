@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_124.R
 \name{othchrch}
 \alias{othchrch}
-\title{othchrch}
+\title{Happy in other non catholic church}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Happy in other non catholic church
+othchrch
 }
 \details{
 Question 398. If Catholic: Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements: a. I could be just as happy in some other church, it wouldn't have to be Catholic.

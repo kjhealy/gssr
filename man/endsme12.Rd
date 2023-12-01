@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_631.R
 \name{endsme12}
 \alias{endsme12}
-\title{endsme12}
+\title{During the next 12 months, how difficult r's household to make ends meet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-During the next 12 months, how difficult r's household to make ends meet
+endsme12
 }
 \details{
 Question During the next 12 months, how difficult or easy do you think it will be for your household to make ends meet?

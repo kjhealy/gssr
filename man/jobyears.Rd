@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_137.R
 \name{jobyears}
 \alias{jobyears}
-\title{jobyears}
+\title{For how long have you had your present job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-For how long have you had your present job
+jobyears
 }
 \details{
 Question 428. For about how long have you had your present job?

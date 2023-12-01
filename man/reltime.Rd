@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_453.R
 \name{reltime}
 \alias{reltime}
-\title{reltime}
+\title{Travel time to most contacted rel}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Travel time to most contacted rel
+reltime
 }
 \details{
 Question 1207b. About how long would it take you to get to where your relative lives? Think of the time it usually takes door to door.

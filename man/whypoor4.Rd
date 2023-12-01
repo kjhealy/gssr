@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_126.R
 \name{whypoor4}
 \alias{whypoor4}
-\title{whypoor4}
+\title{Lack of effort}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Lack of effort
+whypoor4
 }
 \details{
 Question 401. Now I will list reasons some people give to explain why there are poor people in this country. Please tell me whether you feel each of these is very important, somewhat important, or not important in explaining why there are poor people in this country. d. Lack of effort by the poor themselves.

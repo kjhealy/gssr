@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_530.R
 \name{amcitizn}
 \alias{amcitizn}
-\title{amcitizn}
+\title{Agree i would rather be a citizen of america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Agree i would rather be a citizen of america
+amcitizn
 }
 \details{
 Question 1440. How much do you agree or disagree with the following statements? a. I would rather be a citizen of America than of any other country in the world

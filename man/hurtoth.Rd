@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_212.R
 \name{hurtoth}
 \alias{hurtoth}
-\title{hurtoth}
+\title{How likely x violent toward other people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x violent toward other people
+hurtoth
 }
 \details{
 Question 657. In your opinion, how likely is it NAME would do something violent toward other people? Is it:

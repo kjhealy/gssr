@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_522.R
 \name{carsten}
 \alias{carsten}
-\title{carsten}
+\title{Car pollution will increase in next 10 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Car pollution will increase in next 10 yrs
+carsten
 }
 \details{
 Question 1417. Please check one box for each of the questions below to show what you think. c. Within the next ten years, how likely do you think it is that there will be a large increase in ill-health in America's cities as a result of air pollution caused by cars?

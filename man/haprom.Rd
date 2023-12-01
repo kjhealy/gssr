@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_176.R
 \name{haprom}
 \alias{haprom}
-\title{haprom}
+\title{Describe your romantic relationship?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Describe your romantic relationship?
+haprom
 }
 \details{
 Question 547. Taking things all together, how would you describe your romantic relationship? Would you say that your relationship is very happy, pretty happy, or not too happy?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_557.R
 \name{parrght}
 \alias{parrght}
-\title{parrght}
+\title{Parents unsure what is right}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Parents unsure what is right
+parrght
 }
 \details{
 Question 1569. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements regarding parents: c. Parents today often feel uncertain about what is the right thing to do in raising their children.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_493.R
 \name{strngun}
 \alias{strngun}
-\title{strngun}
+\title{Strong unions needed to protect workers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Strong unions needed to protect workers
+strngun
 }
 \details{
 Question 1325. How much do you agree or disagree with these two statements? b. Workers need strong trade unions to protect their interests.

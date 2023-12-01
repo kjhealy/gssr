@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_295.R
 \name{modact}
 \alias{modact}
-\title{modact}
+\title{R limited in moderate activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R limited in moderate activities
+modact
 }
 \details{
 Question 832. The following questions are about activities you might do during a typical day. Does your health now limit you in these activities? If so, how much? a. Moderate activities, such as moving a table, pushing a vacuum cleaner, bowling, or playing golf?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_397.R
 \name{acqfmlib}
 \alias{acqfmlib}
-\title{acqfmlib}
+\title{Number of liberal in family member}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of liberal in family member
+acqfmlib
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. m. How many are strongly liberal?

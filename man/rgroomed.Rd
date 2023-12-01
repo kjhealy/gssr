@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_610.R
 \name{rgroomed}
 \alias{rgroomed}
-\title{rgroomed}
+\title{R grooming rating}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R grooming rating
+rgroomed
 }
 \details{
 Question How well groomed is the respondent?

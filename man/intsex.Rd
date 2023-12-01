@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_607.R
 \name{intsex}
 \alias{intsex}
-\title{intsex}
+\title{Sex of interviewer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of interviewer
+intsex
 }
 \details{
 Question None

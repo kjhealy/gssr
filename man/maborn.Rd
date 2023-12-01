@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_627.R
 \name{maborn}
 \alias{maborn}
-\title{maborn}
+\title{Was r's mother born in this country?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was r's mother born in this country?
+maborn
 }
 \details{
 Question Was your mother born in this country?

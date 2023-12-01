@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_176.R
 \name{futrdown}
 \alias{futrdown}
-\title{futrdown}
+\title{Degree economy will get worse over next year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Degree economy will get worse over next year
+futrdown
 }
 \details{
 Question 543b. Would you say much worse or somewhat worse?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_493.R
 \name{bosswrks}
 \alias{bosswrks}
-\title{bosswrks}
+\title{Management & workers always in conflict}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Management & workers always in conflict
+bosswrks
 }
 \details{
 Question 1325. How much do you agree or disagree with these two statements? a. There will always be conflict between management and workers because they are really on opposite sides

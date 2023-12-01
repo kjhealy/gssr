@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_118.R
 \name{madatgod}
 \alias{madatgod}
-\title{madatgod}
+\title{How often r feels angry at god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r feels angry at god
+madatgod
 }
 \details{
 Question 377. Here is another card with contrasting ideas. If you fee that "I often feel angry at God," you would place yourself at 1. If you feel "I have never felt angry at God," you would place yourself at 7. If you feel somewhere beetween these two, you would place yourself at 2,3,4,5 or 6. Where would you place your feelings about your faith?

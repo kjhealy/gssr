@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_02.R
 \name{occindv}
 \alias{occindv}
-\title{occindv}
+\title{R's occ/ind verbatim retrieved}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's occ/ind verbatim retrieved
+occindv
 }
 \details{
 Question None

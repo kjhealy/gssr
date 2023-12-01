@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_75.R
 \name{hitrobbr}
 \alias{hitrobbr}
-\title{hitrobbr}
+\title{Stranger had broken into mans house}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Stranger had broken into mans house
+hitrobbr
 }
 \details{
 Question 231. If yes or not sure: Would you approve if the stranger: e. Had broken into the man's house?

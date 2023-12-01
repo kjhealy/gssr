@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_80.R
 \name{erainfo}
 \alias{erainfo}
-\title{erainfo}
+\title{How much info does r have about era}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much info does r have about era
+erainfo
 }
 \details{
 Question 256. How much information do you have about the Equal Rights Amendment?

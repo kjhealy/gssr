@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_448.R
 \name{helpemp}
 \alias{helpemp}
-\title{helpemp}
+\title{How successful is govt: fighting unemployment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How successful is govt: fighting unemployment
+helpemp
 }
 \details{
 Question 1491. How successful do you think the government in America is nowadays in each of the following areas? e. Fighting unemployment

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_511.R
 \name{hell}
 \alias{hell}
-\title{hell}
+\title{Belief in hell}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Belief in hell
+hell
 }
 \details{
 Question 1382. Do you believe in. . . d. Hell

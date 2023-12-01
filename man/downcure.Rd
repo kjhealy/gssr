@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_298.R
 \name{downcure}
 \alias{downcure}
-\title{downcure}
+\title{Treatment for downheartedness cure condition}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Treatment for downheartedness cure condition
+downcure
 }
 \details{
 Question 844. As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following: Say you went to treatment because you feel downhearted and blue and this interferes with your social activities (like visiting friends, relatives, etc.) c. Would you definitely expect, probably not expect, or definitely not expect to be cured?

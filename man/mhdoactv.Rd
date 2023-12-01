@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_409.R
 \name{mhdoactv}
 \alias{mhdoactv}
-\title{mhdoactv}
+\title{What x should do: get involved in other activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: get involved in other activities
+mhdoactv
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? o. Get involved in other activities

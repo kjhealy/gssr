@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_110.R
 \name{caregrp}
 \alias{caregrp}
-\title{caregrp}
+\title{How committed to group is r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How committed to group is r
+caregrp
 }
 \details{
 Question 333. Personally, how committed do you feel to this organization?

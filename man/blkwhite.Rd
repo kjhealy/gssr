@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_117.R
 \name{blkwhite}
 \alias{blkwhite}
-\title{blkwhite}
+\title{R agrees right & wrong not black & white}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R agrees right & wrong not black & white
+blkwhite
 }
 \details{
 Question 374. Please consider the following statements and tell me whether you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each statement. b. Right and wrong are not usually a simple matter of black and white; there are many shades of gray.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_486.R
 \name{sphhwork}
 \alias{sphhwork}
-\title{sphhwork}
+\title{How many hours a week does spouse on hh wrk}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many hours a week does spouse on hh wrk
+sphhwork
 }
 \details{
 Question 1310b. And what about your spouse/partner? On average, how many hours a week does he/she spend on household work, not including childcare or leisure time activities?

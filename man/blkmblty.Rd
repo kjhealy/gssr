@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_653.R
 \name{blkmblty}
 \alias{blkmblty}
-\title{blkmblty}
+\title{Generations of slavery make change hard for black people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Generations of slavery make change hard for black people
+blkmblty
 }
 \details{
 Question (Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or disagree strongly with the following statements?) Generations of slavery and discrimination have created conditions that make it difficult for black people to work

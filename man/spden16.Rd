@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_41.R
 \name{spden16}
 \alias{spden16}
-\title{spden16}
+\title{Denomination in which spouse raised}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Denomination in which spouse raised
+spden16
 }
 \details{
 Question 117a. If Protestant: What specific denomination is that, if any?

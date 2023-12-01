@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_67.R
 \name{abhlth}
 \alias{abhlth}
-\title{abhlth}
+\title{Woman's health seriously endangered}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Woman's health seriously endangered
+abhlth
 }
 \details{
 Question 206. Please tell me whether or not you think it should be possible for a pregnant woman to obtaina legal abortion if: c. The woman's own health is seriously endangered by the pregnancy?

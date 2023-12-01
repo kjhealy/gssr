@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_513.R
 \name{schlpray}
 \alias{schlpray}
-\title{schlpray}
+\title{Should there be daily prayer in public schools?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should there be daily prayer in public schools?
+schlpray
 }
 \details{
 Question 1396. In your opinion, should there be daily prayers in all public schools?

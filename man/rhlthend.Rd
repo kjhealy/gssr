@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_611.R
 \name{rhlthend}
 \alias{rhlthend}
-\title{rhlthend}
+\title{R health rating}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R health rating
+rhlthend
 }
 \details{
 Question Would you say the respondent's health in general is Excellent, Good, Fair, or Poor?

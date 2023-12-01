@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_495.R
 \name{nounemp6}
 \alias{nounemp6}
-\title{nounemp6}
+\title{I would move outside the usa for work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I would move outside the usa for work
+nounemp6
 }
 \details{
 Question To what extent do you agree or disagree with the following statements? In order to avoid unemployment I would be willing? F. To move to a different country.

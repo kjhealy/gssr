@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_288.R
 \name{jobpub}
 \alias{jobpub}
-\title{jobpub}
+\title{Times r sought job information from publication}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Times r sought job information from publication
+jobpub
 }
 \details{
 Question Please tell me how many times you tried to find such information from... c. Classified ads in an industry or professional publication?

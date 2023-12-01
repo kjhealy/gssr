@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_145.R
 \name{fringe10}
 \alias{fringe10}
-\title{fringe10}
+\title{Information about child care services in company}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Information about child care services in company
+fringe10
 }
 \details{
 Question 457. I am going to read a list of fringe benefits that workers sometimes get in addition to their wages. Whether you receive it or not, please tell me whether you are eligible to receive each fringe benefit: j. Information about child care services in the community

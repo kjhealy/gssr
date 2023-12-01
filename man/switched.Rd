@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_113.R
 \name{switched}
 \alias{switched}
-\title{switched}
+\title{Has r ever had a different religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r ever had a different religion
+switched
 }
 \details{
 Question 358. I'd like to go over your religious preferences since you were rasied as a \link{RELIGION}. Have you ever had another religious preference besides being \link{RELIGION}?

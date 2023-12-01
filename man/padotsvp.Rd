@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_19.R
 \name{padotsvp}
 \alias{padotsvp}
-\title{padotsvp}
+\title{Fa. d.o.t. code - specific vocat. prep}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fa. d.o.t. code - specific vocat. prep
+padotsvp
 }
 \details{
 Question None

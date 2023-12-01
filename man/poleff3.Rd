@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_440.R
 \name{poleff3}
 \alias{poleff3}
-\title{poleff3}
+\title{Avg person can influence politicians}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Avg person can influence politicians
+poleff3
 }
 \details{
 Question 1178. Please indicate whether you agree or disagree with each of the following statements. c. The average citizen has considerable influence on politics.

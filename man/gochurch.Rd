@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_117.R
 \name{gochurch}
 \alias{gochurch}
-\title{gochurch}
+\title{Importance of attending church regularly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of attending church regularly
+gochurch
 }
 \details{
 Question 376. People have many differing views about what makes a person a good Christian or Jew. Please tell me how important is each of the following to you. Once again, please indicate where you would place your feelings on a scale from 1 to 5. a. To attend regularly religious services at church or synagogue.

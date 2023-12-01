@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_571.R
 \name{comemail}
 \alias{comemail}
-\title{comemail}
+\title{Punishment emailing documents unauthorized per}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment emailing documents unauthorized per
+comemail
 }
 \details{
 Question 1592. Now I'm going to ask you about several offenses involving the use of a government computer system. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee. e. E-mailing SECRET or TOP SECRET government documents or data files to an unauthorized person.

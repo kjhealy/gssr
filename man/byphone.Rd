@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_279.R
 \name{byphone}
 \alias{byphone}
-\title{byphone}
+\title{How many people talk to on phone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people talk to on phone
+byphone
 }
 \details{
 Question 798. Of these__________friends and relatives, about how many do you stay in contact with by: b. Talking with them on teh telephone?

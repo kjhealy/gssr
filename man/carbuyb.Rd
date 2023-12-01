@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_191.R
 \name{carbuyb}
 \alias{carbuyb}
-\title{carbuyb}
+\title{A friend or relative recommended r buy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A friend or relative recommended r buy
+carbuyb
 }
 \details{
 Question 594. What made you think that this would be a good place to make your purchase? b. A friend or relative recommended them

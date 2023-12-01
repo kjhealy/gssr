@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_91.R
 \name{nukewar}
 \alias{nukewar}
-\title{nukewar}
+\title{Possibility of an all-out atomic war}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Possibility of an all-out atomic war
+nukewar
 }
 \details{
 Question 303. I'm going to read you some possible military solutions the U.S. might face in the next ten years. Some people feel these situations are certain to happen (think of these as point 7 on the scale), others think these situations won't happen at all (think of these as point 1 on the scale). And of course some people have opinions somewhere in between. For each of these possible military situations, please give me your best guess as to how likely it is to happen. a. An all-out atomic war?

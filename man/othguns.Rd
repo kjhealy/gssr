@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_406.R
 \name{othguns}
 \alias{othguns}
-\title{othguns}
+\title{Number of adult owing a gun in household}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of adult owing a gun in household
+othguns
 }
 \details{
 Question 1118. And how many other adults in your household personally own a gun?

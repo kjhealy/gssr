@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_509.R
 \name{conbiz}
 \alias{conbiz}
-\title{conbiz}
+\title{Confidence in business and industry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confidence in business and industry
+conbiz
 }
 \details{
 Question 1378. How much confidence do you have in. . . b. Business and industry

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_516.R
 \name{relgeneq}
 \alias{relgeneq}
-\title{relgeneq}
+\title{R's religion treats men and women equally}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's religion treats men and women equally
+relgeneq
 }
 \details{
 Question In your opinion, does your religion treat men and women equally, treat men better than women, or treat women better than men?

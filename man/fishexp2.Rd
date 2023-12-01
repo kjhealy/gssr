@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_384.R
 \name{fishexp2}
 \alias{fishexp2}
-\title{fishexp2}
+\title{Why did you choose that answer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why did you choose that answer
+fishexp2
 }
 \details{
 Question Why did you choose that answer? {response to acceptDK} {response to probeDK}

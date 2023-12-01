@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_323.R
 \name{givchrty}
 \alias{givchrty}
-\title{givchrty}
+\title{R has given money to a charity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has given money to a charity
+givchrty
 }
 \details{
 Question 927. During the past 12 months, how often have you done each of the following things: f. Given money to a charity

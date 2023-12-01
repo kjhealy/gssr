@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_566.R
 \name{live3}
 \alias{live3}
-\title{live3}
+\title{Major home repair's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Major home repair's
+live3
 }
 \details{
 Question G. What about things concerning where you live? During the last year, did any of the following happen? 3. Major home repairs (e.g. replaced furnace, new roof).

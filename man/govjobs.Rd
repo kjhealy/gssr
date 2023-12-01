@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_472.R
 \name{govjobs}
 \alias{govjobs}
-\title{govjobs}
+\title{Govmnt should provide jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govmnt should provide jobs
+govjobs
 }
 \details{
 Question 1256. Do you agree or disagree: d. The government should provide a job for everyone who wants one.

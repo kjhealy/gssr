@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_253.R
 \name{parlang}
 \alias{parlang}
-\title{parlang}
+\title{R's parents speak other language at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's parents speak other language at home
+parlang
 }
 \details{
 Question 741. Did/do one or both of your parents speak a language other than English at home?

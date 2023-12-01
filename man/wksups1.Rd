@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_65.R
 \name{wksups1}
 \alias{wksups1}
-\title{wksups1}
+\title{Does subordinant supervise anyone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does subordinant supervise anyone
+wksups1
 }
 \details{
 Question A. IF YES: Do any of those persons supervise anyone else?

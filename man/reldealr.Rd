@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_192.R
 \name{reldealr}
 \alias{reldealr}
-\title{reldealr}
+\title{R relationship to the salesperson}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R relationship to the salesperson
+reldealr
 }
 \details{
 Question 595. Which of the following best describes your relationship to the salesperson from whom you purchased the car or the owner of the auto dealership?

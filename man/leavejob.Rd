@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_504.R
 \name{leavejob}
 \alias{leavejob}
-\title{leavejob}
+\title{How likely will try to find another firm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely will try to find another firm
+leavejob
 }
 \details{
 Question 1362. All in all, how likely is it that you will try to find a job with another firm or organization within the next 12 months?

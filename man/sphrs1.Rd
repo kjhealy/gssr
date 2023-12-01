@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_04.R
 \name{sphrs1}
 \alias{sphrs1}
-\title{sphrs1}
+\title{Number of hrs spouse worked last week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of hrs spouse worked last week
+sphrs1
 }
 \details{
 Question 5a. If working, full or part time: How many hours did (he/she) work last week, at all jobs?

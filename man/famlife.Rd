@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_178.R
 \name{famlife}
 \alias{famlife}
-\title{famlife}
+\title{How successful in family life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How successful in family life
+famlife
 }
 \details{
 Question 556. The next few questions are about your success in different areas of life. First, how successful do you feel in your family life?

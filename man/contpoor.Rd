@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_631.R
 \name{contpoor}
 \alias{contpoor}
-\title{contpoor}
+\title{How often r has contact with poor people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r has contact with poor people
+contpoor
 }
 \details{
 Question How often do you have any contact with people who are a lot poorer than you when you are out and about? This might be in the street, on public transport, in shops, in your neighborhood, or at your workplace.

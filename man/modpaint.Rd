@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_151.R
 \name{modpaint}
 \alias{modpaint}
-\title{modpaint}
+\title{Modern painting is just slapped on}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Modern painting is just slapped on
+modpaint
 }
 \details{
 Question 475. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it: e. Modern painting is just slapped on: a child could do it

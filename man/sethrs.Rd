@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_303.R
 \name{sethrs}
 \alias{sethrs}
-\title{sethrs}
+\title{How are your working hours decided}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How are your working hours decided
+sethrs
 }
 \details{
 Question Which of the following statements best describes how your working hours are decided? In this question, working hours refers to the total number of hours you work each week, not the time you start and finish work each day.

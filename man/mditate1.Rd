@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_633.R
 \name{mditate1}
 \alias{mditate1}
-\title{mditate1}
+\title{How often do you meditate?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often do you meditate?
+mditate1
 }
 \details{
 Question How often do you meditate?

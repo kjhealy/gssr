@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_176.R
 \name{rdiscaff}
 \alias{rdiscaff}
-\title{rdiscaff}
+\title{Chances family member not promoted for other race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Chances family member not promoted for other race
+rdiscaff
 }
 \details{
 Question 544a. What do you think the chances are these days that you or anyone in yoru family won't get a job or promotion while an exually or less qualified \link{white/(black/African-American)} employee recieves one instead?

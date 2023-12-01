@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_521.R
 \name{scitest3}
 \alias{scitest3}
-\title{scitest3}
+\title{Astrology has some scientific truth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Astrology has some scientific truth
+scitest3
 }
 \details{
 Question 1415. For each statement below, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? c. Astrology - the study of the star signs - has some scientific truth

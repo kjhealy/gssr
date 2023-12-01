@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_607.R
 \name{pilloky}
 \alias{pilloky}
-\title{pilloky}
+\title{Birth control to teenagers 14-16 (form 2)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Birth control to teenagers 14-16 (form 2)
+pilloky
 }
 \details{
 Question None

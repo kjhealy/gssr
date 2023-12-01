@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_157.R
 \name{spmarnum}
 \alias{spmarnum}
-\title{spmarnum}
+\title{Has current spouse been married before?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has current spouse been married before?
+spmarnum
 }
 \details{
 Question 498. Has your (husband/wife) been married more than once?

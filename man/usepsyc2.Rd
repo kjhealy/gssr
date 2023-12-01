@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_242.R
 \name{usepsyc2}
 \alias{usepsyc2}
-\title{usepsyc2}
+\title{Will take medicine because cant cope w stress}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Will take medicine because cant cope w stress
+usepsyc2
 }
 \details{
 Question 711. How likely would you be to take doctor-prescribed psychiatric medication in the following situations? b. because you didn't know how to cope anymore with the stresses of life

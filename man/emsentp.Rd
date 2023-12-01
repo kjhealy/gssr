@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_284.R
 \name{emsentp}
 \alias{emsentp}
-\title{emsentp}
+\title{How many personal email messages sent per day}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many personal email messages sent per day
+emsentp
 }
 \details{
 Question 807. Thinking now about all your home, work or other computers, b. About how many of these messages are personal one-to-one, rather than sent to members of a group or e-list?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_634.R
 \name{godusa}
 \alias{godusa}
-\title{godusa}
+\title{The success of the us is part of god’s plan}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The success of the us is part of god’s plan
+godusa
 }
 \details{
 Question The success of the United States is part of God's plan.

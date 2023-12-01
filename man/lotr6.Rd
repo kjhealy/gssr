@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_230.R
 \name{lotr6}
 \alias{lotr6}
-\title{lotr6}
+\title{I expect more good things to happen to me than bad}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I expect more good things to happen to me than bad
+lotr6
 }
 \details{
 Question Do you agree or disagree that? F. Overall, I expect more good things to happen to me than bad.

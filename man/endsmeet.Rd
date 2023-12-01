@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_466.R
 \name{endsmeet}
 \alias{endsmeet}
-\title{endsmeet}
+\title{How difficult or easy is it for r's household to make ends meet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How difficult or easy is it for r's household to make ends meet
+endsmeet
 }
 \details{
 Question Thinking of your household's total income, including all the sources of income of all the members who contribute to it, how difficult or easy is it currently for your household to make ends meet?

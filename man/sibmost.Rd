@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_456.R
 \name{sibmost}
 \alias{sibmost}
-\title{sibmost}
+\title{Do r have the most contact with sister or brother}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do r have the most contact with sister or brother
+sibmost
 }
 \details{
 Question 1219. Of your adult brothers and sisters, with whom do you have the most contact?

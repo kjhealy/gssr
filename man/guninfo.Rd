@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_33.R
 \name{guninfo}
 \alias{guninfo}
-\title{guninfo}
+\title{How much info does r have on gun control}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much info does r have on gun control
+guninfo
 }
 \details{
 Question 88. How much information do you have about the gun control issue?

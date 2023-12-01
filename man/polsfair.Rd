@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_449.R
 \name{polsfair}
 \alias{polsfair}
-\title{polsfair}
+\title{Opinion of fairness of public official s treatment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opinion of fairness of public official s treatment
+polsfair
 }
 \details{
 Question 1495. In your opinion, how often do public officials deal fairly with people like you?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_68.R
 \name{abfirm}
 \alias{abfirm}
-\title{abfirm}
+\title{How firm is r's opinion on abortion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How firm is r's opinion on abortion
+abfirm
 }
 \details{
 Question 209c. How firm are you about your opinion on abortion?

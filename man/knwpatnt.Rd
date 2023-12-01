@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_218.R
 \name{knwpatnt}
 \alias{knwpatnt}
-\title{knwpatnt}
+\title{Known anyone seeing a psychologist etc?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Known anyone seeing a psychologist etc?
+knwpatnt
 }
 \details{
 Question 669. Have you ever known anyone (other than persons mentioned in Q.667) who was seeing a psychologist, mental health professional, social worker or other counselor?

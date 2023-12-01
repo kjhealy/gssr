@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_406.R
 \name{semiguns}
 \alias{semiguns}
-\title{semiguns}
+\title{Should semi-auto gun sale be limited to military}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should semi-auto gun sale be limited to military
+semiguns
 }
 \details{
 Question 1115. Should semi-automatic, assault weapons or semi-automatic guns known as assault rifles be sold to the general public or should their sales be limited to the military and police?

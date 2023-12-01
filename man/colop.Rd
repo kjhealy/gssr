@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_438.R
 \name{colop}
 \alias{colop}
-\title{colop}
+\title{Should chances for college be changed?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should chances for college be changed?
+colop
 }
 \details{
 Question 1174. How do you feel about opportunities for young people to go to college. Should opportunities be...

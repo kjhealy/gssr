@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_476.R
 \name{pasup}
 \alias{pasup}
-\title{pasup}
+\title{R's father supervisor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's father supervisor
+pasup
 }
 \details{
 Question 1273. In the job your father had when you were growing up, did your father supervise anyone who was directly responsible to him?

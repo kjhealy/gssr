@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_165.R
 \name{kdpres10}
 \alias{kdpres10}
-\title{kdpres10}
+\title{R child occupational prestige score (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R child occupational prestige score (2010)
+kdpres10
 }
 \details{
 Question None

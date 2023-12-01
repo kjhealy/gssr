@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_309.R
 \name{hvylift}
 \alias{hvylift}
-\title{hvylift}
+\title{R do repeated lifting}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R do repeated lifting
+hvylift
 }
 \details{
 Question 891. Does your job require you to do repeated lifting, pushing, pulling or bending?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_35.R
 \name{relitena}
 \alias{relitena}
-\title{relitena}
+\title{Strength of affiliation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Strength of affiliation
+relitena
 }
 \details{
 Question None

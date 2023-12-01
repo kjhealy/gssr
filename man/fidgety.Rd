@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_229.R
 \name{fidgety}
 \alias{fidgety}
-\title{fidgety}
+\title{In past 30 days feel restless or fidgety}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In past 30 days feel restless or fidgety
+fidgety
 }
 \details{
 Question 682. In the past 30 days, about how often did you feel: c. Restless or fidgety

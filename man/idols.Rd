@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_344.R
 \name{idols}
 \alias{idols}
-\title{idols}
+\title{Catholics are idols}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Catholics are idols
+idols
 }
 \details{
 Question 1015. To what extent to you agree or disagree with the following statements? a. The statutes and images in Catholic churches are idols.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_416.R
 \name{mhhlpoth}
 \alias{mhhlpoth}
-\title{mhhlpoth}
+\title{How the treatment helped him/her with mental health problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How the treatment helped him/her with mental health problem
+mhhlpoth
 }
 \details{
 Question 1146c. How much did the treatment help (him/her) with the mental health problem? Did it help...

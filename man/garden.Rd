@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_149.R
 \name{garden}
 \alias{garden}
-\title{garden}
+\title{Grew vegetables or flower's in garden in lst yr}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Grew vegetables or flower's in garden in lst yr
+garden
 }
 \details{
 Question 473. Next I'd like to ask about some leisure or recreational activities that people do during their free time. As I read each activity, can you tell me if it is something you have done in the past twelve months? f. Grow vegetables, flowers, or shrubs in a garden.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_477.R
 \name{kidsuffr}
 \alias{kidsuffr}
-\title{kidsuffr}
+\title{Preschooler will suffer if mom works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Preschooler will suffer if mom works
+kidsuffr
 }
 \details{
 Question 1275. Do you agree or disagree: b. A pre-school child is likely to suffer if his or her mother works.

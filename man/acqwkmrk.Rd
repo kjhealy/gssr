@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_399.R
 \name{acqwkmrk}
 \alias{acqwkmrk}
-\title{acqwkmrk}
+\title{Number of mark in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of mark in current or previous work
+acqwkmrk
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. a. How many of the people you are acquainted with through work are named Mark?

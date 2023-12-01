@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_451.R
 \name{sisnum}
 \alias{sisnum}
-\title{sisnum}
+\title{Number of adult sister's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of adult sister's
+sisnum
 }
 \details{
 Question 1201. How many sisters age 18 or older do you have? (We mean sisters who are still alive; please include step sisters, half sisters, and adopted sisters.)

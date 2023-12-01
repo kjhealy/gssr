@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_295.R
 \name{cntrlife}
 \alias{cntrlife}
-\title{cntrlife}
+\title{Control r feels over own life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Control r feels over own life
+cntrlife
 }
 \details{
 Question 831. Some people feel they have completely free choice and control over the way their lives turn out, and other people feel that what they themselves do has no real effect on what happens to them. Please use this scale to indicate how much freedom of choice and control you feel you have over the way your life turns out.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_474.R
 \name{earndes}
 \alias{earndes}
-\title{earndes}
+\title{R deserves earnings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R deserves earnings
+earndes
 }
 \details{
 Question 1265. Would you say that you earn:

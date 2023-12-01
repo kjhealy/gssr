@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_116.R
 \name{savesoul}
 \alias{savesoul}
-\title{savesoul}
+\title{Tried to convince others to accept jesus}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Tried to convince others to accept jesus
+savesoul
 }
 \details{
 Question 371. Have you ever tried to encourage someone to believe in Jesus Christ or to accep Jesus Christ as his or her savior?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_520.R
 \name{grwtharm}
 \alias{grwtharm}
-\title{grwtharm}
+\title{Econ grwth always harms envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Econ grwth always harms envir
+grwtharm
 }
 \details{
 Question 1411. How much do you agree or disagree with each of the following statements? f. Economic growth always harms the environment.

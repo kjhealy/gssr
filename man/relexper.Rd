@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_512.R
 \name{relexper}
 \alias{relexper}
-\title{relexper}
+\title{Turning point in life for religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Turning point in life for religion
+relexper
 }
 \details{
 Question 1385. Has there ever been a turning point in your life when you made a new and personal commitment to religion?

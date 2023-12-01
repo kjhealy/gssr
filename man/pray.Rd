@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_37.R
 \name{pray}
 \alias{pray}
-\title{pray}
+\title{How often does r pray}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r pray
+pray
 }
 \details{
 Question 110. About how often do you pray?

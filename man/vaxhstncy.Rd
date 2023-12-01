@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_659.R
 \name{vaxhstncy}
 \alias{vaxhstncy}
-\title{vaxhstncy}
+\title{Parents choose not to vaccinate their children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Parents choose not to vaccinate their children
+vaxhstncy
 }
 \details{
 Question Now, we have a few questions for you about different kinds of vaccinations. Please tell us the extent to which you agree or disagree with the following statement: Parents should be able to refuse to vaccinate their children against measles, mumps, and r

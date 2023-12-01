@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_574.R
 \name{ethnum}
 \alias{ethnum}
-\title{ethnum}
+\title{Type of response about ethnicity:r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of response about ethnicity:r
+ethnum
 }
 \details{
 Question None

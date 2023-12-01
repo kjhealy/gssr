@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_20.R
 \name{vote84}
 \alias{vote84}
-\title{vote84}
+\title{Did r vote in 1984 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r vote in 1984 election
+vote84
 }
 \details{
 Question 61. In 1984, you remember that Mondale ran for President on the Democratic ticket against Reagan for the Republicans. Do you remember for sure whether or not you voted in that election?

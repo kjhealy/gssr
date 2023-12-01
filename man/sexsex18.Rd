@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_426.R
 \name{sexsex18}
 \alias{sexsex18}
-\title{sexsex18}
+\title{Since age 18, have your sex partner's been...}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Since age 18, have your sex partner's been...
+sexsex18
 }
 \details{
 Question Since the age of 18, have your sex partners been:

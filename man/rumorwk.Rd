@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_337.R
 \name{rumorwk}
 \alias{rumorwk}
-\title{rumorwk}
+\title{Rumors or gossip about r at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rumors or gossip about r at work
+rumorwk
 }
 \details{
 Question People at work have spread rumors or gossip about me. Often, sometimes, rarely, never.

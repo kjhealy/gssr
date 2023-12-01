@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_156.R
 \name{fstspmed}
 \alias{fstspmed}
-\title{fstspmed}
+\title{1st spouse's mothers highest yr of school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-1st spouse's mothers highest yr of school
+fstspmed
 }
 \details{
 Question 495. What is the highest grade or year of regular school that your (first/former) (husband's/wife's) mother ever completed?

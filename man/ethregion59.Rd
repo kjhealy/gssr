@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_619.R
 \name{ethregion59}
 \alias{ethregion59}
-\title{ethregion59}
+\title{From what country or countries did your ancestors come?  Bolivia}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-From what country or countries did your ancestors come?  Bolivia
+ethregion59
 }
 \details{
 Question None

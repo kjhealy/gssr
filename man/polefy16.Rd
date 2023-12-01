@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_433.R
 \name{polefy16}
 \alias{polefy16}
-\title{polefy16}
+\title{How often congress keeps promises}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often congress keeps promises
+polefy16
 }
 \details{
 Question How often do the people we elect to Congress try to keep the promises they have made during the election: Never, rarely, sometimes, very often, or extremely often?

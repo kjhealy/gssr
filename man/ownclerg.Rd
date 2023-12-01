@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_429.R
 \name{ownclerg}
 \alias{ownclerg}
-\title{ownclerg}
+\title{Did this happen with a leader in congregation r was attending}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did this happen with a leader in congregation r was attending
+ownclerg
 }
 \details{
 Question Did this happen with a leader in a congregation you were yourself attending?

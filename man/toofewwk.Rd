@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_307.R
 \name{toofewwk}
 \alias{toofewwk}
-\title{toofewwk}
+\title{How often not enough staff}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often not enough staff
+toofewwk
 }
 \details{
 Question 888c. How often are there not enough people or staff to get all the work done?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_217.R
 \name{brkdoth}
 \alias{brkdoth}
-\title{brkdoth}
+\title{What nervous breakdown is, other codes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What nervous breakdown is, other codes
+brkdoth
 }
 \details{
 Question 666. As far as you know, what is a nervous breakdown? (PROBES: How would you describe it? What is it like? What happens to a person who has one? How does he act?)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_653.R
 \name{yrpod}
 \alias{yrpod}
-\title{yrpod}
+\title{Listen to art podcasts in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Listen to art podcasts in past 12 months
+yrpod
 }
 \details{
 Question (During the last 12 months, did you...) listen to podcasts about music, theater, or dance, or about visual arts or film, or about books or literature?

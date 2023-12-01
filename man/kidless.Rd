@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_481.R
 \name{kidless}
 \alias{kidless}
-\title{kidless}
+\title{Kidless marriage is incomplete}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kidless marriage is incomplete
+kidless
 }
 \details{
 Question 1282. Do you agree or disagree ... d. A marriage without children is not fully complete.

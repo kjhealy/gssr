@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_20.R
 \name{vote80}
 \alias{vote80}
-\title{vote80}
+\title{Did r vote in 1980 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r vote in 1980 election
+vote80
 }
 \details{
 Question 60. In 1980, you remember that Carter ran for President on the Democratic ticket against Reagan for the Republicans, and Anderson as an Independent. Do you remember for sure whether or not you voted in that election?

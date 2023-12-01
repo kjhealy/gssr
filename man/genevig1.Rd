@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_338.R
 \name{genevig1}
 \alias{genevig1}
-\title{genevig1}
+\title{Vignette number used}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vignette number used
+genevig1
 }
 \details{
 Question 976. Vignette set number given to respondent.

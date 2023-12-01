@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_321.R
 \name{yearval}
 \alias{yearval}
-\title{yearval}
+\title{Total dollar value of payments in that year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total dollar value of payments in that year
+yearval
 }
 \details{
 Question 923. What was the approximate total dollar value of these various payments in that year?

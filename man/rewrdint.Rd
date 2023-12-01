@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_474.R
 \name{rewrdint}
 \alias{rewrdint}
-\title{rewrdint}
+\title{Intelligence and skill rewarded in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Intelligence and skill rewarded in america
+rewrdint
 }
 \details{
 Question 1264. Do you agree or disagree: b. In America people get rewarded for their intelligence and skills

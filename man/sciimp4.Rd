@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_376.R
 \name{sciimp4}
 \alias{sciimp4}
-\title{sciimp4}
+\title{How important: examining different interpretation of results}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: examining different interpretation of results
+sciimp4
 }
 \details{
 Question 1072. Now I'm going to read you some statements about science and scientists. Please look at Card B19. How important are each of the following in making something scientific? d. The researchers carefully examine different interpretations of the results, even ones they disagree with.

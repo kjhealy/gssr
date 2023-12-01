@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_637.R
 \name{helpfulv}
 \alias{helpfulv}
-\title{helpfulv}
+\title{People helpful or looking out for selves (with volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People helpful or looking out for selves (with volunteered response on web)
+helpfulv
 }
 \details{
 Question None

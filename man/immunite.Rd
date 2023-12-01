@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_173.R
 \name{immunite}
 \alias{immunite}
-\title{immunite}
+\title{Will immigrants affect national unity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Will immigrants affect national unity
+immunite
 }
 \details{
 Question 529. What do you think will happen as a result of more immigrants coming to this country? Is each of these possible results ver likely, somewhat likely, not too likely or not at all likely? c. Making it harder to keep the country united.

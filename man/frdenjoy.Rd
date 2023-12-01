@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_460.R
 \name{frdenjoy}
 \alias{frdenjoy}
-\title{frdenjoy}
+\title{Should close friend be someone who is enjoyable}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should close friend be someone who is enjoyable
+frdenjoy
 }
 \details{
 Question 1242. People look for various things in a close friend and can differ on how important or not some things are for them. Please select a response to say how important or not it is for close friends of yours to be each of the following: d. Someone who is enjoyable company

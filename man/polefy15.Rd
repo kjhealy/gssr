@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_433.R
 \name{polefy15}
 \alias{polefy15}
-\title{polefy15}
+\title{How informed about politics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How informed about politics
+polefy15
 }
 \details{
 Question Compared to most people, how informed are you about politics: not at all, a little, somewhat, very, or extremely?

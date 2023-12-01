@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_463.R
 \name{partvol}
 \alias{partvol}
-\title{partvol}
+\title{In past 12 months, r has participated in charitable or religious volunteer orgs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In past 12 months, r has participated in charitable or religious volunteer orgs
+partvol
 }
 \details{
 Question In the past 12 months, how often, if at all, have you taken part in the activities? C. Of charitable or religious organisations that do voluntary work?

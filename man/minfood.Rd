@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_567.R
 \name{minfood}
 \alias{minfood}
-\title{minfood}
+\title{Imputed wkly food spending for pov line fam of 4}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imputed wkly food spending for pov line fam of 4
+minfood
 }
 \details{
 Question 1580. Now more specifically, thinking about that family of four at the "poverty line," what would you say that family needs to spend each week on food, in this community?

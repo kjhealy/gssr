@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_248.R
 \name{prozkid2}
 \alias{prozkid2}
-\title{prozkid2}
+\title{Give kid prozac if is not paying attention}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Give kid prozac if is not paying attention
+prozkid2
 }
 \details{
 Question 727. How likely would you be to give doctor prescribed Prozac to your child or a child you were responsible for in the following situations (A child would be considered anyone between the age of 8 and 15). b. because s/he is not paying attention at school, does not follow through with school work and chores, has difficulty organizing activities, is easily distracted, talks excessively, and seems to run around or fidget constantly.

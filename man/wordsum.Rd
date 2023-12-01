@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_579.R
 \name{wordsum}
 \alias{wordsum}
-\title{wordsum}
+\title{Number words correct in vocabulary test}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number words correct in vocabulary test
+wordsum
 }
 \details{
 Question 1612k. Total number of correct words.

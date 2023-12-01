@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_256.R
 \name{usasn}
 \alias{usasn}
-\title{usasn}
+\title{What percentage of population is asian}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What percentage of population is asian
+usasn
 }
 \details{
 Question 751. Just your best guess�what percentage of the United States population is each group? e. Asian Americans

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_270.R
 \name{musicget}
 \alias{musicget}
-\title{musicget}
+\title{Use web to download music}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to download music
+musicget
 }
 \details{
 Question 783c. Used the Web to download a musical sound recording to your own computer?

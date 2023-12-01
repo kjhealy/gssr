@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_326.R
 \name{protest}
 \alias{protest}
-\title{protest}
+\title{Have ever joined a protest rally past 5 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have ever joined a protest rally past 5 years
+protest
 }
 \details{
 Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? c. Join a protest rally or march

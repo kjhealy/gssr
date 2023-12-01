@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_424.R
 \name{wocomptr}
 \alias{wocomptr}
-\title{wocomptr}
+\title{R can do job without computer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R can do job without computer
+wocomptr
 }
 \details{
 Question Could you do your job without a computer or computerized equipment? Would you say...

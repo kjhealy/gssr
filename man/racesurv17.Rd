@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_636.R
 \name{racesurv17}
 \alias{racesurv17}
-\title{racesurv17}
+\title{How much, if at all, do you think the legacy of slavery affects the position of}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much, if at all, do you think the legacy of slavery affects the position of
+racesurv17
 }
 \details{
 Question How much, if at all, do you think the legacy of slavery affects the position of black people in American society today?

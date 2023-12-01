@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_532.R
 \name{immcrime}
 \alias{immcrime}
-\title{immcrime}
+\title{Immigrants increase crime rates}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immigrants increase crime rates
+immcrime
 }
 \details{
 Question 1445. There are different opinions about immigrants from other countries living in America. (By "immigrants" we mean people who come to settle in America.) How much do you agree or disagree with each of the following statements? a. Immigrants increase crime rates

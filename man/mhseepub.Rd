@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_417.R
 \name{mhseepub}
 \alias{mhseepub}
-\title{mhseepub}
+\title{How often r sees someone with mental health problem in public places}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r sees someone with mental health problem in public places
+mhseepub
 }
 \details{
 Question 1148. Do you frequently, occasionally, rarely, or never see someone who seems to have a serious mental health problem in a public place?

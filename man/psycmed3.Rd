@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_241.R
 \name{psycmed3}
 \alias{psycmed3}
-\title{psycmed3}
+\title{Taking these medicine interferes w daily act}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Taking these medicine interferes w daily act
+psycmed3
 }
 \details{
 Question 710. Please tell me how much you agree or disagree with the following statements: c. Taking these medications interferes with daily activities

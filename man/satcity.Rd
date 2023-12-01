@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_50.R
 \name{satcity}
 \alias{satcity}
-\title{satcity}
+\title{City or place r lives in}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-City or place r lives in
+satcity
 }
 \details{
 Question 164. For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. a. The city or place you live in.

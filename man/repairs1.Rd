@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_485.R
 \name{repairs1}
 \alias{repairs1}
-\title{repairs1}
+\title{Who in household does small repairs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who in household does small repairs
+repairs1
 }
 \details{
 Question 1309. In your household who does the following things: b. Small repairs around the house?

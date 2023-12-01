@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_413.R
 \name{mhaccptd}
 \alias{mhaccptd}
-\title{mhaccptd}
+\title{Person like x has no hope of being accepted as member}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Person like x has no hope of being accepted as member
+mhaccptd
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. o. A person like \link{NAME} has little or no hope of ever being accepted as a member of (his/her) community.

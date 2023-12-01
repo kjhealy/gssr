@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_601.R
 \name{talkspvs}
 \alias{talkspvs}
-\title{talkspvs}
+\title{Comfortable talking with supervisor about personal}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Comfortable talking with supervisor about personal
+talkspvs
 }
 \details{
 Question How comfortable are you talking with your supervisor about conflicts between work and personal or family life?

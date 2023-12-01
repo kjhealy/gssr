@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_509.R
 \name{abpoor1}
 \alias{abpoor1}
-\title{abpoor1}
+\title{Law should allow abortion if family low income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Law should allow abortion if family low income
+abpoor1
 }
 \details{
 Question 1375. Do you think the law should or should not allow a pregnant woman to obtain a legal abortion. . . b. If the family has a very low income and cannot afford any more children

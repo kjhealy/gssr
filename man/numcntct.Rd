@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_279.R
 \name{numcntct}
 \alias{numcntct}
-\title{numcntct}
+\title{How many people in contact least once a year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people in contact least once a year
+numcntct
 }
 \details{
 Question 797. Not counting people at work or family at home, about how many other friends or relatives do you keep in contact with at least once a year?

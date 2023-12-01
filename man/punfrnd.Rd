@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_571.R
 \name{punfrnd}
 \alias{punfrnd}
-\title{punfrnd}
+\title{Punishment selling info to friendly countries}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment selling info to friendly countries
+punfrnd
 }
 \details{
 Question 1451. I'm going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee. d. Stealing and selling these same materials to a friendly foreign government.

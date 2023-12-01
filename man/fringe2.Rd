@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_144.R
 \name{fringe2}
 \alias{fringe2}
-\title{fringe2}
+\title{Dental care benefits}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Dental care benefits
+fringe2
 }
 \details{
 Question 457. I am going to read a list of fringe benefits that workers sometimes get in addition to their wages. Whether you receive it or not, please tell me whether you are eligible to receive each fringe benefit: b. Dental care benefits

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_644.R
 \name{orginc}
 \alias{orginc}
-\title{orginc}
+\title{Financial distribution in household}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Financial distribution in household
+orginc
 }
 \details{
 Question How do you and your {#spousepartfill} organize the income that one or both of you receive? Please choose the option that comes closest.

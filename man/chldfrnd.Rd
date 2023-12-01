@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_328.R
 \name{chldfrnd}
 \alias{chldfrnd}
-\title{chldfrnd}
+\title{How willing r have children make friends with ch}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How willing r have children make friends with ch
+chldfrnd
 }
 \details{
 Question 943c. How willing would you be to have your children make friends with (John/Mary)?

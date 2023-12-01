@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_646.R
 \name{altmed}
 \alias{altmed}
-\title{altmed}
+\title{Alt med provides better solutions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Alt med provides better solutions
+altmed
 }
 \details{
 Question How much do you agree or disagree with the following statement? Alternative medicine provides better solutions for health problems than mainstream medicine.

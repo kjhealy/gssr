@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_82.R
 \name{unemp5}
 \alias{unemp5}
-\title{unemp5}
+\title{Unemployed in last 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unemployed in last 5 yrs
+unemp5
 }
 \details{
 Question 270. Unemployment during last five years.

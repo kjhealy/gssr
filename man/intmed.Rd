@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_381.R
 \name{intmed}
 \alias{intmed}
-\title{intmed}
+\title{Interested in medical discoveries}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested in medical discoveries
+intmed
 }
 \details{
 Question Issues about new medical discoveries. (Are you very interested, moderately interested, or not at all interested?)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_378.R
 \name{tvoil}
 \alias{tvoil}
-\title{tvoil}
+\title{R would choose tv program about oil drilling in the arctic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would choose tv program about oil drilling in the arctic
+tvoil
 }
 \details{
 Question 1075. The next few questions are about the regions near the poles. Please look at Card B22. If you were choosing a television program to watch, would you be very likely, somewhat likely, somewhat unlikely, or very unlikely to watch a program about... e. Oil drilling in the Arctic

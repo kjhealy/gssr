@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_641.R
 \name{whatma2}
 \alias{whatma2}
-\title{whatma2}
+\title{How would you classify the place where {#momfill} worked? Was this mainly...?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How would you classify the place where {#momfill} worked? Was this mainly...?
+whatma2
 }
 \details{
 Question How would you classify the place where {#MOMFILL} worked? Was this mainly...?

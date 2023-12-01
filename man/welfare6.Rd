@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_601.R
 \name{welfare6}
 \alias{welfare6}
-\title{welfare6}
+\title{Discourages pregnant girls from marrying}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Discourages pregnant girls from marrying
+welfare6
 }
 \details{
 Question 1613. Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. Welfare . . . f. Discourages young women who get pregnant from marrying the father of the child.

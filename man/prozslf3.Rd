@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_248.R
 \name{prozslf3}
 \alias{prozslf3}
-\title{prozslf3}
+\title{Take prozac if feel depressed sleepless}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Take prozac if feel depressed sleepless
+prozslf3
 }
 \details{
 Question 726. How likely would you be to take doctor prescribed Prozac in the following situations? c. because you were feeling depressed, tired, were having trouble sleeping and concentrating, and felt worthless

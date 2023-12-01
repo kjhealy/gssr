@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_294.R
 \name{freenow}
 \alias{freenow}
-\title{freenow}
+\title{Americans have more freedom than in past}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Americans have more freedom than in past
+freenow
 }
 \details{
 Question 825. Do you think Americans today have more freedom, less freedom, or about the same amount of freedom as in the past?

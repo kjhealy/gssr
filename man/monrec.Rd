@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_202.R
 \name{monrec}
 \alias{monrec}
-\title{monrec}
+\title{Done volunteer work in recreation adults}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done volunteer work in recreation adults
+monrec
 }
 \details{
 Question 641. In which, if any, of the areas listed on this card have you done some volunteer work in the past month? g. Recreation - adults

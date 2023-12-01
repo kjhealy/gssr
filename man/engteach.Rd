@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_172.R
 \name{engteach}
 \alias{engteach}
-\title{engteach}
+\title{Opinion on teaching classes only in english}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opinion on teaching classes only in english
+engteach
 }
 \details{
 Question 524. There are several different ideas about how to teach children who don't speak English when they enter our public schools. Please look at the card and tell me which statement best describes how you feel: 1. All classes should be conducted only in English so that children have to learn English right from the start. 2. Children who don't know English should have classes in their native language just for a year or two until they learn English. 3. Students who want to keep up with their native languages and cultures should be able to take many of the classes in Spanish or other languages all the way through high school.

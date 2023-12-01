@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_90.R
 \name{milokfe}
 \alias{milokfe}
-\title{milokfe}
+\title{Mil service good experience for women}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mil service good experience for women
+milokfe
 }
 \details{
 Question 300b. How about for most young women, do you think military service is definitely a good experience, probably a good experience, probably not a good experience, or definitely not a good experience for them?

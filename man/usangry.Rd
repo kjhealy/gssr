@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_190.R
 \name{usangry}
 \alias{usangry}
-\title{usangry}
+\title{Thinking us how often feel angry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Thinking us how often feel angry
+usangry
 }
 \details{
 Question 587. Now I want to ask some questions about how you feel when you think about this country, the United States. When you think about the United States: e. How often do you feel angry?

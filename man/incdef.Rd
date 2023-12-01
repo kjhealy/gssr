@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_567.R
 \name{incdef}
 \alias{incdef}
-\title{incdef}
+\title{Distance below poverty line}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Distance below poverty line
+incdef
 }
 \details{
 Question 1576b. Income Deficit of Household

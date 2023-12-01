@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_565.R
 \name{famper4}
 \alias{famper4}
-\title{famper4}
+\title{Having serious trouble with a child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Having serious trouble with a child
+famper4
 }
 \details{
 Question E. What about family and personal relationships? During the last year, did you... 4. Have serious trouble with a child

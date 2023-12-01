@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_606.R
 \name{easyget}
 \alias{easyget}
-\title{easyget}
+\title{How difficult was case to get}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How difficult was case to get
+easyget
 }
 \details{
 Question None

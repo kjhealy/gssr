@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_116.R
 \name{churhact}
 \alias{churhact}
-\title{churhact}
+\title{Does r participate in church activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r participate in church activities
+churhact
 }
 \details{
 Question 367. If yes to Q366: Do you take part in any of the activities or organizations of your church (synagogue) other than attending services?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_661.R
 \name{occ10_next}
 \alias{occ10_next}
-\title{occ10_next}
+\title{Occupation - follow-on version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Occupation - follow-on version
+occ10_next
 }
 \details{
 Question None

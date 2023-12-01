@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_188.R
 \name{thnkangr}
 \alias{thnkangr}
-\title{thnkangr}
+\title{How often thought about this situation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often thought about this situation
+thnkangr
 }
 \details{
 Question 579. Even after they go away, feelings sometimes come back when we think about things. How often have you thought about this situation since it happened; very often, every once in a while or just once or twice, or never (until asked about it just now)?

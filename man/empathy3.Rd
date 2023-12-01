@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_322.R
 \name{empathy3}
 \alias{empathy3}
-\title{empathy3}
+\title{R feels protective towards people taken advantage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R feels protective towards people taken advantage
+empathy3
 }
 \details{
 Question 926. The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are in between these points. c. When I see someone being taken advantage of, I feel kind of protective towards them.

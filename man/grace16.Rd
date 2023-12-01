@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_115.R
 \name{grace16}
 \alias{grace16}
-\title{grace16}
+\title{Did r's family say grace at meals}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r's family say grace at meals
+grace16
 }
 \details{
 Question 363. When you were growing up, did anyone usually say grace or give thanks to God aloud before meals at home?

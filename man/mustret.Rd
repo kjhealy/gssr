@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_439.R
 \name{mustret}
 \alias{mustret}
-\title{mustret}
+\title{Govt should enforce mandatory retirement}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should enforce mandatory retirement
+mustret
 }
 \details{
 Question 1177. Do you think that... c. All employees should be required to retire at an age set by law.

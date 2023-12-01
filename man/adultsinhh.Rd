@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_665.R
 \name{adultsinhh}
 \alias{adultsinhh}
-\title{adultsinhh}
+\title{Total adults in hh (household composition version)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total adults in hh (household composition version)
+adultsinhh
 }
 \details{
 Question None

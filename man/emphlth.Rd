@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_426.R
 \name{emphlth}
 \alias{emphlth}
-\title{emphlth}
+\title{Do you receive health insurance from employer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you receive health insurance from employer
+emphlth
 }
 \details{
 Question Now I'd like to talk with you about health insurance, an important topic for most persons. We want to know about the health coverage that you have to help pay the costs of medical care. FI INFO: ASK RESPONDENT TO GET INSURANCE CARDS/IDENTIFYING INFORMATION IF NOT ALREADY AVAILABLE. Do you receive your health insurance from your employer?

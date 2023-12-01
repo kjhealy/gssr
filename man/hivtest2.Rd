@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_554.R
 \name{hivtest2}
 \alias{hivtest2}
-\title{hivtest2}
+\title{Where did you have your last hiv test}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where did you have your last hiv test
+hivtest2
 }
 \details{
 Question 1562b. Where did you have your last HIV test � at a private doctor or HMO office, at a counselling and testing site, at a hospital, at a clinic, in a jail or prison, at home, or somewhere else?

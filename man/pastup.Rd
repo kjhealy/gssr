@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_175.R
 \name{pastup}
 \alias{pastup}
-\title{pastup}
+\title{Degree of improvement in national economy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Degree of improvement in national economy
+pastup
 }
 \details{
 Question 542a. Would you say much better or somewhat better?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_417.R
 \name{numown}
 \alias{numown}
-\title{numown}
+\title{Number of businesses you own and manage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of businesses you own and manage
+numown
 }
 \details{
 Question None

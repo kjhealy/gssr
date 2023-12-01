@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_269.R
 \name{polforms}
 \alias{polforms}
-\title{polforms}
+\title{Web help form opinions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Web help form opinions
+polforms
 }
 \details{
 Question 779. In general, when you visit Web sites devoted to political or social policy issues, current affairs, or political campaigns, is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that: a. Visiting such Web sites helps you form an opinion on issues about which you are undecided?

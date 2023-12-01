@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_367.R
 \name{scispec}
 \alias{scispec}
-\title{scispec}
+\title{Science is too concerned with theory and speculation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Science is too concerned with theory and speculation
+scispec
 }
 \details{
 Question 1035. I'm going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. d. Science is too concerned with theory and speculation to be of much use in making concrete government policy decisions that will affect the way we live.

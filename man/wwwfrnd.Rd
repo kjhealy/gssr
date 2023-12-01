@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_273.R
 \name{wwwfrnd}
 \alias{wwwfrnd}
-\title{wwwfrnd}
+\title{Has anyone met on web become friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has anyone met on web become friend
+wwwfrnd
 }
 \details{
 Question 788. Did any of these people become: g. Friend?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_586.R
 \name{where8}
 \alias{where8}
-\title{where8}
+\title{Where is 8th person staying?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where is 8th person staying?
+where8
 }
 \details{
 Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. f. Where is \link{PERSON} staying right now? Is \link{PERSON} staying at another household; Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_77.R
 \name{lockedup}
 \alias{lockedup}
-\title{lockedup}
+\title{Prison or jail ever}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prison or jail ever
+lockedup
 }
 \details{
 Question Have you ever spent any time in prison or jail?

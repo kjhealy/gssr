@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_170.R
 \name{sboccstatus}
 \alias{sboccstatus}
-\title{sboccstatus}
+\title{Sbocc10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sbocc10 coding status
+sboccstatus
 }
 \details{
 Question None

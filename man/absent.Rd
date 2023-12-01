@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_504.R
 \name{absent}
 \alias{absent}
-\title{absent}
+\title{How many days absent from work past 6 month}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many days absent from work past 6 month
+absent
 }
 \details{
 Question 1361. About how many days have you been absent from work in the last 6 months (not counting vacation)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_85.R
 \name{cutspdfg}
 \alias{cutspdfg}
-\title{cutspdfg}
+\title{Cut govt spending--govt position}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Cut govt spending--govt position
+cutspdfg
 }
 \details{
 Question 281. Some people think the government should provide fewer services, even in areas such as health and education, in order to reduce spending. (1 on the scale) Other people feel it is important for the government to continue the services it now provides even if it means no reduction in spending. (7 on the scale) b. Where would you place what the federal government is doing at the present time?

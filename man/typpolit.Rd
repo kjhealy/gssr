@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_346.R
 \name{typpolit}
 \alias{typpolit}
-\title{typpolit}
+\title{R belongs to more than one political clubs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one political clubs
+typpolit
 }
 \details{
 Question 1024d. Do you belong to more than one political club?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_253.R
 \name{granlang}
 \alias{granlang}
-\title{granlang}
+\title{R's grandparents speak other language at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's grandparents speak other language at home
+granlang
 }
 \details{
 Question 742. Did/do one or more of your grandparents speak a language other than English?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_434.R
 \name{protest5}
 \alias{protest5}
-\title{protest5}
+\title{Allow damage of govt buildings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow damage of govt buildings
+protest5
 }
 \details{
 Question 1159. There are many ways people or organizations can protest against a government action they strongly oppose. Please show which you think should be allowed and which should not be allowed by circling a number after each question. e. Seriously damaging government buildings.

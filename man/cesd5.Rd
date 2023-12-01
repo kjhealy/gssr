@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_313.R
 \name{cesd5}
 \alias{cesd5}
-\title{cesd5}
+\title{How much time felt sad in past wk}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much time felt sad in past wk
+cesd5
 }
 \details{
 Question I will now read out a list of the ways you might have felt or behaved during the past week. Using this card, please tell me how much of the time during the past week? E. ...you felt sad?

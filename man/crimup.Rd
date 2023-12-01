@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_341.R
 \name{crimup}
 \alias{crimup}
-\title{crimup}
+\title{What if more restrictions increase crime}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What if more restrictions increase crime
+crimup
 }
 \details{
 Question 990. Suppose research proves that more legal restrictions on handguns would increase violent crime. Which of these two reactions would be closer to your position:

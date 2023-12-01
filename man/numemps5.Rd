@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_418.R
 \name{numemps5}
 \alias{numemps5}
-\title{numemps5}
+\title{How many people r employs 5 yrs after}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people r employs 5 yrs after
+numemps5
 }
 \details{
 Question None

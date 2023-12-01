@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_154.R
 \name{malive1}
 \alias{malive1}
-\title{malive1}
+\title{R mother alive}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R mother alive
+malive1
 }
 \details{
 Question 480. Is your mother alive?

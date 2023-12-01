@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_408.R
 \name{mhdorel}
 \alias{mhdorel}
-\title{mhdorel}
+\title{What x should do: talk to relic leader}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: talk to relic leader
+mhdorel
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? c. Talk to a religious leader

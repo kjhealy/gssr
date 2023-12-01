@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_154.R
 \name{mayrdied}
 \alias{mayrdied}
-\title{mayrdied}
+\title{Yr r mother died}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Yr r mother died
+mayrdied
 }
 \details{
 Question 482. In what year did she die?

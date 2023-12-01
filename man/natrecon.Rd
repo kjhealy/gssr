@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_198.R
 \name{natrecon}
 \alias{natrecon}
-\title{natrecon}
+\title{Natural environments should be left alone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Natural environments should be left alone
+natrecon
 }
 \details{
 Question 630. How much do you agree or disagree with the following statements? c. Natural environments that support scarce or endangered species should be left alone, no matter how great the economic benefits to your community from developing them commercially might be.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_551.R
 \name{aidssch}
 \alias{aidssch}
-\title{aidssch}
+\title{Prohibit aids-students at public schools}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prohibit aids-students at public schools
+aidssch
 }
 \details{
 Question 1539. Do you support or oppose the following measures to deal with AIDS? a. Prohibit students with the AIDS virus from attending public school

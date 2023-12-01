@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_572.R
 \name{compfin}
 \alias{compfin}
-\title{compfin}
+\title{Govt check personal financial records}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt check personal financial records
+compfin
 }
 \details{
 Question 1594. Protecting secrets is a continuing concern of the government. I am going to ask you about various security measures that the government might apply to individuals with a SECRET or TOP SECRET clearance. Do you (strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree) that people with SECRET or TOP SECRET clearance should be subject to: a. Computer checks of personal financial records

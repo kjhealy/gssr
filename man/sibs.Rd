@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_09.R
 \name{sibs}
 \alias{sibs}
-\title{sibs}
+\title{Number of brothers and sisters}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of brothers and sisters
+sibs
 }
 \details{
 Question 11. How many brothers and sisters did you have? Please count those born alive, but no longer living, as well as those alive now. Also include stepbrothers and stepsisters, and children adopted by your parents.

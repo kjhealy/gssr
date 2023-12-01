@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_535.R
 \name{internet}
 \alias{internet}
-\title{internet}
+\title{Internet makes info available more people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Internet makes info available more people
+internet
 }
 \details{
 Question 1460. How much do you agree or disagree with the following statements? f. A benefit of the Internet is that it makes information available to more and more people worldwide.

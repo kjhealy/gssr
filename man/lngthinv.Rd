@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_606.R
 \name{lngthinv}
 \alias{lngthinv}
-\title{lngthinv}
+\title{How long was interview}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long was interview
+lngthinv
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_569.R
 \name{secterr}
 \alias{secterr}
-\title{secterr}
+\title{Government maintain secrecy on domestic terrorism}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Government maintain secrecy on domestic terrorism
+secterr
 }
 \details{
 Question 1587. Should or should not the government maintain a high level of secrecy surrounding: (READ A-D) c. Efforts to control domestic terrorism

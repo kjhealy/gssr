@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_357.R
 \name{mtfrat1}
 \alias{mtfrat1}
-\title{mtfrat1}
+\title{How many years r born a member of fraternity group1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years r born a member of fraternity group1
+mtfrat1
 }
 \details{
 Question 1027a. Does the fraternal club meet in this area?

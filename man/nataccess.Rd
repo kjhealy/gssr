@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_316.R
 \name{nataccess}
 \alias{nataccess}
-\title{nataccess}
+\title{I have easy access to natural environments, such as public parks, gardens or tra}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I have easy access to natural environments, such as public parks, gardens or tra
+nataccess
 }
 \details{
 Question Please tell me how much you agree or disagree with the following statements. C. I have easy access to natural environments, such as public parks, gardens or trails.

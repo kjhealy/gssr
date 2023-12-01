@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_540.R
 \name{rghtsmin}
 \alias{rghtsmin}
-\title{rghtsmin}
+\title{How important: govt protect right of minorities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: govt protect right of minorities
+rghtsmin
 }
 \details{
 Question 1470. There are different opinions about people's rights in a democracy. On a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it: b. That government authorities respect and protect the rights of minorities

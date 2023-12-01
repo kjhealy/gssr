@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_171.R
 \name{ethspkok}
 \alias{ethspkok}
-\title{ethspkok}
+\title{Allow free speech offensive to ethnic groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow free speech offensive to ethnic groups
+ethspkok
 }
 \details{
 Question 521. Now I'm going to read you some statements and would like to get your reaction to them. After I read each statement, please tell me if you strongly agree, aggee, neither agree nor disagree, disagree, or strongly disagree with the statement. a. Under the First Amendment guarnateeing free speech, people should be allowed to express their own opinions even if they are harmful or offensive to members of other religous or racial groups.

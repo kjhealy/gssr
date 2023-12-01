@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_206.R
 \name{totenvir}
 \alias{totenvir}
-\title{totenvir}
+\title{How much money contributed in environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much money contributed in environment
+totenvir
 }
 \details{
 Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? e. Environment

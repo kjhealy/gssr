@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_76.R
 \name{pistol}
 \alias{pistol}
-\title{pistol}
+\title{Pistol or revolver in home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pistol or revolver in home
+pistol
 }
 \details{
 Question 237a. If yes: Is it a pistol, shotgun, rigfle, or what? PISTOL OR REVOLVER

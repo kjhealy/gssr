@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_285.R
 \name{emchurch}
 \alias{emchurch}
-\title{emchurch}
+\title{R send or receive to or from church members}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R send or receive to or from church members
+emchurch
 }
 \details{
 Question Do any of the personal one-to-one messages you receive or send come from: j. Members of your church?

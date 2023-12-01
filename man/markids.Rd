@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_479.R
 \name{markids}
 \alias{markids}
-\title{markids}
+\title{Main purpose of marriage = kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Main purpose of marriage = kids
+markids
 }
 \details{
 Question 1280. Do you agree or disagree? d. The main purpose of marriage these days is to have children.

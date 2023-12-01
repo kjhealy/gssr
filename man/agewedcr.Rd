@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_157.R
 \name{agewedcr}
 \alias{agewedcr}
-\title{agewedcr}
+\title{R's age at current marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's age at current marriage
+agewedcr
 }
 \details{
 Question 496. How old were you when your (current) marriage began?

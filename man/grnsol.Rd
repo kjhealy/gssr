@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_520.R
 \name{grnsol}
 \alias{grnsol}
-\title{grnsol}
+\title{Accept cut in living stnds to help envir?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Accept cut in living stnds to help envir?
+grnsol
 }
 \details{
 Question 1413b. And how willing would you be to accept cuts in your standard of living in order to protect the environment?

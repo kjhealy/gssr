@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_380.R
 \name{penguins}
 \alias{penguins}
-\title{penguins}
+\title{Antarctic penguins threatened}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Antarctic penguins threatened
+penguins
 }
 \details{
 Question None

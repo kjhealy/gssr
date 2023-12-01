@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_16.R
 \name{rincom82}
 \alias{rincom82}
-\title{rincom82}
+\title{Respondents income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondents income
+rincom82
 }
 \details{
 Question Respondent's income on 1982-85 surveys.

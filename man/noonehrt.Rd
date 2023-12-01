@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_180.R
 \name{noonehrt}
 \alias{noonehrt}
-\title{noonehrt}
+\title{No one hurt from traditional family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-No one hurt from traditional family
+noonehrt
 }
 \details{
 Question 564. Who is hurt by this argument: men, women, children, everyone, or no one? e. No one

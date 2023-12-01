@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_407.R
 \name{disabld2}
 \alias{disabld2}
-\title{disabld2}
+\title{R has a vision problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has a vision problem
+disabld2
 }
 \details{
 Question 1125. Do you have a vision problem that prevents you from reading a newspaper even when wearing glasses or contacts?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_562.R
 \name{work5}
 \alias{work5}
-\title{work5}
+\title{Having trouble with one's boss}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Having trouble with one's boss
+work5
 }
 \details{
 Question B. Second, what about work-related matters? Did any of the following happen to you since (CURRENT MONTH), 2003? 5. Serious trouble with your boss

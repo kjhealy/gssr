@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_346.R
 \name{typvet}
 \alias{typvet}
-\title{typvet}
+\title{R belongs to more than one veterans groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one veterans groups
+typvet
 }
 \details{
 Question 1024c. Do you belong to more than one veterans' club?

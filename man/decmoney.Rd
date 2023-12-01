@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_211.R
 \name{decmoney}
 \alias{decmoney}
-\title{decmoney}
+\title{How able is x to decide managing own money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How able is x to decide managing own money
+decmoney
 }
 \details{
 Question 653. In your opinion, how able is NAME to make his/her own decisions about managing his/her own money -- very able, somewhat able, not very able or not able at all?

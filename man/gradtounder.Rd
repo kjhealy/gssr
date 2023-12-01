@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_12.R
 \name{gradtounder}
 \alias{gradtounder}
-\title{gradtounder}
+\title{Ratio of graduate students to undergraduate students in college respondent atten}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ratio of graduate students to undergraduate students in college respondent atten
+gradtounder
 }
 \details{
 Question None

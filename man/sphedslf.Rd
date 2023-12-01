@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_157.R
 \name{sphedslf}
 \alias{sphedslf}
-\title{sphedslf}
+\title{Spouse's father self-emp when spouse was 16?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's father self-emp when spouse was 16?
+sphedslf
 }
 \details{
 Question 501e. Was (he/she) self-employed or did (he/she) work for someone else?

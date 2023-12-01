@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_489.R
 \name{hhclean1}
 \alias{hhclean1}
-\title{hhclean1}
+\title{Who does household cleaning}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who does household cleaning
+hhclean1
 }
 \details{
 Question (In your household who does the following things...? Is it always you, usually you, about equal or both together, usually your \link{spouse/partner}, always your \link{spouse/partner}, or by a third person?)

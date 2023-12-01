@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_523.R
 \name{recycle}
 \alias{recycle}
-\title{recycle}
+\title{Recycle cans bottles}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Recycle cans bottles
+recycle
 }
 \details{
 Question 1424a. How often do you make a special effort to sort glass or cans or plastic or papers and so on for recycling?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_486.R
 \name{cooking1}
 \alias{cooking1}
-\title{cooking1}
+\title{Who in household prepares the meals}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who in household prepares the meals
+cooking1
 }
 \details{
 Question 1309. In your household who does the following things: f. Preparing the meals?

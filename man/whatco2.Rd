@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_662.R
 \name{whatco2}
 \alias{whatco2}
-\title{whatco2}
+\title{Classify place where partners works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Classify place where partners works
+whatco2
 }
 \details{
 Question None

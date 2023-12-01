@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_279.R
 \name{meetings}
 \alias{meetings}
-\title{meetings}
+\title{How many people seen at church or group meeting}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people seen at church or group meeting
+meetings
 }
 \details{
 Question 798. Of these__________friends and relatives, about how many do you stay in contact with by: d. Seeing them at meetings or events related to church, clubs, or other groups?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_634.R
 \name{trdunio1}
 \alias{trdunio1}
-\title{trdunio1}
+\title{Workers need strong trade unions to protect their interests}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Workers need strong trade unions to protect their interests
+trdunio1
 }
 \details{
 Question Workers need strong trade unions to protect their interests

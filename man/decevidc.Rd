@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_633.R
 \name{decevidc}
 \alias{decevidc}
-\title{decevidc}
+\title{When i make important decisions in my life, i rely mostly on reason and evidence}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When i make important decisions in my life, i rely mostly on reason and evidence
+decevidc
 }
 \details{
 Question When I make important decisions in my life, I rely mostly on reason and evidence.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_416.R
 \name{mhtrtot2}
 \alias{mhtrtot2}
-\title{mhtrtot2}
+\title{R knows someone who received treatment for mental health}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R knows someone who received treatment for mental health
+mhtrtot2
 }
 \details{
 Question 1146. Let's turn away from \link{NAME} now. I have a few questions about your general experiences that I would like to ask you. Leaving yourself aside, have you personally ever known someone who has received treatment for a mental health situation?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_445.R
 \name{rprtst35}
 \alias{rprtst35}
-\title{rprtst35}
+\title{How many times gone on a protest march past 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many times gone on a protest march past 5 yrs
+rprtst35
 }
 \details{
 Question 1192. And in the past five years how many times have you done each of the following to protest against a government action you strongly oppose? PLEASE CHECK ONE BOX ON EACH LINE b. Gone on a protest march or demonstration

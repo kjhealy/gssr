@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_76.R
 \name{owngun}
 \alias{owngun}
-\title{owngun}
+\title{Have gun in home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have gun in home
+owngun
 }
 \details{
 Question 237. Do you happen to have in your home (or garage) any guns or revolvers?

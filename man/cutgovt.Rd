@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_441.R
 \name{cutgovt}
 \alias{cutgovt}
-\title{cutgovt}
+\title{Cuts in govt spending}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Cuts in govt spending
+cutgovt
 }
 \details{
 Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. c. Cuts in government spending

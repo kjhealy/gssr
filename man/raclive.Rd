@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_45.R
 \name{raclive}
 \alias{raclive}
-\title{raclive}
+\title{Any opp. race in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Any opp. race in neighborhood
+raclive
 }
 \details{
 Question 129. Are there any (negroes/blacks/African-Americans) living in this neighborhood now?

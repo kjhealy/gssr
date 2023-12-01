@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_630.R
 \name{govineq1}
 \alias{govineq1}
-\title{govineq1}
+\title{Politicians do not care about reducing inc differences}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Politicians do not care about reducing inc differences
+govineq1
 }
 \details{
 Question To what extent do you agree or disagree with the following statement: Most politicians in America do not care about reducing the differences in income between people with high incomes and people with low incomes.

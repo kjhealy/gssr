@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_285.R
 \name{intstart}
 \alias{intstart}
-\title{intstart}
+\title{Year starting to use internet/apps}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Year starting to use internet/apps
+intstart
 }
 \details{
 Question In what year did you start using the internet or web-enabled applications/APPS?

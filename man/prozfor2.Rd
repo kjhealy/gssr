@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_247.R
 \name{prozfor2}
 \alias{prozfor2}
-\title{prozfor2}
+\title{What can you tell me about prozac is used for}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What can you tell me about prozac is used for
+prozfor2
 }
 \details{
 Question 724. What can you tell me about what Prozac is used for?

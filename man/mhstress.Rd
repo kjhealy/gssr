@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_410.R
 \name{mhstress}
 \alias{mhstress}
-\title{mhstress}
+\title{X s situation caused by: stress}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X s situation caused by: stress
+mhstress
 }
 \details{
 Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... d. Stress

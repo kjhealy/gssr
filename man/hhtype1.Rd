@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_591.R
 \name{hhtype1}
 \alias{hhtype1}
-\title{hhtype1}
+\title{Household type (condensed)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Household type (condensed)
+hhtype1
 }
 \details{
 Question 1627. Household type (condensed).

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_592.R
 \name{rplace}
 \alias{rplace}
-\title{rplace}
+\title{R's relationship to household head}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's relationship to household head
+rplace
 }
 \details{
 Question 1629. Respondent's relationship to household head.

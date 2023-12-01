@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_76.R
 \name{robbry}
 \alias{robbry}
-\title{robbry}
+\title{Forcefully robbed during the last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Forcefully robbed during the last year
+robbry
 }
 \details{
 Question 236. During the last year, did anyone take something directly from you by using force -- such as a stickup, mugging, or threat?

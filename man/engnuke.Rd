@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_384.R
 \name{engnuke}
 \alias{engnuke}
-\title{engnuke}
+\title{Nuclear engineers understand nuclear power}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nuclear engineers understand nuclear power
+engnuke
 }
 \details{
 Question None

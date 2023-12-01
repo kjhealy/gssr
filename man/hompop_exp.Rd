@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_662.R
 \name{hompop_exp}
 \alias{hompop_exp}
-\title{hompop_exp}
+\title{Total people in hh (experimental version)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total people in hh (experimental version)
+hompop_exp
 }
 \details{
 Question None

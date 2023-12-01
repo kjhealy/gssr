@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_417.R
 \name{mhsymp}
 \alias{mhsymp}
-\title{mhsymp}
+\title{How much r feels sympathy for ppl with mental hlth problem in public places}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much r feels sympathy for ppl with mental hlth problem in public places
+mhsymp
 }
 \details{
 Question 1148b. Would you say that you feel no sympathy, a little sympathy, quite a bit of sympathy, or a great deal of sympathy, for people that seem to have a serious mental health problem that you see in public places?

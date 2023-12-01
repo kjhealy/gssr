@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_323.R
 \name{carried}
 \alias{carried}
-\title{carried}
+\title{R carried a stranger's belongings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R carried a stranger's belongings
+carried
 }
 \details{
 Question 927. During the past 12 months, how often have you done each of the following things: i. Carried a stranger's belongings, like groceries, a suitcase, or shopping bags.

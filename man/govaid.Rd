@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_65.R
 \name{govaid}
 \alias{govaid}
-\title{govaid}
+\title{Ever receive welfare, unemp insur, etc.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever receive welfare, unemp insur, etc.
+govaid
 }
 \details{
 Question 194. Did you ever - because of sickness, unemployment, or any other reason - receive anything like welfare, unemployment insurance, or other aid from government agencies?

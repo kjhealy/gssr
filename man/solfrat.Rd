@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_106.R
 \name{solfrat}
 \alias{solfrat}
-\title{solfrat}
+\title{Fraternal group tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fraternal group tries to solve problems
+solfrat
 }
 \details{
 Question 329. Do the fraternal groups to which you belong do anything to try to solve individual or community problems?

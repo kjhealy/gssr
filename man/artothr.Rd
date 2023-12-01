@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_238.R
 \name{artothr}
 \alias{artothr}
-\title{artothr}
+\title{Other reason why did not go}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other reason why did not go
+artothr
 }
 \details{
 Question Thinking about the most recent exhibit you wanted to attend but did not, which of the following factors were important in your decision not to attend G. Some other reason not shown.

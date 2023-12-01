@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_169.R
 \name{sbocc80}
 \alias{sbocc80}
-\title{sbocc80}
+\title{R sibling census occupation code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sibling census occupation code (1980)
+sbocc80
 }
 \details{
 Question 514a. What kind of work (is/was) \link{NAME} doing? That is, what was (his/her) job called? b. What (does/did) (s/he) actually do in that job? Tell me some of what (are/were) some of (his/her) main duties?

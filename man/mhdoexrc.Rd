@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_409.R
 \name{mhdoexrc}
 \alias{mhdoexrc}
-\title{mhdoexrc}
+\title{What x should do: start exercising}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: start exercising
+mhdoexrc
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? q. Start exercising

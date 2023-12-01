@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_141.R
 \name{othduty6}
 \alias{othduty6}
-\title{othduty6}
+\title{You evaluate job performance, not supervise}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You evaluate job performance, not supervise
+othduty6
 }
 \details{
 Question 444. (On the card you have/Here is a card listing) 7 different kinds of work activities. Which ones do you do with employees whom you do not officially supervise? Please mention all that apply: f. Evaluate job performance

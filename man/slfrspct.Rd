@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_339.R
 \name{slfrspct}
 \alias{slfrspct}
-\title{slfrspct}
+\title{I wish i could have more respect for myself}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I wish i could have more respect for myself
+slfrspct
 }
 \details{
 Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: c. I wish I could have more respect for myself

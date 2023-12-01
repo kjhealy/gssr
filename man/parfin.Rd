@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_557.R
 \name{parfin}
 \alias{parfin}
-\title{parfin}
+\title{Hard for parents to make ends meet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hard for parents to make ends meet
+parfin
 }
 \details{
 Question 1569. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements regarding parents: e. Parents today have a hard time making ends meet

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_318.R
 \name{othpet}
 \alias{othpet}
-\title{othpet}
+\title{Other pet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other pet
+othpet
 }
 \details{
 Question What kind of pet\link{s} does your family have? J. Other pet

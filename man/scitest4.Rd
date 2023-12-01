@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_521.R
 \name{scitest4}
 \alias{scitest4}
-\title{scitest4}
+\title{Humans evolved from animals}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Humans evolved from animals
+scitest4
 }
 \details{
 Question 1415. For each statement below, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? d. Human beings developed from earlier species of animals

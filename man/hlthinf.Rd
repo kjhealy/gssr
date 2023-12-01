@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_645.R
 \name{hlthinf}
 \alias{hlthinf}
-\title{hlthinf}
+\title{Health care system in us inefficient}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Health care system in us inefficient
+hlthinf
 }
 \details{
 Question (How much do you agree or disagree with the following statements?) In general, the health care system in the United States is inefficient.

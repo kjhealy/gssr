@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_611.R
 \name{famdif16y}
 \alias{famdif16y}
-\title{famdif16y}
+\title{Which of the following best describes your situation?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which of the following best describes your situation?
+famdif16y
 }
 \details{
 Question Which of the following best describes your situation?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_437.R
 \name{fehlpbus}
 \alias{fehlpbus}
-\title{fehlpbus}
+\title{Govt should aid women seeking jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should aid women seeking jobs
+fehlpbus
 }
 \details{
 Question 1172. Here are three things the government might do. Some people are in favor of them while other people are against them. Please circle one number for each statement to show how you feel. a. The government should increase opportunities for women in business and industry.

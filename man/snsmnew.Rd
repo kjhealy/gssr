@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_287.R
 \name{snsmnew}
 \alias{snsmnew}
-\title{snsmnew}
+\title{Which social network did you join most recently}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which social network did you join most recently
+snsmnew
 }
 \details{
 Question Which social network did you join most recently?

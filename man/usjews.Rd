@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_255.R
 \name{usjews}
 \alias{usjews}
-\title{usjews}
+\title{What percentage of population is jewish}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What percentage of population is jewish
+usjews
 }
 \details{
 Question 751. Just your best guess�what percentage of the United States population is each group? c. Jews

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_653.R
 \name{yrstpo}
 \alias{yrstpo}
-\title{yrstpo}
+\title{Livestreamed reading event in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Livestreamed reading event in past 12 months
+yrstpo
 }
 \details{
 Question (During the last 12 months, did you...) watch or listen to a live-streamed poetry event, book-reading, or storytelling event?

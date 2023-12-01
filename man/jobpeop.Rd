@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_63.R
 \name{jobpeop}
 \alias{jobpeop}
-\title{jobpeop}
+\title{Contact with other people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contact with other people
+jobpeop
 }
 \details{
 Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? A LOT OF CONTACT WITH OTHER PEOPLE

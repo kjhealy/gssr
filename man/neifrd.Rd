@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_458.R
 \name{neifrd}
 \alias{neifrd}
-\title{neifrd}
+\title{Number of close friends who live near r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of close friends who live near r
+neifrd
 }
 \details{
 Question 1232. Thinking now of people who live near you - in your neighborhood or district: How many of these people are close friends of yours?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_300.R
 \name{feelblks}
 \alias{feelblks}
-\title{feelblks}
+\title{How r feels towards african americans}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How r feels towards african americans
+feelblks
 }
 \details{
 Question 849a. In general, how warm or cool do you feel towards African Americans?

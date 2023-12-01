@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_67.R
 \name{absingle}
 \alias{absingle}
-\title{absingle}
+\title{Not married}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Not married
+absingle
 }
 \details{
 Question 206. Please tell me whether or not you think it should be possible for a pregnant woman to obtaina legal abortion if: f. She is not married and does not want to marry the man?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_126.R
 \name{socdif1}
 \alias{socdif1}
-\title{socdif1}
+\title{Income differences an incentive}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Income differences an incentive
+socdif1
 }
 \details{
 Question 402. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. a. Only if differences in income are large enough is there an incentive for individual effort.

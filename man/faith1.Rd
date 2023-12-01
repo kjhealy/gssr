@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_118.R
 \name{faith1}
 \alias{faith1}
-\title{faith1}
+\title{Has death in family strengthened faith}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has death in family strengthened faith
+faith1
 }
 \details{
 Question 379. How often have these events strengthened your religious faith? a. Death in the family

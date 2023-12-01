@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_425.R
 \name{leavejb}
 \alias{leavejb}
-\title{leavejb}
+\title{Why did r leave last job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why did r leave last job
+leavejb
 }
 \details{
 Question Why did you leave your last (full-time) job? Did you leave voluntarily, was the job abolished, or were you permanently laid off?

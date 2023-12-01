@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_92.R
 \name{milwrknw}
 \alias{milwrknw}
-\title{milwrknw}
+\title{Currently work for military or dod?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Currently work for military or dod?
+milwrknw
 }
 \details{
 Question 306a. If yes: Do you have a job now with the armed forces or with the Defense Department?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_125.R
 \name{whypoor1}
 \alias{whypoor1}
-\title{whypoor1}
+\title{Poor schools}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Poor schools
+whypoor1
 }
 \details{
 Question 401. Now I will list reasons some people give to explain why there are poor people in this country. Please tell me whether you feel each of these is very important, somewhat important, or not important in explaining why there are poor people in this country. a. Failure of socieety to provide good schools for many Americans.

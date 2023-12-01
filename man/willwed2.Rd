@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_176.R
 \name{willwed2}
 \alias{willwed2}
-\title{willwed2}
+\title{If right person would you marry?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If right person would you marry?
+willwed2
 }
 \details{
 Question 549. If the right person came along, would you like to be married?

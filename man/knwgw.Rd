@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_377.R
 \name{knwgw}
 \alias{knwgw}
-\title{knwgw}
+\title{Level of r's information: global warming}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Level of r's information: global warming
+knwgw
 }
 \details{
 Question 1074. We want to ask about how much information you have on various topics. Please look at Card B21. For each of the following areas, please indicate whether you are very informed, somewhat informed, neither informed nor uninformed, somewhat uniformed, or very uninformed about the issues. d. Global warming

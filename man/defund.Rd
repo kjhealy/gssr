@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_635.R
 \name{defund}
 \alias{defund}
-\title{defund}
+\title{Move funds for police to social service}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Move funds for police to social service
+defund
 }
 \details{
 Question Do you favor or oppose reducing funding for police departments, and moving those funds to mental health, housing, and other social services?

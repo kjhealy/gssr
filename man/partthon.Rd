@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_327.R
 \name{partthon}
 \alias{partthon}
-\title{partthon}
+\title{Have participated in a walkathon over past 5 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have participated in a walkathon over past 5 years
+partthon
 }
 \details{
 Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? g. Participate in a walkathon or marathon to raise money for a cause

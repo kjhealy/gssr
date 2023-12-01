@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_59.R
 \name{drunk}
 \alias{drunk}
-\title{drunk}
+\title{Ever drink too much?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever drink too much?
+drunk
 }
 \details{
 Question 176a. Do you sometimes drink more than you think you should?

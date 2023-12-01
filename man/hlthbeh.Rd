@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_646.R
 \name{hlthbeh}
 \alias{hlthbeh}
-\title{hlthbeh}
+\title{Suffer health prob from behavior}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suffer health prob from behavior
+hlthbeh
 }
 \details{
 Question Severe health problems may have many causes. How much do you agree or disagree with the following statements? People suffer from severe health problems... Because they behaved in ways that damaged their health.

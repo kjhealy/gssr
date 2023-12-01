@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_306.R
 \name{knowwhat}
 \alias{knowwhat}
-\title{knowwhat}
+\title{R knows what's expected on job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R knows what's expected on job
+knowwhat
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. g. On my job, I know exactly what is expected of me.

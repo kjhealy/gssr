@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_549.R
 \name{suiage}
 \alias{suiage}
-\title{suiage}
+\title{Age of suicide victim closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age of suicide victim closest to r
+suiage
 }
 \details{
 Question 1534. We would like to know a few other things about that person. b. How old was that person?

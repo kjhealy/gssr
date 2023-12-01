@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_315.R
 \name{abstate1}
 \alias{abstate1}
-\title{abstate1}
+\title{Difficulty of obtaining abortion in r's state}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Difficulty of obtaining abortion in r's state
+abstate1
 }
 \details{
 Question Here in \link{CURRENT STATE}, how easy or hard do you think it is for a woman to get an abortion?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_472.R
 \name{goveqinc}
 \alias{goveqinc}
-\title{goveqinc}
+\title{Govmnt should reduce inc differentials}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govmnt should reduce inc differentials
+goveqinc
 }
 \details{
 Question 1256. Do you agree or disagree: b. t is the responsibility of the government to reduce the differences in income between people with high incomes and those with low incomes.

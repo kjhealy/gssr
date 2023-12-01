@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_565.R
 \name{law2}
 \alias{law2}
-\title{law2}
+\title{A personal assault}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A personal assault
+law2
 }
 \details{
 Question F. Next, did any of the following criminal or legal events occur to you since (CURRENT MONTH), 2003... 2. A personal assault (e.g. being beaten up, hit, or attacked with a weapon).

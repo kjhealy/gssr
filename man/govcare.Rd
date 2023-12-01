@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_30.R
 \name{govcare}
 \alias{govcare}
-\title{govcare}
+\title{Govt concern for social welfare}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt concern for social welfare
+govcare
 }
 \details{
 Question 73b. for some time there have been discussions about how concerned the government should be about the social welfare of people. We have listed here two different opinions. With which opinion do you agree the most?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_50.R
 \name{satfam}
 \alias{satfam}
-\title{satfam}
+\title{Family life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Family life
+satfam
 }
 \details{
 Question 164. For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. c. Your family life.

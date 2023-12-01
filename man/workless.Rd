@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_178.R
 \name{workless}
 \alias{workless}
-\title{workless}
+\title{Cut back on your work?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Cut back on your work?
+workless
 }
 \details{
 Question 559. In your (present/most recent) job, (have you ever done/did you ever do) any of the following because of your responsibilities to members of your family? d. Cut back on your work

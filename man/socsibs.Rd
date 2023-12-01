@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_59.R
 \name{socsibs}
 \alias{socsibs}
-\title{socsibs}
+\title{Spend evening with siblings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spend evening with siblings
+socsibs
 }
 \details{
 Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: f. Spend a social evening with a brother or sister

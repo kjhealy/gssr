@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_156.R
 \name{alike7}
 \alias{alike7}
-\title{alike7}
+\title{How alike: fly & tree}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How alike: fly & tree
+alike7
 }
 \details{
 Question 489. Now I'd like to turn to something a bit different. This section is about reasoning abilities, that is, about how people think. Most people take tests of their reasoning abilities and there is a lot of interest in how these abilities may change over time. What I'd like you to do is tell me how two things are alike. g. In what way are a fly and a tree alike?

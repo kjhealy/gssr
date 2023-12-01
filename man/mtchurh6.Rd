@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_364.R
 \name{mtchurh6}
 \alias{mtchurh6}
-\title{mtchurh6}
+\title{Church group6 meets in this area}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Church group6 meets in this area
+mtchurh6
 }
 \details{
 Question 1027o. Does the church-affiliated group meet in this area?

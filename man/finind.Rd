@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_325.R
 \name{finind}
 \alias{finind}
-\title{finind}
+\title{Young should be financially independent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Young should be financially independent
+finind
 }
 \details{
 Question 930. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to be... Financially independent from their parents/guardians

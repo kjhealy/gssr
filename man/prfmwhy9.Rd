@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_234.R
 \name{prfmwhy9}
 \alias{prfmwhy9}
-\title{prfmwhy9}
+\title{Was there another major reason in decision to attend perf}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was there another major reason in decision to attend perf
+prfmwhy9
 }
 \details{
 Question People attend performances for different reasons. I. Was there some other major reason for your decision to attend that is not shown on the card?

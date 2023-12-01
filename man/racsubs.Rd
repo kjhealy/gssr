@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_80.R
 \name{racsubs}
 \alias{racsubs}
-\title{racsubs}
+\title{Favor attempts to integrate suburbs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Favor attempts to integrate suburbs
+racsubs
 }
 \details{
 Question 260. Some religious and business groups have set up programs to encourage (negro/black) people to buy houses in white suburbs. Do you favor or oppose these voluntary programs to integrate white suburbs?

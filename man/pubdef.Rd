@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_433.R
 \name{pubdef}
 \alias{pubdef}
-\title{pubdef}
+\title{Should media publish defense plans}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should media publish defense plans
+pubdef
 }
 \details{
 Question 1157a. Suppose a newspaper got hold of confidential government papers about defense plans and wanted to publish them. Should the newspaper be allowed to publish the papers? or Should the government have the power to prevent publication?

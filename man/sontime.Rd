@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_452.R
 \name{sontime}
 \alias{sontime}
-\title{sontime}
+\title{Travel time to son}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Travel time to son
+sontime
 }
 \details{
 Question 1204b. About how long would it take you to get to where your son lives? Think of the time it usually takes door to door.

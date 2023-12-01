@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_494.R
 \name{famorjob}
 \alias{famorjob}
-\title{famorjob}
+\title{Would you sacrifice job opportunities for family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would you sacrifice job opportunities for family
+famorjob
 }
 \details{
 Question A. Have you ever given up or would you give up good job opportunities for the benefit of your family life?

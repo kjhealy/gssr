@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_510.R
 \name{afterlif}
 \alias{afterlif}
-\title{afterlif}
+\title{Belief in life after death}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Belief in life after death
+afterlif
 }
 \details{
 Question 1382. Do you believe in. . . a. Life after death

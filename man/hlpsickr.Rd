@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_464.R
 \name{hlpsickr}
 \alias{hlpsickr}
-\title{hlpsickr}
+\title{Who r would first turn to if they needed someone to look after them while seriou}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r would first turn to if they needed someone to look after them while seriou
+hlpsickr
 }
 \details{
 Question Who or where would you turn to first to? E. Look after you if you were seriously ill?

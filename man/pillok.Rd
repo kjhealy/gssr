@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_69.R
 \name{pillok}
 \alias{pillok}
-\title{pillok}
+\title{Birth control to teenagers 14-16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Birth control to teenagers 14-16
+pillok
 }
 \details{
 Question 213c. Do you strongly agree, agree, or strongly disagree that methods of birth control should be available to teenagers between the ages of 14 and 16 if their parents do not approve?

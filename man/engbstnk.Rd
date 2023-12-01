@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_385.R
 \name{engbstnk}
 \alias{engbstnk}
-\title{engbstnk}
+\title{Nuclear engineers best for country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nuclear engineers best for country
+engbstnk
 }
 \details{
 Question Please look at Card E16. When making policy recommendations about nuclear power, to what extent do you think the following groups would support what is best for the country as a whole or what serves their own narrow interests? Nuclear engineers

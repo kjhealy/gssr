@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_170.R
 \name{sbindtag}
 \alias{sbindtag}
-\title{sbindtag}
+\title{Sbind10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sbind10 coding tag
+sbindtag
 }
 \details{
 Question None

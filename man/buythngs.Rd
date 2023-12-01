@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_486.R
 \name{buythngs}
 \alias{buythngs}
-\title{buythngs}
+\title{Who has final say about buying things for home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who has final say about buying things for home
+buythngs
 }
 \details{
 Question 1314. When you and your spouse/partner make decisions about the following, who has the final say? b. Buying major things for the home

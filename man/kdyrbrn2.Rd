@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_160.R
 \name{kdyrbrn2}
 \alias{kdyrbrn2}
-\title{kdyrbrn2}
+\title{Birth year of r 2nd child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Birth year of r 2nd child
+kdyrbrn2
 }
 \details{
 Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. c. In what year was \link{CHILD} born?

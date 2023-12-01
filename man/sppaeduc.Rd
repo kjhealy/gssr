@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_157.R
 \name{sppaeduc}
 \alias{sppaeduc}
-\title{sppaeduc}
+\title{Highest schl grade spouse's father completed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Highest schl grade spouse's father completed
+sppaeduc
 }
 \details{
 Question 500a. What is the highest grade or year of regular school that your (husband/wife)'s father ever completed?

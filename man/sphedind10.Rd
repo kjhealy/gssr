@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_158.R
 \name{sphedind10}
 \alias{sphedind10}
-\title{sphedind10}
+\title{Spouse's father's ind when spouse was 16 (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's father's ind when spouse was 16 (2010)
+sphedind10
 }
 \details{
 Question None

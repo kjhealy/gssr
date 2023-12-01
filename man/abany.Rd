@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_67.R
 \name{abany}
 \alias{abany}
-\title{abany}
+\title{Abortion if woman wants for any reason}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Abortion if woman wants for any reason
+abany
 }
 \details{
 Question 206. Please tell me whether or not you think it should be possible for a pregnant woman to obtaina legal abortion if: g. The woman wants it for any reason?

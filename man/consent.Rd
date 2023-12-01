@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_607.R
 \name{consent}
 \alias{consent}
-\title{consent}
+\title{Participation/recording consent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Participation/recording consent
+consent
 }
 \details{
 Question Your participation is voluntary. Your responses to this survey are considered a continuation of participation to the GSS survey you had completed earlier so the answers can be analyzed together, and all information that you provide will be kept in strict

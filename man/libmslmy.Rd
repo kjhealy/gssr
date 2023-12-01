@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_624.R
 \name{libmslmy}
 \alias{libmslmy}
-\title{libmslmy}
+\title{Allow anti-american muslim clergymen's books in library y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow anti-american muslim clergymen's books in library y
+libmslmy
 }
 \details{
 Question (Now consider a Islamic religious leader who preaches hatred of the United States...) If some people in your community suggested that a book this person wrote which preaches hatred of the United States should be taken out of your public library, would you favor removing this book, or not?

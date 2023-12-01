@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_611.R
 \name{vstrat}
 \alias{vstrat}
-\title{vstrat}
+\title{Variance stratum}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Variance stratum
+vstrat
 }
 \details{
 Question None

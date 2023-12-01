@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_349.R
 \name{numgreek}
 \alias{numgreek}
-\title{numgreek}
+\title{How many r belongs to school fraternities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to school fraternities
+numgreek
 }
 \details{
 Question 1025j. How many school fraternities or sororities do you belong to?

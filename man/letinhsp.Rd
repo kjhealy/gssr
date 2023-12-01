@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_255.R
 \name{letinhsp}
 \alias{letinhsp}
-\title{letinhsp}
+\title{Immigration from latin america should be increased}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immigration from latin america should be increased
+letinhsp
 }
 \details{
 Question 747. What about the number of immigrants from Latin America (that is, Spanish-speaking countries of the Americas) should it be increased a lot, increased a little, left the same as it is now, decreased a little, or decreased a lot?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_287.R
 \name{snsmfrst}
 \alias{snsmfrst}
-\title{snsmfrst}
+\title{Which social network did you join first}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which social network did you join first
+snsmfrst
 }
 \details{
 Question A. Which social network did you join first?

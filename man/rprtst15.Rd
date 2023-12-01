@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_445.R
 \name{rprtst15}
 \alias{rprtst15}
-\title{rprtst15}
+\title{How many times be a public meeting past 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many times be a public meeting past 5 yrs
+rprtst15
 }
 \details{
 Question 1192. And in the past five years how many times have you done each of the following to protest against a government action you strongly oppose? PLEASE CHECK ONE BOX ON EACH LINE a. Attended a public meeting organized to protest against the government

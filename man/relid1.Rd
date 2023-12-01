@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_581.R
 \name{relid1}
 \alias{relid1}
-\title{relid1}
+\title{Protestant identification 1st mention}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Protestant identification 1st mention
+relid1
 }
 \details{
 Question 1619b. When it comes to your religious identity, would you say you are a pentecostal, fundamentalist, evangelical, mainline, or liberal Protestant, or do none of these describe you?

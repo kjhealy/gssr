@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_110.R
 \name{mostact}
 \alias{mostact}
-\title{mostact}
+\title{Which group is r most active in}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which group is r most active in
+mostact
 }
 \details{
 Question 332. Which one of these groups or organizations are you most active in?

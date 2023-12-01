@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_413.R
 \name{mhnervs}
 \alias{mhnervs}
-\title{mhnervs}
+\title{Being around x would make me feel nervous}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Being around x would make me feel nervous
+mhnervs
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. k. Being around \link{NAME} would make me feel nervous.

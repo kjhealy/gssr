@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_407.R
 \name{disabld4}
 \alias{disabld4}
-\title{disabld4}
+\title{R has other physical disability}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has other physical disability
+disabld4
 }
 \details{
 Question 1127. Do you have any other physical disability?

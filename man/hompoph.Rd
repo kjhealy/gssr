@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_666.R
 \name{hompoph}
 \alias{hompoph}
-\title{hompoph}
+\title{Total people in hh (household screening version)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total people in hh (household screening version)
+hompoph
 }
 \details{
 Question None

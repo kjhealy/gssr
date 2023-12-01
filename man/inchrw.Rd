@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_281.R
 \name{inchrw}
 \alias{inchrw}
-\title{inchrw}
+\title{Hours per week using work computer make money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per week using work computer make money
+inchrw
 }
 \details{
 Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: b. Other income-producing activities?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_71.R
 \name{spanking}
 \alias{spanking}
-\title{spanking}
+\title{Favor spanking to discipline child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Favor spanking to discipline child
+spanking
 }
 \details{
 Question 225. Do you strongly agree, agree, disagree, or strongly disagree that it is sometimes necessary to discipline a child with a good, hard, spanking?

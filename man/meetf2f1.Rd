@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_425.R
 \name{meetf2f1}
 \alias{meetf2f1}
-\title{meetf2f1}
+\title{How often meet face to face with customers, clients, patients}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often meet face to face with customers, clients, patients
+meetf2f1
 }
 \details{
 Question How often do you meet face to face with customers, clients, patients, or others to whom you provide products or services? Would you say...

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_517.R
 \name{difrel}
 \alias{difrel}
-\title{difrel}
+\title{People belonging to different religions cannot get along with each other when li}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People belonging to different religions cannot get along with each other when li
+difrel
 }
 \details{
 Question Do you agree or disagree with the following statement? B. All things considered, people belonging to different religions cannot get along with each other when living close together.

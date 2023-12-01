@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_263.R
 \name{bookmark}
 \alias{bookmark}
-\title{bookmark}
+\title{How often r uses bookmarks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r uses bookmarks
+bookmark
 }
 \details{
 Question 771. Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: d. Use a bookmark or "favorites listing"

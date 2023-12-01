@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_133.R
 \name{hspjobs}
 \alias{hspjobs}
-\title{hspjobs}
+\title{Hispanics discriminated in jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hispanics discriminated in jobs
+hspjobs
 }
 \details{
 Question 410a. How much discrimination is there that hurts the chances of Hispanic Americans to get good paying jobs?

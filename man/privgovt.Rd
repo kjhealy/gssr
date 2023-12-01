@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_498.R
 \name{privgovt}
 \alias{privgovt}
-\title{privgovt}
+\title{R preference re: private public sector}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R preference re: private public sector
+privgovt
 }
 \details{
 Question 1328. Suppose you were working and could choose between different kinds of jobs. Which of the following would you personally choose? I would advise... d. Working in a private business or working for the government or civil service

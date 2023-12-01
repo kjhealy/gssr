@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_541.R
 \name{actlaw}
 \alias{actlaw}
-\title{actlaw}
+\title{How likely r to do something if unjust law being cons}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely r to do something if unjust law being cons
+actlaw
 }
 \details{
 Question Suppose a law were being considered by the Congress that you considered to be unjust or harmful. 1472. If such a case arose, how likely is it that you, acting alone or together with others, would be able to try to do something about it?

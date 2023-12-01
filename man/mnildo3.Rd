@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_220.R
 \name{mnildo3}
 \alias{mnildo3}
-\title{mnildo3}
+\title{3rd mention what r did when felt mental illness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-3rd mention what r did when felt mental illness
+mnildo3
 }
 \details{
 Question e. What did you do about it?

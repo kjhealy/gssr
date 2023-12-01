@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_263.R
 \name{drctlink}
 \alias{drctlink}
-\title{drctlink}
+\title{How often r links from homepage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r links from homepage
+drctlink
 }
 \details{
 Question 771. Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: a. Use a direct link from your starting page (the page that you see when you go onto the web.)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_214.R
 \name{orrxmed}
 \alias{orrxmed}
-\title{orrxmed}
+\title{In what order take prescription medication}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what order take prescription medication
+orrxmed
 }
 \details{
 Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? i. take prescription medication

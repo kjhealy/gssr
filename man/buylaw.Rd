@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_197.R
 \name{buylaw}
 \alias{buylaw}
-\title{buylaw}
+\title{Would you buy legal svcs from a business}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would you buy legal svcs from a business
+buylaw
 }
 \details{
 Question 621. I'd like you to imagine that you want to buy each of the following items or services. Would you rather buy them from a business or service provider with whom you had some family or social relationship, or from a seller or provider with whom you had no prior personal contact. c. Legal services

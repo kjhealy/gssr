@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_390.R
 \name{finlcoun}
 \alias{finlcoun}
-\title{finlcoun}
+\title{How scientific is financial counseling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is financial counseling
+finlcoun
 }
 \details{
 Question Financial counseling. (Is financial counseling...?)

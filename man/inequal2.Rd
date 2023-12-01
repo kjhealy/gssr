@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{inequal2}
 \alias{inequal2}
-\title{inequal2}
+\title{Extra pay -> workers acquire skills}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Extra pay -> workers acquire skills
+inequal2
 }
 \details{
 Question 1253. Do you agree or disagree: b. Workers would not bother to get skills and qualifications unless they were paid extra for having them.

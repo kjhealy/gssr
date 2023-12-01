@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_543.R
 \name{ntcitvte}
 \alias{ntcitvte}
-\title{ntcitvte}
+\title{Long-term residents should vote}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Long-term residents should vote
+ntcitvte
 }
 \details{
 Question On a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it: C. That long-term residents of a country, who are not citizens, have the right to vote in that country's national elections

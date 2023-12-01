@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_444.R
 \name{aidindus}
 \alias{aidindus}
-\title{aidindus}
+\title{Govts resp: assist industrial growth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts resp: assist industrial growth
+aidindus
 }
 \details{
 Question 1188. On the whole, do you think it should or should not be the government's responsibility to . . . e. Provide industry with the help it needs to grow

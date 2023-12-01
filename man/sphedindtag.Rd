@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_158.R
 \name{sphedindtag}
 \alias{sphedindtag}
-\title{sphedindtag}
+\title{Sphedind10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sphedind10 coding tag
+sphedindtag
 }
 \details{
 Question None

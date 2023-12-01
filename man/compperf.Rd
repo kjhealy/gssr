@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_320.R
 \name{compperf}
 \alias{compperf}
-\title{compperf}
+\title{Size of perf based pay depend on profits}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Size of perf based pay depend on profits
+compperf
 }
 \details{
 Question 919a. Does the size of these performance-based payments depend on company profits or performance?

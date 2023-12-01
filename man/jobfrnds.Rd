@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_289.R
 \name{jobfrnds}
 \alias{jobfrnds}
-\title{jobfrnds}
+\title{Times r sought job information from friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Times r sought job information from friends
+jobfrnds
 }
 \details{
 Question Please tell me how many times you tried to find such information from... f. Friends outside of work or relatives?

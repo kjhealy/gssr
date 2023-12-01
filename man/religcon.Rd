@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_514.R
 \name{religcon}
 \alias{religcon}
-\title{religcon}
+\title{Religions bring more conflict}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religions bring more conflict
+religcon
 }
 \details{
 Question 1402. Do you agree or disagree with the following statements? a. Looking around the world, religions bring more conflict than peace.

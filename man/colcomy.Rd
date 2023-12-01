@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_623.R
 \name{colcomy}
 \alias{colcomy}
-\title{colcomy}
+\title{Should communist teacher be fired y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should communist teacher be fired y
+colcomy
 }
 \details{
 Question (Now, we would like to ask you some questions about a self-identified Communist...) Suppose this person is teaching in a college. Should this person be fired, or not?

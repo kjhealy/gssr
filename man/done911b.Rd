@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_420.R
 \name{done911b}
 \alias{done911b}
-\title{done911b}
+\title{Has r stockpiled supplies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r stockpiled supplies
+done911b
 }
 \details{
 Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know stockpiled supplies (food, water, antibiotics, etc.)? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?

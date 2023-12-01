@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_368.R
 \name{balneg}
 \alias{balneg}
-\title{balneg}
+\title{Sci research is strongly in favor of harmful results}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sci research is strongly in favor of harmful results
+balneg
 }
 \details{
 Question 1038b. Would you say that the balance has been strongly in favor of the harmful results, or only slightly?

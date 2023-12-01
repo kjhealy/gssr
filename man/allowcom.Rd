@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_545.R
 \name{allowcom}
 \alias{allowcom}
-\title{allowcom}
+\title{Allow communist to speak}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow communist to speak
+allowcom
 }
 \details{
 Question 1517d. Now, I would like to ask you some questions about a man who admits he is a Communist. Suppose this admitted Communist wanted to make a speech in your community. Should he be allowed to speak?

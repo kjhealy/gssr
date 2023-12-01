@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_295.R
 \name{pain}
 \alias{pain}
-\title{pain}
+\title{Pain interfere with work past 4 wks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pain interfere with work past 4 wks
+pain
 }
 \details{
 Question 837. During the past 4 weeks, how much did pain interfere with your normal work (including both work outside the home and housework)?

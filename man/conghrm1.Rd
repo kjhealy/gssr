@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_227.R
 \name{conghrm1}
 \alias{conghrm1}
-\title{conghrm1}
+\title{How often congregation make too much demand}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often congregation make too much demand
+conghrm1
 }
 \details{
 Question Sometimes the contact we have with others is not always pleasant. 674. How often do the people in your congregation make too many demands on you . .

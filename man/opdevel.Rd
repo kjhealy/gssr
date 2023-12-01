@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_307.R
 \name{opdevel}
 \alias{opdevel}
-\title{opdevel}
+\title{Opportunity to develop my abilities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opportunity to develop my abilities
+opdevel
 }
 \details{
 Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. b. I have an opportunity to develop my own special abilities

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_62.R
 \name{jobmeans}
 \alias{jobmeans}
-\title{jobmeans}
+\title{Work important and feel accomplishment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Work important and feel accomplishment
+jobmeans
 }
 \details{
 Question 183a. Would you please look at this card and tell me which one thing on this list you would most prefer in a job? b. Which comes next? c. Which is third most important? d. Which is fourth most important? WORK IMPORTANT AND GIVES A FEELING OF ACCOMPLISHMENT

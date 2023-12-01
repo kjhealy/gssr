@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_563.R
 \name{finan4}
 \alias{finan4}
-\title{finan4}
+\title{Being pressured to pay bills}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Being pressured to pay bills
+finan4
 }
 \details{
 Question C. Did any of the following financial matters happen to you during the last year... 4. Pressured to pay bills by stores, creditors, or bill collectors.

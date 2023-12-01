@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_443.R
 \name{govtpow}
 \alias{govtpow}
-\title{govtpow}
+\title{Power of federal govt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Power of federal govt
+govtpow
 }
 \details{
 Question 1186. And what about the federal government, does it have too much power or too little power?

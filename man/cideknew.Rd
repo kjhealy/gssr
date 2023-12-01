@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_546.R
 \name{cideknew}
 \alias{cideknew}
-\title{cideknew}
+\title{#People r knows murdered in last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-#People r knows murdered in last year
+cideknew
 }
 \details{
 Question 1518. Within the past 12 months, how many people have you known personally that were victims of homicide.

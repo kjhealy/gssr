@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_37.R
 \name{grace}
 \alias{grace}
-\title{grace}
+\title{Had powerful religious experience}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Had powerful religious experience
+grace
 }
 \details{
 Question 111. How often have you had any of the following experiences? e. Felt as though you were very close to a powerful, spiritual force that seemed to lift you out of yourself.

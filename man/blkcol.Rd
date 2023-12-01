@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_132.R
 \name{blkcol}
 \alias{blkcol}
-\title{blkcol}
+\title{Give college aid to blacks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Give college aid to blacks
+blkcol
 }
 \details{
 Question 408. Here are several things that the government in Washington might do to deal with the problems of poverty and unemployment among Black Americans. I would like you to tell me if you favor or oppose them. c. Provide special college scholarships for black children who maintain good grades.

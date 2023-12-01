@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_457.R
 \name{uncaunts}
 \alias{uncaunts}
-\title{uncaunts}
+\title{How often does r contact uncles or aunts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r contact uncles or aunts
+uncaunts
 }
 \details{
 Question 1230. Now some questions about your contact with other relatives. Please indicate how often you have been in contact with any of the following types of relatives in the last four weeks. a. Uncles or aunts

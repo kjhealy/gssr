@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_321.R
 \name{deptperf}
 \alias{deptperf}
-\title{deptperf}
+\title{Size of perf based pay depend on workgroup}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Size of perf based pay depend on workgroup
+deptperf
 }
 \details{
 Question 919b. Does the size of these performance-based payments depend on workgroup or department performance?

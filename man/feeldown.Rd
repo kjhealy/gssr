@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_651.R
 \name{feeldown}
 \alias{feeldown}
-\title{feeldown}
+\title{How often felt down in past 2 weeks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often felt down in past 2 weeks
+feeldown
 }
 \details{
 Question Over the last 2 weeks, how often have you been bothered by the following problems: Feeling down, depressed, or hopeless.

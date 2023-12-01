@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_538.R
 \name{revmeet}
 \alias{revmeet}
-\title{revmeet}
+\title{Allowed to hold pub meeting for ppl who want overthrow}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allowed to hold pub meeting for ppl who want overthrow
+revmeet
 }
 \details{
 Question 1466. Should people who want to overthrow the government by force be allowed to hold public meetings?

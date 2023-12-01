@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_425.R
 \name{lastyrwk}
 \alias{lastyrwk}
-\title{lastyrwk}
+\title{Thinking about last full-time job, what yr r worked last}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Thinking about last full-time job, what yr r worked last
+lastyrwk
 }
 \details{
 Question None

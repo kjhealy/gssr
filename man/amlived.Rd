@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_529.R
 \name{amlived}
 \alias{amlived}
-\title{amlived}
+\title{How important to have lived in america for life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important to have lived in america for life
+amlived
 }
 \details{
 Question 1439. Some people say the following things are important for being truly American. Others say they are not important. How important do you think each of the following is... c. To have lived in America for most of one's life

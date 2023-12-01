@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_75.R
 \name{polhitok}
 \alias{polhitok}
-\title{polhitok}
+\title{Ever approve of police striking citizen}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever approve of police striking citizen
+polhitok
 }
 \details{
 Question 232. Are there any situations you can imagine in which you would approve of a policeman striking an adult male citizen?

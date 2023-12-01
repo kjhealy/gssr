@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_174.R
 \name{ethhist}
 \alias{ethhist}
-\title{ethhist}
+\title{Minority history adequately taught in school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minority history adequately taught in school
+ethhist
 }
 \details{
 Question 537. In history classes in high school and college, do the experiences of racial and ethnic minority groups in America recieve too much attention now, too little attention, or about the right amount?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_09.R
 \name{age}
 \alias{age}
-\title{age}
+\title{Age of respondent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age of respondent
+age
 }
 \details{
 Question 13. Respondent's age

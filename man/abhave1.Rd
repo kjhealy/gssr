@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_78.R
 \name{abhave1}
 \alias{abhave1}
-\title{abhave1}
+\title{Have abortion if probable defect}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have abortion if probable defect
+abhave1
 }
 \details{
 Question 250. WOMEN: Would you yourself have an abortion if: MEN: Would you yourself advise the woman you were married to have an abortion if: a. There is a strong chance of serious defect in the baby?

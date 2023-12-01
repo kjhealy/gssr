@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_516.R
 \name{ancestrs}
 \alias{ancestrs}
-\title{ancestrs}
+\title{Believe in supernatural power of deceased ancestors}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Believe in supernatural power of deceased ancestors
+ancestrs
 }
 \details{
 Question None

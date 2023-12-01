@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_332.R
 \name{adhdreal}
 \alias{adhdreal}
-\title{adhdreal}
+\title{Is adhd a real disease}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is adhd a real disease
+adhdreal
 }
 \details{
 Question 957. Do you think ADHD is a real disease?

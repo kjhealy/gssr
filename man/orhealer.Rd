@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_214.R
 \name{orhealer}
 \alias{orhealer}
-\title{orhealer}
+\title{In what order go to a spiritual or a natural healer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what order go to a spiritual or a natural healer
+orhealer
 }
 \details{
 Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? f. Go to a spiritual or a natural leader for help

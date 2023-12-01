@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_564.R
 \name{hrdshp7}
 \alias{hrdshp7}
-\title{hrdshp7}
+\title{Homeless}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Homeless
+hrdshp7
 }
 \details{
 Question D. Now I am going to ask about specific hardships. Did any of the following occur to you since (CURRENT MONTH), 2003? 7. Had to temporarily live with others or in a shelter or "on the street."

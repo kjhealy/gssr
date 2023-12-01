@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_639.R
 \name{discaffwnv}
 \alias{discaffwnv}
-\title{discaffwnv}
+\title{A woman won't get a job or promotion (no volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A woman won't get a job or promotion (no volunteered response on web)
+discaffwnv
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_174.R
 \name{discaffy}
 \alias{discaffy}
-\title{discaffy}
+\title{Chance blacks promoted ahead of whites}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Chance blacks promoted ahead of whites
+discaffy
 }
 \details{
 Question 533b. What do you think the chances are these days that a white person won't get a job or promotion while a less qualified black person gets one instead?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_519.R
 \name{grnprog}
 \alias{grnprog}
-\title{grnprog}
+\title{Worry too much about progress harming envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Worry too much about progress harming envir
+grnprog
 }
 \details{
 Question 1411. How much do you agree or disagree with each of the following statements? a. People worry too much about human progress harming the environment.

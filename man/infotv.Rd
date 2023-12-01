@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_526.R
 \name{infotv}
 \alias{infotv}
-\title{infotv}
+\title{R trust radio or tv for pollution information}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R trust radio or tv for pollution information
+infotv
 }
 \details{
 Question 1435. How much trust do you have in each of the following groups to give you correct information about causes of pollution? e. Radio or TV programs

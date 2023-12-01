@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_125.R
 \name{twoclass}
 \alias{twoclass}
-\title{twoclass}
+\title{Weak vs. strong}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Weak vs. strong
+twoclass
 }
 \details{
 Question 400. Now I am going to read you several statements. For each one please tell me whether you agree strongly, agree, disagree, or disagree strongly: c. People can be divided into two classes - the weak and the strong.

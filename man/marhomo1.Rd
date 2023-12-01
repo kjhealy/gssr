@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_480.R
 \name{marhomo1}
 \alias{marhomo1}
-\title{marhomo1}
+\title{Homosexuals have right to marry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Homosexuals have right to marry
+marhomo1
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_382.R
 \name{visart}
 \alias{visart}
-\title{visart}
+\title{How often r visited art museum last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r visited art museum last year
+visart
 }
 \details{
 Question None

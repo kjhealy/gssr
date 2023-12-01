@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_462.R
 \name{knwclenr}
 \alias{knwclenr}
-\title{knwclenr}
+\title{Does r know someone who is a home or office cleaner?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know someone who is a home or office cleaner?
+knwclenr
 }
 \details{
 Question Do you know a woman or a man who is? C. A home or office cleaner?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_427.R
 \name{adoptkid}
 \alias{adoptkid}
-\title{adoptkid}
+\title{Have ever legally adopted a child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have ever legally adopted a child
+adoptkid
 }
 \details{
 Question Have you ever legally adopted a child?

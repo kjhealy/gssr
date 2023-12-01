@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_553.R
 \name{sexsex5}
 \alias{sexsex5}
-\title{sexsex5}
+\title{Sex of sex partner's last five years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of sex partner's last five years
+sexsex5
 }
 \details{
 Question 1553. Have your sex partners in the last five years been...

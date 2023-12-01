@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_508.R
 \name{xmarsex1}
 \alias{xmarsex1}
-\title{xmarsex1}
+\title{Is extramarital sex wrong?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is extramarital sex wrong?
+xmarsex1
 }
 \details{
 Question 1374b. What about a married person having sexual relations with someone other than his or her husband or wife, is it...

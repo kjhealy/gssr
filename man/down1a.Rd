@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_459.R
 \name{down1a}
 \alias{down1a}
-\title{down1a}
+\title{Who does r turn to first for help when depressed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who does r turn to first for help when depressed
+down1a
 }
 \details{
 Question 1239. Now suppose you felt just a bit down or depressed, and you wanted to talk about it. a. Who would you turn to first for help?

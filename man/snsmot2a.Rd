@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_287.R
 \name{snsmot2a}
 \alias{snsmot2a}
-\title{snsmot2a}
+\title{First other social network}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-First other social network
+snsmot2a
 }
 \details{
 Question A. First other social network mentioned.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_49.R
 \name{alienat3}
 \alias{alienat3}
-\title{alienat3}
+\title{What you think doesn't count}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What you think doesn't count
+alienat3
 }
 \details{
 Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: c. What you think doesn't count very much anymore?

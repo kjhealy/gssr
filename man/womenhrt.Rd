@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_180.R
 \name{womenhrt}
 \alias{womenhrt}
-\title{womenhrt}
+\title{Women hurt from traditional family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women hurt from traditional family
+womenhrt
 }
 \details{
 Question 564. Who is hurt by this argument: men, women, children, everyone, or no one? b. Women

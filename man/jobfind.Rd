@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_61.R
 \name{jobfind}
 \alias{jobfind}
-\title{jobfind}
+\title{Could r find equally good job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Could r find equally good job
+jobfind
 }
 \details{
 Question 180b. About how easy would it be for you to find a job with another employer with approximately the same income and fringe benefits you now have?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_560.R
 \name{sppoorkd}
 \alias{sppoorkd}
-\title{sppoorkd}
+\title{Spending for childcare for poor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spending for childcare for poor
+sppoorkd
 }
 \details{
 Question 1573. Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. Remember that if you say "much more", it might require a tax increase to pay for it. d. Child care for poor children

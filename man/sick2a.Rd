@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_459.R
 \name{sick2a}
 \alias{sick2a}
-\title{sick2a}
+\title{Who does r turn to second for help when sick}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who does r turn to second for help when sick
+sick2a
 }
 \details{
 Question 1237. Now we would like to ask you how you would get help in situations that anyone could find herself or himself in. First, suppose you had the 'flu and had to stay in bed for a few days and needed help around the house, with shopping and so on. b. And who would you turn to second?

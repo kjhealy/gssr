@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_489.R
 \name{famwkbst}
 \alias{famwkbst}
-\title{famwkbst}
+\title{Best way to org family work life with under school age child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Best way to org family work life with under school age child
+famwkbst
 }
 \details{
 Question Consider a family with a child under school age. What, in your opinion, is the best way for them to organize their family and work life?

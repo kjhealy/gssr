@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_564.R
 \name{famper2}
 \alias{famper2}
-\title{famper2}
+\title{Separating from spouse or partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Separating from spouse or partner
+famper2
 }
 \details{
 Question E. What about family and personal relationships? During the last year, did you... 2. Separate from your husband/wife/partner

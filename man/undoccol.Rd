@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_173.R
 \name{undoccol}
 \alias{undoccol}
-\title{undoccol}
+\title{Illegal immigrants access to public univer'sities?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Illegal immigrants access to public univer'sities?
+undoccol
 }
 \details{
 Question 520a. What about "undocumented aliens," that is, those who have immigrated to this country illegally? 2. Should they be entitled to attend public universities at the same costs as other students, or not?

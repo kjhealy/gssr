@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_391.R
 \name{talkteam}
 \alias{talkteam}
-\title{talkteam}
+\title{If employee not working: talk directly to the employee}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If employee not working: talk directly to the employee
+talkteam
 }
 \details{
 Question 1088. If you were to see a fellow employee not working as hard or well as he or she should, how likely would you be to talk about it in a work group or team? (Would you say...)

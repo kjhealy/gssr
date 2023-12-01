@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_181.R
 \name{mebear}
 \alias{mebear}
-\title{mebear}
+\title{Can husband refuse to sire children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Can husband refuse to sire children
+mebear
 }
 \details{
 Question 567. If the wife in a family wants children, but the husband decides that he does not want any children, is it all right for the husband to refuse to have children?

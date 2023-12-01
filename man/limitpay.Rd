@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_634.R
 \name{limitpay}
 \alias{limitpay}
-\title{limitpay}
+\title{The government should take steps to limit the pay of executives at major compani}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The government should take steps to limit the pay of executives at major compani
+limitpay
 }
 \details{
 Question The government should take steps to limit the pay of executives at major companies

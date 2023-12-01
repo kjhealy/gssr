@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_145.R
 \name{unmanrel}
 \alias{unmanrel}
-\title{unmanrel}
+\title{Relations between management and workers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relations between management and workers
+unmanrel
 }
 \details{
 Question 460. In general how would you describe relations in your work place between management and employees?

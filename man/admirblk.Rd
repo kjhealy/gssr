@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_172.R
 \name{admirblk}
 \alias{admirblk}
-\title{admirblk}
+\title{R express admiration for blacks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R express admiration for blacks
+admirblk
 }
 \details{
 Question 522. Now, I would like to ask whether you have ever felt the following ways about blacks and their families. For each of the feelings that I ask you about, please tell em whether you have felt that way very often, fairly often, not too often, or never? b. How often have you felt admiration for blacks?

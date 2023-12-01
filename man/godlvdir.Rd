@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_344.R
 \name{godlvdir}
 \alias{godlvdir}
-\title{godlvdir}
+\title{Feel gods love for r directly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel gods love for r directly
+godlvdir
 }
 \details{
 Question You may experience the following in your daily life, if so how often. 1010. I feel God's love for me, directly.

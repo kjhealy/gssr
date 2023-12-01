@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_506.R
 \name{appemps}
 \alias{appemps}
-\title{appemps}
+\title{Applied directly to employers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Applied directly to employers
+appemps
 }
 \details{
 Question 1369. Thinking about the last 12 months, have you done any of the following in order to find a job? e. Applied directly to employers?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_476.R
 \name{books16}
 \alias{books16}
-\title{books16}
+\title{Books in home of r age 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Books in home of r age 16
+books16
 }
 \details{
 Question 1274. About how many books were there around your family's house when you were 16 years old?

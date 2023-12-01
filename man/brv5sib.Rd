@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_654.R
 \name{brv5sib}
 \alias{brv5sib}
-\title{brv5sib}
+\title{Death of sibling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Death of sibling
+brv5sib
 }
 \details{
 Question We're very sorry. Who would that be? Please indicate all that apply.

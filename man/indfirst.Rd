@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_155.R
 \name{indfirst}
 \alias{indfirst}
-\title{indfirst}
+\title{Industry of r first job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Industry of r first job
+indfirst
 }
 \details{
 Question 488. What kind of place (do/did) you fork for? What (do/did) they (make/do)

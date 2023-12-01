@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_436.R
 \name{manhold}
 \alias{manhold}
-\title{manhold}
+\title{Should police detain a suspect?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should police detain a suspect?
+manhold
 }
 \details{
 Question 1163. Now, suppose the tip is about a man without a criminal record. Please circle a number for each question to show if you think police should be allowed without a court order to... d. Detain the man overnight for questioning

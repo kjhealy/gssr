@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_576.R
 \name{racethmn}
 \alias{racethmn}
-\title{racethmn}
+\title{Specify other in racethot}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Specify other in racethot
+racethmn
 }
 \details{
 Question How would you describe your race and ethnicity using this 10-point system using the following choices: G. Specified other ethnicities

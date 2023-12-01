@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_598.R
 \name{cosei10inc}
 \alias{cosei10inc}
-\title{cosei10inc}
+\title{Percentage of $45k+ earners in coocc10 based on acs 2010}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage of $45k+ earners in coocc10 based on acs 2010
+cosei10inc
 }
 \details{
 Question None

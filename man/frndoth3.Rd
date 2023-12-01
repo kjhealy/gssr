@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_120.R
 \name{frndoth3}
 \alias{frndoth3}
-\title{frndoth3}
+\title{What is friend 3s other prot denom}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is friend 3s other prot denom
+frndoth3
 }
 \details{
 Question None

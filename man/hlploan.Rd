@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_463.R
 \name{hlploan}
 \alias{hlploan}
-\title{hlploan}
+\title{Who r would first turn to if they needed to borrow large sums of money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r would first turn to if they needed to borrow large sums of money
+hlploan
 }
 \details{
 Question Who or where would you turn to first to? A. Help you if you needed to borrow a large sum of money?

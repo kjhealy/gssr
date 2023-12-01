@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_375.R
 \name{sciimp2}
 \alias{sciimp2}
-\title{sciimp2}
+\title{How important: having advanced degrees in their fields}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: having advanced degrees in their fields
+sciimp2
 }
 \details{
 Question 1072. Now I'm going to read you some statements about science and scientists. Please look at Card B19. How important are each of the following in making something scientific? b. The people who do it have advanced degrees in their field

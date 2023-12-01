@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_538.R
 \name{milserve}
 \alias{milserve}
-\title{milserve}
+\title{How important to serve in military when needed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important to serve in military when needed
+milserve
 }
 \details{
 Question 1464. There are different opinions as to what it takes to be a good citizen. As far as you are concerned personally on a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it... j. To be willing to serve in the military at a time of need

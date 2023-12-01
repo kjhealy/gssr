@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_300.R
 \name{ethsame}
 \alias{ethsame}
-\title{ethsame}
+\title{Individual of same ethnic group similar}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Individual of same ethnic group similar
+ethsame
 }
 \details{
 Question 850. Think about the various ethnic groups within the U.S. including Whites, African Americans, Asian Americans, Hispanics, Native Americans, and so on. To what extent do you agree with the following statement. a. Individuals who belong to the same ethnic group tend to be fairly similar to one another.

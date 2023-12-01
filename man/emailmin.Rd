@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_262.R
 \name{emailmin}
 \alias{emailmin}
-\title{emailmin}
+\title{Email minutes per week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Email minutes per week
+emailmin
 }
 \details{
 Question 767b. About how many minutes or hours per week do you spend sending and answering electronic mail or e-mail?

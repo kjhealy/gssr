@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_490.R
 \name{wkyngscl}
 \alias{wkyngscl}
-\title{wkyngscl}
+\title{Did r work outside home after child started school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r work outside home after child started school
+wkyngscl
 }
 \details{
 Question After the youngest child started school?

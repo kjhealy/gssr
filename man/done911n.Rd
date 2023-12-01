@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_422.R
 \name{done911n}
 \alias{done911n}
-\title{done911n}
+\title{Has r done anything else to deal with terrorism}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r done anything else to deal with terrorism
+done911n
 }
 \details{
 Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know done anything else to deal with terrorism? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?

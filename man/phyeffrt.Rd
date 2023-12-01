@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_311.R
 \name{phyeffrt}
 \alias{phyeffrt}
-\title{phyeffrt}
+\title{Rate physical effort}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rate physical effort
+phyeffrt
 }
 \details{
 Question Please rate the overall physical effort at the job you normally do.

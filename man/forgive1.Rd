@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_228.R
 \name{forgive1}
 \alias{forgive1}
-\title{forgive1}
+\title{Have forgiven self for mistakes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have forgiven self for mistakes
+forgive1
 }
 \details{
 Question 680. Because of your religious or spiritual beliefs have you always, almost always, often, seldom, or never felt the following ways: a. I have forgiven myself for things that I have done wrong.

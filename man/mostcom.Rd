@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_260.R
 \name{mostcom}
 \alias{mostcom}
-\title{mostcom}
+\title{Have most in common with which group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have most in common with which group
+mostcom
 }
 \details{
 Question 763. Of these groups�whites, blacks, Jews, Hispanics and Latin Americans, Asian Americans, if you had to say, which one (other than your own) do you feel you have the most in common with?

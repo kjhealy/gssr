@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_302.R
 \name{insrlmts}
 \alias{insrlmts}
-\title{insrlmts}
+\title{R's insurance plan has limits}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's insurance plan has limits
+insrlmts
 }
 \details{
 Question 857. Does your health insurance plan have restrictions, for example limits on getting tests and getting care from specialists?

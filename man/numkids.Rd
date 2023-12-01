@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_480.R
 \name{numkids}
 \alias{numkids}
-\title{numkids}
+\title{What is ideal number of kids for family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is ideal number of kids for family
+numkids
 }
 \details{
 Question 1281. All in all, what do you think is the ideal number of children for a family to have? Please just write a number in the box below.

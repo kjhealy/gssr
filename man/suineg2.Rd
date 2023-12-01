@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_73.R
 \name{suineg2}
 \alias{suineg2}
-\title{suineg2}
+\title{Did 2nd closest suicide negatively impact you}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did 2nd closest suicide negatively impact you
+suineg2
 }
 \details{
 Question B. Was that person's death emotionally distressing to you?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_05.R
 \name{spind80}
 \alias{spind80}
-\title{spind80}
+\title{Spouse's industry code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's industry code (1980)
+spind80
 }
 \details{
 Question 7. Spouse's occupation, prestige, and industry.

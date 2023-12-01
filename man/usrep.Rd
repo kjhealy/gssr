@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_112.R
 \name{usrep}
 \alias{usrep}
-\title{usrep}
+\title{Did r correctly name us representative}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r correctly name us representative
+usrep
 }
 \details{
 Question 348. What about the Congressman from this district? Do you happen to know (his/her) name?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_51.R
 \name{confed}
 \alias{confed}
-\title{confed}
+\title{Confid. in exec branch of fed govt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confid. in exec branch of fed govt
+confed
 }
 \details{
 Question 165. I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them? e. Executive branch of the federal government.

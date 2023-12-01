@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_140.R
 \name{supduty3}
 \alias{supduty3}
-\title{supduty3}
+\title{You organize schedules or tasks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You organize schedules or tasks
+supduty3
 }
 \details{
 Question 443. Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities? Please mention all that apply: c. Organize schedules or tasks

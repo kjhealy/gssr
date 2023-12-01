@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_606.R
 \name{whoelse6}
 \alias{whoelse6}
-\title{whoelse6}
+\title{Presence of others: no one}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Presence of others: no one
+whoelse6
 }
 \details{
 Question None

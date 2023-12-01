@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_444.R
 \name{equalize}
 \alias{equalize}
-\title{equalize}
+\title{Govts resp: reduce income differences}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts resp: reduce income differences
+equalize
 }
 \details{
 Question 1188. On the whole, do you think it should or should not be the government's responsibility to . . . g. Reduce income differences between the rich and poor

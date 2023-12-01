@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_128.R
 \name{intlwhts}
 \alias{intlwhts}
-\title{intlwhts}
+\title{Unintelligent -intelligent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unintelligent -intelligent
+intlwhts
 }
 \details{
 Question 403d. Do people in these groups tend to be unintelligent or tend to be intelligent? 1. Whites

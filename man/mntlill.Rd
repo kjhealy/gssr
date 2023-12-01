@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_330.R
 \name{mntlill}
 \alias{mntlill}
-\title{mntlill}
+\title{Is child experiencing a mental illness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is child experiencing a mental illness
+mntlill
 }
 \details{
 Question 951b. In your opinion, how likely is it that (John/Mary) is experiencing a mental illness?

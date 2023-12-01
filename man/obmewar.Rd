@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_92.R
 \name{obmewar}
 \alias{obmewar}
-\title{obmewar}
+\title{Obligation--wartime mil service-men}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Obligation--wartime mil service-men
+obmewar
 }
 \details{
 Question 308. And one last question. We all know that American citizens have certain rights. For example, they have the right to free public education and to police protection, the right to attend religious services of their choice, and the right to elect public officials. I'd like to ask now about certain obligations that some people feel American citizens owe their country. I just want your own opinion on these - whether you feel it is a very important obligation, a somewhat important obligation, or not an obligation that a citizen owes to the country. h. For young men, serving in the military when the country is at war?

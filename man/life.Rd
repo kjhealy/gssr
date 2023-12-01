@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_50.R
 \name{life}
 \alias{life}
-\title{life}
+\title{Is life exciting or dull}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is life exciting or dull
+life
 }
 \details{
 Question 160. In general, do you find life exciting, pretty routine, or dull?

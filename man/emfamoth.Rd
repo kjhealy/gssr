@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_285.R
 \name{emfamoth}
 \alias{emfamoth}
-\title{emfamoth}
+\title{R send or receive to or from other family members}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R send or receive to or from other family members
+emfamoth
 }
 \details{
 Question Do any of the personal one-to-one messages you receive or send come from: h. Other family members?

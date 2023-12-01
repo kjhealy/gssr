@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_241.R
 \name{psycmed4}
 \alias{psycmed4}
-\title{psycmed4}
+\title{Helps people deal w day to day stresses}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Helps people deal w day to day stresses
+psycmed4
 }
 \details{
 Question 710. Please tell me how much you agree or disagree with the following statements: d. Taking these medications helps people deal with day-to-day stresses

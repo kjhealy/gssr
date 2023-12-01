@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_157.R
 \name{sphedocc}
 \alias{sphedocc}
-\title{sphedocc}
+\title{Spouse's father's occ when spouse was 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's father's occ when spouse was 16
+sphedocc
 }
 \details{
 Question 501a. Now we would like to find out what kind of work your (husband/wife)'s (father/father substitute) did when yoru (husband/wife) was about 16 years old. What kind of work was your (husband/wife)'s father (or substitute) doing? That is, what was (his/her) job called?

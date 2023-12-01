@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_271.R
 \name{musiclke}
 \alias{musiclke}
-\title{musiclke}
+\title{Visit sites about music r likes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Visit sites about music r likes
+musiclke
 }
 \details{
 Question 785. Is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that: a. You visit music sites where you can learn about or hear music from artists you already know you like?

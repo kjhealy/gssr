@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_426.R
 \name{natdeg}
 \alias{natdeg}
-\title{natdeg}
+\title{In which country did you obtain your highest degree?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In which country did you obtain your highest degree?
+natdeg
 }
 \details{
 Question In which country did you obtain your highest degree?

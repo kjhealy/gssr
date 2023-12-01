@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_144.R
 \name{raisehrd}
 \alias{raisehrd}
-\title{raisehrd}
+\title{Workers who work hard and perform well got raise}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Workers who work hard and perform well got raise
+raisehrd
 }
 \details{
 Question 456. Think about how pay raises are given where you work. Please tell me all statements that apply. Do you feel that raises are given to: b. Those workers who work hard and perform well.

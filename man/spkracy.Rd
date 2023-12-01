@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_623.R
 \name{spkracy}
 \alias{spkracy}
-\title{spkracy}
+\title{Allow anti-religious book in library y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow anti-religious book in library y
+spkracy
 }
 \details{
 Question Or consider a person who believes that Blacks are genetically inferior... If such a person wanted to make a speech in your community claiming that Blacks are inferior, should this person be allowed to speak, or not?

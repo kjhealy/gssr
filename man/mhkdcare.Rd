@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_411.R
 \name{mhkdcare}
 \alias{mhkdcare}
-\title{mhkdcare}
+\title{R would have x care for your children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would have x care for your children
+mhkdcare
 }
 \details{
 Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... c. To have \link{NAME} care for your children or children you know?

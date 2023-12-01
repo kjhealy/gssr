@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_317.R
 \name{petb4}
 \alias{petb4}
-\title{petb4}
+\title{Did r's family have a pet 5 years ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r's family have a pet 5 years ago
+petb4
 }
 \details{
 Question Did your family have a pet 5 years ago?

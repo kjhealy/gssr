@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_158.R
 \name{sphedocctag}
 \alias{sphedocctag}
-\title{sphedocctag}
+\title{Sphedocc10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sphedocc10 coding tag
+sphedocctag
 }
 \details{
 Question None

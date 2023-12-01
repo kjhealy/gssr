@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_390.R
 \name{architct}
 \alias{architct}
-\title{architct}
+\title{How scientific is architecture}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is architecture
+architct
 }
 \details{
 Question Architecture. (Is architecture...?)

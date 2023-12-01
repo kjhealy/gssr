@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_646.R
 \name{doctrst}
 \alias{doctrst}
-\title{doctrst}
+\title{Docs can be trusted}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Docs can be trusted
+doctrst
 }
 \details{
 Question How much do you agree or disagree with the following statements about doctors in general in the United States? All things considered, doctors can be trusted.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_407.R
 \name{getaheay}
 \alias{getaheay}
-\title{getaheay}
+\title{Opinion of why people get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opinion of why people get ahead
+getaheay
 }
 \details{
 Question 1123. Which do you think is the most important reason why people get ahead: their own hard work or lucky breaks and help from other people?

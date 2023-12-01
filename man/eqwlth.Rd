@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_30.R
 \name{eqwlth}
 \alias{eqwlth}
-\title{eqwlth}
+\title{Should govt reduce income differences}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt reduce income differences
+eqwlth
 }
 \details{
 Question 74a. Some people think that the government in Washington ought to reduce the income differences between the rich and the poor, perhaps by raising the taxes of wealthy families or by giving income assistance to the poor. Others think that the government should not concern itself with reducing this income difference between the rich and the poor. Here is a card with a scale from 1 to 7. Think of a score of 1 as meaning that the government ought to reduce the income differences between rich and poor, and a score of 7 meaning that the government should not concern itself with reducing income differences. What score between 1 and 7 comes closest to the way you feel?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_509.R
 \name{concong}
 \alias{concong}
-\title{concong}
+\title{Confidence in us congress}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confidence in us congress
+concong
 }
 \details{
 Question 1378. How much confidence do you have in. . . a. U.S. Congress

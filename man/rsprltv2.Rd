@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_644.R
 \name{rsprltv2}
 \alias{rsprltv2}
-\title{rsprltv2}
+\title{Offer parent place to live}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Offer parent place to live
+rsprltv2
 }
 \details{
 Question Consider another couple living with their two children who has enough space in their home for someone to come and stay. The father of one of them recently became a widower. Although he is in good health, he is feeling lonely. In your opinion, do you think

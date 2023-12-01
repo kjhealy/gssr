@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_555.R
 \name{genetst1}
 \alias{genetst1}
-\title{genetst1}
+\title{Know about genetic testing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Know about genetic testing
+genetst1
 }
 \details{
 Question The next few questions are about a special technique called "genetic screening," which makes it possible to predict whether or not a person is likely to develop certain inherited diseases. 1564b. How much would you say you have heard or read about genetic testing?

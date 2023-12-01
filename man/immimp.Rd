@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_536.R
 \name{immimp}
 \alias{immimp}
-\title{immimp}
+\title{Immigrants improve american society}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immigrants improve american society
+immimp
 }
 \details{
 Question 1461. There are different opinions about immigrants from other countries living in America. (By "immigrants" we mean people who come to settle in America). How much do you agree or disagree with each of the following statements? a. Immigrants improve American society by bringing in new ideas and cultures

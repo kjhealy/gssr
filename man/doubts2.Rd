@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_118.R
 \name{doubts2}
 \alias{doubts2}
-\title{doubts2}
+\title{Has personal suffering caused r doubt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has personal suffering caused r doubt
+doubts2
 }
 \details{
 Question 378. How often have these problems caused doubts about your religious faith? b. Personal suffering

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_275.R
 \name{advtchr}
 \alias{advtchr}
-\title{advtchr}
+\title{R can ask teacher software help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R can ask teacher software help
+advtchr
 }
 \details{
 Question 790. Do the people you can ask for advice include? (Name as many as are correct): f. A teacher

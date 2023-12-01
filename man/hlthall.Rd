@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_544.R
 \name{hlthall}
 \alias{hlthall}
-\title{hlthall}
+\title{Healthcare provided for everyone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Healthcare provided for everyone
+hlthall
 }
 \details{
 Question On a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it: E. That health care be provided for everyone

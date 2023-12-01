@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_289.R
 \name{jobplace}
 \alias{jobplace}
-\title{jobplace}
+\title{Times r sought job information from counseling service}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Times r sought job information from counseling service
+jobplace
 }
 \details{
 Question Please tell me how many times you tried to find such information from... g. Any job placement of career counseling service?

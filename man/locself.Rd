@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_112.R
 \name{locself}
 \alias{locself}
-\title{locself}
+\title{Was problem of narrow or wide concern}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was problem of narrow or wide concern
+locself
 }
 \details{
 Question 345a. If Yes: was this need or problem primarily of concern to you, your friends and family, or was it an issue of wider concern?

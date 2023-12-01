@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_216.R
 \name{mntlsym3}
 \alias{mntlsym3}
-\title{mntlsym3}
+\title{3rd mention, what mental illness is, symptoms}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-3rd mention, what mental illness is, symptoms
+mntlsym3
 }
 \details{
 Question 665. Of course, everybody hears a good deal about physical illness and disease, but now, what about the ones we call mental or nervous illness?...When you hear someone say that a person is "mentally-ill," what does that mean to you? (PROBES: How would you describe a person who is mentally-ill? What do you think a mentally-ill person is like? What does a person like this do that tells you he is mentally-ill? How does a person like this act?)

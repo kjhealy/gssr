@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_336.R
 \name{shout}
 \alias{shout}
-\title{shout}
+\title{Ppl at work shout at r in hostile manner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ppl at work shout at r in hostile manner
+shout
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. i. People at work shout or yell at me in a hostile manner.

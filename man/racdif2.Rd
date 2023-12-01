@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_81.R
 \name{racdif2}
 \alias{racdif2}
-\title{racdif2}
+\title{Differences due to in-born learning ability}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences due to in-born learning ability
+racdif2
 }
 \details{
 Question 266. On the average (negroes/blacks/African-Americans) have worse jobs, income, and housing than white people. Do you think these differences are: b. Because most (negroes/blacks/African-Americans) have less in-born ability to learn?

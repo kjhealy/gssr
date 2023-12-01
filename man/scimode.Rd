@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_381.R
 \name{scimode}
 \alias{scimode}
-\title{scimode}
+\title{Was saq self administered or interview administered}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was saq self administered or interview administered
+scimode
 }
 \details{
 Question None

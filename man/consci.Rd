@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_52.R
 \name{consci}
 \alias{consci}
-\title{consci}
+\title{Confidence in scientific community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confidence in scientific community
+consci
 }
 \details{
 Question 165. I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them? k. Scientific community.

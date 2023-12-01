@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_399.R
 \name{acqwkwht}
 \alias{acqwkwht}
-\title{acqwkwht}
+\title{Number of white in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of white in current or previous work
+acqwkwht
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. i. How many are white?

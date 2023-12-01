@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_49.R
 \name{alienat1}
 \alias{alienat1}
-\title{alienat1}
+\title{People running country don't care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People running country don't care
+alienat1
 }
 \details{
 Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: a. The people running the country don't really care what happens to you?

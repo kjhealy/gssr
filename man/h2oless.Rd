@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_528.R
 \name{h2oless}
 \alias{h2oless}
-\title{h2oless}
+\title{How often save water}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often save water
+h2oless
 }
 \details{
 Question And how often do you choose to save or re-use water for environmental reasons?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_559.R
 \name{inffilms}
 \alias{inffilms}
-\title{inffilms}
+\title{Influence of movies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence of movies
+inffilms
 }
 \details{
 Question 1572. Children are exposed to many influences in their daily lives. What kind of influence does each of the following have on children: Very positive, positive, neutral, negative, very negative? a. Movies

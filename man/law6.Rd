@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_565.R
 \name{law6}
 \alias{law6}
-\title{law6}
+\title{Sued in civil case}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sued in civil case
+law6
 }
 \details{
 Question F. Next, did any of the following criminal or legal events occur to you since (CURRENT MONTH), 2003... 6. Sued in a civil (non-criminal) case

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_299.R
 \name{emotfeel}
 \alias{emotfeel}
-\title{emotfeel}
+\title{Treatment for emotion improve feeling about}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Treatment for emotion improve feeling about
+emotfeel
 }
 \details{
 Question 846. As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following: Say you went to treatment for an EMOTIONAL HEALTH problem such as feeling depressed or anxious that affects your work and other daily activities so that you accomplish less than you would like... e. Would you definitely expect, probably expect, probably not expect, or definitely not expect to feel better about yourself as a person?

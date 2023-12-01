@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_567.R
 \name{coninc}
 \alias{coninc}
-\title{coninc}
+\title{Family income in constant dollars}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Family income in constant dollars
+coninc
 }
 \details{
 Question 1657. Inflation-adjusted family income.

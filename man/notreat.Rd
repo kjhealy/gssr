@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_250.R
 \name{notreat}
 \alias{notreat}
-\title{notreat}
+\title{Refuse treatment except pain relief}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Refuse treatment except pain relief
+notreat
 }
 \details{
 Question 735. How much do you agree of disagree with the following options for this person? This person should... b. Refuse further treatment except for pain relief right now

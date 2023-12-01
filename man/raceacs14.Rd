@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_625.R
 \name{raceacs14}
 \alias{raceacs14}
-\title{raceacs14}
+\title{Other pacific islander}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other pacific islander
+raceacs14
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. Other Pacific Islander

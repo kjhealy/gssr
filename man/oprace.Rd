@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_467.R
 \name{oprace}
 \alias{oprace}
-\title{oprace}
+\title{Need to be right race to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need to be right race to get ahead
+oprace
 }
 \details{
 Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . i. A person's race -- how important is that?

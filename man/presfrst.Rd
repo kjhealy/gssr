@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_155.R
 \name{presfrst}
 \alias{presfrst}
-\title{presfrst}
+\title{Prestige of r first job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prestige of r first job
+presfrst
 }
 \details{
 Question None

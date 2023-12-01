@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_563.R
 \name{finan3}
 \alias{finan3}
-\title{finan3}
+\title{Pawning valuables to make ends meet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pawning valuables to make ends meet
+finan3
 }
 \details{
 Question C. Did any of the following financial matters happen to you during the last year... 3. Pawned or sold-off valuables to make ends meet.

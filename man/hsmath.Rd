@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_371.R
 \name{hsmath}
 \alias{hsmath}
-\title{hsmath}
+\title{The highest level of math r completed in high school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The highest level of math r completed in high school
+hsmath
 }
 \details{
 Question 1050. Now, let me ask you to think about the courses you took in high school. What was the highest level of math that you completed in high school?

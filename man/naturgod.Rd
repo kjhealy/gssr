@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_520.R
 \name{naturgod}
 \alias{naturgod}
-\title{naturgod}
+\title{Relationship of nature to god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship of nature to god
+naturgod
 }
 \details{
 Question 1412. Please check one box to show which statement is closest to your views. 1. Nature is sacred because it is created by God. 2. Nature is spiritual or sacred in itself. 3. Nature is important, but not spiritual or sacred

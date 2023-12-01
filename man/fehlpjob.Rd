@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_437.R
 \name{fehlpjob}
 \alias{fehlpjob}
-\title{fehlpjob}
+\title{Women should be given preference in jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women should be given preference in jobs
+fehlpjob
 }
 \details{
 Question 1172. Here are three things the government might do. Some people are in favor of them while other people are against them. Please circle one number for each statement to show how you feel. c. Women should be given preferential treatment when applying for jobs or promotions.

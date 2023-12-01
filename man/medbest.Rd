@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_648.R
 \name{medbest}
 \alias{medbest}
-\title{medbest}
+\title{How likely to get best treatment avail in us}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely to get best treatment avail in us
+medbest
 }
 \details{
 Question How likely is it that if you become seriously ill, you would get or not get the best treatment available in the United States?

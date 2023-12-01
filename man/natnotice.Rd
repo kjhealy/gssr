@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_316.R
 \name{natnotice}
 \alias{natnotice}
-\title{natnotice}
+\title{In my everyday life, i take notice of the natural elements around me (trees, wat}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In my everyday life, i take notice of the natural elements around me (trees, wat
+natnotice
 }
 \details{
 Question Please tell me how much you agree or disagree with the following statements. A. In my everyday life, I take notice of the natural elements around me (trees, water, wildlife, etc.).

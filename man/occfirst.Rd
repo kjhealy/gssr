@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_155.R
 \name{occfirst}
 \alias{occfirst}
-\title{occfirst}
+\title{R first occupation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R first occupation
+occfirst
 }
 \details{
 Question 488. We would like to know about the first, full-time civilian job you had after you completed your highest grade in school. Do include full-time work in a family business or farm, even if you were working without pay. What kind of work were you doing? That is, what (is/was) your job called?

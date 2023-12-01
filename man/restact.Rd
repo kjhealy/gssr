@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_37.R
 \name{restact}
 \alias{restact}
-\title{restact}
+\title{Afterlife contrast: peaceful or action}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Afterlife contrast: peaceful or action
+restact
 }
 \details{
 Question 109. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7, where would you place your image of life after death. c. 1. A life of peaceful and tranquil contemplation. 2. A life of intense action.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_333.R
 \name{caninf2}
 \alias{caninf2}
-\title{caninf2}
+\title{Would use category directory information on can}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would use category directory information on can
+caninf2
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? b. Would use category directory ( e.g. "clicking on" or "looking under" a category or "looking under links") information on candidate.

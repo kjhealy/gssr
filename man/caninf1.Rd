@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_333.R
 \name{caninf1}
 \alias{caninf1}
-\title{caninf1}
+\title{Would use search engine for information on candidate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would use search engine for information on candidate
+caninf1
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? a. Would use search engine for information on candidate.

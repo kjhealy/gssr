@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_601.R
 \name{cohort}
 \alias{cohort}
-\title{cohort}
+\title{Year of birth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Year of birth
+cohort
 }
 \details{
 Question 1651. Birth cohort of respondent.

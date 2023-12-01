@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_138.R
 \name{promoted}
 \alias{promoted}
-\title{promoted}
+\title{Ever promoted by current employer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever promoted by current employer
+promoted
 }
 \details{
 Question 431. Have you ever received any promotions while working for your present employer?

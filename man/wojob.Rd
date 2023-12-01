@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_240.R
 \name{wojob}
 \alias{wojob}
-\title{wojob}
+\title{Since 1st job ever been without a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Since 1st job ever been without a job
+wojob
 }
 \details{
 Question 704. Since your first full-time job, has there ever been a time when you've been without a job and not looking for a job?

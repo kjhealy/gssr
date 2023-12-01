@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_316.R
 \name{natviews}
 \alias{natviews}
-\title{natviews}
+\title{I have views of nature (trees, lawns, gardens, water, etc.) when i am home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I have views of nature (trees, lawns, gardens, water, etc.) when i am home
+natviews
 }
 \details{
 Question Please tell me how much you agree or disagree with the following statements. B. I have views of nature (trees, lawns, gardens, water, etc.) when I am home.

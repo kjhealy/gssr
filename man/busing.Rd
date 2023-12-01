@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_46.R
 \name{busing}
 \alias{busing}
-\title{busing}
+\title{Attitude toward racial busing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attitude toward racial busing
+busing
 }
 \details{
 Question 134a. In general, do you favor or oppose the busing of (negro/black/African-American) and white school children from one school district to another?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_292.R
 \name{sptmkid4}
 \alias{sptmkid4}
-\title{sptmkid4}
+\title{Time spouse spends with child 4}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Time spouse spends with child 4
+sptmkid4
 }
 \details{
 Question 817. Would you say that the amount of time your (HUSBAND/WIFE) spends with (NAME OF CHILD) is too much, about the right amount, or too little?

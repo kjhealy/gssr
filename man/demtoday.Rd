@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_543.R
 \name{demtoday}
 \alias{demtoday}
-\title{demtoday}
+\title{How well democracy work in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well democracy work in america
+demtoday
 }
 \details{
 Question 1487. On the whole, on a scale of 0 to 10 where 0 is very poorly and 10 is very well. a. How well does democracy work in America today?

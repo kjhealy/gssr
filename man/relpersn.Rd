@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_231.R
 \name{relpersn}
 \alias{relpersn}
-\title{relpersn}
+\title{R consider self a religious person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R consider self a religious person
+relpersn
 }
 \details{
 Question 683. To what extent do you consider yourself a religious person? Are you . . .

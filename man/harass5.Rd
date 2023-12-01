@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_494.R
 \name{harass5}
 \alias{harass5}
-\title{harass5}
+\title{Harassment at work in past 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Harassment at work in past 5 yrs
+harass5
 }
 \details{
 Question C. Over the past five years, have you been harassed by your superiors or co-workers at your job, for example, have you experienced any bullying, physical or psychological abuse?

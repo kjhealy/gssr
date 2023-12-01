@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_30.R
 \name{libsoc}
 \alias{libsoc}
-\title{libsoc}
+\title{Allow socialists book in library}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow socialists book in library
+libsoc
 }
 \details{
 Question 77. Or consider a person who favored government ownership of all the railroads and all big industries: c. If some people in your community suggested a book he wrote favoring government ownership should be taken out of your public library, would you favor removing this book, or not?

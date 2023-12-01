@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_431.R
 \name{hushrel1}
 \alias{hushrel1}
-\title{hushrel1}
+\title{Leader1 tried to keep r from telling other people about the relationship}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Leader1 tried to keep r from telling other people about the relationship
+hushrel1
 }
 \details{
 Question None

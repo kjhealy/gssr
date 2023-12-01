@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_463.R
 \name{hlpsick}
 \alias{hlpsick}
-\title{hlpsick}
+\title{Who r would first turn to if they needed help around the house if sick}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r would first turn to if they needed help around the house if sick
+hlpsick
 }
 \details{
 Question Who would you turn to first to?. B. Help you around your home if you were sick and had to stay in bed for a few days?

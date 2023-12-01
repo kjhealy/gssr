@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{mentlhos}
 \alias{mentlhos}
-\title{mentlhos}
+\title{X should check into a mental hospital}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should check into a mental hospital
+mentlhos
 }
 \details{
 Question 659. Should NAME do any of the following: j. Check into a mental hospital

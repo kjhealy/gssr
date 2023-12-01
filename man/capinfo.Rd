@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_32.R
 \name{capinfo}
 \alias{capinfo}
-\title{capinfo}
+\title{How much info r has on death penalty}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much info r has on death penalty
+capinfo
 }
 \details{
 Question 84. How much information do you have about the death penalty issue? Do you have all of the information you need, most of the information, some information or very little information?

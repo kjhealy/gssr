@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_448.R
 \name{helpold}
 \alias{helpold}
-\title{helpold}
+\title{How successful is govt: decent standard of living for the old}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How successful is govt: decent standard of living for the old
+helpold
 }
 \details{
 Question 1491. How successful do you think the government in America is nowadays in each of the following areas? b. Providing a decent standard of living for the old

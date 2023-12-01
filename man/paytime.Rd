@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_503.R
 \name{paytime}
 \alias{paytime}
-\title{paytime}
+\title{How important be long with the firm in deciding p}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important be long with the firm in deciding p
+paytime
 }
 \details{
 Question 1350. In deciding on pay for two people doing the same kind of work, how important should be ... d. How long the person has been with the firm?

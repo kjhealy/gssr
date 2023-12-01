@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_50.R
 \name{trust}
 \alias{trust}
-\title{trust}
+\title{Can people be trusted}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Can people be trusted
+trust
 }
 \details{
 Question 163a. Generally speaking, would you say that most people can be trusted or that you can't be too careful in life?

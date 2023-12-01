@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_262.R
 \name{webtv}
 \alias{webtv}
-\title{webtv}
+\title{R has internet via webtv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has internet via webtv
+webtv
 }
 \details{
 Question 767a. Do you have access to the Internet or World Wide Web in your home through Web TV?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_299.R
 \name{emotqol}
 \alias{emotqol}
-\title{emotqol}
+\title{Treatment for emotion improve quality of li}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Treatment for emotion improve quality of li
+emotqol
 }
 \details{
 Question 846. As you know, when people go to doctors, they may hold different expectations of what should result from their treatment. I'm going to describe a health problem. Please tell me how much you, yourself, would expect to get each of the following: Say you went to treatment for an EMOTIONAL HEALTH problem such as feeling depressed or anxious that affects your work and other daily activities so that you accomplish less than you would like... a. Would you definitely expect, probably expect, probably not expect, or definitely not expect your overall quality of life to improve?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_63.R
 \name{jobsafe}
 \alias{jobsafe}
-\title{jobsafe}
+\title{Safe conditions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Safe conditions
+jobsafe
 }
 \details{
 Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? SAFE AND HEALTHFUL WORKING CONDITIONS

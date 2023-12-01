@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_575.R
 \name{hispanic}
 \alias{hispanic}
-\title{hispanic}
+\title{Hispanic specified}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hispanic specified
+hispanic
 }
 \details{
 Question 1601. IF R IS FEMALE, READ LATINA; IF MALE, READ LATINO. Are you Spanish, Hispanic, or Latino/Latina? IF YES: Which group are you from?

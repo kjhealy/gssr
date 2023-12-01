@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_553.R
 \name{condom}
 \alias{condom}
-\title{condom}
+\title{Used condom last time}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Used condom last time
+condom
 }
 \details{
 Question 1556. The last time you had sex, was a condom used? By "sex" we mean vaginal, oral, or anal sex.

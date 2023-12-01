@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_628.R
 \name{clmtcaus}
 \alias{clmtcaus}
-\title{clmtcaus}
+\title{Climate has been changing due to human activity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Climate has been changing due to human activity
+clmtcaus
 }
 \details{
 Question There has been a lot of discussion about the world's climate and the idea it has been changing in recent decades. Which of the following statements comes closest to your opinion?

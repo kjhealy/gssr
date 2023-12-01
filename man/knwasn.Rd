@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_258.R
 \name{knwasn}
 \alias{knwasn}
-\title{knwasn}
+\title{Does r personally any asians}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r personally any asians
+knwasn
 }
 \details{
 Question 757. Do you personally know any...? e. Asian Americans

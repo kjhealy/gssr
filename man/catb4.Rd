@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_319.R
 \name{catb4}
 \alias{catb4}
-\title{catb4}
+\title{Cat}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Cat
+catb4
 }
 \details{
 Question What kind of pet\link{s} did your family have? B.Cat

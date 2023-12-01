@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_423.R
 \name{pastpay}
 \alias{pastpay}
-\title{pastpay}
+\title{Was r's starting pay higher/lower/same as earning in previous job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was r's starting pay higher/lower/same as earning in previous job
+pastpay
 }
 \details{
 Question When you went to work for your current employer, was your starting pay higher, lower or about the same as what you were earning in your previous (full time) job?

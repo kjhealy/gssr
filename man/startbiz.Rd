@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_417.R
 \name{startbiz}
 \alias{startbiz}
-\title{startbiz}
+\title{R trying to start business}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R trying to start business
+startbiz
 }
 \details{
 Question Are you, alone or with others, currently trying to start a new business, including any self-employment, or selling any goods or services to others?

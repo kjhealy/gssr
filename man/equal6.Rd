@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_28.R
 \name{equal6}
 \alias{equal6}
-\title{equal6}
+\title{One is able to live well in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-One is able to live well in america
+equal6
 }
 \details{
 Question 71. On these cards are some opinions about the government and the economy. For each one I'd like you to tell me whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. f. All in all, one can live well in America.

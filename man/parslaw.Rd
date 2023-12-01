@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_457.R
 \name{parslaw}
 \alias{parslaw}
-\title{parslaw}
+\title{How often does r contact parents-in-law}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r contact parents-in-law
+parslaw
 }
 \details{
 Question 1230. Now some questions about your contact with other relatives. Please indicate how often you have been in contact with any of the following types of relatives in the last four weeks. c. Parents-in-law

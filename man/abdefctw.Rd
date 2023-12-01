@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_509.R
 \name{abdefctw}
 \alias{abdefctw}
-\title{abdefctw}
+\title{Wrong for woman to get abortion for birth defects}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Wrong for woman to get abortion for birth defects
+abdefctw
 }
 \details{
 Question 1376. Do you personally think it is wrong or not wrong for a woman to have an abortion. . . a. If there is a strong chance of serious defect in the baby

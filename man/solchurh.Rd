@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_108.R
 \name{solchurh}
 \alias{solchurh}
-\title{solchurh}
+\title{Church group tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Church group tries to solve problems
+solchurh
 }
 \details{
 Question 329. Do the church-affiliated groups to which you belong do anything to try to solve individual or community problems?

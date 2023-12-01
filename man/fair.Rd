@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_50.R
 \name{fair}
 \alias{fair}
-\title{fair}
+\title{People fair or try to take advantage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People fair or try to take advantage
+fair
 }
 \details{
 Question 162. Do you think most people would try to take advantage of you if they got a chance, or would they try to be fair?

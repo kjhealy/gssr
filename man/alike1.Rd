@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_155.R
 \name{alike1}
 \alias{alike1}
-\title{alike1}
+\title{How alike: orange & banana}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How alike: orange & banana
+alike1
 }
 \details{
 Question 489. Now I'd like to turn to something a bit different. This section is about reasoning abilities, that is, about how people think. Most people take tests of their reasoning abilities and there is a lot of interest in how these abilities may change over time. What I'd like you to do is tell me how two things are alike. a. In what way are an orange and a banana alike?

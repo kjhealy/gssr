@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_01.R
 \name{commute}
 \alias{commute}
-\title{commute}
+\title{Travel time to work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Travel time to work
+commute
 }
 \details{
 Question 2g. About how much time (does/did) it usually take you to travel to work - about how many minutes?

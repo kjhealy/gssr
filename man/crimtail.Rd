@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_435.R
 \name{crimtail}
 \alias{crimtail}
-\title{crimtail}
+\title{Should police tail a known criminal?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should police tail a known criminal?
+crimtail
 }
 \details{
 Question 1162. Suppose the police get an anonymous tip that a man with a long criminal record is planning to break into a warehouse. Please circle a number for each question to show if you think police should be allowed without a court order to ... a. Keep the man under surveillance.

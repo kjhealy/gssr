@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_42.R
 \name{prayerx}
 \alias{prayerx}
-\title{prayerx}
+\title{Bible prayer in schools:version z}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Bible prayer in schools:version z
+prayerx
 }
 \details{
 Question 119c. Which of these statements comes closest to your feelings about prayers in the public schools: 1. The Lord's prayer or some Bible verse should be read daily. 2. There should be a moment for silent prayer or meditation daily. 3. No prayer or other religious observances should be held in the public schools.

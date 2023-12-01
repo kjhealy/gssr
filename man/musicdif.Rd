@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_272.R
 \name{musicdif}
 \alias{musicdif}
-\title{musicdif}
+\title{Visit many different types of music}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Visit many different types of music
+musicdif
 }
 \details{
 Question 785. Is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that: b. You visit music sites that contain information about or sounds from many different types of music?

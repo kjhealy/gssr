@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_446.R
 \name{poleff12}
 \alias{poleff12}
-\title{poleff12}
+\title{Even best politician cannot have much impact}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Even best politician cannot have much impact
+poleff12
 }
 \details{
 Question 1194. How much do you agree or disagree with each of the following statements? b. Even the best politician cannot have much impact because of the way government works

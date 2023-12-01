@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_122.R
 \name{friends}
 \alias{friends}
-\title{friends}
+\title{Have any good friends feeling close}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have any good friends feeling close
+friends
 }
 \details{
 Question 386a. Do you have any good freinds that you feel close to?

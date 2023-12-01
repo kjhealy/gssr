@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_629.R
 \name{activnat}
 \alias{activnat}
-\title{activnat}
+\title{Outside leisure activity in the past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Outside leisure activity in the past 12 months
+activnat
 }
 \details{
 Question In the last twelve months how often, if at all, have you engaged in any leisure activities outside in nature, such as hiking, bird watching, swimming, skiing, other outdoor activities, or just relaxing?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_327.R
 \name{chldhlp}
 \alias{chldhlp}
-\title{chldhlp}
+\title{What should be done to help a named youth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What should be done to help a named youth
+chldhlp
 }
 \details{
 Question 941. What (if anything) should be done to help (John/Mary)? PROBE: Anything else?

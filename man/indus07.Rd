@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_02.R
 \name{indus07}
 \alias{indus07}
-\title{indus07}
+\title{Industry code based on naics 2007}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Industry code based on naics 2007
+indus07
 }
 \details{
 Question None

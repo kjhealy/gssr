@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_128.R
 \name{violhsps}
 \alias{violhsps}
-\title{violhsps}
+\title{Violent - not violent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Violent - not violent
+violhsps
 }
 \details{
 Question 403c. The next set asks if people in each group tend to be violence prone or if they tend not to be prone to violence? 5. Hispanic Americans

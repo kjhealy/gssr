@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_155.R
 \name{datefrst}
 \alias{datefrst}
-\title{datefrst}
+\title{Month and yr began first job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Month and yr began first job
+datefrst
 }
 \details{
 Question 488. In what month and year did you begin this job? Report the month and year in which you actually began this job, even if you started the job before you completed your highest grade in school.

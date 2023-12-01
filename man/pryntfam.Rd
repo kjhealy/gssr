@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_332.R
 \name{pryntfam}
 \alias{pryntfam}
-\title{pryntfam}
+\title{Med just prevent family from working out problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Med just prevent family from working out problem
+pryntfam
 }
 \details{
 Question 954. Now, I'd like to ask you for your opinions on several issues. For each question, please tell me if you strongly agree, agree somewhat, disagree somewhat or strongly disagree with the statement. g. Medications for behavior problems just prevent families from working out problems themselves.

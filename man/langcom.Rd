@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_253.R
 \name{langcom}
 \alias{langcom}
-\title{langcom}
+\title{How often are other languages heard in community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often are other languages heard in community
+langcom
 }
 \details{
 Question 743a. How often do you hear languages other than English spoken in the local community where you live?

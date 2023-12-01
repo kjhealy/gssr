@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_398.R
 \name{acqnhgay}
 \alias{acqnhgay}
-\title{acqnhgay}
+\title{Number of gay in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of gay in neighborhood
+acqnhgay
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. j. How many are you pretty certain are gay men or women?

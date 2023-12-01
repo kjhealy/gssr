@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_44.R
 \name{racmar}
 \alias{racmar}
-\title{racmar}
+\title{Favor law against racial intermarriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Favor law against racial intermarriage
+racmar
 }
 \details{
 Question 125a. Do you think there should be laws against marriages between (Negroes/Blacks/African-Americans) and whites?

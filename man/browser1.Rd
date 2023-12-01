@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_290.R
 \name{browser1}
 \alias{browser1}
-\title{browser1}
+\title{R knows what an internet web browser is}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R knows what an internet web browser is
+browser1
 }
 \details{
 Question 815b. Do you know what an Internet web browser is?

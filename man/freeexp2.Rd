@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_293.R
 \name{freeexp2}
 \alias{freeexp2}
-\title{freeexp2}
+\title{What experiences in life make you feel most free}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What experiences in life make you feel most free
+freeexp2
 }
 \details{
 Question 822. What experiences in your life make you feel most free? Are there times in your life when you feel especially free? Can you give me an example of an experience that makes you feel really free?

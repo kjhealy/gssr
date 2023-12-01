@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_154.R
 \name{mayrborn}
 \alias{mayrborn}
-\title{mayrborn}
+\title{Yr r mother born}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Yr r mother born
+mayrborn
 }
 \details{
 Question 481. Now, we'd like to ask about your parents. In what year was your mother born?

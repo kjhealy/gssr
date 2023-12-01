@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_384.R
 \name{upbreath}
 \alias{upbreath}
-\title{upbreath}
+\title{Why short breath at the top of a mountain}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why short breath at the top of a mountain
+upbreath
 }
 \details{
 Question For which reason may people experience shortness of breath more quickly at the top of a mountain than along a seashore? {response to acceptDK} {response to probeDK}

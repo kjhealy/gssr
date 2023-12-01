@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_72.R
 \name{suirel1}
 \alias{suirel1}
-\title{suirel1}
+\title{R's relationship to closest suicide}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's relationship to closest suicide
+suirel1
 }
 \details{
 Question A. Thinking about the person you knew best that died by suicide, please tell me the letter of the category on the card which most clearly describes your relationship to that person?

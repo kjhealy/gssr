@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_541.R
 \name{govdook}
 \alias{govdook}
-\title{govdook}
+\title{We can trust people in govt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-We can trust people in govt
+govdook
 }
 \details{
 Question 1475. To what extent do you agree or disagree with the following statements? a. Most of the time we can trust people in government to do what is right

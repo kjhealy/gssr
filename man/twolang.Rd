@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_254.R
 \name{twolang}
 \alias{twolang}
-\title{twolang}
+\title{Children should learn other language in high sc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children should learn other language in high sc
+twolang
 }
 \details{
 Question 745. Now please tell us whether you strongly agree, agree, disagree or strongly disagree with each of these statements: a. Children in the U.S. should learn a second language fluently before they finish high school.

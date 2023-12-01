@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_201.R
 \name{monrelig}
 \alias{monrelig}
-\title{monrelig}
+\title{Done volunteer work in religious org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done volunteer work in religious org
+monrelig
 }
 \details{
 Question 641. In which, if any, of the areas listed on this card have you done some volunteer work in the past month? c. Religious organizations

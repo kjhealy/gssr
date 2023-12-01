@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_392.R
 \name{seemhpub}
 \alias{seemhpub}
-\title{seemhpub}
+\title{How frequently r sees someone mentally ill in public}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How frequently r sees someone mentally ill in public
+seemhpub
 }
 \details{
 Question 1099. How frequently are you in a public place where you see someone who seems to be mentally ill...

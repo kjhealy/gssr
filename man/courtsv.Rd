@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_637.R
 \name{courtsv}
 \alias{courtsv}
-\title{courtsv}
+\title{Courts dealing with criminals (with volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Courts dealing with criminals (with volunteered response on web)
+courtsv
 }
 \details{
 Question None

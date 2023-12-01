@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_86.R
 \name{stresswk}
 \alias{stresswk}
-\title{stresswk}
+\title{Stress in past 2 wks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Stress in past 2 wks
+stresswk
 }
 \details{
 Question B. During the past two weeks, would you say that you experienced a lot of stress, a moderate amount of stress, relatively little stress, or almost no stress at all?

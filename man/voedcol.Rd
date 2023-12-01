@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_12.R
 \name{voedcol}
 \alias{voedcol}
-\title{voedcol}
+\title{Non-college postsecondary education (voednme1)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Non-college postsecondary education (voednme1)
+voedcol
 }
 \details{
 Question None

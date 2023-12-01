@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_566.R
 \name{live1}
 \alias{live1}
-\title{live1}
+\title{Your home destroyed in disaster}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Your home destroyed in disaster
+live1
 }
 \details{
 Question G. What about things concerning where you live? During the last year, did any of the following happen? 1. Your home destroyed or heavily damaged due to fire, flood, or other disaster.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_260.R
 \name{hispcls}
 \alias{hispcls}
-\title{hispcls}
+\title{Does r feel close to hispanics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r feel close to hispanics
+hispcls
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. e. Are any of these Hispanics people that you feel close to?

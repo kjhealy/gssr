@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_380.R
 \name{nanoknw1}
 \alias{nanoknw1}
-\title{nanoknw1}
+\title{True-false: nanotechnology manipulate extremely small units}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-True-false: nanotechnology manipulate extremely small units
+nanoknw1
 }
 \details{
 Question 1082. Here are a couple of true-false questions about nanotechnology. As before, if you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. a. Nanotechnology involves manipulating extremely small units of matter, such as individual atoms, in order to produce better materials. (Is that true or false?)

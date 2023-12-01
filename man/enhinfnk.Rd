@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_385.R
 \name{enhinfnk}
 \alias{enhinfnk}
-\title{enhinfnk}
+\title{Nuclear engineers how much influence}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nuclear engineers how much influence
+enhinfnk
 }
 \details{
 Question Some say that the government should expand the use of nuclear power to generate electricity in the U.S. Others oppose any expansion in the use of nuclear power in this country. Please look at Card E15. How much influence should each of the following groups have in deciding whether to expand the use of nuclear power? Nuclear engineers

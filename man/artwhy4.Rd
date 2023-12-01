@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_235.R
 \name{artwhy4}
 \alias{artwhy4}
-\title{artwhy4}
+\title{Imp of wanting to celebrate cultural heritage in decision to attend exhibit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of wanting to celebrate cultural heritage in decision to attend exhibit
+artwhy4
 }
 \details{
 Question People attend exhibits for different reasons. D. How big a reason was wanting to learn about or celebrate your or your family?s cultural heritage in your decision to attend this exhibit? Was it a major reason, a minor reason, or not a reason at all?

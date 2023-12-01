@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_397.R
 \name{acqfmcon}
 \alias{acqfmcon}
-\title{acqfmcon}
+\title{Number of conservative in family member}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of conservative in family member
+acqfmcon
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. n. How many are strongly liberal?

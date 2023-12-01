@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_340.R
 \name{geneexps}
 \alias{geneexps}
-\title{geneexps}
+\title{Genes or experiences in determining personality}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Genes or experiences in determining personality
+geneexps
 }
 \details{
 Question 984. For the following pair of questions, please circle the letter of the one that comes closer to your opinion:

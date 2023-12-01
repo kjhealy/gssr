@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_293.R
 \name{howfree}
 \alias{howfree}
-\title{howfree}
+\title{How much freedom do americans have}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much freedom do americans have
+howfree
 }
 \details{
 Question 823. How much freedom do you think Americans have today? Would you say they have complete freedom, a great deal of freedom, a moderate degree of freedom, not much freedom, or no freedom at all?

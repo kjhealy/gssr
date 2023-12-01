@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_177.R
 \name{hapboys}
 \alias{hapboys}
-\title{hapboys}
+\title{Boys' chances for a happy family life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Boys' chances for a happy family life
+hapboys
 }
 \details{
 Question 551. And what about boys growing up today? Do you think their chances for a happy family life will be better than yours, about the same, or worse than yours?

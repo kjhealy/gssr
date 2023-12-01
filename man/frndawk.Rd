@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_198.R
 \name{frndawk}
 \alias{frndawk}
-\title{frndawk}
+\title{Discussing price is awkward among friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Discussing price is awkward among friends
+frndawk
 }
 \details{
 Question How much do you agree with the following statements: 624. When friends buy or sell something to friends, discussing price is usually awkward or puts somebody on the spot.

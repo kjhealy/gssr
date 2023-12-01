@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_398.R
 \name{acqnhwht}
 \alias{acqnhwht}
-\title{acqnhwht}
+\title{Number of white in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of white in neighborhood
+acqnhwht
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. i. How many are white?

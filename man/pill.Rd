@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_69.R
 \name{pill}
 \alias{pill}
-\title{pill}
+\title{Birth control information}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Birth control information
+pill
 }
 \details{
 Question 213a. In some places in the United States, it is not legal to supply birth control information. How do you feel about this - do you think birth control information should be available to anyone who wants it, or not?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_649.R
 \name{hlthsat}
 \alias{hlthsat}
-\title{hlthsat}
+\title{How satisfied r with health care system in us}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How satisfied r with health care system in us
+hlthsat
 }
 \details{
 Question In general, how satisfied or dissatisfied are you with the health care system in the United States? Are you...

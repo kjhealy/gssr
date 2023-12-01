@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_536.R
 \name{immcosts}
 \alias{immcosts}
-\title{immcosts}
+\title{Govt spend too much money for immigrants}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt spend too much money for immigrants
+immcosts
 }
 \details{
 Question 1461. There are different opinions about immigrants from other countries living in America. (By "immigrants" we mean people who come to settle in America). How much do you agree or disagree with each of the following statements? b. Government spends too much money assisting immigrants.

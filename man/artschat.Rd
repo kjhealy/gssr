@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_270.R
 \name{artschat}
 \alias{artschat}
-\title{artschat}
+\title{Use chatrooms about arts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use chatrooms about arts
+artschat
 }
 \details{
 Question 781. Considering all these arts topics, do you participate in chat rooms, Usenet groups, discussion forums, bulletin boards, or similar interactive services devoted to these topics?

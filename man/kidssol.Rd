@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_65.R
 \name{kidssol}
 \alias{kidssol}
-\title{kidssol}
+\title{R's kids living standard compared to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's kids living standard compared to r
+kidssol
 }
 \details{
 Question 198b. When your children are at the age you are now, do you think their standard of living will be much better, somewhat better, about the same, somewhat worse, or much worse that your is now?

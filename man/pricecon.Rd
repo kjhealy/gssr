@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_443.R
 \name{pricecon}
 \alias{pricecon}
-\title{pricecon}
+\title{Govts resp: keep prices under control}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts resp: keep prices under control
+pricecon
 }
 \details{
 Question 1188. On the whole, do you think it should or should not be the government's responsibility to . . . b. Keep prices under control

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_241.R
 \name{psycmed2}
 \alias{psycmed2}
-\title{psycmed2}
+\title{People should stop taking if symptoms gone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People should stop taking if symptoms gone
+psycmed2
 }
 \details{
 Question 710. Please tell me how much you agree or disagree with the following statements: b. If symptoms are no logner present, people should stop taking these medications

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_452.R
 \name{dauvisit}
 \alias{dauvisit}
-\title{dauvisit}
+\title{How often visit with daughter}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often visit with daughter
+dauvisit
 }
 \details{
 Question 1203a. How often do you see or visit with your daughter?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_80.R
 \name{racmarel}
 \alias{racmarel}
-\title{racmarel}
+\title{What if relative married other race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What if relative married other race
+racmarel
 }
 \details{
 Question 262. How would it make you feel if a close relative of yours were planning to marry a \link{(negro/black)/white}? Would you be very uneasy, somewhat uneasy, or not uneasy at all?

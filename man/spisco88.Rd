@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_596.R
 \name{spisco88}
 \alias{spisco88}
-\title{spisco88}
+\title{R's spouse's occupation, 1980 census & 1988 isco code}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's spouse's occupation, 1980 census & 1988 isco code
+spisco88
 }
 \details{
 Question 1645. Respondent's Spouse's Occupation, 1988 Census

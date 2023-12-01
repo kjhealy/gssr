@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_632.R
 \name{sinsacri}
 \alias{sinsacri}
-\title{sinsacri}
+\title{Jesus' death on cross is only sacrifice that could remove penalty of r's sin}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Jesus' death on cross is only sacrifice that could remove penalty of r's sin
+sinsacri
 }
 \details{
 Question Jesus Christ's death on the cross is the only sacrifice that could remove the penalty of my sin.

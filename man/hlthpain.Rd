@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_648.R
 \name{hlthpain}
 \alias{hlthpain}
-\title{hlthpain}
+\title{Body aches or pains in last 4 weeks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Body aches or pains in last 4 weeks
+hlthpain
 }
 \details{
 Question (During the past 4 weeks how often...) Have you had bodily aches or pains?

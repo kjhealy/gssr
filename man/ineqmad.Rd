@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_630.R
 \name{ineqmad}
 \alias{ineqmad}
-\title{ineqmad}
+\title{Feeling about differences in wealth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feeling about differences in wealth
+ineqmad
 }
 \details{
 Question How do you feel when you think about differences in wealth between the rich and the poor in America?

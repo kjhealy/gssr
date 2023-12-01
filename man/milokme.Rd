@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_90.R
 \name{milokme}
 \alias{milokme}
-\title{milokme}
+\title{Military service good experience for men}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Military service good experience for men
+milokme
 }
 \details{
 Question 300a. For most young men, do you think military service is definitely a good experience, probably a good experience, probably not a good experience, or definitely not a good experience for them?

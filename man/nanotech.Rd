@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_380.R
 \name{nanotech}
 \alias{nanotech}
-\title{nanotech}
+\title{How much r heard about nanotechnology}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much r heard about nanotechnology
+nanotech
 }
 \details{
 Question Now for a few final questions about a different topic, a new form of technology called nanotechnology. 1081. How much have you heard about nanotechnology? Have you heard a lot, some, just a little, or nothing at all?

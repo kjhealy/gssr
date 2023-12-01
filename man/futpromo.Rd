@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_139.R
 \name{futpromo}
 \alias{futpromo}
-\title{futpromo}
+\title{How likely you will be promoted next five years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely you will be promoted next five years
+futpromo
 }
 \details{
 Question 433. In the next five years, how likely are you to be promoted?

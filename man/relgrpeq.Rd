@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_515.R
 \name{relgrpeq}
 \alias{relgrpeq}
-\title{relgrpeq}
+\title{All religious groups in usa should have equal rights}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-All religious groups in usa should have equal rights
+relgrpeq
 }
 \details{
 Question None

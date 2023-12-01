@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_196.R
 \name{satfixes}
 \alias{satfixes}
-\title{satfixes}
+\title{How satisfied were you with the work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How satisfied were you with the work
+satfixes
 }
 \details{
 Question 614. How satisfied were you wtih the work that was done for you?

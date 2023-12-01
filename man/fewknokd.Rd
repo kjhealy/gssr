@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_488.R
 \name{fewknokd}
 \alias{fewknokd}
-\title{fewknokd}
+\title{Women should work outside when no kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women should work outside when no kids
+fewknokd
 }
 \details{
 Question 1319. Do you think that women should work outside the home full-time, part-time or not at all, when a couple has not yet had a child?

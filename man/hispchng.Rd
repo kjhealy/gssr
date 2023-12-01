@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_256.R
 \name{hispchng}
 \alias{hispchng}
-\title{hispchng}
+\title{Percentage change population of hispanics in 25}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage change population of hispanics in 25
+hispchng
 }
 \details{
 Question 753. In the next 25 years, which of these groups do you think will increase their share of the population by a lot, which will increase by a little, which will stay the same, which will decrease by a little, and which will decrease by a lot? d. Hispanics or Latin Americans

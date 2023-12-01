@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_314.R
 \name{hlthphys}
 \alias{hlthphys}
-\title{hlthphys}
+\title{R's physical health}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's physical health
+hlthphys
 }
 \details{
 Question B. In general, how would you rate your physical health?

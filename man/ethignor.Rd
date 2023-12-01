@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_300.R
 \name{ethignor}
 \alias{ethignor}
-\title{ethignor}
+\title{Us harmony by ignore ethnic differences}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Us harmony by ignore ethnic differences
+ethignor
 }
 \details{
 Question 848. Here are some opinions some people have expressed in connection with ethnic issues in the United States. To what extent do you agree or disagree with each one? a. Harmony in the United States is best achieved by down playing or ignoring ethnic differences.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_479.R
 \name{marpakid}
 \alias{marpakid}
-\title{marpakid}
+\title{Single pa can raise kids well as couple}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Single pa can raise kids well as couple
+marpakid
 }
 \details{
 Question 1280. Do you agree or disagree? h. A single father can bring up his child as well as a married couple.

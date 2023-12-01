@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_110.R
 \name{loclived}
 \alias{loclived}
-\title{loclived}
+\title{How long has r lived in community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long has r lived in community
+loclived
 }
 \details{
 Question 335. How long have you been living here in this community?

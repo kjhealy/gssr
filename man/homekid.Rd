@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_477.R
 \name{homekid}
 \alias{homekid}
-\title{homekid}
+\title{Most women really want a home and kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most women really want a home and kids
+homekid
 }
 \details{
 Question 1275. Do you agree or disagree: e. A job is alright, but what most women really want is a home and children.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_202.R
 \name{monyouth}
 \alias{monyouth}
-\title{monyouth}
+\title{H done volunteer work in youth development}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-H done volunteer work in youth development
+monyouth
 }
 \details{
 Question 641. In which, if any, of the areas listed on this card have you done some volunteer work in the past month? k. Youth development

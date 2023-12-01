@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{mcsds3}
 \alias{mcsds3}
-\title{mcsds3}
+\title{At times i have really insisted on having things my own way}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-At times i have really insisted on having things my own way
+mcsds3
 }
 \details{
 Question Next are a number of statements concerning personal attitudes and traits. Please tell me whether the statement is true or false as it pertains to you personally C. At times I have really insisted on having things my own way.

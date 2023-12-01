@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_253.R
 \name{getlang}
 \alias{getlang}
-\title{getlang}
+\title{Where did r learn other language}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where did r learn other language
+getlang
 }
 \details{
 Question 740. Is that a language you first learned as a child at home, in school, or is it one that you learned elsewhere?

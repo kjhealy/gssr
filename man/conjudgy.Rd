@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_53.R
 \name{conjudgy}
 \alias{conjudgy}
-\title{conjudgy}
+\title{United states supreme court:version z}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-United states supreme court:version z
+conjudgy
 }
 \details{
 Question 166. I am going to name some institutions in this country. Some people have complete confidence in the people running these institutions. Suppose these people are at one end of the scale at point number 1. Other people have no confidence at all in teh people running these institutions. Suppose these people are at the other end, at point 7. Where would you place yourself on this scale for: j. U.S. Supreme Court?

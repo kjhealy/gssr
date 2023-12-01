@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_532.R
 \name{amtv}
 \alias{amtv}
-\title{amtv}
+\title{Tv should give preference to american films}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Tv should give preference to american films
+amtv
 }
 \details{
 Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? f. American television should give preference to American films and programs

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_426.R
 \name{typevisa}
 \alias{typevisa}
-\title{typevisa}
+\title{What kind of visa}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What kind of visa
+typevisa
 }
 \details{
 Question What kind of visa?

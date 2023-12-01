@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_388.R
 \name{engda}
 \alias{engda}
-\title{engda}
+\title{Happy if daughter engineer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Happy if daughter engineer
+engda
 }
 \details{
 Question Now I'd like you to consider the following situations. If you had a daughter, how would you feel if she wanted to be an engineer? Would you feel happy, unhappy, or would you not care one way or the other?

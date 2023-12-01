@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_42.R
 \name{cojew}
 \alias{cojew}
-\title{cojew}
+\title{What sort of jew is r's partner currently}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What sort of jew is r's partner currently
+cojew
 }
 \details{
 Question None

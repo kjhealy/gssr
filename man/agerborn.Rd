@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_341.R
 \name{agerborn}
 \alias{agerborn}
-\title{agerborn}
+\title{Age of r at born-again experience}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age of r at born-again experience
+agerborn
 }
 \details{
 Question 996. How old were you when this occurred?

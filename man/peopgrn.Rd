@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_528.R
 \name{peopgrn}
 \alias{peopgrn}
-\title{peopgrn}
+\title{How get people to protect environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How get people to protect environment
+peopgrn
 }
 \details{
 Question Which of these approaches do you think would be the best way of getting people and their families in America to protect the environment?

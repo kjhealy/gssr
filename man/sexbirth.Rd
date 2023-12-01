@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_555.R
 \name{sexbirth}
 \alias{sexbirth}
-\title{sexbirth}
+\title{What sex were you assigned at birth?  (For example, on your birth certificate.)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What sex were you assigned at birth?  (For example, on your birth certificate.)
+sexbirth
 }
 \details{
 Question A. What sex were you assigned at birth? (For example, on your birth certificate)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_646.R
 \name{hlthdmg}
 \alias{hlthdmg}
-\title{hlthdmg}
+\title{Access to public funded health care if damage own health}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Access to public funded health care if damage own health
+hlthdmg
 }
 \details{
 Question (People should have access to publicly funded health care even if they...) Behave in ways that damage their health.

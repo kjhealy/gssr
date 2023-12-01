@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_234.R
 \name{prfmwhy4}
 \alias{prfmwhy4}
-\title{prfmwhy4}
+\title{Imp of wanting to celebrate cultural heritage in decision to attend perf}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of wanting to celebrate cultural heritage in decision to attend perf
+prfmwhy4
 }
 \details{
 Question People attend performances for different reasons. D. How big a reason was wanting to learn about or celebrate your or your family?s cultural heritage in your decision to attend this performance? Was it a major reason, a minor reason, or not a reason at all?

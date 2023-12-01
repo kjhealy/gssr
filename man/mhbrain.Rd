@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_410.R
 \name{mhbrain}
 \alias{mhbrain}
-\title{mhbrain}
+\title{X s situation caused by: brain disease}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X s situation caused by: brain disease
+mhbrain
 }
 \details{
 Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... b. A brain disease or disorder

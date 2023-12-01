@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_405.R
 \name{trtdems}
 \alias{trtdems}
-\title{trtdems}
+\title{Proportion of democrat r trust}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Proportion of democrat r trust
+trtdems
 }
 \details{
 Question 1111b. How many do you think are Democrats? (Would you say...)

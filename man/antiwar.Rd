@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_74.R
 \name{antiwar}
 \alias{antiwar}
-\title{antiwar}
+\title{Anti-war demonstration}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Anti-war demonstration
+antiwar
 }
 \details{
 Question 228 Have you ever taken part in: c. An anti-war demonstration?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_133.R
 \name{blkhouse}
 \alias{blkhouse}
-\title{blkhouse}
+\title{Blacks discriminated in housing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Blacks discriminated in housing
+blkhouse
 }
 \details{
 Question 411b. How much discrimination is there that makes it hard for blacks to buy or rent housing wherever they want?

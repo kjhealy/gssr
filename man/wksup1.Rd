@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_65.R
 \name{wksup1}
 \alias{wksup1}
-\title{wksup1}
+\title{Does r or spouse or partner supervise anyone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r or spouse or partner supervise anyone
+wksup1
 }
 \details{
 Question In your (SPOUSE or PARTNER'S) job, (do you/does he/she) supervise anyone who is directly responsible to (you/him/her)?

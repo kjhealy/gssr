@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_22.R
 \name{if08who}
 \alias{if08who}
-\title{if08who}
+\title{Who you would have voted for}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who you would have voted for
+if08who
 }
 \details{
 Question IF DID NOT VOTE OR INELIGIBLE: Who would you have voted for, for President, if you had voted?

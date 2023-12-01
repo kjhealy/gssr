@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_338.R
 \name{genenvo4}
 \alias{genenvo4}
-\title{genenvo4}
+\title{Gene or learning?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gene or learning?
+genenvo4
 }
 \details{
 Question Character, personality, and many types of behavior are influenced both by the genes people inherit from their parents and by what they learn and experience as they grow up. For each of the following descriptions, we would like you to indicate what percent of the person's behavior you believe is influenced by the genes they inherit, and what percent is influenced by their learning and experience and other aspects of their environment. The boxes on handcard D1 are arranged so that the first box on the LEFT (which is numbered 1) represents 100pct genetic influence (and 0pct environment). The next box (numbered 2) represents 95pct genes (and 5pct environment), and so on. The RIGHTMOST box (numbered 21) represents 100pct environmental influence (and no genetic influence). After each description, please type the number of the box that comes closest to your answer. Please use the numbered scale on handcard D1 to indicate, FOR EACH OF THE BEHAVIORS DESCRIBED, what percent of the person's behavior you think is influenced by the genes they inherit, and what percent is influenced by their learning and experience. After each question, type the number of the box that comes closest to your answer. Remember, the higher the number, the more you think the behavior is influenced by learning and experience; the lower the number, the more you think it is influenced by genes 981. George is a Black man who's a good all-around athlete. He was on the high school varsity swim team and still works out five times a week. (Please type in a number from 1 to 21):

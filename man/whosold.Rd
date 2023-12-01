@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_193.R
 \name{whosold}
 \alias{whosold}
-\title{whosold}
+\title{Describe your purchase}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Describe your purchase
+whosold
 }
 \details{
 Question 602. Which of the following best describes your purchase?

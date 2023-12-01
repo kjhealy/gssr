@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_449.R
 \name{knowpols}
 \alias{knowpols}
-\title{knowpols}
+\title{Public official s treatment depends on who they know}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Public official s treatment depends on who they know
+knowpols
 }
 \details{
 Question 1496. Do you think that the treatment people get from public officials in America depends on who they know?

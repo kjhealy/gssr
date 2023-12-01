@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_286.R
 \name{whatsapp}
 \alias{whatsapp}
-\title{whatsapp}
+\title{Use whatsapp}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use whatsapp
+whatsapp
 }
 \details{
 Question Which of the following social networking or social media sites are you a member or regular user of? Whatsapp

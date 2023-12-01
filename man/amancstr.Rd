@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_535.R
 \name{amancstr}
 \alias{amancstr}
-\title{amancstr}
+\title{How important to have american ancestry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important to have american ancestry
+amancstr
 }
 \details{
 Question 1458. Some people say that the following things are important for being truly American. Others say they are not important. How important do you think it is to have American ancestry?

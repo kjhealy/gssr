@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_219.R
 \name{brkddur}
 \alias{brkddur}
-\title{brkddur}
+\title{Duration, severity of nervous breakdown feelings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Duration, severity of nervous breakdown feelings
+brkddur
 }
 \details{
 Question 5. The duration and severity of R's breakdown.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{mcsds5}
 \alias{mcsds5}
-\title{mcsds5}
+\title{I have never deliberately said something that hurt someone’s feelings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I have never deliberately said something that hurt someone’s feelings
+mcsds5
 }
 \details{
 Question Next are a number of statements concerning personal attitudes and traits. Please tell me whether the statement is true or false as it pertains to you personally E. I have never deliberately said something that hurt someone?s feelings.

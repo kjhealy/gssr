@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_60.R
 \name{anomia3}
 \alias{anomia3}
-\title{anomia3}
+\title{No right & wrong ways to make money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-No right & wrong ways to make money
+anomia3
 }
 \details{
 Question 178. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. c. To make money, there are no right and wrong ways any more, only easy and hard ways.

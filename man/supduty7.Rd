@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_141.R
 \name{supduty7}
 \alias{supduty7}
-\title{supduty7}
+\title{You take promotions or disciplinary actions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You take promotions or disciplinary actions
+supduty7
 }
 \details{
 Question 443. Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities? Please mention all that apply: g. Recommend promotions or disciplinary actions.

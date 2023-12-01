@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_181.R
 \name{feminist}
 \alias{feminist}
-\title{feminist}
+\title{Think yourself as a feminist?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Think yourself as a feminist?
+feminist
 }
 \details{
 Question 569. Do you think of yourself as a feminist or not?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_505.R
 \name{getjob}
 \alias{getjob}
-\title{getjob}
+\title{How likely you would find a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely you would find a job
+getjob
 }
 \details{
 Question 1367. How likely do you think it is that you would find a job?

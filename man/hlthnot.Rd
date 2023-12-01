@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_648.R
 \name{hlthnot}
 \alias{hlthnot}
-\title{hlthnot}
+\title{Felt couldn't overcome probs in last 4 weeks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Felt couldn't overcome probs in last 4 weeks
+hlthnot
 }
 \details{
 Question (During the past 4 weeks how often...) Have you felt you could not overcome your problems?

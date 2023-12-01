@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_142.R
 \name{othduty7}
 \alias{othduty7}
-\title{othduty7}
+\title{You promote or discipline actions, not supervise}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You promote or discipline actions, not supervise
+othduty7
 }
 \details{
 Question 444. (On the card you have/Here is a card listing) 7 different kinds of work activities. Which ones do you do with employees whom you do not officially supervise? Please mention all that apply: g. Recommend promotions or disciplinary actions

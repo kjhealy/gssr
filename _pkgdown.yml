@@ -25,6 +25,12 @@ reference:
     contents:
       - gss_dict
       - gss_panel_doc
+  - title: "Functions"
+    desc: >
+      Convenience functions.
+    contents:
+      - gss_get_yr
+      - gss_which_years
   - title: "Variables"
     desc: >
       GSS Variables in the cumulative data file.

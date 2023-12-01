@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_66.R
 \name{fehome}
 \alias{fehome}
-\title{fehome}
+\title{Women take care of home not country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women take care of home not country
+fehome
 }
 \details{
 Question 199. Do you agree or disagree with this statement? Women should take care of running their homes and leave running the country up to men.

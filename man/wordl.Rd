@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_643.R
 \name{wordl}
 \alias{wordl}
-\title{wordl}
+\title{Word l}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Word l
+wordl
 }
 \details{
 Question Please indicate the word that comes closest to the meaning of the word in capital letters. CONFOUND

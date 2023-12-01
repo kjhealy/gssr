@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_542.R
 \name{polactve}
 \alias{polactve}
-\title{polactve}
+\title{Pol party encourage ppl to be active in politics in am}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pol party encourage ppl to be active in politics in am
+polactve
 }
 \details{
 Question 1481. Thinking now about politics in America, to what extent do you agree or disagree with the following statements? a. Political parties encourage people to become active in politics

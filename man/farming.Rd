@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_389.R
 \name{farming}
 \alias{farming}
-\title{farming}
+\title{How scientific is farming}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is farming
+farming
 }
 \details{
 Question How scientific is each of the following work activities? Farming. Is farming very scientific, pretty scientific, not too scientific, or not scientific at all?

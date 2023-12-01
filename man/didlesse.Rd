@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_295.R
 \name{didlesse}
 \alias{didlesse}
-\title{didlesse}
+\title{Emotion prevent desired activities past 4 wks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Emotion prevent desired activities past 4 wks
+didlesse
 }
 \details{
 Question During the past 4 weeks, have you had any of the following problems with your work or other daily activities as a result of any emotional problems (such as feeling depressed or anxious)? 835. Accomplished less than you would like?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_484.R
 \name{teensex1}
 \alias{teensex1}
-\title{teensex1}
+\title{Morality of teens having sex}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Morality of teens having sex
+teensex1
 }
 \details{
 Question This question was asked immediately following a question about premarital sex between a man and a woman whose ages are not specified. This follow-up question adds a specific age constraint to the previous question. 1303. What if they are in their early teens, say under 16 years old, in that case is it . . .

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_543.R
 \name{polnews}
 \alias{polnews}
-\title{polnews}
+\title{How often use media to get political news}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often use media to get political news
+polnews
 }
 \details{
 Question How often do you use the media, including television, newspapers, radio and the internet, to get political news or information?

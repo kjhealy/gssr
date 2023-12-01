@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_175.R
 \name{hspgovt}
 \alias{hspgovt}
-\title{hspgovt}
+\title{Do hispanic-americans get proper govt attention}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do hispanic-americans get proper govt attention
+hspgovt
 }
 \details{
 Question 539c. Do you think that Hispanic Americans in this country get much more attention from government than they deserve, more attention than they deserve, about the right amount of attention, less attention than they deserve, or much less attention from government than they deserve?

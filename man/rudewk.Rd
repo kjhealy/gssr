@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_337.R
 \name{rudewk}
 \alias{rudewk}
-\title{rudewk}
+\title{Treated rudely at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Treated rudely at work
+rudewk
 }
 \details{
 Question I have been treated in a rude or disrespectful manner at work. Often, sometimes, rarely, never.

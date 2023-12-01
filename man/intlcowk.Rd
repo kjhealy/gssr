@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_425.R
 \name{intlcowk}
 \alias{intlcowk}
-\title{intlcowk}
+\title{How often exchange info with co-workers located outside usa}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often exchange info with co-workers located outside usa
+intlcowk
 }
 \details{
 Question How often do you exchange information with co-workers located outside the United States? Is it...

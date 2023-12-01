@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_77.R
 \name{arrest}
 \alias{arrest}
-\title{arrest}
+\title{Ever picked up or charged by police}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever picked up or charged by police
+arrest
 }
 \details{
 Question 239. Were you ever picked up, or charged, by the police, for any (other) reason whether or not you were guilty?

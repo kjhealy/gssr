@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_374.R
 \name{bizbsttx}
 \alias{bizbsttx}
-\title{bizbsttx}
+\title{Best policy vs narrow interest on fed inc tax: business leader}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Best policy vs narrow interest on fed inc tax: business leader
+bizbsttx
 }
 \details{
 Question 1067. Please look at Card B14. When making policy recommendations about federal income taxes, on a scale of 1 to 5, to what extent do you think the following groups would support what is best for the country as a whole or what serves their own narrow interests? INSTRUCTION: IF ASKED WHAT NARROW INTEREST MEANS: Well, someone might gain financially if a certain policy were adopted or it might advance his or her career. b. Business leaders

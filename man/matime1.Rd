@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_456.R
 \name{matime1}
 \alias{matime1}
-\title{matime1}
+\title{How long does it take to get to where mother live}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long does it take to get to where mother live
+matime1
 }
 \details{
 Question 1217. About how long would it take to get to where your mother lives? Think about the time it usually takes door to door.

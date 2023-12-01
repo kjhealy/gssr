@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_112.R
 \name{schlhead}
 \alias{schlhead}
-\title{schlhead}
+\title{Did r correctly name local school head}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r correctly name local school head
+schlhead
 }
 \details{
 Question 349. What is the name of the head of the local school system?

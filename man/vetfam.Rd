@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_90.R
 \name{vetfam}
 \alias{vetfam}
-\title{vetfam}
+\title{Family members served in armed forces?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Family members served in armed forces?
+vetfam
 }
 \details{
 Question 297. Have any other members of your immediate family - that is, your (spouse/parent/children/brothers or sisters) - ever served in the armed forces?

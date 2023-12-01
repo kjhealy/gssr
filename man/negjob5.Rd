@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_428.R
 \name{negjob5}
 \alias{negjob5}
-\title{negjob5}
+\title{In last 5 yrs, r been denied promo or recvd bad evaluation bc employr belivd r w}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In last 5 yrs, r been denied promo or recvd bad evaluation bc employr belivd r w
+negjob5
 }
 \details{
 Question In the last five years, have you been denied a promotion or received a negative job evaluation because an employer believed you were gay, lesbian, or bisexual?

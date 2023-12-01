@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_300.R
 \name{ethimp}
 \alias{ethimp}
-\title{ethimp}
+\title{Importance of ethnic group to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of ethnic group to r
+ethimp
 }
 \details{
 Question 847. When you think about yourself, how important is your ethnic group membership to your sense of who you are?

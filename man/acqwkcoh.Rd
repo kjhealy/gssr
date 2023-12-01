@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_400.R
 \name{acqwkcoh}
 \alias{acqwkcoh}
-\title{acqwkcoh}
+\title{Number of cohabiting ppl in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of cohabiting ppl in current or previous work
+acqwkcoh
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. o. How many women that you are acquainted with through work are you pretty certain live in a romantic relationship with a man to whom they are not married?

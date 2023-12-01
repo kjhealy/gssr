@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_651.R
 \name{wrkmeangfl}
 \alias{wrkmeangfl}
-\title{wrkmeangfl}
+\title{I find my work meaningful}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I find my work meaningful
+wrkmeangfl
 }
 \details{
 Question (Please tell us whether you strongly agree, agree, disagree, or strongly disagree with each of these statements.) I find my work to be very meaningful.

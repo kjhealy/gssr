@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_489.R
 \name{eldhelp}
 \alias{eldhelp}
-\title{eldhelp}
+\title{Who should provide help for elderly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who should provide help for elderly
+eldhelp
 }
 \details{
 Question Thinking about elderly people who need some help in their everyday lives, such as help with grocery shopping, cleaning the house, doing the laundry, etc. Who do you think should primarily provide this help?

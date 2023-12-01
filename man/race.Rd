@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_13.R
 \name{race}
 \alias{race}
-\title{race}
+\title{Race of respondent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Race of respondent
+race
 }
 \details{
 Question 24. What race do you consider yourself?

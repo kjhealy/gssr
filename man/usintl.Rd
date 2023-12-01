@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_599.R
 \name{usintl}
 \alias{usintl}
-\title{usintl}
+\title{Take active part in world affairs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Take active part in world affairs
+usintl
 }
 \details{
 Question 99. Do you think it will be best for the future of this country if we take an active part in world affairs, or if we stay out of world affairs?

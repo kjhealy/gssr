@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_454.R
 \name{chores1}
 \alias{chores1}
-\title{chores1}
+\title{Help for household tasks #1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Help for household tasks #1
+chores1
 }
 \details{
 Question 1209. First, there are some household and garden jobs you can't really do alone for example, you may need someone to hold a ladder, or to help you move furniture. a. Who would you turn to first for help?

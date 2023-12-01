@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_470.R
 \name{givexec}
 \alias{givexec}
-\title{givexec}
+\title{How much ought corporate head make?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much ought corporate head make?
+givexec
 }
 \details{
 Question 1255. Next, what do you think people in these jobs ought to be paid how much do you think they should earn each year before taxes, regardless of what they actually get? Please write in how much they should earn each year. e. Chairman of a large national corporation

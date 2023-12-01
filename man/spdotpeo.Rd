@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_18.R
 \name{spdotpeo}
 \alias{spdotpeo}
-\title{spdotpeo}
+\title{Sp. d.o.t. code - relation to people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sp. d.o.t. code - relation to people
+spdotpeo
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_497.R
 \name{worecsup}
 \alias{worecsup}
-\title{worecsup}
+\title{Do you worry about losing economic support}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you worry about losing economic support
+worecsup
 }
 \details{
 Question B. To what extent, if at all, do you worry about the possibility of losing this main economic support?

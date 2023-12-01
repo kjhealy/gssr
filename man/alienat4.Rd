@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_49.R
 \name{alienat4}
 \alias{alienat4}
-\title{alienat4}
+\title{You're left out of things}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You're left out of things
+alienat4
 }
 \details{
 Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: d. You're left out of things going on around you?

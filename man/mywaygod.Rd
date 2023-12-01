@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_516.R
 \name{mywaygod}
 \alias{mywaygod}
-\title{mywaygod}
+\title{R has own way of connecting with god without churches or religious services}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has own way of connecting with god without churches or religious services
+mywaygod
 }
 \details{
 Question None

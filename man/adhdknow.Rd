@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_332.R
 \name{adhdknow}
 \alias{adhdknow}
-\title{adhdknow}
+\title{What does r know about adhd}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What does r know about adhd
+adhdknow
 }
 \details{
 Question 955. Please tell me what you know about Attention Deficit/Hyperactivity Disorder or ADHD. PROBE: Anything else?

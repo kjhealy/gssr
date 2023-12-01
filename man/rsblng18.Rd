@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_663.R
 \name{rsblng18}
 \alias{rsblng18}
-\title{rsblng18}
+\title{R has sibling in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has sibling in hh
+rsblng18
 }
 \details{
 Question None

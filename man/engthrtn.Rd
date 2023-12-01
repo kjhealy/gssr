@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_254.R
 \name{engthrtn}
 \alias{engthrtn}
-\title{engthrtn}
+\title{English threatened by languages spoken by immig}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-English threatened by languages spoken by immig
+engthrtn
 }
 \details{
 Question 745. Now please tell us whether you strongly agree, agree, disagree or strongly disagree with each of these statements: e. English will be threatened if other languages are frequently used in large immigrant communities in the U.S.

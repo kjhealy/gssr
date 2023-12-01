@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_591.R
 \name{hefinfo}
 \alias{hefinfo}
-\title{hefinfo}
+\title{Number of hef informant}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of hef informant
+hefinfo
 }
 \details{
 Question 1623. Number in family of person who was household informant (i.e. who provided information on household members).

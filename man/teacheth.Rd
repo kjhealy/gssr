@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_174.R
 \name{teacheth}
 \alias{teacheth}
-\title{teacheth}
+\title{Ethnicity of college faculty reflect students}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ethnicity of college faculty reflect students
+teacheth
 }
 \details{
 Question 536. Some people say that it is only fair in a society liek ours, people holding public office should have roughly the same racial or ethnic background as the population as a whole. So, for example, if 30pct of the people were Hispanic, then 30pct of the public officials should be Hispanic as well. Others say that in choosing people for public office they should be considered purely on the basis of ability without regard to their ethnic or racial background. Let me ask you abou these ideas in several different areas: b. What about teachers in public schools or universities? Should they have roughly the same racial or ethnic background as their students, or should they be considered purely on the basis of their ability without regard to their racial or ethnic background?

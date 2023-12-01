@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_496.R
 \name{moveaway}
 \alias{moveaway}
-\title{moveaway}
+\title{I would move outside the usa for work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I would move outside the usa for work
+moveaway
 }
 \details{
 Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? F. To move to a different country.

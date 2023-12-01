@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_37.R
 \name{mindbody}
 \alias{mindbody}
-\title{mindbody}
+\title{Afterlife contrast: spiritual or sensual}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Afterlife contrast: spiritual or sensual
+mindbody
 }
 \details{
 Question 109. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7, where would you place your image of life after death. b. 1. A spiritual life, involving our mind but not our body. 2. A paradise of pleasure and delights.

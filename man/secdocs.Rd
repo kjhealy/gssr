@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_568.R
 \name{secdocs}
 \alias{secdocs}
-\title{secdocs}
+\title{Does govt classify too many documents as secrets}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does govt classify too many documents as secrets
+secdocs
 }
 \details{
 Question 1583. Given the world situation, the government protects too many documents by classifying them as SECRET and TOP SECRET. Do you . . .

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_447.R
 \name{runbanks}
 \alias{runbanks}
-\title{runbanks}
+\title{Banks should mainly be run by private}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Banks should mainly be run by private
+runbanks
 }
 \details{
 Question 1197. Do you think each of the following should mainly be run by private organizations or companies, or by the government? c. Banks

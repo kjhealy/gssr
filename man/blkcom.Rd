@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_258.R
 \name{blkcom}
 \alias{blkcom}
-\title{blkcom}
+\title{Does r know blacks from community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know blacks from community
+blkcom
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. b. Do you know any of these blacks from the community where you now live?

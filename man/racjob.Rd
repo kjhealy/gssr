@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_46.R
 \name{racjob}
 \alias{racjob}
-\title{racjob}
+\title{Equal opportunities on jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Equal opportunities on jobs
+racjob
 }
 \details{
 Question 136. Do you think Negroes should have as good a chance as white people to get any kind of job, or do you think white people whould have the first chance aat any kind of job?

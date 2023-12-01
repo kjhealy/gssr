@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_111.R
 \name{loctrust}
 \alias{loctrust}
-\title{loctrust}
+\title{How much trust does r have in local gov}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much trust does r have in local gov
+loctrust
 }
 \details{
 Question 326. How much of the time do you think you can trust the local government here is to do what is right?

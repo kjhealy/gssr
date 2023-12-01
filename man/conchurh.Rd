@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_509.R
 \name{conchurh}
 \alias{conchurh}
-\title{conchurh}
+\title{Confidence in churches and religious orgs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confidence in churches and religious orgs
+conchurh
 }
 \details{
 Question 1378. How much confidence do you have in. . . d. Churches and religious organizations

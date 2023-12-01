@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_272.R
 \name{artmus1}
 \alias{artmus1}
-\title{artmus1}
+\title{Use web to learn about upcoming exhibits}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to learn about upcoming exhibits
+artmus1
 }
 \details{
 Question 786b. Visit the Web site of an art museum or art gallery in order to learn about upcoming exhibits or to get information before visiting that museum?

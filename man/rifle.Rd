@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_76.R
 \name{rifle}
 \alias{rifle}
-\title{rifle}
+\title{Rifle in home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rifle in home
+rifle
 }
 \details{
 Question 237a. If yes: Is it a pistol, shotgun, rigfle, or what? RIFLE

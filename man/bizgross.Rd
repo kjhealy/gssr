@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_417.R
 \name{bizgross}
 \alias{bizgross}
-\title{bizgross}
+\title{Business revenue last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Business revenue last year
+bizgross
 }
 \details{
 Question In which of these groups did the revenues from this business fall for last year? IF R HAS MORE THAN ONE BUSINESS/FARM/PARTNERSHIP, ASK ABOUT THE PRIMARY BUSINESS THEY ARE INVOLVED IN.

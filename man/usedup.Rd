@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_311.R
 \name{usedup}
 \alias{usedup}
-\title{usedup}
+\title{How often during past month r felt used up}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often during past month r felt used up
+usedup
 }
 \details{
 Question 909. How often during the past month have you felt used up at the end of the day?

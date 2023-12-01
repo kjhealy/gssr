@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_660.R
 \name{mascself}
 \alias{mascself}
-\title{mascself}
+\title{How masculine r sees self}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How masculine r sees self
+mascself
 }
 \details{
 Question None

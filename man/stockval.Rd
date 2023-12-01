@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_320.R
 \name{stockval}
 \alias{stockval}
-\title{stockval}
+\title{Total dollar value of r's stock}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total dollar value of r's stock
+stockval
 }
 \details{
 Question 916. Please give a general estimate of how much cash you would get if all this stock were sold today?

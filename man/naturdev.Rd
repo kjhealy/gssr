@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_628.R
 \name{naturdev}
 \alias{naturdev}
-\title{naturdev}
+\title{Accept a reduction in the size of protected nature areas in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Accept a reduction in the size of protected nature areas in america
+naturdev
 }
 \details{
 Question How willing would you be to accept a reduction in the size of America's protected nature areas, in order to open them up for economic development?

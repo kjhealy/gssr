@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_04.R
 \name{widowed}
 \alias{widowed}
-\title{widowed}
+\title{Ever been widowed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever been widowed
+widowed
 }
 \details{
 Question 4c. if currently married, separated, or divorced: Have you ever been widowed?

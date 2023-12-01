@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_114.R
 \name{switage2}
 \alias{switage2}
-\title{switage2}
+\title{How old was r when second switch}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How old was r when second switch
+switage2
 }
 \details{
 Question 358c1. How old were you when you switched to \link{RELIGION}?

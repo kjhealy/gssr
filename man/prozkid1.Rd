@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_248.R
 \name{prozkid1}
 \alias{prozkid1}
-\title{prozkid1}
+\title{Give kid prozac if is hostile}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Give kid prozac if is hostile
+prozkid1
 }
 \details{
 Question 727. How likely would you be to give doctor prescribed Prozac to your child or a child you were responsible for in the following situations (A child would be considered anyone between the age of 8 and 15). a. because s/he is hostile, often loses his/her temper, often argues with adults, actively defies authority and seems spiteful or vindictive.

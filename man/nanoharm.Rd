@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_380.R
 \name{nanoharm}
 \alias{nanoharm}
-\title{nanoharm}
+\title{Balance will be strongly in favor of the benefits or slightly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Balance will be strongly in favor of the benefits or slightly
+nanoharm
 }
 \details{
 Question Would you say that the balance will be strongly in favor of the harmful results, or only slightly?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_163.R
 \name{kdwork2}
 \alias{kdwork2}
-\title{kdwork2}
+\title{Does r child do paid or unpaid work?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r child do paid or unpaid work?
+kdwork2
 }
 \details{
 Question 505. Does s/he do any work at all, even if it's only a part-time job? Include unapid work of 15 or more hours per week in a family business or farm.

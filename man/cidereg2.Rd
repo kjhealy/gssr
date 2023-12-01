@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_547.R
 \name{cidereg2}
 \alias{cidereg2}
-\title{cidereg2}
+\title{Region of murder victim 2nd closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Region of murder victim 2nd closest to r
+cidereg2
 }
 \details{
 Question 1522. We would like to know a few things about that person. d. What state did this person live in?

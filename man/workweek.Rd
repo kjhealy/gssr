@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_498.R
 \name{workweek}
 \alias{workweek}
-\title{workweek}
+\title{Does r work at least 10 hrs/wk}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r work at least 10 hrs/wk
+workweek
 }
 \details{
 Question 1329. Do you usually work 10 hours or more per week for pay in your main job?

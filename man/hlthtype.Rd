@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_429.R
 \name{hlthtype}
 \alias{hlthtype}
-\title{hlthtype}
+\title{Source of health insurance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Source of health insurance
+hlthtype
 }
 \details{
 Question What is the source of your health insurance?

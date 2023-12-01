@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_135.R
 \name{wrkyears}
 \alias{wrkyears}
-\title{wrkyears}
+\title{#Years you have worked for pay since were 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-#Years you have worked for pay since were 16
+wrkyears
 }
 \details{
 Question 420. Since you were 16 years old, about how many years have you worked for pay?

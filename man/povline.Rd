@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_567.R
 \name{povline}
 \alias{povline}
-\title{povline}
+\title{R's hh poverty status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's hh poverty status
+povline
 }
 \details{
 Question 1576a. Poverty Status of Household

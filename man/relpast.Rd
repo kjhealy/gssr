@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_517.R
 \name{relpast}
 \alias{relpast}
-\title{relpast}
+\title{In america, religion represents the past and not the future.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In america, religion represents the past and not the future.
+relpast
 }
 \details{
 Question Do you agree or disagree with the following statement? A. In America, religion represents the past and not the future.

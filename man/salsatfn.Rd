@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_82.R
 \name{salsatfn}
 \alias{salsatfn}
-\title{salsatfn}
+\title{Salience, financial satisfaction}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Salience, financial satisfaction
+salsatfn
 }
 \details{
 Question 237. How often would you say that you and your friends think about topics we've been discussing during the interview? c. Satisfaction with their present financial situation.

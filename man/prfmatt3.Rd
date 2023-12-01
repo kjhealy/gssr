@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_233.R
 \name{prfmatt3}
 \alias{prfmatt3}
-\title{prfmatt3}
+\title{Attended with friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attended with friend
+prfmatt3
 }
 \details{
 Question Did any of the following go with you? C. Friend

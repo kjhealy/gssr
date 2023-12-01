@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_319.R
 \name{pigb4}
 \alias{pigb4}
-\title{pigb4}
+\title{Pig}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pig
+pigb4
 }
 \details{
 Question What kind of pet\link{s} did your family have? H. Pig

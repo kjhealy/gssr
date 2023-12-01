@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_637.R
 \name{grassv}
 \alias{grassv}
-\title{grassv}
+\title{Should marijuana be made legal (with volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should marijuana be made legal (with volunteered response on web)
+grassv
 }
 \details{
 Question None

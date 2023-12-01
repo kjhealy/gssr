@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_533.R
 \name{immjobs}
 \alias{immjobs}
-\title{immjobs}
+\title{Immigrants take jobs away}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immigrants take jobs away
+immjobs
 }
 \details{
 Question 1445. There are different opinions about immigrants from other countries living in America. (By "immigrants" we mean people who come to settle in America.) How much do you agree or disagree with each of the following statements? c. Immigrants take jobs away from people who were born in America

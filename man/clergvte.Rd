@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_510.R
 \name{clergvte}
 \alias{clergvte}
-\title{clergvte}
+\title{Clergy shouldn't try to influence voters}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Clergy shouldn't try to influence voters
+clergvte
 }
 \details{
 Question 1379. How much do you agree or disagree with each of the following... b. Religious leaders should not try to influence how people vote in elections.

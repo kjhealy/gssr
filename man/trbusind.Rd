@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_628.R
 \name{trbusind}
 \alias{trbusind}
-\title{trbusind}
+\title{How much do you trust business and industry?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much do you trust business and industry?
+trbusind
 }
 \details{
 Question How much do you trust business and industry?

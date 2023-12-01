@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_156.R
 \name{fstspyr}
 \alias{fstspyr}
-\title{fstspyr}
+\title{Year first spouse born}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Year first spouse born
+fstspyr
 }
 \details{
 Question 491. Now, I have some questions about your (first/former) (husband/wife). In what year was your (first/former) (husband/wife) born?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_320.R
 \name{extrapay}
 \alias{extrapay}
-\title{extrapay}
+\title{Eligible for performance based pay}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Eligible for performance based pay
+extrapay
 }
 \details{
 Question 918. In your job are you eligible for any type of performance-based pay, such as individual or group bonuses or any type of profit-sharing?

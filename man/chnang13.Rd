@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_189.R
 \name{chnang13}
 \alias{chnang13}
-\title{chnang13}
+\title{Left the situation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Left the situation
+chnang13
 }
 \details{
 Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? m. Left the situation

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_529.R
 \name{movetown}
 \alias{movetown}
-\title{movetown}
+\title{Willing to move to another town or city}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Willing to move to another town or city
+movetown
 }
 \details{
 Question 1437. If you could improve your work or living conditions, how willing or unwilling would you be to... b. Move to another town or city within this state

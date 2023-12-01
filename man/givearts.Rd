@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_123.R
 \name{givearts}
 \alias{givearts}
-\title{givearts}
+\title{Contributions to arts culture humanities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contributions to arts culture humanities
+givearts
 }
 \details{
 Question 390d. Were any of your contributions to organizations involved in the arts, culture, or the humanities?

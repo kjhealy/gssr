@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_35.R
 \name{spattend}
 \alias{spattend}
-\title{spattend}
+\title{How often sp attends religious services}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often sp attends religious services
+spattend
 }
 \details{
 Question 106c. How often does your \link{husband/wife} attend religious services?

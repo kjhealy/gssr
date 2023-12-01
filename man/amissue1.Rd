@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_171.R
 \name{amissue1}
 \alias{amissue1}
-\title{amissue1}
+\title{Degree r invokes primary identity as american}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Degree r invokes primary identity as american
+amissue1
 }
 \details{
 Question 516c. Do you think of yourself as "just an American" on all issues, most issues, some issues, or just a few issues?

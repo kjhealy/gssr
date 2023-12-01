@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_345.R
 \name{evdrink}
 \alias{evdrink}
-\title{evdrink}
+\title{Ever drank any alcoholic beverage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever drank any alcoholic beverage
+evdrink
 }
 \details{
 Question 1016. Was there ever a time when you drank any alcoholic beverages?

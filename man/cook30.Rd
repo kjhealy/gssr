@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_266.R
 \name{cook30}
 \alias{cook30}
-\title{cook30}
+\title{R use cooking site in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use cooking site in past 30 days
+cook30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: u. Cooking, recipes?

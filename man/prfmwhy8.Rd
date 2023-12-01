@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_234.R
 \name{prfmwhy8}
 \alias{prfmwhy8}
-\title{prfmwhy8}
+\title{Imp of specific individ performer in decision to attend perf}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of specific individ performer in decision to attend perf
+prfmwhy8
 }
 \details{
 Question People attend performances for different reasons. H. How big a reason was wanting to see a specific, individual performer in your decision to attend this performance? Was it a major reason, a minor reason, or not a reason at all?

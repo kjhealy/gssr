@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_45.R
 \name{racclos}
 \alias{racclos}
-\title{racclos}
+\title{Any opp. race living close to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Any opp. race living close to r
+racclos
 }
 \details{
 Question 129a. Are there any (negro/black/African-American) families living close to you?

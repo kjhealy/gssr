@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_642.R
 \name{vote20}
 \alias{vote20}
-\title{vote20}
+\title{Remember if voted in 2020 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Remember if voted in 2020 election
+vote20
 }
 \details{
 Question In 2020, you remember that Joe Biden ran for President on the Democratic ticket against Donald Trump for the Republicans. Do you remember for sure whether or not you voted in that election?

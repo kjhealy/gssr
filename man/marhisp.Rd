@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_131.R
 \name{marhisp}
 \alias{marhisp}
-\title{marhisp}
+\title{Close relative marry hispanic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Close relative marry hispanic
+marhisp
 }
 \details{
 Question 405. What about having a close relative marry a Hispanic American person? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?

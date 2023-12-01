@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_513.R
 \name{attendpa}
 \alias{attendpa}
-\title{attendpa}
+\title{Freq of r's dad's relig svc attendance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Freq of r's dad's relig svc attendance
+attendpa
 }
 \details{
 Question 1391. When you were a child, how often did your father attend religious services?

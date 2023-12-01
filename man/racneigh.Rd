@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_47.R
 \name{racneigh}
 \alias{racneigh}
-\title{racneigh}
+\title{Neighborhood r would like to live in}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Neighborhood r would like to live in
+racneigh
 }
 \details{
 Question 142. If you could find the housing that you would want and like, would you rather live in a neighborhood that is all black; mostly black; half black, half white; or mostly white?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_490.R
 \name{wkkidscl}
 \alias{wkkidscl}
-\title{wkkidscl}
+\title{Did r work outside home with child under school age}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r work outside home with child under school age
+wkkidscl
 }
 \details{
 Question Did you work outside the home full-time, part-time, or not at all? When a child was under school age?

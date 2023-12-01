@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_446.R
 \name{poleff14}
 \alias{poleff14}
-\title{poleff14}
+\title{Elections a good way of making gov pay attention}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Elections a good way of making gov pay attention
+poleff14
 }
 \details{
 Question 1194. How much do you agree or disagree with each of the following statements? d. Elections are a good way of making governments pay attention to what the people think

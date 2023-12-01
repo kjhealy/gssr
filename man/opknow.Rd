@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_467.R
 \name{opknow}
 \alias{opknow}
-\title{opknow}
+\title{Need to know right people to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need to know right people to get ahead
+opknow
 }
 \details{
 Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . g. Knowing the right people?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_71.R
 \name{pornlaw}
 \alias{pornlaw}
-\title{pornlaw}
+\title{Feelings about pornography laws}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feelings about pornography laws
+pornlaw
 }
 \details{
 Question 222. Which of these statements comes closest to your feelings about pornography laws: 1. There should be laws against the distribution of pornography whatever the age. 2. There should be laws against the distribution of pornography to persons under 18. 3. There should be no laws forbidding the distribution of pornography.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_473.R
 \name{conurban}
 \alias{conurban}
-\title{conurban}
+\title{Farmer's and city people in conflict?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Farmer's and city people in conflict?
+conurban
 }
 \details{
 Question 1259. In all countries, there are differences or conflicts between different social groups. In your opinion, in America, how much conflict is there between . . . e. Farmers and city people?

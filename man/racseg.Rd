@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_44.R
 \name{racseg}
 \alias{racseg}
-\title{racseg}
+\title{Whites have right to seg. neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Whites have right to seg. neighborhood
+racseg
 }
 \details{
 Question 127. Here are some opinions other people have expressed in connection with (negro/black)-white relations. Do you agree or disagree with each statement: b. White people have a right to keep (negroes/blacks/African-Americans) out of their neighborhoods if they want to, and (negroes/blacks/African-Americans) should respect that right.

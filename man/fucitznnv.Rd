@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_640.R
 \name{fucitznnv}
 \alias{fucitznnv}
-\title{fucitznnv}
+\title{Is r planning/appling for us citizenship or not (no volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r planning/appling for us citizenship or not (no volunteered response on web)
+fucitznnv
 }
 \details{
 Question None

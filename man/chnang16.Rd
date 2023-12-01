@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_189.R
 \name{chnang16}
 \alias{chnang16}
-\title{chnang16}
+\title{Other (specify)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other (specify)
+chnang16
 }
 \details{
 Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? p. Other (specify)

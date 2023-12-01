@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_396.R
 \name{acqfmblk}
 \alias{acqfmblk}
-\title{acqfmblk}
+\title{Number of black family member}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of black family member
+acqfmblk
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. g. How many are Black or African-American?

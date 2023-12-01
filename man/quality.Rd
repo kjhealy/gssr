@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_142.R
 \name{quality}
 \alias{quality}
-\title{quality}
+\title{How easy your supervisor know how good you are}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How easy your supervisor know how good you are
+quality
 }
 \details{
 Question 450. How easy or hard would you say it is for your supervisor to evaluate the quality of the work that is doen by a person in a job like yours?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_551.R
 \name{aidsads}
 \alias{aidsads}
-\title{aidsads}
+\title{Have govt info pgm on safe sex practices}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have govt info pgm on safe sex practices
+aidsads
 }
 \details{
 Question 1539. Do you support or oppose the following measures to deal with AIDS? b.Develop a government information program to promote safe sex practices, such as the use of condoms

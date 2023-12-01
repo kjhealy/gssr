@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_443.R
 \name{ownautos}
 \alias{ownautos}
-\title{ownautos}
+\title{Govts role in automobile industry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts role in automobile industry
+ownautos
 }
 \details{
 Question 1187. What do you think the government's role in each of these industries should be? e. The automobile industry

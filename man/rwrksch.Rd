@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_482.R
 \name{rwrksch}
 \alias{rwrksch}
-\title{rwrksch}
+\title{Did r work after youngest in school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r work after youngest in school
+rwrksch
 }
 \details{
 Question 1294. Did you work outside the home full-time, part-time, or not at all... c. After the youngest child started school?

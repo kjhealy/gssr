@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_321.R
 \name{indperf}
 \alias{indperf}
-\title{indperf}
+\title{Size of perf based pay depend on individual}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Size of perf based pay depend on individual
+indperf
 }
 \details{
 Question 919c. Does the size of these performance-based payments depend on individual performance?

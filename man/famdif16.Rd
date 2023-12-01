@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_14.R
 \name{famdif16}
 \alias{famdif16}
-\title{famdif16}
+\title{Reason not living with parents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Reason not living with parents
+famdif16
 }
 \details{
 Question 27a. If not living with both own mother and father: What happened?

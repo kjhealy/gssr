@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_397.R
 \name{acqfmcoh}
 \alias{acqfmcoh}
-\title{acqfmcoh}
+\title{Number of cohabiting family member}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of cohabiting family member
+acqfmcoh
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. o. How many women in your family live in a romantic relationship with a man to whom they are not married?

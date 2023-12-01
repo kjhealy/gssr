@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_23.R
 \name{vote12}
 \alias{vote12}
-\title{vote12}
+\title{Did r vote in 2012 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r vote in 2012 election
+vote12
 }
 \details{
 Question Do you remember for sure whether or not you voted in that election?

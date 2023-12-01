@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_69.R
 \name{chldnum}
 \alias{chldnum}
-\title{chldnum}
+\title{How many children expected}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many children expected
+chldnum
 }
 \details{
 Question 212a. How many (more)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_167.R
 \name{sbrel8}
 \alias{sbrel8}
-\title{sbrel8}
+\title{R relation to r 8th sibling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R relation to r 8th sibling
+sbrel8
 }
 \details{
 Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. d. Is \link{NAME} your full, adopted, step, or half (sister/brother)?

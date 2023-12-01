@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_655.R
 \name{brv5filnum}
 \alias{brv5filnum}
-\title{brv5filnum}
+\title{Number of father in law deaths}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of father in law deaths
+brv5filnum
 }
 \details{
 Question Number

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_598.R
 \name{copres10}
 \alias{copres10}
-\title{copres10}
+\title{Partner's occupational prestige score (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner's occupational prestige score (2010)
+copres10
 }
 \details{
 Question None

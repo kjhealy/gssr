@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_460.R
 \name{frdhelps}
 \alias{frdhelps}
-\title{frdhelps}
+\title{Should close friend be someone who helps r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should close friend be someone who helps r
+frdhelps
 }
 \details{
 Question 1242. People look for various things in a close friend and can differ on how important or not some things are for them. Please select a response to say how important or not it is for close friends of yours to be each of the following: b. someone who helps me get things done

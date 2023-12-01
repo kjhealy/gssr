@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_181.R
 \name{fehire}
 \alias{fehire}
-\title{fehire}
+\title{Should hire and promote women}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should hire and promote women
+fehire
 }
 \details{
 Question 568. Now I'm going to read several statements. As I read each one, please tell me whether you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree: Because of past discrimination, employers should make special efforts to hire and promote qualified women.

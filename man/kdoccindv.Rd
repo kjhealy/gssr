@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_164.R
 \name{kdoccindv}
 \alias{kdoccindv}
-\title{kdoccindv}
+\title{Kid's occ/ind verbatim retrieved}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kid's occ/ind verbatim retrieved
+kdoccindv
 }
 \details{
 Question None

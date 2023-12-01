@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_89.R
 \name{draftem}
 \alias{draftem}
-\title{draftem}
+\title{If emergency, return to draft?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If emergency, return to draft?
+draftem
 }
 \details{
 Question 295b. If volunteers or don't know: If there were a national emergency, do you think we should return to a military draft or should we continue to rely on volunteers?

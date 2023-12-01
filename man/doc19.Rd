@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_246.R
 \name{doc19}
 \alias{doc19}
-\title{doc19}
+\title{Doctor a real expert in taking care problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctor a real expert in taking care problem
+doc19
 }
 \details{
 Question 722. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. s. My doctor is a real expert in taking care of medical problems like

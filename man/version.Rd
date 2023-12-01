@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_608.R
 \name{version}
 \alias{version}
-\title{version}
+\title{Version of questionnaire}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Version of questionnaire
+version
 }
 \details{
 Question 1660. Version Administered.

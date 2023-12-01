@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_645.R
 \name{hlthctzn}
 \alias{hlthctzn}
-\title{hlthctzn}
+\title{Access to public funded health care if not citizen}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Access to public funded health care if not citizen
+hlthctzn
 }
 \details{
 Question How much do you agree or disagree with the following statements? People should have access to publicly funded health care even if they... Do not hold citizenship of the United States.

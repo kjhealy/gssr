@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_535.R
 \name{freetrde}
 \alias{freetrde}
-\title{freetrde}
+\title{Free trade leads to better products}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Free trade leads to better products
+freetrde
 }
 \details{
 Question 1460. How much do you agree or disagree with the following statements? b. Free trade leads to better products becoming available in America.

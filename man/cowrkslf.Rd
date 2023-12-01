@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_04.R
 \name{cowrkslf}
 \alias{cowrkslf}
-\title{cowrkslf}
+\title{Partner self-emp. or works for somebody else}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner self-emp. or works for somebody else
+cowrkslf
 }
 \details{
 Question None

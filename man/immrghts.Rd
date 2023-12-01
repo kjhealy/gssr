@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_536.R
 \name{immrghts}
 \alias{immrghts}
-\title{immrghts}
+\title{Legal immigrants should have same right as american}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Legal immigrants should have same right as american
+immrghts
 }
 \details{
 Question 1461. There are different opinions about immigrants from other countries living in America. (By "immigrants" we mean people who come to settle in America). How much do you agree or disagree with each of the following statements? e. Legal immigrants to America who are not citizens should have the same rights as American citizens.

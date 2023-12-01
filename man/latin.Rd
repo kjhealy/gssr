@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_148.R
 \name{latin}
 \alias{latin}
-\title{latin}
+\title{Like or dislike latin music}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Like or dislike latin music
+latin
 }
 \details{
 Question 472. I'm going to read you a list of some types of music. Can you tell me which of the statements on this card comes closest to your feeling about each type of music. j. Latin/Mariachi/Salsa

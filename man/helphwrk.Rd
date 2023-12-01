@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_459.R
 \name{helphwrk}
 \alias{helphwrk}
-\title{helphwrk}
+\title{Helped someone with hwork during past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Helped someone with hwork during past 12 months
+helphwrk
 }
 \details{
 Question 1240. During the past 12 months, how often have you done any of the following things for people you know personally, such as relatives, friends, neighbors or other acquaintances? a. Helped someone outside of your household with housework or shopping

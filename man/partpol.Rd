@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_294.R
 \name{partpol}
 \alias{partpol}
-\title{partpol}
+\title{Political participation important for freedom}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Political participation important for freedom
+partpol
 }
 \details{
 Question 828. I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important? d. Freedom is having the right to participate in politics and elections.

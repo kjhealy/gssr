@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_211.R
 \name{mentlill}
 \alias{mentlill}
-\title{mentlill}
+\title{How likely x is experiencing mental illness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x is experiencing mental illness
+mentlill
 }
 \details{
 Question 651. In your opinion, how likely is it that NAME is experiencing (READ a-e) -- very likely, somewhat likely, not very likely, or not at all likely? (In Part e, read only the phrase following the letter of the Vignette) c. A mental illness

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_332.R
 \name{adhdcon}
 \alias{adhdcon}
-\title{adhdcon}
+\title{Children should be given counseling for adhd}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children should be given counseling for adhd
+adhdcon
 }
 \details{
 Question 958. Should children be given counseling for ADHD?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_486.R
 \name{hhwkdis}
 \alias{hhwkdis}
-\title{hhwkdis}
+\title{How often r and spouse disagree sharing of hh wrk}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r and spouse disagree sharing of hh wrk
+hhwkdis
 }
 \details{
 Question 1312. How often do you and your spouse/partner disagree about the sharing of household work?

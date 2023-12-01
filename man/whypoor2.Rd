@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_125.R
 \name{whypoor2}
 \alias{whypoor2}
-\title{whypoor2}
+\title{Loose morals and drunkenness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Loose morals and drunkenness
+whypoor2
 }
 \details{
 Question 401. Now I will list reasons some people give to explain why there are poor people in this country. Please tell me whether you feel each of these is very important, somewhat important, or not important in explaining why there are poor people in this country. b. Loose morals and drunkennes

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_34.R
 \name{wirtap}
 \alias{wirtap}
-\title{wirtap}
+\title{Wiretapping}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Wiretapping
+wirtap
 }
 \details{
 Question 94. Everything considered, would you say that, in general, you approve or disapprove of wiretapping?

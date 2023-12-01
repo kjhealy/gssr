@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_482.R
 \name{evdiv}
 \alias{evdiv}
-\title{evdiv}
+\title{Has r ever been divorced}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r ever been divorced
+evdiv
 }
 \details{
 Question 1291. Were you ever divorced?

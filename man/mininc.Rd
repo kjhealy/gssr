@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_64.R
 \name{mininc}
 \alias{mininc}
-\title{mininc}
+\title{Minimum amount of income needed per week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minimum amount of income needed per week
+mininc
 }
 \details{
 Question 190. What is the smallest amount of money a family of four (husband, wife, and two children) needs each week to get along in this community?

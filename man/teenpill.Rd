@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_69.R
 \name{teenpill}
 \alias{teenpill}
-\title{teenpill}
+\title{Birth control information to teens}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Birth control information to teens
+teenpill
 }
 \details{
 Question 213b. Do you think birth control information should be avaialable to teenagers who want it, or not?

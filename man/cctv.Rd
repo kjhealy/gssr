@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_448.R
 \name{cctv}
 \alias{cctv}
-\title{cctv}
+\title{Civil liberties - video surveillance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Civil liberties - video surveillance
+cctv
 }
 \details{
 Question Now I have some questions about civil liberties and public security. Do you think that the American gov have the right to do the following? A. Keep people under video surveillance in public areas? Would you say?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_429.R
 \name{hlthcovr}
 \alias{hlthcovr}
-\title{hlthcovr}
+\title{R has health insurance coverage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has health insurance coverage
+hlthcovr
 }
 \details{
 Question Do you currently have health insurance coverage?

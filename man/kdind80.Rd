@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_164.R
 \name{kdind80}
 \alias{kdind80}
-\title{kdind80}
+\title{R child industry code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R child industry code (1980)
+kdind80
 }
 \details{
 Question 507c. What kind of place does/did s/he work for? d. What do/did they make/do?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_500.R
 \name{rleisure}
 \alias{rleisure}
-\title{rleisure}
+\title{R's job leaves much leisure time}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's job leaves much leisure time
+rleisure
 }
 \details{
 Question 1335. For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. d. My job leaves a lot of leisure time

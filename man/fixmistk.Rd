@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_542.R
 \name{fixmistk}
 \alias{fixmistk}
-\title{fixmistk}
+\title{How likely govt admnstrtor's be corrected when making}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely govt admnstrtor's be corrected when making
+fixmistk
 }
 \details{
 Question 1485. When the government administrators make serious mistakes in America how likely is it that they will be corrected?

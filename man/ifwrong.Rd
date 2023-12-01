@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_530.R
 \name{ifwrong}
 \alias{ifwrong}
-\title{ifwrong}
+\title{Agree people should support their country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Agree people should support their country
+ifwrong
 }
 \details{
 Question 1440. How much do you agree or disagree with the following statements? e. People should support their country even if the country is in the wrong

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_640.R
 \name{biblenv}
 \alias{biblenv}
-\title{biblenv}
+\title{Feelings about the bible (no volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feelings about the bible (no volunteered response on web)
+biblenv
 }
 \details{
 Question None

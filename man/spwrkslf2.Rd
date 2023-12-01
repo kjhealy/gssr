@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_641.R
 \name{spwrkslf2}
 \alias{spwrkslf2}
-\title{spwrkslf2}
+\title{Spouse self-employed, with employees, or work for someone else}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse self-employed, with employees, or work for someone else
+spwrkslf2
 }
 \details{
 Question None

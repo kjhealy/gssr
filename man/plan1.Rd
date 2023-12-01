@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_644.R
 \name{plan1}
 \alias{plan1}
-\title{plan1}
+\title{Who in household plans social activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who in household plans social activities
+plan1
 }
 \details{
 Question (In your household who does the following things...?) Plans and organizes social and family activities?

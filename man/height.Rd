@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_312.R
 \name{height}
 \alias{height}
-\title{height}
+\title{R is how tall}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is how tall
+height
 }
 \details{
 Question About how tall are you without shoes?

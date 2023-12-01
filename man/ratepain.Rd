@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_315.R
 \name{ratepain}
 \alias{ratepain}
-\title{ratepain}
+\title{In the past 7 days, r's average pain}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In the past 7 days, r's average pain
+ratepain
 }
 \details{
 Question On a scale from 0 to 10, with 0 meaning no pain and 10 being the worst imaginable pain, how would you rate your pain on average?

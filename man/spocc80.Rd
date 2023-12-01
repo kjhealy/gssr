@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_05.R
 \name{spocc80}
 \alias{spocc80}
-\title{spocc80}
+\title{Spouse census occupation code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse census occupation code (1980)
+spocc80
 }
 \details{
 Question 7. Spouse's occupation, prestige, and industry.

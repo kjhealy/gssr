@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_58.R
 \name{socommun}
 \alias{socommun}
-\title{socommun}
+\title{Spend evening with neighbor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spend evening with neighbor
+socommun
 }
 \details{
 Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: b. Spend a social evening with someone who lives in your neighborhood.

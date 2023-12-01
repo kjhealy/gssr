@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_542.R
 \name{corruptn}
 \alias{corruptn}
-\title{corruptn}
+\title{How widespread corruption is in pub service in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How widespread corruption is in pub service in america
+corruptn
 }
 \details{
 Question 1486. How widespread do you think corruption is in the public service in America?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_317.R
 \name{natlack}
 \alias{natlack}
-\title{natlack}
+\title{There is a lack of interesting activities in natural environments}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-There is a lack of interesting activities in natural environments
+natlack
 }
 \details{
 Question Thinking about your day to day experience of nature, please tell me how much do you agree or disagree with the following statements. E. There is a lack of interesting activities in natural environments.

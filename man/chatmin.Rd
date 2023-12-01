@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_263.R
 \name{chatmin}
 \alias{chatmin}
-\title{chatmin}
+\title{Chatroom minutes per week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Chatroom minutes per week
+chatmin
 }
 \details{
 Question 770. Earlier you mentioned that you spend \link{number in answer to Q.769} (minutes/hours) using the World Wide Web in a typical week. About how many of those do you spend using chat rooms, news groups, bulletin boards, discussion forums, and other forms of on-line interaction with other Net users�not just browsing on your own? b. Minutes per week?

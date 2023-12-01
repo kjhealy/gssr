@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_240.R
 \name{wojobyrs}
 \alias{wojobyrs}
-\title{wojobyrs}
+\title{How many years without a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years without a job
+wojobyrs
 }
 \details{
 Question 704b. How many years in total?

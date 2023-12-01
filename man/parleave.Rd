@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_179.R
 \name{parleave}
 \alias{parleave}
-\title{parleave}
+\title{Offer paid time off to new parents.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Offer paid time off to new parents.
+parleave
 }
 \details{
 Question 562. It is becoming more common for employers to offer ways for people to comine work and being a parent. For each of the following, please tell me whether or not you think that employers should offer these options to their workers. b. offer paid time off to new parents.

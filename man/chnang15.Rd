@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_189.R
 \name{chnang15}
 \alias{chnang15}
-\title{chnang15}
+\title{Planned how to end the relationship}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Planned how to end the relationship
+chnang15
 }
 \details{
 Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? o. Planned ho to end the relationship with the person who made me angry

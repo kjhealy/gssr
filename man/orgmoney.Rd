@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_142.R
 \name{orgmoney}
 \alias{orgmoney}
-\title{orgmoney}
+\title{Participate in decisions about org's money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Participate in decisions about org's money
+orgmoney
 }
 \details{
 Question 445. In the past year, did you participate in decisions about spending any of your organization's money as part of your job?

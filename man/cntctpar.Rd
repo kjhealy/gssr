@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_465.R
 \name{cntctpar}
 \alias{cntctpar}
-\title{cntctpar}
+\title{How often r contacts their most-contacted parent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r contacts their most-contacted parent
+cntctpar
 }
 \details{
 Question Please think about the parent you have contact with most frequently: How often do you have contact with that parent, either face-to-face, by phone, internet or any other communication device?

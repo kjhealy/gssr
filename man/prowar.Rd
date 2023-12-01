@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_74.R
 \name{prowar}
 \alias{prowar}
-\title{prowar}
+\title{Pro-war demonstration}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pro-war demonstration
+prowar
 }
 \details{
 Question 228 Have you ever taken part in: d. A pro-war demonstration?

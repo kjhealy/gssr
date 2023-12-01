@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_303.R
 \name{secopin}
 \alias{secopin}
-\title{secopin}
+\title{Would r seek second opinion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r seek second opinion
+secopin
 }
 \details{
 Question 871. Based on what the doctor has just told you, would you seek a second opinion from another physician?

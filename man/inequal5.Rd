@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{inequal5}
 \alias{inequal5}
-\title{inequal5}
+\title{Pay differences -> american prosperity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pay differences -> american prosperity
+inequal5
 }
 \details{
 Question 1253. Do you agree or disagree: e. Large differences in income are necessary for America's prosperity.

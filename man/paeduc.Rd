@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_10.R
 \name{paeduc}
 \alias{paeduc}
-\title{paeduc}
+\title{Highest year school completed, father}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Highest year school completed, father
+paeduc
 }
 \details{
 Question 16. What is the highest grade in elementary school or high school that your father finished and got credit for?

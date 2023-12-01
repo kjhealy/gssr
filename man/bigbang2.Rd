@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_369.R
 \name{bigbang2}
 \alias{bigbang2}
-\title{bigbang2}
+\title{Universe expanding since it began: true or false}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Universe expanding since it began: true or false
+bigbang2
 }
 \details{
 Question G3. The universe has been expanding ever since it began. (Is that true or false?)

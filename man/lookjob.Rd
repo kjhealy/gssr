@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_505.R
 \name{lookjob}
 \alias{lookjob}
-\title{lookjob}
+\title{Are you looking for a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Are you looking for a job
+lookjob
 }
 \details{
 Question 1368. Are you currently looking for a job?

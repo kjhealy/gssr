@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_464.R
 \name{trbigbus}
 \alias{trbigbus}
-\title{trbigbus}
+\title{How much trust r has in major private companies in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much trust r has in major private companies in america
+trbigbus
 }
 \details{
 Question Using the following scale ranging from 0 to 10, where 0 means ?No trust at all? and 10 means ?Complete trust?, please indicate how much trust you personally have in...? B. Major private companies in America?

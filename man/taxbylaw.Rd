@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_447.R
 \name{taxbylaw}
 \alias{taxbylaw}
-\title{taxbylaw}
+\title{Do authorities tax legally}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do authorities tax legally
+taxbylaw
 }
 \details{
 Question In general, how often do you think that the tax authorities in America do the following B. Treat everyone in accordance with the law, regardless of their contacts or position in society

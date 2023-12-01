@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_305.R
 \name{famwkoff}
 \alias{famwkoff}
-\title{famwkoff}
+\title{How hard to take time off}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How hard to take time off
+famwkoff
 }
 \details{
 Question 881. How hard is it to take time off during your work to take care of personal or family matters?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_212.R
 \name{tlkfam}
 \alias{tlkfam}
-\title{tlkfam}
+\title{X should talk to family and friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should talk to family and friends
+tlkfam
 }
 \details{
 Question 659. Should NAME do any of the following: a. Talk things over with family and friends

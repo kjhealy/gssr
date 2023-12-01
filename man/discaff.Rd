@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_133.R
 \name{discaff}
 \alias{discaff}
-\title{discaff}
+\title{Whites hurt by aff. action}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Whites hurt by aff. action
+discaff
 }
 \details{
 Question 414. What do you think the chances are these days that a white person won't get a job or promotion while an equally or less qualified black person gets one instead?

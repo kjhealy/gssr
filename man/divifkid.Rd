@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_481.R
 \name{divifkid}
 \alias{divifkid}
-\title{divifkid}
+\title{How easy should divorce be if kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How easy should divorce be if kids
+divifkid
 }
 \details{
 Question 1286. And what about couples with young children? How easy or difficult should the law make it for them to get a divorce?

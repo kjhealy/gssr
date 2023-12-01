@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_662.R
 \name{modesequence}
 \alias{modesequence}
-\title{modesequence}
+\title{Initial mode of contact for respondent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Initial mode of contact for respondent
+modesequence
 }
 \details{
 Question None

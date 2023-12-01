@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_533.R
 \name{livecom1}
 \alias{livecom1}
-\title{livecom1}
+\title{How long have you lived in the community?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long have you lived in the community?
+livecom1
 }
 \details{
 Question 1449. How long have you lived in the community where you live now?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_535.R
 \name{forcult}
 \alias{forcult}
-\title{forcult}
+\title{Exposure to foreign film damage to our culture}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Exposure to foreign film damage to our culture
+forcult
 }
 \details{
 Question 1460. How much do you agree or disagree with the following statements? e. Increased exposure to foreign films, music, and books is damaging our national and local cultures.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_410.R
 \name{mhgod}
 \alias{mhgod}
-\title{mhgod}
+\title{X s situation caused by: god s will}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X s situation caused by: god s will
+mhgod
 }
 \details{
 Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... f. God's will

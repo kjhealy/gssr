@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_426.R
 \name{attractd}
 \alias{attractd}
-\title{attractd}
+\title{At what age were you first sexually attracted to same sex}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-At what age were you first sexually attracted to same sex
+attractd
 }
 \details{
 Question At about what age were you first sexually attracted to someone of the same sex?

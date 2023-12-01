@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_179.R
 \name{menben}
 \alias{menben}
-\title{menben}
+\title{Men benefit from traditional family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Men benefit from traditional family
+menben
 }
 \details{
 Question 563. In many married couples, women take the main responsibility for the care of the home and children, while men take the main responsibility for supporting the family financially. Who benefits from this: men, women, children, everyone, or no one? a. Men

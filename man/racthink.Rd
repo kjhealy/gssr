@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_48.R
 \name{racthink}
 \alias{racthink}
-\title{racthink}
+\title{How often r & friends think about race issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r & friends think about race issues
+racthink
 }
 \details{
 Question 151. How often would you say that you and your friends think about race relations?

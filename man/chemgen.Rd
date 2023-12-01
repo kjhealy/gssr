@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_523.R
 \name{chemgen}
 \alias{chemgen}
-\title{chemgen}
+\title{Pesticides danger to envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pesticides danger to envir
+chemgen
 }
 \details{
 Question 1420a. In general, do you think that pesticides and chemicals used in farming are...

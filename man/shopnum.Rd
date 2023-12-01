@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_124.R
 \name{shopnum}
 \alias{shopnum}
-\title{shopnum}
+\title{How many churches did you visit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many churches did you visit
+shopnum
 }
 \details{
 Question 397. When you most recently looked for a church or synagogue, how many different places of worship did you visit?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_403.R
 \name{trtjans}
 \alias{trtjans}
-\title{trtjans}
+\title{Number of janitor r trust}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of janitor r trust
+trtjans
 }
 \details{
 Question 1110. Now I'm going to ask you some questions about people that you trust, for example good friends, people you discuss important matters with, or trust for advice, or trust with money. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. n. How many are janitors or building cleaners?

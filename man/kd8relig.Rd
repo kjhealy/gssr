@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_419.R
 \name{kd8relig}
 \alias{kd8relig}
-\title{kd8relig}
+\title{Religion of r's child 8}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion of r's child 8
+kd8relig
 }
 \details{
 Question None

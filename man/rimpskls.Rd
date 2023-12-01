@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_506.R
 \name{rimpskls}
 \alias{rimpskls}
-\title{rimpskls}
+\title{Job gives r chance to improve skills}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job gives r chance to improve skills
+rimpskls
 }
 \details{
 Question 1504. (For each of these statements about your (main) job, please tell me how much you agree or disagree with it as it applies to your job.) My job gives me a chance to improve my skills

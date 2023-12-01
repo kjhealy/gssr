@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_90.R
 \name{upgrade}
 \alias{upgrade}
-\title{upgrade}
+\title{Refuse vols with no basic skills?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Refuse vols with no basic skills?
+upgrade
 }
 \details{
 Question 301. Many people who want to volunteer for service in the armed forces do not have the necessary basic skills like reading, writing, and arithmetic. Do you think the armed forces should refuse to accept such volunteers, or should they accept them and give them the necessary education?

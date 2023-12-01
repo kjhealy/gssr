@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_195.R
 \name{fixerc}
 \alias{fixerc}
-\title{fixerc}
+\title{An acquaintance recommended them.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-An acquaintance recommended them.
+fixerc
 }
 \details{
 Question 612. Think about the most recent time you've paid for home maintenance service - e.g. a roofer, a painter, a plumber or something like that. What made you choose the person or business that did the work? c. An acquaintance recommended them

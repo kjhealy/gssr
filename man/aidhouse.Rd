@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_444.R
 \name{aidhouse}
 \alias{aidhouse}
-\title{aidhouse}
+\title{Gov. should provide housing to poor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gov. should provide housing to poor
+aidhouse
 }
 \details{
 Question 1188. On the whole, do you think it should or should not be the government's responsibility to . . . i. Provide decent housing for those who can't afford it.

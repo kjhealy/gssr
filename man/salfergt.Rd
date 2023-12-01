@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_81.R
 \name{salfergt}
 \alias{salfergt}
-\title{salfergt}
+\title{Salience, women's rights}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Salience, women's rights
+salfergt
 }
 \details{
 Question 237. How often would you say that you and your friends think about topics we've been discussing during the interview? a. Women's rights

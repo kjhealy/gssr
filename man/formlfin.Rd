@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_239.R
 \name{formlfin}
 \alias{formlfin}
-\title{formlfin}
+\title{Have you finished all the courses}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have you finished all the courses
+formlfin
 }
 \details{
 Question 702b. Have you finished all the required courses?

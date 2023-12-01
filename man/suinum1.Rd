@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_72.R
 \name{suinum1}
 \alias{suinum1}
-\title{suinum1}
+\title{People r knows suicide over lifetime}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People r knows suicide over lifetime
+suinum1
 }
 \details{
 Question Have you known personally two or more people, one person, or no people that that died by suicide over your lifetime?

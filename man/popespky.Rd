@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_607.R
 \name{popespky}
 \alias{popespky}
-\title{popespky}
+\title{Pope is infallible on matter's of faith or morals (form 2)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pope is infallible on matter's of faith or morals (form 2)
+popespky
 }
 \details{
 Question None

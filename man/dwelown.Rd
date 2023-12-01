@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_577.R
 \name{dwelown}
 \alias{dwelown}
-\title{dwelown}
+\title{Does r own or rent home?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r own or rent home?
+dwelown
 }
 \details{
 Question 1611. (Do you/Does your family) own your (home/apartment), pay rent, or what?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_501.R
 \name{suprvsjb}
 \alias{suprvsjb}
-\title{suprvsjb}
+\title{Does r supervise others at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r supervise others at work
+suprvsjb
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_15.R
 \name{babies}
 \alias{babies}
-\title{babies}
+\title{Household members less than 6 yrs old}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Household members less than 6 yrs old
+babies
 }
 \details{
 Question 34a. Number of members under 6 years of age.

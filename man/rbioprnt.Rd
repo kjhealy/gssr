@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_664.R
 \name{rbioprnt}
 \alias{rbioprnt}
-\title{rbioprnt}
+\title{R is biological parent of child under 18 in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is biological parent of child under 18 in hh
+rbioprnt
 }
 \details{
 Question None

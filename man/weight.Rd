@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_312.R
 \name{weight}
 \alias{weight}
-\title{weight}
+\title{R weighs how much}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R weighs how much
+weight
 }
 \details{
 Question About how much do you weigh without shoes?

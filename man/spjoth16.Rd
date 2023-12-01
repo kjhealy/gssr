@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_418.R
 \name{spjoth16}
 \alias{spjoth16}
-\title{spjoth16}
+\title{R's spouse raised jewish}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's spouse raised jewish
+spjoth16
 }
 \details{
 Question Was your (husband/wife) raised Jewish?

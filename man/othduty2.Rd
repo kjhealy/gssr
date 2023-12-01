@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_141.R
 \name{othduty2}
 \alias{othduty2}
-\title{othduty2}
+\title{You train employees in other ways, not supervise}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You train employees in other ways, not supervise
+othduty2
 }
 \details{
 Question 444. (On the card you have/Here is a card listing) 7 different kinds of work activities. Which ones do you do with employees whom you do not officially supervise? Please mention all that apply: b. Train employees in other ways.

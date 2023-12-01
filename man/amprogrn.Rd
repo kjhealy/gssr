@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_525.R
 \name{amprogrn}
 \alias{amprogrn}
-\title{amprogrn}
+\title{American doing enough to protect environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-American doing enough to protect environment
+amprogrn
 }
 \details{
 Question 1431. Some countries are doing more to protect the world environment than other countries are. In general do you think that America is doing:

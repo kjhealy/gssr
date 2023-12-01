@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_344.R
 \name{godlvoth}
 \alias{godlvoth}
-\title{godlvoth}
+\title{Feel gods love for me through others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel gods love for me through others
+godlvoth
 }
 \details{
 Question You may experience the following in your daily life, if so how often. 1011. I feel God's love for me, through others.

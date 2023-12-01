@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_542.R
 \name{unrghts}
 \alias{unrghts}
-\title{unrghts}
+\title{Un should intervene if human right is seriously viola}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Un should intervene if human right is seriously viola
+unrghts
 }
 \details{
 Question 1480 . Which of these two statements comes closer to your view? 1. If a country seriously violates human rights, the United Nations should intervene 2. Even if human rights are seriously violated, the country's sovereignty must be respected, and the United Nations should not intervene

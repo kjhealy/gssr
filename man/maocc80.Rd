@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_08.R
 \name{maocc80}
 \alias{maocc80}
-\title{maocc80}
+\title{Mothers census occupation code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers census occupation code (1980)
+maocc80
 }
 \details{
 Question 10a. What kind of work did your \link{mother/MOTHER SUBSTITUTE} usually do while you were growing up? That is, what was her job called? b. What did she actually do?/What were some of her main duties?

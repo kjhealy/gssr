@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_229.R
 \name{lotr1}
 \alias{lotr1}
-\title{lotr1}
+\title{In uncertain times i usually expect best}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In uncertain times i usually expect best
+lotr1
 }
 \details{
 Question Do you agree or disagree that... A. In uncertain times, I usually expect the best.

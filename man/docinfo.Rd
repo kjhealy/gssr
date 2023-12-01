@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_302.R
 \name{docinfo}
 \alias{docinfo}
-\title{docinfo}
+\title{Doctor provided enough info}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctor provided enough info
+docinfo
 }
 \details{
 Question 865. Do you think the doctor provided enough information about financial incentives?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_328.R
 \name{nextdoor}
 \alias{nextdoor}
-\title{nextdoor}
+\title{How willing r move next door to child's family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How willing r move next door to child's family
+nextdoor
 }
 \details{
 Question 943a. How willing would you be to move next door to (John/Mary)'s family? -- definitely willing, probably willing, probably unwilling, or definitely unwilling?

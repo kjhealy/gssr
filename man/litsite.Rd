@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_272.R
 \name{litsite}
 \alias{litsite}
-\title{litsite}
+\title{Use web to learn about a book or poem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to learn about a book or poem
+litsite
 }
 \details{
 Question 787b. Visited the Web site of a book publisher, magazine, or on-line book store to learn about a novel, play, or book of poems?

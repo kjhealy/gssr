@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_230.R
 \name{hope4}
 \alias{hope4}
-\title{hope4}
+\title{I see myself as successful}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I see myself as successful
+hope4
 }
 \details{
 Question Using the scale on the showcard, please select the response that best describes how you think about yourself right now. Please focus on yourself and what is going on in your life at this moment. Please answer each item as I read them according to the scale on the card.D. Right now, I see myself as being pretty successful.

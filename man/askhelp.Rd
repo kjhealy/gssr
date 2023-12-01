@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_506.R
 \name{askhelp}
 \alias{askhelp}
-\title{askhelp}
+\title{Asked relatives friends colleagues to help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Asked relatives friends colleagues to help
+askhelp
 }
 \details{
 Question 1369. Thinking about the last 12 months, have you done any of the following in order to find a job? f. Asked relatives, friends, or colleagues to help you find a job?

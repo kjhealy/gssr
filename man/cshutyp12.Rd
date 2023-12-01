@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_609.R
 \name{cshutyp12}
 \alias{cshutyp12}
-\title{cshutyp12}
+\title{During april-june 2012, was r resident in household or institution}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-During april-june 2012, was r resident in household or institution
+cshutyp12
 }
 \details{
 Question During April through June 2012, were you a resident in a household - such as living in a house, apartment or similar residence - or did you live elsewhere such as living in an institution like a college dorm, military barrack, work camp, shelter, residential treatment center, long-term medical care facility or nursing home?

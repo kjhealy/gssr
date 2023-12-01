@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_575.R
 \name{difrace2}
 \alias{difrace2}
-\title{difrace2}
+\title{Why observation disagrees self id}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why observation disagrees self id
+difrace2
 }
 \details{
 Question 1603a. WHY DO YOU THINK YOUR RACIAL CLASSIFICATION OF THE RESPONDENT IN "A" DIFFERED FROM THE RESPONDENT'S SELF-CLASSIFICATION IN "C"?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_487.R
 \name{timehome}
 \alias{timehome}
-\title{timehome}
+\title{Run out of time before getting things done at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Run out of time before getting things done at home
+timehome
 }
 \details{
 Question 1315. To what extent do you agree or disagree? a. There are so many things to do at home, I often run out of time before I get them all done.

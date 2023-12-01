@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_138.R
 \name{thisjob1}
 \alias{thisjob1}
-\title{thisjob1}
+\title{Heard job from a notices posted my workplace}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Heard job from a notices posted my workplace
+thisjob1
 }
 \details{
 Question 429. Which of the answers on this card describe how you heard about your present job with your employer? Please tell me all of the ways that you found out about this job. a. A notice was posted or circulated at my work place.

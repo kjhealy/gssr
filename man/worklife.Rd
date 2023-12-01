@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_178.R
 \name{worklife}
 \alias{worklife}
-\title{worklife}
+\title{How successful in work life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How successful in work life
+worklife
 }
 \details{
 Question 557. How successful do you feel in your work life?

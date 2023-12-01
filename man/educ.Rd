@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_10.R
 \name{educ}
 \alias{educ}
-\title{educ}
+\title{Highest year of school completed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Highest year of school completed
+educ
 }
 \details{
 Question 15. What is the highest grade in elementary school or high school that you finished and got credit for?

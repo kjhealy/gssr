@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_541.R
 \name{polint1}
 \alias{polint1}
-\title{polint1}
+\title{How interested in politics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How interested in politics
+polint1
 }
 \details{
 Question 1474. How interested would you say you personally are in politics?

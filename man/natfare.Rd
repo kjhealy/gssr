@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_24.R
 \name{natfare}
 \alias{natfare}
-\title{natfare}
+\title{Welfare}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Welfare
+natfare
 }
 \details{
 Question 68. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. k. Welfare.

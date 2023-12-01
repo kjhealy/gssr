@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_230.R
 \name{lotr5}
 \alias{lotr5}
-\title{lotr5}
+\title{I rarely count on good things happening to me}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I rarely count on good things happening to me
+lotr5
 }
 \details{
 Question Do you agree or disagree that? E. I rarely count on good things happening to me.

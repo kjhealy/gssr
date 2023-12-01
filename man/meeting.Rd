@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_269.R
 \name{meeting}
 \alias{meeting}
-\title{meeting}
+\title{Web make r attend a political meeting}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Web make r attend a political meeting
+meeting
 }
 \details{
 Question 777. Have you ever taken any of the following actions because of something you learned about or discussed on the Web? c. Attended a political meeting or demonstration?

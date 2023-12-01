@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_504.R
 \name{chngwork}
 \alias{chngwork}
-\title{chngwork}
+\title{I would change my job for something else}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I would change my job for something else
+chngwork
 }
 \details{
 Question 1361. To what extent do you agree or disagree with each of the following statements? c. Given the chance, I would change my present type of work for something different.

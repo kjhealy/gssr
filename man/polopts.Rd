@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_540.R
 \name{polopts}
 \alias{polopts}
-\title{polopts}
+\title{How important: ppl given chance to participate in decsns}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: ppl given chance to participate in decsns
+polopts
 }
 \details{
 Question 1470. There are different opinions about people's rights in a democracy. On a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it: e. That people be given more opportunities to participate in public decision-making

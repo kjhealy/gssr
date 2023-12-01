@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_207.R
 \name{valeduc}
 \alias{valeduc}
-\title{valeduc}
+\title{Estimated value contributed in education}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Estimated value contributed in education
+valeduc
 }
 \details{
 Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? b. Education

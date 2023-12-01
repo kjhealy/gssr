@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_380.R
 \name{nanowill}
 \alias{nanowill}
-\title{nanowill}
+\title{Benefit of nanotechnology outweigh harmful results}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Benefit of nanotechnology outweigh harmful results
+nanowill
 }
 \details{
 Question 1083. Nanotechnology works at the molecular level atom by atom to build new structures, materials, and machines. People have frequently noted that new technologies have produced both benefits and harmful results. Do you think the benefits of nanotechnology will outweigh the harmful results or the harmful results will outweigh the benefits?

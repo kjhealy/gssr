@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_212.R
 \name{vigmar}
 \alias{vigmar}
-\title{vigmar}
+\title{How willing r would have x marry in r's family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How willing r would have x marry in r's family
+vigmar
 }
 \details{
 Question 656f. How willing would you be to have NAME marry into your family -- definitely willing, probably willing, probably unwilling, or definitely unwilling?

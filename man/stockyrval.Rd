@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_650.R
 \name{stockyrval}
 \alias{stockyrval}
-\title{stockyrval}
+\title{Value of stock gratned in past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Value of stock gratned in past year
+stockyrval
 }
 \details{
 Question Please give a general estimate of the total value of all shares of company stock that your company granted to you in 2021 when they were granted to you.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_342.R
 \name{changed1}
 \alias{changed1}
-\title{changed1}
+\title{Life changes from religious change1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Life changes from religious change1
+changed1
 }
 \details{
 Question 1001. Open-ended questions for how people who had undergone spiritual or religious change described their experiences. The consequences of the spiritual or religious change.

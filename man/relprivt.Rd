@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_191.R
 \name{relprivt}
 \alias{relprivt}
-\title{relprivt}
+\title{Relationship to the seller of the vehicle}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship to the seller of the vehicle
+relprivt
 }
 \details{
 Question 589. Which of the following best describes your relationship to the person who sold you the vehicle at the time of the purchase?

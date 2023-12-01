@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_410.R
 \name{mhraised}
 \alias{mhraised}
-\title{mhraised}
+\title{X s situation caused by: the way raised}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X s situation caused by: the way raised
+mhraised
 }
 \details{
 Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... c. The way he/she was raised

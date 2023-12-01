@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_488.R
 \name{kidjob}
 \alias{kidjob}
-\title{kidjob}
+\title{Children limit emp and career opp for one or both parents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children limit emp and career opp for one or both parents
+kidjob
 }
 \details{
 Question Having children restricts the employment and career chances of one or both parents.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_305.R
 \name{lotofsay}
 \alias{lotofsay}
-\title{lotofsay}
+\title{R has lot of say in job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has lot of say in job
+lotofsay
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. d. I have a lot of say about what happens on my job.

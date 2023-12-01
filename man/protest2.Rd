@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_434.R
 \name{protest2}
 \alias{protest2}
-\title{protest2}
+\title{Allow publications protesting govt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow publications protesting govt
+protest2
 }
 \details{
 Question 1159. There are many ways people or organizations can protest against a government action they strongly oppose. Please show which you think should be allowed and which should not be allowed by circling a number after each question. b. Publishing pamphlets to protest against the government.

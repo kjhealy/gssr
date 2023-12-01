@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_486.R
 \name{rhhwork}
 \alias{rhhwork}
-\title{rhhwork}
+\title{How many hours a week does r spend on hh work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many hours a week does r spend on hh work
+rhhwork
 }
 \details{
 Question 1310a. On average, how many hours a week do you personally spend on household work, not including childcare and leisure time activities?

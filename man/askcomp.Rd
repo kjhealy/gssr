@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_569.R
 \name{askcomp}
 \alias{askcomp}
-\title{askcomp}
+\title{Govt investigate use of computers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt investigate use of computers
+askcomp
 }
 \details{
 Question 585. Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to ask him or her detailed, personal questions in the following areas: j. Illegal or unauthorized use of computers

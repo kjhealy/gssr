@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_254.R
 \name{engoff1}
 \alias{engoff1}
-\title{engoff1}
+\title{English official language of u.s.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-English official language of u.s.
+engoff1
 }
 \details{
 Question 744. Do you favor a law making English the official language of the United States, or do you oppose such a law?

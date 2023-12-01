@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_137.R
 \name{samejob}
 \alias{samejob}
-\title{samejob}
+\title{Current job same or different fromfirst job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Current job same or different fromfirst job
+samejob
 }
 \details{
 Question 427. When you first came to work for your present employer, was it roughly in the same job you have now or was it in a different job?

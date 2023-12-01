@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_660.R
 \name{nonbinkids}
 \alias{nonbinkids}
-\title{nonbinkids}
+\title{First child nonbinary}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-First child nonbinary
+nonbinkids
 }
 \details{
 Question Are any of your biological children transgender or non-binary?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_188.R
 \name{chnang5}
 \alias{chnang5}
-\title{chnang5}
+\title{Tried to forget it}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Tried to forget it
+chnang5
 }
 \details{
 Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? e. Tried to forget it by doing or thinking about someone else.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_624.R
 \name{polattaky}
 \alias{polattaky}
-\title{polattaky}
+\title{Citizen attacking policeman with fists y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Citizen attacking policeman with fists y
+polattaky
 }
 \details{
 Question Would you approve if the citizen was attacking the police officer with his fists?

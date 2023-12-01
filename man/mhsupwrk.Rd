@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_413.R
 \name{mhsupwrk}
 \alias{mhsupwrk}
-\title{mhsupwrk}
+\title{People like x shouldn't be allowed to supervise others at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People like x shouldn't be allowed to supervise others at work
+mhsupwrk
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. s. People like \link{NAME} should not be allowed to supervise others at work.

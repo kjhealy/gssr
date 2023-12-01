@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_591.R
 \name{hhrace}
 \alias{hhrace}
-\title{hhrace}
+\title{Race of household}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Race of household
+hhrace
 }
 \details{
 Question 1624. Race of household.

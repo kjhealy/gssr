@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_331.R
 \name{medkdneg}
 \alias{medkdneg}
-\title{medkdneg}
+\title{Medicating child will have long term negative}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Medicating child will have long term negative
+medkdneg
 }
 \details{
 Question 954. Now, I'd like to ask you for your opinions on several issues. For each question, please tell me if you strongly agree, agree somewhat, disagree somewhat or strongly disagree with the statement. b. Giving medications to children with behavior problems will have long-term negative effects on their development.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_18.R
 \name{dotpres}
 \alias{dotpres}
-\title{dotpres}
+\title{Temme prestige scale}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Temme prestige scale
+dotpres
 }
 \details{
 Question None

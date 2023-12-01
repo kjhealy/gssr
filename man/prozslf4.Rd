@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_248.R
 \name{prozslf4}
 \alias{prozslf4}
-\title{prozslf4}
+\title{Take prozac if intense fear losing control}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Take prozac if intense fear losing control
+prozslf4
 }
 \details{
 Question 726. How likely would you be to take doctor prescribed Prozac in the following situations? d. for no apparent reason, you were having periods of intense fear in which you were trembling, sweating, feeling dizzy, and feared losing control or going crazy.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_459.R
 \name{down2a}
 \alias{down2a}
-\title{down2a}
+\title{Who does r turn to second for help when depressed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who does r turn to second for help when depressed
+down2a
 }
 \details{
 Question 1239. Now suppose you felt just a bit down or depressed, and you wanted to talk about it. b. Who would you turn to second?

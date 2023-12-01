@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_399.R
 \name{acqwklin}
 \alias{acqwklin}
-\title{acqwklin}
+\title{Number of linda in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of linda in current or previous work
+acqwklin
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. b. How many \link{IF NUMKNOWN = 2 or 5 DISPLAY: of the people you are acquainted with through work} are named Linda?

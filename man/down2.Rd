@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_455.R
 \name{down2}
 \alias{down2}
-\title{down2}
+\title{Help for depression #2}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Help for depression #2
+down2
 }
 \details{
 Question 1213. Now suppose you feel just a bit down or depressed, and you wanted to talk about it. b. Who would you turn to second?

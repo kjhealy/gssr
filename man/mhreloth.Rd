@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_416.R
 \name{mhreloth}
 \alias{mhreloth}
-\title{mhreloth}
+\title{Relationship with this person as a result of mental health problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship with this person as a result of mental health problem
+mhreloth
 }
 \details{
 Question 1146f. As a result of the mental health problem, would you say that your relationship with this person...

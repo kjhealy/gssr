@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_420.R
 \name{eff911c}
 \alias{eff911c}
-\title{eff911c}
+\title{How effective r thinks purchasing things to make them safer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How effective r thinks purchasing things to make them safer
+eff911c
 }
 \details{
 Question How effective do you think purchasing things to make them safer (gas masks, duct tape, things to make their house safer, etc.) is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)

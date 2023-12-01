@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_400.R
 \name{acqvaune}
 \alias{acqvaune}
-\title{acqvaune}
+\title{Number of unemployed ppl in voluntary association}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of unemployed ppl in voluntary association
+acqvaune
 }
 \details{
 Question 1107. Next, we are going to ask about people that you are acquainted with through schools, clubs, associations, or places of worship. c. How many are you pretty certain are currently unemployed?

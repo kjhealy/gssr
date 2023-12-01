@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_491.R
 \name{spfalook}
 \alias{spfalook}
-\title{spfalook}
+\title{Hours spouse spends looking after family members}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours spouse spends looking after family members
+spfalook
 }
 \details{
 Question And on average, how many hours a week does he/she spend looking after family members (e.g. children, elderly, ill or disabled family members)?

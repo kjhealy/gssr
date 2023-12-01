@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_140.R
 \name{supduty1}
 \alias{supduty1}
-\title{supduty1}
+\title{You train employees safe use equipment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You train employees safe use equipment
+supduty1
 }
 \details{
 Question 443. Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities? Please mention all that apply: a. Train employees in the safe use of equipment or tools.

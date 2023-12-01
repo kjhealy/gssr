@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_478.R
 \name{daycare3}
 \alias{daycare3}
-\title{daycare3}
+\title{Babysitter ok for kid < 3 yrs?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Babysitter ok for kid < 3 yrs?
+daycare3
 }
 \details{
 Question 1277. Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? c. A babysitter

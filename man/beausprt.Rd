@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_229.R
 \name{beausprt}
 \alias{beausprt}
-\title{beausprt}
+\title{Spiritually touched by beauty creation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spiritually touched by beauty creation
+beausprt
 }
 \details{
 Question 681. The following questions deal with possible daily spiritual experiences. To what extent can you say you experience the following: f. I am spiritually touched by the beauty of creation

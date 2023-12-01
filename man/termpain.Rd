@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_249.R
 \name{termpain}
 \alias{termpain}
-\title{termpain}
+\title{Believe doctors can control my pain}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Believe doctors can control my pain
+termpain
 }
 \details{
 Question 732. Now, I would like to talk about concerns you may have when considering what may happen at the end of your life. Please tell me how much you agree or disagree with each of these statements: d. I believe that the doctors will be able to control my pain.

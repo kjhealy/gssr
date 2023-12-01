@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_573.R
 \name{usspy}
 \alias{usspy}
-\title{usspy}
+\title{U.s. spies foreign govts more threat 10 yrs ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-U.s. spies foreign govts more threat 10 yrs ago
+usspy
 }
 \details{
 Question 1595. Are the following threats to the United States greater, about the same, or less today than they were 10 years ago? a. Spying by U.S. citizens for foreign countries

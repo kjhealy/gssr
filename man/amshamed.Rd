@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_530.R
 \name{amshamed}
 \alias{amshamed}
-\title{amshamed}
+\title{Agree there are things make me ashamed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Agree there are things make me ashamed
+amshamed
 }
 \details{
 Question 1440. How much do you agree or disagree with the following statements? b. There are some things about America today that make me feel ashamed of America

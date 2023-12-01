@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_248.R
 \name{prozkid3}
 \alias{prozkid3}
-\title{prozkid3}
+\title{Give kid prozac if is talking about suicide}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Give kid prozac if is talking about suicide
+prozkid3
 }
 \details{
 Question 727. How likely would you be to give doctor prescribed Prozac to your child or a child you were responsible for in the following situations (A child would be considered anyone between the age of 8 and 15). c. because s/he was talking about killing him or herself.

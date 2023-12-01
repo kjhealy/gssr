@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_647.R
 \name{immunbetr}
 \alias{immunbetr}
-\title{immunbetr}
+\title{Immunity should be developed by getting ill}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immunity should be developed by getting ill
+immunbetr
 }
 \details{
 Question (How much do you agree or disagree with the following statements about vaccinations?) It is better to develop immunity by getting ill than having a vaccination.

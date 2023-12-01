@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_476.R
 \name{soctype1}
 \alias{soctype1}
-\title{soctype1}
+\title{What type of society is america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What type of society is america
+soctype1
 }
 \details{
 Question 1270. These five diagrams show different types of society. Please read the descriptions and look at the diagrams and decide which you think best describes America today: Type A: A small elite at the top, very few people in the middle and the great mass of people at the bottom. Type B: A society like a pyramid with a small elite at the top, more people in the middle, and most at the bottom Type C: A pyramid except that just a few people are at the very bottom Type D: A society with most people in the middle Type E: Many people near the top, and only a few near the bottom What type of society is America today?

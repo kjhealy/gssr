@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_250.R
 \name{famblks}
 \alias{famblks}
-\title{famblks}
+\title{Blacks committed to strong families}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Blacks committed to strong families
+famblks
 }
 \details{
 Question 736. In the next statement a score of 1 means that you think almost all of the people in the group have a "commitment to strong families." A score of 7 means that you think almost everyone in the group "lacks a commitment to strong families." A score of 4 means that you think that the group is not towards one end or the other, and of course you may choose any number in between that comes closest to where you think people in the group stand. b. Blacks

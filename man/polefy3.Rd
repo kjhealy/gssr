@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_433.R
 \name{polefy3}
 \alias{polefy3}
-\title{polefy3}
+\title{Avg citizen influence on politics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Avg citizen influence on politics
+polefy3
 }
 \details{
 Question How much influence does the average citizen have on politics: None, a little, some, quite a bit, or a great deal?

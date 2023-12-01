@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_190.R
 \name{usworry}
 \alias{usworry}
-\title{usworry}
+\title{How often do you feel worried for us?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often do you feel worried for us?
+usworry
 }
 \details{
 Question 587. Now I want to ask some questions about how you feel when you think about this country, the United States. When you think about the United States: a. How often do you feel worried?

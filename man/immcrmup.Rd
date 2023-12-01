@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_255.R
 \name{immcrmup}
 \alias{immcrmup}
-\title{immcrmup}
+\title{More immigrants cause higher crime rates}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-More immigrants cause higher crime rates
+immcrmup
 }
 \details{
 Question 750. What do you think will happen as a result of more immigrants coming to this country? Is each of these possible results very likely, somewhat likely, not too likely, or not likely at all? a. Higher crime rates

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_506.R
 \name{econsup}
 \alias{econsup}
-\title{econsup}
+\title{Main source of economic support}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Main source of economic support
+econsup
 }
 \details{
 Question 1371. What is your main source of economic support?

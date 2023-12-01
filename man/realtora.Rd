@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_193.R
 \name{realtora}
 \alias{realtora}
-\title{realtora}
+\title{R's own previous knowledge made r choose}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's own previous knowledge made r choose
+realtora
 }
 \details{
 Question 603. What made you choose the realtor with whom you worked? a. My own previous knowledge of the realtor/agency

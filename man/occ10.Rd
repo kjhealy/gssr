@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_02.R
 \name{occ10}
 \alias{occ10}
-\title{occ10}
+\title{R's census occupation code (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's census occupation code (2010)
+occ10
 }
 \details{
 Question Occupation and industry questions asked and not directly coded but used to code OCC and IND variables.

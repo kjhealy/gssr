@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_526.R
 \name{topprob1}
 \alias{topprob1}
-\title{topprob1}
+\title{Most important issue for america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most important issue for america
+topprob1
 }
 \details{
 Question Which of these issues is the most important for America today?

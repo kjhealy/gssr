@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_508.R
 \name{spwrkgvt}
 \alias{spwrkgvt}
-\title{spwrkgvt}
+\title{Spouse working for government}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse working for government
+spwrkgvt
 }
 \details{
 Question {spwrkgvtfill}

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_65.R
 \name{getahead}
 \alias{getahead}
-\title{getahead}
+\title{Opinion of how people get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opinion of how people get ahead
+getahead
 }
 \details{
 Question 197. Some people say that people get ahead by their own hard work; others say that lucky breaks or help from other people are more important. Which do you think is most important?

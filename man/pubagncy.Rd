@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_505.R
 \name{pubagncy}
 \alias{pubagncy}
-\title{pubagncy}
+\title{Registered at a public employment agency}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Registered at a public employment agency
+pubagncy
 }
 \details{
 Question 1369. Thinking about the last 12 months, have you done any of the following in order to find a job? a. Registered at a public employment agency?

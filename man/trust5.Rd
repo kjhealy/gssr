@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_527.R
 \name{trust5}
 \alias{trust5}
-\title{trust5}
+\title{People can or cannot be trusted}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People can or cannot be trusted
+trust5
 }
 \details{
 Question Generally speaking, would you say that most people can be trusted, or that you can't be too careful in dealing with people? Please tell me what you think, where 1 means you can't be too careful and 5 means most people can be trusted.

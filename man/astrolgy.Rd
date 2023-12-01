@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_367.R
 \name{astrolgy}
 \alias{astrolgy}
-\title{astrolgy}
+\title{Ever read a horoscope or personal astrology report}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever read a horoscope or personal astrology report
+astrolgy
 }
 \details{
 Question 1036. Now, for a new subject. Do you ever read a horoscope or your personal astrology report?

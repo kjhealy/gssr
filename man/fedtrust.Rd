@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_112.R
 \name{fedtrust}
 \alias{fedtrust}
-\title{fedtrust}
+\title{How much does r trust federal government}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much does r trust federal government
+fedtrust
 }
 \details{
 Question 350. How much of the time do you think you can trust the government in Washington to do what is right?

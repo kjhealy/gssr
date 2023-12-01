@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_328.R
 \name{bettrown}
 \alias{bettrown}
-\title{bettrown}
+\title{Situation will improve on its own}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Situation will improve on its own
+bettrown
 }
 \details{
 Question 942i. In your opinion, how likely is it that this youth's/child's situation will improve on its own? Is it very likely, somewhat likely, not very likely, or not at all likely?

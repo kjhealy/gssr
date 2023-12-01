@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_509.R
 \name{abpoorw}
 \alias{abpoorw}
-\title{abpoorw}
+\title{Wrong for woman to get abortion if low income?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Wrong for woman to get abortion if low income?
+abpoorw
 }
 \details{
 Question 1376. Do you personally think it is wrong or not wrong for a woman to have an abortion. . . b. If the family has a very low income and cannot afford any more children.

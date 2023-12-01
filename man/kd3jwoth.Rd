@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_420.R
 \name{kd3jwoth}
 \alias{kd3jwoth}
-\title{kd3jwoth}
+\title{R's child 3 considered jewish}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's child 3 considered jewish
+kd3jwoth
 }
 \details{
 Question None

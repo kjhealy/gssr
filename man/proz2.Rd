@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_247.R
 \name{proz2}
 \alias{proz2}
-\title{proz2}
+\title{If no symptoms should discontinue prozac}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If no symptoms should discontinue prozac
+proz2
 }
 \details{
 Question 725. How much do you agree or disagree with the following statements? b. If symptoms are no longer present, people should discontinue Prozac.

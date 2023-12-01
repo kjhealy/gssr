@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_645.R
 \name{hlthbtr}
 \alias{hlthbtr}
-\title{hlthbtr}
+\title{Higher incomes afford better health care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Higher incomes afford better health care
+hlthbtr
 }
 \details{
 Question Is it fair or unfair that people with higher incomes can afford better health care than people with lower incomes? Would you say it is...

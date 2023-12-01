@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{mcsds4}
 \alias{mcsds4}
-\title{mcsds4}
+\title{I have never been irked when people expressed ideas very different from my own}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I have never been irked when people expressed ideas very different from my own
+mcsds4
 }
 \details{
 Question Next are a number of statements concerning personal attitudes and traits. Please tell me whether the statement is true or false as it pertains to you personally D. I have never been irked when people expressed ideas very different from my own.

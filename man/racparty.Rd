@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_47.R
 \name{racparty}
 \alias{racparty}
-\title{racparty}
+\title{Which party helps blacks more}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which party helps blacks more
+racparty
 }
 \details{
 Question 145. Which party, the Republican or the Democratic, do you feel will do more to help blacks in the next few years, or do you think there isn't much difference between the two?

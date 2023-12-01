@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_184.R
 \name{noemote}
 \alias{noemote}
-\title{noemote}
+\title{I keep my emotions to myself.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I keep my emotions to myself.
+noemote
 }
 \details{
 Question 573. The following are some statements that people have made. For each one, please tell me if you strongly agree, agree, disagree, or strongly disagree with the statement. g. I keep my emotions to myself.

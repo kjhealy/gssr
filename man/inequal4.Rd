@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{inequal4}
 \alias{inequal4}
-\title{inequal4}
+\title{Extra pay -> people earn degrees}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Extra pay -> people earn degrees
+inequal4
 }
 \details{
 Question 1253. Do you agree or disagree: d. No one would study for years to become a lawyer or doctor unless they expected to earn a lot more than ordinary workers.

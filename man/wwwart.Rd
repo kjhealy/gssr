@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_272.R
 \name{wwwart}
 \alias{wwwart}
-\title{wwwart}
+\title{Use web to learn about visual arts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to learn about visual arts
+wwwart
 }
 \details{
 Question 786a. Do you ever use the Web to learn about, view, or discuss topics related to the visual arts�painting, sculpture, or so on?

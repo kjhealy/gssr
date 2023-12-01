@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_610.R
 \name{respond}
 \alias{respond}
-\title{respond}
+\title{Estimate of the probability that this household will respond to the survey}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Estimate of the probability that this household will respond to the survey
+respond
 }
 \details{
 Question Based on what you have learned about this housing unit, what is your estimate of the probability that this household will respond to the survey?

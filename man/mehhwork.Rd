@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_485.R
 \name{mehhwork}
 \alias{mehhwork}
-\title{mehhwork}
+\title{Men ought to do more hh work than they do now}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Men ought to do more hh work than they do now
+mehhwork
 }
 \details{
 Question 1308. To what extent do you agree or disagree: a. Men ought to do a larger share of household work than they do now.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_623.R
 \name{spkmily}
 \alias{spkmily}
-\title{spkmily}
+\title{Allow militarist to speak y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow militarist to speak y
+spkmily
 }
 \details{
 Question Consider a person who advocates doing away with elections and letting the military run the country. If such a person wanted to make a speech in your community, should this person be allowed to speak, or not?

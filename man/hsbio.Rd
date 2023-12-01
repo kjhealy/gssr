@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_371.R
 \name{hsbio}
 \alias{hsbio}
-\title{hsbio}
+\title{R ever took a high school biology course}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R ever took a high school biology course
+hsbio
 }
 \details{
 Question 1051. Did you take a high school biology course?

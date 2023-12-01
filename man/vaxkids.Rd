@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_659.R
 \name{vaxkids}
 \alias{vaxkids}
-\title{vaxkids}
+\title{Vaccines are important for children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vaccines are important for children
+vaxkids
 }
 \details{
 Question Please tell us the extent to which you agree or disagree with the following statements: Vaccines are important for children to have.

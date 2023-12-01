@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_230.R
 \name{hope5}
 \alias{hope5}
-\title{hope5}
+\title{I can think of many ways to reach my current goals}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I can think of many ways to reach my current goals
+hope5
 }
 \details{
 Question Using the scale on the showcard, please select the response that best describes how you think about yourself right now. Please focus on yourself and what is going on in your life at this moment. Please answer each item as I read them according to the scale on the card.E. I can think of many ways to reach my current goals.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_83.R
 \name{chlddth}
 \alias{chlddth}
-\title{chlddth}
+\title{Death of child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Death of child
+chlddth
 }
 \details{
 Question 275c. Death of child or child's spouse.

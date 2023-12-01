@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_288.R
 \name{numprobs}
 \alias{numprobs}
-\title{numprobs}
+\title{How many friends close to discuss problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many friends close to discuss problems
+numprobs
 }
 \details{
 Question 808. Of these (NUMCNTCT) friends and relatives, about how many would you say you feel really close to, that is close enough to discuss personal or important problems with?

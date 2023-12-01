@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_605.R
 \name{whoelse3}
 \alias{whoelse3}
-\title{whoelse3}
+\title{Presence of others: spouse partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Presence of others: spouse partner
+whoelse3
 }
 \details{
 Question None

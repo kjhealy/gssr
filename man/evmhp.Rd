@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_219.R
 \name{evmhp}
 \alias{evmhp}
-\title{evmhp}
+\title{Ever had mental health problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever had mental health problem
+evmhp
 }
 \details{
 Question C. (IF NO TO Q.669A, ASK Q.669C) Have you ever felt you had a mental health problem?

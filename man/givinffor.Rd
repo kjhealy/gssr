@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_448.R
 \name{givinffor}
 \alias{givinffor}
-\title{givinffor}
+\title{Should govt collect foreigner info without knowledge}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt collect foreigner info without knowledge
+givinffor
 }
 \details{
 Question Some people think that governments should have the right to take certain measures in the name of national security. Others disagree. Do you think that the American government should or should not have the right to do the following? B. Collect information about anyone living in other countries without their knowledge? (Would

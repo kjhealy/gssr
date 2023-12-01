@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_286.R
 \name{snapchat}
 \alias{snapchat}
-\title{snapchat}
+\title{Use snapchat}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use snapchat
+snapchat
 }
 \details{
 Question Which of the following social networking or social media sites are you a member or regular user of? Snapchat

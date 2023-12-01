@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_20.R
 \name{pres76}
 \alias{pres76}
-\title{pres76}
+\title{Vote for carter or ford}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote for carter or ford
+pres76
 }
 \details{
 Question 59a. If voted: Did you vote for Carter or Ford?

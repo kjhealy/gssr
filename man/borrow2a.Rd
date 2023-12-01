@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_459.R
 \name{borrow2a}
 \alias{borrow2a}
-\title{borrow2a}
+\title{Who does r turn to second when large money needed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who does r turn to second when large money needed
+borrow2a
 }
 \details{
 Question 1238. Now, suppose you needed to borrow a large sum of money. b. Who would you turn to second?

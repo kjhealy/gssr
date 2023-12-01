@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_46.R
 \name{racmix}
 \alias{racmix}
-\title{racmix}
+\title{How many friends are white}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many friends are white
+racmix
 }
 \details{
 Question 141. How many of your close friends are white?

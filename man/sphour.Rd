@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_577.R
 \name{sphour}
 \alias{sphour}
-\title{sphour}
+\title{Hours spouse usually works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours spouse usually works
+sphour
 }
 \details{
 Question 1608. What hours does (he/she) usually work days, evenings, or nights?

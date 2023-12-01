@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_199.R
 \name{decauto}
 \alias{decauto}
-\title{decauto}
+\title{Deciding whether or not to buy an automobile}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Deciding whether or not to buy an automobile
+decauto
 }
 \details{
 Question 638. This question is about some of the financial decisions that you and your (husband/wife) may make. For each decision, please tell me how it was made the last time you faced this decision. a. Deciding whether or not to buy an automobile

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_151.R
 \name{judgeart}
 \alias{judgeart}
-\title{judgeart}
+\title{Only a few people can judge art}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Only a few people can judge art
+judgeart
 }
 \details{
 Question 475. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it: a. Only a few people have the knowledge and ability to judge excellence in the arts.

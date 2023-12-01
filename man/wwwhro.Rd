@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_284.R
 \name{wwwhro}
 \alias{wwwhro}
-\title{wwwhro}
+\title{Hours per week using other computer www}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per week using other computer www
+wwwhro
 }
 \details{
 Question 806. For about how many minutes or hours a week do you use (this other computer/these other computers) for each of the following: e. Using the World Wide Web other than for e-mail?

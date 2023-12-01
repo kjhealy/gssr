@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_552.R
 \name{frndsex}
 \alias{frndsex}
-\title{frndsex}
+\title{R had sex with friend last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had sex with friend last year
+frndsex
 }
 \details{
 Question 1543. If you had other partners, please indicate all categories that apply to them. a. Close personal friend

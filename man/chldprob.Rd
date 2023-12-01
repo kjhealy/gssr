@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_327.R
 \name{chldprob}
 \alias{chldprob}
-\title{chldprob}
+\title{How serious r consider his or her problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How serious r consider his or her problem
+chldprob
 }
 \details{
 Question 940. How serious would you consider (John/Mary)'s problem, if any, to be: very serious, somewhat serious, not very serious, or not at all serious?

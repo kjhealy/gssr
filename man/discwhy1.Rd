@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_134.R
 \name{discwhy1}
 \alias{discwhy1}
-\title{discwhy1}
+\title{Personally experienced it}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Personally experienced it
+discwhy1
 }
 \details{
 Question 414a. Do you feel this way because of something that happened to you personally, because it happened to a relative, family member, or lcose friend, because you saw it occuring at work, or because you have heard about it from the media or other sources? 1. Something that happened to you personally

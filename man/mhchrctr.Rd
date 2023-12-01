@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_410.R
 \name{mhchrctr}
 \alias{mhchrctr}
-\title{mhchrctr}
+\title{X s situation caused by: bad character}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X s situation caused by: bad character
+mhchrctr
 }
 \details{
 Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... a. His/her own bad character

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{mhtreatd}
 \alias{mhtreatd}
-\title{mhtreatd}
+\title{R ever treated for mh problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R ever treated for mh problem
+mhtreatd
 }
 \details{
 Question Now, a few more questions about you and your opinions. B. Did you get treatment for your mental health problem?

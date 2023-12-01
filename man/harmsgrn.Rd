@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_519.R
 \name{harmsgrn}
 \alias{harmsgrn}
-\title{harmsgrn}
+\title{Almost everything we do harms envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Almost everything we do harms envir
+harmsgrn
 }
 \details{
 Question 1410. And please check one box for each of these statements to show how much you agree or disagree with it. b. Almost everything we do in modern life harms the environment

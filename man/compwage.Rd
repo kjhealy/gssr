@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_391.R
 \name{compwage}
 \alias{compwage}
-\title{compwage}
+\title{Annual wages in previous year were higher than same jobs in other companies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Annual wages in previous year were higher than same jobs in other companies
+compwage
 }
 \details{
 Question 1087. Do you believe your fixed annual wages in calendar year 2005 were higher or lower than those of employees with similar experience and job descriptions in other companies in your region? Please answer on a 1 to 5 scale.

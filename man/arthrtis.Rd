@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_312.R
 \name{arthrtis}
 \alias{arthrtis}
-\title{arthrtis}
+\title{Told have arthritis or rheumatism}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Told have arthritis or rheumatism
+arthrtis
 }
 \details{
 Question Now I would like to ask you some questions about general health conditions. Has a doctor, nurse, or other health professional EVER told you that you had: B. Arthritis or rheumatism?

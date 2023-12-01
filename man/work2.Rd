@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_562.R
 \name{work2}
 \alias{work2}
-\title{work2}
+\title{Being demoted or move to worse position}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Being demoted or move to worse position
+work2
 }
 \details{
 Question B. Second, what about work-related matters? Did any of the following happen to you since (CURRENT MONTH), 2003? 2. Demoted or switched to a less favorable position

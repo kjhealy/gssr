@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_465.R
 \name{conwkday}
 \alias{conwkday}
-\title{conwkday}
+\title{Number of people r contacts with on a typical weekday}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of people r contacts with on a typical weekday
+conwkday
 }
 \details{
 Question Please indicate about how many people do you have contact with on a typical weekday irrespective of whether you know them or not. Include anyone you chat with, talk to, or text, either face-to-face, by phone, internet or any other communication device.

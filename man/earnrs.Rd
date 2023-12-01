@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_15.R
 \name{earnrs}
 \alias{earnrs}
-\title{earnrs}
+\title{How many in family earned money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many in family earned money
+earnrs
 }
 \details{
 Question 36. Just thinking about your family now -- those people in the househol who are related to you -- how many persons in the family, including yourself, earned any money last year from any job or employment?

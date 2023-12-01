@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_118.R
 \name{faith3}
 \alias{faith3}
-\title{faith3}
+\title{Has marriage strengthened faith}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has marriage strengthened faith
+faith3
 }
 \details{
 Question 379. How often have these events strengthened your religious faith? c. Marriage

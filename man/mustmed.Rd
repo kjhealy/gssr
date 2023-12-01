@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_214.R
 \name{mustmed}
 \alias{mustmed}
-\title{mustmed}
+\title{X should be forced to take prescribed medication by law}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should be forced to take prescribed medication by law
+mustmed
 }
 \details{
 Question 661. Some cities and states have laws that force people with problems like NAME into treatment. Do you think that people like NAME should be forced by law to... b. Take a prescription medication to control his/her behavior

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{employer}
 \alias{employer}
-\title{employer}
+\title{Does r employ others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r employ others
+employer
 }
 \details{
 Question 1348. Do you employ other people for pay?

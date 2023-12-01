@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_325.R
 \name{ownhh1}
 \alias{ownhh1}
-\title{ownhh1}
+\title{Aged should stop living with parents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Aged should stop living with parents
+ownhh1
 }
 \details{
 Question 931a. By what age should this normally occur?

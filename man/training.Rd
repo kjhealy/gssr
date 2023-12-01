@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_145.R
 \name{training}
 \alias{training}
-\title{training}
+\title{Importance of on-the-job training for you job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of on-the-job training for you job
+training
 }
 \details{
 Question 462. How important were each of the following as sources fo the skills that you use in your job? b. Formal on-the-job training where you work now

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_234.R
 \name{prfmwhy5}
 \alias{prfmwhy5}
-\title{prfmwhy5}
+\title{Imp of wanting to support community in decision to attend perf}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of wanting to support community in decision to attend perf
+prfmwhy5
 }
 \details{
 Question People attend performances for different reasons. E. How big a reason was wanting to support a community organization or event in your decision to attend this performance? Was it a major reason, a minor reason, or not a reason at all?

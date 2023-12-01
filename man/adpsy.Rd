@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_329.R
 \name{adpsy}
 \alias{adpsy}
-\title{adpsy}
+\title{Would r go to a psychiatrist if child was r's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r go to a psychiatrist if child was r's
+adpsy
 }
 \details{
 Question 948. If (John/Mary) was your child, would you... Go to a psychiatrist for help?

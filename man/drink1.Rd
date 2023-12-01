@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_346.R
 \name{drink1}
 \alias{drink1}
-\title{drink1}
+\title{How often at least 1 but less than 3 drinks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often at least 1 but less than 3 drinks
+drink1
 }
 \details{
 Question 1021e. During the last 12 months, how often did you have at least 1, but less than 3, drinks of any kind of alcoholic beverage in a single day, that is any combination of cans, bottles or glasses of beer, glasses of wine, or drinks containing liquor of any kind. Was it:

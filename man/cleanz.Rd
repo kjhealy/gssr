@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_56.R
 \name{cleanz}
 \alias{cleanz}
-\title{cleanz}
+\title{Neat and clean-version z}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Neat and clean-version z
+cleanz
 }
 \details{
 Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. d. That he is neat and clean

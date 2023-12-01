@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_532.R
 \name{wrldgovt}
 \alias{wrldgovt}
-\title{wrldgovt}
+\title{International bodies should enforce environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-International bodies should enforce environment
+wrldgovt
 }
 \details{
 Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? b. For certain problems, like environmental pollution, international bodies should have the right to enforce solutions

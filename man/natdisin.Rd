@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_406.R
 \name{natdisin}
 \alias{natdisin}
-\title{natdisin}
+\title{Should helping ppl in natural disaster be govt resp}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should helping ppl in natural disaster be govt resp
+natdisin
 }
 \details{
 Question 1121a. Do you think it should or should not be the government's responsibility to help individuals affected by natural disasters?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_254.R
 \name{othhome}
 \alias{othhome}
-\title{othhome}
+\title{R speaks other language at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R speaks other language at home
+othhome
 }
 \details{
 Question 746a. Do you speak \link{LANGUAGE MENTIONED IN OTHLANG1} at home?

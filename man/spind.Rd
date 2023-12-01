@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_05.R
 \name{spind}
 \alias{spind}
-\title{spind}
+\title{Spouse's industry code (1970)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's industry code (1970)
+spind
 }
 \details{
 Question 6c. What kind of place (does/did) \link{SPOUSE} work for? d. What (do/did) they (make/do)?

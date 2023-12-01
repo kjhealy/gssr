@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_87.R
 \name{milpay}
 \alias{milpay}
-\title{milpay}
+\title{Pay and benefits for military personnel}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pay and benefits for military personnel
+milpay
 }
 \details{
 Question 289b. How do you feel about the pay and benefits that people in the armed forces receive?

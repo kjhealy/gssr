@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_291.R
 \name{prefsets}
 \alias{prefsets}
-\title{prefsets}
+\title{How familiar r is with term preference settings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How familiar r is with term preference settings
+prefsets
 }
 \details{
 Question 815. Are you very familiar, somewhat familiar, or not familiar with the following internet terms: h. Preference settings

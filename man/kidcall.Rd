@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_456.R
 \name{kidcall}
 \alias{kidcall}
-\title{kidcall}
+\title{How often does r contact by telephone or letter}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r contact by telephone or letter
+kidcall
 }
 \details{
 Question 1225. And how often do you have any other contact with this son or daughter besides visiting, either by telephone, letter, fax or e-mail?

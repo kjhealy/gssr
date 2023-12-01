@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_49.R
 \name{hapcohab}
 \alias{hapcohab}
-\title{hapcohab}
+\title{Happiness of relt with partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Happiness of relt with partner
+hapcohab
 }
 \details{
 Question Taking things all together, would you say that your relationship with your partner is very happy, pretty happy, or not too happy?

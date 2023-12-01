@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_144.R
 \name{fringe1}
 \alias{fringe1}
-\title{fringe1}
+\title{Medical or hospital insurance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Medical or hospital insurance
+fringe1
 }
 \details{
 Question 457. I am going to read a list of fringe benefits that workers sometimes get in addition to their wages. Whether you receive it or not, please tell me whether you are eligible to receive each fringe benefit: a. Medical or hospital insurance

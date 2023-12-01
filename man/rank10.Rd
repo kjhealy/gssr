@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_63.R
 \name{rank10}
 \alias{rank10}
-\title{rank10}
+\title{R's social rank 10 years ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's social rank 10 years ago
+rank10
 }
 \details{
 Question 186. In our society there are groups which tend to be towards the top and those that are towards the bottom. Here we have ascale that runs from top (1) to bottom (10). b. And ten years ago, where did you fit in then?

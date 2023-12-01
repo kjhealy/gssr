@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_19.R
 \name{padotdat}
 \alias{padotdat}
-\title{padotdat}
+\title{Fa. d.o.t. code - relation to data}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fa. d.o.t. code - relation to data
+padotdat
 }
 \details{
 Question None

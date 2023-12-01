@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_145.R
 \name{jobvshme}
 \alias{jobvshme}
-\title{jobvshme}
+\title{How often your family interfered with your job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often your family interfered with your job
+jobvshme
 }
 \details{
 Question 458. In the last few years, how often would you say that your family or household responsibilities have interfered with your ability to devote full attention to your job?

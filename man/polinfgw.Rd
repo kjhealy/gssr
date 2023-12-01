@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_371.R
 \name{polinfgw}
 \alias{polinfgw}
-\title{polinfgw}
+\title{Influence on global warming policy: elected official}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence on global warming policy: elected official
+polinfgw
 }
 \details{
 Question 1056. Please look at Card B4. How much influence should each of the following groups have in deciding what to do about global warming? b. Elected officials

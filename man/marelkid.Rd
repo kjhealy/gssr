@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_512.R
 \name{marelkid}
 \alias{marelkid}
-\title{marelkid}
+\title{Mothers religion when r was child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers religion when r was child
+marelkid
 }
 \details{
 Question 1386. What was your mother's religious preference when you were a child? Was it Protestant, Catholic, Jewish, some other religion, or no religion?

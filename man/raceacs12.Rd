@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_625.R
 \name{raceacs12}
 \alias{raceacs12}
-\title{raceacs12}
+\title{Guamanian or chamorro}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Guamanian or chamorro
+raceacs12
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. Guamanian or Chamorro

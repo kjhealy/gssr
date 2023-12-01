@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_207.R
 \name{tototh}
 \alias{tototh}
-\title{tototh}
+\title{How much money contributed in other (specify)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much money contributed in other (specify)
+tototh
 }
 \details{
 Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? o. Other (specify)

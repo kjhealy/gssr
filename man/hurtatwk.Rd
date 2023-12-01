@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_311.R
 \name{hurtatwk}
 \alias{hurtatwk}
-\title{hurtatwk}
+\title{Number of injuries on the job past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of injuries on the job past 12 months
+hurtatwk
 }
 \details{
 Question 912. In the past 12 months, how many times have you been injured on the job?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_498.R
 \name{indusoth}
 \alias{indusoth}
-\title{indusoth}
+\title{R preference re: manufacture service, etc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R preference re: manufacture service, etc
+indusoth
 }
 \details{
 Question 1328. Suppose you were working and could choose between different kinds of jobs. Which of the following would you personally choose? I would advise... c. Working in a manufacturing industry or in an office, sales, or service

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_513.R
 \name{socright}
 \alias{socright}
-\title{socright}
+\title{Society's laws should decide right and wrong}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Society's laws should decide right and wrong
+socright
 }
 \details{
 Question 1397. Do you agree or disagree with the following statements. . . b. Right and wrong should be decided by society.

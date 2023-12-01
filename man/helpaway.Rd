@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_323.R
 \name{helpaway}
 \alias{helpaway}
-\title{helpaway}
+\title{R looked after plant or pet of others while away}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R looked after plant or pet of others while away
+helpaway
 }
 \details{
 Question 927. During the past 12 months, how often have you done each of the following things: h. Looked after a person's plants, mail, or pets while they were away

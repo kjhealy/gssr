@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_463.R
 \name{partpart}
 \alias{partpart}
-\title{partpart}
+\title{In past 12 months, r has participated in orgs for politics or political associat}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In past 12 months, r has participated in orgs for politics or political associat
+partpart
 }
 \details{
 Question In the past 12 months, how often, if at all, have you taken part in the activities? B. Of political parties, political groups or political associations?

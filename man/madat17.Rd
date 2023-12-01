@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_187.R
 \name{madat17}
 \alias{madat17}
-\title{madat17}
+\title{Angry at government employee}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Angry at government employee
+madat17
 }
 \details{
 Question 576. Who were you angry, irritated, or annoyed at? q. Government employee or agency (policeman, etc.)

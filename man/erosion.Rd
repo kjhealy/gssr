@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_383.R
 \name{erosion}
 \alias{erosion}
-\title{erosion}
+\title{Example of erosion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Example of erosion
+erosion
 }
 \details{
 Question Which one of the following is not an example of erosion? {response to acceptDK} {response to probeDK}

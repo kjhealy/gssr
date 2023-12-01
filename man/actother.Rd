@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_109.R
 \name{actother}
 \alias{actother}
-\title{actother}
+\title{R active in any other group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in any other group
+actother
 }
 \details{
 Question 330. Have you ever done any active work for any other groups? I mean been a leader, helped organize meetings, been an officer, or given time or money?

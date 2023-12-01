@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_329.R
 \name{adfammed}
 \alias{adfammed}
-\title{adfammed}
+\title{Would r have child be on medication by fam advice}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r have child be on medication by fam advice
+adfammed
 }
 \details{
 Question 944a. If they said your child should be on medication, how likely would you be to do that? Very likely, somewhat likely, not very likely, or not at all likely?

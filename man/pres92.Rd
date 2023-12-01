@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_21.R
 \name{pres92}
 \alias{pres92}
-\title{pres92}
+\title{Vote for clinton, bush, perot}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote for clinton, bush, perot
+pres92
 }
 \details{
 Question 63a. If voted: Did you vote for Clinton, Bush,or Perot?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_579.R
 \name{godoc}
 \alias{godoc}
-\title{godoc}
+\title{Last week went to see a doctor?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Last week went to see a doctor?
+godoc
 }
 \details{
 Question 1614. Now I'm going to ask you about things you did during the last seven days. I'm only interested in what you did during the last seven days. From last (DAY OF WEEK) to today did you... a. Go to see a doctor or receive medical treatment at a clinic or hospital?

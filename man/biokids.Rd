@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_660.R
 \name{biokids}
 \alias{biokids}
-\title{biokids}
+\title{Number of biological children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of biological children
+biokids
 }
 \details{
 Question Now, we have some questions about your children. How many biological children have you ever had?

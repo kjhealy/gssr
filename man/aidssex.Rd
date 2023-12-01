@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_547.R
 \name{aidssex}
 \alias{aidssex}
-\title{aidssex}
+\title{Sex of aids victim closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of aids victim closest to r
+aidssex
 }
 \details{
 Question 1526. We would like to know a few other things about that person. b. (Is/Was) that person male or female?

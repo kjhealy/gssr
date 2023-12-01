@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_152.R
 \name{impkids}
 \alias{impkids}
-\title{impkids}
+\title{Imp to r of having children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp to r of having children
+impkids
 }
 \details{
 Question 477. I'm going to read you a list of some things that different people value. Some people say these things are very important to them. Other people say they are not so important. Please tell me how important each things is to you personally, using the responses on this card. c. Having children

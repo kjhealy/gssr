@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_140.R
 \name{offsup}
 \alias{offsup}
-\title{offsup}
+\title{Do you supervise the work of other employees}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you supervise the work of other employees
+offsup
 }
 \details{
 Question 439. As an official part of your main job, do you supervise the work of other employees or tell other employees what work to do?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_08.R
 \name{maoccindv}
 \alias{maoccindv}
-\title{maoccindv}
+\title{Mothers occ/ind verbatim retrieved}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers occ/ind verbatim retrieved
+maoccindv
 }
 \details{
 Question None

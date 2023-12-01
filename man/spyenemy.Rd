@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_570.R
 \name{spyenemy}
 \alias{spyenemy}
-\title{spyenemy}
+\title{Punishment for selling secrets to hostile foreign gov}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment for selling secrets to hostile foreign gov
+spyenemy
 }
 \details{
 Question 1590. Now I'm going to ask you about several offenses. For each case, indicate (Number 1-6) what you would consider the appropriate punishment for each case. c. A Navy petty officer with the highest security clearance made copies of secret codes and other classified intelligence materials and sold them to an agent of a hostile foreign government.

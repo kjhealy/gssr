@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_244.R
 \name{hmo1}
 \alias{hmo1}
-\title{hmo1}
+\title{Hmo improves the quality of care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hmo improves the quality of care
+hmo1
 }
 \details{
 Question 721. The health care system is changing rapidly with more and more people being treated in Health Maintenance Organizations (or HMOs) and in managed care plans. How much do you agree or disagree with how the HMOs and managed care plans are working? a. They improve the quality of care

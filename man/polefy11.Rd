@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_433.R
 \name{polefy11}
 \alias{polefy11}
-\title{polefy11}
+\title{How much say about what govt does}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much say about what govt does
+polefy11
 }
 \details{
 Question How much say do people like you have about what the government does: None, a little, some, quite a bit, or a great deal?

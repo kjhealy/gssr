@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_113.R
 \name{scisolve}
 \alias{scisolve}
-\title{scisolve}
+\title{Science will solve social problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Science will solve social problems
+scisolve
 }
 \details{
 Question 357. Here are some things that have been said about science. Would you tell me if you tend to agree or disagree with them? a. Science will solve our social problems like crime and mental illness.

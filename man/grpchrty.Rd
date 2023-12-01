@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_458.R
 \name{grpchrty}
 \alias{grpchrty}
-\title{grpchrty}
+\title{Participated in a charitable org past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Participated in a charitable org past 12 months
+grpchrty
 }
 \details{
 Question 1236. People sometimes belong to different kinds of groups or associations. The next few questions contain different types of groups. For each type of group, please select a response to say whether you have participated in the activities of this group in the past 12 months. e. A charitable organization or group

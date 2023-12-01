@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_185.R
 \name{whnangry}
 \alias{whnangry}
-\title{whnangry}
+\title{How long ago did this event happen?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long ago did this event happen?
+whnangry
 }
 \details{
 Question 575. How long ago did this event happen?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_225.R
 \name{diagnosd}
 \alias{diagnosd}
-\title{diagnosd}
+\title{R ever diagnosed with mh problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R ever diagnosed with mh problem
+diagnosd
 }
 \details{
 Question A. Have you ever been diagnosed with a mental health problem?

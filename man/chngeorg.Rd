@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_143.R
 \name{chngeorg}
 \alias{chngeorg}
-\title{chngeorg}
+\title{How likely i'll try to find job in another org.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely i'll try to find job in another org.
+chngeorg
 }
 \details{
 Question 454. All in all, how likely is it that you will try hard to find a job with another organization within the next 12 months?

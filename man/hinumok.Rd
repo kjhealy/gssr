@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_87.R
 \name{hinumok}
 \alias{hinumok}
-\title{hinumok}
+\title{Number of hispanics in military}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of hispanics in military
+hinumok
 }
 \details{
 Question 289d. At the present time, about 4 percent of the armed forces are Hispanics. All things considered, do you think there are too many Hispanics in the armed forces, about the right number, or should there be more Hispanics in the armed forces?

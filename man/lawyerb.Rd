@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_194.R
 \name{lawyerb}
 \alias{lawyerb}
-\title{lawyerb}
+\title{A friend or relative recommended them}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A friend or relative recommended them
+lawyerb
 }
 \details{
 Question 608. Think about the most recent time you hired a lawyer. What made you choose this law firm or attorney? b. A friend or relative recommended them.

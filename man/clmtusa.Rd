@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_628.R
 \name{clmtusa}
 \alias{clmtusa}
-\title{clmtusa}
+\title{Impact of climate change for america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Impact of climate change for america
+clmtusa
 }
 \details{
 Question On a scale from 0 to 10, how bad or good do you think the impacts of climate change will be for America?

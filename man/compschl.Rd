@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_282.R
 \name{compschl}
 \alias{compschl}
-\title{compschl}
+\title{Does r use computer at school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r use computer at school
+compschl
 }
 \details{
 Question 804. From which of these locations do you use this other computer? b. School

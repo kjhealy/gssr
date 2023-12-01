@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_57.R
 \name{considez}
 \alias{considez}
-\title{considez}
+\title{Considerate of others-version z}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Considerate of others-version z
+considez
 }
 \details{
 Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. k. That he is considerate of others.

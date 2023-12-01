@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_452.R
 \name{marcohab}
 \alias{marcohab}
-\title{marcohab}
+\title{Cohabitation status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Cohabitation status
+marcohab
 }
 \details{
 Question None

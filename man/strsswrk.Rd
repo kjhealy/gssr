@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_487.R
 \name{strsswrk}
 \alias{strsswrk}
-\title{strsswrk}
+\title{Job is rarely stressful}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job is rarely stressful
+strsswrk
 }
 \details{
 Question 1315. To what extent do you agree or disagree? d. My job is rarely stressful

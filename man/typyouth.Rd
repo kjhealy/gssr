@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_347.R
 \name{typyouth}
 \alias{typyouth}
-\title{typyouth}
+\title{R belongs to more than one youth groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one youth groups
+typyouth
 }
 \details{
 Question 1024g. Do you belong to more than one youth group?

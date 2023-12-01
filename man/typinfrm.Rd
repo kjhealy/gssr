@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_348.R
 \name{typinfrm}
 \alias{typinfrm}
-\title{typinfrm}
+\title{R belongs to more than one informal groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one informal groups
+typinfrm
 }
 \details{
 Question 1024q. Do you belong to more than one informal group?

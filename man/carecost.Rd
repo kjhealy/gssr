@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_489.R
 \name{carecost}
 \alias{carecost}
-\title{carecost}
+\title{Who should pay for costs of care for under school age child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who should pay for costs of care for under school age child
+carecost
 }
 \details{
 Question Who do you think should primarily cover the costs of childcare for children under school age?

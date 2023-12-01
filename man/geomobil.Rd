@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_515.R
 \name{geomobil}
 \alias{geomobil}
-\title{geomobil}
+\title{Has r moved from one kind of place to another}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r moved from one kind of place to another
+geomobil
 }
 \details{
 Question None

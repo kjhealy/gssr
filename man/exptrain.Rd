@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_146.R
 \name{exptrain}
 \alias{exptrain}
-\title{exptrain}
+\title{Importance of different employer training for job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of different employer training for job
+exptrain
 }
 \details{
 Question 462. How important were each of the following as sources fo the skills that you use in your job? d. Experience or training at a different employer

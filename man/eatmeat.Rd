@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_629.R
 \name{eatmeat}
 \alias{eatmeat}
-\title{eatmeat}
+\title{In a typical week, on how many days do you eat beef, lamb, or products that cont}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In a typical week, on how many days do you eat beef, lamb, or products that cont
+eatmeat
 }
 \details{
 Question In a typical week, on how many days do you eat beef, lamb, or products that contain them?

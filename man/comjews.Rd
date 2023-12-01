@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_257.R
 \name{comjews}
 \alias{comjews}
-\title{comjews}
+\title{Percentage jews living in r's community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage jews living in r's community
+comjews
 }
 \details{
 Question 755. Just your best guess�what percentage of the people who live in your local community is each group? c. Jews

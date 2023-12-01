@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_189.R
 \name{chnang9}
 \alias{chnang9}
-\title{chnang9}
+\title{Went out to get some exercise}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Went out to get some exercise
+chnang9
 }
 \details{
 Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? i. Went out to get some exercise to make me feel better

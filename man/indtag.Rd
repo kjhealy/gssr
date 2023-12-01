@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_03.R
 \name{indtag}
 \alias{indtag}
-\title{indtag}
+\title{Indus10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Indus10 coding tag
+indtag
 }
 \details{
 Question None

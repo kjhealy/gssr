@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_396.R
 \name{acqfmpri}
 \alias{acqfmpri}
-\title{acqfmpri}
+\title{Number of family member in prison}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of family member in prison
+acqfmpri
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. e. How many are currently in state or federal prison?

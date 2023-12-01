@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_574.R
 \name{spethnum}
 \alias{spethnum}
-\title{spethnum}
+\title{Type of response about ethnicity:sp}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of response about ethnicity:sp
+spethnum
 }
 \details{
 Question None

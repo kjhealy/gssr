@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_486.R
 \name{spborn}
 \alias{spborn}
-\title{spborn}
+\title{When was your spouse born}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When was your spouse born
+spborn
 }
 \details{
 Question None

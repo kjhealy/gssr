@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_554.R
 \name{hivtest1}
 \alias{hivtest1}
-\title{hivtest1}
+\title{In what month and year was your last hiv test}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what month and year was your last hiv test
+hivtest1
 }
 \details{
 Question 1562a. Not including blood donations, in what month and year was your last HIV test?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_319.R
 \name{smammalb4}
 \alias{smammalb4}
-\title{smammalb4}
+\title{Small mammal (rabbit, gerbil, hamster)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Small mammal (rabbit, gerbil, hamster)
+smammalb4
 }
 \details{
 Question What kind of pet\link{s} does your family have? C. A small mammal (rabbit, gerbil, hamster)

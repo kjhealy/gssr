@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_473.R
 \name{conjobs}
 \alias{conjobs}
-\title{conjobs}
+\title{Employed and unemployed in conflict}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Employed and unemployed in conflict
+conjobs
 }
 \details{
 Question 1259. In all countries, there are differences or conflicts between different social groups. In your opinion, in America, how much conflict is there between . . . c. The unemployed and people with jobs?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_170.R
 \name{amissue}
 \alias{amissue}
-\title{amissue}
+\title{Degree r invokes just american identity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Degree r invokes just american identity
+amissue
 }
 \details{
 Question 516a. Do you think of yourself as "just an American" on all issues, most issues, or just a few issues?

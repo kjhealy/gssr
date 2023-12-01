@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_448.R
 \name{govtinfo}
 \alias{govtinfo}
-\title{govtinfo}
+\title{Should govt info be public}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt info be public
+govtinfo
 }
 \details{
 Question Here is a scale from 0 to 10 where 0 is ""All government information should be publically available, eve ""public security should be given priority, even if this means limiting access to government information Where would you place yourself on such a scale?

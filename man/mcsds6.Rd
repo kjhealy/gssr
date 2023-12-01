@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{mcsds6}
 \alias{mcsds6}
-\title{mcsds6}
+\title{I like to gossip at times}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I like to gossip at times
+mcsds6
 }
 \details{
 Question Next are a number of statements concerning personal attitudes and traits. Please tell me whether the statement is true or false as it pertains to you personally F. I like to gossip at times.

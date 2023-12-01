@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_580.R
 \name{othrel}
 \alias{othrel}
-\title{othrel}
+\title{Attend some other type of religious event}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attend some other type of religious event
+othrel
 }
 \details{
 Question 1616. During the last seven days did you do the following: c. Attend some other type of religious event or meeting (e.g. prayer breakfasts, Bible study groups, choir practices, church sponsored lectures, adult fellowship meetings)?

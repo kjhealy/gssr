@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_274.R
 \name{manual}
 \alias{manual}
-\title{manual}
+\title{Has r consulted manual for help with software}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r consulted manual for help with software
+manual
 }
 \details{
 Question 789. When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) \link{PROMPT: Anything else?} b. Look in a printed manual, book, ro CD that tells how to use the software?

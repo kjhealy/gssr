@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_449.R
 \name{tapphone}
 \alias{tapphone}
-\title{tapphone}
+\title{Should authorities have right to tap phone conver'sation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should authorities have right to tap phone conver'sation
+tapphone
 }
 \details{
 Question 1492. Suppose the government suspected that a terrorist act was about to happen. Do you think the authorities should have the right to... b. tap people's telephone conversations?

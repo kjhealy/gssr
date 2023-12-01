@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_11.R
 \name{spdeg}
 \alias{spdeg}
-\title{spdeg}
+\title{Spouse's highest degree}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's highest degree
+spdeg
 }
 \details{
 Question 22. If finished 9th-12th grade: Did he/she ever get a high school diploma or a GED certificate?

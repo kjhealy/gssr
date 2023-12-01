@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_635.R
 \name{hivdscrm}
 \alias{hivdscrm}
-\title{hivdscrm}
+\title{There is a lot of discrimination against people with hiv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-There is a lot of discrimination against people with hiv
+hivdscrm
 }
 \details{
 Question (Please indicate how much you agree or disagree with each of the following comments.) There is a lot of discrimination against people with HIV in this country today.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_635.R
 \name{poltrthsp}
 \alias{poltrthsp}
-\title{poltrthsp}
+\title{Police treats whites better than latinos or latinos better than whites}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Police treats whites better than latinos or latinos better than whites
+poltrthsp
 }
 \details{
 Question In general, do the police (treat Whites better than Latinos, treat them both the same, or treat Latinos better than Whites/treat Latinos better than Whites, treat them both the same, or treat Whites better than Latinos)? Latinos better than Whites?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_439.R
 \name{nosmoke}
 \alias{nosmoke}
-\title{nosmoke}
+\title{Gov should prohibit smoking in pub areas}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gov should prohibit smoking in pub areas
+nosmoke
 }
 \details{
 Question 1177. Do you think that... b. Smoking in public places should be prohibited by law.

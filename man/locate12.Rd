@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_267.R
 \name{locate12}
 \alias{locate12}
-\title{locate12}
+\title{R use web to find addresses in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use web to find addresses in past 12 months
+locate12
 }
 \details{
 Question 774. In the past 12 months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/02 have you used the Web to do each of these things: i. Locate someone's phone number, email, or mailing address

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_495.R
 \name{extraern}
 \alias{extraern}
-\title{extraern}
+\title{How much earned from additional jobs in past yr}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much earned from additional jobs in past yr
+extraern
 }
 \details{
 Question Over the entire 12 months, how much did you earn from your additional job(s) in total compared with your main job?

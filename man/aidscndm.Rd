@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_554.R
 \name{aidscndm}
 \alias{aidscndm}
-\title{aidscndm}
+\title{Condom can reduce aids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Condom can reduce aids
+aidscndm
 }
 \details{
 Question B. Can people reduce their chance of getting the AIDS virus by using a condom every time they have sex?

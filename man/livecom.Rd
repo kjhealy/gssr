@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_455.R
 \name{livecom}
 \alias{livecom}
-\title{livecom}
+\title{Length of residence in city, town, comm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Length of residence in city, town, comm
+livecom
 }
 \details{
 Question 1215. How long have you lived in the city, town or community where you live now?

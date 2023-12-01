@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_139.R
 \name{racpromo}
 \alias{racpromo}
-\title{racpromo}
+\title{Ethnic background makes your promotion different}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ethnic background makes your promotion different
+racpromo
 }
 \details{
 Question 435. Do you think your race or ethnic background makes your promotion opportunities better or worse?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_13.R
 \name{mobile16}
 \alias{mobile16}
-\title{mobile16}
+\title{Geographic mobility since age 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Geographic mobility since age 16
+mobile16
 }
 \details{
 Question 26a. When you were 16 years old, were you living int his same (city/town/county)?

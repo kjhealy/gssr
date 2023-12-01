@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_522.R
 \name{carsgen}
 \alias{carsgen}
-\title{carsgen}
+\title{Car pollution danger to envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Car pollution danger to envir
+carsgen
 }
 \details{
 Question 1417. Please check one box for each of the questions below to show what you think. a. In general, do you think that air pollution caused by cars is...

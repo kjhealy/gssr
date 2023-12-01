@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_239.R
 \name{orgsize}
 \alias{orgsize}
-\title{orgsize}
+\title{How many people employed in the entire org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people employed in the entire org
+orgsize
 }
 \details{
 Question 697d. About how many people are employed in the entire business, corporation, or organization for which you work? (Count part-time as well as full-time employees.)

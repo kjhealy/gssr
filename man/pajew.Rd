@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_115.R
 \name{pajew}
 \alias{pajew}
-\title{pajew}
+\title{What sort of jew was r's father}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What sort of jew was r's father
+pajew
 }
 \details{
 Question 360b. If Jewish: Was he Orthodox, Conservative, Reform, or none of these?

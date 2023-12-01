@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_510.R
 \name{conschls}
 \alias{conschls}
-\title{conschls}
+\title{Confidence in schools and educ system}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confidence in schools and educ system
+conschls
 }
 \details{
 Question 1378. How much confidence do you have in. . . f. Schools and the educational system

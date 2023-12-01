@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_498.R
 \name{empself}
 \alias{empself}
-\title{empself}
+\title{Does r prefer self-employment or not ?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r prefer self-employment or not ?
+empself
 }
 \details{
 Question 1328. Suppose you were working and could choose between different kinds of jobs. Which of the following would you personally choose? I would advise... a. Being an employee or being self-employed

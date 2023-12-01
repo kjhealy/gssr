@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_125.R
 \name{wrkyoung}
 \alias{wrkyoung}
-\title{wrkyoung}
+\title{How well local church works with youth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well local church works with youth
+wrkyoung
 }
 \details{
 Question 399. How do you rate how your local church does each of the following? d. Working with young people.

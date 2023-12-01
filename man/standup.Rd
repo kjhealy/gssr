@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_146.R
 \name{standup}
 \alias{standup}
-\title{standup}
+\title{Stand up for your own opinion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Stand up for your own opinion
+standup
 }
 \details{
 Question 467. Some people think that it's important to stand up for your own opinion even if it makes others around you uncomfortable. Others think that it's better to keep your views to yourself if they would make others around you uncomfortable. Which position comes closer to your view?

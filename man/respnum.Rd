@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_591.R
 \name{respnum}
 \alias{respnum}
-\title{respnum}
+\title{Number in family of r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number in family of r
+respnum
 }
 \details{
 Question 1625. Number in family of respondent.

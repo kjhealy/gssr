@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_475.R
 \name{paydowel}
 \alias{paydowel}
-\title{paydowel}
+\title{How much pay dependent on work well done}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much pay dependent on work well done
+paydowel
 }
 \details{
 Question 1268. In deciding how much people ought to earn, how important should each of these things be, in your opinion: f. How well he or she does the job (how important should that be)?

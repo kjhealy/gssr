@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_555.R
 \name{genegoo2}
 \alias{genegoo2}
-\title{genegoo2}
+\title{Genetic testing good or harm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Genetic testing good or harm
+genegoo2
 }
 \details{
 Question 1565c. Some people say that genetic testing may cause trouble. Others think it is a wonderful medical advance. Based on what you know, do you think genetic testing will do more harm than good or more good than harm?

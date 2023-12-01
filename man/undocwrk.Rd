@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_173.R
 \name{undocwrk}
 \alias{undocwrk}
-\title{undocwrk}
+\title{Should illegal immigrants get work permits?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should illegal immigrants get work permits?
+undocwrk
 }
 \details{
 Question 520a. What about "undocumented aliens," that is, those who have immigrated to this country illegally? 1. Should illegal immigrants be entitled to work permits, or not?

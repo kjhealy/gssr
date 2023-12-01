@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_398.R
 \name{acqnhpri}
 \alias{acqnhpri}
-\title{acqnhpri}
+\title{Number of ppl in prison in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of ppl in prison in neighborhood
+acqnhpri
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. e. How many are you pretty certain are currently in state or federal prison?

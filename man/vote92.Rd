@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_21.R
 \name{vote92}
 \alias{vote92}
-\title{vote92}
+\title{Did r vote in 1992 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r vote in 1992 election
+vote92
 }
 \details{
 Question 63. In 1992, you remember that Clinton ran for President on the Democratic ticket against Bush for the Republicans and Perot as an independent. Do you remember for sure whether or not you voted in that election?

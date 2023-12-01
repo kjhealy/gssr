@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_231.R
 \name{artgod}
 \alias{artgod}
-\title{artgod}
+\title{Thru art and music we come closer to god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Thru art and music we come closer to god
+artgod
 }
 \details{
 Question 687. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. For example . . . a. Through such things as art and music, we come closer to God

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_341.R
 \name{crimdown}
 \alias{crimdown}
-\title{crimdown}
+\title{What if more restrictions reduce crime}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What if more restrictions reduce crime
+crimdown
 }
 \details{
 Question 991. Suppose research proves that more restrictions on handguns would reduce violent crime. Which of these two reactions would be closer to your position?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_34.R
 \name{lawinfo}
 \alias{lawinfo}
-\title{lawinfo}
+\title{How much info does r have on law issue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much info does r have on law issue
+lawinfo
 }
 \details{
 Question 93b. How much information do you have about the law enforcement issue?

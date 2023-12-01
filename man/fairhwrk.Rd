@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_177.R
 \name{fairhwrk}
 \alias{fairhwrk}
-\title{fairhwrk}
+\title{Division of work unfair to you or spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Division of work unfair to you or spouse
+fairhwrk
 }
 \details{
 Question 554. We're interested in knowing how much of the work around your home is done by different people. We don't mean taking care of children - just regular work around the house, like cooking, grocerty shopping, and doing little repair jobs. c. How fair do you feel the division of work around the house is in your household?

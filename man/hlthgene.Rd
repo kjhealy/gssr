@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_646.R
 \name{hlthgene}
 \alias{hlthgene}
-\title{hlthgene}
+\title{Suffer health prob because of genes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suffer health prob because of genes
+hlthgene
 }
 \details{
 Question (People suffer from severe health problems...) Because of their genes.

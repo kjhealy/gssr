@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_551.R
 \name{aidssxed}
 \alias{aidssxed}
-\title{aidssxed}
+\title{Public schools teach safe sex practices}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Public schools teach safe sex practices
+aidssxed
 }
 \details{
 Question 1540. Do you support or oppose the following measures to deal with AIDS? b. Require the teaching of safe sex practices, such as the use of condoms, in sex education courses in public schools

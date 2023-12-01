@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_177.R
 \name{sphmewrk}
 \alias{sphmewrk}
-\title{sphmewrk}
+\title{How much housework r's spouse does}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much housework r's spouse does
+sphmewrk
 }
 \details{
 Question 554. We're interested in knowing how much of the work around your home is done by different people. We don't mean taking care of children - just regular work around the house, like cooking, grocerty shopping, and doing little repair jobs. b. How much does your spouse or partner do?

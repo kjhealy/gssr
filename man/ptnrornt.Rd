@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_635.R
 \name{ptnrornt}
 \alias{ptnrornt}
-\title{ptnrornt}
+\title{Recent partner's sexual orientation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Recent partner's sexual orientation
+ptnrornt
 }
 \details{
 Question To the best of your knowledge, which of the following best describes how your most recent sexual partner thinks of themselves?

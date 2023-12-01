@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_591.R
 \name{hhtype}
 \alias{hhtype}
-\title{hhtype}
+\title{Household type}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Household type
+hhtype
 }
 \details{
 Question 1626. Household Type.

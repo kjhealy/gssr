@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_386.R
 \name{scinews2}
 \alias{scinews2}
-\title{scinews2}
+\title{Magazine printed or online}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Magazine printed or online
+scinews2
 }
 \details{
 Question You said you get most of your information about science and technology from magazines. Would that be printed magazines or online magazines? FI INSTRUCTION: ONLY IF RESPONDENT VOLUNTEERS ANOTHER FORM OTHER THAN PRINTED OR ONLINE, SPECIFY WHICH.

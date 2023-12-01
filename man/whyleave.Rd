@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_423.R
 \name{whyleave}
 \alias{whyleave}
-\title{whyleave}
+\title{Why r left last job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why r left last job
+whyleave
 }
 \details{
 Question Why did you leave your last (full-time) job? Did you leave voluntarily, was the job abolished, or were you permanently laid off?

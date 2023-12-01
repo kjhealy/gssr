@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_489.R
 \name{careprov}
 \alias{careprov}
-\title{careprov}
+\title{Who should provide childcare for under school age child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who should provide childcare for under school age child
+careprov
 }
 \details{
 Question People have different views on childcare for children under school age. Who do you think should primarily provide childcare?

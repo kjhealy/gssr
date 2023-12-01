@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_652.R
 \name{artsout}
 \alias{artsout}
-\title{artsout}
+\title{Outdoor art activity in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Outdoor art activity in past 12 months
+artsout
 }
 \details{
 Question Thinking about all the types of events you said you attended, were any of those activities outdoors?

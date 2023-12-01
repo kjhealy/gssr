@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_418.R
 \name{synmem}
 \alias{synmem}
-\title{synmem}
+\title{R belongs to a synagogue, temple, minyan, or high holiday congregation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to a synagogue, temple, minyan, or high holiday congregation
+synmem
 }
 \details{
 Question {response to synmemtxt} belong to a synagogue, temple, minyan, or high holiday congregation?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_336.R
 \name{treatres}
 \alias{treatres}
-\title{treatres}
+\title{People are treated with respect}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People are treated with respect
+treatres
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. m. At work, people are treated with respect.

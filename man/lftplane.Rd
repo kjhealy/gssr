@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_383.R
 \name{lftplane}
 \alias{lftplane}
-\title{lftplane}
+\title{Key factor that enables airplane to lift}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Key factor that enables airplane to lift
+lftplane
 }
 \details{
 Question Which of the following is a key factor that enables an airplane to lift? {response to acceptDK} {response to probeDK}

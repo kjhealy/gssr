@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_564.R
 \name{hrdshp3}
 \alias{hrdshp3}
-\title{hrdshp3}
+\title{Having the utilities shut-off}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Having the utilities shut-off
+hrdshp3
 }
 \details{
 Question D. Now I am going to ask about specific hardships. Did any of the following occur to you since (CURRENT MONTH), 2003? 3. Had your utilities (water, heat, or electricity) shut off

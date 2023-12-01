@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_450.R
 \name{patime}
 \alias{patime}
-\title{patime}
+\title{Travel time to father}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Travel time to father
+patime
 }
 \details{
 Question 1200b. About how long would it take you to get to where your father lives? Think of the time it usually takes door to door.

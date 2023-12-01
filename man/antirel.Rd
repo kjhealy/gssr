@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_514.R
 \name{antirel}
 \alias{antirel}
-\title{antirel}
+\title{Anti-religious material should be banned}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Anti-religious material should be banned
+antirel
 }
 \details{
 Question 398. Some books or films offend people who have strong religious beliefs. Should books and films that attack religions be prohibited by law or should they be allowed?

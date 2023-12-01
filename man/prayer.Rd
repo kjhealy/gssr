@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_42.R
 \name{prayer}
 \alias{prayer}
-\title{prayer}
+\title{Bible prayer in public schools}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Bible prayer in public schools
+prayer
 }
 \details{
 Question 119a. The United States Supreme Court has ruled that no state or local government may require the reading of the Lor's Prayer or Bible verses in public schools. What are your views on this - do you approve or disapprove of the court ruling?

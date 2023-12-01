@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_405.R
 \name{trtreps}
 \alias{trtreps}
-\title{trtreps}
+\title{Proportion of republican r trust}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Proportion of republican r trust
+trtreps
 }
 \details{
 Question 1111a. How many of the people that you trust do you think are Republicans? Would you say...

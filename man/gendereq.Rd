@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_445.R
 \name{gendereq}
 \alias{gendereq}
-\title{gendereq}
+\title{Gov resp to promote equality}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gov resp to promote equality
+gendereq
 }
 \details{
 Question (On the whole, do you think it should or should not be the government's responsibility to...) Promote equality between men and women? (Would you say...)

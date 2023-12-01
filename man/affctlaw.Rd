@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_541.R
 \name{affctlaw}
 \alias{affctlaw}
-\title{affctlaw}
+\title{How likely congress give serious attention to r's demands}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely congress give serious attention to r's demands
+affctlaw
 }
 \details{
 Question Suppose a law were being considered by the Congress that you considered to be unjust or harmful. 1473. If you made such an effort, how likely is it that the Congress would give serious attention to your demands?

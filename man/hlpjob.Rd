@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_463.R
 \name{hlpjob}
 \alias{hlpjob}
-\title{hlpjob}
+\title{Who r would first turn to if they needed help finding a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r would first turn to if they needed help finding a job
+hlpjob
 }
 \details{
 Question Who would you turn to first to?. B. Help you if you needed to find a job?

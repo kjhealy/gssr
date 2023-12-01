@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_283.R
 \name{compfri}
 \alias{compfri}
-\title{compfri}
+\title{Does r use computer at friends house}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r use computer at friends house
+compfri
 }
 \details{
 Question 804. From which of these locations do you use this other computer? d. Friend's house

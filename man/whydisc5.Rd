@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_494.R
 \name{whydisc5}
 \alias{whydisc5}
-\title{whydisc5}
+\title{Why were you discriminated against}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why were you discriminated against
+whydisc5
 }
 \details{
 Question B. In your opinion, what was the main reason for the discrimination? Please select one reason.

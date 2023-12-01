@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_296.R
 \name{treat4}
 \alias{treat4}
-\title{treat4}
+\title{R seek treat limited types of work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R seek treat limited types of work
+treat4
 }
 \details{
 Question 842. Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not. d. Being limited in the kind of work or other regular daily activities you do as a result of your physical health?

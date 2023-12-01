@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_563.R
 \name{finan5}
 \alias{finan5}
-\title{finan5}
+\title{Major worsening financial condition}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Major worsening financial condition
+finan5
 }
 \details{
 Question C. Did any of the following financial matters happen to you during the last year... 5. Major worsening of your financial condition.

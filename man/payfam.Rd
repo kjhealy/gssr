@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{payfam}
 \alias{payfam}
-\title{payfam}
+\title{How important family responsibility in deciding p}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important family responsibility in deciding p
+payfam
 }
 \details{
 Question 1350. In deciding on pay for two people doing the same kind of work, how important should be ... b. The person's family responsibilities?

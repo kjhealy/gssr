@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_662.R
 \name{totalincentive}
 \alias{totalincentive}
-\title{totalincentive}
+\title{Total incentive for case, including pre- and post- incentive for baseline and an}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total incentive for case, including pre- and post- incentive for baseline and an
+totalincentive
 }
 \details{
 Question TOTAL INCENTIVE FOR CASE, INCLUDING PRE- AND POST- INCENTIVE FOR BASELINE AND ANY FOLLOW-ON STUDIES

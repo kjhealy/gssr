@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_337.R
 \name{denyrais}
 \alias{denyrais}
-\title{denyrais}
+\title{Denied raise without reason at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Denied raise without reason at work
+denyrais
 }
 \details{
 Question I have been denied a raise or promotion without being given a valid reason. Often, sometimes, rarely, never.

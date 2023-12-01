@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_511.R
 \name{godmeans}
 \alias{godmeans}
-\title{godmeans}
+\title{Life meaningful because god exists}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Life meaningful because god exists
+godmeans
 }
 \details{
 Question 1387. Do you agree or disagree with the following. . . c. To me, life is meaningful only because God exists.

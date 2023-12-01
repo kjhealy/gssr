@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_147.R
 \name{lfechnce}
 \alias{lfechnce}
-\title{lfechnce}
+\title{Life is a matter of chance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Life is a matter of chance
+lfechnce
 }
 \details{
 Question 471. I'm going to read some statements that give reasons why a person's life turns out well or poorly. As I read each one, tell me whether you think it is very important, important, somewhat important, or not at all important for how somebody's life turns out? e. It's just a matter of chance.

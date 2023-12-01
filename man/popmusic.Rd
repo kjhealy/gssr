@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_232.R
 \name{popmusic}
 \alias{popmusic}
-\title{popmusic}
+\title{Went to a live performance of popular music}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Went to a live performance of popular music
+popmusic
 }
 \details{
 Question 690. Next I'd like to ask about some leisure or recreational activities that people do during their free time. As I read each activity, can you tell me if it is something you have done in the past twelve months? b. Go to a live performance of popular music like rock, country, or rap, not including school performances.

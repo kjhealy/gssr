@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_665.R
 \name{rstpprnt}
 \alias{rstpprnt}
-\title{rstpprnt}
+\title{R is step-parent of child under 18 in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is step-parent of child under 18 in hh
+rstpprnt
 }
 \details{
 Question None

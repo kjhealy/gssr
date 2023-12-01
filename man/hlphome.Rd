@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_463.R
 \name{hlphome}
 \alias{hlphome}
-\title{hlphome}
+\title{Who r would first turn to if they needed help with a household or a garden job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r would first turn to if they needed help with a household or a garden job
+hlphome
 }
 \details{
 Question Who would you turn to first to?. A. Help you with a household or a garden job that you can't do yourself?

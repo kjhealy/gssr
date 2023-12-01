@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_465.R
 \name{cntctkid}
 \alias{cntctkid}
-\title{cntctkid}
+\title{How often r contacts their most-contacted adult child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r contacts their most-contacted adult child
+cntctkid
 }
 \details{
 Question Think about your adult child you have contact with most frequently: How often do you have contact with this child aged at least 18, either face-to-face, by phone, internet or any other communication device?

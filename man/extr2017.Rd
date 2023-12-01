@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_321.R
 \name{extr2017}
 \alias{extr2017}
-\title{extr2017}
+\title{Did r receive any  performance-based incentives in 2017}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r receive any  performance-based incentives in 2017
+extr2017
 }
 \details{
 Question B. Did you receive any of these performance-based payments in the year 2017? IF ASKED: Performance-based pay means individual or group bonuses, commissions, or any type of profit-sharing.

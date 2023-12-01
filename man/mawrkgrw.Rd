@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_14.R
 \name{mawrkgrw}
 \alias{mawrkgrw}
-\title{mawrkgrw}
+\title{Mothers employment when r was 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers employment when r was 16
+mawrkgrw
 }
 \details{
 Question 29. Did your mother ever work for pay for as long as a year, while you were growing up?

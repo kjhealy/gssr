@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_246.R
 \name{knwnproz}
 \alias{knwnproz}
-\title{knwnproz}
+\title{Have you known anyone who took prozac}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have you known anyone who took prozac
+knwnproz
 }
 \details{
 Question 723. Next, I'd like to ask you some questions about the medication called Prozac. c. Have you ever personally known anyone who took Prozac?

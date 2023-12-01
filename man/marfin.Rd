@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_479.R
 \name{marfin}
 \alias{marfin}
-\title{marfin}
+\title{Financial security main advtg of marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Financial security main advtg of marriage
+marfin
 }
 \details{
 Question 1280. Do you agree or disagree? c. The main advantage of marriage is that it gives financial security

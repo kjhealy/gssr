@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_428.R
 \name{evharjb}
 \alias{evharjb}
-\title{evharjb}
+\title{In life, r has ever been harassed on job bc r was believed to be gay/les/bi}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In life, r has ever been harassed on job bc r was believed to be gay/les/bi
+evharjb
 }
 \details{
 Question Have you ever in your life been harassed verbally or in writing on the job by a co-worker, supervisor, or boss because you were believed to be gay, lesbian, or bisexual?

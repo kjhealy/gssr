@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_257.R
 \name{knwjew}
 \alias{knwjew}
-\title{knwjew}
+\title{Does r personally any jews}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r personally any jews
+knwjew
 }
 \details{
 Question 757. Do you personally know any...? c. Jews

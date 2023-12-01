@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_323.R
 \name{givseat}
 \alias{givseat}
-\title{givseat}
+\title{R offered seat to a stranger during past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R offered seat to a stranger during past 12 months
+givseat
 }
 \details{
 Question 927. During the past 12 months, how often have you done each of the following things: g. Offered your seat on a bus or in a public place to a stranger

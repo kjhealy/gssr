@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_192.R
 \name{evbuyhme}
 \alias{evbuyhme}
-\title{evbuyhme}
+\title{Have you ever purchased a home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have you ever purchased a home
+evbuyhme
 }
 \details{
 Question 597. Have you ever purchased a home (including a condominium or mobile home)?

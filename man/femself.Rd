@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_660.R
 \name{femself}
 \alias{femself}
-\title{femself}
+\title{How feminine r sees self}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How feminine r sees self
+femself
 }
 \details{
 Question None

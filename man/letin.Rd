@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_172.R
 \name{letin}
 \alias{letin}
-\title{letin}
+\title{Increase or decrease immigrants to us}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Increase or decrease immigrants to us
+letin
 }
 \details{
 Question 527. Do you think the number of immigrants from foreign countries who are permitted to come to the United States to live should be increased a lot, increased a little, left the same as it is now, decreased a little, or decreased a lot?

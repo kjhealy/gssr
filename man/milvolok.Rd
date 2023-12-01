@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_87.R
 \name{milvolok}
 \alias{milvolok}
-\title{milvolok}
+\title{How well has volunteer military worked?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well has volunteer military worked?
+milvolok
 }
 \details{
 Question 291. All things considered, how well do you think relying on volunteers has worked for the armed forces -- has it worked very well, fairly well, or not well?

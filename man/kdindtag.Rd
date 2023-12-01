@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_164.R
 \name{kdindtag}
 \alias{kdindtag}
-\title{kdindtag}
+\title{Kdind10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kdind10 coding tag
+kdindtag
 }
 \details{
 Question None

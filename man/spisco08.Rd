@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_596.R
 \name{spisco08}
 \alias{spisco08}
-\title{spisco08}
+\title{R's mothers occupation, 2010 census & 2008 isco code}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's mothers occupation, 2010 census & 2008 isco code
+spisco08
 }
 \details{
 Question None

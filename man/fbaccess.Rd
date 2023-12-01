@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_285.R
 \name{fbaccess}
 \alias{fbaccess}
-\title{fbaccess}
+\title{Permission to access r's facebook account}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Permission to access r's facebook account
+fbaccess
 }
 \details{
 Question None

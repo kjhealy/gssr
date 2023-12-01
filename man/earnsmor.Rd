@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_482.R
 \name{earnsmor}
 \alias{earnsmor}
-\title{earnsmor}
+\title{Hubby or wife earns more $}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hubby or wife earns more $
+earnsmor
 }
 \details{
 Question 1295. Who earns more money?

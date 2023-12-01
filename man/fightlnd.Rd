@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_88.R
 \name{fightlnd}
 \alias{fightlnd}
-\title{fightlnd}
+\title{Women in hand-to-hand combat}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women in hand-to-hand combat
+fightlnd
 }
 \details{
 Question 292. I'm going to read you a list of jobs that people might have in the armed forces. Please tell me whether you think a woman should or should not be assigned to each job, assuming she is trained to do it. f. Soldier in hand-to-hand combat.

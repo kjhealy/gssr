@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_574.R
 \name{racedbtf}
 \alias{racedbtf}
-\title{racedbtf}
+\title{Certainty of observed race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Certainty of observed race
+racedbtf
 }
 \details{
 Question 1600b. FOR THE RACIAL CLASSIFICATION YOU JUST ASSIGNED IN "A" INDICATE HOW SURE YOU WERE OF RESPONDENT'S RACE.

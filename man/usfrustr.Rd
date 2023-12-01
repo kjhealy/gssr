@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_190.R
 \name{usfrustr}
 \alias{usfrustr}
-\title{usfrustr}
+\title{Thinking us how often feel frustrated?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Thinking us how often feel frustrated?
+usfrustr
 }
 \details{
 Question 587. Now I want to ask some questions about how you feel when you think about this country, the United States. When you think about the United States: c. How often do you feel frustrated?

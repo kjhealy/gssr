@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_601.R
 \name{effctsup}
 \alias{effctsup}
-\title{effctsup}
+\title{Supervisor effective solve work/personal conflicts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Supervisor effective solve work/personal conflicts
+effctsup
 }
 \details{
 Question How effectively does your supervisor work with employees to creatively solve conflicts between work and personal or family life?

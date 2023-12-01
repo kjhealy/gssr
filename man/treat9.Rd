@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_297.R
 \name{treat9}
 \alias{treat9}
-\title{treat9}
+\title{R seek treat lack of energy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R seek treat lack of energy
+treat9
 }
 \details{
 Question 842. Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not. i. Not having lots of energy?

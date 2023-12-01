@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_271.R
 \name{wwwrap}
 \alias{wwwrap}
-\title{wwwrap}
+\title{In last month listen rap music on web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In last month listen rap music on web
+wwwrap
 }
 \details{
 Question f. Rap/hip-hop

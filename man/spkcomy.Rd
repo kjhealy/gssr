@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_623.R
 \name{spkcomy}
 \alias{spkcomy}
-\title{spkcomy}
+\title{Allow communist to speak y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow communist to speak y
+spkcomy
 }
 \details{
 Question Now, we would like to ask you some questions about a self-identified Communist. Suppose this admitted Communist wanted to make a speech in your community. Should this person be allowed to speak, or not?

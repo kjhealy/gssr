@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_170.R
 \name{ethid}
 \alias{ethid}
-\title{ethid}
+\title{R american vs ethnic identity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R american vs ethnic identity
+ethid
 }
 \details{
 Question 515. When you think of social and political issues, do you think of yourself mainly as a member of a particular ethnic, racial, or nationality group or do you think of yourself mainly as just an American?

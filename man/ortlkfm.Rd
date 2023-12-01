@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{ortlkfm}
 \alias{ortlkfm}
-\title{ortlkfm}
+\title{In what order talk things over with family & friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what order talk things over with family & friends
+ortlkfm
 }
 \details{
 Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? a. Talk things over with family and friends

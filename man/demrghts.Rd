@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_543.R
 \name{demrghts}
 \alias{demrghts}
-\title{demrghts}
+\title{Democratic rghts shouldn't be restricted by govt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Democratic rghts shouldn't be restricted by govt
+demrghts
 }
 \details{
 Question 1488. Here are some views regarding America's political system. Which of these statements is closer to your view?

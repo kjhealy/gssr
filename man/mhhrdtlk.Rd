@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_412.R
 \name{mhhrdtlk}
 \alias{mhhrdtlk}
-\title{mhhrdtlk}
+\title{People like x are hard to talk to}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People like x are hard to talk to
+mhhrdtlk
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. h. People like \link{NAME} are hard to talk to.

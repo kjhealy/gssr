@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_73.R
 \name{suiclse2}
 \alias{suiclse2}
-\title{suiclse2}
+\title{How close wereyou to 2nd closest suicide victim}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How close wereyou to 2nd closest suicide victim
+suiclse2
 }
 \details{
 Question C. On a scale of 1 to 5 how close did you feel to that person at the time of his or her death? Use 1 for not close at all and 5 for very close.

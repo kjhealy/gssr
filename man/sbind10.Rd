@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_170.R
 \name{sbind10}
 \alias{sbind10}
-\title{sbind10}
+\title{R sibling industry code (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sibling industry code (2010)
+sbind10
 }
 \details{
 Question None

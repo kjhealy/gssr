@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_596.R
 \name{maisco08}
 \alias{maisco08}
-\title{maisco08}
+\title{R's spouse's occupation, 2010 census & 2008 isco code}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's spouse's occupation, 2010 census & 2008 isco code
+maisco08
 }
 \details{
 Question None

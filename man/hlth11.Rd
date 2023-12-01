@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_562.R
 \name{hlth11}
 \alias{hlth11}
-\title{hlth11}
+\title{Respondent unable to work for one month or more}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondent unable to work for one month or more
+hlth11
 }
 \details{
 Question Now I am going to ask about some things that happen in families. First I am going to ask you about illness. 11. During the past twelve months, were you unable to work at your job or carry on your regular activities for one month or more because of illness or injury?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_517.R
 \name{makefrnd}
 \alias{makefrnd}
-\title{makefrnd}
+\title{Religion helps people to make friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion helps people to make friends
+makefrnd
 }
 \details{
 Question None

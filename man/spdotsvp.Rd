@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_18.R
 \name{spdotsvp}
 \alias{spdotsvp}
-\title{spdotsvp}
+\title{Sp. d.o.t. code - specific vocat. prep}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sp. d.o.t. code - specific vocat. prep
+spdotsvp
 }
 \details{
 Question None

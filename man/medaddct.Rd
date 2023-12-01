@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_332.R
 \name{medaddct}
 \alias{medaddct}
-\title{medaddct}
+\title{Med for mental health problem are addictive}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Med for mental health problem are addictive
+medaddct
 }
 \details{
 Question 961. Please tell me how much you agree or disagree with the following statements about medicines prescribed by doctors that are intended to help people who are having problems with their emotions, nerves or their mental health. b. These medications are addictive

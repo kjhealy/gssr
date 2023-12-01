@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_450.R
 \name{palive}
 \alias{palive}
-\title{palive}
+\title{Father still alive?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father still alive?
+palive
 }
 \details{
 Question 1200. Is your father still alive?

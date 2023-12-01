@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_499.R
 \name{rhiinc}
 \alias{rhiinc}
-\title{rhiinc}
+\title{R's income is high}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's income is high
+rhiinc
 }
 \details{
 Question 1335. For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. b. My income is high

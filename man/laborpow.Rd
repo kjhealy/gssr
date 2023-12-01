@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_442.R
 \name{laborpow}
 \alias{laborpow}
-\title{laborpow}
+\title{Power of labor unions in r's country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Power of labor unions in r's country
+laborpow
 }
 \details{
 Question 1184. Do you think that labor unions in this country have too much power or too little power?

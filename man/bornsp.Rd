@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_425.R
 \name{bornsp}
 \alias{bornsp}
-\title{bornsp}
+\title{In what country were you born}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what country were you born
+bornsp
 }
 \details{
 Question In what country were you born?

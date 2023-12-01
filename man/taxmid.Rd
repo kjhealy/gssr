@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_472.R
 \name{taxmid}
 \alias{taxmid}
-\title{taxmid}
+\title{Taxes on middle income people too high}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Taxes on middle income people too high
+taxmid
 }
 \details{
 Question 1257. Generally, how would you describe taxes in America today... We mean all taxes together, including social security, income tax, sales tax, and all the rest. b. For those with middle incomes, are taxes...

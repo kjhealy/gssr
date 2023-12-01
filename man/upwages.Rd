@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_634.R
 \name{upwages}
 \alias{upwages}
-\title{upwages}
+\title{The government should ensure that the wages of low-paying jobs increase as the e}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The government should ensure that the wages of low-paying jobs increase as the e
+upwages
 }
 \details{
 Question The government should ensure that the wages of low-paying jobs increase as the economy grows

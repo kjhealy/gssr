@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_641.R
 \name{whatsp2}
 \alias{whatsp2}
-\title{whatsp2}
+\title{Classify place where spouse works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Classify place where spouse works
+whatsp2
 }
 \details{
 Question How would you classify the place where your {#_spfill1} {#whatsp2fill}? Was this mainly...?

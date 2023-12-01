@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_467.R
 \name{opclout}
 \alias{opclout}
-\title{opclout}
+\title{Need political connections to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need political connections to get ahead
+opclout
 }
 \details{
 Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . h. Having political connections?

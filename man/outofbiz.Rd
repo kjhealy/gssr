@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_135.R
 \name{outofbiz}
 \alias{outofbiz}
-\title{outofbiz}
+\title{The organization went out of business}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The organization went out of business
+outofbiz
 }
 \details{
 Question 418. In the last five years, did any of the following things happen to an organization that you worked for? a. The organization went out of business or closed down

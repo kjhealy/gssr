@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_219.R
 \name{mnilwhy1}
 \alias{mnilwhy1}
-\title{mnilwhy1}
+\title{1st mention cause of mental illness feelings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-1st mention cause of mental illness feelings
+mnilwhy1
 }
 \details{
 Question D. (IF YES TO Q.669C ASK:) Could you tell me about when you felt that way? What was it about? (PROBE: GET EXACT DATE and complete details.) 1. Causes and sources of R's mental illness

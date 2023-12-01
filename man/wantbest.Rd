@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_461.R
 \name{wantbest}
 \alias{wantbest}
-\title{wantbest}
+\title{R is sure that other ppl want the best for r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is sure that other ppl want the best for r
+wantbest
 }
 \details{
 Question 1247. To what extent do you agree or disagree with the following statements? b. Most of the time you can be sure other people want the best for you

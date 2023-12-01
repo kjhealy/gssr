@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_307.R
 \name{setthngs}
 \alias{setthngs}
-\title{setthngs}
+\title{How often r set way things done}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r set way things done
+setthngs
 }
 \details{
 Question 888b. How often do you participate with others in helping set the way things are done on your job?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_111.R
 \name{locinflu}
 \alias{locinflu}
-\title{locinflu}
+\title{How much influence r feels on local gov}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much influence r feels on local gov
+locinflu
 }
 \details{
 Question 337. How much influence do you think people like you can have over local government decisions?

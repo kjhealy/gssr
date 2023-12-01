@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_574.R
 \name{racesee}
 \alias{racesee}
-\title{racesee}
+\title{Observed race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Observed race
+racesee
 }
 \details{
 Question 1600a. CODE RACE WITHOUT ASKING FOR ALL RESPONDENTS EVEN IF UNCERTAIN

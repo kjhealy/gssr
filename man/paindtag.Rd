@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_08.R
 \name{paindtag}
 \alias{paindtag}
-\title{paindtag}
+\title{Paind10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Paind10 coding tag
+paindtag
 }
 \details{
 Question None

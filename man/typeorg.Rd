@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_238.R
 \name{typeorg}
 \alias{typeorg}
-\title{typeorg}
+\title{Work in independent or part of larger org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Work in independent or part of larger org
+typeorg
 }
 \details{
 Question 696. I would like to ask you a few questions about the place you worked full or part time last week. Is the place part of a larger organization or is it completely independent in finance and personnel?

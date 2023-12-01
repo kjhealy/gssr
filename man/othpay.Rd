@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_143.R
 \name{othpay}
 \alias{othpay}
-\title{othpay}
+\title{Get commissions, bonuses, tips from main job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Get commissions, bonuses, tips from main job
+othpay
 }
 \details{
 Question 455. Do you receive any of the earnings from your main job in the form of commissions, bonuses, tips, or overtime?

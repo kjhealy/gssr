@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_533.R
 \name{abroad}
 \alias{abroad}
-\title{abroad}
+\title{How long have you lived in other countries?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long have you lived in other countries?
+abroad
 }
 \details{
 Question 1450. About how long altogether have you lived in other countries?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_40.R
 \name{denom16}
 \alias{denom16}
-\title{denom16}
+\title{Denomination in which r was raised}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Denomination in which r was raised
+denom16
 }
 \details{
 Question 115a. If Protestant: What specific denomination is that, if any?

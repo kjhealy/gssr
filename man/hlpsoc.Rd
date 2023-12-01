@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_494.R
 \name{hlpsoc}
 \alias{hlpsoc}
-\title{hlpsoc}
+\title{Importance of social usefulness in a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of social usefulness in a job
+hlpsoc
 }
 \details{
 Question 1326. On the following list there are various aspects of jobs. Please circle one number to show how important you personally consider it is in a job: h. A job that is useful to society

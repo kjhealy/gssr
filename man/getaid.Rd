@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_65.R
 \name{getaid}
 \alias{getaid}
-\title{getaid}
+\title{Ever received welfare?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever received welfare?
+getaid
 }
 \details{
 Question 195. Have you personally ever received income from Aid to Families with Dependent Children (AFDC), General Assistance, Supplemental Security Income, or Food Stamps?

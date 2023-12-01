@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_327.R
 \name{chldprb}
 \alias{chldprb}
-\title{chldprb}
+\title{What r think may be wrong with a named youth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What r think may be wrong with a named youth
+chldprb
 }
 \details{
 Question 939. First, I'd like to know what you think may be wrong (if anything) with (John/Mary). PROBE: Anything else?

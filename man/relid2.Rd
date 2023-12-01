@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_581.R
 \name{relid2}
 \alias{relid2}
-\title{relid2}
+\title{Protestant identification 2nd mention}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Protestant identification 2nd mention
+relid2
 }
 \details{
 Question 1619c. Do you consider yourself to be a member of READ REMAINING GROUPS?

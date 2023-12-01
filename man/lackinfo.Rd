@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_335.R
 \name{lackinfo}
 \alias{lackinfo}
-\title{lackinfo}
+\title{Ppl at work fail to give r necessary info}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ppl at work fail to give r necessary info
+lackinfo
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. e. People at work fail to give me information that is necessary for me to do my job.

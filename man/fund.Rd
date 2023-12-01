@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_35.R
 \name{fund}
 \alias{fund}
-\title{fund}
+\title{How fundamentalist is r currently}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How fundamentalist is r currently
+fund
 }
 \details{
 Question 104c. Fundamentalism/liberalism of respondent's religion.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_437.R
 \name{hsjudge}
 \alias{hsjudge}
-\title{hsjudge}
+\title{School subjects: good judgment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-School subjects: good judgment
+hsjudge
 }
 \details{
 Question 1173. Here are some things that might be taught in school. How important is it that schools teach each of these to 15-year-olds? e. Ability to make one's own judgments

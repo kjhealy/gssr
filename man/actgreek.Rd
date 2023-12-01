@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_109.R
 \name{actgreek}
 \alias{actgreek}
-\title{actgreek}
+\title{R active in school fraternity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in school fraternity
+actgreek
 }
 \details{
 Question 330. Have you ever done any active work for the school fraternities or sororities? I mean been a leader, helped organize meetings, been an officer, or given time or money?

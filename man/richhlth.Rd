@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_475.R
 \name{richhlth}
 \alias{richhlth}
-\title{richhlth}
+\title{Rich buy better health care than poor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rich buy better health care than poor
+richhlth
 }
 \details{
 Question 1267. Is it just or unjust - right or wrong - that people with higher incomes can: a. Buy better health care than people with lower incomes.

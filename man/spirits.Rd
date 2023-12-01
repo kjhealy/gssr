@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_37.R
 \name{spirits}
 \alias{spirits}
-\title{spirits}
+\title{Felt in touch with deceased person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Felt in touch with deceased person
+spirits
 }
 \details{
 Question 111. How often have you had any of the following experiences? d. Felt as though you were really in touch with someone who had died.

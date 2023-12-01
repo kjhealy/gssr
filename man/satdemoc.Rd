@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_294.R
 \name{satdemoc}
 \alias{satdemoc}
-\title{satdemoc}
+\title{R satisfied with way democracy works in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R satisfied with way democracy works in america
+satdemoc
 }
 \details{
 Question 827. On the whole, are you very satisfied, fairly satisfied, not very satisfied, or not at all satisfied with the way democracy works in the United States?

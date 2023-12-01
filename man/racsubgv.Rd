@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_80.R
 \name{racsubgv}
 \alias{racsubgv}
-\title{racsubgv}
+\title{Suburban govts encourage integration}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suburban govts encourage integration
+racsubgv
 }
 \details{
 Question 261. What about the city government in white suburbs? Do you think they should encourage (negro/black) people to buy homes in the suburbs, should they discourage them, or should they leave it to private efforts?

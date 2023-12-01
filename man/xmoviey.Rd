@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_642.R
 \name{xmoviey}
 \alias{xmoviey}
-\title{xmoviey}
+\title{Seen pornography in past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Seen pornography in past year
+xmoviey
 }
 \details{
 Question The next questions are about pornography- Internet materials or websites, books, movies, magazines, or photographs that explicitly show sex activities. About how often did you look at pornography in the last year?

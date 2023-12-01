@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_475.R
 \name{ldcgap}
 \alias{ldcgap}
-\title{ldcgap}
+\title{Differences between rich and poor too large}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences between rich and poor too large
+ldcgap
 }
 \details{
 Question 1266. Turning to international differences, do you agree or disagree: a. Present economic differences between rich and poor countries are too large.

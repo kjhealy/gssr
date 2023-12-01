@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_375.R
 \name{sciimp1}
 \alias{sciimp1}
-\title{sciimp1}
+\title{How important: done by scientists in univer'sity settings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: done by scientists in univer'sity settings
+sciimp1
 }
 \details{
 Question 1072. Now I'm going to read you some statements about science and scientists. Please look at Card B19. How important are each of the following in making something scientific? a. It is done by scientists employed in a university setting.

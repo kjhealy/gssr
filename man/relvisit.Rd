@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_453.R
 \name{relvisit}
 \alias{relvisit}
-\title{relvisit}
+\title{How often visit most contacted rel}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often visit most contacted rel
+relvisit
 }
 \details{
 Question 1207a. How often do you see or visit with this relative?

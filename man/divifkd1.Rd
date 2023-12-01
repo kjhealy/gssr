@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_483.R
 \name{divifkd1}
 \alias{divifkd1}
-\title{divifkd1}
+\title{Should feuding parents stay together for kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should feuding parents stay together for kids
+divifkd1
 }
 \details{
 Question 1300. Do you agree or disagree: a. When there are children in the family, parents should stay together even if they don't get along.

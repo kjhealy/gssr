@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_59.R
 \name{aged}
 \alias{aged}
-\title{aged}
+\title{Should aged live with their children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should aged live with their children
+aged
 }
 \details{
 Question 174. As you know, many older people share a home with their grown children. Do you think this is generally a good idea or a bad idea?

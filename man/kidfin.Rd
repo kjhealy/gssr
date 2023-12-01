@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_481.R
 \name{kidfin}
 \alias{kidfin}
-\title{kidfin}
+\title{Better not to have kids due to $ burden}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Better not to have kids due to $ burden
+kidfin
 }
 \details{
 Question 1282. Do you agree or disagree ... e. It is better not to have children because they are such a heavy financial burden.

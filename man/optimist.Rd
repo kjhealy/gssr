@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_339.R
 \name{optimist}
 \alias{optimist}
-\title{optimist}
+\title{I am always optimistic about my future}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I am always optimistic about my future
+optimist
 }
 \details{
 Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: f. I'm always optimistic about my future.

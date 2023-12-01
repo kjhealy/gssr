@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_274.R
 \name{askother}
 \alias{askother}
-\title{askother}
+\title{Has r asked someone else for help with software}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r asked someone else for help with software
+askother
 }
 \details{
 Question 789. When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) \link{PROMPT: Anything else?} e. Ask someone else you know for help?

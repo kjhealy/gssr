@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_158.R
 \name{sphedoccindv}
 \alias{sphedoccindv}
-\title{sphedoccindv}
+\title{Spouse's father's occ/ind verbatim retrieved}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's father's occ/ind verbatim retrieved
+sphedoccindv
 }
 \details{
 Question None

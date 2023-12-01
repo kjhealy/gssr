@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_606.R
 \name{feelevel}
 \alias{feelevel}
-\title{feelevel}
+\title{Amount of fees paid}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Amount of fees paid
+feelevel
 }
 \details{
 Question None

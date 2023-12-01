@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_29.R
 \name{equal8}
 \alias{equal8}
-\title{equal8}
+\title{Social standing due to ability}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Social standing due to ability
+equal8
 }
 \details{
 Question 71. On these cards are some opinions about the government and the economy. For each one I'd like you to tell me whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. h. If someone has a high social or economic position, that indicates the person has special abilities or great accomplishments.

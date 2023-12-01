@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_514.R
 \name{befair}
 \alias{befair}
-\title{befair}
+\title{How often do you think people take advantage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often do you think people take advantage
+befair
 }
 \details{
 Question 1399. How often do you think that people would try to take advantage of you if they got the chance and how often would they try to be fair?

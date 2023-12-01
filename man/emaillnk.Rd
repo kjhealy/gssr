@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_264.R
 \name{emaillnk}
 \alias{emaillnk}
-\title{emaillnk}
+\title{How often does r link in an email from friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r link in an email from friend
+emaillnk
 }
 \details{
 Question 810. Now I'd like to ask you about how you navigate around the Web. How frequently do you use each of the following ways of getting to the web sites you visit: Click on a link in an email message from a friend, relative, or co-worker.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_429.R
 \name{harsexjb}
 \alias{harsexjb}
-\title{harsexjb}
+\title{R has been the object of sexual advances/propositions from supervisor's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has been the object of sexual advances/propositions from supervisor's
+harsexjb
 }
 \details{
 Question Sometimes at work people find themselves the object of sexual advances or propositions from supervisors. The advances sometimes involve physical contact and sometimes just involve sexual conversations. Have you experienced such advances?

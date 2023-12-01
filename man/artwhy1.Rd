@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_235.R
 \name{artwhy1}
 \alias{artwhy1}
-\title{artwhy1}
+\title{Imp of low cost in decision to attend exhibit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of low cost in decision to attend exhibit
+artwhy1
 }
 \details{
 Question People attend exhibits for different reasons. A. How big a reason was low cost in your decision to attend this exhibit? Was it a major reason, a minor reason, or not a reason at all?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_643.R
 \name{fechld2}
 \alias{fechld2}
-\title{fechld2}
+\title{Mother working doesn't hurt children - issp version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother working doesn't hurt children - issp version
+fechld2
 }
 \details{
 Question To begin, we have some questions about women. To what extent do you agree or disagree...? A working mother can establish just as warm and secure a relationship with her children as a mother who does not work.

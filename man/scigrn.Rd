@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_519.R
 \name{scigrn}
 \alias{scigrn}
-\title{scigrn}
+\title{Modern science will solve envir probs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Modern science will solve envir probs
+scigrn
 }
 \details{
 Question 1409. How much do you agree or disagree with each of these statements? d. Modern science will solve our environmental problems with little change to our way of life.

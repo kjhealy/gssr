@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_47.R
 \name{racopnow}
 \alias{racopnow}
-\title{racopnow}
+\title{Opportunities improved in last 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opportunities improved in last 5 yrs
+racopnow
 }
 \details{
 Question 148a. Do you think the opportunities for blacks to get ahead have improved in the last five years, remained about the same, or gotten worse?

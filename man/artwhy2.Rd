@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_235.R
 \name{artwhy2}
 \alias{artwhy2}
-\title{artwhy2}
+\title{Imp of wanting to experience high quality art in decision to attend exhibit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of wanting to experience high quality art in decision to attend exhibit
+artwhy2
 }
 \details{
 Question People attend exhibits for different reasons. How big a reason was wanting to experience high quality art in your decision to attend this exhibit? Was it a major reason, a minor reason, or not a reason at all?

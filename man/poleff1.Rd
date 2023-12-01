@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_439.R
 \name{poleff1}
 \alias{poleff1}
-\title{poleff1}
+\title{Public has little control over politics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Public has little control over politics
+poleff1
 }
 \details{
 Question 1178. Please indicate whether you agree or disagree with each of the following statements. a. The public has little control over what politicians do in office

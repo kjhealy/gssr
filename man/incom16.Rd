@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_14.R
 \name{incom16}
 \alias{incom16}
-\title{incom16}
+\title{R's family income when 16 yrs old}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's family income when 16 yrs old
+incom16
 }
 \details{
 Question 30. Thinking about the time when you were 16 years old, compared with American families in general then, would you say your family income was far below average, below average, average, above average, or far above average?

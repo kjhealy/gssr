@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_181.R
 \name{fenews}
 \alias{fenews}
-\title{fenews}
+\title{How often pay attention to women issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often pay attention to women issues
+fenews
 }
 \details{
 Question 570. When reading, watching, or listening to the news, how often do you pay attention to issues that especially affect women?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{selfhelp}
 \alias{selfhelp}
-\title{selfhelp}
+\title{X should join a self-group with similar problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should join a self-group with similar problem
+selfhelp
 }
 \details{
 Question 659. Should NAME do any of the following: g. joina self-help group where people with similar problems help each other

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_64.R
 \name{incneed}
 \alias{incneed}
-\title{incneed}
+\title{Income family needs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Income family needs
+incneed
 }
 \details{
 Question 189. Living where you do now and meeting the expenses you consider necessary, what would be the very smallest amount of income per month - after taxes - your household would need to make ends meet?

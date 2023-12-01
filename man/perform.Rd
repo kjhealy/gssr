@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_150.R
 \name{perform}
 \alias{perform}
-\title{perform}
+\title{Performed music, dance, theater in lst yr}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Performed music, dance, theater in lst yr
+perform
 }
 \details{
 Question 473. Next I'd like to ask about some leisure or recreational activities that people do during their free time. As I read each activity, can you tell me if it is something you have done in the past twelve months? j. Take part in a music, dance, or theatrical performance

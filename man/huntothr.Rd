@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_77.R
 \name{huntothr}
 \alias{huntothr}
-\title{huntothr}
+\title{Does other household member hunt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does other household member hunt
+huntothr
 }
 \details{
 Question 240b. Does any other member of this household go hunting?

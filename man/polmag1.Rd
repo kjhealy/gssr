@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_277.R
 \name{polmag1}
 \alias{polmag1}
-\title{polmag1}
+\title{R sought political info general interest magazines}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sought political info general interest magazines
+polmag1
 }
 \details{
 Question 795. If YES, please tell me if you looked for such candidate information from: b. Articles in general news magazines like TIME, NEWSWEEK, or US NEWS

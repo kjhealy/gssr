@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_67.R
 \name{abdefect}
 \alias{abdefect}
-\title{abdefect}
+\title{Strong chance of serious defect}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Strong chance of serious defect
+abdefect
 }
 \details{
 Question 206. Please tell me whether or not you think it should be possible for a pregnant woman to obtaina legal abortion if: a. There is a strong chance of serious defect in the baby?

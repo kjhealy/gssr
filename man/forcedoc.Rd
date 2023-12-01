@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_330.R
 \name{forcedoc}
 \alias{forcedoc}
-\title{forcedoc}
+\title{Should child be forced by law to be treated by doc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should child be forced by law to be treated by doc
+forcedoc
 }
 \details{
 Question 950a. Do you think that parents of children like (John/Mary) should be forced by law to have (John/Mary) treated at a clinic or by a doctor?

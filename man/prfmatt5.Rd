@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_233.R
 \name{prfmatt5}
 \alias{prfmatt5}
-\title{prfmatt5}
+\title{Attended with other}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attended with other
+prfmatt5
 }
 \details{
 Question Did any of the following go with you? E. Someone else

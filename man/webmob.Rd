@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_262.R
 \name{webmob}
 \alias{webmob}
-\title{webmob}
+\title{R uses home internet through mobile device}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R uses home internet through mobile device
+webmob
 }
 \details{
 Question Do you have access to the Internet or World Wide Web in your home through a Internet-enabled mobile device like a smart phone, PDA, or BlackBerry?

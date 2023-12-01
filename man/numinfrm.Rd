@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_349.R
 \name{numinfrm}
 \alias{numinfrm}
-\title{numinfrm}
+\title{How many r belongs to informal groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to informal groups
+numinfrm
 }
 \details{
 Question 1025q. How many of informal groups do you belong to?

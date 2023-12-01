@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_546.R
 \name{cideage}
 \alias{cideage}
-\title{cideage}
+\title{Age of murder victim closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age of murder victim closest to r
+cideage
 }
 \details{
 Question 1520. We would like to know a few things about that person. b. How old was that person?

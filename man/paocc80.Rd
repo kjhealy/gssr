@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_07.R
 \name{paocc80}
 \alias{paocc80}
-\title{paocc80}
+\title{Father's census occupation code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's census occupation code (1980)
+paocc80
 }
 \details{
 Question 9. Father's occupation, prestige, and industry.

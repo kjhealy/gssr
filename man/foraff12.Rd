@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_267.R
 \name{foraff12}
 \alias{foraff12}
-\title{foraff12}
+\title{Past 12 months r web to learn foreign affairs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Past 12 months r web to learn foreign affairs
+foraff12
 }
 \details{
 Question 775. In the past 12 months, have you used the Web to find out about or discuss: d. Foreign affairs?

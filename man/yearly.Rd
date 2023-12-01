@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_241.R
 \name{yearly}
 \alias{yearly}
-\title{yearly}
+\title{What is your yearly wage before tax}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is your yearly wage before tax
+yearly
 }
 \details{
 Question 707e. What is your 1998 annual salary, before any taxes or deductions?

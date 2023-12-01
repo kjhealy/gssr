@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_488.R
 \name{ssmchild}
 \alias{ssmchild}
-\title{ssmchild}
+\title{Same sex male couple raise child as well as male-female couple}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Same sex male couple raise child as well as male-female couple
+ssmchild
 }
 \details{
 Question A same sex male couple can bring up a child as well as a male-female couple.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_302.R
 \name{fininc4}
 \alias{fininc4}
-\title{fininc4}
+\title{R likely to ask doc about incentives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R likely to ask doc about incentives
+fininc4
 }
 \details{
 Question 863. How likely would you be to ask your regular doctor whether he or she has financial incentives that limit the use of expensive tests?

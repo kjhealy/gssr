@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_644.R
 \name{prntmdl}
 \alias{prntmdl}
-\title{prntmdl}
+\title{Mother vs father role model}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother vs father role model
+prntmdl
 }
 \details{
 Question (In your opinion, which parent should do the following? Who should...) ...try to be a role model for the child?

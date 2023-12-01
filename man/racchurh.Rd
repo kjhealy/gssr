@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_46.R
 \name{racchurh}
 \alias{racchurh}
-\title{racchurh}
+\title{Attend church with other race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attend church with other race
+racchurh
 }
 \details{
 Question 137. Do (blacks/Negroes/African-Americans)/whites attend the church that you, yourself, attend most often, or not?

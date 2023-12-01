@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_639.R
 \name{fairnv}
 \alias{fairnv}
-\title{fairnv}
+\title{People fair or try to take advantage (no volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People fair or try to take advantage (no volunteered response on web)
+fairnv
 }
 \details{
 Question None

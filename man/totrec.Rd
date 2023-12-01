@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_206.R
 \name{totrec}
 \alias{totrec}
-\title{totrec}
+\title{How much money contributed in recreation adults}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much money contributed in recreation adults
+totrec
 }
 \details{
 Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? g. Recreation - adults

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_280.R
 \name{wwwline2}
 \alias{wwwline2}
-\title{wwwline2}
+\title{Means to www}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Means to www
+wwwline2
 }
 \details{
 Question What is this other means by which you are connected to the World Wide Web?

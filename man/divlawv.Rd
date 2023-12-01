@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_637.R
 \name{divlawv}
 \alias{divlawv}
-\title{divlawv}
+\title{Divorce laws (with volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Divorce laws (with volunteered response on web)
+divlawv
 }
 \details{
 Question None

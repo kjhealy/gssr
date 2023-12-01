@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_88.R
 \name{brass}
 \alias{brass}
-\title{brass}
+\title{Women in command of military bases}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women in command of military bases
+brass
 }
 \details{
 Question 292. I'm going to read you a list of jobs that people might have in the armed forces. Please tell me whether you think a woman should or should not be assigned to each job, assuming she is trained to do it. e. Commander of a large military base

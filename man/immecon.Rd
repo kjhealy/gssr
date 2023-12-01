@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_172.R
 \name{immecon}
 \alias{immecon}
-\title{immecon}
+\title{Will immigrants lead to economic growth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Will immigrants lead to economic growth
+immecon
 }
 \details{
 Question 529. What do you think will happen as a result of more immigrants coming to this country? Is each of these possible results ver likely, somewhat likely, not too likely or not at all likely? a. Higher economic growth

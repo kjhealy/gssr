@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_275.R
 \name{advsup}
 \alias{advsup}
-\title{advsup}
+\title{R can ask work supervisor software help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R can ask work supervisor software help
+advsup
 }
 \details{
 Question 790. Do the people you can ask for advice include? (Name as many as are correct): h. A supervisor or trainer at work

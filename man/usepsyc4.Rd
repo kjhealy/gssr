@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_242.R
 \name{usepsyc4}
 \alias{usepsyc4}
-\title{usepsyc4}
+\title{Will take medicine because intense fear}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Will take medicine because intense fear
+usepsyc4
 }
 \details{
 Question 711. How likely would you be to take doctor-prescribed psychiatric medication in the following situations? d. for no apparent reason, you were having periods of intense fear in which you were trembling, sweating, feeling dizzy, and feared losing control or going crazy.

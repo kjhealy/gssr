@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_660.R
 \name{malekids}
 \alias{malekids}
-\title{malekids}
+\title{Number of male children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of male children
+malekids
 }
 \details{
 Question Among your biological children, how many children are male?

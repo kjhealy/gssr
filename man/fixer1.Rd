@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_196.R
 \name{fixer1}
 \alias{fixer1}
-\title{fixer1}
+\title{What was the most important reason?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What was the most important reason?
+fixer1
 }
 \details{
 Question 612. Think about the most recent time you've paid for home maintenance service - e.g. a roofer, a painter, a plumber or something like that. What made you choose the person or business that did the work? g. What was the most important reason?

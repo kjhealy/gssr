@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_521.R
 \name{scitest2}
 \alias{scitest2}
-\title{scitest2}
+\title{Antibiotics kill bacteria not viruses}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Antibiotics kill bacteria not viruses
+scitest2
 }
 \details{
 Question 1415. For each statement below, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? b. Antibiotics kill bacteria, but not viruses

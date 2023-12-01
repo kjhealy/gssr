@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_195.R
 \name{fixhome}
 \alias{fixhome}
-\title{fixhome}
+\title{Home maintenance services past 10 years?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Home maintenance services past 10 years?
+fixhome
 }
 \details{
 Question 611. Have you purchased home maintenance services (painting, roofing, plumbing, or something similar) in the past 10 years?

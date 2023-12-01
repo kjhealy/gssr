@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_336.R
 \name{skipwork}
 \alias{skipwork}
-\title{skipwork}
+\title{How often r stayed at home or leave work early}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r stayed at home or leave work early
+skipwork
 }
 \details{
 Question 968. During the past 3 months, how often did you stay at home or leave work early because you were unhappy about your work situation?

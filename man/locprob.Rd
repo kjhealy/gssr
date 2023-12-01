@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_111.R
 \name{locprob}
 \alias{locprob}
-\title{locprob}
+\title{Has r helped to solve local problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r helped to solve local problems
+locprob
 }
 \details{
 Question 338. Have you ever worked with others in this community to try to solve some community problems?

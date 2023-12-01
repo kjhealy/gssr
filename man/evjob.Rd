@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_505.R
 \name{evjob}
 \alias{evjob}
-\title{evjob}
+\title{Have you ever had a paid job for 1 year or+}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have you ever had a paid job for 1 year or+
+evjob
 }
 \details{
 Question 1364. Have you ever had a paid job for one year or more?

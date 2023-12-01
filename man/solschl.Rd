@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_107.R
 \name{solschl}
 \alias{solschl}
-\title{solschl}
+\title{School service tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-School service tries to solve problems
+solschl
 }
 \details{
 Question 329. Do the school service groups to which you belong do anything to try to solve individual or community problems?

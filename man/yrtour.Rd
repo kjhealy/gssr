@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_653.R
 \name{yrtour}
 \alias{yrtour}
-\title{yrtour}
+\title{Online art tour in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Online art tour in past 12 months
+yrtour
 }
 \details{
 Question The following questions are about arts events or activities you may have watched or listened to, using digital technology, during the last 12 months. (During the last 12 months, did you...) visit or tour an online art museum, gallery, or exhib

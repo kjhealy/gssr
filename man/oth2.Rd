@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_566.R
 \name{oth2}
 \alias{oth2}
-\title{oth2}
+\title{Unable to get to school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unable to get to school
+oth2
 }
 \details{
 Question H. And finally, since (CURRENT MONTH), 2003, did any of the following occur to you? 2. Unable to get into school or training program

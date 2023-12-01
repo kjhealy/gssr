@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_345.R
 \name{drink5}
 \alias{drink5}
-\title{drink5}
+\title{How often at least 5 but less than 8 drinks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often at least 5 but less than 8 drinks
+drink5
 }
 \details{
 Question 1021c. During the last 12 months, how often did you have at least 5, but less than 8 drinks of any kind of alcoholic beverage in a single day, that is any combination of cans, bottles or glasses of beer, glasses of wine, or drinks containing liquor of any kind. Was it:

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_306.R
 \name{teamsafe}
 \alias{teamsafe}
-\title{teamsafe}
+\title{Mgt and employees work together re safety}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mgt and employees work together re safety
+teamsafe
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. m. Where I work, employees and management work together to ensure the safest possible working conditions

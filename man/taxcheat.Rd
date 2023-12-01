@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_509.R
 \name{taxcheat}
 \alias{taxcheat}
-\title{taxcheat}
+\title{Wrong to cheat on taxes?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Wrong to cheat on taxes?
+taxcheat
 }
 \details{
 Question 1377. Consider the situations listed below. Do you feel it is wrong or not wrong if. . . a. A taxpayer does not report all of his income in order to pay less income taxes

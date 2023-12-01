@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_584.R
 \name{away5}
 \alias{away5}
-\title{away5}
+\title{Is 5th person staying somewhere else now?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is 5th person staying somewhere else now?
+away5
 }
 \details{
 Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. e. Are any of the people we have listed staying somewhere else right now? If yes, who is staying somewhere else right now?

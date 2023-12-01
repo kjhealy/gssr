@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_643.R
 \name{prntfnce}
 \alias{prntfnce}
-\title{prntfnce}
+\title{Mother vs father provide financially}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother vs father provide financially
+prntfnce
 }
 \details{
 Question Please consider a family with a father and a mother raising a child who is five years old. In your opinion, which parent should do the following? Who should... ...provide for the family financially?

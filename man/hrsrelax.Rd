@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_305.R
 \name{hrsrelax}
 \alias{hrsrelax}
-\title{hrsrelax}
+\title{Hours per day r have to relax}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per day r have to relax
+hrsrelax
 }
 \details{
 Question 884. After an average work day, about how many hours do you have to relax or pursue activities that you enjoy?

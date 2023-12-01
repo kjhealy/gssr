@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_45.R
 \name{racschol}
 \alias{racschol}
-\title{racschol}
+\title{Should whites & blacks go to same school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should whites & blacks go to same school
+racschol
 }
 \details{
 Question 132. Do you think white students and (negro/black) students should go to teh same schools or to separate schools?

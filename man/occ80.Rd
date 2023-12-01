@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_02.R
 \name{occ80}
 \alias{occ80}
-\title{occ80}
+\title{R's census occupation code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's census occupation code (1980)
+occ80
 }
 \details{
 Question 3. Respondent's occupation, prestige, and industry

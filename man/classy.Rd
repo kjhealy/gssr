@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_63.R
 \name{classy}
 \alias{classy}
-\title{classy}
+\title{Subjective social class-version y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Subjective social class-version y
+classy
 }
 \details{
 Question 185b. If you were asked to use one of five names for your social class, which would you say you belong in: the lower class, the working class, the middle class, the upper middle class, or the upper class?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_427.R
 \name{toldwork}
 \alias{toldwork}
-\title{toldwork}
+\title{How many of r's coworkers know r is gay/les/bi}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many of r's coworkers know r is gay/les/bi
+toldwork
 }
 \details{
 Question Some people are very open about their sexual orientation while others are not. About how many of your coworkers know that you {response to toldworktxt}?

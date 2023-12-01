@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_301.R
 \name{ethdiff}
 \alias{ethdiff}
-\title{ethdiff}
+\title{Ethnic groups in us different}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ethnic groups in us different
+ethdiff
 }
 \details{
 Question 850. Now think only about ethnic minority groups within the U.S. such as African Americans, Asian Americans, Hispanics, and Native Americans. To what extent do you agree with the following statement? b. Ethnic minority groups in the U.S. are very distinct and very different from one another.

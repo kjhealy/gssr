@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_570.R
 \name{spyfrend}
 \alias{spyfrend}
-\title{spyfrend}
+\title{Punishment for selling secrets to friend foreign gov}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment for selling secrets to friend foreign gov
+spyfrend
 }
 \details{
 Question 1590. Now I'm going to ask you about several offenses. For each case, indicate (Number 1-6) what you would consider the appropriate punishment for each case. d. What if the petty officer had sold these materials to an agent of a friendly foreign government?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_79.R
 \name{fechld}
 \alias{fechld}
-\title{fechld}
+\title{Mother working doesn't hurt children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother working doesn't hurt children
+fechld
 }
 \details{
 Question 252. Now I'm going to read several more statements. As I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. a. A working mother can establish just as warm and secure a relationship with her children as a mother who does not work.

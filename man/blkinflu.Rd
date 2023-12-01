@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_112.R
 \name{blkinflu}
 \alias{blkinflu}
-\title{blkinflu}
+\title{Opinion of political influence of blacks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opinion of political influence of blacks
+blkinflu
 }
 \details{
 Question ASK ONLY IF R IS BLACK: 353. People have different opinions about the amount of influence that various groups have in American life and politics. Do you think that blacks have far too much influence, too much influence, about the right amount of influence, too little influence, or do they have far to little influence?

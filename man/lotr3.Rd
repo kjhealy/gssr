@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_230.R
 \name{lotr3}
 \alias{lotr3}
-\title{lotr3}
+\title{I'm always optimistic about my future}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I'm always optimistic about my future
+lotr3
 }
 \details{
 Question Do you agree or disagree that? C. I'm always optimistic about my future.

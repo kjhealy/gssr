@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_301.R
 \name{docdecid}
 \alias{docdecid}
-\title{docdecid}
+\title{R leaves decisions up to doctor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R leaves decisions up to doctor
+docdecid
 }
 \details{
 Question 854. I will read you some statements of beliefs people have. Please look at the card and decide which answer best applies to you. b. I prefer to leave decisions about my medical care up to my doctor.

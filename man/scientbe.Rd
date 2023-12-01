@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_387.R
 \name{scientbe}
 \alias{scientbe}
-\title{scientbe}
+\title{Scientists want to make life better for avg person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientists want to make life better for avg person
+scientbe
 }
 \details{
 Question Most scientists want to work on things that will make life better for the average person. Do you strongly agree, agree, disagree, or strongly disagree?

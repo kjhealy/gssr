@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_330.R
 \name{forcehos}
 \alias{forcehos}
-\title{forcehos}
+\title{Should child be forced by law to admit to a hosp}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should child be forced by law to admit to a hosp
+forcehos
 }
 \details{
 Question 950c. Do you think that parents of children like (John/Mary) should be forced bylaw to admit (John/Mary) to a hospital for treatment?

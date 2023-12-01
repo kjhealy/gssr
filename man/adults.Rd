@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_15.R
 \name{adults}
 \alias{adults}
-\title{adults}
+\title{Household members 18 yrs and older (household roster)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Household members 18 yrs and older (household roster)
+adults
 }
 \details{
 Question 34d. Number of members over 17 years old.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_245.R
 \name{doc9}
 \alias{doc9}
-\title{doc9}
+\title{Doctors ignore old problems care new ones}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctors ignore old problems care new ones
+doc9
 }
 \details{
 Question 722. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. i. The medical problems I've had in the past are ignored when I seek care for a new medical problem

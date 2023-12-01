@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_217.R
 \name{relmhsp2}
 \alias{relmhsp2}
-\title{relmhsp2}
+\title{Patient was immediate family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Patient was immediate family
+relmhsp2
 }
 \details{
 Question 668. Was this a relative, a close friend, or just someone you didn't know very well? b. Immediate family

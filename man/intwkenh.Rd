@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_288.R
 \name{intwkenh}
 \alias{intwkenh}
-\title{intwkenh}
+\title{Hours of internet use on weekends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours of internet use on weekends
+intwkenh
 }
 \details{
 Question How many minutes or hours do you spend actively using the Internet or web-enabled applications/APPS on a typical weekend day? A. HOURS

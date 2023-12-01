@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_460.R
 \name{helpfrds}
 \alias{helpfrds}
-\title{helpfrds}
+\title{Should better off ppl help less well-off friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should better off ppl help less well-off friend
+helpfrds
 }
 \details{
 Question 1243. Please select a response to indicate how much you agree or disagree with each of the following statements. c. People who are better off should help friends who are less well off

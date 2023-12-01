@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_291.R
 \name{ezines}
 \alias{ezines}
-\title{ezines}
+\title{How familiar r is with term e-zines}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How familiar r is with term e-zines
+ezines
 }
 \details{
 Question 815. Are you very familiar, somewhat familiar, or not familiar with the following internet terms: g. E-zines

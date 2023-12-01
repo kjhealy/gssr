@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_386.R
 \name{scientr}
 \alias{scientr}
-\title{scientr}
+\title{Consider career in science}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Consider career in science
+scientr
 }
 \details{
 Question Have you ever considered working in a science-related career?

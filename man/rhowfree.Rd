@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_293.R
 \name{rhowfree}
 \alias{rhowfree}
-\title{rhowfree}
+\title{How much freedom does r have}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much freedom does r have
+rhowfree
 }
 \details{
 Question 824. And about you yourself? Would you say right now that you have complete freedom, a great deal of freedom, a moderate degree of freedom, not much freedom, or no freedom at all?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_599.R
 \name{copres105plus}
 \alias{copres105plus}
-\title{copres105plus}
+\title{Partner's occupational prestige score using threshold method (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner's occupational prestige score using threshold method (2010)
+copres105plus
 }
 \details{
 Question None

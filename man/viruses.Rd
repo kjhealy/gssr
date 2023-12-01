@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_369.R
 \name{viruses}
 \alias{viruses}
-\title{viruses}
+\title{Sci knowledge: antibiotics kill viruses as well as bacteria}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sci knowledge: antibiotics kill viruses as well as bacteria
+viruses
 }
 \details{
 Question 1044. Now, I would like to ask you a few short questions like those you might see on a television game show. For each statement that I read, please tell me if it is true or false. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. f. Antibiotics kill viruses as well as bacteria. (Is that true or false?)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_37.R
 \name{esp}
 \alias{esp}
-\title{esp}
+\title{Felt in touch with someone far away}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Felt in touch with someone far away
+esp
 }
 \details{
 Question 111. How often have you had any of the following experiences? b. Felt as though you were in touch with someone when they were far away from you.

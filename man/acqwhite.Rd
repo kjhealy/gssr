@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_394.R
 \name{acqwhite}
 \alias{acqwhite}
-\title{acqwhite}
+\title{Number of white r is acquainted with}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of white r is acquainted with
+acqwhite
 }
 \details{
 Question I'm going to ask you some questions about all the people that you are acquainted with, meaning that you know their name and would stop and talk at least for a moment if you ran into the person on the street or in a shopping mall. Some of these questions may seem unusual but they are an important way to help us understand more about social networks in America. Please answer the questions as best you can. q. How many are white?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_368.R
 \name{exptext}
 \alias{exptext}
-\title{exptext}
+\title{Why is it better to test drug this way}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why is it better to test drug this way
+exptext
 }
 \details{
 Question 1042. Why is it better to test the drug this way?

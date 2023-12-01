@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_418.R
 \name{bizshare}
 \alias{bizshare}
-\title{bizshare}
+\title{Percentage ownership r holds}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage ownership r holds
+bizshare
 }
 \details{
 Question None

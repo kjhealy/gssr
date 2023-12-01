@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_13.R
 \name{family16}
 \alias{family16}
-\title{family16}
+\title{Living with parents when 16 yrs old}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Living with parents when 16 yrs old
+family16
 }
 \details{
 Question 27. Were you living with both your own mother and father areound the time you were 16? IF NO: With whom were you living around that time?

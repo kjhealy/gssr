@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_539.R
 \name{polfunds}
 \alias{polfunds}
-\title{polfunds}
+\title{Donated money or raised funds for soc or pol activity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Donated money or raised funds for soc or pol activity
+polfunds
 }
 \details{
 Question 1468. Here are some different forms of political and social action that people can take. Please indicate, for each one, Whether you have done any of these things in the past year, Whether you have done it in the more distant past, Whether you have not done it but might do it, Or have not done it and would never, under any circumstances, do it. f. Donated money or raised funds for a social or political activity

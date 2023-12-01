@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_647.R
 \name{vaxdoharm}
 \alias{vaxdoharm}
-\title{vaxdoharm}
+\title{Vaccines do more harm than good}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vaccines do more harm than good
+vaxdoharm
 }
 \details{
 Question How much do you agree or disagree with the following statements about vaccinations? Overall, vaccinations do more harm than good.

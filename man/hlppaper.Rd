@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_464.R
 \name{hlppaper}
 \alias{hlppaper}
-\title{hlppaper}
+\title{Who r would first turn to if they needed help with admin or official paperwork}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r would first turn to if they needed help with admin or official paperwork
+hlppaper
 }
 \details{
 Question Who or where would you turn to first to? C. Help you with administrative problems or official paperwork?

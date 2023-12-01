@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_173.R
 \name{colaff}
 \alias{colaff}
-\title{colaff}
+\title{Chance blacks get to college ahead of whites}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Chance blacks get to college ahead of whites
+colaff
 }
 \details{
 Question 532a. What do you think the chances are these days that a white person won't get admitted to a college or university program while an equally or less qualified black person gets admitted instead?

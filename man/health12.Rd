@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_266.R
 \name{health12}
 \alias{health12}
-\title{health12}
+\title{R use web for health information in past 12 mon}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use web for health information in past 12 mon
+health12
 }
 \details{
 Question 774. In the past 12 months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/02 have you used the Web to do each of these things: g. Look for information about a health concern or medical problem?

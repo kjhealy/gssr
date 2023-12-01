@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_212.R
 \name{meddoc}
 \alias{meddoc}
-\title{meddoc}
+\title{X should go to general medical doctor for help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should go to general medical doctor for help
+meddoc
 }
 \details{
 Question 659. Should NAME do any of the following: c. Go to a general medical doctor for help

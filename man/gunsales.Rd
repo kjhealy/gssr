@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_405.R
 \name{gunsales}
 \alias{gunsales}
-\title{gunsales}
+\title{Should background check be required for private gun sale}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should background check be required for private gun sale
+gunsales
 }
 \details{
 Question 1113. In most states a gun owner may legally sell his or her gun without proof that the buyer has passed a criminal history check. How strongly do you favor or oppose a law that required private gun sales to be subject to the same background check requirements as sales by licensed dealers? Do you...

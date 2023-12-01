@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_36.R
 \name{likediff}
 \alias{likediff}
-\title{likediff}
+\title{Afterlife contrast: better or lacking}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Afterlife contrast: better or lacking
+likediff
 }
 \details{
 Question 109. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7, where would you place your image of life after death. a. 1. A life like the one here on earth, only better. 7. A life without many of the things which make our present life enjoyable.

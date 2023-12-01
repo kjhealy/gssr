@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_240.R
 \name{hourly}
 \alias{hourly}
-\title{hourly}
+\title{What is your hourly wage before tax}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is your hourly wage before tax
+hourly
 }
 \details{
 Question 707a. What was your hourly wage, before any taxes or deductions?

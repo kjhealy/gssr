@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_651.R
 \name{allorglevel}
 \alias{allorglevel}
-\title{allorglevel}
+\title{All levels of org are involved in stress prevention}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-All levels of org are involved in stress prevention
+allorglevel
 }
 \details{
 Question (To what extent to do you agree or disagree with the following statements?) In my organization, the prevention of stress involves all levels of the organization.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_573.R
 \name{forsteal}
 \alias{forsteal}
-\title{forsteal}
+\title{Foreigner's stealing u.s. tech more threat 10 y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Foreigner's stealing u.s. tech more threat 10 y
+forsteal
 }
 \details{
 Question 1595. Are the following threats to the United States greater, about the same, or less today than they were 10 years ago? e. Stealing U.S. advanced technology and trade secrets by foreigners

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_96.R
 \name{race5}
 \alias{race5}
-\title{race5}
+\title{Race of person number 5}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Race of person number 5
+race5
 }
 \details{
 Question 317. Is \link{NAME} Asian, Black, Hispanic, White, or something else?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_78.R
 \name{coop}
 \alias{coop}
-\title{coop}
+\title{R's attitude toward interview}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's attitude toward interview
+coop
 }
 \details{
 Question 246. In general, what was the respondent's attitude toward the interview?

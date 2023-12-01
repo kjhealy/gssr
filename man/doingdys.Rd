@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_240.R
 \name{doingdys}
 \alias{doingdys}
-\title{doingdys}
+\title{How long spent on learning by doing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long spent on learning by doing
+doingdys
 }
 \details{
 Question 703c. How long have you spent on learning by doing?

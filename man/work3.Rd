@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_562.R
 \name{work3}
 \alias{work3}
-\title{work3}
+\title{A cut in pay or reduced hours}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A cut in pay or reduced hours
+work3
 }
 \details{
 Question B. Second, what about work-related matters? Did any of the following happen to you since (CURRENT MONTH), 2003? 3. A cut in pay (including reduced hours)

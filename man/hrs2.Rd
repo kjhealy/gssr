@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_01.R
 \name{hrs2}
 \alias{hrs2}
-\title{hrs2}
+\title{Number of hours usually work a week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of hours usually work a week
+hrs2
 }
 \details{
 Question 1b. If with a job, but not at work: How many hours a week do you usually work, at all jobs?

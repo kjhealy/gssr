@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_342.R
 \name{chngrbrn}
 \alias{chngrbrn}
-\title{chngrbrn}
+\title{R changed religion because of experience}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R changed religion because of experience
+chngrbrn
 }
 \details{
 Question 997. Did you change religions because of this experience?

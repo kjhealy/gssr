@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_212.R
 \name{vigsoc}
 \alias{vigsoc}
-\title{vigsoc}
+\title{How willing r would spend time socializing with x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How willing r would spend time socializing with x
+vigsoc
 }
 \details{
 Question 656b. How willing would you be to spend an evening socializing with NAME -- definitely willing, probably willing, probably unwilling, or definitely unwilling?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_626.R
 \name{abnomoreg}
 \alias{abnomoreg}
-\title{abnomoreg}
+\title{Married--wants no more children (grid on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Married--wants no more children (grid on web)
+abnomoreg
 }
 \details{
 Question (Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if. . .) If she is married and does not want any more children?

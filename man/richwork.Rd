@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_61.R
 \name{richwork}
 \alias{richwork}
-\title{richwork}
+\title{If rich, continue or stop working}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If rich, continue or stop working
+richwork
 }
 \details{
 Question 182. If you were to get enough money to live as comfortably as you would like for the rest of your life, would you continue to work or would you stop working?

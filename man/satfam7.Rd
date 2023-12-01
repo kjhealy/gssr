@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_488.R
 \name{satfam7}
 \alias{satfam7}
-\title{satfam7}
+\title{Family satisfaction in general}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Family satisfaction in general
+satfam7
 }
 \details{
 Question 1318b. All things considered, how satisfied are you with your family life?

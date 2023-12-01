@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_583.R
 \name{mar3}
 \alias{mar3}
-\title{mar3}
+\title{Marital status of 3rd person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Marital status of 3rd person
+mar3
 }
 \details{
 Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. d. IF 13 YEARS OR OLDER: Is \link{PERSON} now married, widowed, divorced, separated, or has he/she never been married?

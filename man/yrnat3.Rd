@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_354.R
 \name{yrnat3}
 \alias{yrnat3}
-\title{yrnat3}
+\title{How many years r born a member of national group3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years r born a member of national group3
+yrnat3
 }
 \details{
 Question 1026k. How many years have you been a member of \link{NATIONALITY GROUP}?

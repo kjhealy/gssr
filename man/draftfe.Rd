@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_89.R
 \name{draftfe}
 \alias{draftfe}
-\title{draftfe}
+\title{If return to draft, draft women?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If return to draft, draft women?
+draftfe
 }
 \details{
 Question 295a. If draft: If we should return to a military draft at this time, should young women be drafted as well as young men, or not?

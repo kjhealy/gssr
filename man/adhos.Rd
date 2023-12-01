@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_330.R
 \name{adhos}
 \alias{adhos}
-\title{adhos}
+\title{Would r check child into a hospital if was r's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r check child into a hospital if was r's
+adhos
 }
 \details{
 Question 949. If (John/Mary) was your child, would you... Check your child into a hospital?

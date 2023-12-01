@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_608.R
 \name{issp}
 \alias{issp}
-\title{issp}
+\title{Filter for issp cases}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Filter for issp cases
+issp
 }
 \details{
 Question 1661. Status on International Social Survey Program Self-Completion Supplement.

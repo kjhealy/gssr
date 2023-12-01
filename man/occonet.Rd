@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_02.R
 \name{occonet}
 \alias{occonet}
-\title{occonet}
+\title{Occupation code based on o*net}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Occupation code based on o*net
+occonet
 }
 \details{
 Question None

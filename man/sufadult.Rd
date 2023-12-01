@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_331.R
 \name{sufadult}
 \alias{sufadult}
-\title{sufadult}
+\title{Would child suffer as adult if other learn}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would child suffer as adult if other learn
+sufadult
 }
 \details{
 Question 953. That was my last question about (John/Mary). Now, I have some questions about children, but not about (John/Mary). Please tell me whether you Strongly Agree, Agree Somewhat, Disagree Somewhat or Strongly Disagree with the following statements: b. A child would suffer as an adult if others learn that he or she received mental health treatment when young.

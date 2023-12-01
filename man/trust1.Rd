@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_50.R
 \name{trust1}
 \alias{trust1}
-\title{trust1}
+\title{Can people be trusted (see codebook)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Can people be trusted (see codebook)
+trust1
 }
 \details{
 Question None

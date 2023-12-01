@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_480.R
 \name{twokids}
 \alias{twokids}
-\title{twokids}
+\title{Desirability of two-kid family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Desirability of two-kid family
+twokids
 }
 \details{
 Question 1282. In general, what do you feel about each of these family sizes? c. A family with two children

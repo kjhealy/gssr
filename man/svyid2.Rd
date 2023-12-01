@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_652.R
 \name{svyid2}
 \alias{svyid2}
-\title{svyid2}
+\title{Willingnes for in-person survey}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Willingnes for in-person survey
+svyid2
 }
 \details{
 Question How likely is it that you would be willing to have someone visit your home for a survey in-person interview within the next few months?

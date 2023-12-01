@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_643.R
 \name{prntbhav}
 \alias{prntbhav}
-\title{prntbhav}
+\title{Mother vs father teach child to behave}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother vs father teach child to behave
+prntbhav
 }
 \details{
 Question (In your opinion, which parent should do the following? Who should...) ...teach the child how to behave?

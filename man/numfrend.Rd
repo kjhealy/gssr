@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_122.R
 \name{numfrend}
 \alias{numfrend}
-\title{numfrend}
+\title{About how many good friends do you have}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-About how many good friends do you have
+numfrend
 }
 \details{
 Question 368b. About how many good friends do you have?

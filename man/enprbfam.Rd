@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_527.R
 \name{enprbfam}
 \alias{enprbfam}
-\title{enprbfam}
+\title{Problem effect family most}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Problem effect family most
+enprbfam
 }
 \details{
 Question Which problem, if any, affects you and your family the most?

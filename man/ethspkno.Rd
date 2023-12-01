@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_172.R
 \name{ethspkno}
 \alias{ethspkno}
-\title{ethspkno}
+\title{Ban opinions harmful to other groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ban opinions harmful to other groups
+ethspkno
 }
 \details{
 Question 521. Now I'm going to read you some statements and would like to get your reaction to them. After I read each statement, please tell me if you strongly agree, aggee, neither agree nor disagree, disagree, or strongly disagree with the statement. b. People should not be allowed to express opinions that are harmful or offensive to members of other religious or racial groups.

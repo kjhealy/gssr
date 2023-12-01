@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_301.R
 \name{regdoc}
 \alias{regdoc}
-\title{regdoc}
+\title{R has regular doctor or clinic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has regular doctor or clinic
+regdoc
 }
 \details{
 Question 852. This section is about physicians telling patients about how health insurance and managed care policies affect health care. First, I will ask you about your health care. Later, you will hear a recorded conversation between a doctor and patient and I'll ask some questions about the conversation. Do you have a regular doctor or clinic?

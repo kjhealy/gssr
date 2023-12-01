@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_570.R
 \name{punarms}
 \alias{punarms}
-\title{punarms}
+\title{Punishment stealing and selling arms}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment stealing and selling arms
+punarms
 }
 \details{
 Question 1451. I'm going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee. a. Stealing and selling weapons, ammunition, and explosives from a military depot.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_146.R
 \name{findout}
 \alias{findout}
-\title{findout}
+\title{Can find out where you will be working}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Can find out where you will be working
+findout
 }
 \details{
 Question 464. On any given day, is there some place where you find out where you will be working?

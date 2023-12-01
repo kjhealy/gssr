@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_508.R
 \name{abdefct1}
 \alias{abdefct1}
-\title{abdefct1}
+\title{Law should allow abortion for birth defects}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Law should allow abortion for birth defects
+abdefct1
 }
 \details{
 Question 1375. Do you think the law should or should not allow a pregnant woman to obtain a legal abortion. . . a. If there is a strong chance of serious defect in the baby.

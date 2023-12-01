@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_565.R
 \name{famper5}
 \alias{famper5}
-\title{famper5}
+\title{Having serious trouble with friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Having serious trouble with friend
+famper5
 }
 \details{
 Question E. What about family and personal relationships? During the last year, did you... 5. Have serious trouble with a close friend

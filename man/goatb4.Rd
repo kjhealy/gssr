@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_319.R
 \name{goatb4}
 \alias{goatb4}
-\title{goatb4}
+\title{Goat}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Goat
+goatb4
 }
 \details{
 Question What kind of pet\link{s} did your family have? I. Goat

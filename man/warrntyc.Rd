@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_191.R
 \name{warrntyc}
 \alias{warrntyc}
-\title{warrntyc}
+\title{Did the seller provide a warranty?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did the seller provide a warranty?
+warrntyc
 }
 \details{
 Question 590. Did the seller guarantee to pay for some or all unexpected repairs needed for some period after the sale (i.e., did the seller provide a warranty)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_331.R
 \name{failure}
 \alias{failure}
-\title{failure}
+\title{Mental treatment for child make parent feel like}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mental treatment for child make parent feel like
+failure
 }
 \details{
 Question 953. That was my last question about (John/Mary). Now, I have some questions about children, but not about (John/Mary). Please tell me whether you Strongly Agree, Agree Somewhat, Disagree Somewhat or Strongly Disagree with the following statements: d. Getting mental health treatment for a child would make a parent feel like a failure.

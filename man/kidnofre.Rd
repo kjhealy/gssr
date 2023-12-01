@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_480.R
 \name{kidnofre}
 \alias{kidnofre}
-\title{kidnofre}
+\title{Kids interfere with parents' freedom}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kids interfere with parents' freedom
+kidnofre
 }
 \details{
 Question 1282. Do you agree or disagree ... c. Having children interferes too much with the freedom of parents.

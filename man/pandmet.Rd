@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_659.R
 \name{pandmet}
 \alias{pandmet}
-\title{pandmet}
+\title{Change in socialization over covid pandemic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Change in socialization over covid pandemic
+pandmet
 }
 \details{
 Question Thinking about how often you met with your extended family and friends in person before the COVID-19 pandemic, would you say you now meet them in person more often, less often, or about the same?

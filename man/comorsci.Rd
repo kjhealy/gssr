@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_379.R
 \name{comorsci}
 \alias{comorsci}
-\title{comorsci}
+\title{Antarctica should be reserved or open}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Antarctica should be reserved or open
+comorsci
 }
 \details{
 Question 1078. Some people think that Antarctica should be reserved primarily for scientific purposes. Others think it should be open for tourism, fishing, exploration for oil, and other commercial purposes. Please look at Card B23. Which statement best describes your view on this issue?

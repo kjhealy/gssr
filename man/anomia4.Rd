@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_60.R
 \name{anomia4}
 \alias{anomia4}
-\title{anomia4}
+\title{Live only for today}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Live only for today
+anomia4
 }
 \details{
 Question 178. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. d. Nowadays, a person has to live pretty much for today and let tomorrow take care of itself. Do you more or less agree with that, or more or less disagree?

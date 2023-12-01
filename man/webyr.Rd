@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_289.R
 \name{webyr}
 \alias{webyr}
-\title{webyr}
+\title{When r first began using web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When r first began using web
+webyr
 }
 \details{
 Question 811b. When did you first begin using the World Wide Web (for purposes other than email)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_479.R
 \name{marnomar}
 \alias{marnomar}
-\title{marnomar}
+\title{Bad marriage better than none at all}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Bad marriage better than none at all
+marnomar
 }
 \details{
 Question 1280. Do you agree or disagree? e. It is better to have a bad marriage than no marriage at all.

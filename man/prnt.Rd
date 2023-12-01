@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_665.R
 \name{prnt}
 \alias{prnt}
-\title{prnt}
+\title{R is a parent in some capacity in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is a parent in some capacity in hh
+prnt
 }
 \details{
 Question None

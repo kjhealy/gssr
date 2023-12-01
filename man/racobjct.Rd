@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_45.R
 \name{racobjct}
 \alias{racobjct}
-\title{racobjct}
+\title{Neighborhood integrated by same ses}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Neighborhood integrated by same ses
+racobjct
 }
 \details{
 Question 130. If a negro with the same income and education as you have moved into your block, would it make any difference to you?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_90.R
 \name{cojail}
 \alias{cojail}
-\title{cojail}
+\title{Jail draft resister's?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Jail draft resister's?
+cojail
 }
 \details{
 Question 299a. If yes: If a young man refuses to register for the draft, would you aprove or disapprove of sending him to jail?

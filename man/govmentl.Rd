@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_215.R
 \name{govmentl}
 \alias{govmentl}
-\title{govmentl}
+\title{Should govt provide health care for mental illness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt provide health care for mental illness
+govmentl
 }
 \details{
 Question 664. On the whole, do you think it should or should not be the government's responsibility to provide mental health care for persons with mental illnesses?

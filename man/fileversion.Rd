@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_640.R
 \name{fileversion}
 \alias{fileversion}
-\title{fileversion}
+\title{Gss data file version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gss data file version
+fileversion
 }
 \details{
 Question None

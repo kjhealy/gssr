@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_109.R
 \name{actlit}
 \alias{actlit}
-\title{actlit}
+\title{R active in literary or art group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in literary or art group
+actlit
 }
 \details{
 Question 330. Have you ever done any active work for the literary, art, discussion, or study groups? I mean been a leader, helped organize meetings, been an officer, or given time or money?

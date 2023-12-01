@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_477.R
 \name{twoincs}
 \alias{twoincs}
-\title{twoincs}
+\title{Husb & wife should contrib to family income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Husb & wife should contrib to family income
+twoincs
 }
 \details{
 Question 1275. Do you agree or disagree: h. Both the husband and the wife should contribute to the household income.

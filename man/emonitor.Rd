@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_448.R
 \name{emonitor}
 \alias{emonitor}
-\title{emonitor}
+\title{Civil liberties - monitor emails}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Civil liberties - monitor emails
+emonitor
 }
 \details{
 Question B. (Do you think that the American government should or should not have the right to do the fo Monitor e-mails and any other information exchanged on the Internet? (Would you say...)

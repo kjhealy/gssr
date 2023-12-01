@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_370.R
 \name{evolved1}
 \alias{evolved1}
-\title{evolved1}
+\title{Humans developed from earlier species: true or false}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Humans developed from earlier species: true or false
+evolved1
 }
 \details{
 Question According to the theory of evolution, human beings, as we know them today, developed from earlier species of animals. (Is that true or false?)

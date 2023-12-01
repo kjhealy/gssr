@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_114.R
 \name{switnum}
 \alias{switnum}
-\title{switnum}
+\title{How many religious preferences mentioned}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many religious preferences mentioned
+switnum
 }
 \details{
 Question 358b. RECORD NUMBER OF RELIGIONS MENTIONED

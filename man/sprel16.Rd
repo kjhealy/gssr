@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_41.R
 \name{sprel16}
 \alias{sprel16}
-\title{sprel16}
+\title{Religion in which spouse raised}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion in which spouse raised
+sprel16
 }
 \details{
 Question 117. In what religion was your (husband/wife) raised?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_345.R
 \name{drinkyr}
 \alias{drinkyr}
-\title{drinkyr}
+\title{How regularly r drink over last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How regularly r drink over last 12 months
+drinkyr
 }
 \details{
 Question 1017. Thinking back over the last 12 months, about how regularly did you drink alcoholic beverages?

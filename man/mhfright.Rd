@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_417.R
 \name{mhfright}
 \alias{mhfright}
-\title{mhfright}
+\title{How frightening most people are in public places}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How frightening most people are in public places
+mhfright
 }
 \details{
 Question 1148a. How frightening are most people that you see in public places who appear to have a serious mental health problem?

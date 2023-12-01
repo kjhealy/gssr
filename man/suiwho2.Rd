@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_550.R
 \name{suiwho2}
 \alias{suiwho2}
-\title{suiwho2}
+\title{R's relationship to 2nd closest suicide}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's relationship to 2nd closest suicide
+suiwho2
 }
 \details{
 Question 1535. Think about the person you have known next best, who has committed suicide. Please tell me the letter of the category on the card which best describes your relationship to that person.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_545.R
 \name{forbdrac}
 \alias{forbdrac}
-\title{forbdrac}
+\title{Forbid racist to speak}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Forbid racist to speak
+forbdrac
 }
 \details{
 Question 1517b. Or consider a person who believes that Blacks are genetically inferior. If such a person wanted to make a speech in your community claiming that Blacks are inferior, should he be forbidden from speaking or not?

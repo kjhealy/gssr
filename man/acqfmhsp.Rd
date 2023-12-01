@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_396.R
 \name{acqfmhsp}
 \alias{acqfmhsp}
-\title{acqfmhsp}
+\title{Number of hispanic family member}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of hispanic family member
+acqfmhsp
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. h. How many are Hispanic?

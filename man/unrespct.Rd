@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_497.R
 \name{unrespct}
 \alias{unrespct}
-\title{unrespct}
+\title{Rank of loss of respect when unemployed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rank of loss of respect when unemployed
+unrespct
 }
 \details{
 Question 1327. Suppose you were unemployed and couldn't find a job. Which of the following problems would be the worst? Please write '1' in the box beside the worst thing, write '2' in the box beside the next worst thing, and '3' beside the third worst thing. Leave the other boxes blank. d. Loss of respect from friends and acquaintances

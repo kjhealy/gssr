@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_526.R
 \name{infobiz}
 \alias{infobiz}
-\title{infobiz}
+\title{R trust business for pollution information}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R trust business for pollution information
+infobiz
 }
 \details{
 Question 1435. How much trust do you have in each of the following groups to give you correct information about causes of pollution? a. Business and industry

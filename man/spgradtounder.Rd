@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_13.R
 \name{spgradtounder}
 \alias{spgradtounder}
-\title{spgradtounder}
+\title{Ratio of graduate students to undergraduate students in college spouse attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ratio of graduate students to undergraduate students in college spouse attended
+spgradtounder
 }
 \details{
 Question None

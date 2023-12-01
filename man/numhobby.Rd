@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_348.R
 \name{numhobby}
 \alias{numhobby}
-\title{numhobby}
+\title{How many r belongs to hobby clubs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to hobby clubs
+numhobby
 }
 \details{
 Question 1025i. How many hobby or garden clubs do you belong to?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_575.R
 \name{raceself}
 \alias{raceself}
-\title{raceself}
+\title{R's own racial id}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's own racial id
+raceself
 }
 \details{
 Question 1600c. What race do you consider yourself?

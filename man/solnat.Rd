@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_107.R
 \name{solnat}
 \alias{solnat}
-\title{solnat}
+\title{Nationality grp tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nationality grp tries to solve problems
+solnat
 }
 \details{
 Question 329. Do the nationality groups to which you belong do anything to try to solve individual or community problems?

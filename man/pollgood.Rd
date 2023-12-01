@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_86.R
 \name{pollgood}
 \alias{pollgood}
-\title{pollgood}
+\title{Do surveys serve good purpose}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do surveys serve good purpose
+pollgood
 }
 \details{
 Question 286. In general, do you feel that surveys usually serve a good purpose or do you feel that they are usually a waste of time and money?

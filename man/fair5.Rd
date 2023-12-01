@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_527.R
 \name{fair5}
 \alias{fair5}
-\title{fair5}
+\title{People fair or not}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People fair or not
+fair5
 }
 \details{
 Question Generally speaking, do you think that most people would try to take advantage of you if they got the chance, or would they try to be fair? Please tell me what you think, where 1 means most people would try to take advantage of you and 5 means that most people would try to be fair.

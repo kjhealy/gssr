@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_63.R
 \name{rank}
 \alias{rank}
-\title{rank}
+\title{R's self ranking of social position}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's self ranking of social position
+rank
 }
 \details{
 Question 186. In our society there are groups which tend to be towards the top and those that are towards the bottom. Here we have ascale that runs from top (1) to bottom (10). a. Where would you put yourself on this scale?

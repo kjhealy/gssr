@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_385.R
 \name{polinfnk}
 \alias{polinfnk}
-\title{polinfnk}
+\title{Elected officials how much influence}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Elected officials how much influence
+polinfnk
 }
 \details{
 Question (Please look at Card E15. How much influence should each of the following groups have in deciding whether to restrict the sale of genetically modified foods?) Elected officials

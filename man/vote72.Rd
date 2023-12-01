@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_20.R
 \name{vote72}
 \alias{vote72}
-\title{vote72}
+\title{Did r vote in 1972 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r vote in 1972 election
+vote72
 }
 \details{
 Question 58. In 1972, you remember that McGovern ran for President on the Democratic ticket against Nixon for the Republicans. Do you remember for sure whether or not you voted in that election?

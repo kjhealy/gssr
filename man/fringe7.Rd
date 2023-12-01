@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_144.R
 \name{fringe7}
 \alias{fringe7}
-\title{fringe7}
+\title{Cash or stock bonuses for performance or merit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Cash or stock bonuses for performance or merit
+fringe7
 }
 \details{
 Question 457. I am going to read a list of fringe benefits that workers sometimes get in addition to their wages. Whether you receive it or not, please tell me whether you are eligible to receive each fringe benefit: g. Cash or stock bonuses for performance or merit

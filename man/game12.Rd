@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_267.R
 \name{game12}
 \alias{game12}
-\title{game12}
+\title{R use web for games in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use web for games in past 12 months
+game12
 }
 \details{
 Question 774. In the past 12 months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/02 have you used the Web to do each of these things: j. Play a game with someone on another computer?

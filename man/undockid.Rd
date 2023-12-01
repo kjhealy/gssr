@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_173.R
 \name{undockid}
 \alias{undockid}
-\title{undockid}
+\title{Us citizenship for children of illegal immigrants}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Us citizenship for children of illegal immigrants
+undockid
 }
 \details{
 Question 520a. What about "undocumented aliens," that is, those who have immigrated to this country illegally? 3. Should they be entitled to have their children continue to qualify as American citizens if born in the United States, or not?

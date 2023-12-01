@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_198.R
 \name{sellsex}
 \alias{sellsex}
-\title{sellsex}
+\title{Nothing inherently wrong with prostitution}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nothing inherently wrong with prostitution
+sellsex
 }
 \details{
 Question 630. How much do you agree or disagree with the following statements? a. There is nothing inherently wrong with prostitution, so long as the health risks can be minimized. If consenting adults agree to exchange money for sex, that is their business.

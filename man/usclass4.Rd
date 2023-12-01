@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_29.R
 \name{usclass4}
 \alias{usclass4}
-\title{usclass4}
+\title{Ones own efforts don't count}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ones own efforts don't count
+usclass4
 }
 \details{
 Question 72. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. d. What one gets in life hardly depends at all on one's own efforts, but rather on teh economic situation, job opportunities, union agreements, and the social services provided by the government.

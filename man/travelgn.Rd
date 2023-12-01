@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_278.R
 \name{travelgn}
 \alias{travelgn}
-\title{travelgn}
+\title{R made travel reservations past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R made travel reservations past year
+travelgn
 }
 \details{
 Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: c. Made an airplane or other travel reservations?

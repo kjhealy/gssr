@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_253.R
 \name{uselang}
 \alias{uselang}
-\title{uselang}
+\title{How often does r use language other than english}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r use language other than english
+uselang
 }
 \details{
 Question 739f. How often do you use that language in your everyday life?

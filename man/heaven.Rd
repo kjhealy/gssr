@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_510.R
 \name{heaven}
 \alias{heaven}
-\title{heaven}
+\title{Belief in heaven}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Belief in heaven
+heaven
 }
 \details{
 Question 1382. Do you believe in. . . c. Heaven

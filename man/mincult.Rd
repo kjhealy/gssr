@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_532.R
 \name{mincult}
 \alias{mincult}
-\title{mincult}
+\title{Ethnic minorities should be given gov assistance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ethnic minorities should be given gov assistance
+mincult
 }
 \details{
 Question Now we would like to ask a few questions about minorities in America. 1443. How much do you agree or disagree with the following statements? b. Ethnic minorities should be given government assistance to preserve their customs and traditions

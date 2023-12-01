@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_316.R
 \name{nattime}
 \alias{nattime}
-\title{nattime}
+\title{Usually, i spend time in natural environments, such as public parks, gardens or}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Usually, i spend time in natural environments, such as public parks, gardens or
+nattime
 }
 \details{
 Question Please tell me how much you agree or disagree with the following statements. D. Usually, I spend time in natural environments, such as public parks, gardens or trails, at least once a week.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_491.R
 \name{timefrnd}
 \alias{timefrnd}
-\title{timefrnd}
+\title{Time r would spend on friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Time r would spend on friends
+timefrnd
 }
 \details{
 Question 1321. Suppose you could change the way you spend your time, spending more on some things and less on others. Which of these things on the following list would you like to spend more time on, which would you like to spend less time on, and which would you like to spend the same amount of time as now? d. Time with your friends

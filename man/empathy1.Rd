@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_322.R
 \name{empathy1}
 \alias{empathy1}
-\title{empathy1}
+\title{R have tender feeling for people less fortunate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R have tender feeling for people less fortunate
+empathy1
 }
 \details{
 Question 926. The following statements ask about your thoughts and feelings in various situations. For each item indicate how well it describes you by choosing the number on the showcard where 1 indicates that it does not describe you very well and 5 means that it does describe you very well. Of course numbers 2-4 indicate that how well it describes you are in between these points. a. I often have tender, concerned feelings for people less fortunate than me.

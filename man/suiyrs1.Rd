@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_73.R
 \name{suiyrs1}
 \alias{suiyrs1}
-\title{suiyrs1}
+\title{How many years since closest suicide}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years since closest suicide
+suiyrs1
 }
 \details{
 Question F. YEARS

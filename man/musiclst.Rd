@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_270.R
 \name{musiclst}
 \alias{musiclst}
-\title{musiclst}
+\title{Use web to listen to radio}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to listen to radio
+musiclst
 }
 \details{
 Question 783d. Used the Web to listen to an online radio broadcast or view a music video?

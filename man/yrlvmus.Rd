@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_652.R
 \name{yrlvmus}
 \alias{yrlvmus}
-\title{yrlvmus}
+\title{Attend live music or theater in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attend live music or theater in past 12 months
+yrlvmus
 }
 \details{
 Question First, we'd like to ask about some leisure or recreational activities that people do during their free time. As we list each activity, please indicate if it is something you have done in the past 12 months. During the last 12 months, did you go

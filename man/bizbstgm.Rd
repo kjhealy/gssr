@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_375.R
 \name{bizbstgm}
 \alias{bizbstgm}
-\title{bizbstgm}
+\title{Best policy on gmf vs narrow interest: business leader}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Best policy on gmf vs narrow interest: business leader
+bizbstgm
 }
 \details{
 Question 1071. Please look at Card B18. When making policy recommendations about genetically modified foods, to what extent do you think the following groups would support what is best for the country as a whole or what serves their own narrow interests? INSTRUCTION: IF ASKED WHAT NARROW INTEREST MEANS: Well, someone might gain financially if a certain policy were adopted or it might advance his or her career. c. Business leaders

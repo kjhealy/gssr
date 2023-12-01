@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_259.R
 \name{jewsschl}
 \alias{jewsschl}
-\title{jewsschl}
+\title{Does r know jews from school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know jews from school
+jewsschl
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. a. Do you know any of these Jews from when you went to school or college?

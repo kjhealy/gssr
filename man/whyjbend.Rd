@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_505.R
 \name{whyjbend}
 \alias{whyjbend}
-\title{whyjbend}
+\title{Main reason your job end}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Main reason your job end
+whyjbend
 }
 \details{
 Question 1365. What was the main reason that your job ended?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_481.R
 \name{divnokid}
 \alias{divnokid}
-\title{divnokid}
+\title{How easy should divorce be for kidless}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How easy should divorce be for kidless
+divnokid
 }
 \details{
 Question 1285. And in general, how easy or difficult do you think the law should make it for couples without young children to get a divorce?

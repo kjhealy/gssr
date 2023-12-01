@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_415.R
 \name{mhmeds}
 \alias{mhmeds}
-\title{mhmeds}
+\title{X should be forced to take prescribed medication by law}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should be forced to take prescribed medication by law
+mhmeds
 }
 \details{
 Question 1143. Some countries have laws that force people with situations like \link{NAME}'s into psychiatric treatment. Do you think that people like \link{NAME} definitely should be, probably should be, probably shouldn't be, or definitely shouldn't be forced by law to... b. Take medication prescribed by a doctor?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_203.R
 \name{hrswork}
 \alias{hrswork}
-\title{hrswork}
+\title{How many hours spent in work-related org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many hours spent in work-related org
+hrswork
 }
 \details{
 Question 642. I'd like your best estimate of the total number of hours you spent in the past month on each of the areas in which you have been a volunteer. First, how many hours did you spend in the past month working for: i. Work-related organizations

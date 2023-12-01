@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_650.R
 \name{bangather}
 \alias{bangather}
-\title{bangather}
+\title{Govt should ban gatherings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should ban gatherings
+bangather
 }
 \details{
 Question (Do you think the United States government should or should not have the right to do the following at times of severe epidemics?) Ban public gatherings.

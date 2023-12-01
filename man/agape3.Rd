@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_340.R
 \name{agape3}
 \alias{agape3}
-\title{agape3}
+\title{Willing to sacrifice wish to let the one achieve}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Willing to sacrifice wish to let the one achieve
+agape3
 }
 \details{
 Question Some of the following items refer to a specific love relationship, while other refer to general attitudes and beliefs about love. Whenever possible, answer the questions with your current partner in mind. If you do not have a current partner, answer the question with your most recent partner in mind. If you have never been in love, answer in terms of what you think your response would most likely be. 987. Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or strongly disagree with the following statements? c. I am usually willing to sacrifice my own wishes to let the one I love achieve his/hers.

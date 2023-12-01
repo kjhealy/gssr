@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_663.R
 \name{rchild18}
 \alias{rchild18}
-\title{rchild18}
+\title{R is child of another adult in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is child of another adult in hh
+rchild18
 }
 \details{
 Question None

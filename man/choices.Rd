@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_542.R
 \name{choices}
 \alias{choices}
-\title{choices}
+\title{Political parties don't give real policy choices}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Political parties don't give real policy choices
+choices
 }
 \details{
 Question 1481. Thinking now about politics in America, to what extent do you agree or disagree with the following statements? b. Political parties do not give voters real policy choices

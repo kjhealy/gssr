@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_467.R
 \name{opregion}
 \alias{opregion}
-\title{opregion}
+\title{Must be from right region to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Must be from right region to get ahead
+opregion
 }
 \details{
 Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . k. The part of the country a person comes from?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_632.R
 \name{evngelze}
 \alias{evngelze}
-\title{evngelze}
+\title{Important to encourage non-christians to accept jesus as savior}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Important to encourage non-christians to accept jesus as savior
+evngelze
 }
 \details{
 Question It is very important for me personally to encourage non-Christians to accept Jesus Christ as their Savior.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_536.R
 \name{nafta2a}
 \alias{nafta2a}
-\title{nafta2a}
+\title{America benefits from being a member of nafta?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-America benefits from being a member of nafta?
+nafta2a
 }
 \details{
 Question 1463a. How strongly do you agree or disagree with the following statement? (Please, select one response) Generally speaking, would you say that America benefits or does not benefit from being a member of NAFTA?

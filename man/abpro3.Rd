@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_68.R
 \name{abpro3}
 \alias{abpro3}
-\title{abpro3}
+\title{3rd argument for abortion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-3rd argument for abortion
+abpro3
 }
 \details{
 Question 208. As far as you've heard, what are the main arguments in favor of abortions?

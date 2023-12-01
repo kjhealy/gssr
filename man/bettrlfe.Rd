@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_367.R
 \name{bettrlfe}
 \alias{bettrlfe}
-\title{bettrlfe}
+\title{Science makes our lives better}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Science makes our lives better
+bettrlfe
 }
 \details{
 Question I�m going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. C. Science and technology are making our lives, healthier, easier, and more comfortable.

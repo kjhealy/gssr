@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_644.R
 \name{sharehhw}
 \alias{sharehhw}
-\title{sharehhw}
+\title{Who in household does housework}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who in household does housework
+sharehhw
 }
 \details{
 Question Which of the following best applies to the sharing of household work between you and your {#spousepartfill}?

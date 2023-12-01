@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_624.R
 \name{raceacs4}
 \alias{raceacs4}
-\title{raceacs4}
+\title{Asian indian}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Asian indian
+raceacs4
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. Asian Indian

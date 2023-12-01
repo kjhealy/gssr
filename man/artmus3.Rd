@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_272.R
 \name{artmus3}
 \alias{artmus3}
-\title{artmus3}
+\title{Visit museum after learning on web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Visit museum after learning on web
+artmus3
 }
 \details{
 Question 786f. Visit an art museum or gallery as a result of what you found on its Web site?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_396.R
 \name{acqfmhme}
 \alias{acqfmhme}
-\title{acqfmhme}
+\title{Number of family member owning second home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of family member owning second home
+acqfmhme
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. d. How many own a second home?

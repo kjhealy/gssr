@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_531.R
 \name{prouddem}
 \alias{prouddem}
-\title{prouddem}
+\title{How proud the way democracy works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How proud the way democracy works
+prouddem
 }
 \details{
 Question 1441. How proud are you of America in each of the following? a. The way democracy works

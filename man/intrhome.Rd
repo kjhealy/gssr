@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_370.R
 \name{intrhome}
 \alias{intrhome}
-\title{intrhome}
+\title{Internet access in r's home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Internet access in r's home
+intrhome
 }
 \details{
 Question 1045. Now for a few items on you. Do you have access to the Internet in your home?

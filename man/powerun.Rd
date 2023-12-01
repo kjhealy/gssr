@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_541.R
 \name{powerun}
 \alias{powerun}
-\title{powerun}
+\title{How much power r think united nations have}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much power r think united nations have
+powerun
 }
 \details{
 Question 1478. Thinking about the United Nations, which comes closest to your view?

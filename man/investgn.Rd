@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_278.R
 \name{investgn}
 \alias{investgn}
-\title{investgn}
+\title{R invested money past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R invested money past year
+investgn
 }
 \details{
 Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: b. Invested money in a stock or mutual fund?

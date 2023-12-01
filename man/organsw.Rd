@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_198.R
 \name{organsw}
 \alias{organsw}
-\title{organsw}
+\title{Which of these procedures would be the worst?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which of these procedures would be the worst?
+organsw
 }
 \details{
 Question 626. Recently, medical science has made it possible to save lives by transplanting body parts from donors to patients who need them. But for some body organs there are not enough to go around, and some patients die before they can obtain a transplant. When only one organ is available and several patients need it for survival, the organ could be assigned to a patient by one of the following procedures: Auction: The organ is assigned to the patient who can pay the most for it. First come, first served: The organ is assigned to the patient who has been waiting the longest Lottery: The organ is assigned to the patient whose name is drawn at random. Merit: The organ is assigned to the patient who can make the greatest contribution to others and society. b. Which of these procedures would be the worst way to assign an organ?

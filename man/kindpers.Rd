@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_340.R
 \name{kindpers}
 \alias{kindpers}
-\title{kindpers}
+\title{R is a kind person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is a kind person
+kindpers
 }
 \details{
 Question 985. For each of the following, please indicate how well the description applies to you by circling one number: d. A kind person

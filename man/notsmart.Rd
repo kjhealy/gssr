@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_314.R
 \name{notsmart}
 \alias{notsmart}
-\title{notsmart}
+\title{People act as if they think r is not smart}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People act as if they think r is not smart
+notsmart
 }
 \details{
 Question In your day-to-day life how often have any of the following things happened to you? C. People act as if they think you are not smart.

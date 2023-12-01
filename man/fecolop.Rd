@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_436.R
 \name{fecolop}
 \alias{fecolop}
-\title{fecolop}
+\title{College opportunities for women}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-College opportunities for women
+fecolop
 }
 \details{
 Question 1169. Would you say that opportunities for college education are, in general, better or worse, for women than for men?

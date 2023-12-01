@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_413.R
 \name{mhhired}
 \alias{mhhired}
-\title{mhhired}
+\title{X should be hired like others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should be hired like others
+mhhired
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. p. If a person like \link{NAME} is qualified for a job, he or she should be hired like any other person.

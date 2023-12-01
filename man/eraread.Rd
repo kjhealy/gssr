@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_79.R
 \name{eraread}
 \alias{eraread}
-\title{eraread}
+\title{Has r heard or read about era}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r heard or read about era
+eraread
 }
 \details{
 Question 253. Have you heard or read about the Equal Rights Amendment?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_521.R
 \name{scitest1}
 \alias{scitest1}
-\title{scitest1}
+\title{Humans make all radioactivity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Humans make all radioactivity
+scitest1
 }
 \details{
 Question 1415. For each statement below, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? a. All radioactivity is made by humans

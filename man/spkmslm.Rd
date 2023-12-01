@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_32.R
 \name{spkmslm}
 \alias{spkmslm}
-\title{spkmslm}
+\title{Allow muslim clergymen preaching hatred of the us}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow muslim clergymen preaching hatred of the us
+spkmslm
 }
 \details{
 Question Now consider a Muslim clergyman who preaches hatred of the United States. If such a person wanted to make a speech in your community preaching hatred of the United States, should he be allowed to speak, or not?

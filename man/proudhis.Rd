@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_531.R
 \name{proudhis}
 \alias{proudhis}
-\title{proudhis}
+\title{How proud its history}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How proud its history
+proudhis
 }
 \details{
 Question 1441. How proud are you of America in each of the following? i. It's history

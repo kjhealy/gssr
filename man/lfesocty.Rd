@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_147.R
 \name{lfesocty}
 \alias{lfesocty}
-\title{lfesocty}
+\title{Society gives some head start & holds back others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Society gives some head start & holds back others
+lfesocty
 }
 \details{
 Question 471. I'm going to read some statements that give reasons why a person's life turns out well or poorly. As I read each one, tell me whether you think it is very important, important, somewhat important, or not at all important for how somebody's life turns out? c. Society gives some people a head start and holds others back.

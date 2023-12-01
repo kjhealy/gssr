@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_445.R
 \name{prvdold}
 \alias{prvdold}
-\title{prvdold}
+\title{Who provides for old people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who provides for old people
+prvdold
 }
 \details{
 Question B. (People have different opinions on who should provide services in America. Who do you thin Care for older people? (Should it be?)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_156.R
 \name{alike5}
 \alias{alike5}
-\title{alike5}
+\title{How alike: table & chair}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How alike: table & chair
+alike5
 }
 \details{
 Question 489. Now I'd like to turn to something a bit different. This section is about reasoning abilities, that is, about how people think. Most people take tests of their reasoning abilities and there is a lot of interest in how these abilities may change over time. What I'd like you to do is tell me how two things are alike. e. In what way are a table and a chair alike?

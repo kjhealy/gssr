@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_319.R
 \name{dogb4}
 \alias{dogb4}
-\title{dogb4}
+\title{Dog}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Dog
+dogb4
 }
 \details{
 Question What kind of pet(s) did your family have? A. Dog

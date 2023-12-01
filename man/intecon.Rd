@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_381.R
 \name{intecon}
 \alias{intecon}
-\title{intecon}
+\title{Interested in economic issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested in economic issues
+intecon
 }
 \details{
 Question Economic issues and business conditions. (Are you very interested, moderately interested, or not at all interested?)

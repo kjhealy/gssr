@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_83.R
 \name{spdeath}
 \alias{spdeath}
-\title{spdeath}
+\title{Death of spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Death of spouse
+spdeath
 }
 \details{
 Question 275e. Death of spouse.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_262.R
 \name{hswht}
 \alias{hswht}
-\title{hswht}
+\title{High school mostly white}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-High school mostly white
+hswht
 }
 \details{
 Question 766a. Was the high school/last school you attended all white, mostly white, about half white and half other races, mostly other races, or all other races?

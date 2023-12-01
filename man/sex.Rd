@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_13.R
 \name{sex}
 \alias{sex}
-\title{sex}
+\title{Respondents sex}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondents sex
+sex
 }
 \details{
 Question 23. Code respondent's sex

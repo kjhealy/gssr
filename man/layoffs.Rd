@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_200.R
 \name{layoffs}
 \alias{layoffs}
-\title{layoffs}
+\title{Who has the greatest right to keep their jobs?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who has the greatest right to keep their jobs?
+layoffs
 }
 \details{
 Question 639. From time to time companies must lay-off some of their employees. If some have to be laid-off, who, in your opinion, has the greatest right to keep their jobs? 1. Those who have worked for the company the longest time (have the most seniority) 2. Those who have the greatest needs/the greatest burden to support a family. 3. Those who are the best workers, the most able and productive 4. Those who would have the greatest difficulty in finding a new job 5. Union members 6. Older employees 7. Younger employees 8. Men 9. Women 10. Whites 11. Minorities/non-whites 12. Other (specify) 13. Owners, bosses, executives 14. Essential, necessary, critical 15. Newest employees 16. Most loyal 17. Production, blue-collar, hands-on people

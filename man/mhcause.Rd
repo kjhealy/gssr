@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_416.R
 \name{mhcause}
 \alias{mhcause}
-\title{mhcause}
+\title{What caused x s situation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What caused x s situation
+mhcause
 }
 \details{
 Question 1145. 1145. Would you say that \link{NAME}'s situation is caused by depression, asthma, schizophrenia, stress, or something else?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_466.R
 \name{unhappy}
 \alias{unhappy}
-\title{unhappy}
+\title{How often r was unhappy or depressed in past 4 weeks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r was unhappy or depressed in past 4 weeks
+unhappy
 }
 \details{
 Question During the past four weeks how often?. A. Have you felt unhappy and depressed?

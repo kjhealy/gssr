@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_330.R
 \name{forcemed}
 \alias{forcemed}
-\title{forcemed}
+\title{Should child be forced by law to take a prescription}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should child be forced by law to take a prescription
+forcemed
 }
 \details{
 Question 950b. Do you think that parents of children like (John/Mary) should be forced by law to take a prescription medication to control (his/her) behavior?

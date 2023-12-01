@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_531.R
 \name{proudgrp}
 \alias{proudgrp}
-\title{proudgrp}
+\title{How proud its fair and equal treatment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How proud its fair and equal treatment
+proudgrp
 }
 \details{
 Question 1441. How proud are you of America in each of the following? j. Its fair and equal treatment of all groups in society

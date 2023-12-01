@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_199.R
 \name{econsys}
 \alias{econsys}
-\title{econsys}
+\title{Best-needs replaced}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Best-needs replaced
+econsys
 }
 \details{
 Question 636. On the whole, do you think our economic system is: 1. The best system we could possibly have? 2. Basically okay but in need of some tinkering? 3. In need of some fundamental changes? 4. Needing to be replaced by some other system?

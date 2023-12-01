@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_524.R
 \name{grngroup}
 \alias{grngroup}
-\title{grngroup}
+\title{Member of envir group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Member of envir group
+grngroup
 }
 \details{
 Question 1425. Are you a member of any group whose main aim is to preserve or protect the environment?

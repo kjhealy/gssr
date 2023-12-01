@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_107.R
 \name{solyouth}
 \alias{solyouth}
-\title{solyouth}
+\title{Youth group tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Youth group tries to solve problems
+solyouth
 }
 \details{
 Question 329. Do the youth groups to which you belong do anything to try to solve individual or community problems?

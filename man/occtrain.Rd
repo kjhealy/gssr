@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_238.R
 \name{occtrain}
 \alias{occtrain}
-\title{occtrain}
+\title{Gone thru specialized training}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gone thru specialized training
+occtrain
 }
 \details{
 Question 695a. Have you gone through any specialized training in school to obtain a vocational certificate, diploma, degree, or license for this occupation?

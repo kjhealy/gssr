@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{totalnum}
 \alias{totalnum}
-\title{totalnum}
+\title{Number of employees: r's entire firm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of employees: r's entire firm
+totalnum
 }
 \details{
 Question 1347. About how many people are employed in the entire business, corporation or organization for which you work? (Count part-time as well as full-time employees. (If you work for the government, how many people are employed in your whole division or agency?)

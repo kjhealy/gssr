@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_640.R
 \name{uscitznnv}
 \alias{uscitznnv}
-\title{uscitznnv}
+\title{Is r us citizen (no volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r us citizen (no volunteered response on web)
+uscitznnv
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_62.R
 \name{jobkeep}
 \alias{jobkeep}
-\title{jobkeep}
+\title{Job security}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job security
+jobkeep
 }
 \details{
 Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? JOB SECURITY

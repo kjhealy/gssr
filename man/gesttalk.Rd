@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_392.R
 \name{gesttalk}
 \alias{gesttalk}
-\title{gesttalk}
+\title{How often r see people making strange gesture in public}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r see people making strange gesture in public
+gesttalk
 }
 \details{
 Question 1100. How often do you see people in public who make strange gestures or talk when there was no one there to listen...

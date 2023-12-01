@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_260.R
 \name{hispwrk}
 \alias{hispwrk}
-\title{hispwrk}
+\title{Does r know hispanics from work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know hispanics from work
+hispwrk
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. d. Do you know any of these Hispanics from the place where you work?

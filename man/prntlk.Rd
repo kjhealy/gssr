@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_643.R
 \name{prntlk}
 \alias{prntlk}
-\title{prntlk}
+\title{Mother vs father care for child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother vs father care for child
+prntlk
 }
 \details{
 Question People have different opinions about how well mothers and fathers are suited to look after their children. Which of the following statements comes closest to your opinion?

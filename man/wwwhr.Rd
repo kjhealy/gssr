@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_263.R
 \name{wwwhr}
 \alias{wwwhr}
-\title{wwwhr}
+\title{Www hours per week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Www hours per week
+wwwhr
 }
 \details{
 Question 769. Not counting e-mail, about how many minutes or hours per week do you use the Web? (Include time you spend visiting regular web sites and time spent using interactive Internet services like chat rooms, Usenet groups, discussion forums, bulletin boards, and the like.) a. Hours per week

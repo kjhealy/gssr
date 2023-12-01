@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_72.R
 \name{letdie2}
 \alias{letdie2}
-\title{letdie2}
+\title{Let patients die if doctors agree}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Let patients die if doctors agree
+letdie2
 }
 \details{
 Question 226a. Would you approve of ending a patient's life if a board of doctors appointed by the court agreed that the patient could not be cured?

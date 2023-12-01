@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_525.R
 \name{grnintl}
 \alias{grnintl}
-\title{grnintl}
+\title{Intl agreements for environment problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Intl agreements for environment problems
+grnintl
 }
 \details{
 Question 1433. How much do you agree or disagree with each of these statements? a. For environmental problems, there should be international agreements that American and other countries should be made to follow.

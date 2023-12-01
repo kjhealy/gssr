@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_69.R
 \name{sexeduc}
 \alias{sexeduc}
-\title{sexeduc}
+\title{Sex education in public schools}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex education in public schools
+sexeduc
 }
 \details{
 Question 214. Would you be for or against sex education in the public schools?

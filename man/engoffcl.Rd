@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_172.R
 \name{engoffcl}
 \alias{engoffcl}
-\title{engoffcl}
+\title{Favor law making english the official language}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Favor law making english the official language
+engoffcl
 }
 \details{
 Question 526. Do you favor a law making English the official language of the United States, meaning government business would be conducted in English only, or do you oppose such a law?

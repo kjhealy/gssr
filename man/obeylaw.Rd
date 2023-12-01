@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_434.R
 \name{obeylaw}
 \alias{obeylaw}
-\title{obeylaw}
+\title{Should people obey laws without exceptn?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should people obey laws without exceptn?
+obeylaw
 }
 \details{
 Question 1158. In general, would you say that people should obey the law without exception, or are there exceptional occasions on which people should follow their consciences even if it means breaking the law? (CIRCLE ONE ANSWER)

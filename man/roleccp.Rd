@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_558.R
 \name{roleccp}
 \alias{roleccp}
-\title{roleccp}
+\title{Role of childcare provdrs with kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Role of childcare provdrs with kids
+roleccp
 }
 \details{
 Question 1570. Many adults play roles in the lives of children. Please rate the following as very good, good, fairly good, fairly bad, or very bad. d. Child-care providers

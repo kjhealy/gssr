@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_91.R
 \name{vetaid}
 \alias{vetaid}
-\title{vetaid}
+\title{Any in hh receive mil or vet benefits}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Any in hh receive mil or vet benefits
+vetaid
 }
 \details{
 Question 304. Are you or any members of your present household currently receiving any pay or benefits from either the military or the Veterans Administration?

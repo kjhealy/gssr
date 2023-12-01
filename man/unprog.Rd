@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_135.R
 \name{unprog}
 \alias{unprog}
-\title{unprog}
+\title{Unions just block economic progress}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unions just block economic progress
+unprog
 }
 \details{
 Question 417. To what extent do you agree or disagree with the following statements? d. For the most part, unions just stand in the way of economic progress in this country.

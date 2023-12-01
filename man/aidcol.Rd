@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_444.R
 \name{aidcol}
 \alias{aidcol}
-\title{aidcol}
+\title{Gov. should assist low-income college student}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gov. should assist low-income college student
+aidcol
 }
 \details{
 Question 1188. On the whole, do you think it should or should not be the government's responsibility to . . . h. Give financial assistance to college students from low-income families.

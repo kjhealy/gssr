@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_570.R
 \name{chktaxes}
 \alias{chktaxes}
-\title{chktaxes}
+\title{Government should verify tax records}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Government should verify tax records
+chktaxes
 }
 \details{
 Question 1588. Before giving an individual a SECRET or TOP SECRET clearance, the government should contact other people and verify information provided by the individual concerning his or her: (READ A-C) c. Tax records

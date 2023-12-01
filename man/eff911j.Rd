@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_422.R
 \name{eff911j}
 \alias{eff911j}
-\title{eff911j}
+\title{How effective r thinks becoming vigilant}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How effective r thinks becoming vigilant
+eff911j
 }
 \details{
 Question How effective do you think becoming more vigilant or aware of what is going on around them is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)

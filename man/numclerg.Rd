@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_429.R
 \name{numclerg}
 \alias{numclerg}
-\title{numclerg}
+\title{With how many different leaders has this happened to you}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-With how many different leaders has this happened to you
+numclerg
 }
 \details{
 Question None

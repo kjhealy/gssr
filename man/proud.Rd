@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_184.R
 \name{proud}
 \alias{proud}
-\title{proud}
+\title{Felt proud of something you'd done?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Felt proud of something you'd done?
+proud
 }
 \details{
 Question 572. Now I'm going to read a list of different feelings that people sometimes have. After each one, I would like you to tell me on how many days you have felt this way during the past 7 days. s. Felt proud of something you'd done/

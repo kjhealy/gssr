@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_531.R
 \name{proudspt}
 \alias{proudspt}
-\title{proudspt}
+\title{How proud its achievements in sports}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How proud its achievements in sports
+proudspt
 }
 \details{
 Question 1441. How proud are you of America in each of the following? f. Its achievements in sports

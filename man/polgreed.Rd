@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_541.R
 \name{polgreed}
 \alias{polgreed}
-\title{polgreed}
+\title{Most politicians are only for what get out of politics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most politicians are only for what get out of politics
+polgreed
 }
 \details{
 Question 1475. To what extent do you agree or disagree with the following statements? b. Most politicians are in politics only for what they can get out of it personally

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_501.R
 \name{bossemps}
 \alias{bossemps}
-\title{bossemps}
+\title{Quality of mgmnt-employee rels: r's firm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Quality of mgmnt-employee rels: r's firm
+bossemps
 }
 \details{
 Question 1340. In general how would you describe relations in your work place: a. Between management and employees?

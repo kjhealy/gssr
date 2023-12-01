@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_82.R
 \name{salsci}
 \alias{salsci}
-\title{salsci}
+\title{Salience, scientific community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Salience, scientific community
+salsci
 }
 \details{
 Question 237. How often would you say that you and your friends think about topics we've been discussing during the interview? e. The scientific community.

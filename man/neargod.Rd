@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_37.R
 \name{neargod}
 \alias{neargod}
-\title{neargod}
+\title{How close does r feel to god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How close does r feel to god
+neargod
 }
 \details{
 Question 112. How close do you feel to God most of the time?

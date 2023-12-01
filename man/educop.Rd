@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_29.R
 \name{educop}
 \alias{educop}
-\title{educop}
+\title{Equal opportunity to obtain education?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Equal opportunity to obtain education?
+educop
 }
 \details{
 Question 73a. Does everyone in this country have an opportunity to obtain an education corresponding to their abilities and talents?

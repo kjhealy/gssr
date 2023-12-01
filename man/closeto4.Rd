@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_222.R
 \name{closeto4}
 \alias{closeto4}
-\title{closeto4}
+\title{How close r is to person 4}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How close r is to person 4
+closeto4
 }
 \details{
 Question On a scale from 1 to 10, with 1 being not at all close and 10 being very close, how close are you to NAME 4?

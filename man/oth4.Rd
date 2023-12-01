@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_566.R
 \name{oth4}
 \alias{oth4}
-\title{oth4}
+\title{Need but unable to use public transport.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need but unable to use public transport.
+oth4
 }
 \details{
 Question H. And finally, since (CURRENT MONTH), 2003, did any of the following occur to you? 4. Needed, but unable to use, public transportation to get to work, shop, etc.

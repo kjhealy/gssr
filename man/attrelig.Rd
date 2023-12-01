@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_579.R
 \name{attrelig}
 \alias{attrelig}
-\title{attrelig}
+\title{Last week attended religious services?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Last week attended religious services?
+attrelig
 }
 \details{
 Question 1614. Now I'm going to ask you about things you did during the last seven days. I'm only interested in what you did during the last seven days. From last (DAY OF WEEK) to today did you... d. Attend religious services?

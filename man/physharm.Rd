@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_335.R
 \name{physharm}
 \alias{physharm}
-\title{physharm}
+\title{R have been threatened with physical harm at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R have been threatened with physical harm at work
+physharm
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. g. At work, I have been threatened with physical harm.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_513.R
 \name{feelrel}
 \alias{feelrel}
-\title{feelrel}
+\title{How religious is r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How religious is r
+feelrel
 }
 \details{
 Question 1395. Would you describe yourself as. . .

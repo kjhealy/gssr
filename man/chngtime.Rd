@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_651.R
 \name{chngtime}
 \alias{chngtime}
-\title{chngtime}
+\title{How often change start and end times}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often change start and end times
+chngtime
 }
 \details{
 Question How often are you allowed to change your starting and quitting times on a daily basis?

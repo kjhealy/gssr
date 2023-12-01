@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_31.R
 \name{libcom}
 \alias{libcom}
-\title{libcom}
+\title{Allow communists book in library}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow communists book in library
+libcom
 }
 \details{
 Question 79. Now, I should like to ask you some questions about a man who admits he is a Communist: c. Suppose he wrote a book which is in your public library. Somebody in your community suggests that the book should be removed from the library. Would you favor removing it, or not?

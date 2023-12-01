@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_573.R
 \name{forspy}
 \alias{forspy}
-\title{forspy}
+\title{Foreign spies more threat 10 yrs ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Foreign spies more threat 10 yrs ago
+forspy
 }
 \details{
 Question 1595. Are the following threats to the United States greater, about the same, or less today than they were 10 years ago? b. Spying by foreign agents

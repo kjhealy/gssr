@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_118.R
 \name{myfaith}
 \alias{myfaith}
-\title{myfaith}
+\title{Degree to which faith is free of doubt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Degree to which faith is free of doubt
+myfaith
 }
 \details{
 Question 377. Here is another card with contrasting ideas. If you fee that "my faith is completely free of doubts," you would place yourself at 1. If you feel "my faith is mixed with doubts," you would place yourself at 7. If you feel somewhere beetween these two, you would place yourself at 2,3,4,5 or 6. Where would you place your feelings about your faith?

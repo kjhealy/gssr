@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_540.R
 \name{eqtreat}
 \alias{eqtreat}
-\title{eqtreat}
+\title{How important: govt treat everybody equally}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: govt treat everybody equally
+eqtreat
 }
 \details{
 Question 1470. There are different opinions about people's rights in a democracy. On a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it: c. That government authorities treat everybody equally regardless of their position in society

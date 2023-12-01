@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_31.R
 \name{colmil}
 \alias{colmil}
-\title{colmil}
+\title{Allow militarist to teach}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow militarist to teach
+colmil
 }
 \details{
 Question 80. Consider a person who advocates doing away with elections and letting the military run the country. b. Should such a person be allowed to teach in a college or university, or not?

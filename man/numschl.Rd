@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_348.R
 \name{numschl}
 \alias{numschl}
-\title{numschl}
+\title{How many r belongs to school service groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to school service groups
+numschl
 }
 \details{
 Question 1025h. How many school service groups do you belong to?

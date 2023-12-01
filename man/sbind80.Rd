@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_169.R
 \name{sbind80}
 \alias{sbind80}
-\title{sbind80}
+\title{R sibling industry code (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sibling industry code (1980)
+sbind80
 }
 \details{
 Question 514c. What kind of place did (s/he) work for? d. What (do/did) they (make/do)?

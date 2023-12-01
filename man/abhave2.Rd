@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_78.R
 \name{abhave2}
 \alias{abhave2}
-\title{abhave2}
+\title{Have abortion if health endangered}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have abortion if health endangered
+abhave2
 }
 \details{
 Question 250. WOMEN: Would you yourself have an abortion if: MEN: Would you yourself advise the woman you were married to have an abortion if: b. (Your/her) health was seriously endangered by the pregnancy?

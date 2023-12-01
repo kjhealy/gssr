@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_550.R
 \name{suirac2}
 \alias{suirac2}
-\title{suirac2}
+\title{Race of suicide victim 2nd closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Race of suicide victim 2nd closest to r
+suirac2
 }
 \details{
 Question 1536. We would like to know a few other things about that person. c. What was that person's race?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_86.R
 \name{rushed}
 \alias{rushed}
-\title{rushed}
+\title{How often r feels rushed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r feels rushed
+rushed
 }
 \details{
 Question 285. In general, how do you feel about your time - would you say you always feel rushed even to do things you have to do, only sometimes feel rushed, or almost never feel rushed?

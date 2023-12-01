@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_519.R
 \name{resnatur}
 \alias{resnatur}
-\title{resnatur}
+\title{Humans should respect naturecreated by god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Humans should respect naturecreated by god
+resnatur
 }
 \details{
 Question 1410. And please check one box for each of these statements to show how much you agree or disagree with it. d. Human beings should respect nature because it was created by God.

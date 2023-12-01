@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_449.R
 \name{stoprndm}
 \alias{stoprndm}
-\title{stoprndm}
+\title{Should authorities have right to search ppl in the street}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should authorities have right to search ppl in the street
+stoprndm
 }
 \details{
 Question 1492. Suppose the government suspected that a terrorist act was about to happen. Do you think the authorities should have the right to... c. stop and search people in the street at random?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_330.R
 \name{illphys}
 \alias{illphys}
-\title{illphys}
+\title{Is child experiencing a physical illness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is child experiencing a physical illness
+illphys
 }
 \details{
 Question 951c. In your opinion, how likely is it that (John/Mary) is experiencing a physical illness?

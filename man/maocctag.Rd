@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_09.R
 \name{maocctag}
 \alias{maocctag}
-\title{maocctag}
+\title{Maocc10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Maocc10 coding tag
+maocctag
 }
 \details{
 Question None

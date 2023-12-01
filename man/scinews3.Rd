@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_386.R
 \name{scinews3}
 \alias{scinews3}
-\title{scinews3}
+\title{Where online get info}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where online get info
+scinews3
 }
 \details{
 Question None

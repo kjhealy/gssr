@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_527.R
 \name{grneffme}
 \alias{grneffme}
-\title{grneffme}
+\title{Environment effect everyday life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Environment effect everyday life
+grneffme
 }
 \details{
 Question (How much do you agree or disagree with each of these statements?) Environmental problems have a direct effect on my everyday life.

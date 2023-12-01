@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_529.R
 \name{movestat}
 \alias{movestat}
-\title{movestat}
+\title{Willing to move to another state}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Willing to move to another state
+movestat
 }
 \details{
 Question 1437. If you could improve your work or living conditions, how willing or unwilling would you be to... c. Move to another state

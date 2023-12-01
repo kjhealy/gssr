@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_592.R
 \name{rvisitor}
 \alias{rvisitor}
-\title{rvisitor}
+\title{Is r a visitor?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r a visitor?
+rvisitor
 }
 \details{
 Question 1630. Is respondent a visitor?

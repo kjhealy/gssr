@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_581.R
 \name{relidbst}
 \alias{relidbst}
-\title{relidbst}
+\title{Protestant identification best group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Protestant identification best group
+relidbst
 }
 \details{
 Question 1619e. Which of these best describes what you are?

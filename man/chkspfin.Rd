@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_569.R
 \name{chkspfin}
 \alias{chkspfin}
-\title{chkspfin}
+\title{Government should verify spouse's financial assets}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Government should verify spouse's financial assets
+chkspfin
 }
 \details{
 Question 1588. Before giving an individual a SECRET or TOP SECRET clearance, the government should contact other people and verify information provided by the individual concerning his or her: (READ A-C) b. Spouse's financial assets and liabilities

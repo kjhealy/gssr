@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_217.R
 \name{relmhsp1}
 \alias{relmhsp1}
-\title{relmhsp1}
+\title{Patient was self}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Patient was self
+relmhsp1
 }
 \details{
 Question 668. Was this a relative, a close friend, or just someone you didn't know very well? a. Respondent

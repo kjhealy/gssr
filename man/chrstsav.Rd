@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_632.R
 \name{chrstsav}
 \alias{chrstsav}
-\title{chrstsav}
+\title{Only those who accept jesus as savior can achieve salvation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Only those who accept jesus as savior can achieve salvation
+chrstsav
 }
 \details{
 Question Only those who accept Jesus Christ alone as their Savior can achieve eternal salvation.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_471.R
 \name{givfarm}
 \alias{givfarm}
-\title{givfarm}
+\title{How much ought farm worker make?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much ought farm worker make?
+givfarm
 }
 \details{
 Question 1255. Next, what do you think people in these jobs ought to be paid how much do you think they should earn each year before taxes, regardless of what they actually get? Please write in how much they should earn each year. g. Farm laborer

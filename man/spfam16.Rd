@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_157.R
 \name{spfam16}
 \alias{spfam16}
-\title{spfam16}
+\title{Did spouse live at home at age 16?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did spouse live at home at age 16?
+spfam16
 }
 \details{
 Question 499. Was your (husband/wife) living with both (his/her) own mother and father around the time (s/he) was 16? With whom was s/he living around that time?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_264.R
 \name{news30}
 \alias{news30}
-\title{news30}
+\title{R use news site in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use news site in past 30 days
+news30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: e. News and current events?

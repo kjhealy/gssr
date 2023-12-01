@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_525.R
 \name{econgrn}
 \alias{econgrn}
-\title{econgrn}
+\title{Economic progress dependent on environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Economic progress dependent on environment
+econgrn
 }
 \details{
 Question 1433. How much do you agree or disagree with each of these statements? c. Economic progress in America will slow down unless we look after the environment better.

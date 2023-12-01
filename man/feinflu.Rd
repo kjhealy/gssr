@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_113.R
 \name{feinflu}
 \alias{feinflu}
-\title{feinflu}
+\title{Opinion of political influence of women}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opinion of political influence of women
+feinflu
 }
 \details{
 Question ASK ONLY IF R IS FEMALE: 355. People have different opinions about the amount of influence that various groups have in American life and politics. Do you think that women have far too much influence, too much influence, about the right amount of influence, too little influence, or do they have far too little influence?

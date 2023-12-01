@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_115.R
 \name{mafund}
 \alias{mafund}
-\title{mafund}
+\title{How fundamentalist was r's mother}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How fundamentalist was r's mother
+mafund
 }
 \details{
 Question 359c. Fundamentalism/liberalism of mother's religion.

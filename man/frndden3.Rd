@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_120.R
 \name{frndden3}
 \alias{frndden3}
-\title{frndden3}
+\title{What is friend 3s specific denomination}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is friend 3s specific denomination
+frndden3
 }
 \details{
 Question 382. If Protestant: What specific denomination is that, if any?

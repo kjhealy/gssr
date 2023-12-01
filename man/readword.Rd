@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_116.R
 \name{readword}
 \alias{readword}
-\title{readword}
+\title{How often did r read bible last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often did r read bible last year
+readword
 }
 \details{
 Question 373. Have you read any part of the Bible at home within the last year? a. If yes: How often have you read the Bible in the last year?

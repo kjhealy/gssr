@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_273.R
 \name{wwwsp}
 \alias{wwwsp}
-\title{wwwsp}
+\title{Has anyone met on web become spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has anyone met on web become spouse
+wwwsp
 }
 \details{
 Question 788. Did any of these people become: b. Spouse or partner?

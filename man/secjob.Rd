@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_493.R
 \name{secjob}
 \alias{secjob}
-\title{secjob}
+\title{Importance of job security in a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of job security in a job
+secjob
 }
 \details{
 Question 1326. On the following list there are various aspects of jobs. Please circle one number to show how important you personally consider it is in a job: a. Job security

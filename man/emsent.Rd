@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_284.R
 \name{emsent}
 \alias{emsent}
-\title{emsent}
+\title{How many email messages sent per day}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many email messages sent per day
+emsent
 }
 \details{
 Question 807. Thinking now about all your home, work or other computers, a. About how many e-mail messages do you send from all these computers on an average day?

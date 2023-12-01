@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_576.R
 \name{vetyears}
 \alias{vetyears}
-\title{vetyears}
+\title{Years in armed forces}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Years in armed forces
+vetyears
 }
 \details{
 Question 1604. Have you ever been on active duty for military training or service for two consecutive months or more? IF YES: What was your total time on active duty?

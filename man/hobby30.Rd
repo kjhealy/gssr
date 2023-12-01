@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_266.R
 \name{hobby30}
 \alias{hobby30}
-\title{hobby30}
+\title{R use hobby site in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use hobby site in past 30 days
+hobby30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: t. Hobbies and crafts?

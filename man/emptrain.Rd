@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_391.R
 \name{emptrain}
 \alias{emptrain}
-\title{emptrain}
+\title{Received formal training from employer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Received formal training from employer
+emptrain
 }
 \details{
 Question 1090b. n the last 12 months have you received any formal training from your current employer, such as in classes or seminars sponsored by the employer?

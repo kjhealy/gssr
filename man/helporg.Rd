@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_143.R
 \name{helporg}
 \alias{helporg}
-\title{helporg}
+\title{Willing work harder than have to help org.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Willing work harder than have to help org.
+helporg
 }
 \details{
 Question 453. Please tell me how much you agree or disagree with the following statements: b. I am willing to work harder than I have to in order to help this organization succeed.

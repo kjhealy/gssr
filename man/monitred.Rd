@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_140.R
 \name{monitred}
 \alias{monitred}
-\title{monitred}
+\title{Computers monitor my job performance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Computers monitor my job performance
+monitred
 }
 \details{
 Question 438. How true would you say each of the following statements is about your job? e. Computers monitor my job performance.

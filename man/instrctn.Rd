@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_250.R
 \name{instrctn}
 \alias{instrctn}
-\title{instrctn}
+\title{Prepare written instructions explaining future car}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prepare written instructions explaining future car
+instrctn
 }
 \details{
 Question 735. How much do you agree of disagree with the following options for this person? This person should... c. Prepare written instructions explaining what their future care should be

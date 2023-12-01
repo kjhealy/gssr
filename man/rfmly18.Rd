@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_664.R
 \name{rfmly18}
 \alias{rfmly18}
-\title{rfmly18}
+\title{R is extended family of another adult in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is extended family of another adult in hh
+rfmly18
 }
 \details{
 Question None

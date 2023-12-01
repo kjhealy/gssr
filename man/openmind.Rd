@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_125.R
 \name{openmind}
 \alias{openmind}
-\title{openmind}
+\title{Treat dissenters with leniency}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Treat dissenters with leniency
+openmind
 }
 \details{
 Question 400. Now I am going to read you several statements. For each one please tell me whether you agree strongly, agree, disagree, or disagree strongly: d. It is best to treat dissenters with leniency and an open mind, since new ideas are the lifeblood of progressive change.

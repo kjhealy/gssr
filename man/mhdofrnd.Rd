@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_408.R
 \name{mhdofrnd}
 \alias{mhdofrnd}
-\title{mhdofrnd}
+\title{What x should do: talk to friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: talk to friends
+mhdofrnd
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? b. Talk to friends

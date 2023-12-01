@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_407.R
 \name{mhproblm}
 \alias{mhproblm}
-\title{mhproblm}
+\title{How serious x s situation is}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How serious x s situation is
+mhproblm
 }
 \details{
 Question 1132. Please remember, there are no right-or-wrong answers to these questions. Please think about the person I just described when answering these questions. First, how serious would you consider \link{NAME}'s situation to be. Would you say...

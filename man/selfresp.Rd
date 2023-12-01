@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_190.R
 \name{selfresp}
 \alias{selfresp}
-\title{selfresp}
+\title{How resp. do you feel for the situation?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How resp. do you feel for the situation?
+selfresp
 }
 \details{
 Question 583. How responsible do you feel for the situation? Think of a scale where 0 means you were not at all responsible and 10 means you were totally responsible for what happened.

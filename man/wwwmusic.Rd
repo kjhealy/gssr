@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_270.R
 \name{wwwmusic}
 \alias{wwwmusic}
-\title{wwwmusic}
+\title{Use the web to learn about music}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use the web to learn about music
+wwwmusic
 }
 \details{
 Question 783a. Do you ever use the Web to learn about, listen to, or discuss topics related to any kind of music?

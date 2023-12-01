@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_386.R
 \name{newsfrmy}
 \alias{newsfrmy}
-\title{newsfrmy}
+\title{Where news events info}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where news events info
+newsfrmy
 }
 \details{
 Question We are interested in how people get information about events in the news. Where do you get most of your information about current news events -- printed newspapers, online newspapers, printed magazines, online magazines, other places on the Internet, books or other printed materials, TV, radio, family, friends, colleagues, or some other source?

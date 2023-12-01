@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_81.R
 \name{racchng}
 \alias{racchng}
-\title{racchng}
+\title{Try to integrate social club}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Try to integrate social club
+racchng
 }
 \details{
 Question 265. If you and your friends belonged to a social club that would not let \link{whites/(negroes/blacks)} join, would you try to change the rules so that \link{whites/(negroes/blacks)} could join?

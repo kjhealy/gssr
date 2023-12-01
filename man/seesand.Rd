@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_384.R
 \name{seesand}
 \alias{seesand}
-\title{seesand}
+\title{Which picture shows what she should use for the 2nd pot}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which picture shows what she should use for the 2nd pot
+seesand
 }
 \details{
 Question Please look at Card I-4. A gardener has an idea that a plant needs sand in the soil for healthy growth. In order to test her idea she uses two pots of plants. She sets up one pot of plants as shown on the top part of the card. Which one of the {response to acceptDK} {response to probeDK}

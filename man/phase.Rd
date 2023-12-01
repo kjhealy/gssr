@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_608.R
 \name{phase}
 \alias{phase}
-\title{phase}
+\title{Subsampling: two-phase design.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Subsampling: two-phase design.
+phase
 }
 \details{
 Question 1666. Subsampling: two-phase design.

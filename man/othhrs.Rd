@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{othhrs}
 \alias{othhrs}
-\title{othhrs}
+\title{Hours r spends at other job\if{html}{\out{<s>}}}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours r spends at other job\if{html}{\out{<s>}}
+othhrs
 }
 \details{
 Question 1344. How many hours per week do you normally work in these other jobs, not including time spent on traveling to work?

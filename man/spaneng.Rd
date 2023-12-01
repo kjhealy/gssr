@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_609.R
 \name{spaneng}
 \alias{spaneng}
-\title{spaneng}
+\title{Interviews conducted in spanish or english}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interviews conducted in spanish or english
+spaneng
 }
 \details{
 Question 1669. Interviews Conducted in Spanish or English

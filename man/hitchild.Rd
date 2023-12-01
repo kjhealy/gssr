@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_75.R
 \name{hitchild}
 \alias{hitchild}
-\title{hitchild}
+\title{Stranger had hit mans child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Stranger had hit mans child
+hitchild
 }
 \details{
 Question 231. If yes or not sure: Would you approve if the stranger: c. Would you approve of a man punching a stranger who had hit the man's child after the child accidentally damaged the stranger's car?

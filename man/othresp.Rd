@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_190.R
 \name{othresp}
 \alias{othresp}
-\title{othresp}
+\title{How resp. person who you were angry at?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How resp. person who you were angry at?
+othresp
 }
 \details{
 Question 582. Think again about the situation that made you angry or annoyed. How responsible was the person/people who you were angry or annoyed at for the situation? Think of a scale where 0 means he/she was/were not at all responsible, while 10 means he/she/they was/were completely responsible.

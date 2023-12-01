@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_145.R
 \name{unvote}
 \alias{unvote}
-\title{unvote}
+\title{Would you vote for or against having a union}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would you vote for or against having a union
+unvote
 }
 \details{
 Question 459. If an election were held with secret ballots, would you vote for or against having a union represent you?

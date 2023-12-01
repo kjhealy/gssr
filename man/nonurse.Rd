@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_178.R
 \name{nonurse}
 \alias{nonurse}
-\title{nonurse}
+\title{Unable to care for a sick child-relative?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unable to care for a sick child-relative?
+nonurse
 }
 \details{
 Question 560. In your (present/most recent) job, (have you ever don/did you ever do) any of the following because of your responsibilities to the job? b. Been unable to care for a sick child or relative?

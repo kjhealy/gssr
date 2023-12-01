@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_487.R
 \name{jobvsfam}
 \alias{jobvsfam}
-\title{jobvsfam}
+\title{Difficult to fulfill fam responsibility bc of job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Difficult to fulfill fam responsibility bc of job
+jobvsfam
 }
 \details{
 Question 1316. How often has each of the following happened to you during the past three months? b. It has been difficult for me to fulfill my family responsibilities because of the amount of time I spent on my job.

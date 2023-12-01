@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_276.R
 \name{download}
 \alias{download}
-\title{download}
+\title{Does r know how to download files from www}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know how to download files from www
+download
 }
 \details{
 Question 791. Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. c. Do you know how to download a file from the World Wide Web to your computer?

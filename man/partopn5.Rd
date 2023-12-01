@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_553.R
 \name{partopn5}
 \alias{partopn5}
-\title{partopn5}
+\title{Number of sex partner's last 5 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of sex partner's last 5 years
+partopn5
 }
 \details{
 Question 1551. Now, think about the past five years--the time since February/March 1986, and including the past 12 months, how many sex partners have you had in that five year period?

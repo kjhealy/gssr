@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_457.R
 \name{mavisit1}
 \alias{mavisit1}
-\title{mavisit1}
+\title{How often does r visit mother}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r visit mother
+mavisit1
 }
 \details{
 Question 1228. And what about your mother? How often do you see or visit her?

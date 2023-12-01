@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_503.R
 \name{useskill}
 \alias{useskill}
-\title{useskill}
+\title{How much past skills can you make use in present}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much past skills can you make use in present
+useskill
 }
 \details{
 Question 1358. How much of your past work experience and/or job skills can you make use of in your present job?

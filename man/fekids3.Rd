@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_180.R
 \name{fekids3}
 \alias{fekids3}
-\title{fekids3}
+\title{How important the way society is set up}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important the way society is set up
+fekids3
 }
 \details{
 Question 566. Women are more likely than ment ot ake care of children. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is: c. The way society is set up, women don't have much choice.

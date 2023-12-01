@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_321.R
 \name{extrayr}
 \alias{extrayr}
-\title{extrayr}
+\title{Year of the most recent perf based payments}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Year of the most recent perf based payments
+extrayr
 }
 \details{
 Question 922. What was the most recent year in which you received these performance-based payments?

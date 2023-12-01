@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_458.R
 \name{bstvisit}
 \alias{bstvisit}
-\title{bstvisit}
+\title{How often does r visit best friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r visit best friend
+bstvisit
 }
 \details{
 Question 1234. How often do you see or visit your friend (the friend you feel closest to)?

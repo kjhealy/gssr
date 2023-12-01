@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_417.R
 \name{ownbiz}
 \alias{ownbiz}
-\title{ownbiz}
+\title{R owns business}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R owns business
+ownbiz
 }
 \details{
 Question Are you, alone or with others, currently the owner of a business you help manage, including self-employment or selling any goods or services to others?

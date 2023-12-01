@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_389.R
 \name{fireftng}
 \alias{fireftng}
-\title{fireftng}
+\title{How scientific is firefighting}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is firefighting
+fireftng
 }
 \details{
 Question Firefighting. (Is firefighting...?)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_493.R
 \name{promotn}
 \alias{promotn}
-\title{promotn}
+\title{Importance of advancement in a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of advancement in a job
+promotn
 }
 \details{
 Question 1326. On the following list there are various aspects of jobs. Please circle one number to show how important you personally consider it is in a job: c. Good opportunities for advancement

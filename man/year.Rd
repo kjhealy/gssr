@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_01.R
 \name{year}
 \alias{year}
-\title{year}
+\title{Gss year for this respondent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gss year for this respondent
+year
 }
 \details{
 Question None

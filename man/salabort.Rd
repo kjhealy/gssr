@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_82.R
 \name{salabort}
 \alias{salabort}
-\title{salabort}
+\title{Salience, abortion laws}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Salience, abortion laws
+salabort
 }
 \details{
 Question 237. How often would you say that you and your friends think about topics we've been discussing during the interview? d. Laws about abortions.

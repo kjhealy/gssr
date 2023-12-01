@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_348.R
 \name{numserv}
 \alias{numserv}
-\title{numserv}
+\title{How many r belongs to service clubs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to service clubs
+numserv
 }
 \details{
 Question 1025b. How many service clubs do you belong to?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_638.R
 \name{fepolv}
 \alias{fepolv}
-\title{fepolv}
+\title{Women not suited for politics (with volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women not suited for politics (with volunteered response on web)
+fepolv
 }
 \details{
 Question None

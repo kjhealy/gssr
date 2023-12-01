@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_385.R
 \name{polbstnk}
 \alias{polbstnk}
-\title{polbstnk}
+\title{Elected officials best for country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Elected officials best for country
+polbstnk
 }
 \details{
 Question (Please look at Card E16. When making policy recommendations about nuclear power, to what extent do you think the following groups would support what is best for the country as a whole or what serves their own narrow interests?) FI INSTRUCTION: IF ASKED WHAT NARROW INTEREST MEANS: Well, someone might gain financially if a certain policy were adopted or it might advance his or her career. Elected officials

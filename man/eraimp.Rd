@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_80.R
 \name{eraimp}
 \alias{eraimp}
-\title{eraimp}
+\title{Importance of era issue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of era issue
+eraimp
 }
 \details{
 Question 255. How important is the Equal Rights Amendment issue to you?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_504.R
 \name{stayorg3}
 \alias{stayorg3}
-\title{stayorg3}
+\title{I would turn down job offering more pay}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I would turn down job offering more pay
+stayorg3
 }
 \details{
 Question 1361. To what extent do you agree or disagree with each of the following statements? d. I would turn down another job that offered quite a bit more pay in order to stay with this organization.

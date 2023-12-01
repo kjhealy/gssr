@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_528.R
 \name{busgrn}
 \alias{busgrn}
-\title{busgrn}
+\title{U.s. business to protect environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-U.s. business to protect environment
+busgrn
 }
 \details{
 Question Which of these approaches do you think would be the best way of getting business and industry in America to protect the environment?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_261.R
 \name{neieth7}
 \alias{neieth7}
-\title{neieth7}
+\title{Preferred ethnic neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Preferred ethnic neighborhood
+neieth7
 }
 \details{
 Question 765. Now I'd like you to imagine a neighborhood that had an ethnic and racial mix you personally would feel most comfortable in. Here is a blank neighborhood card, which depicts some houses that surround your own. Using the letters A for Asian, B for Black, H for Hispanic or Latin American and W for White, please put a letter in each of these houses to represent your preferred neighborhood where you would most like to live. Please be sure to fill in all of the houses.

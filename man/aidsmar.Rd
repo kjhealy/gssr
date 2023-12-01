@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_551.R
 \name{aidsmar}
 \alias{aidsmar}
-\title{aidsmar}
+\title{Have testing for aids before marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have testing for aids before marriage
+aidsmar
 }
 \details{
 Question 1540. Do you support or oppose the following measures to deal with AIDS? a. Conduct mandatory testing for the AIDS virus before marriage

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_141.R
 \name{supduty4}
 \alias{supduty4}
-\title{supduty4}
+\title{You devise new ways of doing tasks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You devise new ways of doing tasks
+supduty4
 }
 \details{
 Question 443. Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities? Please mention all that apply: d. Devise new ways of doing tasks

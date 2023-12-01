@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_607.R
 \name{letdie1y}
 \alias{letdie1y}
-\title{letdie1y}
+\title{Allow incurable patients to die (form 2)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow incurable patients to die (form 2)
+letdie1y
 }
 \details{
 Question When a person has a disease that cannot be cured, do you think doctors should be allowed by law to end the patient's life by some painless means if the patient and the patient's family request it?

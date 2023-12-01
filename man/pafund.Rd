@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_115.R
 \name{pafund}
 \alias{pafund}
-\title{pafund}
+\title{How fundamentalist was r's father}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How fundamentalist was r's father
+pafund
 }
 \details{
 Question 360c. Fundamentalism/liberalism fo father's religion.

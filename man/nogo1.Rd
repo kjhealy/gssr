@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_236.R
 \name{nogo1}
 \alias{nogo1}
-\title{nogo1}
+\title{Performance or exhibit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Performance or exhibit
+nogo1
 }
 \details{
 Question B. Was it a performance or an exhibit?

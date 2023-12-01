@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_236.R
 \name{artwhy6}
 \alias{artwhy6}
-\title{artwhy6}
+\title{Imp of wanting to learn in decision to attend exhibit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of wanting to learn in decision to attend exhibit
+artwhy6
 }
 \details{
 Question People attend exhibits for different reasons. F. How big a reason was wanting to gain knowledge or learn something new in your decision to attend this exhibit? Was it a major reason, a minor reason, or not a reason at all?

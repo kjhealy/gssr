@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_21.R
 \name{vote96}
 \alias{vote96}
-\title{vote96}
+\title{Did r vote in 1996 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r vote in 1996 election
+vote96
 }
 \details{
 Question 64. In 1996, you remember that Clinton ran for president on the Democratic ticket against Dole for the Republicans and Perot for the Reform Party. Do you remember for sure whether or not you voted in that election?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_461.R
 \name{othfrd}
 \alias{othfrd}
-\title{othfrd}
+\title{Number of other close friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of other close friends
+othfrd
 }
 \details{
 Question 1245. How many other close friends do you have - apart from those at work, in your neighbourhood, or family members? Think, for instance, of friends at clubs, church, or the like.

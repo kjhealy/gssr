@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_456.R
 \name{sibnum}
 \alias{sibnum}
-\title{sibnum}
+\title{Number of adult sister or brother}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of adult sister or brother
+sibnum
 }
 \details{
 Question 1218. In the first part of this questionnaire, we would like to ask you about your family and friends. For example, about how often you see or visit them, and when you turn to them for help or advice. We would like to begin with your brothers and sisters. How many adult brothers and/or sisters - we mean brothers or sisters who are age 18 and older - do you have? (We mean brothers and sisters who are still alive. Please include step-brothers and -sisters, half-brothers and sisters and adopted brothers and sisters)

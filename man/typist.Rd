@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_88.R
 \name{typist}
 \alias{typist}
-\title{typist}
+\title{Women as typist in pentagon}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Women as typist in pentagon
+typist
 }
 \details{
 Question 292. I'm going to read you a list of jobs that people might have in the armed forces. Please tell me whether you think a woman should or should not be assigned to each job, assuming she is trained to do it. d. A typist in the Pentagon in Washington

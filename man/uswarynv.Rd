@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_638.R
 \name{uswarynv}
 \alias{uswarynv}
-\title{uswarynv}
+\title{Expect us in world war in next 10 years (no volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Expect us in world war in next 10 years (no volunteered response on web)
+uswarynv
 }
 \details{
 Question None

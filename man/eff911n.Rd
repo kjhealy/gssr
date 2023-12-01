@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_423.R
 \name{eff911n}
 \alias{eff911n}
-\title{eff911n}
+\title{How effective r thinks that is}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How effective r thinks that is
+eff911n
 }
 \details{
 Question How effective do you think {response to EFF911SP} is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)

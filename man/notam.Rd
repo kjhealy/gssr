@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_190.R
 \name{notam}
 \alias{notam}
-\title{notam}
+\title{If not american, how much change}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If not american, how much change
+notam
 }
 \details{
 Question 586. If you were no longer an American, but were a citizen of another country living outside the United States, how much would it change what you do in a typical week?

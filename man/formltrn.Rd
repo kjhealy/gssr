@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_239.R
 \name{formltrn}
 \alias{formltrn}
-\title{formltrn}
+\title{Did it include formal training course}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did it include formal training course
+formltrn
 }
 \details{
 Question 702a. Did it include formal training courses?

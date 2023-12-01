@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_134.R
 \name{genecanx}
 \alias{genecanx}
-\title{genecanx}
+\title{Employer test cancer or safeworkplace}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Employer test cancer or safeworkplace
+genecanx
 }
 \details{
 Question 416a. Suppose workers will be exposed to some cancer-causing materials on the job. In that case, should employers have the right not to hire workers whose tests show they have an inherited tendency to develop certain forms of cancer, or should they be required to clean up the workplace so it is safe for everyone?

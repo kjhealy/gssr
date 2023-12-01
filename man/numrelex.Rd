@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_341.R
 \name{numrelex}
 \alias{numrelex}
-\title{numrelex}
+\title{Number of real experience that changed r's life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of real experience that changed r's life
+numrelex
 }
 \details{
 Question 992. IF Q. 1385 = yes and Q. 685 = no, READ: Thinking of the "turning point in your life when you made a new and personal commitment to religion," how many such experiences have you had? READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR? IF Q. 1385 = no and Q. 685 = yes, READ: Thinking of the "religious or spiritual experience that changed your life," how many such experiences have you had? READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR? IF Q. 1385 = yes and Q. 685 = yes, READ: 992. Thinking of the "turning point in your life when you made a new and personal commitment to religion," and the "religious or spiritual experience that changed your life," how many such experiences have you had? READ IF NEEDED: THAT IS ON HOW MANY DIFFERENT OCCASIONS DID THIS OCCUR?

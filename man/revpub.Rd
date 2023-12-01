@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_435.R
 \name{revpub}
 \alias{revpub}
-\title{revpub}
+\title{Allow revolutionaries to publish books}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow revolutionaries to publish books
+revpub
 }
 \details{
 Question 1160. There are some people whose views are considered extreme by the majority. First, consider people who want to overthrow the government by revolution. Please circle a number after each question to show if you think such people should be allowed to . . . c. Publish books expressing their views.

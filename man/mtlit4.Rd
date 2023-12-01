@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_362.R
 \name{mtlit4}
 \alias{mtlit4}
-\title{mtlit4}
+\title{Military group4 meets in this area}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Military group4 meets in this area
+mtlit4
 }
 \details{
 Question 1027m. Does the literary, art, discussion, or study group meet in this area?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_429.R
 \name{harsexcl}
 \alias{harsexcl}
-\title{harsexcl}
+\title{Since 18 r has ever found self the object of sexual advances from religious lead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Since 18 r has ever found self the object of sexual advances from religious lead
+harsexcl
 }
 \details{
 Question Now think about church, synagogue, or other religious settings. Since you turned 18, have you ever found yourself the object of sexual advances or propositions from a minister, priest, rabbi, or other clergyperson or religious leader who was not your

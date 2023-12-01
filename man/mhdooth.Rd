@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_409.R
 \name{mhdooth}
 \alias{mhdooth}
-\title{mhdooth}
+\title{What x should do: other mentions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: other mentions
+mhdooth
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? t. Other (specify)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_666.R
 \name{wtssps_nea}
 \alias{wtssps_nea}
-\title{wtssps_nea}
+\title{Poststratification weight for analyzing nea follow-on}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Poststratification weight for analyzing nea follow-on
+wtssps_nea
 }
 \details{
 Question None

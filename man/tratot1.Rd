@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_84.R
 \name{tratot1}
 \alias{tratot1}
-\title{tratot1}
+\title{Trauma last year, self & relatives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Trauma last year, self & relatives
+tratot1
 }
 \details{
 Question 278a. Total number of traumatic events happening to respondent and relatives last year.

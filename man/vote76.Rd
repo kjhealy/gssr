@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_20.R
 \name{vote76}
 \alias{vote76}
-\title{vote76}
+\title{Did r vote in 1976 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r vote in 1976 election
+vote76
 }
 \details{
 Question 59. In 1976, you remember that Carter ran for President on the Democratic ticket against Ford for the Republicans. Do you remember for sure whether or not you voted in that election?

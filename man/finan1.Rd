@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_563.R
 \name{finan1}
 \alias{finan1}
-\title{finan1}
+\title{Going bankrupt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Going bankrupt
+finan1
 }
 \details{
 Question C. Did any of the following financial matters happen to you during the last year... 1. Went bankrupt (declared personal bankruptcy).

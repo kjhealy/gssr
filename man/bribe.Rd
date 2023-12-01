@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_450.R
 \name{bribe}
 \alias{bribe}
-\title{bribe}
+\title{Does r see public official asking for a bribe in last five years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r see public official asking for a bribe in last five years
+bribe
 }
 \details{
 Question 1499. In the last five years, how often have you or a member of your immediate family come across a public official who hinted they wanted, or asked for, a bribe or favour in return for a service?

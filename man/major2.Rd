@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_11.R
 \name{major2}
 \alias{major2}
-\title{major2}
+\title{College major 2}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-College major 2
+major2
 }
 \details{
 Question None

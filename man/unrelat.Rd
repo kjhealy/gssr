@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_15.R
 \name{unrelat}
 \alias{unrelat}
-\title{unrelat}
+\title{Number in household not related}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number in household not related
+unrelat
 }
 \details{
 Question 35. Is everyone in the household related to you in some way? a. If no: How many persons in the household are not related to you in any way?

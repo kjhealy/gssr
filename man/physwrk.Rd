@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_500.R
 \name{physwrk}
 \alias{physwrk}
-\title{physwrk}
+\title{How often must r do physical work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often must r do physical work
+physwrk
 }
 \details{
 Question 1336. Now some more questions about your working conditions. Please circle one code for each item below to show how often it applies to your work. How often... b. Do you have to do hard physical work?

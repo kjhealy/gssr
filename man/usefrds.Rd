@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_460.R
 \name{usefrds}
 \alias{usefrds}
-\title{usefrds}
+\title{Ok to have frds just bc they are of use to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ok to have frds just bc they are of use to r
+usefrds
 }
 \details{
 Question 1243. Please select a response to indicate how much you agree or disagree with each of the following statements. d. It is all right to develop friendships with people just because you know they can be of use to you

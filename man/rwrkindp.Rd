@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_500.R
 \name{rwrkindp}
 \alias{rwrkindp}
-\title{rwrkindp}
+\title{R can work independently}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R can work independently
+rwrkindp
 }
 \details{
 Question 1335. For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. f. I can work independently

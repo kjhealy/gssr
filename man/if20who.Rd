@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_642.R
 \name{if20who}
 \alias{if20who}
-\title{if20who}
+\title{Who you would have voted for in 2020}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who you would have voted for in 2020
+if20who
 }
 \details{
 Question Who would you have voted for, for President, if you had voted?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_82.R
 \name{unrel4}
 \alias{unrel4}
-\title{unrel4}
+\title{Relatives unemp between 5 & 1 yrs ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relatives unemp between 5 & 1 yrs ago
+unrel4
 }
 \details{
 Question 271b. Number of relatives unemployed during previous four years.

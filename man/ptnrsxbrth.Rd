@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_635.R
 \name{ptnrsxbrth}
 \alias{ptnrsxbrth}
-\title{ptnrsxbrth}
+\title{Recent partner's sex at birth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Recent partner's sex at birth
+ptnrsxbrth
 }
 \details{
 Question To the best of your knowledge, was your most recent sexual partner's sex recorded as male or female at birth?

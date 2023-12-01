@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_600.R
 \name{welfare1}
 \alias{welfare1}
-\title{welfare1}
+\title{Welfare makes people work less}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Welfare makes people work less
+welfare1
 }
 \details{
 Question 1613. Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. Welfare . . . a. Makes people work less than they would if there wasn't a welfare system.

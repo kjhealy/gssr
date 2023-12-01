@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_554.R
 \name{crack30}
 \alias{crack30}
-\title{crack30}
+\title{R last use crack cocaine}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R last use crack cocaine
+crack30
 }
 \details{
 Question 1561. How long has it been since you last used "crack" cocaine in chunk or rock form?

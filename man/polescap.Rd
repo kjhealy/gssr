@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_75.R
 \name{polescap}
 \alias{polescap}
-\title{polescap}
+\title{Citizen attempting to escape custody}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Citizen attempting to escape custody
+polescap
 }
 \details{
 Question 232. If yes or not sure: Would you approve of a policeman striking a citizen who: c. Was attempting to escape from custody?

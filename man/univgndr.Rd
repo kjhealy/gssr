@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_645.R
 \name{univgndr}
 \alias{univgndr}
-\title{univgndr}
+\title{Man vs woman head of university}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Man vs woman head of university
+univgndr
 }
 \details{
 Question (Please consider the following positions and select the options that come closest to your own opinion.) Head of a university

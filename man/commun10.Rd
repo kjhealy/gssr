@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_599.R
 \name{commun10}
 \alias{commun10}
-\title{commun10}
+\title{Feelings about communism 10 yrs ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feelings about communism 10 yrs ago
+commun10
 }
 \details{
 Question 102. What about ten years ago, that is in 1972, which of these statements came closest to how you felt about Communism as a form of government? 1. It's the worst kind of all. 2. It's bad, but no worse than some others. 3. It's all right for some countries. 4. It's a good form of government.

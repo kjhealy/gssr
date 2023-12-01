@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_86.R
 \name{milqual}
 \alias{milqual}
-\title{milqual}
+\title{Quality of persons in military}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Quality of persons in military
+milqual
 }
 \details{
 Question 289a. How would you rate the quality of the men and women now serving in the armed forces?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_28.R
 \name{equal1}
 \alias{equal1}
-\title{equal1}
+\title{Everyone should look out for self}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Everyone should look out for self
+equal1
 }
 \details{
 Question 71. On these cards are some opinions about the government and the economy. For each one I'd like you to tell me whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. a. In our society everyone must look out for himself. It is of little use to unite with others and fight for one's goals in politics or in unions.

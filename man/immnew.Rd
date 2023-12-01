@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_255.R
 \name{immnew}
 \alias{immnew}
-\title{immnew}
+\title{More immigrants open country new ideas and cult}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-More immigrants open country new ideas and cult
+immnew
 }
 \details{
 Question 750. What do you think will happen as a result of more immigrants coming to this country? Is each of these possible results very likely, somewhat likely, not too likely, or not likely at all? b. Making the country more open to new ideas and cultures

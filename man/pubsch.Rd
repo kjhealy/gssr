@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_123.R
 \name{pubsch}
 \alias{pubsch}
-\title{pubsch}
+\title{All children attend pub elem & hi school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-All children attend pub elem & hi school
+pubsch
 }
 \details{
 Question 394. Do/did all of your children attend public school for all of their elementary and high school education?

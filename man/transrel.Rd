@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_197.R
 \name{transrel}
 \alias{transrel}
-\title{transrel}
+\title{How likely to mention problems to relatives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely to mention problems to relatives
+transrel
 }
 \details{
 Question 622. Imagine that you have a used car in average condition for an automobile of its age and model. To your knowledge the car is in basically sound condition; ther ehas been a history of transmission problems, but the transmission is working well now. Now imagine that one of your relatives sees the car and wants to buy it. How likely would you be to mention the car's history of transmission problems (if this person did not ask)?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_366.R
 \name{newsfrom}
 \alias{newsfrom}
-\title{newsfrom}
+\title{Main source of information about events in the news}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Main source of information about events in the news
+newsfrom
 }
 \details{
 Question 1032. We are interested in how people get information about events in the news. Where do you get most of your information about current news events � newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues, or some other source?

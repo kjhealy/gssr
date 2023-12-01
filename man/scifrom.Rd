@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_366.R
 \name{scifrom}
 \alias{scifrom}
-\title{scifrom}
+\title{Main source of information about science and technology}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Main source of information about science and technology
+scifrom
 }
 \details{
 Question 1033. We are interested in how people get information about science and technology. Where do you get most of your information about science and technology (� newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues, or some other source)?

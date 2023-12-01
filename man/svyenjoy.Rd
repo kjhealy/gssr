@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_652.R
 \name{svyenjoy}
 \alias{svyenjoy}
-\title{svyenjoy}
+\title{Enjoy taking surveys}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Enjoy taking surveys
+svyenjoy
 }
 \details{
 Question Overall, how much do you enjoy participating in surveys? Would you say a great deal, a good bit, some, a little, or not at all?

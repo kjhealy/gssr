@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_39.R
 \name{relig16}
 \alias{relig16}
-\title{relig16}
+\title{Religion in which raised}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion in which raised
+relig16
 }
 \details{
 Question 115. In what religion were you raised?

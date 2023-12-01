@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_537.R
 \name{patriot1}
 \alias{patriot1}
-\title{patriot1}
+\title{Patriotic feelings strengthen america's place in world}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Patriotic feelings strengthen america's place in world
+patriot1
 }
 \details{
 Question How much do you agree of disagree that strong patriotic feelings in America... A. Strengthen America's place in the world.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_117.R
 \name{decchurh}
 \alias{decchurh}
-\title{decchurh}
+\title{Imp of church teachings to make decision}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp of church teachings to make decision
+decchurh
 }
 \details{
 Question 375. Can you tell me how important is each of the following in helping you to make decisions about your life. Please indicate your answer by stating where you would place your feelings on a scale from 1 to 5 as shown on this hand card. c. The teachings of your church or synagogue

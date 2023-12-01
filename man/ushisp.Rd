@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_256.R
 \name{ushisp}
 \alias{ushisp}
-\title{ushisp}
+\title{What percentage of population is hispanic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What percentage of population is hispanic
+ushisp
 }
 \details{
 Question 751. Just your best guess�what percentage of the United States population is each group? d. Hispanics

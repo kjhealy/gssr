@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_373.R
 \name{scresrch}
 \alias{scresrch}
-\title{scresrch}
+\title{Government should fund stem cell research}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Government should fund stem cell research
+scresrch
 }
 \details{
 Question 1063. Recently, there has been controversy over whether the government should provide any funds at all for scientific research that uses "stem cells" taken from human embryos. Would you say the government...

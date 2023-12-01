@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_420.R
 \name{eff911b}
 \alias{eff911b}
-\title{eff911b}
+\title{How effective r thinks stockpiling supplies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How effective r thinks stockpiling supplies
+eff911b
 }
 \details{
 Question How effective do you think stockpiling supplies (food, water, antibiotics, etc.) is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)

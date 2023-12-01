@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_80.R
 \name{febear}
 \alias{febear}
-\title{febear}
+\title{Can wife refuse to have children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Can wife refuse to have children
+febear
 }
 \details{
 Question 258. If the husband in a family wants children, but the wife decides that she does not want any children, is it all right for the wife to refuse to have children?

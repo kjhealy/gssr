@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_484.R
 \name{laundry}
 \alias{laundry}
-\title{laundry}
+\title{Who in household does laundry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who in household does laundry
+laundry
 }
 \details{
 Question 1306. In your household who does the following things: a. Laundry

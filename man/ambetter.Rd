@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_530.R
 \name{ambetter}
 \alias{ambetter}
-\title{ambetter}
+\title{Agree america is a better country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Agree america is a better country
+ambetter
 }
 \details{
 Question 1440. How much do you agree or disagree with the following statements? d. Generally speaking, America is a better country than most other countries

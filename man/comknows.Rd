@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_331.R
 \name{comknows}
 \alias{comknows}
-\title{comknows}
+\title{People in community still know who had mental}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People in community still know who had mental
+comknows
 }
 \details{
 Question 953. That was my last question about (John/Mary). Now, I have some questions about children, but not about (John/Mary). Please tell me whether you Strongly Agree, Agree Somewhat, Disagree Somewhat or Strongly Disagree with the following statements: c. Regardless of laws protecting confidentiality, most people in the community still know which children have had mental health treatment.

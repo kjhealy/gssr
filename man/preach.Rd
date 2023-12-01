@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_124.R
 \name{preach}
 \alias{preach}
-\title{preach}
+\title{How well local church preaches}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well local church preaches
+preach
 }
 \details{
 Question 399. How do you rate how your local church does each of the following? a. Preaching

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_495.R
 \name{rcontact}
 \alias{rcontact}
-\title{rcontact}
+\title{Do you have personal contact at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you have personal contact at work
+rcontact
 }
 \details{
 Question For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. I. In my job, I have personal contact with other people.

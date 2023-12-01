@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_624.R
 \name{libhomoy}
 \alias{libhomoy}
-\title{libhomoy}
+\title{Allow homosexuals book in library y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow homosexuals book in library y
+libhomoy
 }
 \details{
 Question If somebody in your community suggests that a book the gay person wrote in favor of homosexuality should be taken out of your public library, would you favor removing it, or not?

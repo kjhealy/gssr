@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_195.R
 \name{fixerb}
 \alias{fixerb}
-\title{fixerb}
+\title{A friend or relative recommended them}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A friend or relative recommended them
+fixerb
 }
 \details{
 Question 612. Think about the most recent time you've paid for home maintenance service - e.g. a roofer, a painter, a plumber or something like that. What made you choose the person or business that did the work? b. A friend or relative recommended them

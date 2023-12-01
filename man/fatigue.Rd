@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_315.R
 \name{fatigue}
 \alias{fatigue}
-\title{fatigue}
+\title{In the past 7 days, r's average fatigue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In the past 7 days, r's average fatigue
+fatigue
 }
 \details{
 Question In the past seven days, how would you rate your fatigue on average?

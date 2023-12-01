@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_111.R
 \name{loccare}
 \alias{loccare}
-\title{loccare}
+\title{Would local officials listen to problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would local officials listen to problem
+loccare
 }
 \details{
 Question 340. If you had some complaint about a local government activity and took that complaint to a member of the local government council, would you expect him or her to pay a lot of attention to what you say, some attention, very little attention, or none at all?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_269.R
 \name{petition}
 \alias{petition}
-\title{petition}
+\title{Web make r sign petition}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Web make r sign petition
+petition
 }
 \details{
 Question 777. Have you ever taken any of the following actions because of something you learned about or discussed on the Web? a Signed a petition?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_424.R
 \name{findnwjb}
 \alias{findnwjb}
-\title{findnwjb}
+\title{How likely r to find job with same/better benefit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely r to find job with same/better benefit
+findnwjb
 }
 \details{
 Question If you were laid off, how easy do you think it would be for you to find a job with another employer with approximately the same or better retirement and health benefits you now have? Would you say...

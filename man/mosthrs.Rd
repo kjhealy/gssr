@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_303.R
 \name{mosthrs}
 \alias{mosthrs}
-\title{mosthrs}
+\title{Most hrs/week worked in past month}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most hrs/week worked in past month
+mosthrs
 }
 \details{
 Question In the last month, what is the greatest number of hours you worked in a week, at all paid jobs? Please consider all hours, including any extra hours, overtime, work you did at home for your job, and time you spent on work that may not have been directly billable or compensated

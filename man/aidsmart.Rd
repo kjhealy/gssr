@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_438.R
 \name{aidsmart}
 \alias{aidsmart}
-\title{aidsmart}
+\title{Govt money for high achieving students}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt money for high achieving students
+aidsmart
 }
 \details{
 Question 1175. Some people think the government should provide financial assistance to college students. Others think the government should not provide such aid. In each of the circumstances listed below should the government provide grants that would not have to be paid back, provide loans which the student would have to pay back, or should the government not provide any financial assistance? b. For students who have outstanding grades in high school

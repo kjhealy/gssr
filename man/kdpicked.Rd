@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_163.R
 \name{kdpicked}
 \alias{kdpicked}
-\title{kdpicked}
+\title{Number of child randomly chosen}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of child randomly chosen
+kdpicked
 }
 \details{
 Question None

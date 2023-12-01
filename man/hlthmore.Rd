@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_645.R
 \name{hlthmore}
 \alias{hlthmore}
-\title{hlthmore}
+\title{People use health care services more than necessary}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People use health care services more than necessary
+hlthmore
 }
 \details{
 Question How much do you agree or disagree with the following statements? People use health care services more than necessary.

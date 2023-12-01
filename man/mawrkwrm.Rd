@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_476.R
 \name{mawrkwrm}
 \alias{mawrkwrm}
-\title{mawrkwrm}
+\title{Working mom can have a warm rel w kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Working mom can have a warm rel w kids
+mawrkwrm
 }
 \details{
 Question 1275. Do you agree or disagree: a. A working mother can establish just as warm and secure a relationship with her children as a mother who does not work.

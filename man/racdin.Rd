@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_44.R
 \name{racdin}
 \alias{racdin}
-\title{racdin}
+\title{Object to opp. race home for dinner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Object to opp. race home for dinner
+racdin
 }
 \details{
 Question 126. How strongly would you object if a member of your family wanted to bring a (negro/black) friend home to dinner?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_552.R
 \name{othersex}
 \alias{othersex}
-\title{othersex}
+\title{R had sex with some other last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had sex with some other last year
+othersex
 }
 \details{
 Question 1543. If you had other partners, please indicate all categories that apply to them. e. Other (specify)

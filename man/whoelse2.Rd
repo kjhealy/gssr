@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_605.R
 \name{whoelse2}
 \alias{whoelse2}
-\title{whoelse2}
+\title{Presence of others: older children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Presence of others: older children
+whoelse2
 }
 \details{
 Question None

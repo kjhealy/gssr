@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_162.R
 \name{kdalive5}
 \alias{kdalive5}
-\title{kdalive5}
+\title{R 5th child alive?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R 5th child alive?
+kdalive5
 }
 \details{
 Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. e. Is \link{CHILD} live?

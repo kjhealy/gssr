@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_398.R
 \name{acqnhblk}
 \alias{acqnhblk}
-\title{acqnhblk}
+\title{Number of black in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of black in neighborhood
+acqnhblk
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. g. How many are Black or African-American?

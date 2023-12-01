@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_228.R
 \name{lesspain}
 \alias{lesspain}
-\title{lesspain}
+\title{Feel deep sense of resp for reducing pain}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel deep sense of resp for reducing pain
+lesspain
 }
 \details{
 Question Please tell me whether you strongly agree, agree, disagree, or strongly disagree with the following statements: 678. I feel a deep sense of responsibility for reducing pain and suffering in the world.

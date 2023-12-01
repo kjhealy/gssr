@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_99.R
 \name{memgrp4}
 \alias{memgrp4}
-\title{memgrp4}
+\title{Person #4 is member of r's group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Person #4 is member of r's group
+memgrp4
 }
 \details{
 Question 318. Here is a list of some of the ways in which people are connected to each other. Some people can be connected to you in more than one way. For example a man could be your brother and he may belong to your church and be your lawyer. When I read you a name, please tell me all the ways that person is connected to you. PERSON IS GROUP MEMBER

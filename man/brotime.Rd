@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_451.R
 \name{brotime}
 \alias{brotime}
-\title{brotime}
+\title{Travel time to brother}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Travel time to brother
+brotime
 }
 \details{
 Question 1202b. About how long would it take you to get to where your brother lives? Think of the time it usually takes door to door.

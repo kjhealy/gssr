@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_557.R
 \name{rolepa}
 \alias{rolepa}
-\title{rolepa}
+\title{Role of father's with kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Role of father's with kids
+rolepa
 }
 \details{
 Question 1570. Many adults play roles in the lives of children. Please rate the following as very good, good, fairly good, fairly bad, or very bad. b. Fathers

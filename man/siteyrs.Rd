@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_239.R
 \name{siteyrs}
 \alias{siteyrs}
-\title{siteyrs}
+\title{How long have worked for those sites}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long have worked for those sites
+siteyrs
 }
 \details{
 Question 700b. How long have you worked full time for those work sites? How many years?

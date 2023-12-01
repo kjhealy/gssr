@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_284.R
 \name{wwwmino}
 \alias{wwwmino}
-\title{wwwmino}
+\title{Minutes per week using other computer www}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes per week using other computer www
+wwwmino
 }
 \details{
 Question 806. For about how many minutes or hours a week do you use (this other computer/these other computers) for each of the following: e. Using the World Wide Web other than for e-mail?

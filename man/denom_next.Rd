@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_660.R
 \name{denom_next}
 \alias{denom_next}
-\title{denom_next}
+\title{Denomination - follow-on version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Denomination - follow-on version
+denom_next
 }
 \details{
 Question What specific denomination is that, if any?

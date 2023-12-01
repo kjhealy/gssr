@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_316.R
 \name{abinspay}
 \alias{abinspay}
-\title{abinspay}
+\title{Should people be able to use health insurance for abortion - ver y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should people be able to use health insurance for abortion - ver y
+abinspay
 }
 \details{
 Question People use their health insurance to help cover the cost of receiving health care. Do you think people should be able to use their health insurance to help cover the cost of receiving an abortion?

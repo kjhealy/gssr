@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_228.R
 \name{uniongod}
 \alias{uniongod}
-\title{uniongod}
+\title{Desire to be closer to god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Desire to be closer to god
+uniongod
 }
 \details{
 Question 681. The following questions deal with possible daily spiritual experiences. To what extent can you say you experience the following: d. I desire to be closer to or in union with God

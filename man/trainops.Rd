@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_309.R
 \name{trainops}
 \alias{trainops}
-\title{trainops}
+\title{R have the training opportunities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R have the training opportunities
+trainops
 }
 \details{
 Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. o. I have the training opportunities I need to perform my job safely and competently

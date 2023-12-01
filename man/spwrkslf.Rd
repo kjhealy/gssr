@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_05.R
 \name{spwrkslf}
 \alias{spwrkslf}
-\title{spwrkslf}
+\title{Spouse self-emp. or works for somebody}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse self-emp. or works for somebody
+spwrkslf
 }
 \details{
 Question 6e. (Is/was) (he/she) self-employed or (does/did) (he/she) work for someone else?

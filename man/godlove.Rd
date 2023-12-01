@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_229.R
 \name{godlove}
 \alias{godlove}
-\title{godlove}
+\title{Feel gods love directly or thru others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel gods love directly or thru others
+godlove
 }
 \details{
 Question 681. The following questions deal with possible daily spiritual experiences. To what extent can you say you experience the following: e. I feel God's love for me, directly through others

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_652.R
 \name{yrcreat}
 \alias{yrcreat}
-\title{yrcreat}
+\title{Create art in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Create art in past 12 months
+yrcreat
 }
 \details{
 Question (During the last 12 months, did you...) create or perform art of your own? This may have included music, theater, or dance; creative writing; crafts or visual arts; digital art; or film or photography done for artistic purposes.

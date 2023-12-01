@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_647.R
 \name{webdradv}
 \alias{webdradv}
-\title{webdradv}
+\title{Internet is useful to decide if doctors give good advice}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Internet is useful to decide if doctors give good advice
+webdradv
 }
 \details{
 Question (To what extent do you agree or disagree with the following statements?) The internet is useful to check that the doctor is giving people appropriate advice.

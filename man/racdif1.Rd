@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_81.R
 \name{racdif1}
 \alias{racdif1}
-\title{racdif1}
+\title{Differences due to discrimination}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences due to discrimination
+racdif1
 }
 \details{
 Question 266. On the average (negroes/blacks/African-Americans) have worse jobs, income, and housing than white people. Do you think these differences are: a. Mainly due to discrimination?

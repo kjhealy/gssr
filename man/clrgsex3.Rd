@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_431.R
 \name{clrgsex3}
 \alias{clrgsex3}
-\title{clrgsex3}
+\title{R had sexual contact with leader3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had sexual contact with leader3
+clrgsex3
 }
 \details{
 Question None

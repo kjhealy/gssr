@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_480.R
 \name{fourkids}
 \alias{fourkids}
-\title{fourkids}
+\title{Desirability of 4+ kid family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Desirability of 4+ kid family
+fourkids
 }
 \details{
 Question 1282. In general, what do you feel about each of these family sizes? e. A family with four children or more

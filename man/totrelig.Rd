@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_206.R
 \name{totrelig}
 \alias{totrelig}
-\title{totrelig}
+\title{How much money contributed in religious org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much money contributed in religious org
+totrelig
 }
 \details{
 Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? c. Religious organizations

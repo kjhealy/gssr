@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_574.R
 \name{speth1}
 \alias{speth1}
-\title{speth1}
+\title{1st mentioned country of spouse's origin}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-1st mentioned country of spouse's origin
+speth1
 }
 \details{
 Question 1598a. IF MORE THAN ONE COUNTRY NAMED: Which one of these countries does your (wife/husband) feel closer to?

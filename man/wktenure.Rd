@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_503.R
 \name{wktenure}
 \alias{wktenure}
-\title{wktenure}
+\title{Describe your present job situation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Describe your present job situation
+wktenure
 }
 \details{
 Question 1357. Which of the following describes your present job situation?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_279.R
 \name{comphome}
 \alias{comphome}
-\title{comphome}
+\title{Does r have computer at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r have computer at home
+comphome
 }
 \details{
 Question 799a. Do you have one or more computers at your home?

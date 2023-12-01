@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_188.R
 \name{angrlast}
 \alias{angrlast}
-\title{angrlast}
+\title{How long did your anger last?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long did your anger last?
+angrlast
 }
 \details{
 Question 578. Emotions eventually fade away. How long did your anger or irritation last?

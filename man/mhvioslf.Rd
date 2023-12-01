@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_415.R
 \name{mhvioslf}
 \alias{mhvioslf}
-\title{mhvioslf}
+\title{How likely x violent toward him herself}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x violent toward him herself
+mhvioslf
 }
 \details{
 Question 1144b. How likely is it \link{NAME} would do something violent or harmful toward (himself/herself). Is it...

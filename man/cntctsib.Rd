@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_465.R
 \name{cntctsib}
 \alias{cntctsib}
-\title{cntctsib}
+\title{How often r contacts their most-contacted sibling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r contacts their most-contacted sibling
+cntctsib
 }
 \details{
 Question Think about the brother or sister you have contact with most frequently: How often do you have contact with that brother or sister, either face-to-face, by phone, internet or any other communication device?

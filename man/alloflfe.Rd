@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_343.R
 \name{alloflfe}
 \alias{alloflfe}
-\title{alloflfe}
+\title{Experience connection to all of life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Experience connection to all of life
+alloflfe
 }
 \details{
 Question You may experience the following in your daily life, if so how often. 1005. Experience a connection to all of life

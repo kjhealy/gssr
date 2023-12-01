@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_47.R
 \name{racocc}
 \alias{racocc}
-\title{racocc}
+\title{Equality in occupation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Equality in occupation
+racocc
 }
 \details{
 Question 146. Do you feel that a black person who has the same education and qualifications can get as good a job as a white person?

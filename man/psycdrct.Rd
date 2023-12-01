@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_242.R
 \name{psycdrct}
 \alias{psycdrct}
-\title{psycdrct}
+\title{Prefer go directly to a mental health spec}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prefer go directly to a mental health spec
+psycdrct
 }
 \details{
 Question 713. If you were to seek services for a problem with your emotions, nerves, or your mental health, how much would you agree or disagree with the following options? a. I would prefer to go directly to a mental health care specialist, rather than being referred by my primary care physician

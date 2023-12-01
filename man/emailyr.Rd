@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_289.R
 \name{emailyr}
 \alias{emailyr}
-\title{emailyr}
+\title{When r first began using email}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When r first began using email
+emailyr
 }
 \details{
 Question 811a. When did you first begin using email?

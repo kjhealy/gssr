@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_333.R
 \name{solveown}
 \alias{solveown}
-\title{solveown}
+\title{R would solve problem on ones own or get advice}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would solve problem on ones own or get advice
+solveown
 }
 \details{
 Question 962. When you have a problem, do you prefer to solve it on your own or do you like to talk to other people to get advice, help or information?

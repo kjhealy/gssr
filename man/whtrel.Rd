@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_258.R
 \name{whtrel}
 \alias{whtrel}
-\title{whtrel}
+\title{Does r know whites as relative}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know whites as relative
+whtrel
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. c. Do you know any of these Whites as relatives?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_361.R
 \name{mtgreek2}
 \alias{mtgreek2}
-\title{mtgreek2}
+\title{School frarternity2 meets in this area}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-School frarternity2 meets in this area
+mtgreek2
 }
 \details{
 Question 1027j. Does the school fraternity or sorority meet in this area?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_211.R
 \name{upsdowns}
 \alias{upsdowns}
-\title{upsdowns}
+\title{How likely x is experiencing normal ups-and-downs of life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x is experiencing normal ups-and-downs of life
+upsdowns
 }
 \details{
 Question 651. In your opinion, how likely is it that NAME is experiencing (READ a-e) -- very likely, somewhat likely, not very likely, or not at all likely? (In Part e, read only the phrase following the letter of the Vignette) a. Part of the normal ups and downs of life

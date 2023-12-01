@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_598.R
 \name{spsei10educ}
 \alias{spsei10educ}
-\title{spsei10educ}
+\title{Percentage of some college educ in spocc10 based on acs 2010}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Percentage of some college educ in spocc10 based on acs 2010
+spsei10educ
 }
 \details{
 Question None

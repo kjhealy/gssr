@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_91.R
 \name{milwrkev}
 \alias{milwrkev}
-\title{milwrkev}
+\title{Ever work for military or dod?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever work for military or dod?
+milwrkev
 }
 \details{
 Question 306. Have you ever had a civilian job with the armed forces or the Defense Department?

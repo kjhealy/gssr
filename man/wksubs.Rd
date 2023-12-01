@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_64.R
 \name{wksubs}
 \alias{wksubs}
-\title{wksubs}
+\title{Does supervisor have supervisor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does supervisor have supervisor
+wksubs
 }
 \details{
 Question 191a. If yes: Does that person have a superviosr on the job to whom he is directly responsible?

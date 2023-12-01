@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_498.R
 \name{wantjob}
 \alias{wantjob}
-\title{wantjob}
+\title{Would r like a job now}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r like a job now
+wantjob
 }
 \details{
 Question 1330. Would you like to have a paid job now?

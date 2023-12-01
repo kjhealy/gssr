@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_129.R
 \name{patrjews}
 \alias{patrjews}
-\title{patrjews}
+\title{Unpatriotic - patriotic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unpatriotic - patriotic
+patrjews
 }
 \details{
 Question 403f. Do people in these groups tend to be patriotic or do they tend to be unpatriotic? 2. Jews

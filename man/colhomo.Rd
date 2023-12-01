@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_32.R
 \name{colhomo}
 \alias{colhomo}
-\title{colhomo}
+\title{Allow homosexual to teach}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow homosexual to teach
+colhomo
 }
 \details{
 Question 81. And what about a man who admits that he is a homosexual? b. Should such a person be allowed to teach in a college, or university, or not?

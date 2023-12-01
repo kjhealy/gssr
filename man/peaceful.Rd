@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_295.R
 \name{peaceful}
 \alias{peaceful}
-\title{peaceful}
+\title{Felt peaceful in past 4 wks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Felt peaceful in past 4 wks
+peaceful
 }
 \details{
 Question These questions are about how you feel and how things have been with you during the past 4 weeks. For each question, please give the one answer that comes closest to the way you have been feeling. 838. How much of the time during the past 4 weeks have you felt calm and peaceful?

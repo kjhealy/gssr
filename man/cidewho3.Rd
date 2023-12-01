@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_547.R
 \name{cidewho3}
 \alias{cidewho3}
-\title{cidewho3}
+\title{R's relationship to 3rd closest murderee}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's relationship to 3rd closest murderee
+cidewho3
 }
 \details{
 Question 1523. Think about the person you knew next best who was a victim of homicide. Please tell me the letter of the category on the card which best describes your relationship to that person.

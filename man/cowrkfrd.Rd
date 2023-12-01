@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_457.R
 \name{cowrkfrd}
 \alias{cowrkfrd}
-\title{cowrkfrd}
+\title{Number of close friends at work place}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of close friends at work place
+cowrkfrd
 }
 \details{
 Question 1231. Now we would like to ask you about people you know, other than your family and relatives. The first question is about people at your work place. Thinking about people at your work place, how many of them are close friends of yours?

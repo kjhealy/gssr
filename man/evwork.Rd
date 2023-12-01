@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_01.R
 \name{evwork}
 \alias{evwork}
-\title{evwork}
+\title{Ever work as long as one year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever work as long as one year
+evwork
 }
 \details{
 Question 1c. If retired, in school, keeping house, or other: Did you ever work for as long as one year?

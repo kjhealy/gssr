@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_108.R
 \name{solprof}
 \alias{solprof}
-\title{solprof}
+\title{Prof society tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prof society tries to solve problems
+solprof
 }
 \details{
 Question 329. Do the professional or academic societies to which you belong do anything to try to solve individual or community problems?

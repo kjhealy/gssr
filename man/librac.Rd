@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_31.R
 \name{librac}
 \alias{librac}
-\title{librac}
+\title{Allow racists book in library}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow racists book in library
+librac
 }
 \details{
 Question 78. Or consider a person who believes that Blacks are genetically inferior. c. If some people in your community suggested that a book he wrote which said Blacks are inferior should be taken out of your public library, would you favor removing this book, or not?

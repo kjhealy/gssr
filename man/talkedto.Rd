@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_459.R
 \name{talkedto}
 \alias{talkedto}
-\title{talkedto}
+\title{Talked with someone depressed past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Talked with someone depressed past 12 months
+talkedto
 }
 \details{
 Question 1240. During the past 12 months, how often have you done any of the following things for people you know personally, such as relatives, friends, neighbors or other acquaintances? c. Spent time talking with someone who was a bit down or depressed

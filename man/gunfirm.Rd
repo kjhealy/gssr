@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_33.R
 \name{gunfirm}
 \alias{gunfirm}
-\title{gunfirm}
+\title{How firm is r's opinion on gun control}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How firm is r's opinion on gun control
+gunfirm
 }
 \details{
 Question 89. How firm are you about your opinion on gun control?

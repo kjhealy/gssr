@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_32.R
 \name{capimp}
 \alias{capimp}
-\title{capimp}
+\title{Importance of death penalty issue to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of death penalty issue to r
+capimp
 }
 \details{
 Question 83. How important is the death penalty issue to you?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_199.R
 \name{famfinan}
 \alias{famfinan}
-\title{famfinan}
+\title{How you and your spouse organize your finances}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How you and your spouse organize your finances
+famfinan
 }
 \details{
 Question 637. Now I'd like to ask you about how you and your (husband/wife) organize your finances. Which of the following comes closest to describing the system that you and your (husband/wife) use: 1. Wife manages all the money, except for husband's personal spending money 2. Husband manages all the money except for wife's personal spending money 3. Wife has a housekeeping allowance and husband manages the rest of the money 4. All the money is pooed and each partner takes out what he or she needs 5. Some of the money is pooled, but each partner has some separate money as well. 6. Husband and wife keep finances completely separate

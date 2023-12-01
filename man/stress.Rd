@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_500.R
 \name{stress}
 \alias{stress}
-\title{stress}
+\title{How often does r find work stressful}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often does r find work stressful
+stress
 }
 \details{
 Question 1336. Now some more questions about your working conditions. Please circle one code for each item below to show how often it applies to your work. How often... c. Do you find your work stressful?

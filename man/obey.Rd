@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_57.R
 \name{obey}
 \alias{obey}
-\title{obey}
+\title{To obey}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-To obey
+obey
 }
 \details{
 Question 170. If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life? a. Which comes next in importantc? b. Which comes third? c. Which comes fourth? TO OBEY

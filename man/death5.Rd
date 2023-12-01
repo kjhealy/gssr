@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_83.R
 \name{death5}
 \alias{death5}
-\title{death5}
+\title{Relatives died in last 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relatives died in last 5 yrs
+death5
 }
 \details{
 Question 274a. Death of relatives during the last five years.

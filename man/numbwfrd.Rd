@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_122.R
 \name{numbwfrd}
 \alias{numbwfrd}
-\title{numbwfrd}
+\title{Good friends who are white-black}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Good friends who are white-black
+numbwfrd
 }
 \details{
 Question 387. How many of your good friends are white/black?

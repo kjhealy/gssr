@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_515.R
 \name{cardo}
 \alias{cardo}
-\title{cardo}
+\title{What would you do in this situation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What would you do in this situation
+cardo
 }
 \details{
 Question 1405. Suppose you were riding in a car driven by a close friend. You know he is going too fast. He hits a pedestrian. He asks you to tell the police that he was obeying the speed limit. b. What would you do in this situation? 1. Definitely tell the police that your friend was going faster than the speed limit. 2. Probably tell the police that your friend was going faster than the speed limit. 3. Probably tell the police that your friend was not going faster than the speed limit. 4. Definitely tell the police that your friend was not going faster than the speed limit

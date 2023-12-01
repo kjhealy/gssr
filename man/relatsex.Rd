@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_553.R
 \name{relatsex}
 \alias{relatsex}
-\title{relatsex}
+\title{Relation to last sex partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relation to last sex partner
+relatsex
 }
 \details{
 Question 1557. The last time you had sex, was it with someone you were in an on-going relationship with, or was it with someone else? Remember that by "sex" we mean only vaginal, oral, or anal sex.

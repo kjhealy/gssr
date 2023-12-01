@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_381.R
 \name{intfarm}
 \alias{intfarm}
-\title{intfarm}
+\title{Interested in farm issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested in farm issues
+intfarm
 }
 \details{
 Question Agricultural and farm issues. (Are you very interested, moderately interested, or not at all interested?)

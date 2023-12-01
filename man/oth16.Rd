@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_40.R
 \name{oth16}
 \alias{oth16}
-\title{oth16}
+\title{Other protestant denominations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other protestant denominations
+oth16
 }
 \details{
 Question None

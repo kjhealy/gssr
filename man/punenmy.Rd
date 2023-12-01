@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_570.R
 \name{punenmy}
 \alias{punenmy}
-\title{punenmy}
+\title{Punishment selling info to foreign enemies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment selling info to foreign enemies
+punenmy
 }
 \details{
 Question 1451. I'm going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee. c. Stealing and selling copies of secret codes and other classified intelligence materials to an agent of a hostile foreign government.

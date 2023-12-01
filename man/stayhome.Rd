@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_650.R
 \name{stayhome}
 \alias{stayhome}
-\title{stayhome}
+\title{Govt should make people stay at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should make people stay at home
+stayhome
 }
 \details{
 Question (Do you think the United States government should or should not have the right to do the following at times of severe epidemics?) Demand that people stay at home.

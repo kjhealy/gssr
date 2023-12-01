@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_534.R
 \name{socid2}
 \alias{socid2}
-\title{socid2}
+\title{Second most important to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Second most important to r
+socid2
 }
 \details{
 Question 1457. We are all part of different groups. Some are more important to us than others when we think of ourselves. In general, which in the following list is most important to you in describing who you are? and the second most important? and the third most important?

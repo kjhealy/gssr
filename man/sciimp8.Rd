@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_376.R
 \name{sciimp8}
 \alias{sciimp8}
-\title{sciimp8}
+\title{How important: research takes place in a laboratory}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: research takes place in a laboratory
+sciimp8
 }
 \details{
 Question 1072. Now I'm going to read you some statements about science and scientists. Please look at Card B19. How important are each of the following in making something scientific? h. The research takes place in a laboratory.

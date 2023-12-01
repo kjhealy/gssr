@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_62.R
 \name{joboff}
 \alias{joboff}
-\title{joboff}
+\title{Leaves time for leisure}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Leaves time for leisure
+joboff
 }
 \details{
 Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? AN OCCUPATION THAT LEAVES ONE A LOT OF LEISURE TIME

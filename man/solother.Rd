@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_108.R
 \name{solother}
 \alias{solother}
-\title{solother}
+\title{Any other group tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Any other group tries to solve problems
+solother
 }
 \details{
 Question 329. Do any other groups to which you belong do anything to try to solve individual or community problems?

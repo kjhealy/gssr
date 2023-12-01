@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_460.R
 \name{firstyou}
 \alias{firstyou}
-\title{firstyou}
+\title{Should take care of oneself and ones family first}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should take care of oneself and ones family first
+firstyou
 }
 \details{
 Question 1243. Please select a response to indicate how much you agree or disagree with each of the following statements. b. You should take care of yourself and your family first, before helping other people

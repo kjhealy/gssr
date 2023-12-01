@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_476.R
 \name{famrnk}
 \alias{famrnk}
-\title{famrnk}
+\title{Rank in society of r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rank in society of r
+famrnk
 }
 \details{
 Question 1272. Now we would like to know where you and other people fit in. Please look at the diagram you think best describes America today, the one you chose first: a. Where would you say you and your family actually are - at the top, somewhere in the middle, or at the bottom?

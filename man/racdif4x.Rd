@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_661.R
 \name{racdif4x}
 \alias{racdif4x}
-\title{racdif4x}
+\title{Differences due to lack of will}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences due to lack of will
+racdif4x
 }
 \details{
 Question None

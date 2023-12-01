@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_367.R
 \name{whichsci}
 \alias{whichsci}
-\title{whichsci}
+\title{Industry scientists less reliable than univer'sity scientists}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Industry scientists less reliable than univer'sity scientists
+whichsci
 }
 \details{
 Question 1035. I'm going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. f. Research results from industry scientists are less reliable than those from university scientists.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_383.R
 \name{h2olife}
 \alias{h2olife}
-\title{h2olife}
+\title{What property of water is most important}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What property of water is most important
+h2olife
 }
 \details{
 Question Now, we are going to do some more detailed questions on science and technology. Scientists and educators are interested in how familiar adults are with the things being taught in today�s schools. Many of these questions are likely to concern things {response to h20txt} What property of water is most important for living organisms? {response to acceptDK} {response to probeDK}

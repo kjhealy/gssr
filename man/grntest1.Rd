@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_521.R
 \name{grntest1}
 \alias{grntest1}
-\title{grntest1}
+\title{All will die if exposed to radioact}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-All will die if exposed to radioact
+grntest1
 }
 \details{
 Question 1416. And for each of these statements, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? a. If someone is exposed to any amount of radioactivity, they are certain to die as a result.

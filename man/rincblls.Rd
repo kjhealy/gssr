@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_309.R
 \name{rincblls}
 \alias{rincblls}
-\title{rincblls}
+\title{Income alone is enough}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Income alone is enough
+rincblls
 }
 \details{
 Question 896. Do you feel that the income from your job alone is enough to meet your family's usual monthly expenses and bills?

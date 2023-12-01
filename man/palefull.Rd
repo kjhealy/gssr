@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_37.R
 \name{palefull}
 \alias{palefull}
-\title{palefull}
+\title{Afterlife contrast: shadows or full}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Afterlife contrast: shadows or full
+palefull
 }
 \details{
 Question 109. People picture life after death in many different ways. We'd like to know how you think of life after death. Here is a card with sets of contrasting images. On a scale of 1-7, where would you place your image of life after death. d. 1. A pale, shadowy form of life, hardly life at all. 2. A life of compelte fulfillment, spiritual and physical.

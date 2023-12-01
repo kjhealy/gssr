@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_664.R
 \name{rntrltd18}
 \alias{rntrltd18}
-\title{rntrltd18}
+\title{R is not related to another adult in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is not related to another adult in hh
+rntrltd18
 }
 \details{
 Question None

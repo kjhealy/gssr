@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_115.R
 \name{join16}
 \alias{join16}
-\title{join16}
+\title{Was r ever confirmed as member of church}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was r ever confirmed as member of church
+join16
 }
 \details{
 Question 364. Did you ever joing a church (synagogue) when you were growing up, that is, become a member by confirmation or such?

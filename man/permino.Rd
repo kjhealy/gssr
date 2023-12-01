@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_283.R
 \name{permino}
 \alias{permino}
-\title{permino}
+\title{Minutes per week using other computer personal}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes per week using other computer personal
+permino
 }
 \details{
 Question 806. For about how many minutes or hours a week do you use (this other computer/these other computers) for each of the following: b. Personal interests, games, or enjoyment?

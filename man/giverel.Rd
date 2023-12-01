@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_122.R
 \name{giverel}
 \alias{giverel}
-\title{giverel}
+\title{Given money other religious org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Given money other religious org
+giverel
 }
 \details{
 Question 390. During the last year, approximately how much money did you and the other family members in your household contribute to each of the following: b. To other religious organizations, programs, or causes

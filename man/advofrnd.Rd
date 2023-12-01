@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_275.R
 \name{advofrnd}
 \alias{advofrnd}
-\title{advofrnd}
+\title{R can ask acquaintance software help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R can ask acquaintance software help
+advofrnd
 }
 \details{
 Question 790. Do the people you can ask for advice include? (Name as many as are correct): k. Other friend or acquaintance

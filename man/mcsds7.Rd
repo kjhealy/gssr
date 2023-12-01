@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{mcsds7}
 \alias{mcsds7}
-\title{mcsds7}
+\title{There have been occasions when i took advantage of someone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-There have been occasions when i took advantage of someone
+mcsds7
 }
 \details{
 Question Next are a number of statements concerning personal attitudes and traits. Please tell me whether the statement is true or false as it pertains to you personally G. There have been occasions when I took advantage of someone.

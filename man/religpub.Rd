@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_510.R
 \name{religpub}
 \alias{religpub}
-\title{religpub}
+\title{Better if more believers held public office}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Better if more believers held public office
+religpub
 }
 \details{
 Question 1379. How much do you agree or disagree with each of the following... c. It would be better for America if more people with strong religious beliefs held public office.

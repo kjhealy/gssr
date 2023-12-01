@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_07.R
 \name{pawrkslf}
 \alias{pawrkslf}
-\title{pawrkslf}
+\title{Father self-emp. or worked for somebody}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father self-emp. or worked for somebody
+pawrkslf
 }
 \details{
 Question 8e. Was he self-employed or did he work for someone else?

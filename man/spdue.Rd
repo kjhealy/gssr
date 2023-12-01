@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_70.R
 \name{spdue}
 \alias{spdue}
-\title{spdue}
+\title{Ever entitled to alimony or chld support}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever entitled to alimony or chld support
+spdue
 }
 \details{
 Question 216. Are you currently or have you ever been entitled to alimony or child support payments from a former (husband/wife)?

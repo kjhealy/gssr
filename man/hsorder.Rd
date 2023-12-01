@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_438.R
 \name{hsorder}
 \alias{hsorder}
-\title{hsorder}
+\title{School subjects: discipline and order}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-School subjects: discipline and order
+hsorder
 }
 \details{
 Question 1173. Here are some things that might be taught in school. How important is it that schools teach each of these to 15-year-olds? i. Discipline and orderliness

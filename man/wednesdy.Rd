@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_579.R
 \name{wednesdy}
 \alias{wednesdy}
-\title{wednesdy}
+\title{Attended religious services last wednesday}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attended religious services last wednesday
+wednesdy
 }
 \details{
 Question 1615. On what day or days do you attend religious services during the last seven days? (PROBE, ASK UNTIL "NO" IS GIVEN: "Did you attend religious services on any other days during the last seven days?") WEDNESDAY

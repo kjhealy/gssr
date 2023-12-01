@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_284.R
 \name{emmino}
 \alias{emmino}
-\title{emmino}
+\title{Minutes per week using other computer email}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes per week using other computer email
+emmino
 }
 \details{
 Question 806. For about how many minutes or hours a week do you use (this other computer/these other computers) for each of the following: d. Sending or receiving e-mail?

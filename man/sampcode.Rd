@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_608.R
 \name{sampcode}
 \alias{sampcode}
-\title{sampcode}
+\title{Sampling error code}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sampling error code
+sampcode
 }
 \details{
 Question None

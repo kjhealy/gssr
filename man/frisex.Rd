@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_454.R
 \name{frisex}
 \alias{frisex}
-\title{frisex}
+\title{Sex of closest friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of closest friend
+frisex
 }
 \details{
 Question 1208c. Now thinking of your best friend, or the friend you feel closest to: Is this friend a man or a woman?

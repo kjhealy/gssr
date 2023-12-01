@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_324.R
 \name{volmonth}
 \alias{volmonth}
-\title{volmonth}
+\title{Volunteer in last month}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Volunteer in last month
+volmonth
 }
 \details{
 Question In the past month, did you do any volunteer activity through organizations, that is donate your time and energy not for pay?

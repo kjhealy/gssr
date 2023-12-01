@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_189.R
 \name{chnang8}
 \alias{chnang8}
-\title{chnang8}
+\title{Fantasized about a magical solution}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fantasized about a magical solution
+chnang8
 }
 \details{
 Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? h. Fantasized about a magical solution to the problem

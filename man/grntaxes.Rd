@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_520.R
 \name{grntaxes}
 \alias{grntaxes}
-\title{grntaxes}
+\title{Pay higher taxes to help envir?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pay higher taxes to help envir?
+grntaxes
 }
 \details{
 Question 1413b. And how willing would you be to pay much higher taxes in order to protect the environment?

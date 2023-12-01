@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_20.R
 \name{pres80}
 \alias{pres80}
-\title{pres80}
+\title{Vote for carter, reagan or anderson}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote for carter, reagan or anderson
+pres80
 }
 \details{
 Question 60a. If voted: Did you vote for Carter, Reagan, or Anderson?

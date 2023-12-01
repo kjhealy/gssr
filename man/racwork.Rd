@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_133.R
 \name{racwork}
 \alias{racwork}
-\title{racwork}
+\title{Racial makeup of workplace}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Racial makeup of workplace
+racwork
 }
 \details{
 Question 412. Are the people who work where you work all white, mostly white, about half and half, mostly black, or all black?

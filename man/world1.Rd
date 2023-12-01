@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_42.R
 \name{world1}
 \alias{world1}
-\title{world1}
+\title{World image:much evil vs. much good}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-World image:much evil vs. much good
+world1
 }
 \details{
 Question 121. People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world and human nature between the two contrasting images? a. 1. The world is basically filled with evil and sin. 7. There is much goodness in the world which hints at God's goodness.

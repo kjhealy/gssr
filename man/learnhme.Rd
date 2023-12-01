@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_193.R
 \name{learnhme}
 \alias{learnhme}
-\title{learnhme}
+\title{How learned the availability of the home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How learned the availability of the home
+learnhme
 }
 \details{
 Question 599. How did you learn about the availability of the home you purchased?

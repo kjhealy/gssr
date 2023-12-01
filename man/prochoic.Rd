@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_633.R
 \name{prochoic}
 \alias{prochoic}
-\title{prochoic}
+\title{I consider myself pro-choice.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I consider myself pro-choice.
+prochoic
 }
 \details{
 Question I consider myself pro-choice.

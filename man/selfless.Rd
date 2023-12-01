@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_324.R
 \name{selfless}
 \alias{selfless}
-\title{selfless}
+\title{R feels like a selfless caring for others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R feels like a selfless caring for others
+selfless
 }
 \details{
 Question 928. The following are things that you may experience in your daily life. Please tell me how often these occur. a. I feel a selfless caring for others

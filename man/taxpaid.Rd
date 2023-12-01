@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_447.R
 \name{taxpaid}
 \alias{taxpaid}
-\title{taxpaid}
+\title{Do authorities ensure taxes are paid}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do authorities ensure taxes are paid
+taxpaid
 }
 \details{
 Question In general, how often do you think that the tax authorities in America do the following A. Make sure people pay their taxes? Would you say?

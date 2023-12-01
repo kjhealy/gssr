@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_267.R
 \name{polinf12}
 \alias{polinf12}
-\title{polinf12}
+\title{R use web for political information in past 12}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use web for political information in past 12
+polinf12
 }
 \details{
 Question 774. In the past 12 months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/02 have you used the Web to do each of these things: m. Go to a web site to find information about political or social policy issues, current affairs, or political campaigns?

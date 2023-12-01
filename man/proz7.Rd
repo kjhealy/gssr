@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_247.R
 \name{proz7}
 \alias{proz7}
-\title{proz7}
+\title{Prozac makes people feel better about themselves}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Prozac makes people feel better about themselves
+proz7
 }
 \details{
 Question 725. How much do you agree or disagree with the following statements? g. Taking Prozac makes people feel better about themselves.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_256.R
 \name{ethchng}
 \alias{ethchng}
-\title{ethchng}
+\title{Ethnic change in 25 yrs good for country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ethnic change in 25 yrs good for country
+ethchng
 }
 \details{
 Question 754. When you think about these changes in the racial and ethnic make-up of the country in the next 25 years, do you think they will be a very good thing for the country, a good thing, neither good nor bad, a bad thing, or a very bad thing?

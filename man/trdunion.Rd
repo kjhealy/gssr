@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_307.R
 \name{trdunion}
 \alias{trdunion}
-\title{trdunion}
+\title{Workers need strong unions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Workers need strong unions
+trdunion
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. r. Workers need strong trade unions to protect their interests

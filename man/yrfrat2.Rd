@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_349.R
 \name{yrfrat2}
 \alias{yrfrat2}
-\title{yrfrat2}
+\title{How many yrs r been a member of fraternal groups2}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many yrs r been a member of fraternal groups2
+yrfrat2
 }
 \details{
 Question 1026a. How many years have you been a member of \link{FRATERNAL GROUP}?

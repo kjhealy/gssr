@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_544.R
 \name{big5a2}
 \alias{big5a2}
-\title{big5a2}
+\title{R see oneself as someone who is sociable}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R see oneself as someone who is sociable
+big5a2
 }
 \details{
 Question 1515. To what extent do you agree or disagree with the following statements? I see myself as someone who... a. Is outgoing, sociable

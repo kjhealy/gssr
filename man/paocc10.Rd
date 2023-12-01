@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_07.R
 \name{paocc10}
 \alias{paocc10}
-\title{paocc10}
+\title{Father's census occupation code (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's census occupation code (2010)
+paocc10
 }
 \details{
 Question None

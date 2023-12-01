@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_468.R
 \name{inequal7}
 \alias{inequal7}
-\title{inequal7}
+\title{Inequality due to lack of solidarity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Inequality due to lack of solidarity
+inequal7
 }
 \details{
 Question 1253. Do you agree or disagree: g. Inequality continues to exist because ordinary people don't join together to get rid of it.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_649.R
 \name{shutbus}
 \alias{shutbus}
-\title{shutbus}
+\title{Govt should shut down business during pandemic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should shut down business during pandemic
+shutbus
 }
 \details{
 Question Do you think the United States government should or should not have the right to do the following at times of severe epidemics? Shut down businesses and places of employment.

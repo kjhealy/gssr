@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_487.R
 \name{timework}
 \alias{timework}
-\title{timework}
+\title{Run out of time before getting things done at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Run out of time before getting things done at work
+timework
 }
 \details{
 Question 1315. To what extent do you agree or disagree? c. There are so many things to do at work, I often run out of time before I get them all done.

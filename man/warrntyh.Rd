@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_194.R
 \name{warrntyh}
 \alias{warrntyh}
-\title{warrntyh}
+\title{Did the seller provide any warranty}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did the seller provide any warranty
+warrntyh
 }
 \details{
 Question 605. Did the seller guarantee to pay for some or all unexpected repairs needed for some period after the sale (i.e., did the seller provide a formal or informal warranty)?

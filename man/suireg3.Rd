@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_551.R
 \name{suireg3}
 \alias{suireg3}
-\title{suireg3}
+\title{Region of suicide victim 3rd closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Region of suicide victim 3rd closest to r
+suireg3
 }
 \details{
 Question 1538. We would like to know a few other things about that person. d. What state did this person live in?

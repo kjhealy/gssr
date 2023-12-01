@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_67.R
 \name{fegive}
 \alias{fegive}
-\title{fegive}
+\title{Has r given money to women's rights orgs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r given money to women's rights orgs
+fegive
 }
 \details{
 Question 205. Have you ever: b. Given money to an organization concerned with this issue?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_518.R
 \name{postmat1}
 \alias{postmat1}
-\title{postmat1}
+\title{Highest priority for america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Highest priority for america
+postmat1
 }
 \details{
 Question 1048a. Looking at the list below, please check a box next to the one thing you think should be America's highest priority, the most important thing it should do. America should...

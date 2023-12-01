@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_503.R
 \name{techwork}
 \alias{techwork}
-\title{techwork}
+\title{New techs make work more interesting}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-New techs make work more interesting
+techwork
 }
 \details{
 Question 1352. Do you think that the introduction of new technologies in the United States over the next few years will make work...

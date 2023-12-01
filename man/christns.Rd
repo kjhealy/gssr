@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_518.R
 \name{christns}
 \alias{christns}
-\title{christns}
+\title{What is your personal attitude towards members of the following religious group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is your personal attitude towards members of the following religious group
+christns
 }
 \details{
 Question What is your personal attitude towards members of the following religious groups? A. Christians?

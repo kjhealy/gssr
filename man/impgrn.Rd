@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_524.R
 \name{impgrn}
 \alias{impgrn}
-\title{impgrn}
+\title{More important in life than save environment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-More important in life than save environment
+impgrn
 }
 \details{
 Question 1429. How much do you agree or disagree with each of these statements? a. There are more important things to do in life than protect the environment.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_28.R
 \name{equal2}
 \alias{equal2}
-\title{equal2}
+\title{Business profits benefit all}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Business profits benefit all
+equal2
 }
 \details{
 Question 71. On these cards are some opinions about the government and the economy. For each one I'd like you to tell me whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. b. The economy can run only if businessmen make good profits. That benefits everyone in the end.

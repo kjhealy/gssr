@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_522.R
 \name{grntest5}
 \alias{grntest5}
-\title{grntest5}
+\title{All pesticides cause cancer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-All pesticides cause cancer
+grntest5
 }
 \details{
 Question 1416. And for each of these statements, just check the box that comes closest to your opinion of how true it is. In your opinion, how true is this? e. All pesticides and chemicals used on food crops cause cancer in humans.

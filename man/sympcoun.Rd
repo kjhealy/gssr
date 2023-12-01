@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_125.R
 \name{sympcoun}
 \alias{sympcoun}
-\title{sympcoun}
+\title{How well local church counsels sympathetically}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well local church counsels sympathetically
+sympcoun
 }
 \details{
 Question 399. How do you rate how your local church does each of the following? c. Sympathetic counseling

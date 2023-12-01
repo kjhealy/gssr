@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_488.R
 \name{kidfinbu}
 \alias{kidfinbu}
-\title{kidfinbu}
+\title{Children are financial burden on parents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children are financial burden on parents
+kidfinbu
 }
 \details{
 Question (To what extent do you agree or disagree with the following statements?) Children are a financial burden on their parents.

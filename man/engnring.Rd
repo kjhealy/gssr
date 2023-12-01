@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_390.R
 \name{engnring}
 \alias{engnring}
-\title{engnring}
+\title{How scientific is engineering}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is engineering
+engnring
 }
 \details{
 Question Engineering. (Is engineering...?)

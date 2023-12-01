@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_555.R
 \name{sexnow}
 \alias{sexnow}
-\title{sexnow}
+\title{What is your current gender?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is your current gender?
+sexnow
 }
 \details{
 Question B. What is your current gender?

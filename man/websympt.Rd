@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_647.R
 \name{websympt}
 \alias{websympt}
-\title{websympt}
+\title{Internet is useful to decide if symptoms are serious}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Internet is useful to decide if symptoms are serious
+websympt
 }
 \details{
 Question To what extent do you agree or disagree with the following statements? The internet is useful to help people decide if their symptoms are serious enough to go to the doctor.

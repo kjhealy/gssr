@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_576.R
 \name{uscitzn}
 \alias{uscitzn}
-\title{uscitzn}
+\title{Is r us citizen}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r us citizen
+uscitzn
 }
 \details{
 Question Now we would like to ask you about U.S. citizenship. Are you... IF RESPONDENT SAYS S/HE IS "NATURALIZED," CODE "A U.S. CITIZEN."

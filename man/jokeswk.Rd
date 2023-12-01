@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_337.R
 \name{jokeswk}
 \alias{jokeswk}
-\title{jokeswk}
+\title{Target of derogatory comments or jokes at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Target of derogatory comments or jokes at work
+jokeswk
 }
 \details{
 Question I have been the target of derogatory comments or jokes at work. Often, sometimes, rarely, never.

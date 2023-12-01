@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_30.R
 \name{colsoc}
 \alias{colsoc}
-\title{colsoc}
+\title{Allow socialist to teach}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow socialist to teach
+colsoc
 }
 \details{
 Question 77. Or consider a person who favored government ownership of all the railroads and all big industries: b. Should such a person be allowed to teach in a college or university, or not?

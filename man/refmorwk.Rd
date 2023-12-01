@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_178.R
 \name{refmorwk}
 \alias{refmorwk}
-\title{refmorwk}
+\title{Take on additional paid work?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Take on additional paid work?
+refmorwk
 }
 \details{
 Question 559. In your (present/most recent) job, (have you ever done/did you ever do) any of the following because of your responsibilities to members of your family? b. Take on additional paid work

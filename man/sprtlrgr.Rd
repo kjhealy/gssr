@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_633.R
 \name{sprtlrgr}
 \alias{sprtlrgr}
-\title{sprtlrgr}
+\title{How often r felt part of something larger than themselves}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r felt part of something larger than themselves
+sprtlrgr
 }
 \details{
 Question How often R felt part of something larger than themselves

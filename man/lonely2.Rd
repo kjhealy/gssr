@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_464.R
 \name{lonely2}
 \alias{lonely2}
-\title{lonely2}
+\title{How often in the past 4 weeks r has felt isolated from others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often in the past 4 weeks r has felt isolated from others
+lonely2
 }
 \details{
 Question How often in the past 4 weeks have you felt that? B. You are isolated from others?

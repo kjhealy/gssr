@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_634.R
 \name{dclindus}
 \alias{dclindus}
-\title{dclindus}
+\title{Govt should support declining industries to protect jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should support declining industries to protect jobs
+dclindus
 }
 \details{
 Question The government should support declining industries to protect jobs, even if it might require a tax increase to pay for it

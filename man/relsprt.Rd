@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_517.R
 \name{relsprt}
 \alias{relsprt}
-\title{relsprt}
+\title{Is r spiritual person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r spiritual person
+relsprt
 }
 \details{
 Question None

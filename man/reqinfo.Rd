@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_198.R
 \name{reqinfo}
 \alias{reqinfo}
-\title{reqinfo}
+\title{Resp. of gov. to require biz. to provide info}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Resp. of gov. to require biz. to provide info
+reqinfo
 }
 \details{
 Question 630. How much do you agree or disagree with the following statements? b. It is the responsibility of government to require businesses to provide consumers with the information they need to make informed choices.

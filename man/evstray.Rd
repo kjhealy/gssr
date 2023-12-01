@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_553.R
 \name{evstray}
 \alias{evstray}
-\title{evstray}
+\title{Have sex other than spouse while married}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have sex other than spouse while married
+evstray
 }
 \details{
 Question 1555. Have you ever had sex with someone other than your husband or wife while you were married?

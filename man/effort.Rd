@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_229.R
 \name{effort}
 \alias{effort}
-\title{effort}
+\title{In past 30 days feel everything thing effort}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In past 30 days feel everything thing effort
+effort
 }
 \details{
 Question 682. In the past 30 days, about how often did you feel: e. That everything was an effort

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_123.R
 \name{kid5up}
 \alias{kid5up}
-\title{kid5up}
+\title{Have children older than 5}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have children older than 5
+kid5up
 }
 \details{
 Question 393. Do you have any children older than 5?

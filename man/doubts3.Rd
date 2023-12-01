@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_118.R
 \name{doubts3}
 \alias{doubts3}
-\title{doubts3}
+\title{Has science-faith conflict caused doubt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has science-faith conflict caused doubt
+doubts3
 }
 \details{
 Question 378. How often have these problems caused doubts about your religious faith? c. Conflict of faith and science

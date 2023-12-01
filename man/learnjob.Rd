@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_460.R
 \name{learnjob}
 \alias{learnjob}
-\title{learnjob}
+\title{How did r find out about present work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How did r find out about present work
+learnjob
 }
 \details{
 Question 1241. There are many ways people hear about jobs - from other people, from advertisements or employment agencies, and so on. Please indicate how you first found out about work at your present employer. IF YOU ARE NOT CURRENTLY WORKING FOR PAY, PLEASE ANSWER THIS QUESTION FOR YOUR LAST JOB.

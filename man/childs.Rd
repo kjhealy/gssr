@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_09.R
 \name{childs}
 \alias{childs}
-\title{childs}
+\title{Number of children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of children
+childs
 }
 \details{
 Question 12. How many children have you ever had? Please count all that were born alive at any time (including any you had from a previous marriage).

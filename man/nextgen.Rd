@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_367.R
 \name{nextgen}
 \alias{nextgen}
-\title{nextgen}
+\title{Science & tech. give more opportunities to next generation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Science & tech. give more opportunities to next generation
+nextgen
 }
 \details{
 Question 1035. I'm going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. a. Because of science and technology, there will be more opportunities for the next generation.

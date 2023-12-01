@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_397.R
 \name{acqnhmrk}
 \alias{acqnhmrk}
-\title{acqnhmrk}
+\title{Number of mark in neighborhood}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of mark in neighborhood
+acqnhmrk
 }
 \details{
 Question 1105. Next, we are going to ask questions about people that you are acquainted with through your neighborhood. a. How many of the people you are acquainted with through your neighborhood are named Mark?

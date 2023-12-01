@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_251.R
 \name{fairasns}
 \alias{fairasns}
-\title{fairasns}
+\title{Asians committed to fair and equal treatment o}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Asians committed to fair and equal treatment o
+fairasns
 }
 \details{
 Question 737. In the next statement a score of 1 means that you think almost all of the people in the group have a "commitment to the fair and equal treatment of all groups in society." A score of 7 means that you think almost everyone in the group "lacks a commitment to the fair and equal treatment of all groups in society." A score of 4 means that you think that the group is not towards one end or the other, and of course you may choose any number in between that comes closest to where you think people in the group stand. e. Asian Americans

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_42.R
 \name{bibley}
 \alias{bibley}
-\title{bibley}
+\title{Feelings about the bible:version z}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feelings about the bible:version z
+bibley
 }
 \details{
 Question 120b. Here are four statements about the Bible, and I'd like you to tell me which is the closest to your own view: 1. The Bible is God's word and all it says is true. 2. The Bible was written by men inspired by God, but it contains some human errors. 3. The Bible is a good book because it was written by wise men, but God had nothing to do with it. 4. The Bible was written by men who lived so long ago that it is worth very little today.

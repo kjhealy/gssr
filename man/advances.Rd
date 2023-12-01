@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_139.R
 \name{advances}
 \alias{advances}
-\title{advances}
+\title{Have you advanced, same level or lost}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have you advanced, same level or lost
+advances
 }
 \details{
 Question 436. Since your first full-time job with this organization, have you advanced rapidly, made steady advances, stayed at about the same level or lost some ground?

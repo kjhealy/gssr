@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_474.R
 \name{rewrdeff}
 \alias{rewrdeff}
-\title{rewrdeff}
+\title{Effort rewarded in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Effort rewarded in america
+rewrdeff
 }
 \details{
 Question 1264. Do you agree or disagree: a. In America people get rewarded for their effort

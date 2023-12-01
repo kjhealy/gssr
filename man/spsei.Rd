@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_597.R
 \name{spsei}
 \alias{spsei}
-\title{spsei}
+\title{R's spouse's socioeconomic index (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's spouse's socioeconomic index (1980)
+spsei
 }
 \details{
 Question 1650. Socioeconomic index of respondent's spouse.

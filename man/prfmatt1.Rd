@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_233.R
 \name{prfmatt1}
 \alias{prfmatt1}
-\title{prfmatt1}
+\title{Attended with spouse or partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attended with spouse or partner
+prfmatt1
 }
 \details{
 Question Did any of the following go with you? A. Spouse or partner

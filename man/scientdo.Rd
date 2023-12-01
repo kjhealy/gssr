@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_386.R
 \name{scientdo}
 \alias{scientdo}
-\title{scientdo}
+\title{Know what scientists do}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Know what scientists do
+scientdo
 }
 \details{
 Question Next, I'd like to ask how you rate your knowledge of what scientists do day-to-day in their jobs. Would you say your knowledge of what scientists do day-to-day on their jobs is: Excellent, Good, Fair, Poor, Very Poor?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_199.R
 \name{haggle}
 \alias{haggle}
-\title{haggle}
+\title{Do you expect to negotiate for a lower price?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you expect to negotiate for a lower price?
+haggle
 }
 \details{
 Question 632. When you go to such a sale, and when prices are posted, do you expect to pay the posted price, or do you expect to negotiaate for a lower price?

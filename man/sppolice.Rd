@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_441.R
 \name{sppolice}
 \alias{sppolice}
-\title{sppolice}
+\title{Govt spending on law enforcement}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt spending on law enforcement
+sppolice
 }
 \details{
 Question 1180. Listed below are various areas of government spending. Please indicate whether you would like to see more or less government spending in each area. Remember that if you say "much more," it might require a tax increase to pay for it. c. The police and law enforcement

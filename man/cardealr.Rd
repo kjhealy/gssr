@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_191.R
 \name{cardealr}
 \alias{cardealr}
-\title{cardealr}
+\title{Purchased a car from a dealership past 5 yrs?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Purchased a car from a dealership past 5 yrs?
+cardealr
 }
 \details{
 Question 591. Have you purchased a car from a dealership in the past five years?

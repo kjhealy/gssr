@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_411.R
 \name{mhdecslf}
 \alias{mhdecslf}
-\title{mhdecslf}
+\title{How able is x to decide whether to receive treatment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How able is x to decide whether to receive treatment
+mhdecslf
 }
 \details{
 Question 1138. How able is \link{NAME} to decide whether or not (he/she) should receive treatment. Would you say...

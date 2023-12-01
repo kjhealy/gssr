@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_635.R
 \name{hivimmrl}
 \alias{hivimmrl}
-\title{hivimmrl}
+\title{People with hiv have participated in immoral activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People with hiv have participated in immoral activities
+hivimmrl
 }
 \details{
 Question (Please indicate how much you agree or disagree with each of the following comments.) People who have HIV have participated in immoral activities.

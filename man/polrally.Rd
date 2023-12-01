@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_111.R
 \name{polrally}
 \alias{polrally}
-\title{polrally}
+\title{Has r attended political rallies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r attended political rallies
+polrally
 }
 \details{
 Question 344. In the past three or four years, have you attended any political meetings or rallies?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_559.R
 \name{infadstv}
 \alias{infadstv}
-\title{infadstv}
+\title{Influence of tv ads}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence of tv ads
+infadstv
 }
 \details{
 Question 1572. Children are exposed to many influences in their daily lives. What kind of influence does each of the following have on children: Very positive, positive, neutral, negative, very negative? d. Commercials on network television

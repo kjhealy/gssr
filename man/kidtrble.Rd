@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_480.R
 \name{kidtrble}
 \alias{kidtrble}
-\title{kidtrble}
+\title{Kids more trouble than they are worth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kids more trouble than they are worth
+kidtrble
 }
 \details{
 Question 1282. Do you agree or disagree ... a. Children are more trouble than they are worth.

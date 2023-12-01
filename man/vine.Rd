@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_287.R
 \name{vine}
 \alias{vine}
-\title{vine}
+\title{Use vine}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use vine
+vine
 }
 \details{
 Question Which of the following social networking or social media sites are you a member or regular user of? Vine

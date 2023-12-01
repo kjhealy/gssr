@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_528.R
 \name{redcehme}
 \alias{redcehme}
-\title{redcehme}
+\title{How often reduce fuel}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often reduce fuel
+redcehme
 }
 \details{
 Question How often do you reduce the energy or fuel you use at home for environmental reasons?

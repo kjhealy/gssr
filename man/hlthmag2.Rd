@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_276.R
 \name{hlthmag2}
 \alias{hlthmag2}
-\title{hlthmag2}
+\title{R sought health information health magazines}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sought health information health magazines
+hlthmag2
 }
 \details{
 Question 793. If YES, please tell me if you tried to find such health information from: c. Special health or medical magazine or newsletter

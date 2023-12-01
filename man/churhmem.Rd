@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_116.R
 \name{churhmem}
 \alias{churhmem}
-\title{churhmem}
+\title{Is r a member of church or synagogue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is r a member of church or synagogue
+churhmem
 }
 \details{
 Question 366. Are you, yourself, a member of a church or synagogue?

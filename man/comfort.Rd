@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_517.R
 \name{comfort}
 \alias{comfort}
-\title{comfort}
+\title{Religion helps people to gain comfort in times of trouble and sorrow}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion helps people to gain comfort in times of trouble and sorrow
+comfort
 }
 \details{
 Question None

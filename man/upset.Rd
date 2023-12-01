@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_464.R
 \name{upset}
 \alias{upset}
-\title{upset}
+\title{How often r's friends or family were angry with r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r's friends or family were angry with r
+upset
 }
 \details{
 Question Thinking about the important people in your life, such as your spouse or partner, your family members, or close friends, how often in the past 4 weeks did any of these people act angry or upset with you?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_560.R
 \name{prob2}
 \alias{prob2}
-\title{prob2}
+\title{Second problem mentioned}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Second problem mentioned
+prob2
 }
 \details{
 Question 1574. What are the most important problems that you and members of your household have had during the last 12 months?

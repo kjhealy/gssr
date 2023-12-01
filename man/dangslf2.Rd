@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_225.R
 \name{dangslf2}
 \alias{dangslf2}
-\title{dangslf2}
+\title{How dangerous r thinks person 2 is to themself}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How dangerous r thinks person 2 is to themself
+dangslf2
 }
 \details{
 Question On a scale from 1 to 10, with 1 being not at all and 10 being very, in your opinion, how dangerous is NAME 2?

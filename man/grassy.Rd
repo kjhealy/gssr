@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_34.R
 \name{grassy}
 \alias{grassy}
-\title{grassy}
+\title{Should marijuana be legal-version y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should marijuana be legal-version y
+grassy
 }
 \details{
 Question 96. Some people think the use of marijuana should be made legal. Other people think marijuana use should not be made legal. Which do you favor?

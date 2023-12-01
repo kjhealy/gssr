@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_174.R
 \name{blkgovt}
 \alias{blkgovt}
-\title{blkgovt}
+\title{Do blacks get proper govt attention}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do blacks get proper govt attention
+blkgovt
 }
 \details{
 Question 539b. Do you think that blacks in this country get much more attention from government than they deserve, more attention than they deserve, about the right amount of attention, less attention than they deserve, or much less attention from government than they deserve?

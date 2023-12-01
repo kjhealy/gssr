@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_494.R
 \name{wkpersnl}
 \alias{wkpersnl}
-\title{wkpersnl}
+\title{Importance of personal contact at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of personal contact at work
+wkpersnl
 }
 \details{
 Question On the following list there are various aspects of jobs. Please circle one number to show how important you personally consider it is in a job: K. A job that involves personal contact with other people?

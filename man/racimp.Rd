@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_47.R
 \name{racimp}
 \alias{racimp}
-\title{racimp}
+\title{Importance of race relations issues to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of race relations issues to r
+racimp
 }
 \details{
 Question 149a. How important is the race relations issue to you?

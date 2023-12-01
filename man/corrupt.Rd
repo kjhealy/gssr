@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_474.R
 \name{corrupt}
 \alias{corrupt}
-\title{corrupt}
+\title{Must be corrupt to get to top in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Must be corrupt to get to top in america
+corrupt
 }
 \details{
 Question 1264. Do you agree or disagree: c. To get all the way to the top in American today, you have to be corrupt.

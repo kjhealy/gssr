@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_543.R
 \name{gvtrghts}
 \alias{gvtrghts}
-\title{gvtrghts}
+\title{Govt should respect democratic rights}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should respect democratic rights
+gvtrghts
 }
 \details{
 Question On a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it: A. That governments respect democratic rights whatever the circumstances

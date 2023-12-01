@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_196.R
 \name{wholoand}
 \alias{wholoand}
-\title{wholoand}
+\title{From whom did you borrow this money?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-From whom did you borrow this money?
+wholoand
 }
 \details{
 Question 616. Think of the most recent loan of this type. From whom did you borrow this money?

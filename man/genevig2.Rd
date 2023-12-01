@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_338.R
 \name{genevig2}
 \alias{genevig2}
-\title{genevig2}
+\title{Vignette order used}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vignette order used
+genevig2
 }
 \details{
 Question 977. Vignette order given to respondent.

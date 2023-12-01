@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_132.R
 \name{blkzone}
 \alias{blkzone}
-\title{blkzone}
+\title{Tax breaks for black areas}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Tax breaks for black areas
+blkzone
 }
 \details{
 Question 408. Here are several things that the government in Washington might do to deal with the problems of poverty and unemployment among Black Americans. I would like you to tell me if you favor or oppose them. a. Giving business and industry special tax breaks for locating in largely black areas.

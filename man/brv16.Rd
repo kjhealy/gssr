@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_656.R
 \name{brv16}
 \alias{brv16}
-\title{brv16}
+\title{Death of someone clsoe before age 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Death of someone clsoe before age 16
+brv16
 }
 \details{
 Question Before the time you were 16, did you experience the death of someone close to you?

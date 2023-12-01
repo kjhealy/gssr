@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_599.R
 \name{commun}
 \alias{commun}
-\title{commun}
+\title{Feelings about communism}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feelings about communism
+commun
 }
 \details{
 Question 101. Thinking about all the different kinds of governments in the world today, which of these statements comes closes to how you feel about Communism as a form of government? 1. It's the worst kind of all. 2. It's bad, but no worse than some others. 3. It's all right for some countries. 4. It's a good form of government.

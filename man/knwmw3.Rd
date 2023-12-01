@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_220.R
 \name{knwmw3}
 \alias{knwmw3}
-\title{knwmw3}
+\title{Gender identity of person 3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gender identity of person 3
+knwmw3
 }
 \details{
 Question Is NAME 3 a man or a woman?

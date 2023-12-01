@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_259.R
 \name{blkwrk}
 \alias{blkwrk}
-\title{blkwrk}
+\title{Does r know blacks from work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know blacks from work
+blkwrk
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. d. Do you know any of these blacks from the place where you work?

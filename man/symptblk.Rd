@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_172.R
 \name{symptblk}
 \alias{symptblk}
-\title{symptblk}
+\title{R feel sympathy towards blacks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R feel sympathy towards blacks
+symptblk
 }
 \details{
 Question 522. Now, I would like to ask whether you have ever felt the following ways about blacks and their families. For each of the feelings that I ask you about, please tell em whether you have felt that way very often, fairly often, not too often, or never? a. How often have you felt sympathy for blacks?

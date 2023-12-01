@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_124.R
 \name{privsch}
 \alias{privsch}
-\title{privsch}
+\title{Children attend private secular school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children attend private secular school
+privsch
 }
 \details{
 Question 394a. If no to Q.394: Which types of school do/did your children attend? 5. Private non-religious school

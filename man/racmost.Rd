@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_46.R
 \name{racmost}
 \alias{racmost}
-\title{racmost}
+\title{Children to school mostly opposite race}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children to school mostly opposite race
+racmost
 }
 \details{
 Question 133c. Where more than half of the children are \link{whites/(negroes/blacks/African-Americans)}?

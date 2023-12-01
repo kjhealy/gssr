@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_77.R
 \name{radiohrs}
 \alias{radiohrs}
-\title{radiohrs}
+\title{Hours per day listening to radio}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Hours per day listening to radio
+radiohrs
 }
 \details{
 Question 243. Do you ever listen to the radio? a. If yes: on the average, about how many hours a day do you usually listen to the radio?

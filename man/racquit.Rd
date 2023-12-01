@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_81.R
 \name{racquit}
 \alias{racquit}
-\title{racquit}
+\title{Quit if couldn't integrate club}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Quit if couldn't integrate club
+racquit
 }
 \details{
 Question 265a. If yes: If you could not get the rules changed, do you think you would resign from teh club, even if your friends didn't?

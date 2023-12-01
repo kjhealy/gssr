@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_516.R
 \name{relext2}
 \alias{relext2}
-\title{relext2}
+\title{People should be allowed to publish books expressing their views}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People should be allowed to publish books expressing their views
+relext2
 }
 \details{
 Question None

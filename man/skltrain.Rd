@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_508.R
 \name{skltrain}
 \alias{skltrain}
-\title{skltrain}
+\title{R had job skill training in thepast 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had job skill training in thepast 12 months
+skltrain
 }
 \details{
 Question None

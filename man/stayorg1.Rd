@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_143.R
 \name{stayorg1}
 \alias{stayorg1}
-\title{stayorg1}
+\title{Would take any job to keep working for this org.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would take any job to keep working for this org.
+stayorg1
 }
 \details{
 Question 453. Please tell me how much you agree or disagree with the following statements: d. I would take almost any job to keep working for this organization.

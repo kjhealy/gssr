@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_35.R
 \name{paattend}
 \alias{paattend}
-\title{paattend}
+\title{How often pa attended religious services}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often pa attended religious services
+paattend
 }
 \details{
 Question 106b. When you were growing up, how often did your \link{father/FATHER SUBSTITUTE} attend religious services?

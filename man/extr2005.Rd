@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_390.R
 \name{extr2005}
 \alias{extr2005}
-\title{extr2005}
+\title{Received performance based payment in 2005}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Received performance based payment in 2005
+extr2005
 }
 \details{
 Question 1086. Did you receive any of these performance-based payments in the year 2005?

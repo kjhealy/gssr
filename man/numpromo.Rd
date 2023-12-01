@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_138.R
 \name{numpromo}
 \alias{numpromo}
-\title{numpromo}
+\title{#Promotions have you received}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-#Promotions have you received
+numpromo
 }
 \details{
 Question 431a. How many promotions have you received?

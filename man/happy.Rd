@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_49.R
 \name{happy}
 \alias{happy}
-\title{happy}
+\title{General happiness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-General happiness
+happy
 }
 \details{
 Question 157. Taken all together, how would you say things are these days - would you say that you are very happy, pretty happy, or not too happy?

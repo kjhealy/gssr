@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_306.R
 \name{proudemp}
 \alias{proudemp}
-\title{proudemp}
+\title{R proud to work for employer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R proud to work for employer
+proudemp
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. o. I am proud to be working for my employer.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_320.R
 \name{workfor1}
 \alias{workfor1}
-\title{workfor1}
+\title{R work for whom}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R work for whom
+workfor1
 }
 \details{
 Question Do you work for a for-profit company, a non-profit or not-for-profit organization, or for the government or a government agency?

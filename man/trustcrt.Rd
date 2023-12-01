@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_250.R
 \name{trustcrt}
 \alias{trustcrt}
-\title{trustcrt}
+\title{Would trust the courts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would trust the courts
+trustcrt
 }
 \details{
 Question 733. People sometimes are incapable of making decisions about their care and medical treatment at the end of life. If you were incapable, how much trust would you put in the following people to do what was best for you? c. I would trust the courts

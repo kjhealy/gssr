@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_477.R
 \name{wrknokid}
 \alias{wrknokid}
-\title{wrknokid}
+\title{Shld mom work aftr marriage, before kids?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Shld mom work aftr marriage, before kids?
+wrknokid
 }
 \details{
 Question 1276. Do you think that women should work outside the home full-time, part-time or not at all under these circumstances: a. After marrying and before there are children?

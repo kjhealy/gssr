@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_180.R
 \name{feless2}
 \alias{feless2}
-\title{feless2}
+\title{How important women's family responsibilities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important women's family responsibilities
+feless2
 }
 \details{
 Question 565. On average, women who are employed full time earn less than men. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is. b. Women's family responsibilities keep them from putting as much time and effort into their jobs as men do.

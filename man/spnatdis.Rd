@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_406.R
 \name{spnatdis}
 \alias{spnatdis}
-\title{spnatdis}
+\title{Should govt spend more or less on natural disasters}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt spend more or less on natural disasters
+spnatdis
 }
 \details{
 Question 1120. Would you like to see more or less government spending on natural disasters. Remember that if you say "much more", it might require a tax increase to pay for it. Would you say...

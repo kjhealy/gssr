@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_12.R
 \name{speftotlt}
 \alias{speftotlt}
-\title{speftotlt}
+\title{Total number of students enrolled in college spouse attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total number of students enrolled in college spouse attended
+speftotlt
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_575.R
 \name{racethhi}
 \alias{racethhi}
-\title{racethhi}
+\title{Points assigned to hispanic/latino}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Points assigned to hispanic/latino
+racethhi
 }
 \details{
 Question How would you describe your race and ethnicity using this 10-point system using the following choices: B. Hispanic or Latino

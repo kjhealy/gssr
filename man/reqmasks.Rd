@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_650.R
 \name{reqmasks}
 \alias{reqmasks}
-\title{reqmasks}
+\title{Govt should require masks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should require masks
+reqmasks
 }
 \details{
 Question (Do you think the United States government should or should not have the right to do the following at times of severe epidemics?) Require people to wear face masks.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_601.R
 \name{zodiac}
 \alias{zodiac}
-\title{zodiac}
+\title{Respondents astrological sign}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondents astrological sign
+zodiac
 }
 \details{
 Question 654. ASTROLOGICAL SIGN OF RESPONDENT

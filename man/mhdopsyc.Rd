@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_408.R
 \name{mhdopsyc}
 \alias{mhdopsyc}
-\title{mhdopsyc}
+\title{What x should do: go to psychiatrist}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: go to psychiatrist
+mhdopsyc
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? e. Go to a psychiatrist

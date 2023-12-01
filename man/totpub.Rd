@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_206.R
 \name{totpub}
 \alias{totpub}
-\title{totpub}
+\title{How much money contributed in pub-soc benefit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much money contributed in pub-soc benefit
+totpub
 }
 \details{
 Question 644. Approximately how much money or the cash equivalent of property have you contributed in each of the fields listed above in the past twelve months? f. Public/society benefit

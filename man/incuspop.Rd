@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_610.R
 \name{incuspop}
 \alias{incuspop}
-\title{incuspop}
+\title{Estimated income status of housing unit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Estimated income status of housing unit
+incuspop
 }
 \details{
 Question What do you believe the income status of this housing unit is, relative to the rest of the general United States population?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_306.R
 \name{overwork}
 \alias{overwork}
-\title{overwork}
+\title{R has too much work to do well}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has too much work to do well
+overwork
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. f. I have too much work to do everything well

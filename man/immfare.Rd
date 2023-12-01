@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_173.R
 \name{immfare}
 \alias{immfare}
-\title{immfare}
+\title{Immigrants eligible for govt assistance?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immigrants eligible for govt assistance?
+immfare
 }
 \details{
 Question 530. Under current law, immigrants who come from other countries to the United States legally are entitled, from the very beginning, to government assistance such as Medicaid, food stamps, or welfare on the same basis as citizens. But some people say they should not be eligible until they have lived here for a year or more. Which do you think? Do you think that immigrants who are here legally should be eligible for such services as soon as they come, or should they not be eligible?

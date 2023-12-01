@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_389.R
 \name{marrcoun}
 \alias{marrcoun}
-\title{marrcoun}
+\title{How scientific is marriage counseling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is marriage counseling
+marrcoun
 }
 \details{
 Question Marriage counseling. (Is marriage counseling...?)

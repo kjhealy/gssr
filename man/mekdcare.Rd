@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_485.R
 \name{mekdcare}
 \alias{mekdcare}
-\title{mekdcare}
+\title{Men ought to do more childcare than they do now}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Men ought to do more childcare than they do now
+mekdcare
 }
 \details{
 Question 1308. To what extent do you agree or disagree: b. Men ought to do a larger share of childcare than they do now.

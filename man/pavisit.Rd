@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_450.R
 \name{pavisit}
 \alias{pavisit}
-\title{pavisit}
+\title{How often visit father}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often visit father
+pavisit
 }
 \details{
 Question 1200a. How often do you see or visit your father?

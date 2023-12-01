@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_44.R
 \name{fepriest}
 \alias{fepriest}
-\title{fepriest}
+\title{R favors women as priests}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R favors women as priests
+fepriest
 }
 \details{
 Question 123a. If Catholic respondent: As I read this statement, will you tell me whether you agree strongly, agree somewhat, disagree somewhat, or disagree strongly? It would be a good thing if women were allowed to be ordained as priests.

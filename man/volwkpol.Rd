@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_514.R
 \name{volwkpol}
 \alias{volwkpol}
-\title{volwkpol}
+\title{Volunteered political activities past 12 month}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Volunteered political activities past 12 month
+volwkpol
 }
 \details{
 Question 1403. Have you done any voluntary activity in the past 12 months in any of the following areas? Voluntary activity is unpaid work, not just belonging to an organization or group. It should be of service or benefit to other people or the community and not only to one's family or personal friends. During the last 12 months did you do volunteer work in any of the following areas: a. Political activities (helping political parties, political movements, election campaigns, etc.)

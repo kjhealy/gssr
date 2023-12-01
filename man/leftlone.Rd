@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_294.R
 \name{leftlone}
 \alias{leftlone}
-\title{leftlone}
+\title{Being left alone important for freedom}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Being left alone important for freedom
+leftlone
 }
 \details{
 Question 828. I'm going to read you several statements about freedom. Each one may say something true and important about freedom, but I'd like to know how important each statement is to you. Is it one of the most important things about freedom, extremely important, very important, somewhat important, or not too important? a. Freedom is being left alone to do what I want.

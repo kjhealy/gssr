@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_304.R
 \name{wrktype}
 \alias{wrktype}
-\title{wrktype}
+\title{Work arrangement at main job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Work arrangement at main job
+wrktype
 }
 \details{
 Question 872. How would you describe your work arrangement in your main job?

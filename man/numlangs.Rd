@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_466.R
 \name{numlangs}
 \alias{numlangs}
-\title{numlangs}
+\title{How many languages does r speak well enough to hold a conversation in?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many languages does r speak well enough to hold a conversation in?
+numlangs
 }
 \details{
 Question How many languages do you speak well enough to hold a conversation in, including the language(s) you speak at home?

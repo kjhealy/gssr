@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_74.R
 \name{hitnum}
 \alias{hitnum}
-\title{hitnum}
+\title{If beaten--how many times}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If beaten--how many times
+hitnum
 }
 \details{
 Question 229b. How many times would you guess this has happened to you?

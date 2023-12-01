@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_401.R
 \name{acqvano}
 \alias{acqvano}
-\title{acqvano}
+\title{Number of non church attendee in voluntary association}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of non church attendee in voluntary association
+acqvano
 }
 \details{
 Question 1107. Next, we are going to ask about people that you are acquainted with through schools, clubs, associations, or places of worship. l. How many are you pretty certain attend religious services rarely or never?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_44.R
 \name{relgrade}
 \alias{relgrade}
-\title{relgrade}
+\title{Grade given religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Grade given religion
+relgrade
 }
 \details{
 Question 124. Using the school grading system of A,B,C,D, and F for fail, how do you rate your church or religious group in meeting your spiritual needs?

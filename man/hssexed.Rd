@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_437.R
 \name{hssexed}
 \alias{hssexed}
-\title{hssexed}
+\title{School subjects: sex education}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-School subjects: sex education
+hssexed
 }
 \details{
 Question 1173. Here are some things that might be taught in school. How important is it that schools teach each of these to 15-year-olds? b. Sex education

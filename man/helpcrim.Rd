@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_448.R
 \name{helpcrim}
 \alias{helpcrim}
-\title{helpcrim}
+\title{How successful is govt: controlling crime}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How successful is govt: controlling crime
+helpcrim
 }
 \details{
 Question 1491. How successful do you think the government in America is nowadays in each of the following areas? d. Controlling crime

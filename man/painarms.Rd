@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_311.R
 \name{painarms}
 \alias{painarms}
-\title{painarms}
+\title{R had pain in the arms in the past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had pain in the arms in the past 12 months
+painarms
 }
 \details{
 Question 911. In the past 12 months, have you had pain in the hands, wrists, arms, or shoulders every day for a week or more?

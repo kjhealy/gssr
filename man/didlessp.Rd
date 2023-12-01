@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_295.R
 \name{didlessp}
 \alias{didlessp}
-\title{didlessp}
+\title{Health prevent doing desired activities past 4}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Health prevent doing desired activities past 4
+didlessp
 }
 \details{
 Question During the past 4 weeks, have you had any of the following problems with your work or other regular daily activities as a result of your physical health? 833. Accomplished less than you would like?

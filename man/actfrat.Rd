@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_108.R
 \name{actfrat}
 \alias{actfrat}
-\title{actfrat}
+\title{R active in fraternal group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in fraternal group
+actfrat
 }
 \details{
 Question 330. Have you ever done any active work for the fraternal groups? I mean been a leader, helped organize meetings, been an officer, or given time or money?

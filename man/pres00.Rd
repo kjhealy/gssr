@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_22.R
 \name{pres00}
 \alias{pres00}
-\title{pres00}
+\title{Vote for gore, bush, nader}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote for gore, bush, nader
+pres00
 }
 \details{
 Question 65a. If voted: Did you vote for Gore or Bush?

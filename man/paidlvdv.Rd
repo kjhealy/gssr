@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_489.R
 \name{paidlvdv}
 \alias{paidlvdv}
-\title{paidlvdv}
+\title{Mother or father paid leave}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother or father paid leave
+paidlvdv
 }
 \details{
 Question Still thinking about the same couple, if both are in a similar work situation and are eligible for paid leave, how should this paid leave period be divided between the mother and the father?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_467.R
 \name{opable}
 \alias{opable}
-\title{opable}
+\title{Need natural ability to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need natural ability to get ahead
+opable
 }
 \details{
 Question 1250. Please show for each of these how important you think it is for getting ahead in life . . . e. Natural ability? How important is that?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_477.R
 \name{famsuffr}
 \alias{famsuffr}
-\title{famsuffr}
+\title{Family life suffers if mom works f-t}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Family life suffers if mom works f-t
+famsuffr
 }
 \details{
 Question 1275. Do you agree or disagree: c. All in all, family life suffers when the woman has a full-time job.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_636.R
 \name{conpharvac}
 \alias{conpharvac}
-\title{conpharvac}
+\title{Confidence in pharmaceutical companies x}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Confidence in pharmaceutical companies x
+conpharvac
 }
 \details{
 Question (I am going to name some institutions in this country. As far as the people running these institutions are concerned, would you say you have a great deal of confidence, only some confidence, or hardly any confidence at all in them?) Pharmaceutical companies

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_292.R
 \name{knowkid2}
 \alias{knowkid2}
-\title{knowkid2}
+\title{R knows what child is doing on weekend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R knows what child is doing on weekend
+knowkid2
 }
 \details{
 Question 819. Thinking now only about weekends (SATURDAY AND SUNDAY) and only when your child is awake�would you say that you know exactly what (NAME OF CHILD) is doing on the weekend almost all of the time, most of the time, about half of the time, come of the time or hardly any of the time?

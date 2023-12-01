@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_305.R
 \name{secondwk}
 \alias{secondwk}
-\title{secondwk}
+\title{R has job other than main}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has job other than main
+secondwk
 }
 \details{
 Question 885. Do you have any jobs besides your main job or do any other work for pay?

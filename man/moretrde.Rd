@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_424.R
 \name{moretrde}
 \alias{moretrde}
-\title{moretrde}
+\title{More trade, less jobs in usa}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-More trade, less jobs in usa
+moretrde
 }
 \details{
 Question Now let us talk about trade with other countries. Suppose two friends of yours are talking about trade with other countries. One friend thinks that increased trade has created a lot of jobs in the United States for people with jobs like yours. The other friend thinks that increased trade has take

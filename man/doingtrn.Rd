@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_240.R
 \name{doingtrn}
 \alias{doingtrn}
-\title{doingtrn}
+\title{Include informal learning by doing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Include informal learning by doing
+doingtrn
 }
 \details{
 Question 703a. Did the on-the-job training include informal learning by doing?

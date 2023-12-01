@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_525.R
 \name{othssame}
 \alias{othssame}
-\title{othssame}
+\title{No saving environment unless others do same}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-No saving environment unless others do same
+othssame
 }
 \details{
 Question 1429. How much do you agree or disagree with each of these statements? b. There is no point in doing what I can for the environment unless others do the same.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_61.R
 \name{anomia8}
 \alias{anomia8}
-\title{anomia8}
+\title{Don't know whom to trust}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Don't know whom to trust
+anomia8
 }
 \details{
 Question 179. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. b. These days a person doesn't really know whom he can count on.

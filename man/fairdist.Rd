@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_631.R
 \name{fairdist}
 \alias{fairdist}
-\title{fairdist}
+\title{How fair is the income distribution in america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How fair is the income distribution in america
+fairdist
 }
 \details{
 Question How fair or unfair do you think the income distribution is in America?

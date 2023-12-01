@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_651.R
 \name{strmgtsup}
 \alias{strmgtsup}
-\title{strmgtsup}
+\title{Mangement supports stress prevention}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mangement supports stress prevention
+strmgtsup
 }
 \details{
 Question To what extent to do you agree or disagree with the following statements? Senior management show support for stress prevention through involvement and commitment.

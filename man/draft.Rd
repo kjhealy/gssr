@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_89.R
 \name{draft}
 \alias{draft}
-\title{draft}
+\title{Return to the draft?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Return to the draft?
+draft
 }
 \details{
 Question 295. Do you think we should return to a military draft at this time, or should we continue to rely on volunteers?

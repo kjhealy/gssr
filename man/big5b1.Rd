@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_544.R
 \name{big5b1}
 \alias{big5b1}
-\title{big5b1}
+\title{R see oneself as someone who is generally trusted}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R see oneself as someone who is generally trusted
+big5b1
 }
 \details{
 Question 1514. To what extent do you agree or disagree with the following statements? I see myself as someone who... b. is generally trusting

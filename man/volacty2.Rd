@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_433.R
 \name{volacty2}
 \alias{volacty2}
-\title{volacty2}
+\title{Done other types of volunteering for child's school or youth org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done other types of volunteering for child's school or youth org
+volacty2
 }
 \details{
 Question Sometimes people don't think of activities they do infrequently or activities they do for children's schools or youth organizations as volunteer activities. Since \link{CURRENT MONTH} 1st of last year, have you done any of these types of volunteer activities?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_310.R
 \name{jobfind1}
 \alias{jobfind1}
-\title{jobfind1}
+\title{How easy for r to find a same job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How easy for r to find a same job
+jobfind1
 }
 \details{
 Question 898. How easy would it be for you to find a job with another employer with approximately the same income and fringe benefits as you have now?

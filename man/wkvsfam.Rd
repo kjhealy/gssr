@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_305.R
 \name{wkvsfam}
 \alias{wkvsfam}
-\title{wkvsfam}
+\title{How often job interferes fam life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often job interferes fam life
+wkvsfam
 }
 \details{
 Question 882. How often do the demands of your job interfere with your family life?

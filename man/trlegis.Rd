@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_628.R
 \name{trlegis}
 \alias{trlegis}
-\title{trlegis}
+\title{How much do you trust the u.s. congress?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much do you trust the u.s. congress?
+trlegis
 }
 \details{
 Question How much do you trust the U.S. Congress?

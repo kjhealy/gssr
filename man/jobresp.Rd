@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_62.R
 \name{jobresp}
 \alias{jobresp}
-\title{jobresp}
+\title{Responsible job tasks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Responsible job tasks
+jobresp
 }
 \details{
 Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? RESPONSIBLE JOB TASKS

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_387.R
 \name{scientre}
 \alias{scientre}
-\title{scientre}
+\title{Scientists not religious}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientists not religious
+scientre
 }
 \details{
 Question Scientists are not likely to be very religious people. Do you strongly agree, agree, disagree, or strongly disagree?

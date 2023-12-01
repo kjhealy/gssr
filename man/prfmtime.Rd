@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_237.R
 \name{prfmtime}
 \alias{prfmtime}
-\title{prfmtime}
+\title{Did not go due to lack of time}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did not go due to lack of time
+prfmtime
 }
 \details{
 Question Thinking about the most recent performance you wanted to attend but did not, which of the following factors were important in your decision not to attend? E. Could not find the time.

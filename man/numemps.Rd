@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_336.R
 \name{numemps}
 \alias{numemps}
-\title{numemps}
+\title{Number of employee for the self-employed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of employee for the self-employed
+numemps
 }
 \details{
 Question 969. If you (are/were) self employed and (have/had) employees, how many employees (do/did) you have?

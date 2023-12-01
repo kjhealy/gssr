@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_63.R
 \name{jobsoc}
 \alias{jobsoc}
-\title{jobsoc}
+\title{Useful to society}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Useful to society
+jobsoc
 }
 \details{
 Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? A JOB THAT IS USEFUL TO SOCIETY

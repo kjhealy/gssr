@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_171.R
 \name{ethid1}
 \alias{ethid1}
-\title{ethid1}
+\title{R primary identity as ethnic or american}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R primary identity as ethnic or american
+ethid1
 }
 \details{
 Question 516c. Well, if you had to choose, which would you think of yourself most of the time - mainly as a member of a particular ethnic, racial, or nationality group, or mainly as just an American?

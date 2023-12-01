@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_334.R
 \name{caninf3}
 \alias{caninf3}
-\title{caninf3}
+\title{Would use bookmark for information on candidate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would use bookmark for information on candidate
+caninf3
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? c. Would use bookmark for information on candidate.

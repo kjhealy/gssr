@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_244.R
 \name{doc2}
 \alias{doc2}
-\title{doc2}
+\title{Doctors do best to prevent worrying}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctors do best to prevent worrying
+doc2
 }
 \details{
 Question 722. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. b. Doctors always do their best to keep the patient from worrying

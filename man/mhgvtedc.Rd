@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_415.R
 \name{mhgvtedc}
 \alias{mhgvtedc}
-\title{mhgvtedc}
+\title{Govt responsibility: provide financial help for education}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt responsibility: provide financial help for education
+mhgvtedc
 }
 \details{
 Question 1142. The next few questions deal with the government's responsibility to help people like \link{NAME}. For each statement please tell me if you think the government definitely should, probably should, probably should not, or definitely should not be responsible for helping people with situations like \link{NAME}. d. Provide financial help for education if \link{NAME} can't afford it.

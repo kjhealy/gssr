@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_286.R
 \name{twitter}
 \alias{twitter}
-\title{twitter}
+\title{Use twitter}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use twitter
+twitter
 }
 \details{
 Question Which of the following social networking or social media sites are you a member or regular user of? A. Twitter.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_329.R
 \name{addoc}
 \alias{addoc}
-\title{addoc}
+\title{Would go to a medical doctor if he was r's child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would go to a medical doctor if he was r's child
+addoc
 }
 \details{
 Question 946. If (John/Mary) was your child, would you... Go to a general medical doctor for help?

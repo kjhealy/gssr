@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_397.R
 \name{acqfmgay}
 \alias{acqfmgay}
-\title{acqfmgay}
+\title{Number of gay family member}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of gay family member
+acqfmgay
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. j. How many are gay men or women?

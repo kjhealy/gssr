@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_605.R
 \name{frstgrp5}
 \alias{frstgrp5}
-\title{frstgrp5}
+\title{Which group meet name5}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which group meet name5
+frstgrp5
 }
 \details{
 Question None

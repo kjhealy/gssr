@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_257.R
 \name{knwwht}
 \alias{knwwht}
-\title{knwwht}
+\title{Does r personally any whites}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r personally any whites
+knwwht
 }
 \details{
 Question 757. Do you personally know any...? a. Whites

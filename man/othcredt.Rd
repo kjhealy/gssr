@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_335.R
 \name{othcredt}
 \alias{othcredt}
-\title{othcredt}
+\title{Other people take credit for r's work or ideas}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other people take credit for r's work or ideas
+othcredt
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. c. Other people take credit for my work or ideas.

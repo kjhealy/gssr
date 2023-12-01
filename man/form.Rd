@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_78.R
 \name{form}
 \alias{form}
-\title{form}
+\title{Form of split questionnaire asked}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Form of split questionnaire asked
+form
 }
 \details{
 Question 248. A split ballot was used in the 1973, 1974, 1976, 1978, 1980, and 1982-2006 surveys. The variant or "Y" wordings appear on Form 2, the "Z" wordings appear on Form 3; and the standard GSS wordings appear on Form 1.

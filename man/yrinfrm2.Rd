@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_357.R
 \name{yrinfrm2}
 \alias{yrinfrm2}
-\title{yrinfrm2}
+\title{How many years r born a member of informal group2}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years r born a member of informal group2
+yrinfrm2
 }
 \details{
 Question 1026q. How many years have you been a member of \link{INFORMAL GROUP}?

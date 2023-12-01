@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_03.R
 \name{agewed}
 \alias{agewed}
-\title{agewed}
+\title{Age when first married}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age when first married
+agewed
 }
 \details{
 Question 4a. If ever married: How old were you when you first married?

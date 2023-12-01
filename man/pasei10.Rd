@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_597.R
 \name{pasei10}
 \alias{pasei10}
-\title{pasei10}
+\title{R's father's socioeconomic index (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's father's socioeconomic index (2010)
+pasei10
 }
 \details{
 Question None

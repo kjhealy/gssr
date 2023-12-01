@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_376.R
 \name{sciimp6}
 \alias{sciimp6}
-\title{sciimp6}
+\title{How important: results consistent with common sense}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important: results consistent with common sense
+sciimp6
 }
 \details{
 Question 1072. Now I'm going to read you some statements about science and scientists. Please look at Card B19. How important are each of the following in making something scientific? f. The results of the research are consistent with common sense

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_230.R
 \name{hope2}
 \alias{hope2}
-\title{hope2}
+\title{I am energetically pursuing my goals}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I am energetically pursuing my goals
+hope2
 }
 \details{
 Question Using the scale on the showcard, please select the response that best describes how you think about yourself right now. Please focus on yourself and what is going on in your life at this moment. Please answer each item as I read them according to the scale on the card.B. At the present time, I am energetically pursuing my goals.

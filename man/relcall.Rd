@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_453.R
 \name{relcall}
 \alias{relcall}
-\title{relcall}
+\title{Contact with most contacted rel}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Contact with most contacted rel
+relcall
 }
 \details{
 Question 1207c. And how often do you have any other contact with your relative besides visiting, either by telephone or letter?

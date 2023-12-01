@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_255.R
 \name{letineur}
 \alias{letineur}
-\title{letineur}
+\title{Immigration from europe should be increased}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Immigration from europe should be increased
+letineur
 }
 \details{
 Question 749. What about the number of immigrants from Europe? (should it be increased a lot, increased a little, left the same as it is now, decreased a little, or decreased a lot?)

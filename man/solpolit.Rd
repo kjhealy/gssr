@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_107.R
 \name{solpolit}
 \alias{solpolit}
-\title{solpolit}
+\title{Political club tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Political club tries to solve problems
+solpolit
 }
 \details{
 Question 329. Do the political clubs to which you belong do anything to try to solve individual or community problems?

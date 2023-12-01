@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_161.R
 \name{kdrel5}
 \alias{kdrel5}
-\title{kdrel5}
+\title{R relation to r 5th child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R relation to r 5th child
+kdrel5
 }
 \details{
 Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. d. Is \link{CHILD} your biological child, adopted child, or step child?

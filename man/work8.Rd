@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_563.R
 \name{work8}
 \alias{work8}
-\title{work8}
+\title{A husband, wife, partner cut in pay}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A husband, wife, partner cut in pay
+work8
 }
 \details{
 Question B. Second, what about work-related matters? Did any of the following happen to you since (CURRENT MONTH), 2003? 8. Your husband/wife/partner had a cut in pay (including reduced hours).

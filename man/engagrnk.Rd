@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_385.R
 \name{engagrnk}
 \alias{engagrnk}
-\title{engagrnk}
+\title{Engineers agree nuclear power}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Engineers agree nuclear power
+engagrnk
 }
 \details{
 Question Please look at Card E14. (On a scale of 1 to 5, where 1 means 'Near complete agreement' and 5 means 'No agreement at all') To what extent do nuclear engineers agree on the risks and benefits of nuclear power to generate electricity?

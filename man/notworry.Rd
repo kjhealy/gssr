@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_185.R
 \name{notworry}
 \alias{notworry}
-\title{notworry}
+\title{When anxious, try not to worry anyone else.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When anxious, try not to worry anyone else.
+notworry
 }
 \details{
 Question 573. The following are some statements that people have made. For each one, please tell me if you strongly agree, agree, disagree, or strongly disagree with the statement. j. When I'm anxious, I try not to worry anyone else.

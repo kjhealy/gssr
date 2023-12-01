@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_600.R
 \name{china}
 \alias{china}
-\title{china}
+\title{Liking for china}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Liking for china
+china
 }
 \details{
 Question 103. You will notice that the boxes on this card go from the highest position of "plus 5" for a country which you like very much, to the lowest position of "minus 5" for a country you dislike very much. How far up the scale or how far down the scale would you rate the following countries? f. China

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_501.R
 \name{supervis}
 \alias{supervis}
-\title{supervis}
+\title{Does r supervise others at work in main job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r supervise others at work in main job
+supervis
 }
 \details{
 Question 1341. In your main job, do you supervise or are you directly responsible for the work of other people?

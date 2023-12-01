@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_109.R
 \name{acthobby}
 \alias{acthobby}
-\title{acthobby}
+\title{R active in hobby club}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in hobby club
+acthobby
 }
 \details{
 Question 330. Have you ever done any active work for the hobby or garden clubs? I mean been a leader, helped organize meetings, been an officer, or given time or money?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_47.R
 \name{ractrust}
 \alias{ractrust}
-\title{ractrust}
+\title{Trust white people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Trust white people
+ractrust
 }
 \details{
 Question 144.Do you feel you can trust most white people, some white people, or no white people?

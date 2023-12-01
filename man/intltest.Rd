@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_137.R
 \name{intltest}
 \alias{intltest}
-\title{intltest}
+\title{Before got the job took an intelligence test}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Before got the job took an intelligence test
+intltest
 }
 \details{
 Question 426. When you started to work for your present employer, did you: a. Take an intelligence test or personality assessment?

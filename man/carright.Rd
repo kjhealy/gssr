@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_515.R
 \name{carright}
 \alias{carright}
-\title{carright}
+\title{What your friend has a right to expect from you}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What your friend has a right to expect from you
+carright
 }
 \details{
 Question 1405. Suppose you were riding in a car driven by a close friend. You know he is going too fast. He hits a pedestrian. He asks you to tell the police that he was obeying the speed limit. a. Which statement comes closest to your belief about what your friend has a right to expect from you? 1. My friend has a definite right as a friend to expect me to testify that he was obeying the speed limit. 2. My friend has some right as a friend to expect me to testify that he was obeying the speed limit. 3. My friend has no right as a friend to expect me to testify that he was obeying the speed limit

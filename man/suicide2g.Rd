@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_626.R
 \name{suicide2g}
 \alias{suicide2g}
-\title{suicide2g}
+\title{Suicide if bankrupt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suicide if bankrupt
+suicide2g
 }
 \details{
 Question None

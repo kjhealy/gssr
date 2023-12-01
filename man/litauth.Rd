@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_273.R
 \name{litauth}
 \alias{litauth}
-\title{litauth}
+\title{Visit site associated with writer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Visit site associated with writer
+litauth
 }
 \details{
 Question 787d. Visited a Web site associated with a particular novelist, playwright or poet?

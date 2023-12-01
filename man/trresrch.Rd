@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_627.R
 \name{trresrch}
 \alias{trresrch}
-\title{trresrch}
+\title{How much do you trust university research centers?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much do you trust university research centers?
+trresrch
 }
 \details{
 Question How much do you trust university research centers?

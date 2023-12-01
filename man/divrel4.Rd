@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_82.R
 \name{divrel4}
 \alias{divrel4}
-\title{divrel4}
+\title{Relatives divorced between 5 & 1 yrs ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relatives divorced between 5 & 1 yrs ago
+divrel4
 }
 \details{
 Question 269b. Number of relatives divorced during previous four years.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_11.R
 \name{spdipged}
 \alias{spdipged}
-\title{spdipged}
+\title{Spouse diploma, ged, or other}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse diploma, ged, or other
+spdipged
 }
 \details{
 Question Was that a diploma awarded by {#_spfill3} high school at graduation at the end of 12th grade, a GED awarded after {#_spfill2} took a test, or something else?

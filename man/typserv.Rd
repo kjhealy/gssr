@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_346.R
 \name{typserv}
 \alias{typserv}
-\title{typserv}
+\title{R belongs to more than one service clubs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one service clubs
+typserv
 }
 \details{
 Question 1024b. Do you belong to more than one service club?

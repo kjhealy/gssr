@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_11.R
 \name{major1}
 \alias{major1}
-\title{major1}
+\title{College major 1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-College major 1
+major1
 }
 \details{
 Question What was your major or field of study when you received your {response to RDEGHIfill} degree? IF THE RESPONDENT RECEIVED MORE THAN ONE GRADUATE LEVEL DEGREE, ASK ABOUT THE HIGHEST DEGREE OBTAINED (E.G. ABOUT A Ph.D. RATHER THAN AN M.B.A). \link{COUNT UP TO 2 MENTIONS}

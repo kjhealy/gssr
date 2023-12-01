@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_175.R
 \name{econpast}
 \alias{econpast}
-\title{econpast}
+\title{Has national economy improved last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has national economy improved last year
+econpast
 }
 \details{
 Question 542. How about the economy? Would you say that over the past year the nation's economy has gotten better, stayed about the same, or gotten worse?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_326.R
 \name{signpet}
 \alias{signpet}
-\title{signpet}
+\title{Have ever signed a petition past 5 years}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have ever signed a petition past 5 years
+signpet
 }
 \details{
 Question 937. Over the past 5 years have you done any of the following to express your opinion about an issue or your support for a cause? b. Sign a petition or an email letter

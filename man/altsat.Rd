@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_649.R
 \name{altsat}
 \alias{altsat}
-\title{altsat}
+\title{How satisfied r with alt health treatment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How satisfied r with alt health treatment
+altsat
 }
 \details{
 Question (How satisfied or dissatisfied were you with the treatment you received...) When you last visited an alternative health care practitioner?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_269.R
 \name{votefor}
 \alias{votefor}
-\title{votefor}
+\title{Web make r decide to vote for a political candidate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Web make r decide to vote for a political candidate
+votefor
 }
 \details{
 Question 813. Have you ever taken any of the following actions because of something you learned about or discussed on the Web? Made a decision to vote for a political candidate?

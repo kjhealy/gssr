@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_40.R
 \name{othjew16}
 \alias{othjew16}
-\title{othjew16}
+\title{R raised as a jew}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R raised as a jew
+othjew16
 }
 \details{
 Question Were you raised as a Jew?

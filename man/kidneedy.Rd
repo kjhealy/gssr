@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_439.R
 \name{kidneedy}
 \alias{kidneedy}
-\title{kidneedy}
+\title{Govt intervene: child is neglected}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt intervene: child is neglected
+kidneedy
 }
 \details{
 Question 1176. Sometimes public authorities intervene with parents in raising their children. Please indicate in each of the following cases how far you think authorities should go in dealing with a 10 year old child and his or her parents. Public authorities should... d. The parents fail to provide the child with proper food and clothing.

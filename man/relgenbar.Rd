@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_517.R
 \name{relgenbar}
 \alias{relgenbar}
-\title{relgenbar}
+\title{Religions are usually a barrier to equality between women and men}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religions are usually a barrier to equality between women and men
+relgenbar
 }
 \details{
 Question Do you agree or disagree with the following statement? Religions are usually a barrier to equality between women and men.

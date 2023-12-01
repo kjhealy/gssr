@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_585.R
 \name{old7}
 \alias{old7}
-\title{old7}
+\title{Age of 7th person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age of 7th person
+old7
 }
 \details{
 Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. c. How old was \link{PERSON} on his/her last birthday?

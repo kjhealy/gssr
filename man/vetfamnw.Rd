@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_90.R
 \name{vetfamnw}
 \alias{vetfamnw}
-\title{vetfamnw}
+\title{Any family members in armed forces now}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Any family members in armed forces now
+vetfamnw
 }
 \details{
 Question 297a. If yes: Are any other members of your immediate family serving in the Armed Forces now?

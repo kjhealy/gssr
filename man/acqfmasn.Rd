@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_396.R
 \name{acqfmasn}
 \alias{acqfmasn}
-\title{acqfmasn}
+\title{Number of asian family member}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of asian family member
+acqfmasn
 }
 \details{
 Question 1104. Next, we are going to ask questions about people in your family, including relatives and in-laws. f. How many are Asian or Asian-American?

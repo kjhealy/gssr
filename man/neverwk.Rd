@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_155.R
 \name{neverwk}
 \alias{neverwk}
-\title{neverwk}
+\title{R never worked full-time after school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R never worked full-time after school
+neverwk
 }
 \details{
 Question None

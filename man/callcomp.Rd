@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_274.R
 \name{callcomp}
 \alias{callcomp}
-\title{callcomp}
+\title{Has r called software company for help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r called software company for help
+callcomp
 }
 \details{
 Question 789. When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) \link{PROMPT: Anything else?} c. Call the software company to get help?

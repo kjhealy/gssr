@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_609.R
 \name{res2006}
 \alias{res2006}
-\title{res2006}
+\title{Was r living in usa during march-may 2006}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Was r living in usa during march-may 2006
+res2006
 }
 \details{
 Question During March through May 2006, were you living in the United States or were you living outside of the country? ONLY THE 50 STATES COUNT AS THE U.S. PUERTO RICO, THE VIRGIN ISLANDS, AND OTHER U.S. TERRITORIES DO NOT COUNT AS LIVING IN THE U.S. IF LIVING IN THE U.S. FOR PART OF THIS PERIOD, CODE AS "LIVING IN THE U.S."

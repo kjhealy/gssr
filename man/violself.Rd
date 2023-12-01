@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_331.R
 \name{violself}
 \alias{violself}
-\title{violself}
+\title{Would child do something violent to own self}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would child do something violent to own self
+violself
 }
 \details{
 Question 952b. How likely in your opinion is it (John/Mary) would do something violent to (him/her)self?

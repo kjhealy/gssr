@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_496.R
 \name{newskill}
 \alias{newskill}
-\title{newskill}
+\title{I would accept job that requires new skills}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I would accept job that requires new skills
+newskill
 }
 \details{
 Question To what extent do you agree or disagree with the following statements? In order to get a job I would be willing? A. To accept a job that requires new skills.

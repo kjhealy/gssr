@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_235.R
 \name{artatt1}
 \alias{artatt1}
-\title{artatt1}
+\title{Attended with spouse or partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attended with spouse or partner
+artatt1
 }
 \details{
 Question Did any of the following go with you? A. Spouse or partner

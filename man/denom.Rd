@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_34.R
 \name{denom}
 \alias{denom}
-\title{denom}
+\title{Specific denomination}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Specific denomination
+denom
 }
 \details{
 Question 104a. If Protestant: What specific denomination is that, if any?

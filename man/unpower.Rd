@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_135.R
 \name{unpower}
 \alias{unpower}
-\title{unpower}
+\title{Unions in this country have too little power}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unions in this country have too little power
+unpower
 }
 \details{
 Question 417. To what extent do you agree or disagree with the following statements? c. Unions in this country have too little power.

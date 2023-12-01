@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_534.R
 \name{citizen}
 \alias{citizen}
-\title{citizen}
+\title{Are you a citizen of america?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Are you a citizen of america?
+citizen
 }
 \details{
 Question 1453a. Are you a citizen of America?

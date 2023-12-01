@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_447.R
 \name{brlawfl}
 \alias{brlawfl}
-\title{brlawfl}
+\title{Do private companies comply with regulations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do private companies comply with regulations
+brlawfl
 }
 \details{
 Question In general, how often do you think that the tax authorities in America do the following C. Comply with laws and regulations? Would you say?

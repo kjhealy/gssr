@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_648.R
 \name{hlthconf}
 \alias{hlthconf}
-\title{hlthconf}
+\title{Lost confidence in self in last 4 weeks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Lost confidence in self in last 4 weeks
+hlthconf
 }
 \details{
 Question (During the past 4 weeks how often...) Have you lost confidence in yourself?

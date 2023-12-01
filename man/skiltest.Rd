@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_137.R
 \name{skiltest}
 \alias{skiltest}
-\title{skiltest}
+\title{Before got the job took a skill test}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Before got the job took a skill test
+skiltest
 }
 \details{
 Question 426. When you started to work for your present employer, did you: b. Take a skills or proficiency test?

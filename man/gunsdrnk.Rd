@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_406.R
 \name{gunsdrnk}
 \alias{gunsdrnk}
-\title{gunsdrnk}
+\title{Should carrying a firearm drinking alcohol be illegal}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should carrying a firearm drinking alcohol be illegal
+gunsdrnk
 }
 \details{
 Question 1119. In all states it is illegal to drive while under the influence of alcohol. Would you favor or oppose state laws making it illegal to carry a firearm while under the influence of alcohol?

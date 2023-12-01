@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_330.R
 \name{adpsymed}
 \alias{adpsymed}
-\title{adpsymed}
+\title{Would r have child on med by psychiatrists ad}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r have child on med by psychiatrists ad
+adpsymed
 }
 \details{
 Question 948a. If the psychiatrist said your child should be on medication, how likely would you be to do that?

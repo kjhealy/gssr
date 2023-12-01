@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_461.R
 \name{comyear}
 \alias{comyear}
-\title{comyear}
+\title{How long has r lived in city where r lives now}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long has r lived in city where r lives now
+comyear
 }
 \details{
 Question 1248. How long have you lived in the city, town or local community where you live now?

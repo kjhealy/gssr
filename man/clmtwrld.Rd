@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_628.R
 \name{clmtwrld}
 \alias{clmtwrld}
-\title{clmtwrld}
+\title{Impact of climate change for world}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Impact of climate change for world
+clmtwrld
 }
 \details{
 Question On a scale from 0 to 10, how bad or good do you think the impacts of climate change will be for the world as a whole?

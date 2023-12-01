@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_324.R
 \name{accptoth}
 \alias{accptoth}
-\title{accptoth}
+\title{R accept others even when they do things wrong}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R accept others even when they do things wrong
+accptoth
 }
 \details{
 Question 928. The following are things that you may experience in your daily life. Please tell me how often these occur. b. I accept others even when they do things I think are wrong

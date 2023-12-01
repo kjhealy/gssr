@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_436.R
 \name{manread}
 \alias{manread}
-\title{manread}
+\title{Should police open mail of a suspect?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should police open mail of a suspect?
+manread
 }
 \details{
 Question 1163. Now, suppose the tip is about a man without a criminal record. Please circle a number for each question to show if you think police should be allowed without a court order to... c. Open his mail

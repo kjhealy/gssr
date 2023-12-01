@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_267.R
 \name{chat12}
 \alias{chat12}
-\title{chat12}
+\title{R use web for chatrooms in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use web for chatrooms in past 12 months
+chat12
 }
 \details{
 Question 774. In the past 12 months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/02 have you used the Web to do each of these things: l. Go to a chat room, news group, discussion forum, bulletin board, or similar interactive service to discuss political or social policy issues, current affairs, or political campaigns?

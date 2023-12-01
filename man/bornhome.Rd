@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_337.R
 \name{bornhome}
 \alias{bornhome}
-\title{bornhome}
+\title{What kind of house r's family lived at birth}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What kind of house r's family lived at birth
+bornhome
 }
 \details{
 Question 971. Thinking back to the time when you were born, tell me which box shows the kind of house your family lived in at that time: A, B, or C? We just want you to choose one box. A: farm B: apartment building; hut, schack or other nonstandard dwelling; single-family house C: other type of dwelling

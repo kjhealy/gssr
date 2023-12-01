@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_214.R
 \name{ormntldc}
 \alias{ormntldc}
-\title{ormntldc}
+\title{In what order go to a psychiatrist for help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In what order go to a psychiatrist for help
+ormntldc
 }
 \details{
 Question 660. Here are the things you said NAME should do. INTERVIEWER: READ "YES" ANSWERS AND ASK: In what order should s/he do them? d. Go to a psychiatrist for help

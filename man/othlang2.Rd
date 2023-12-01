@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_253.R
 \name{othlang2}
 \alias{othlang2}
-\title{othlang2}
+\title{What other languages does r speak}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What other languages does r speak
+othlang2
 }
 \details{
 Question 739b. What other language(s) do you speak?

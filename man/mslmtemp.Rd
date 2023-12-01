@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_44.R
 \name{mslmtemp}
 \alias{mslmtemp}
-\title{mslmtemp}
+\title{Feeling thermometer:muslims}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feeling thermometer:muslims
+mslmtemp
 }
 \details{
 Question 122. I'd like to get your feelings toward groups that are in teh news these days. I will use something we call the feeling thermometer, and here is how it works: I'll read the names of a group and I'd like you to rate that group using the feeling thermometer. Ratings between 50 degrees and 100 degrees mean that you feel favorable and warm toward the group. Ratings between 0 degrees and 50 degrees mean that you don't feel favorable toward the group and that you don't care too much for that group. f. Muslims

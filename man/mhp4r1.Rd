@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_221.R
 \name{mhp4r1}
 \alias{mhp4r1}
-\title{mhp4r1}
+\title{Relation to person 4 (1st mentioned)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relation to person 4 (1st mentioned)
+mhp4r1
 }
 \details{
 Question R's relationship with the fourth named person A. First relationship

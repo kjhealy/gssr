@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_211.R
 \name{viglabel}
 \alias{viglabel}
-\title{viglabel}
+\title{How likely x is experiencing vignettes}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x is experiencing vignettes
+viglabel
 }
 \details{
 Question 651. In your opinion, how likely is it that NAME is experiencing (READ a-e) -- very likely, somewhat likely, not very likely, or not at all likely? (In Part e, read only the phrase following the letter of the Vignette) e: Vignette A: alcohol dependence Vignette B: a major depression Vignette C: schizophrenia Vignette D: a drug problem

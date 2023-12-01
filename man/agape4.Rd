@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_341.R
 \name{agape4}
 \alias{agape4}
-\title{agape4}
+\title{Would endure all things for the one r love}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would endure all things for the one r love
+agape4
 }
 \details{
 Question Some of the following items refer to a specific love relationship, while other refer to general attitudes and beliefs about love. Whenever possible, answer the questions with your current partner in mind. If you do not have a current partner, answer the question with your most recent partner in mind. If you have never been in love, answer in terms of what you think your response would most likely be. 987. Do you agree strongly, agree somewhat, neither agree nor disagree, disagree somewhat, or strongly disagree with the following statements? d. I would endure all things for the sake of the one I love.

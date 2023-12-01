@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_631.R
 \name{rank10fut}
 \alias{rank10fut}
-\title{rank10fut}
+\title{R's social rank 10 years later}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's social rank 10 years later
+rank10fut
 }
 \details{
 Question And thinking ahead 10 years from now, where do you think you will be on a scale of 1 to 10, where 1 is the top and 10 the bottom?

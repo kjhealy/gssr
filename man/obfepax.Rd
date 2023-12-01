@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_93.R
 \name{obfepax}
 \alias{obfepax}
-\title{obfepax}
+\title{Obligation--peacetime mil service-female}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Obligation--peacetime mil service-female
+obfepax
 }
 \details{
 Question 308. And one last question. We all know that American citizens have certain rights. For example, they have the right to free public education and to police protection, the right to attend religious services of their choice, and the right to elect public officials. I'd like to ask now about certain obligations that some people feel American citizens owe their country. I just want your own opinion on these - whether you feel it is a very important obligation, a somewhat important obligation, or not an obligation that a citizen owes to the country. i. For young women, serving in the military during peactime?

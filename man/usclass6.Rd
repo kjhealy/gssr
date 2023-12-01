@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_29.R
 \name{usclass6}
 \alias{usclass6}
-\title{usclass6}
+\title{Differences in class are an incentive}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences in class are an incentive
+usclass6
 }
 \details{
 Question 72. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. f. Only if differences in income and social standing are large enough is there an incentive for individual effort.

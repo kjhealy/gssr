@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_187.R
 \name{madat15}
 \alias{madat15}
-\title{madat15}
+\title{Angry at a customer or client}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Angry at a customer or client
+madat15
 }
 \details{
 Question 576. Who were you angry, irritated, or annoyed at? o. A customer or client

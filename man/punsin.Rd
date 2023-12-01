@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_116.R
 \name{punsin}
 \alias{punsin}
-\title{punsin}
+\title{R agrees that sinners must be punished}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R agrees that sinners must be punished
+punsin
 }
 \details{
 Question 374. Please consider the following statements and tell me whether you agree strongly, agree somewhat, disagree somewhat, or disagree strongly with each statement. a. Those who violate God's rules must be punished.

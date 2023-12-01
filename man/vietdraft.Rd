@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_641.R
 \name{vietdraft}
 \alias{vietdraft}
-\title{vietdraft}
+\title{Born on date with a vietnam war draft lottery number}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Born on date with a vietnam war draft lottery number
+vietdraft
 }
 \details{
 Question None

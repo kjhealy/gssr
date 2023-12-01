@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_235.R
 \name{artatt2}
 \alias{artatt2}
-\title{artatt2}
+\title{Attended with child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attended with child
+artatt2
 }
 \details{
 Question Did any of the following go with you? B. Child

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_630.R
 \name{opbribes}
 \alias{opbribes}
-\title{opbribes}
+\title{Need to give bribes to get ahead}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Need to give bribes to get ahead
+opbribes
 }
 \details{
 Question None

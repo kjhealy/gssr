@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_58.R
 \name{chldsex1}
 \alias{chldsex1}
-\title{chldsex1}
+\title{Qualities for boys or girls:variant}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Qualities for boys or girls:variant
+chldsex1
 }
 \details{
 Question 171b. When you rated the importance of various qualities for children, were you thinking mostly about boys or mostly about girls?

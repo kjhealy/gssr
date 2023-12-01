@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_139.R
 \name{idecide}
 \alias{idecide}
-\title{idecide}
+\title{My job allows me make part decisions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-My job allows me make part decisions
+idecide
 }
 \details{
 Question 438. How true would you say each of the following statements is about your job? c. My job allows me to take part in making decisions that affect my work.

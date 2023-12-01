@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_388.R
 \name{scientbr}
 \alias{scientbr}
-\title{scientbr}
+\title{Being a scientist boring}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Being a scientist boring
+scientbr
 }
 \details{
 Question A job as a scientist would be boring. Do you strongly agree, agree, disagree, or strongly disagree?

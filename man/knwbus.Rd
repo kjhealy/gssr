@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_461.R
 \name{knwbus}
 \alias{knwbus}
-\title{knwbus}
+\title{Does r know someone who is a bus driver?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know someone who is a bus driver?
+knwbus
 }
 \details{
 Question Do you know a woman or a man who is? A. A bus driver?

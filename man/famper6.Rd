@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_565.R
 \name{famper6}
 \alias{famper6}
-\title{famper6}
+\title{Divorced or separated}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Divorced or separated
+famper6
 }
 \details{
 Question E. What about family and personal relationships? During the last year, did you... 6. Did you obtain a divorce or separation during the last 12 months, that is since (CURRENT MONTH) 2003?

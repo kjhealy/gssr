@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_565.R
 \name{law1}
 \alias{law1}
-\title{law1}
+\title{A robbery}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A robbery
+law1
 }
 \details{
 Question F. Next, did any of the following criminal or legal events occur to you since (CURRENT MONTH), 2003... 1. A robbery (e.g. a mugging or stick-up).

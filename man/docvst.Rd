@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_648.R
 \name{docvst}
 \alias{docvst}
-\title{docvst}
+\title{How often visit doctor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often visit doctor
+docvst
 }
 \details{
 Question During the past 12 months, how often did you visit or were visited by... a doctor?

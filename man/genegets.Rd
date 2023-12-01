@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_135.R
 \name{genegets}
 \alias{genegets}
-\title{genegets}
+\title{Employer vs. employee on access right to results}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Employer vs. employee on access right to results
+genegets
 }
 \details{
 Question 416c. Suppose a genetic screening test for certain forms of heart disease is made available by an employer to workers who want to take it. Who do you think should have control over access to the test results - the worker or the employer?

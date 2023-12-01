@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_553.R
 \name{partopen}
 \alias{partopen}
-\title{partopen}
+\title{Number of sex partner's last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of sex partner's last year
+partopen
 }
 \details{
 Question 1550. How many sex partners have you had in the last 12 months?

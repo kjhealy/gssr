@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_566.R
 \name{live4}
 \alias{live4}
-\title{live4}
+\title{Serious problem with your landlord}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Serious problem with your landlord
+live4
 }
 \details{
 Question G. What about things concerning where you live? During the last year, did any of the following happen? Serious trouble with a landlord or building manager.

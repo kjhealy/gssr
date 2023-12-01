@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_29.R
 \name{usclass2}
 \alias{usclass2}
-\title{usclass2}
+\title{Achievement depends on family background}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Achievement depends on family background
+usclass2
 }
 \details{
 Question 72. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. b. In the United States there are still great differences between social levels, and what one can achieve in life depends mainly upon one's family background.

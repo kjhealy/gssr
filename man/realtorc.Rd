@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_193.R
 \name{realtorc}
 \alias{realtorc}
-\title{realtorc}
+\title{An acquaintance recommended r choose}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-An acquaintance recommended r choose
+realtorc
 }
 \details{
 Question 603. What made you choose the realtor with whom you worked? c. An acquaintance recommended them

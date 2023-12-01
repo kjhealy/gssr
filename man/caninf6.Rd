@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_334.R
 \name{caninf6}
 \alias{caninf6}
-\title{caninf6}
+\title{Would use chat group for information on candida}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would use chat group for information on candida
+caninf6
 }
 \details{
 Question 964. Imagine you wanted to use the Web to find out information about a candidate for political office. What would you do? f. Would use chat group, news group, discussion forum or other online interactive service for information on candidate.

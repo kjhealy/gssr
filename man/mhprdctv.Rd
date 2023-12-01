@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_413.R
 \name{mhprdctv}
 \alias{mhprdctv}
-\title{mhprdctv}
+\title{People like x are just as productive as others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People like x are just as productive as others
+mhprdctv
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. l. People like \link{NAME} who have jobs are just as productive as most other workers.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_79.R
 \name{erameans}
 \alias{erameans}
-\title{erameans}
+\title{Does r understand what era means}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r understand what era means
+erameans
 }
 \details{
 Question 253a. Do you understand what the Equal Rights Amendment means?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_248.R
 \name{prozslf1}
 \alias{prozslf1}
-\title{prozslf1}
+\title{Take prozac if trouble in personal life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Take prozac if trouble in personal life
+prozslf1
 }
 \details{
 Question 726. How likely would you be to take doctor prescribed Prozac in the following situations? a. because you were having trouble in your personal life

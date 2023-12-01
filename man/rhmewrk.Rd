@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_177.R
 \name{rhmewrk}
 \alias{rhmewrk}
-\title{rhmewrk}
+\title{How much housework r does}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much housework r does
+rhmewrk
 }
 \details{
 Question 554. We're interested in knowing how much of the work around your home is done by different people. We don't mean taking care of children - just regular work around the house, like cooking, grocerty shopping, and doing little repair jobs. a. How much of this work do you do?

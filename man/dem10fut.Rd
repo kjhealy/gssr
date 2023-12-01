@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_543.R
 \name{dem10fut}
 \alias{dem10fut}
-\title{dem10fut}
+\title{How well will democracy work in america in ten yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well will democracy work in america in ten yrs
+dem10fut
 }
 \details{
 Question 1487. On the whole, on a scale of 0 to 10 where 0 is very poorly and 10 is very well. c. And how about 10 years from now? How well do you think democracy will work in America then?

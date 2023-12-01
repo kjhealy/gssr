@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_310.R
 \name{wkharoth}
 \alias{wkharoth}
-\title{wkharoth}
+\title{R threatened on the job last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R threatened on the job last 12 months
+wkharoth
 }
 \details{
 Question 904. In the last 12 months, were you threatened or harassed in any other way by anyone while you were on the job?

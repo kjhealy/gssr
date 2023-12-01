@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_255.R
 \name{usblk}
 \alias{usblk}
-\title{usblk}
+\title{What percentage of population is black}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What percentage of population is black
+usblk
 }
 \details{
 Question 751. Just your best guess�what percentage of the United States population is each group? b. Blacks/African-Americans

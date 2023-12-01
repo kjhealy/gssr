@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_34.R
 \name{othjew}
 \alias{othjew}
-\title{othjew}
+\title{Consider self to be jewish}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Consider self to be jewish
+othjew
 }
 \details{
 Question Do you consider yourself to be Jewish for any reason?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_231.R
 \name{sprtprsn}
 \alias{sprtprsn}
-\title{sprtprsn}
+\title{R consider self a spiritual person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R consider self a spiritual person
+sprtprsn
 }
 \details{
 Question 684. To what extent do you consider yourself a spiritual person? Are you . . .

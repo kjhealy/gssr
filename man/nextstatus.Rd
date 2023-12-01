@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_660.R
 \name{nextstatus}
 \alias{nextstatus}
-\title{nextstatus}
+\title{Gss next follow-on status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gss next follow-on status
+nextstatus
 }
 \details{
 Question None

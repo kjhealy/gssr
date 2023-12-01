@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_390.R
 \name{ops2005}
 \alias{ops2005}
-\title{ops2005}
+\title{Company granted r stock options in 2005}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Company granted r stock options in 2005
+ops2005
 }
 \details{
 Question 1085. Did your company grant you any stock options in 2005? IF ASKED: A stock option is a right to purchase stock at a set price for several years into the future, typically ten years. For example, one stock option at $10 means that you can purchase your company stock for $10 anytime over ten years. A stock option does not include a plan in which there are periodic deductions from payroll to set aside money to purchase shares at the end of an offering period. That is typically called an Employee Stock Purchase Plan.

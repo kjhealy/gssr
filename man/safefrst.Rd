@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_306.R
 \name{safefrst}
 \alias{safefrst}
-\title{safefrst}
+\title{No shortcuts on worker safety}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-No shortcuts on worker safety
+safefrst
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. l. There are no significant compromises or shortcuts taken when worker safety is at stake.

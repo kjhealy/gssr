@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_421.R
 \name{eff911e}
 \alias{eff911e}
-\title{eff911e}
+\title{How effective r thinks duplicating important documents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How effective r thinks duplicating important documents
+eff911e
 }
 \details{
 Question How effective do you think duplicating important documents (birth certificate, medication prescriptions, and passports) is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)

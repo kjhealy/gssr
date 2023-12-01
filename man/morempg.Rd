@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_384.R
 \name{morempg}
 \alias{morempg}
-\title{morempg}
+\title{Cars use less gasoline}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Cars use less gasoline
+morempg
 }
 \details{
 Question How much do you favor or oppose requiring car makers to make cars and trucks that use less gasoline? Do you strongly favor, favor, neither favor nor oppose, oppose, or strongly oppose such a requirement?

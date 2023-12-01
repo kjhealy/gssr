@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_559.R
 \name{sppregnt}
 \alias{sppregnt}
-\title{sppregnt}
+\title{Spending for prenatal care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spending for prenatal care
+sppregnt
 }
 \details{
 Question 1573. Here are some other areas of government spending. Please indicate whether you would like to see more or less government spending in each area. Remember that if you say "much more", it might require a tax increase to pay for it. a. Prenatal care for pregnant mothers who can't afford it

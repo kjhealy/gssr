@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_58.R
 \name{socbar}
 \alias{socbar}
-\title{socbar}
+\title{Spend evening at bar}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spend evening at bar
+socbar
 }
 \details{
 Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: d. Go to a bar or tavern

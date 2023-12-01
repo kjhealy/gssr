@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_642.R
 \name{wordk}
 \alias{wordk}
-\title{wordk}
+\title{Word k}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Word k
+wordk
 }
 \details{
 Question Please indicate the word that comes closest to the meaning of the word in capital letters. APPARITION

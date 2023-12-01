@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_486.R
 \name{hhwkfair}
 \alias{hhwkfair}
-\title{hhwkfair}
+\title{Sharing of hh work between r and spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sharing of hh work between r and spouse
+hhwkfair
 }
 \details{
 Question 1311. Which of the following best applies to the sharing of household work between you and your spouse/partner?

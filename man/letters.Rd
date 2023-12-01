@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_279.R
 \name{letters}
 \alias{letters}
-\title{letters}
+\title{How many people write letters to}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people write letters to
+letters
 }
 \details{
 Question 798. Of these__________friends and relatives, about how many do you stay in contact with by: c. Exchanging cards or letters through U.S. postal mail?

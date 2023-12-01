@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_302.R
 \name{fininc3}
 \alias{fininc3}
-\title{fininc3}
+\title{Best person to tell about incentives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Best person to tell about incentives
+fininc3
 }
 \details{
 Question 862. Who is the best person to tell you about these financial incentives?

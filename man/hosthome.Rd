@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_151.R
 \name{hosthome}
 \alias{hosthome}
-\title{hosthome}
+\title{Uncomf entertaining stranger's at home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Uncomf entertaining stranger's at home
+hosthome
 }
 \details{
 Question 475. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it: i. I would feel uncomfortable entertaining people I don't knwow well in my home.

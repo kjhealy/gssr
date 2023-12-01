@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_258.R
 \name{whtcls}
 \alias{whtcls}
-\title{whtcls}
+\title{Does r feel close to whites}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r feel close to whites
+whtcls
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. e. Are any of these whites people that you feel close to?

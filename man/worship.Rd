@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_125.R
 \name{worship}
 \alias{worship}
-\title{worship}
+\title{How good local church wor'ship services}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How good local church wor'ship services
+worship
 }
 \details{
 Question 399. How do you rate how your local church does each of the following? e. Worship services

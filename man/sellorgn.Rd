@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_198.R
 \name{sellorgn}
 \alias{sellorgn}
-\title{sellorgn}
+\title{Should people be permitted to sell a kidney}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should people be permitted to sell a kidney
+sellorgn
 }
 \details{
 Question 627. A body organ that is much in need and that people may contribute are kidneys. Most people can live with only one kidney, though their chances of survival are better if they have two. Do you believe that people with two healthy kidneys should be permitted to sell a kidney to a hospital or organ center to use for transplants?

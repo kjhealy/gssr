@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_254.R
 \name{engunite}
 \alias{engunite}
-\title{engunite}
+\title{English unites all americans}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-English unites all americans
+engunite
 }
 \details{
 Question 745. Now please tell us whether you strongly agree, agree, disagree or strongly disagree with each of these statements: c. Speaking English as the common national language is what unites all Americans.

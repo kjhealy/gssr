@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_22.R
 \name{pres04}
 \alias{pres04}
-\title{pres04}
+\title{Vote for kerry, bush, nader}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote for kerry, bush, nader
+pres04
 }
 \details{
 Question 66a. If voted: Did you vote for Kerry or Bush?

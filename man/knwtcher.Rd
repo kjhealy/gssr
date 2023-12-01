@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_462.R
 \name{knwtcher}
 \alias{knwtcher}
-\title{knwtcher}
+\title{Does r know someone who is a school teacher?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know someone who is a school teacher?
+knwtcher
 }
 \details{
 Question Do you know a woman or a man who is? J. A school teacher?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_443.R
 \name{aidold}
 \alias{aidold}
-\title{aidold}
+\title{Govts resp: provide for the elderly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govts resp: provide for the elderly
+aidold
 }
 \details{
 Question 1188. On the whole, do you think it should or should not be the government's responsibility to . . . d. Provide a decent standard of living for the old

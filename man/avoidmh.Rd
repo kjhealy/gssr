@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_392.R
 \name{avoidmh}
 \alias{avoidmh}
-\title{avoidmh}
+\title{R changed shopping place due to presence of mentally ill ppl}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R changed shopping place due to presence of mentally ill ppl
+avoidmh
 }
 \details{
 Question 1101. Have you changed where you go for shopping or entertainment because of the presence of people who seem to be mentally ill...

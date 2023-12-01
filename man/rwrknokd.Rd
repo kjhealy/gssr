@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_482.R
 \name{rwrknokd}
 \alias{rwrknokd}
-\title{rwrknokd}
+\title{Did r work aftr marrge but before kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r work aftr marrge but before kids
+rwrknokd
 }
 \details{
 Question 1294. Did you work outside the home full-time, part-time, or not at all... a. After marrying and before you had children?

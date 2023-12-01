@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_649.R
 \name{drinkday1}
 \alias{drinkday1}
-\title{drinkday1}
+\title{How often r drinks 4+ drinks in one day}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r drinks 4+ drinks in one day
+drinkday1
 }
 \details{
 Question How often do you... Drink 4 or more alcoholic drinks on the same day?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_379.R
 \name{extinct}
 \alias{extinct}
-\title{extinct}
+\title{Effect of global warming: polar bear's become extinct}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Effect of global warming: polar bear's become extinct
+extinct
 }
 \details{
 Question 1079. Please look at Card B24. Scientists predict that global warming may soon have big effects on the polar regions. I will describe some of these possible effects and, for each one, please say whether it would bother you a great deal, some, a little, or not at all if it actually happened. a. By 2020, polar bears may become extinct.

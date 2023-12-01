@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_210.R
 \name{vigversn}
 \alias{vigversn}
-\title{vigversn}
+\title{Vignette version number}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vignette version number
+vigversn
 }
 \details{
 Question TURN TO FACESHEET INSIDE FRONT COVER AND TEAR OFF VIGNETTE SECTION. WRITE VIGNETTE ID HERE. 648. Next I'm going to describe a person -- lets call him/her (REFER TO NAME IN VIGNETTE). After I read a description of him/her I'll ask you some questions about how you think and feel about him/her. There are no right or wrong answers. I'm only interested in what you think of NAME.

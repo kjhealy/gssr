@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_528.R
 \name{clsetown}
 \alias{clsetown}
-\title{clsetown}
+\title{How close do you feel to your town or city}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How close do you feel to your town or city
+clsetown
 }
 \details{
 Question To begin, we have some questions about where you live: your neighborhood or village, your town or city, your county, and so on. (By neighborhood we mean the part of the town/city you live in. If you live in a village, we take this as your neighborhood.) 1436. How close do you feel to... b. Your town or city

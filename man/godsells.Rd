@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_122.R
 \name{godsells}
 \alias{godsells}
-\title{godsells}
+\title{Religious image to sell products}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religious image to sell products
+godsells
 }
 \details{
 Question 389. Do you strongly approve of, somewhat approve of, neither approve of nor oppose, somewhat oppose, or strongly oppose the following public expressions of religion: a. The use of religious "images" in public advertising to sell non-religious commercial products?

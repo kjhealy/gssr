@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_41.R
 \name{spfund}
 \alias{spfund}
-\title{spfund}
+\title{How fundamentalist is spouse currently}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How fundamentalist is spouse currently
+spfund
 }
 \details{
 Question 116c. Fundamentalism/liberalism of religion of spouse.

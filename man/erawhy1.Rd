@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_79.R
 \name{erawhy1}
 \alias{erawhy1}
-\title{erawhy1}
+\title{1st reason favor-oppose era}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-1st reason favor-oppose era
+erawhy1
 }
 \details{
 Question 254. Why do you (favor/oppose) the Equal Rights Amendment?

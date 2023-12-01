@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_179.R
 \name{discaffm}
 \alias{discaffm}
-\title{discaffm}
+\title{A man won't get a job or promotion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A man won't get a job or promotion
+discaffm
 }
 \details{
 Question 561a. What do you think the chances are these days that a man won't get a job or a promotion while an equally or less qualified woman gets one instead?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_513.R
 \name{relscrpt}
 \alias{relscrpt}
-\title{relscrpt}
+\title{R has read religious text outside of a service in the past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has read religious text outside of a service in the past year
+relscrpt
 }
 \details{
 Question During the last 12 months, have you read or listened to the reading of any holy scripture such as the Bible, Buddhist sutra, Koran, Sruti, Torah, or other religious scripture, not counting any reading that happened during a worship service?

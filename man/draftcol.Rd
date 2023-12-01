@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_89.R
 \name{draftcol}
 \alias{draftcol}
-\title{draftcol}
+\title{College students exempt from draft?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-College students exempt from draft?
+draftcol
 }
 \details{
 Question 296. If the United States returned to a military draft, it woudl not be necessary to draft everyone of military age. That is, certain types of people could be exempted, even though they were otherwise qualified for service. a. Do you think college students should be exempted from a draft?

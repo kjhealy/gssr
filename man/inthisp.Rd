@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_601.R
 \name{inthisp}
 \alias{inthisp}
-\title{inthisp}
+\title{Is interviewer spanish, hispanic or latino}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is interviewer spanish, hispanic or latino
+inthisp
 }
 \details{
 Question 1655. Interviewer, are you Spanish, Hispanic, or Latino/Latina? Which group are you from: Mexican, Mexican American, Chicano/Chicana, Puerto Rican, Cuban, Other. Please specific other.

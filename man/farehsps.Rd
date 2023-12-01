@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_129.R
 \name{farehsps}
 \alias{farehsps}
-\title{farehsps}
+\title{Self supporting - live off welfare}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Self supporting - live off welfare
+farehsps
 }
 \details{
 Question 403e. Do people in these groups tend to prefer to be self-supporting or do they tend to prefer to live off welfare? 5. Hispanic Americans

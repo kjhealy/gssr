@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_465.R
 \name{conf2f}
 \alias{conf2f}
-\title{conf2f}
+\title{How many people r sees face to face}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people r sees face to face
+conf2f
 }
 \details{
 Question B. About how many of these people do you see face-to-face on a typical weekday?

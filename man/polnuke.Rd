@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_384.R
 \name{polnuke}
 \alias{polnuke}
-\title{polnuke}
+\title{How well elected official know risk by nuclear power}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well elected official know risk by nuclear power
+polnuke
 }
 \details{
 Question None

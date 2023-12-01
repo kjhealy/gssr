@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_564.R
 \name{famper1}
 \alias{famper1}
-\title{famper1}
+\title{Having serious trouble with spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Having serious trouble with spouse
+famper1
 }
 \details{
 Question E. What about family and personal relationships? During the last year, did you... 1. Have serious trouble with your husband/wife/partner

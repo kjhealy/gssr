@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_82.R
 \name{sallabor}
 \alias{sallabor}
-\title{sallabor}
+\title{Salience, labor leaders}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Salience, labor leaders
+sallabor
 }
 \details{
 Question 237. How often would you say that you and your friends think about topics we've been discussing during the interview? b. The people running organized labor?

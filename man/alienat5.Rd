@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_49.R
 \name{alienat5}
 \alias{alienat5}
-\title{alienat5}
+\title{Powerful people take advantage of you}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Powerful people take advantage of you
+alienat5
 }
 \details{
 Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: e. Most people with power try to take advantage of people like yourself?

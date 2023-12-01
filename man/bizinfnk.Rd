@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_385.R
 \name{bizinfnk}
 \alias{bizinfnk}
-\title{bizinfnk}
+\title{Business leaders how much influence}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Business leaders how much influence
+bizinfnk
 }
 \details{
 Question (Please look at Card E15. How much influence should each of the following groups have in deciding whether to expand the use of nuclear power?) Business leaders

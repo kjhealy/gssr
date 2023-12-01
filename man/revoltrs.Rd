@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_444.R
 \name{revoltrs}
 \alias{revoltrs}
-\title{revoltrs}
+\title{Feel about people want to overthrow gov}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel about people want to overthrow gov
+revoltrs
 }
 \details{
 Question 1189. What are your personal feelings about: b. People who want to overthrow the government by revolution.

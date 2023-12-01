@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_304.R
 \name{moredays}
 \alias{moredays}
-\title{moredays}
+\title{Days per month r work extra hours}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Days per month r work extra hours
+moredays
 }
 \details{
 Question 876. How many days per month do you work extra hours beyond your usual schedule?

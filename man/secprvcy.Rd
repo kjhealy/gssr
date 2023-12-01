@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_569.R
 \name{secprvcy}
 \alias{secprvcy}
-\title{secprvcy}
+\title{Govt favor secrecy over workers privacy?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt favor secrecy over workers privacy?
+secprvcy
 }
 \details{
 Question 1586. When faced with the conflict between an individual's right to privacy and the government's need to collect personal background information before giving a SECRET or TOP SECRET clearance, the government should: 1. Favor protecting an individual's right to privacy by not gathering information. 2. Favor the government's need to protect security by gathering information.

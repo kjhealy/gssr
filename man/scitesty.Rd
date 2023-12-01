@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_544.R
 \name{scitesty}
 \alias{scitesty}
-\title{scitesty}
+\title{Human beings developed from earlier species of animal}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Human beings developed from earlier species of animal
+scitesty
 }
 \details{
 Question 1490. From the statement I'll read, look at this card and tell me which answer comes closest to your opinion on how true it is. Human beings developed from earlier species of animals.

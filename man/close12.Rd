@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_94.R
 \name{close12}
 \alias{close12}
-\title{close12}
+\title{How close are persons number 1 and 2?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How close are persons number 1 and 2?
+close12
 }
 \details{
 Question 315. Please think about the relations between the people you just mentioned. Some of them may be total strangers in teh sense that they wouldn't recognize each other if they bumped into each other on the street. Others may be especially close, as close or closer to each other as they are to you. a. Are \link{PERSON 1} and \link{PERSON 2} total strangers? b. Are they especially close? As close or closer to each other as they are to you?

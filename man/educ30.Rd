@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_264.R
 \name{educ30}
 \alias{educ30}
-\title{educ30}
+\title{R use education site in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use education site in past 30 days
+educ30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: c. Other educational site?

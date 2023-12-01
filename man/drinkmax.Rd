@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_345.R
 \name{drinkmax}
 \alias{drinkmax}
-\title{drinkmax}
+\title{Largest number of drinks in a day last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Largest number of drinks in a day last 12 months
+drinkmax
 }
 \details{
 Question 1020. Think of all kinds of alcoholic beverages combined, that is, any combination of cans, bottles or glasses of beer; glasses of wine; or drinks containing liquor of any kind. During the last 12 months, what is the largest number of drinks you had on any single day? Was it:

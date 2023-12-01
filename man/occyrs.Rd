@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_238.R
 \name{occyrs}
 \alias{occyrs}
-\title{occyrs}
+\title{How many years in your occupation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years in your occupation
+occyrs
 }
 \details{
 Question 694. How long have you been doing the kind of work you did last week (OCCUPATION DESCRIBED IN Q.2 )? That is, at least how many years in your occupation? Please include all previous jobs of the same kind.

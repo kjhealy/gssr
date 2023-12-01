@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_595.R
 \name{dateintv}
 \alias{dateintv}
-\title{dateintv}
+\title{Date of interview}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Date of interview
+dateintv
 }
 \details{
 Question 1634. Date of interview.

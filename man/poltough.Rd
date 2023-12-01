@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_269.R
 \name{poltough}
 \alias{poltough}
-\title{poltough}
+\title{Web show issues more complicated}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Web show issues more complicated
+poltough
 }
 \details{
 Question 779. In general, when you visit Web sites devoted to political or social policy issues, current affairs, or political campaigns, is it VERY TRUE for you, SOMEWHAT TRUE, or NOT TRUE that: d. After visiting such sites, you believe that issues are more complicated than you had previously thought?

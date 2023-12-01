@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_346.R
 \name{typunion}
 \alias{typunion}
-\title{typunion}
+\title{R belongs to more than one labor unions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one labor unions
+typunion
 }
 \details{
 Question 1024e. Do you belong to more than one labor union?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_193.R
 \name{relhome}
 \alias{relhome}
-\title{relhome}
+\title{Relationship to the previous owner of the home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship to the previous owner of the home
+relhome
 }
 \details{
 Question 601. Which of the following best describes your relationship to the previous owner of the home you purchased?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_524.R
 \name{drivless}
 \alias{drivless}
-\title{drivless}
+\title{Drive less for envir reasons}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Drive less for envir reasons
+drivless
 }
 \details{
 Question 1424d. And how often do you cut back on driving a car for environmental reasons?

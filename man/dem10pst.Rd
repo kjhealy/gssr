@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_543.R
 \name{dem10pst}
 \alias{dem10pst}
-\title{dem10pst}
+\title{How well did democracy work in america ten yrs ago}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How well did democracy work in america ten yrs ago
+dem10pst
 }
 \details{
 Question 1487. On the whole, on a scale of 0 to 10 where 0 is very poorly and 10 is very well. b. And what about 10 years ago? How well did democracy work in America then?

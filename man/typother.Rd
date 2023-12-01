@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_347.R
 \name{typother}
 \alias{typother}
-\title{typother}
+\title{R belongs to more than one other groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one other groups
+typother
 }
 \details{
 Question 1024p. Do you belong to more than one of any other club?

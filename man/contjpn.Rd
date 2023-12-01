@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_252.R
 \name{contjpn}
 \alias{contjpn}
-\title{contjpn}
+\title{Have japanese positive contribution to country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have japanese positive contribution to country
+contjpn
 }
 \details{
 Question 738. Since the beginning of our country, people of many different races, nationalities, and religions have come here and settled. As I name some of these groups please tell me if the group has made one of the most important positive contributions to this country, an important contribution, some contribution, or little positive contribution to this community. k. Japanese

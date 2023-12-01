@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_496.R
 \name{jbendmo}
 \alias{jbendmo}
-\title{jbendmo}
+\title{Month last paid job ended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Month last paid job ended
+jbendmo
 }
 \details{
 Question B. Please also specify the month.

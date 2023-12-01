@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_431.R
 \name{clrggen3}
 \alias{clrggen3}
-\title{clrggen3}
+\title{Sex of leader3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex of leader3
+clrggen3
 }
 \details{
 Question None

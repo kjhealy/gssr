@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_610.R
 \name{rlooks}
 \alias{rlooks}
-\title{rlooks}
+\title{R physical attractiveness rating}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R physical attractiveness rating
+rlooks
 }
 \details{
 Question How physically attractive is the respondent?

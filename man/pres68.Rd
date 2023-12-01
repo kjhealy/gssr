@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_19.R
 \name{pres68}
 \alias{pres68}
-\title{pres68}
+\title{Vote for humphrey, nixon, or wallace}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote for humphrey, nixon, or wallace
+pres68
 }
 \details{
 Question 57a. If voted: Did you vote for Humphrey, Nixon, or Wallace?

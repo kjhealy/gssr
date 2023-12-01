@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_390.R
 \name{cmprgmng}
 \alias{cmprgmng}
-\title{cmprgmng}
+\title{How scientific is computer programming}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is computer programming
+cmprgmng
 }
 \details{
 Question Computer programming. (Is computer programming...?)

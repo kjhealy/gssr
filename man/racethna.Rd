@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_576.R
 \name{racethna}
 \alias{racethna}
-\title{racethna}
+\title{Points assigned to native american/american indian}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Points assigned to native american/american indian
+racethna
 }
 \details{
 Question How would you describe your race and ethnicity using this 10-point system using the following choices: E. Native American or American Indian

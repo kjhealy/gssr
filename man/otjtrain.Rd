@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_239.R
 \name{otjtrain}
 \alias{otjtrain}
-\title{otjtrain}
+\title{Received any on-the-job training}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Received any on-the-job training
+otjtrain
 }
 \details{
 Question 701. Did you receive any on-the-job training (anywhere) about this kind of (product/service) or its production process?

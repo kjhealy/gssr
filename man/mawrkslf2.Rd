@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_612.R
 \name{mawrkslf2}
 \alias{mawrkslf2}
-\title{mawrkslf2}
+\title{Mother employee, self-employed without employees, or self-employed with employee}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mother employee, self-employed without employees, or self-employed with employee
+mawrkslf2
 }
 \details{
 Question At this job, was your mother an employee, self-employed without employees, or self-employed with employees?

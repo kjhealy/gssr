@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_90.R
 \name{minmilop}
 \alias{minmilop}
-\title{minmilop}
+\title{Min opportunities better in military?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Min opportunities better in military?
+minmilop
 }
 \details{
 Question 298a. Thinking about opportunities and equal treatment for their treatment and opportunities are better in the military, better in civilian employment, or that there isn't any difference these days?

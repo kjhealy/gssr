@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_331.R
 \name{trbllaw}
 \alias{trbllaw}
-\title{trbllaw}
+\title{Child with med get into less trouble with the}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Child with med get into less trouble with the
+trbllaw
 }
 \details{
 Question 954. Now, I'd like to ask you for your opinions on several issues. For each question, please tell me if you strongly agree, agree somewhat, disagree somewhat or strongly disagree with the statement. d. Children who receive medical treatment for behavior problems are less likely to get into trouble with the law later in life.

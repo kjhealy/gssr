@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_156.R
 \name{fstspped}
 \alias{fstspped}
-\title{fstspped}
+\title{1st spouse's father's highest yr of school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-1st spouse's father's highest yr of school
+fstspped
 }
 \details{
 Question 494. What is the highest grade or year of regular school that your (frst/former) (husband's/wife's) father ever completed?

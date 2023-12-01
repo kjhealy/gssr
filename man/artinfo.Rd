@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_272.R
 \name{artinfo}
 \alias{artinfo}
-\title{artinfo}
+\title{Use web to find info about artists}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to find info about artists
+artinfo
 }
 \details{
 Question 786e. Visit the Web to get information about an artist or sculptor or a school of artists?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_282.R
 \name{emminw}
 \alias{emminw}
-\title{emminw}
+\title{Minutes per week using work computer email}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes per week using work computer email
+emminw
 }
 \details{
 Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: e. Sending or receiving email?

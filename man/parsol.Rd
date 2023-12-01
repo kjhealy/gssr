@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_65.R
 \name{parsol}
 \alias{parsol}
-\title{parsol}
+\title{R's living standard compared to parents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's living standard compared to parents
+parsol
 }
 \details{
 Question 198a. Compared to your parents when they were the age you are now, do you think your own standard of living now is much better, somewhat better, about the same, somewhat worse, or much worse than theirs was?

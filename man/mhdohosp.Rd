@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_408.R
 \name{mhdohosp}
 \alias{mhdohosp}
-\title{mhdohosp}
+\title{What x should do: check into a hospital}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: check into a hospital
+mhdohosp
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? j. Check into a hospital

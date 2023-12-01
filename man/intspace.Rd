@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_381.R
 \name{intspace}
 \alias{intspace}
-\title{intspace}
+\title{Interested in space exploration}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested in space exploration
+intspace
 }
 \details{
 Question Issues about space exploration. (Are you very interested, moderately interested, or not at all interested?)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_113.R
 \name{scipry}
 \alias{scipry}
-\title{scipry}
+\title{Scientists pry into things they oughtn't}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientists pry into things they oughtn't
+scipry
 }
 \details{
 Question 357. Here are some things that have been said about science. Would you tell me if you tend to agree or disagree with them? c. Scientists always seem to be prying into things that they really ought to stay out of.

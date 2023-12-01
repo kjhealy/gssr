@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_466.R
 \name{pilingup}
 \alias{pilingup}
-\title{pilingup}
+\title{How often r felt difficulty piling up in past 4 weeks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r felt difficulty piling up in past 4 weeks
+pilingup
 }
 \details{
 Question During the past four weeks how often?. B. Have you felt difficulties were piling up so high that you could not overcome them?

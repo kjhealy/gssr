@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_189.R
 \name{chnang10}
 \alias{chnang10}
-\title{chnang10}
+\title{Yelled or hit something}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Yelled or hit something
+chnang10
 }
 \details{
 Question 580. I'm going to show you a list of things that people sometimes do to change their feelings. Did you do any of these things after you got angry or annoyed? j. yelled or hit something to let out my pent-up feelings

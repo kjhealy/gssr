@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_481.R
 \name{kidempty}
 \alias{kidempty}
-\title{kidempty}
+\title{Kidless people lead empty lives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kidless people lead empty lives
+kidempty
 }
 \details{
 Question 1282. Do you agree or disagree ... f. People who have never had children lead empty lives.

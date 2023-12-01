@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_156.R
 \name{fstspdeg}
 \alias{fstspdeg}
-\title{fstspdeg}
+\title{Highest degree of first spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Highest degree of first spouse
+fstspdeg
 }
 \details{
 Question 493. Did s/he ever get a high school diploma or a GED certificate? Does s/he have any college degrees? What degree or degrees?

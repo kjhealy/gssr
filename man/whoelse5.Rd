@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_606.R
 \name{whoelse5}
 \alias{whoelse5}
-\title{whoelse5}
+\title{Presence of others: other adults}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Presence of others: other adults
+whoelse5
 }
 \details{
 Question None

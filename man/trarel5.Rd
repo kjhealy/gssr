@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_84.R
 \name{trarel5}
 \alias{trarel5}
-\title{trarel5}
+\title{Trauma of relatives, last 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Trauma of relatives, last 5 yrs
+trarel5
 }
 \details{
 Question 277b. Number of traumatic events (divorces, unemployment, hospitalizations/disabilities) happening to respondent's relatives during last five years.

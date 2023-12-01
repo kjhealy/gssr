@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_453.R
 \name{unaunum}
 \alias{unaunum}
-\title{unaunum}
+\title{Number of aunts and uncles}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of aunts and uncles
+unaunum
 }
 \details{
 Question 1206. Now thinking of all your adult relatives those still living and age 18 or older. How many of each do you have? c. Aunts, uncles

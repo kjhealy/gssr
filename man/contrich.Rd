@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_631.R
 \name{contrich}
 \alias{contrich}
-\title{contrich}
+\title{How often r has contact with rich people}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r has contact with rich people
+contrich
 }
 \details{
 Question How often do you have any contact with people who are a lot richer than you when you are out and about? This might be in the street, on public transport, in shops, in your neighborhood, or at your workplace.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_146.R
 \name{richpoor}
 \alias{richpoor}
-\title{richpoor}
+\title{Ok to get rich even if others poor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ok to get rich even if others poor
+richpoor
 }
 \details{
 Question 468. As I read each of the following statemetns, please tell me whether you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree with it: b. People should be allowed to accumulate as much wealth as they can even if some make millions while others live in poverty.

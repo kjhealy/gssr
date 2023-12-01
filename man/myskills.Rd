@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_306.R
 \name{myskills}
 \alias{myskills}
-\title{myskills}
+\title{Job allows r use of skills}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job allows r use of skills
+myskills
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. h. My job lets me use my skills and abilities.

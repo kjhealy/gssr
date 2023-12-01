@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_287.R
 \name{intwkdym}
 \alias{intwkdym}
-\title{intwkdym}
+\title{Minutes of internet use on weekdays}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes of internet use on weekdays
+intwkdym
 }
 \details{
 Question B. MINUTES:

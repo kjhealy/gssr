@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_581.R
 \name{cathid}
 \alias{cathid}
-\title{cathid}
+\title{If catholic what identity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-If catholic what identity
+cathid
 }
 \details{
 Question 1619f. When it comes to your religious identity, would you say you are a traditional, moderate, or liberal Catholic, or do none of these describe you?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_416.R
 \name{mhdiagno}
 \alias{mhdiagno}
-\title{mhdiagno}
+\title{R knows someone who has been diagnosed with a mental health problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R knows someone who has been diagnosed with a mental health problem
+mhdiagno
 }
 \details{
 Question None

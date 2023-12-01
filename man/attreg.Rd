@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_580.R
 \name{attreg}
 \alias{attreg}
-\title{attreg}
+\title{Last 7 days attend a worship service}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Last 7 days attend a worship service
+attreg
 }
 \details{
 Question 1616. During the last seven days did you do the following: a. Attend a regular, weekly worship service at a church/synagogue (e.g. mass or Sunday morning services). Don't include watching a service on TV or listening to one on the radio.

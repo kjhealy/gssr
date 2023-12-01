@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_153.R
 \name{mostimp1}
 \alias{mostimp1}
-\title{mostimp1}
+\title{Most imp event in lst 60 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most imp event in lst 60 yrs
+mostimp1
 }
 \details{
 Question 478. The next questions concern how peple think about the past. There have been a lot of national and world events and changes over the past 60 years - say, from about 1930 right up until today. Would you mention one or two such events or changes that seem to you to have been especially important? There aren't any right or wrong answers to the question - just whatever national or world events or changes over the past 60 years that come to

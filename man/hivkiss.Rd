@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_555.R
 \name{hivkiss}
 \alias{hivkiss}
-\title{hivkiss}
+\title{Kiss can spread hiv}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Kiss can spread hiv
+hivkiss
 }
 \details{
 Question D. People are likely to get HIV by deep kissing, putting their tongue in their partner's mouth, if their partner has HIV.

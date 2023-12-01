@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_524.R
 \name{comtype}
 \alias{comtype}
-\title{comtype}
+\title{Type of community in which r lives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of community in which r lives
+comtype
 }
 \details{
 Question 1427. Would you describe the place where you live as...

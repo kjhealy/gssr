@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_16.R
 \name{income91}
 \alias{income91}
-\title{income91}
+\title{Total family income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total family income
+income91
 }
 \details{
 Question Family income on the 1991-96 surveys.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_66.R
 \name{fefirm}
 \alias{fefirm}
-\title{fefirm}
+\title{How firm is r's opinion on women's rghts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How firm is r's opinion on women's rghts
+fefirm
 }
 \details{
 Question 203c. How firm are you about your opinion on women's rights?

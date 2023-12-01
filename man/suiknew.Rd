@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_549.R
 \name{suiknew}
 \alias{suiknew}
-\title{suiknew}
+\title{#People r knows suicide in last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-#People r knows suicide in last year
+suiknew
 }
 \details{
 Question 1532. Within the past 12 months, how many people have you known personally that have committed suicide?

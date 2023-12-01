@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_570.R
 \name{takearms}
 \alias{takearms}
-\title{takearms}
+\title{Punishment for stealing and selling weapons}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment for stealing and selling weapons
+takearms
 }
 \details{
 Question 1590. Now I'm going to ask you about several offenses. For each case, indicate (Number 1-6) what you would consider the appropriate punishment for each case. a. An army sergeant was convicted of stealing airplane parts, ammunition, explosives and other government property and selling them to civilians.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_388.R
 \name{engdo}
 \alias{engdo}
-\title{engdo}
+\title{Know what engineers do}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Know what engineers do
+engdo
 }
 \details{
 Question Next, I'd like to ask how you rate your knowledge of what engineers do day-to-day in their jobs. Would you say your knowledge of what engineers do day-to-day on their jobs is: Excellent, Good, Fair, Poor, Very Poor?

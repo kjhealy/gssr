@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_294.R
 \name{rfreenow}
 \alias{rfreenow}
-\title{rfreenow}
+\title{R have more freedom than in past}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R have more freedom than in past
+rfreenow
 }
 \details{
 Question 826. And how about you? Do you personally feel that you now have more freedom, less freedom, or about the same amount of freedom as you had in the past?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_548.R
 \name{aidsded2}
 \alias{aidsded2}
-\title{aidsded2}
+\title{Has aids victim 2nd closest to r died}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has aids victim 2nd closest to r died
+aidsded2
 }
 \details{
 Question 1529. We would like to know a few other things about that person. a. Is that person currently living, or has that person died?

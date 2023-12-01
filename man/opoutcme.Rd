@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_146.R
 \name{opoutcme}
 \alias{opoutcme}
-\title{opoutcme}
+\title{Should amer promote eq oppty or eq outcomes?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should amer promote eq oppty or eq outcomes?
+opoutcme
 }
 \details{
 Question 469. Some people think America should promote equal opportunity for all, that is, allowing everyone to compete for jobs and wealth ona fair and even basis. Other people think America should promote equal outcomes, that is, insuring that everyone has a decent standard of living and that there are only small differences in wealth and income between the top and bottom in society. Which do you favor: promoting equal opportunity ro promoting equal outcomes?

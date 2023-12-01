@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_278.R
 \name{perfrmgn}
 \alias{perfrmgn}
-\title{perfrmgn}
+\title{R obtain information on performing arts past ye}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R obtain information on performing arts past ye
+perfrmgn
 }
 \details{
 Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: i. Obtained information about a concert, play, or other performing-arts event?

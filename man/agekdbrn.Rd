@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_10.R
 \name{agekdbrn}
 \alias{agekdbrn}
-\title{agekdbrn}
+\title{R's age when 1st child born}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's age when 1st child born
+agekdbrn
 }
 \details{
 Question 14. How old were you when your first child was born?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_232.R
 \name{volarts}
 \alias{volarts}
-\title{volarts}
+\title{Volunteered for organizations of arts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Volunteered for organizations of arts
+volarts
 }
 \details{
 Question 692. Last year, did you do any volunteer work for organizations involved in the arts, culture, or the humanities?

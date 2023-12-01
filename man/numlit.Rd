@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_349.R
 \name{numlit}
 \alias{numlit}
-\title{numlit}
+\title{How many r belongs to literary groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to literary groups
+numlit
 }
 \details{
 Question 1025m. How many literary, art, discussion, or study groups do you belong to?

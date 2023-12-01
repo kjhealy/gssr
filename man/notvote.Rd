@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_543.R
 \name{notvote}
 \alias{notvote}
-\title{notvote}
+\title{Citizens have right not to vote}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Citizens have right not to vote
+notvote
 }
 \details{
 Question On a scale of 1 to 7, where 1 is not at all important and 7 is very important, how important is it: D. That citizens have the right not to vote.

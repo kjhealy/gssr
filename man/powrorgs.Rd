@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_535.R
 \name{powrorgs}
 \alias{powrorgs}
-\title{powrorgs}
+\title{Intl orgs take away much power from american govt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Intl orgs take away much power from american govt
+powrorgs
 }
 \details{
 Question 1460. How much do you agree or disagree with the following statements? d. International organizations are taking away too much power from the American government.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_377.R
 \name{engnrsci}
 \alias{engnrsci}
-\title{engnrsci}
+\title{How scientific: engineering}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific: engineering
+engnrsci
 }
 \details{
 Question 1073. Please look at Card B20. How scientific are each of the following fields? If you have not heard of a particular field, just say you haven't heard of it h. Engineering

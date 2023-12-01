@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_627.R
 \name{suicide3g}
 \alias{suicide3g}
-\title{suicide3g}
+\title{Suicide if dishonored family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Suicide if dishonored family
+suicide3g
 }
 \details{
 Question None

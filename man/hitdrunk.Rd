@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_75.R
 \name{hitdrunk}
 \alias{hitdrunk}
-\title{hitdrunk}
+\title{Drunk bumped into man & wife}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Drunk bumped into man & wife
+hitdrunk
 }
 \details{
 Question 231. If yes or not sure: Would you approve if the stranger: b. Was drunked and bumped into the man and his wife on the street?

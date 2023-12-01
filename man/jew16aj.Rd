@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_40.R
 \name{jew16aj}
 \alias{jew16aj}
-\title{jew16aj}
+\title{What sort of jew r was at age 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What sort of jew r was at age 16
+jew16aj
 }
 \details{
 Question Were you Orthodox, Conservative, Reform, or none of these? (PROBE FOR EXACT DENOMINATION)

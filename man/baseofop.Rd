@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_146.R
 \name{baseofop}
 \alias{baseofop}
-\title{baseofop}
+\title{You have base of operations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You have base of operations
+baseofop
 }
 \details{
 Question 465. Do you have any base of operations at all?

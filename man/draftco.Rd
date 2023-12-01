@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_89.R
 \name{draftco}
 \alias{draftco}
-\title{draftco}
+\title{Conscientious objector exempt from draft}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Conscientious objector exempt from draft
+draftco
 }
 \details{
 Question 296. If the United States returned to a military draft, it woudl not be necessary to draft everyone of military age. That is, certain types of people could be exempted, even though they were otherwise qualified for service. e. People who have conscientious objections to war.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_10.R
 \name{padeg}
 \alias{padeg}
-\title{padeg}
+\title{Father's highest degree}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's highest degree
+padeg
 }
 \details{
 Question 20. If finished 9th-12th grade: Did he ever get a high school diploma or a GED certificate?

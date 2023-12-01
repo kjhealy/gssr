@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_347.R
 \name{typgreek}
 \alias{typgreek}
-\title{typgreek}
+\title{R belongs to more than one school fraternities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one school fraternities
+typgreek
 }
 \details{
 Question 1024j. Do you belong to more than one school fraternity or sorority?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_249.R
 \name{termemot}
 \alias{termemot}
-\title{termemot}
+\title{Worry about emotional burden on my family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Worry about emotional burden on my family
+termemot
 }
 \details{
 Question 732. Now, I would like to talk about concerns you may have when considering what may happen at the end of your life. Please tell me how much you agree or disagree with each of these statements: c. I worry about the emotional burden that my family might face making decisions for me at the end of life.

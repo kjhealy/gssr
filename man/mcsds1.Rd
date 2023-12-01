@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{mcsds1}
 \alias{mcsds1}
-\title{mcsds1}
+\title{I’m always willing to admit it when i make a mistake}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I’m always willing to admit it when i make a mistake
+mcsds1
 }
 \details{
 Question Next are a number of statements concerning personal attitudes and traits. Please tell me whether the statement is true or false as it pertains to you personally A. I?m always willing to admit it when I make a mistake.

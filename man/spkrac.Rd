@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_31.R
 \name{spkrac}
 \alias{spkrac}
-\title{spkrac}
+\title{Allow racist to speak}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow racist to speak
+spkrac
 }
 \details{
 Question 78. Or consider a person who believes that Blacks are genetically inferior. a. If such a person wanted to make a speech in your community claiming that Blacks are inferior, should he be allowed to speak, or not?

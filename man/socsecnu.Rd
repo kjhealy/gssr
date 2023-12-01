@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_249.R
 \name{socsecnu}
 \alias{socsecnu}
-\title{socsecnu}
+\title{Social security phase out or continue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Social security phase out or continue
+socsecnu
 }
 \details{
 Question 730. Do you think it would be better to phase out Social Security and require people to take what they and their employers now pay into Social Security and invest it in mandatory private retirement accounts, or do you think Social Security should continue much as it is now?

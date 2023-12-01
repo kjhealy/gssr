@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_288.R
 \name{intaccss}
 \alias{intaccss}
-\title{intaccss}
+\title{Does r have internet through cell phone or pda}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r have internet through cell phone or pda
+intaccss
 }
 \details{
 Question 809. Do you have access to the Internet or World Wide Web through a Cellular Telephone, Palm Pilot, or other Personal Digital Assistant (like "Blackberry")?

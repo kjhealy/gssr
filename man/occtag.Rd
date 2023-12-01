@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_03.R
 \name{occtag}
 \alias{occtag}
-\title{occtag}
+\title{Occ10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Occ10 coding tag
+occtag
 }
 \details{
 Question None

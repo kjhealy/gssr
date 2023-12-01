@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_133.R
 \name{blkjobs}
 \alias{blkjobs}
-\title{blkjobs}
+\title{Blacks discriminated in jobs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Blacks discriminated in jobs
+blkjobs
 }
 \details{
 Question 410b. How much discrimination is there that hurts the chances of blacks to get good paying jobs?

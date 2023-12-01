@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_157.R
 \name{sphedpre}
 \alias{sphedpre}
-\title{sphedpre}
+\title{Spouse's father's occ pres when spouse was 16 (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse's father's occ pres when spouse was 16 (1980)
+sphedpre
 }
 \details{
 Question None

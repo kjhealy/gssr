@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_296.R
 \name{energy}
 \alias{energy}
-\title{energy}
+\title{Have a lot of energy in past 4 wks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have a lot of energy in past 4 wks
+energy
 }
 \details{
 Question These questions are about how you feel and how things have been with you during the past 4 weeks. For each question, please give the one answer that comes closest to the way you have been feeling. 839. How much of the time during the past 4 weeks did you have a lot of energy?

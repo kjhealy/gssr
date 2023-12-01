@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_449.R
 \name{wotrial}
 \alias{wotrial}
-\title{wotrial}
+\title{Should authorities have right to detain the suspected}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should authorities have right to detain the suspected
+wotrial
 }
 \details{
 Question 1492. Suppose the government suspected that a terrorist act was about to happen. Do you think the authorities should have the right to... a. detain people for as long as they want without putting them on trial?

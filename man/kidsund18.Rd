@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_663.R
 \name{kidsund18}
 \alias{kidsund18}
-\title{kidsund18}
+\title{Any kids under 18 in hh}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Any kids under 18 in hh
+kidsund18
 }
 \details{
 Question None

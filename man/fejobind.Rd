@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_477.R
 \name{fejobind}
 \alias{fejobind}
-\title{fejobind}
+\title{Job is best way for woman to be indep}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job is best way for woman to be indep
+fejobind
 }
 \details{
 Question 1275. Do you agree or disagree: g. Having a job is the best way for a woman to be an independent person.

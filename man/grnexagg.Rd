@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_525.R
 \name{grnexagg}
 \alias{grnexagg}
-\title{grnexagg}
+\title{Environmental threats exaggerated}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Environmental threats exaggerated
+grnexagg
 }
 \details{
 Question 1429. How much do you agree or disagree with each of these statements? c. Many of the claims about environmental threats are exaggerated.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_473.R
 \name{conunion}
 \alias{conunion}
-\title{conunion}
+\title{Workers and management in conflict?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Workers and management in conflict?
+conunion
 }
 \details{
 Question 1259. In all countries, there are differences or conflicts between different social groups. In your opinion, in America, how much conflict is there between . . . d. Management and workers?

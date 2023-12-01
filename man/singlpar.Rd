@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_483.R
 \name{singlpar}
 \alias{singlpar}
-\title{singlpar}
+\title{Single parents can raise kids as well as two}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Single parents can raise kids as well as two
+singlpar
 }
 \details{
 Question 1298. Do you agree or disagree: a. One parent can bring up a child as well as two parents together.

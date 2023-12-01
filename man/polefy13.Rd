@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_433.R
 \name{polefy13}
 \alias{polefy13}
-\title{polefy13}
+\title{Understand issues facing country}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Understand issues facing country
+polefy13
 }
 \details{
 Question How good is your understanding of the important political issues facing our country: Not at all, a little, somewhat, very, or extremely?

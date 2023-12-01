@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_379.R
 \name{icesheet}
 \alias{icesheet}
-\title{icesheet}
+\title{True-false: the north pole is on a sheet of ice}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-True-false: the north pole is on a sheet of ice
+icesheet
 }
 \details{
 Question 1077. The next few questions are about the Arctic and the Antarctic. The Arctic is the region around the North Pole; Antarctic is the region that contains the South Pole. These questions are like ones you might see on a television game show. If you don't know or aren't sure, just tell me so, and we will skip to the next question. Remember true, false, or don't know. a. The North Pole is on a sheet of ice that floats on the Arctic Ocean. (Is that true or false?)

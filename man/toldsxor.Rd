@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_426.R
 \name{toldsxor}
 \alias{toldsxor}
-\title{toldsxor}
+\title{At what age you first told someone that you were gay/les/bi}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-At what age you first told someone that you were gay/les/bi
+toldsxor
 }
 \details{
 Question At about what age were you when you first told someone that you were {response to gayles}?

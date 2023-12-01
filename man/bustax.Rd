@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_442.R
 \name{bustax}
 \alias{bustax}
-\title{bustax}
+\title{Amount of tax on business and industry}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Amount of tax on business and industry
+bustax
 }
 \details{
 Question 1182. Do you consider the amount of tax that business and industry have to pay is too high or too low?

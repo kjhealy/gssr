@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_257.R
 \name{knwblk}
 \alias{knwblk}
-\title{knwblk}
+\title{Does r personally any blacks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r personally any blacks
+knwblk
 }
 \details{
 Question 757. Do you personally know any...? b. Blacks

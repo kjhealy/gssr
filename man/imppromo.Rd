@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_139.R
 \name{imppromo}
 \alias{imppromo}
-\title{imppromo}
+\title{Importance of the opportunity to be promoted}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of the opportunity to be promoted
+imppromo
 }
 \details{
 Question 432. How important to you is the opportunity to be promoted?

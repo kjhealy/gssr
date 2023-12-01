@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_108.R
 \name{actsport}
 \alias{actsport}
-\title{actsport}
+\title{R active in sports club}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in sports club
+actsport
 }
 \details{
 Question 330. Have you ever done any active work for the sports clubs? I mean been a leader, helped organize meetings, been an officer, or given time or money?

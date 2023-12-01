@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_526.R
 \name{excldimm}
 \alias{excldimm}
-\title{excldimm}
+\title{America should exclude illegal immigrants}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-America should exclude illegal immigrants
+excldimm
 }
 \details{
 Question 1516. How much do you agree or disagree with the following statement? America should take stronger measures to exclude illegal immigrants

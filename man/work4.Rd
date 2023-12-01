@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_562.R
 \name{work4}
 \alias{work4}
-\title{work4}
+\title{Being passed over for promotion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Being passed over for promotion
+work4
 }
 \details{
 Question B. Second, what about work-related matters? Did any of the following happen to you since (CURRENT MONTH), 2003? 4. Passed over for promotion

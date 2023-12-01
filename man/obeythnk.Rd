@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_518.R
 \name{obeythnk}
 \alias{obeythnk}
-\title{obeythnk}
+\title{Should chldrn be obedient or think for selves}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should chldrn be obedient or think for selves
+obeythnk
 }
 \details{
 Question 1406. Which of these would you say is more important in preparing children for life...

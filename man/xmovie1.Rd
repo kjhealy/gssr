@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_71.R
 \name{xmovie1}
 \alias{xmovie1}
-\title{xmovie1}
+\title{Seen porn film (theater or vcr) last yr}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Seen porn film (theater or vcr) last yr
+xmovie1
 }
 \details{
 Question 223b. Have you seen an x-rated movie either in a movie theater or on a VCR (Video Cassette Recorder) in the last year?

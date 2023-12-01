@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_475.R
 \name{payedtrn}
 \alias{payedtrn}
-\title{payedtrn}
+\title{How much pay dependent on educ and training}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much pay dependent on educ and training
+payedtrn
 }
 \details{
 Question 1268. In deciding how much people ought to earn, how important should each of these things be, in your opinion: b. The number of year spent in education and training?

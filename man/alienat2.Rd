@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_49.R
 \name{alienat2}
 \alias{alienat2}
-\title{alienat2}
+\title{Rich get richer, poor poorer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rich get richer, poor poorer
+alienat2
 }
 \details{
 Question 156. Now I want to read you some things some people have told us they have felt from time to time. Do you tend to feel or not: b. The rich get richer and the poor get poorer?

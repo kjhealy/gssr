@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_296.R
 \name{treat2}
 \alias{treat2}
-\title{treat2}
+\title{R seek treat climbing stair's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R seek treat climbing stair's
+treat2
 }
 \details{
 Question 842. Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not. b. Not being able to climb several flights of stairs?

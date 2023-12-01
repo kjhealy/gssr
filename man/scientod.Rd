@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_387.R
 \name{scientod}
 \alias{scientod}
-\title{scientod}
+\title{Scientists odd and peculiar}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Scientists odd and peculiar
+scientod
 }
 \details{
 Question Scientists are apt to be odd and peculiar people. Do you strongly agree, agree, disagree, or strongly disagree?

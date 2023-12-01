@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_263.R
 \name{chathr}
 \alias{chathr}
-\title{chathr}
+\title{Chatroom hours per week}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Chatroom hours per week
+chathr
 }
 \details{
 Question 770. Earlier you mentioned that you spend \link{number in answer to Q.769} (minutes/hours) using the World Wide Web in a typical week. About how many of those do you spend using chat rooms, news groups, bulletin boards, discussion forums, and other forms of on-line interaction with other Net users�not just browsing on your own? a. Hours per week?

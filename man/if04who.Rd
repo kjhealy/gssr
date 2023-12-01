@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_22.R
 \name{if04who}
 \alias{if04who}
-\title{if04who}
+\title{Who would r has voted for in 2004 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who would r has voted for in 2004 election
+if04who
 }
 \details{
 Question 66b. If did not vote or ineligible: Who would you have voted for, for President, if you had voted?

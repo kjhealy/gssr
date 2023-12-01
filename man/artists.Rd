@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_231.R
 \name{artists}
 \alias{artists}
-\title{artists}
+\title{Excellent artists able support themselves}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Excellent artists able support themselves
+artists
 }
 \details{
 Question 687. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. For example . . . b. Artists and performers who are truly excellent will be able to support themselves by selling atworks or tickets to performances.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_321.R
 \name{extraval}
 \alias{extraval}
-\title{extraval}
+\title{Total dollar value of pay in previous year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Total dollar value of pay in previous year
+extraval
 }
 \details{
 Question 921. What was the approximate total dollar value of these various payments in 2001/5?

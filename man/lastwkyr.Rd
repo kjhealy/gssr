@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_322.R
 \name{lastwkyr}
 \alias{lastwkyr}
-\title{lastwkyr}
+\title{What year were you last working}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What year were you last working
+lastwkyr
 }
 \details{
 Question 925d. D. When were you last working for pay, that is what month and year were you last working?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_564.R
 \name{hrdshp6}
 \alias{hrdshp6}
-\title{hrdshp6}
+\title{Lacking health insurance coverage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Lacking health insurance coverage
+hrdshp6
 }
 \details{
 Question D. Now I am going to ask about specific hardships. Did any of the following occur to you since (CURRENT MONTH), 2003? 6. Lacked health insurance coverage (e.g. Medicare, Medicaid, Blue Cross, an HMO, etc.).

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_06.R
 \name{spindtag}
 \alias{spindtag}
-\title{spindtag}
+\title{Spind10 coding tag}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spind10 coding tag
+spindtag
 }
 \details{
 Question None

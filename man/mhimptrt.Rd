@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_411.R
 \name{mhimptrt}
 \alias{mhimptrt}
-\title{mhimptrt}
+\title{How likely x s situation will improve with treatment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely x s situation will improve with treatment
+mhimptrt
 }
 \details{
 Question 1137. How likely is it that \link{NAME}'s situation will improve with treatment? Is it very likely, somewhat likely, not very likely, or not at all likely?

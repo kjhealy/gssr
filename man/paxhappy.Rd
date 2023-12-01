@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_517.R
 \name{paxhappy}
 \alias{paxhappy}
-\title{paxhappy}
+\title{Religion helps people to find inner peace and happiness}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religion helps people to find inner peace and happiness
+paxhappy
 }
 \details{
 Question None

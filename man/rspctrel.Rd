@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_515.R
 \name{rspctrel}
 \alias{rspctrel}
-\title{rspctrel}
+\title{We must respect all religions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-We must respect all religions
+rspctrel
 }
 \details{
 Question None

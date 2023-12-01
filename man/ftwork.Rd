@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_325.R
 \name{ftwork}
 \alias{ftwork}
-\title{ftwork}
+\title{Young should be employed full-time}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Young should be employed full-time
+ftwork
 }
 \details{
 Question 933. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to be... To be employed full-time

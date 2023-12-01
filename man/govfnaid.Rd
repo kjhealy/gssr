@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_634.R
 \name{govfnaid}
 \alias{govfnaid}
-\title{govfnaid}
+\title{Govt should give financial assistance to college students from low-income famili}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should give financial assistance to college students from low-income famili
+govfnaid
 }
 \details{
 Question The government should give financial assistance to college students from low-income families, even if it might require a tax increase to pay for it

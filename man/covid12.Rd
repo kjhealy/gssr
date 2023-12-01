@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_659.R
 \name{covid12}
 \alias{covid12}
-\title{covid12}
+\title{Covid vaccine ever}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Covid vaccine ever
+covid12
 }
 \details{
 Question Have you ever received a COVID-19 vaccine? (Regardless of how many doses.)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_329.R
 \name{adcou}
 \alias{adcou}
-\title{adcou}
+\title{Would r go to counselor if child was r's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r go to counselor if child was r's
+adcou
 }
 \details{
 Question 947. If (John/Mary) was your child, would you... Go to a therapist or counselor, like a psychologist, social worker, or other mental health professional for help?

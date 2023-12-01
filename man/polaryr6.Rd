@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_378.R
 \name{polaryr6}
 \alias{polaryr6}
-\title{polaryr6}
+\title{Intl polar year 07-08:r would read a book}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Intl polar year 07-08:r would read a book
+polaryr6
 }
 \details{
 Question 1076. 2007-2008 has been designated the International Polar Year. During this year, many scientific and educational organizations will be making efforts to increase public awareness of the Earth's polar regions. These organizations hope that people will learn more about the people and animals that live near the poles, the changes taking place in the environment there, and new scientific discoveries about the Arctic and the Antarctic. Still looking at Card B22, do you think you would be very likely, somewhat likely, somewhat unlikely, or very unlikely to... f. Read a book about the polar regions?

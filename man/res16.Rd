@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_13.R
 \name{res16}
 \alias{res16}
-\title{res16}
+\title{Type of place lived in when 16 yrs old}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of place lived in when 16 yrs old
+res16
 }
 \details{
 Question 25. Which of the categories on this card comes closest to the type of place you were living in when you were 16 years old?

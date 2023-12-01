@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_218.R
 \name{brkddo1}
 \alias{brkddo1}
-\title{brkddo1}
+\title{1st mention what r did when felt ner. break}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-1st mention what r did when felt ner. break
+brkddo1
 }
 \details{
 Question 669b. (IF EVER ANTICIPATED A NERVOUS BREAKDOWN What did you do about it? (PROBE: Anything else? until R says no.) Which of these things did you do first; second; third? (INTERVIEWER: Sequence list; read back if needed.)

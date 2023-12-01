@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_302.R
 \name{fininc}
 \alias{fininc}
-\title{fininc}
+\title{R heard docs limit used of exp tests}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R heard docs limit used of exp tests
+fininc
 }
 \details{
 Question 859. Some doctors or groups may be paid more if they limit the use of expensive tests or the use of specialists. Such arrangements are known as financial incentives. Have you heard of such arrangements before now?

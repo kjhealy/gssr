@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_456.R
 \name{kidnum}
 \alias{kidnum}
-\title{kidnum}
+\title{Number of children age 18 and older}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of children age 18 and older
+kidnum
 }
 \details{
 Question 1222. Now some questions about your children who are aged 18 and older. How many children age 18 and older do you have? (We mean children who are still alive. Please include step-children and adopted children.)

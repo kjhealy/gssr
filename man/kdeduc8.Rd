@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_163.R
 \name{kdeduc8}
 \alias{kdeduc8}
-\title{kdeduc8}
+\title{Highest schl grade of r 8th child}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Highest schl grade of r 8th child
+kdeduc8
 }
 \details{
 Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. f. If born before 1976: What is the highest grade or year of regular school that \link{CHILD} ever completed?

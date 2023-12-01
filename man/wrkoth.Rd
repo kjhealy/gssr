@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_238.R
 \name{wrkoth}
 \alias{wrkoth}
-\title{wrkoth}
+\title{Ever worked full time at other parts of org}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever worked full time at other parts of org
+wrkoth
 }
 \details{
 Question 697a. Have you ever worked full time at other part (locations/schools/government departments or agencies) of the larger organization?

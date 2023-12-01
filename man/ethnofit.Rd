@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_300.R
 \name{ethnofit}
 \alias{ethnofit}
-\title{ethnofit}
+\title{Eth minorities never fit in am mainstream}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Eth minorities never fit in am mainstream
+ethnofit
 }
 \details{
 Question 848. Here are some opinions some people have expressed in connection with ethnic issues in the United States. To what extent do you agree or disagree with each one? b. Ethnic American culture.

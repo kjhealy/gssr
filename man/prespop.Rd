@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_432.R
 \name{prespop}
 \alias{prespop}
-\title{prespop}
+\title{Approve of pres handling job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Approve of pres handling job
+prespop
 }
 \details{
 Question Do you approve or disapprove of the way Barack Obama is handling his job as president?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_235.R
 \name{artatt3}
 \alias{artatt3}
-\title{artatt3}
+\title{Attended with friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attended with friend
+artatt3
 }
 \details{
 Question Did any of the following go with you? C. Friend

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_28.R
 \name{equal7}
 \alias{equal7}
-\title{equal7}
+\title{Business profits are distributed fairly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Business profits are distributed fairly
+equal7
 }
 \details{
 Question 71. On these cards are some opinions about the government and the economy. For each one I'd like you to tell me whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. g. Generally speaking, business profits are distributed fairly in the United States.

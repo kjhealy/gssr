@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_164.R
 \name{kdwrkslf}
 \alias{kdwrkslf}
-\title{kdwrkslf}
+\title{R child self-employed?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R child self-employed?
+kdwrkslf
 }
 \details{
 Question 507e. (is/was) (s/he) self-employed or (does/did) (s/he) work for someone else?

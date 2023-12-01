@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_553.R
 \name{evpaidsx}
 \alias{evpaidsx}
-\title{evpaidsx}
+\title{Ever have sex paid for or being paid since 18}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ever have sex paid for or being paid since 18
+evpaidsx
 }
 \details{
 Question 1554. Thinking about the time since your 18th birthday, have you ever had sex with a person you paid or who paid you for sex?

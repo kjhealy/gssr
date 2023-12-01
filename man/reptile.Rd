@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_318.R
 \name{reptile}
 \alias{reptile}
-\title{reptile}
+\title{Reptile (turtle, snake, lizard)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Reptile (turtle, snake, lizard)
+reptile
 }
 \details{
 Question What kind of pet\link{s} does your family have? F Reptile

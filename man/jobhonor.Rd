@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_62.R
 \name{jobhonor}
 \alias{jobhonor}
-\title{jobhonor}
+\title{Occupation is recognized and respected}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Occupation is recognized and respected
+jobhonor
 }
 \details{
 Question 184. On these card are various aspects of jobs. How important do you personally consider these job characteristics? AN OCCUPATION THAT IS RECOGNIZED AND RESPECTED

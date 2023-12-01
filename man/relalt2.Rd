@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_343.R
 \name{relalt2}
 \alias{relalt2}
-\title{relalt2}
+\title{Rel change made r sense life was meaningful}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rel change made r sense life was meaningful
+relalt2
 }
 \details{
 Question 1002. To what extent did the religious/spiritual change you just told me about do the following?

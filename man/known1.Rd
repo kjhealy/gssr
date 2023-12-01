@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_102.R
 \name{known1}
 \alias{known1}
-\title{known1}
+\title{How long has r known person #1?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long has r known person #1?
+known1
 }
 \details{
 Question 320. Have you known \link{NAME} for less than 3 years, 3 to 6 years, or more than 6 years?

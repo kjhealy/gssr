@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_288.R
 \name{jobcowrk}
 \alias{jobcowrk}
-\title{jobcowrk}
+\title{Times r sought job information from co-workers}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Times r sought job information from co-workers
+jobcowrk
 }
 \details{
 Question Please tell me how many times you tried to find such information from... d. A fellow worker or human resources staff member at your workplace�that is, where you were working when you were searching?

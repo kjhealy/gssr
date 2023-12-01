@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_243.R
 \name{psycfdoc}
 \alias{psycfdoc}
-\title{psycfdoc}
+\title{Would trust family physician prescription}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would trust family physician prescription
+psycfdoc
 }
 \details{
 Question 713. If you were to seek services for a problem with your emotions, nerves, or your mental health, how much would you agree or disagree with the following options? b. I would trust my family physician to prescribe psychiatric medication

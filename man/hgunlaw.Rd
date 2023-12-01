@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_341.R
 \name{hgunlaw}
 \alias{hgunlaw}
-\title{hgunlaw}
+\title{Should be more restrictions on handgun}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should be more restrictions on handgun
+hgunlaw
 }
 \details{
 Question 988. Please tell me whether you agree or disagree with the following statement: "There should be more legal restrictions on handguns in our society."

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_648.R
 \name{medpay}
 \alias{medpay}
-\title{medpay}
+\title{Couldn't get care because couldn't pay}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Couldn't get care because couldn't pay
+medpay
 }
 \details{
 Question During the past 12 months did it ever happen that you did not get the medical treatment you needed because... You could not pay for it?

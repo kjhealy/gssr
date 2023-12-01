@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_435.R
 \name{mantail}
 \alias{mantail}
-\title{mantail}
+\title{Should police tail a suspect?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should police tail a suspect?
+mantail
 }
 \details{
 Question 1163. Now, suppose the tip is about a man without a criminal record. Please circle a number for each question to show if you think police should be allowed without a court order to... a. Keep the man under surveillance

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_231.R
 \name{irrelart}
 \alias{irrelart}
-\title{irrelart}
+\title{Should allow art to mock or demean religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should allow art to mock or demean religion
+irrelart
 }
 \details{
 Question 688 . Consider an artist--like a painter, sculptor, or photographer--whose art works mock or demean religions or religious figures. If such a person wanted to exhibit these works in your community, should the exhibit be allowed, or not?

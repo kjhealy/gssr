@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_420.R
 \name{eff911a}
 \alias{eff911a}
-\title{eff911a}
+\title{How effective r thinks developing emergency plans}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How effective r thinks developing emergency plans
+eff911a
 }
 \details{
 Question How effective do you think developing emergency plans (evacuation, meeting places) is for people dealing with terrorism? Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?

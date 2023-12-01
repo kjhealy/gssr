@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_552.R
 \name{sexfreq1}
 \alias{sexfreq1}
-\title{sexfreq1}
+\title{Had sex in last month}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Had sex in last month
+sexfreq1
 }
 \details{
 Question 1546. In the past month, have you engaged in sexual intercourse?

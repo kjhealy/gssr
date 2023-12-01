@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_356.R
 \name{yrother5}
 \alias{yrother5}
-\title{yrother5}
+\title{How many years r born a member of other group5}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years r born a member of other group5
+yrother5
 }
 \details{
 Question 1026p. How many years have you been a member of \link{OTHER GROUP}?

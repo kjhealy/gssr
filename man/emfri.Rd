@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_285.R
 \name{emfri}
 \alias{emfri}
-\title{emfri}
+\title{R send or receive to or from friends}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R send or receive to or from friends
+emfri
 }
 \details{
 Question Do any of the personal one-to-one messages you receive or send come from: i. Friends?

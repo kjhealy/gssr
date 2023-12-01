@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_331.R
 \name{medsavtx}
 \alias{medsavtx}
-\title{medsavtx}
+\title{Govt programs for mental health treatment will}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt programs for mental health treatment will
+medsavtx
 }
 \details{
 Question 954. Now, I'd like to ask you for your opinions on several issues. For each question, please tell me if you strongly agree, agree somewhat, disagree somewhat or strongly disagree with the statement. e. In the long-run, government programs that provide mental health treatment to children will save taxpayers money.

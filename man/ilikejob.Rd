@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_477.R
 \name{ilikejob}
 \alias{ilikejob}
-\title{ilikejob}
+\title{R would enjoy job if money wasn't needed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would enjoy job if money wasn't needed
+ilikejob
 }
 \details{
 Question 1275. Do you agree or disagree: j. I would enjoy having a job even if I didn't need the money.

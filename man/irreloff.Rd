@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_231.R
 \name{irreloff}
 \alias{irreloff}
-\title{irreloff}
+\title{Offended art mocks or demeans religion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Offended art mocks or demeans religion
+irreloff
 }
 \details{
 Question 688a. Would you, personally, be offended by an exhibit of such artworks or would you not be offended?

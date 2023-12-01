@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_333.R
 \name{doc18a}
 \alias{doc18a}
-\title{doc18a}
+\title{Doctor put medical needs above all other}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctor put medical needs above all other
+doc18a
 }
 \details{
 Question 963. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. c. I trust my doctor to put my medical needs above all other considerations when treating my medical problems.

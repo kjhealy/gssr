@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_132.R
 \name{influasn}
 \alias{influasn}
-\title{influasn}
+\title{Influence of asians}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence of asians
+influasn
 }
 \details{
 Question 409. Some people think that certain groups have too much influence in American life and politics, while other people feel that certain groups don't have as much influence as they deserve. On this card are three statements about how much influence a group might have. For each group I read to you, just tell me the number of the statement that best says how you feel. d. Asian Americans

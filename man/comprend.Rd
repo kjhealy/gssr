@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_78.R
 \name{comprend}
 \alias{comprend}
-\title{comprend}
+\title{R's understanding of questions}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's understanding of questions
+comprend
 }
 \details{
 Question 247. Was respondent's understanding of the questions:

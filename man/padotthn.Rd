@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_19.R
 \name{padotthn}
 \alias{padotthn}
-\title{padotthn}
+\title{Fa. d.o.t. code - relation to things}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fa. d.o.t. code - relation to things
+padotthn
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_103.R
 \name{age4}
 \alias{age4}
-\title{age4}
+\title{Age of person #4}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Age of person #4
+age4
 }
 \details{
 Question 322. How old is \link{NAME}?

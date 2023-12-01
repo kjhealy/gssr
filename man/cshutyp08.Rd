@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_609.R
 \name{cshutyp08}
 \alias{cshutyp08}
-\title{cshutyp08}
+\title{During april-june 2008, was r resident in household or institution}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-During april-june 2008, was r resident in household or institution
+cshutyp08
 }
 \details{
 Question None

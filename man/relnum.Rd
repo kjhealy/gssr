@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_453.R
 \name{relnum}
 \alias{relnum}
-\title{relnum}
+\title{Number of adult nieces, nephews, etc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of adult nieces, nephews, etc
+relnum
 }
 \details{
 Question 1206. Now thinking of all your adult relatives those still living and age 18 or older. How many of each do you have? e. Adult nieces, nephews, cousins, and other relatives

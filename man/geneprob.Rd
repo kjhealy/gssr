@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_327.R
 \name{geneprob}
 \alias{geneprob}
-\title{geneprob}
+\title{Situation caused by a genetic or inherited problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Situation caused by a genetic or inherited problem
+geneprob
 }
 \details{
 Question 942d. In your opinion, how likely is it that (John/Mary)'s situation MIGHT be caused by a genetic or inherited problem?

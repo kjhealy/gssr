@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_217.R
 \name{knwmhosp}
 \alias{knwmhosp}
-\title{knwmhosp}
+\title{Know anyone who was in a hospital}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Know anyone who was in a hospital
+knwmhosp
 }
 \details{
 Question 667. Did you ever know anyone who was in a hospital because of a mental illness?

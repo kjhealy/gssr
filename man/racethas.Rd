@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_576.R
 \name{racethas}
 \alias{racethas}
-\title{racethas}
+\title{Points assigned to asian american}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Points assigned to asian american
+racethas
 }
 \details{
 Question How would you describe your race and ethnicity using this 10-point system using the following choices: D. Asian American

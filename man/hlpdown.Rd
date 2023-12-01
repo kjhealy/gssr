@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_463.R
 \name{hlpdown}
 \alias{hlpdown}
-\title{hlpdown}
+\title{Who r would first turn to if they needed help because they were feeling down or}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r would first turn to if they needed help because they were feeling down or
+hlpdown
 }
 \details{
 Question Who would you turn to first to?. C. Be there for you if you felt a bit down or depressed and wanted to talk about it?

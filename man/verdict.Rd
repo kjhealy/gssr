@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_436.R
 \name{verdict}
 \alias{verdict}
-\title{verdict}
+\title{Worse type of judicial mistake}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Worse type of judicial mistake
+verdict
 }
 \details{
 Question 1164. All systems of justice make mistakes, but which do you think is worse? 1. To convict an innocent person 2. To let a guilty person go free

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_17.R
 \name{rincom06}
 \alias{rincom06}
-\title{rincom06}
+\title{Respondents income}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Respondents income
+rincom06
 }
 \details{
 Question In which of these groups did your earnings from \link{OCCUPATION} from all sources for \link{last year} fall? That is, before taxes or other deductions.

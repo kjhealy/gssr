@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_268.R
 \name{news12}
 \alias{news12}
-\title{news12}
+\title{Past 12 months r web to learn news}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Past 12 months r web to learn news
+news12
 }
 \details{
 Question 775. In the past 12 months, have you used the Web to find out about or discuss: k. News headlines?

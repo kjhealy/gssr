@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_228.R
 \name{feelgod}
 \alias{feelgod}
-\title{feelgod}
+\title{Feel gods presence}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel gods presence
+feelgod
 }
 \details{
 Question 681. The following questions deal with possible daily spiritual experiences. To what extent can you say you experience the following: a. I feel God's presence

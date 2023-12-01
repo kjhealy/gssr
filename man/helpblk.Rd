@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_93.R
 \name{helpblk}
 \alias{helpblk}
-\title{helpblk}
+\title{Should govt aid blacks?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt aid blacks?
+helpblk
 }
 \details{
 Question 312. Now look at card BF. Some people think that (blacks/negroes/African-Americans) have been discriminated against for so long that the government has a special obligation to help improve their living standards; they are at point 1. Others believe that the government should not be giving special treatment to (blacks/negroes/African-Americans); they are at point 5. a. Where would you place yourself on this scale, or haven't you made up your mind on this?

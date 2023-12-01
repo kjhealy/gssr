@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_374.R
 \name{medagrgm}
 \alias{medagrgm}
-\title{medagrgm}
+\title{Med researcher: agreement on effect of genetically modified food}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Med researcher: agreement on effect of genetically modified food
+medagrgm
 }
 \details{
 Question 1069. Please look at Card B16. (On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all") to what extent do medical researchers agree on the risks and benefits of genetically modified foods?

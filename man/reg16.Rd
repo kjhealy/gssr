@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_13.R
 \name{reg16}
 \alias{reg16}
-\title{reg16}
+\title{Region of residence, age 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Region of residence, age 16
+reg16
 }
 \details{
 Question 26. In what state or foreign country were you living when you were 16 years old?

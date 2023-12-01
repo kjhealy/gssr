@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_482.R
 \name{rwrkgrwn}
 \alias{rwrkgrwn}
-\title{rwrkgrwn}
+\title{Did r work after kids left home}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r work after kids left home
+rwrkgrwn
 }
 \details{
 Question 1294. Did you work outside the home full-time, part-time, or not at all... d. And how about after the children left home?

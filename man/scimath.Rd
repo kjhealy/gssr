@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_382.R
 \name{scimath}
 \alias{scimath}
-\title{scimath}
+\title{Quality of science & math educ in us is inadequate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Quality of science & math educ in us is inadequate
+scimath
 }
 \details{
 Question The quality of science and mathematics education in American schools is inadequate. (Do you strongly agree, agree, disagree, or strongly disagree?)

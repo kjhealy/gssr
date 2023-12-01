@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_141.R
 \name{supduty5}
 \alias{supduty5}
-\title{supduty5}
+\title{You check workers' progress, attendance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-You check workers' progress, attendance
+supduty5
 }
 \details{
 Question 443. Here is a card listing 7 different kinds of oversight activities. Which ones do you do as part of your supervisory responsibilities? Please mention all that apply: e. Check workers' progress or attendance.

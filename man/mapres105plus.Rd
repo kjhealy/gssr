@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_09.R
 \name{mapres105plus}
 \alias{mapres105plus}
-\title{mapres105plus}
+\title{Mothers occupational prestige score using threshold method (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers occupational prestige score using threshold method (2010)
+mapres105plus
 }
 \details{
 Question None

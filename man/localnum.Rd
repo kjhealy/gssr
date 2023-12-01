@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{localnum}
 \alias{localnum}
-\title{localnum}
+\title{Number of employees: r's work site}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of employees: r's work site
+localnum
 }
 \details{
 Question 1346. About how many people work at the location where you work? (Count part-time as well as full-time employees in all areas, departments and buildings.)

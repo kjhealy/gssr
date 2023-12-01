@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_185.R
 \name{madat1}
 \alias{madat1}
-\title{madat1}
+\title{Angry at my husband-wife etc}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Angry at my husband-wife etc
+madat1
 }
 \details{
 Question 576. Who were you angry, irritated, or annoyed at? a. My husband/wife, boyfriend/girlfriend, or partner

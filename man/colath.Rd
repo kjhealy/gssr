@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_30.R
 \name{colath}
 \alias{colath}
-\title{colath}
+\title{Allow anti-religionist to teach}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow anti-religionist to teach
+colath
 }
 \details{
 Question 76. There are always some people whose ideas are considered bad or dangerous by other people. For instance, somebody who is against churches and religion... b. Should such a person be allowed to teach in a college or university, or not?

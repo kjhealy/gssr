@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_32.R
 \name{libhomo}
 \alias{libhomo}
-\title{libhomo}
+\title{Allow homosexuals book in library}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow homosexuals book in library
+libhomo
 }
 \details{
 Question 81. And what about a man who admits that he is a homosexual? c. If some people in your community suggested that a book he wrote in favor of homosexuality should be taken out of your public library, would you favor removing this book, or not?

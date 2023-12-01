@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_75.R
 \name{polmurdr}
 \alias{polmurdr}
-\title{polmurdr}
+\title{Citizen questioned as murder suspect}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Citizen questioned as murder suspect
+polmurdr
 }
 \details{
 Question 232. If yes or not sure: Would you approve of a policeman striking a citizen who: b. Was being questioned as a suspect in a murder case?

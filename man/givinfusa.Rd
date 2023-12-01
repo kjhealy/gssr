@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_448.R
 \name{givinfusa}
 \alias{givinfusa}
-\title{givinfusa}
+\title{Should govt collect citizen info without knowledge}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should govt collect citizen info without knowledge
+givinfusa
 }
 \details{
 Question Some people think that governments should have the right to take certain measures in the name of national security. Others disagree. Do you think that the American government should or should not have the right to do the following? A. Collect information about anyone living in America without their knowledge? Would you say...

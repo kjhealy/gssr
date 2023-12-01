@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_231.R
 \name{relexp}
 \alias{relexp}
-\title{relexp}
+\title{Have religious experience changed life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have religious experience changed life
+relexp
 }
 \details{
 Question 685. Did you ever have a religious or spiritual experience that changed your life?

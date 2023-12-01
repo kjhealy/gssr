@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_279.R
 \name{byemail}
 \alias{byemail}
-\title{byemail}
+\title{How many people send email}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people send email
+byemail
 }
 \details{
 Question 798. Of these__________friends and relatives, about how many do you stay in contact with by: e. Communicating through electronic mail?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_510.R
 \name{churhpow}
 \alias{churhpow}
-\title{churhpow}
+\title{Do churches have too much power?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do churches have too much power?
+churhpow
 }
 \details{
 Question 1380. Do you think that churches and religious organizations in this country have too much power or too little power?

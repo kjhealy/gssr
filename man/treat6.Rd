@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_296.R
 \name{treat6}
 \alias{treat6}
-\title{treat6}
+\title{R seek treat working less carefully}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R seek treat working less carefully
+treat6
 }
 \details{
 Question 842. Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not. f. Not working or doing other activities as carefully as usual as a result of any emotional problems such as feeling depressed or anxious?

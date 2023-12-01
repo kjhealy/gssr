@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_384.R
 \name{daynight}
 \alias{daynight}
-\title{daynight}
+\title{When did most errors occur}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-When did most errors occur
+daynight
 }
 \details{
 Question Please look at Card I-3. Day-night rhythms dramatically affect our bodies. Probably no body system is more influenced than the nervous system. The figure on Card I-3 illustrates the number of errors made by shift workers in different portions of Based on the data illustrated in the figure, during which of these time periods did the most errors occur? {response to acceptDK} {response to probeDK}

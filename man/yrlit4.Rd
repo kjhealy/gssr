@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_355.R
 \name{yrlit4}
 \alias{yrlit4}
-\title{yrlit4}
+\title{How many years r born a member of literary group4}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years r born a member of literary group4
+yrlit4
 }
 \details{
 Question 1026m. How many years have you been a member of \link{LITERARY, ART, DISCUSSION, OR STUDY GROUPS}?

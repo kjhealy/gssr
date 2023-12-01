@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_230.R
 \name{hope1}
 \alias{hope1}
-\title{hope1}
+\title{I could get out of a jam}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I could get out of a jam
+hope1
 }
 \details{
 Question Using the scale on the showcard, please select the response that best describes how you think about yourself right now. Please focus on yourself and what is going on in your life at this moment. Please answer each item as I read them according to the scale on the card. A. If I should find myself in a jam, I could think of many ways to get out of it.

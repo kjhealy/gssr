@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_325.R
 \name{ownhh}
 \alias{ownhh}
-\title{ownhh}
+\title{Young should not live with parents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Young should not live with parents
+ownhh
 }
 \details{
 Question 931. People differ in their ideas about what it takes for a young person to become an adult these days. How important is it for them to be... No longer living in their parents' household

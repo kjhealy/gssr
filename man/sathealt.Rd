@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_51.R
 \name{sathealt}
 \alias{sathealt}
-\title{sathealt}
+\title{Health and physical condition}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Health and physical condition
+sathealt
 }
 \details{
 Question 164. For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. e. Your health and physical condition.

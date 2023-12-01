@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_344.R
 \name{closrgod}
 \alias{closrgod}
-\title{closrgod}
+\title{Desire to be closer to god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Desire to be closer to god
+closrgod
 }
 \details{
 Question You may experience the following in your daily life, if so how often. 1013. I desire to be closer to God or in union with Him.

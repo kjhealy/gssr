@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_66.R
 \name{fepoly}
 \alias{fepoly}
-\title{fepoly}
+\title{Men or women better suited for politics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Men or women better suited for politics
+fepoly
 }
 \details{
 Question 202b. Would you say that most men are better suited emotionally for politics than are most women, that men and women are equally suited, or that women are better suited than men in this area?

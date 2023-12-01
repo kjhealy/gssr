@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_48.R
 \name{racgive}
 \alias{racgive}
-\title{racgive}
+\title{Has r given money to racial orgs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r given money to racial orgs
+racgive
 }
 \details{
 Question 152. Have you ever: b. Given money to an organization concerned with this issue?

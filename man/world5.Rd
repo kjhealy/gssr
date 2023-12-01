@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_43.R
 \name{world5}
 \alias{world5}
-\title{world5}
+\title{World image:arts are good vs. not}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-World image:arts are good vs. not
+world5
 }
 \details{
 Question 121. People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world and human nature between the two contrasting images? e. 1. Through such things as art and music we learn more about God. 7. It is dangerous for a human to be too concerned about worldly things like art and music.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_346.R
 \name{infrmgrp}
 \alias{infrmgrp}
-\title{infrmgrp}
+\title{Any activities with the same group of ppl regularly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Any activities with the same group of ppl regularly
+infrmgrp
 }
 \details{
 Question 1023. Are there any activities that you do with the same group of people on a regular basis even if the group doesn't have a name such as a bridge group, exercise group, or a group that meets to discuss individual or community problems?

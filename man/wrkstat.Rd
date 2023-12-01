@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_01.R
 \name{wrkstat}
 \alias{wrkstat}
-\title{wrkstat}
+\title{Labor force status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Labor force status
+wrkstat
 }
 \details{
 Question 1. Last week were you working full time, part time, going to school, keeping house, or what?

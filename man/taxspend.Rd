@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_447.R
 \name{taxspend}
 \alias{taxspend}
-\title{taxspend}
+\title{Choice between reducing taxes or spending more}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Choice between reducing taxes or spending more
+taxspend
 }
 \details{
 Question 1196. If the government had a choice between reducing taxes or spending more on social programs like health care, social security, and unemployment benefits, which do you think it should do? (We mean all taxes together, including social security, income tax, sales tax, and all the rest.) PLEASE CHECK ONE BOX ONLY.

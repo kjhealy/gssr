@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_382.R
 \name{viszoo}
 \alias{viszoo}
-\title{viszoo}
+\title{How often r visited zoo last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r visited zoo last year
+viszoo
 }
 \details{
 Question None

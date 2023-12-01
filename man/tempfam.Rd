@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_523.R
 \name{tempfam}
 \alias{tempfam}
-\title{tempfam}
+\title{Greenhouse effect danger to my family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Greenhouse effect danger to my family
+tempfam
 }
 \details{
 Question 1422b. And do you think that a rise in the world's temperature caused by the `greenhouse effect', is...

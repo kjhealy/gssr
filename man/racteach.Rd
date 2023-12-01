@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_81.R
 \name{racteach}
 \alias{racteach}
-\title{racteach}
+\title{Don't hire teachers against integration}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Don't hire teachers against integration
+racteach
 }
 \details{
 Question 263. Please tell me whether you agree or disagree with the following statements: c. A school board should not hire a person to teach if that person belongs to an organization that opposes school integration.

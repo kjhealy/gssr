@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{supnum}
 \alias{supnum}
-\title{supnum}
+\title{Number of workers r supervises}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of workers r supervises
+supnum
 }
 \details{
 Question 1342. How many are supervised?

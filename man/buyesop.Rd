@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_392.R
 \name{buyesop}
 \alias{buyesop}
-\title{buyesop}
+\title{Does employee ownership matter when r thinks about buying from a company}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does employee ownership matter when r thinks about buying from a company
+buyesop
 }
 \details{
 Question If you were thinking of buying from a company, would you be influenced by whether the company was employee-owned? PLEASE READ THE DEFINITION OF EMPLOYEE-OWNED: Employee-owned is when a company is owned by all of its employees, with each employee having a share of ownership.

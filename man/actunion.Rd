@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_108.R
 \name{actunion}
 \alias{actunion}
-\title{actunion}
+\title{R active in labor union}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R active in labor union
+actunion
 }
 \details{
 Question 330. Have you ever done any active work for the labor unions? I mean been a leader, helped organize meetings, been an officer, or given time or money?

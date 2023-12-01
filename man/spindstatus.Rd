@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_06.R
 \name{spindstatus}
 \alias{spindstatus}
-\title{spindstatus}
+\title{Spind10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spind10 coding status
+spindstatus
 }
 \details{
 Question None

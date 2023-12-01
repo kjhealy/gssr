@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_418.R
 \name{pajwoth}
 \alias{pajwoth}
-\title{pajwoth}
+\title{R's dad was jewish when r was growing up}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's dad was jewish when r was growing up
+pajwoth
 }
 \details{
 Question Was your father Jewish in any way when you were growing up?

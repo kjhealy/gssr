@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_427.R
 \name{relgendr}
 \alias{relgendr}
-\title{relgendr}
+\title{What is your relationship situation}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is your relationship situation
+relgendr
 }
 \details{
 Question Which of the following best describes your current relationship situation?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_176.R
 \name{romance}
 \alias{romance}
-\title{romance}
+\title{Do you have a main romantic involvement}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you have a main romantic involvement
+romance
 }
 \details{
 Question 545. Do you have a main romantic involvement - a (man/woman) you think of as a steady, a lover, a partner, or whatever?

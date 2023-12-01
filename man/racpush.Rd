@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_44.R
 \name{racpush}
 \alias{racpush}
-\title{racpush}
+\title{Blacks shouldn't push}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Blacks shouldn't push
+racpush
 }
 \details{
 Question 127. Here are some opinions other people have expressed in connection with (negro/black)-white relations. Do you agree or disagree with each statement: a. (Negroes/blacks/African-Americans) shouldn't push themselves where they're not wanted.

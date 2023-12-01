@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_661.R
 \name{other_next}
 \alias{other_next}
-\title{other_next}
+\title{Other protestant denomination - follow-on version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other protestant denomination - follow-on version
+other_next
 }
 \details{
 Question None

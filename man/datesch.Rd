@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_154.R
 \name{datesch}
 \alias{datesch}
-\title{datesch}
+\title{Date schooling completed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Date schooling completed
+datesch
 }
 \details{
 Question 486. Now, I have some questions about your education and work. You completed \link{HIGHEST COMPLETED LEVEL OF SCHOOL}. In what month and year did you complete that year of school?

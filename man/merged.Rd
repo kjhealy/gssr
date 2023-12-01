@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_135.R
 \name{merged}
 \alias{merged}
-\title{merged}
+\title{The org. was merged, taken over}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The org. was merged, taken over
+merged
 }
 \details{
 Question 418. In the last five years, did any of the following things happen to an organization that you worked for? b. The organization was merged, taken over, or changed ownership

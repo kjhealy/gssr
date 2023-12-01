@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_535.R
 \name{citworld}
 \alias{citworld}
-\title{citworld}
+\title{I am a citizen of the world}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I am a citizen of the world
+citworld
 }
 \details{
 Question How much do you agree or disagree with the following statements? E. I feel more like a citizen of the world than of any country.

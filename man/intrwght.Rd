@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_340.R
 \name{intrwght}
 \alias{intrwght}
-\title{intrwght}
+\title{Interview assessment of r's weight}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interview assessment of r's weight
+intrwght
 }
 \details{
 Question 986. Rate respondents weight without asking: IF R IS PREGNANT CONSIDER HER WEIGHT ASIDE FROM BEING PREGNANT.

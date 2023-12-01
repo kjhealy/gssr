@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_243.R
 \name{usedmntl}
 \alias{usedmntl}
-\title{usedmntl}
+\title{Have sought care with mental health since plan}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have sought care with mental health since plan
+usedmntl
 }
 \details{
 Question 717. Since you joined this plan, have you sought medical care for problems with your emotions, nerves, or mental health?

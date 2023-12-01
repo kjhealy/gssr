@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_652.R
 \name{yrmovie}
 \alias{yrmovie}
-\title{yrmovie}
+\title{See movie in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-See movie in past 12 months
+yrmovie
 }
 \details{
 Question (During the last 12 months, did you...) go to the movies?

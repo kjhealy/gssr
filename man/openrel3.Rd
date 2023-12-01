@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_430.R
 \name{openrel3}
 \alias{openrel3}
-\title{openrel3}
+\title{R and leader ever become an openly acknowledged couple}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R and leader ever become an openly acknowledged couple
+openrel3
 }
 \details{
 Question None

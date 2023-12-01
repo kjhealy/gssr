@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_400.R
 \name{acqwkcon}
 \alias{acqwkcon}
-\title{acqwkcon}
+\title{Number of strong conservative in current or previous work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of strong conservative in current or previous work
+acqwkcon
 }
 \details{
 Question 1106. Next, we are going to ask about people that you are acquainted with through work. n. How many are you pretty certain are strongly conservative?

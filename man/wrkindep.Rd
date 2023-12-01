@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_139.R
 \name{wrkindep}
 \alias{wrkindep}
-\title{wrkindep}
+\title{I can work independently}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I can work independently
+wrkindep
 }
 \details{
 Question 438. How true would you say each of the following statements is about your job? a. I can work independently

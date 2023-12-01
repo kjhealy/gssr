@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_565.R
 \name{law3}
 \alias{law3}
-\title{law3}
+\title{Your home burglarized}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Your home burglarized
+law3
 }
 \details{
 Question F. Next, did any of the following criminal or legal events occur to you since (CURRENT MONTH), 2003... 3. Your home burglarized or broken into

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_372.R
 \name{medagrsc}
 \alias{medagrsc}
-\title{medagrsc}
+\title{Agreement by med researchers on importance of stem cell rsch}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Agreement by med researchers on importance of stem cell rsch
+medagrsc
 }
 \details{
 Question 1060. Please look at Card B7. (On a scale of 1 to 5, where 1 means "Near complete agreement" and 5 means "No agreement at all") to what extent do medical researchers agree on the importance of stem cells for research?

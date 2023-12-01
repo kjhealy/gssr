@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_58.R
 \name{workhard}
 \alias{workhard}
-\title{workhard}
+\title{To work hard}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-To work hard
+workhard
 }
 \details{
 Question 170. If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life? a. Which comes next in importantc? b. Which comes third? c. Which comes fourth? TO WORK HARD

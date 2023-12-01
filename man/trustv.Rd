@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_637.R
 \name{trustv}
 \alias{trustv}
-\title{trustv}
+\title{Can people be trusted (with volunteered response on web)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Can people be trusted (with volunteered response on web)
+trustv
 }
 \details{
 Question None

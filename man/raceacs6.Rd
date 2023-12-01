@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_625.R
 \name{raceacs6}
 \alias{raceacs6}
-\title{raceacs6}
+\title{Filipino}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Filipino
+raceacs6
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. Filipino

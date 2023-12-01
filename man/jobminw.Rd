@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_281.R
 \name{jobminw}
 \alias{jobminw}
-\title{jobminw}
+\title{Minutes per week using work computer job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes per week using work computer job
+jobminw
 }
 \details{
 Question 803. For about how many minutes or hours a week do you use your work computer for each of the following: a. Your paid job?

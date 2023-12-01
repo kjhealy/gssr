@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_528.R
 \name{nobuygrn}
 \alias{nobuygrn}
-\title{nobuygrn}
+\title{How often avoid products}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often avoid products
+nobuygrn
 }
 \details{
 Question And how often do you avoid buying certain products for environmental reasons?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_249.R
 \name{trustdoc}
 \alias{trustdoc}
-\title{trustdoc}
+\title{Would trust my doctor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would trust my doctor
+trustdoc
 }
 \details{
 Question 733. People sometimes are incapable of making decisions about their care and medical treatment at the end of life. If you were incapable, how much trust would you put in the following people to do what was best for you? b. I would trust my doctor

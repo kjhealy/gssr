@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_228.R
 \name{forgive2}
 \alias{forgive2}
-\title{forgive2}
+\title{Have forgiven those who hurt me}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have forgiven those who hurt me
+forgive2
 }
 \details{
 Question 680. Because of your religious or spiritual beliefs have you always, almost always, often, seldom, or never felt the following ways: b. I have forgiven those who hurt me.

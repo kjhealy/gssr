@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_279.R
 \name{polcangn}
 \alias{polcangn}
-\title{polcangn}
+\title{R look up views of political candidate for office}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R look up views of political candidate for office
+polcangn
 }
 \details{
 Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: k. Looked up the views of a political candidate for office?

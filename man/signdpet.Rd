@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_539.R
 \name{signdpet}
 \alias{signdpet}
-\title{signdpet}
+\title{Signed a petition}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Signed a petition
+signdpet
 }
 \details{
 Question 1468. Here are some different forms of political and social action that people can take. Please indicate, for each one, Whether you have done any of these things in the past year, Whether you have done it in the more distant past, Whether you have not done it but might do it, Or have not done it and would never, under any circumstances, do it. a. Signed a petition

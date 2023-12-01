@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_266.R
 \name{invest12}
 \alias{invest12}
-\title{invest12}
+\title{R use web to invest money in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use web to invest money in past 12 months
+invest12
 }
 \details{
 Question 774. In the past 12 months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/02 have you used the Web to do each of these things: e. Invest money in a stock or mutual fund?

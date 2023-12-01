@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_323.R
 \name{retchnge}
 \alias{retchnge}
-\title{retchnge}
+\title{R returned money after getting too much change}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R returned money after getting too much change
+retchnge
 }
 \details{
 Question 927. During the past 12 months, how often have you done each of the following things: c. Returned money to a cashier after getting too much change

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_555.R
 \name{siborder}
 \alias{siborder}
-\title{siborder}
+\title{Birth order}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Birth order
+siborder
 }
 \details{
 Question 1563. How many of your (number) brothers and sisters were born before you were?

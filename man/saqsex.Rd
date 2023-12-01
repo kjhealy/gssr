@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_606.R
 \name{saqsex}
 \alias{saqsex}
-\title{saqsex}
+\title{R did sex module}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R did sex module
+saqsex
 }
 \details{
 Question None

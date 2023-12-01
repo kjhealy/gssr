@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_304.R
 \name{waypaid}
 \alias{waypaid}
-\title{waypaid}
+\title{How paid in main job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How paid in main job
+waypaid
 }
 \details{
 Question 874. In your main job, are you salaried, paid by the hour, or what?

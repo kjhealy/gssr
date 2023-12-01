@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_196.R
 \name{sellhome}
 \alias{sellhome}
-\title{sellhome}
+\title{E would you rather sell a house-condominium}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-E would you rather sell a house-condominium
+sellhome
 }
 \details{
 Question 617. I'd like you to imagine that you wanted to sell each of the following items. Would you rather sell these items to someone with whom you have had some family or social realtionship, or toa buyer with whom you had no prior personal contact? c. A house or condominium

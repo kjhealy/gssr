@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_520.R
 \name{grwthelp}
 \alias{grwthelp}
-\title{grwthelp}
+\title{Amer needs econ grwth to protect envir}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Amer needs econ grwth to protect envir
+grwthelp
 }
 \details{
 Question 1411. How much do you agree or disagree with each of the following statements? c. In order to protect the environment, America needs economic growth.

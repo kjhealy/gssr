@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_461.R
 \name{advantge}
 \alias{advantge}
-\title{advantge}
+\title{Other ppl will take advantage of r if not careful}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other ppl will take advantage of r if not careful
+advantge
 }
 \details{
 Question 1247. To what extent do you agree or disagree with the following statements? c. If you are not careful, other people will take advantage of you.

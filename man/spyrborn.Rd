@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_157.R
 \name{spyrborn}
 \alias{spyrborn}
-\title{spyrborn}
+\title{Birth yr of current spouse}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Birth yr of current spouse
+spyrborn
 }
 \details{
 Question 497. Now I have some questions about your (current) (husband/wife). In what year was your (husband/wife) born?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_642.R
 \name{pres20}
 \alias{pres20}
-\title{pres20}
+\title{Voted trump or biden}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Voted trump or biden
+pres20
 }
 \details{
 Question Did you vote for Joe Biden or Donald Trump?

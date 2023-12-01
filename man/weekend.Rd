@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_486.R
 \name{weekend}
 \alias{weekend}
-\title{weekend}
+\title{Who has final say about choosing weekend activity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who has final say about choosing weekend activity
+weekend
 }
 \details{
 Question 1314. When you and your spouse/partner make decisions about the following, who has the final say? a. Choosing shared weekend activities

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_636.R
 \name{wtssnrps}
 \alias{wtssnrps}
-\title{wtssnrps}
+\title{Person post-stratification weight, nonrespondents adjusted}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Person post-stratification weight, nonrespondents adjusted
+wtssnrps
 }
 \details{
 Question None

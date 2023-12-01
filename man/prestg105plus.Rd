@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_03.R
 \name{prestg105plus}
 \alias{prestg105plus}
-\title{prestg105plus}
+\title{R's occupational prestige score using threshold method (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's occupational prestige score using threshold method (2010)
+prestg105plus
 }
 \details{
 Question None

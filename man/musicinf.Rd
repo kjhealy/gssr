@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_270.R
 \name{musicinf}
 \alias{musicinf}
-\title{musicinf}
+\title{Use web to get music information}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to get music information
+musicinf
 }
 \details{
 Question 783b. Used the Web to get information about a band, individual performer, orchestra, or other group?

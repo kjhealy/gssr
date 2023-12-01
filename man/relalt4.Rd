@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_343.R
 \name{relalt4}
 \alias{relalt4}
-\title{relalt4}
+\title{Rel change positively affected relation with others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rel change positively affected relation with others
+relalt4
 }
 \details{
 Question 1002. To what extent did the religious/spiritual change you just told me about do the following?

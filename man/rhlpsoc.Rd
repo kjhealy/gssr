@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_500.R
 \name{rhlpsoc}
 \alias{rhlpsoc}
-\title{rhlpsoc}
+\title{R's job is useful to society}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's job is useful to society
+rhlpsoc
 }
 \details{
 Question 1335. For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. h. My job is useful to society

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_516.R
 \name{vistholy}
 \alias{vistholy}
-\title{vistholy}
+\title{How often r visits holy place for religious reasons}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r visits holy place for religious reasons
+vistholy
 }
 \details{
 Question None

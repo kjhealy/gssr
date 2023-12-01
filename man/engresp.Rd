@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_388.R
 \name{engresp}
 \alias{engresp}
-\title{engresp}
+\title{Consider work in engineer field}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Consider work in engineer field
+engresp
 }
 \details{
 Question Have you ever considered working in an engineering-related career?

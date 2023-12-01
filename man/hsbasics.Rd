@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_437.R
 \name{hsbasics}
 \alias{hsbasics}
-\title{hsbasics}
+\title{School subjects: reading, writing, math}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-School subjects: reading, writing, math
+hsbasics
 }
 \details{
 Question 1173. Here are some things that might be taught in school. How important is it that schools teach each of these to 15-year-olds? a. Reading, writing, and mathematics

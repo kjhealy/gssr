@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_66.R
 \name{feinfo}
 \alias{feinfo}
-\title{feinfo}
+\title{How much info r has on women's rgts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much info r has on women's rgts
+feinfo
 }
 \details{
 Question 203b. How much information do you have about the women's rights issue? Do you have all of the information you need, most of the information, some of the information, or very little information?

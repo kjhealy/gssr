@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_158.R
 \name{spsibs}
 \alias{spsibs}
-\title{spsibs}
+\title{No of siblings spouse has}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-No of siblings spouse has
+spsibs
 }
 \details{
 Question 502. How many brothers and sisters does your (husband/wife) have? (Count those born alive but no longer living as well as those alive now.)

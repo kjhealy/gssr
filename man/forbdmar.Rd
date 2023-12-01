@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_545.R
 \name{forbdmar}
 \alias{forbdmar}
-\title{forbdmar}
+\title{Forbids racial intermarriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Forbids racial intermarriage
+forbdmar
 }
 \details{
 Question 1517c. Do you think the law should forbid marriage between blacks and whites?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_192.R
 \name{carbuye}
 \alias{carbuye}
-\title{carbuye}
+\title{R saw their advertisement}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R saw their advertisement
+carbuye
 }
 \details{
 Question 594. What made you think that this would be a good place to make your purchase? e. I saw their advertisement

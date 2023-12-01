@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_434.R
 \name{pubecon}
 \alias{pubecon}
-\title{pubecon}
+\title{Should media publish economic plans?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should media publish economic plans?
+pubecon
 }
 \details{
 Question 1157b. Now suppose the confidential government papers were about economic plans. Should the newspaper be allowed to publish the papers? or Should the government have the power to prevent publication?

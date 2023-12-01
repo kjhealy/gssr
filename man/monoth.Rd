@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_203.R
 \name{monoth}
 \alias{monoth}
-\title{monoth}
+\title{Done volunteer work in other (specify)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done volunteer work in other (specify)
+monoth
 }
 \details{
 Question 641. In which, if any, of the areas listed on this card have you done some volunteer work in the past month? o. Other (specify)

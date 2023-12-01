@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_288.R
 \name{jobinfo}
 \alias{jobinfo}
-\title{jobinfo}
+\title{R sought employment info past year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sought employment info past year
+jobinfo
 }
 \details{
 Question 810a. In the past year, that is, between (INSERT CURRENT MONTH) 2001/2003 and (INSERT CURRENT MONTH) 2002/2004�have you searched for information about a new job or explored career opportunities?

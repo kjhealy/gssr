@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_151.R
 \name{pclit}
 \alias{pclit}
-\title{pclit}
+\title{Shame tradl amer lit ignored for minority lit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Shame tradl amer lit ignored for minority lit
+pclit
 }
 \details{
 Question 475. I'm going to read several statements. After I read each one, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it: g. It is a shame when traditional American literature is ignored while other works are promoted because they are by women or by members of minority groups.

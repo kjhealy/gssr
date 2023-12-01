@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_86.R
 \name{taxserve}
 \alias{taxserve}
-\title{taxserve}
+\title{Favor conscription given taxes?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Favor conscription given taxes?
+taxserve
 }
 \details{
 Question 288c. If strongly favor or probably favor either a or b: And suppose that the costs of such a program made it necessary to increase your taxes by a small amount - for example, 5 percent. Would you strongly favor it, probably favor it, probably oppose it, or strongly oppose it?

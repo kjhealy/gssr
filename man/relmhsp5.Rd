@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_218.R
 \name{relmhsp5}
 \alias{relmhsp5}
-\title{relmhsp5}
+\title{Patient was acquaintance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Patient was acquaintance
+relmhsp5
 }
 \details{
 Question 668. Was this a relative, a close friend, or just someone you didn't know very well? e. Acquaintances

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_465.R
 \name{cntctfam}
 \alias{cntctfam}
-\title{cntctfam}
+\title{How often r contacts their most-contacted extended family member}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r contacts their most-contacted extended family member
+cntctfam
 }
 \details{
 Question Now, think about the other family member you have contact with most frequently, aside of your spouse or partner, parents, siblings or adult children. How often do you have contact with that family member, either face-to-face, by phone, internet or any other communication device?

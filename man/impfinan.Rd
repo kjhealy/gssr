@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_152.R
 \name{impfinan}
 \alias{impfinan}
-\title{impfinan}
+\title{Imp to r of financial security}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp to r of financial security
+impfinan
 }
 \details{
 Question 477. I'm going to read you a list of some things that different people value. Some people say these things are very important to them. Other people say they are not so important. Please tell me how important each things is to you personally, using the responses on this card. a. Being financially secure.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_507.R
 \name{nounemp2}
 \alias{nounemp2}
-\title{nounemp2}
+\title{R would accept position with lower pay to avoid unemployment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R would accept position with lower pay to avoid unemployment
+nounemp2
 }
 \details{
 Question 1512. To what extent do you agree or disagree with the following statements? In order to avoid unemployment I would be willing... b. To accept a position with lower pay

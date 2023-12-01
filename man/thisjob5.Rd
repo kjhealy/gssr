@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_138.R
 \name{thisjob5}
 \alias{thisjob5}
-\title{thisjob5}
+\title{Heard job i near the top of a seniority list}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Heard job i near the top of a seniority list
+thisjob5
 }
 \details{
 Question 429. Which of the answers on this card describe how you heard about your present job with your employer? Please tell me all of the ways that you found out about this job. e. I was at or near the top of the seniority list.

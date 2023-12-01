@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_558.R
 \name{roletchr}
 \alias{roletchr}
-\title{roletchr}
+\title{Role of teachers with kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Role of teachers with kids
+roletchr
 }
 \details{
 Question 1570. Many adults play roles in the lives of children. Please rate the following as very good, good, fairly good, fairly bad, or very bad. e. Teachers

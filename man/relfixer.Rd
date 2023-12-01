@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_196.R
 \name{relfixer}
 \alias{relfixer}
-\title{relfixer}
+\title{Relationship to the person who did the work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship to the person who did the work
+relfixer
 }
 \details{
 Question 613. What was your relationship to the person who did the work, or to his or her boss (whichever relationship is closer)?

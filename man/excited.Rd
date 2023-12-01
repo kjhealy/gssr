@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_182.R
 \name{excited}
 \alias{excited}
-\title{excited}
+\title{Felt excited or interested in something?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Felt excited or interested in something?
+excited
 }
 \details{
 Question 572. Now I'm going to read a list of different feelings that people sometimes have. After each one, I would like you to tell me on how many days you have felt this way during the past 7 days. g. Felt excited about or interested in something?

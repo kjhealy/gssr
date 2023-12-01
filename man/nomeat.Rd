@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_524.R
 \name{nomeat}
 \alias{nomeat}
-\title{nomeat}
+\title{Refuse to eat meat for envir reasons}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Refuse to eat meat for envir reasons
+nomeat
 }
 \details{
 Question 1424c. And how often do you refuse to eat meat for moral or environmental reasons?

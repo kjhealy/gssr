@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_524.R
 \name{grndemo}
 \alias{grndemo}
-\title{grndemo}
+\title{Protested for envir issue}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Protested for envir issue
+grndemo
 }
 \details{
 Question 1426. In the last five years, have you... c. taken part in a protest or demonstration about an environmental issue?

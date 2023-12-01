@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_340.R
 \name{athletic}
 \alias{athletic}
-\title{athletic}
+\title{R is an athletic person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R is an athletic person
+athletic
 }
 \details{
 Question 985. For each of the following, please indicate how well the description applies to you by circling one number: c. An athletic person

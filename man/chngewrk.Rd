@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_495.R
 \name{chngewrk}
 \alias{chngewrk}
-\title{chngewrk}
+\title{I would change my work for something different}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I would change my work for something different
+chngewrk
 }
 \details{
 Question Now think of the type of work you do, irrespective of the firm or organization you work for. To what extent do you agree or disagree with each of the following statements? Given the chance, I would change my present type of work for something different. Would you say...

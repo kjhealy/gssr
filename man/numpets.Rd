@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_317.R
 \name{numpets}
 \alias{numpets}
-\title{numpets}
+\title{How many pets r's family has}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many pets r's family has
+numpets
 }
 \details{
 Question How many pets does your family have? By family, we mean members of your family with whom you currently live.

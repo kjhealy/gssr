@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_499.R
 \name{rpromotn}
 \alias{rpromotn}
-\title{rpromotn}
+\title{R has opportunity to advance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has opportunity to advance
+rpromotn
 }
 \details{
 Question 1335. For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. c. My opportunities for advancement are high

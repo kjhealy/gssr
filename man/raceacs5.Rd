@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_625.R
 \name{raceacs5}
 \alias{raceacs5}
-\title{raceacs5}
+\title{Chinese}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Chinese
+raceacs5
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. Chinese

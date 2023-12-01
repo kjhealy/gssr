@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_646.R
 \name{docskls}
 \alias{docskls}
-\title{docskls}
+\title{Medical skills of docs not as good as should be}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Medical skills of docs not as good as should be
+docskls
 }
 \details{
 Question (How much do you agree or disagree with the following statements about doctors in general in the United States?) The medical skills of doctors are not as good as they should be.

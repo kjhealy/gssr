@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_242.R
 \name{usepsyc1}
 \alias{usepsyc1}
-\title{usepsyc1}
+\title{Will take medicine because personal trouble}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Will take medicine because personal trouble
+usepsyc1
 }
 \details{
 Question 711. How likely would you be to take doctor-prescribed psychiatric medication in the following situations? a. because you were having trouble in your personal life

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_254.R
 \name{forlang1}
 \alias{forlang1}
-\title{forlang1}
+\title{Learning foreign language important math and s}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Learning foreign language important math and s
+forlang1
 }
 \details{
 Question 745. Now please tell us whether you strongly agree, agree, disagree or strongly disagree with each of these statements: d. Learning a foreign language is as valuable as learning math and science in school.

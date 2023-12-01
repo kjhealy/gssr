@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_116.R
 \name{lapsed}
 \alias{lapsed}
-\title{lapsed}
+\title{Did r ever lapse in church attendance}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r ever lapse in church attendance
+lapsed
 }
 \details{
 Question 365. Since you were 16 years old, has there ever been a period of 2 years or more when you did not attend religious services?

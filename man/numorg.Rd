@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_391.R
 \name{numorg}
 \alias{numorg}
-\title{numorg}
+\title{Number of people working in organization at all locations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of people working in organization at all locations
+numorg
 }
 \details{
 Question 1089. About how many people work in your organization at all locations? Count part-time as well as full-time employees.

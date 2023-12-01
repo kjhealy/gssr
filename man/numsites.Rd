@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_502.R
 \name{numsites}
 \alias{numsites}
-\title{numsites}
+\title{Does r's firm have more than one location}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r's firm have more than one location
+numsites
 }
 \details{
 Question 1345. Does your company or the institution for which you work have more than one physical location (that is, other offices, branches, plants, stores, or subsidiaries)? (If you work for the government, does your agency or division have more than one physical location?)

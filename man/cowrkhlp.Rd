@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_309.R
 \name{cowrkhlp}
 \alias{cowrkhlp}
-\title{cowrkhlp}
+\title{Coworkers can be relied on when r needs help}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Coworkers can be relied on when r needs help
+cowrkhlp
 }
 \details{
 Question 889. Now I'm going to read you another list of statements about your main job. For each, please tell me if the statement is very true, somewhat true, not too true, or not at all true with respect to the work you do. n. The people I work with can be relied on when I need help

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_522.R
 \name{nukefam}
 \alias{nukefam}
-\title{nukefam}
+\title{Nuke power danger to my family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Nuke power danger to my family
+nukefam
 }
 \details{
 Question 1418b. And do you think that nuclear power stations are...

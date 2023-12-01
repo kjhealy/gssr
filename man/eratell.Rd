@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_79.R
 \name{eratell}
 \alias{eratell}
-\title{eratell}
+\title{Does r favor or oppose era}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r favor or oppose era
+eratell
 }
 \details{
 Question 253c. The Equal Rights Amendment will amend the United States Constitution to provide equal rights for men and women. Do you strongly favor, somewhat favor, somewhat oppose, or strongly oppose this amendment?

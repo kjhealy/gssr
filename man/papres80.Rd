@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_07.R
 \name{papres80}
 \alias{papres80}
-\title{papres80}
+\title{Father's occupational prestige score (1980)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's occupational prestige score (1980)
+papres80
 }
 \details{
 Question 9. Father's occupation, prestige, and industry.

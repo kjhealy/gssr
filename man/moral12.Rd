@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_267.R
 \name{moral12}
 \alias{moral12}
-\title{moral12}
+\title{Past 12 months r web to learn moral issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Past 12 months r web to learn moral issues
+moral12
 }
 \details{
 Question 775. In the past 12 months, have you used the Web to find out about or discuss: c. Morality/family issues?

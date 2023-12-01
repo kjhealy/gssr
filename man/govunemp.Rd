@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_472.R
 \name{govunemp}
 \alias{govunemp}
-\title{govunemp}
+\title{Govmnt should provide unemp benefits}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govmnt should provide unemp benefits
+govunemp
 }
 \details{
 Question 1256. Do you agree or disagree: f. The government should provide a decent standard of living for the unemployed.

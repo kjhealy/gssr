@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_238.R
 \name{trainsch}
 \alias{trainsch}
-\title{trainsch}
+\title{How many years spent on training}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many years spent on training
+trainsch
 }
 \details{
 Question 695b. In total, how many years have you spent (on such specialized training in school)?

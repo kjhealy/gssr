@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_194.R
 \name{realtor1}
 \alias{realtor1}
-\title{realtor1}
+\title{What was the most important reason?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What was the most important reason?
+realtor1
 }
 \details{
 Question 603. What made you choose the realtor with whom you worked? g. What was the most important reason?

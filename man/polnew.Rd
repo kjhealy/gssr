@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_269.R
 \name{polnew}
 \alias{polnew}
-\title{polnew}
+\title{R learn something new on the web}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R learn something new on the web
+polnew
 }
 \details{
 Question 778. Now I would like you to think about the last time you used the Web to get information or exchange views about a political or social-policy issue, current affairs, or a political campaign. a. Thinking back to this occasion, did you learn anything new about the issue or campaign?

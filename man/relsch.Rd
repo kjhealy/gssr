@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_124.R
 \name{relsch}
 \alias{relsch}
-\title{relsch}
+\title{Children attend other church school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Children attend other church school
+relsch
 }
 \details{
 Question 394a. If no to Q.394: Which types of school do/did your children attend? 4. Other church-affiliated school (not Christian)

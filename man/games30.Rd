@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_265.R
 \name{games30}
 \alias{games30}
-\title{games30}
+\title{R use game site in past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use game site in past 30 days
+games30
 }
 \details{
 Question 772. In the past 30 days, how often have you visited a web site for: o. Games you can play on your computer?

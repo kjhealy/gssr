@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_302.R
 \name{diffcare}
 \alias{diffcare}
-\title{diffcare}
+\title{R had difficulty getting specialty care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had difficulty getting specialty care
+diffcare
 }
 \details{
 Question 858. Have you, or anyone in your household, ever had difficulty getting a test or getting care from a specialist when you felt you needed to?

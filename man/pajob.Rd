@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_474.R
 \name{pajob}
 \alias{pajob}
-\title{pajob}
+\title{Type of job held by father when r 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Type of job held by father when r 16
+pajob
 }
 \details{
 Question 1261. Here is a list of different types of jobs. Which type did your father have when you were 16. (If your father did not have a job then, please give the job he used to have.)

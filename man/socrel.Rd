@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_58.R
 \name{socrel}
 \alias{socrel}
-\title{socrel}
+\title{Spend evening with relatives}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spend evening with relatives
+socrel
 }
 \details{
 Question 173. Would you use this card and tell me which answer comes closest to how often you do the following things: a. Spend a social evening with relatives?

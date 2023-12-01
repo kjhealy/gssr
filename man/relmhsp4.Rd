@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_217.R
 \name{relmhsp4}
 \alias{relmhsp4}
-\title{relmhsp4}
+\title{Patient was close friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Patient was close friend
+relmhsp4
 }
 \details{
 Question 668. Was this a relative, a close friend, or just someone you didn't know very well? d. Close friends

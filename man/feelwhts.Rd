@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_300.R
 \name{feelwhts}
 \alias{feelwhts}
-\title{feelwhts}
+\title{How r feel towards caucasians}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How r feel towards caucasians
+feelwhts
 }
 \details{
 Question 849d. In general, how warm or cool do you feel towards white or Caucasian Americans?

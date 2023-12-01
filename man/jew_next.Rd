@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_660.R
 \name{jew_next}
 \alias{jew_next}
-\title{jew_next}
+\title{What sort of jew - follow-on version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What sort of jew - follow-on version
+jew_next
 }
 \details{
 Question Do you consider yourself Orthodox, Conservative, Reform or none of these?

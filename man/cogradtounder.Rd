@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_13.R
 \name{cogradtounder}
 \alias{cogradtounder}
-\title{cogradtounder}
+\title{Ratio of graduate to undergraduate students at college partner attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ratio of graduate to undergraduate students at college partner attended
+cogradtounder
 }
 \details{
 Question None

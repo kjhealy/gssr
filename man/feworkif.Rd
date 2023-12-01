@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_80.R
 \name{feworkif}
 \alias{feworkif}
-\title{feworkif}
+\title{Married women work if jobs limited}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Married women work if jobs limited
+feworkif
 }
 \details{
 Question 259. If there is a limited number of jobs, do you approve or disapprove of a married woman holding a job in business ro industry when her husband is able to support her?

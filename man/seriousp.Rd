@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_210.R
 \name{seriousp}
 \alias{seriousp}
-\title{seriousp}
+\title{How serious x s situation is}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How serious x s situation is
+seriousp
 }
 \details{
 Question 649. Please remember, there are no right or wrong answers to these questions. Please think about the person I just described when answering this group of questions. First, how serious would you consider NAME's problem to be -- very serious, somewhat serious, not very serious, or not at all serious?

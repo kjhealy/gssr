@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_60.R
 \name{anomia2}
 \alias{anomia2}
-\title{anomia2}
+\title{Wonder if anything is worthwhile}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Wonder if anything is worthwhile
+anomia2
 }
 \details{
 Question 178. Now I'm going to read you several more statements. Some people agree with a statement, others disagree. As I read each one, tell me whether you more or less agree with it, or more or less disagree. b. You sometimes can't help wondering whether anything is worthwhile any more.

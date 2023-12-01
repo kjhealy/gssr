@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_57.R
 \name{popular}
 \alias{popular}
-\title{popular}
+\title{To be well liked or popular}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-To be well liked or popular
+popular
 }
 \details{
 Question 170. If you had to choose, which thing on this list would you pick as the most important for a child to learn to prepare him or her for life? a. Which comes next in importantc? b. Which comes third? c. Which comes fourth? TO BE WELL-LIKED OR POPULAR

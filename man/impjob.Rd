@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_153.R
 \name{impjob}
 \alias{impjob}
-\title{impjob}
+\title{Imp to r of having a fulfilling job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Imp to r of having a fulfilling job
+impjob
 }
 \details{
 Question 477. I'm going to read you a list of some things that different people value. Some people say these things are very important to them. Other people say they are not so important. Please tell me how important each things is to you personally, using the responses on this card. g. Having a fulfilling job

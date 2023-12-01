@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_57.R
 \name{interesz}
 \alias{interesz}
-\title{interesz}
+\title{Interested how things happen-version z}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interested how things happen-version z
+interesz
 }
 \details{
 Question 169. Please look at the qualities listed on this card. All of the qualities may be desirable for a child to have, but could you tell me whether the quality is extremely important, very important, fairly important, not too important, or not at all important. l. That he is interested in how and why things happen.

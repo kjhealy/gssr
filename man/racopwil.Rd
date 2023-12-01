@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_47.R
 \name{racopwil}
 \alias{racopwil}
-\title{racopwil}
+\title{Opportunities improve in next 5 yrs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Opportunities improve in next 5 yrs
+racopwil
 }
 \details{
 Question 148b. In the next five yeears, do you think that opportunities for blacks to get ahead will improve, remain about the same, or get worse?

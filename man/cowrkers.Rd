@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_501.R
 \name{cowrkers}
 \alias{cowrkers}
-\title{cowrkers}
+\title{Quality of rels among workers: r's firm}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Quality of rels among workers: r's firm
+cowrkers
 }
 \details{
 Question 1340. In general how would you describe relations in your work place: b. Between co-workers/colleagues?

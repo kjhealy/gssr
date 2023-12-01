@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_367.R
 \name{seeksci}
 \alias{seeksci}
-\title{seeksci}
+\title{Probable source of information about scientific issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Probable source of information about scientific issues
+seeksci
 }
 \details{
 Question 1034. If you wanted to learn about scientific issues such as global warming or biotechnology, where would you get information (� newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues, or some other source)?

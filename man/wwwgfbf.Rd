@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_273.R
 \name{wwwgfbf}
 \alias{wwwgfbf}
-\title{wwwgfbf}
+\title{Has anyone met on web become partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has anyone met on web become partner
+wwwgfbf
 }
 \details{
 Question 788. Did any of these people become: b. Girlfriend or boyfriend?

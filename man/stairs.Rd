@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_295.R
 \name{stairs}
 \alias{stairs}
-\title{stairs}
+\title{R limited in climbing stair's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R limited in climbing stair's
+stairs
 }
 \details{
 Question 832. The following questions are about activities you might do during a typical day. Does your health now limit you in these activities? If so, how much? b. Climbing several flights of stairs

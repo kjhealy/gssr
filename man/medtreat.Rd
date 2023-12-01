@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_390.R
 \name{medtreat}
 \alias{medtreat}
-\title{medtreat}
+\title{How scientific is medical treatment}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How scientific is medical treatment
+medtreat
 }
 \details{
 Question Medical treatment. (Is medical treatment...?)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_339.R
 \name{moregood}
 \alias{moregood}
-\title{moregood}
+\title{I expect more good things to happen to me than bad}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I expect more good things to happen to me than bad
+moregood
 }
 \details{
 Question 982. Indicate your agreement with each of the following statements by selecting the number that comes closest to your answer: i. Overall, I expect more good things to happen to me than bad.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_633.R
 \name{sprtpurp}
 \alias{sprtpurp}
-\title{sprtpurp}
+\title{How often r felt a sense of larger meaning in life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r felt a sense of larger meaning in life
+sprtpurp
 }
 \details{
 Question How often R felt a sense of larger meaning in life

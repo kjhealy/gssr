@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_570.R
 \name{punleak}
 \alias{punleak}
-\title{punleak}
+\title{Punishment leaking sensitive information}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Punishment leaking sensitive information
+punleak
 }
 \details{
 Question 1451. I'm going to ask you about several offenses. For each case, indicate what you would consider to be the appropriate punishment when the offender is a military service member or government employee. b. Leaking sensitive information to a newspaper in order to influence public opinion about a controversial political issue. The offender received no money.

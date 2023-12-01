@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_402.R
 \name{acqdems}
 \alias{acqdems}
-\title{acqdems}
+\title{Number of democrat r is acquainted with}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of democrat r is acquainted with
+acqdems
 }
 \details{
 Question 1108. Now thinking about all the people you are acquainted with: b. How many of do you think are Democrats? Would you say...

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_237.R
 \name{prfmloc}
 \alias{prfmloc}
-\title{prfmloc}
+\title{Did not want to go to that location}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did not want to go to that location
+prfmloc
 }
 \details{
 Question Thinking about the most recent performance you wanted to attend but did not, which of the following factors were important in your decision not to attend? F. Did not want to go to that location.

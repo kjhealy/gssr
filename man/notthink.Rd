@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_345.R
 \name{notthink}
 \alias{notthink}
-\title{notthink}
+\title{Catholics are not permitted to think}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Catholics are not permitted to think
+notthink
 }
 \details{
 Question 1015. To what extent to you agree or disagree with the following statements? c. Catholics really are not permitted to think for themselves.

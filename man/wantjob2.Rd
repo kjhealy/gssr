@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_505.R
 \name{wantjob2}
 \alias{wantjob2}
-\title{wantjob2}
+\title{Would like to have a job now or in the future}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would like to have a job now or in the future
+wantjob2
 }
 \details{
 Question 1366. Would you like to have a paid job, either now or in the future?

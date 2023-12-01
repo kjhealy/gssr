@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_48.R
 \name{closeblk}
 \alias{closeblk}
-\title{closeblk}
+\title{How close feel to blacks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How close feel to blacks
+closeblk
 }
 \details{
 Question 154a. In general, how close do you feel to blacks?

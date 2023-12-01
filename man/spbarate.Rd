@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_12.R
 \name{spbarate}
 \alias{spbarate}
-\title{spbarate}
+\title{Rate of ba degree earning in college spouse attended}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Rate of ba degree earning in college spouse attended
+spbarate
 }
 \details{
 Question None

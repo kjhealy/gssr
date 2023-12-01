@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_594.R
 \name{relsp12}
 \alias{relsp12}
-\title{relsp12}
+\title{Relationship of person 12 to spouse of househo}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship of person 12 to spouse of househo
+relsp12
 }
 \details{
 Question 1633. What is (NAME)'s relationship to spouse?

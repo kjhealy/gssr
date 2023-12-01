@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_600.R
 \name{welfare2}
 \alias{welfare2}
-\title{welfare2}
+\title{Helps people overcome difficult times}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Helps people overcome difficult times
+welfare2
 }
 \details{
 Question 1613. Here are some opinions other people have expressed about welfare. For each of the following statements, please tell me whether you strongly agree, agree, disagree, or strongly disagree with it. Welfare . . . b. Helps people get on their feet when facing difficult situations such as unemployment, a divorce or a death in the family.

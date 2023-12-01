@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_48.R
 \name{racwrite}
 \alias{racwrite}
-\title{racwrite}
+\title{R ever written official abt race issues}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R ever written official abt race issues
+racwrite
 }
 \details{
 Question 152. Have you ever: a. Written a letter to a public official expressing your views on race relations?

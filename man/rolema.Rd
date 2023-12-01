@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_557.R
 \name{rolema}
 \alias{rolema}
-\title{rolema}
+\title{Role of mothers with kids}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Role of mothers with kids
+rolema
 }
 \details{
 Question 1570. Many adults play roles in the lives of children. Please rate the following as very good, good, fairly good, fairly bad, or very bad. a. Mothers

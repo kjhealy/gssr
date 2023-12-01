@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_483.R
 \name{meovrwrk}
 \alias{meovrwrk}
-\title{meovrwrk}
+\title{Men hurt family when focus on work too much}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Men hurt family when focus on work too much
+meovrwrk
 }
 \details{
 Question 1297. And, do you agree or disagree: c. Family life often suffers because men concentrate too much on their work.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_430.R
 \name{counsel3}
 \alias{counsel3}
-\title{counsel3}
+\title{Leader3 was r's counselor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Leader3 was r's counselor
+counsel3
 }
 \details{
 Question None

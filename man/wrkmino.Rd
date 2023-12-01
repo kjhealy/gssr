@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_283.R
 \name{wrkmino}
 \alias{wrkmino}
-\title{wrkmino}
+\title{Minutes per week using other computer make money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes per week using other computer make money
+wrkmino
 }
 \details{
 Question 806. For about how many minutes or hours a week do you use (this other computer/these other computers) for each of the following: c. Paid work or other income-producing activities?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_302.R
 \name{belvedoc}
 \alias{belvedoc}
-\title{belvedoc}
+\title{R believe what doctor said}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R believe what doctor said
+belvedoc
 }
 \details{
 Question 864. Do you believe what the doctor just told you?

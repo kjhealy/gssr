@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_166.R
 \name{sbyrbrn9}
 \alias{sbyrbrn9}
-\title{sbyrbrn9}
+\title{Birth year of r 9th sibling}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Birth year of r 9th sibling
+sbyrbrn9
 }
 \details{
 Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. c. In what year was \link{NAME} born?

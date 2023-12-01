@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_473.R
 \name{conclass}
 \alias{conclass}
-\title{conclass}
+\title{Working and middle classes in conflict?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Working and middle classes in conflict?
+conclass
 }
 \details{
 Question 1259. In all countries, there are differences or conflicts between different social groups. In your opinion, in America, how much conflict is there between . . . b. The working class and the middle class?

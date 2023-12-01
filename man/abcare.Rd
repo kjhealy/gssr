@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_69.R
 \name{abcare}
 \alias{abcare}
-\title{abcare}
+\title{How concerned is r about abortion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How concerned is r about abortion
+abcare
 }
 \details{
 Question 210. How concerned are you personally about the abortion issue?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_413.R
 \name{mhtrusty}
 \alias{mhtrusty}
-\title{mhtrusty}
+\title{People like x are just as trustworthy as anyone else}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People like x are just as trustworthy as anyone else
+mhtrusty
 }
 \details{
 Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. n. People like \link{NAME} are just as trustworthy as anyone else.

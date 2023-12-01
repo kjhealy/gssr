@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_346.R
 \name{churchtx}
 \alias{churchtx}
-\title{churchtx}
+\title{Membership in church-related groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Membership in church-related groups
+churchtx
 }
 \details{
 Question 1022. Besides belonging to a congregation or religion, do you belong to any church-related groups such as a fellowship or study groups, a choir, board, or committee?

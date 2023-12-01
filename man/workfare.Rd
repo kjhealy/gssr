@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_131.R
 \name{workfare}
 \alias{workfare}
-\title{workfare}
+\title{Work to get welfare}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Work to get welfare
+workfare
 }
 \details{
 Question 406. Here are some proposals about welfare. I would like to know if you favor or oppose them: a. First, requiring that people must work in order to receive welfare.

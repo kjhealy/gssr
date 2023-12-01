@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_107.R
 \name{solgreek}
 \alias{solgreek}
-\title{solgreek}
+\title{Fraternity tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fraternity tries to solve problems
+solgreek
 }
 \details{
 Question 329. Do the school fraternities or sororities to which you belong do anything to try to solve individual or community problems?

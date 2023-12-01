@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_275.R
 \name{advsib}
 \alias{advsib}
-\title{advsib}
+\title{R can ask sibling or sibling partner software h}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R can ask sibling or sibling partner software h
+advsib
 }
 \details{
 Question 790. Do the people you can ask for advice include? (Name as many as are correct): borther or sister/brother-/sister-in law

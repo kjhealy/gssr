@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_498.R
 \name{hrsmoney}
 \alias{hrsmoney}
-\title{hrsmoney}
+\title{R preference re: work hrs and money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R preference re: work hrs and money
+hrsmoney
 }
 \details{
 Question 1333. Think of the number of hours you work and the money you earn in your main job, including regular overtime. If you had only one of these three choices, which of the following would you prefer? 1. Work longer hours and earn more money 2. Work the same number of hours and earn the same money 3. Work fewer hours and earn less money

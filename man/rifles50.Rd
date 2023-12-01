@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_406.R
 \name{rifles50}
 \alias{rifles50}
-\title{rifles50}
+\title{Should high power rifle sale be limited to military}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Should high power rifle sale be limited to military
+rifles50
 }
 \details{
 Question 1117. Currently under federal law, very high power, 50-caliber rifles that can penetrate armor from a mile away are available to people on the same basis as standard hunting rifles. Should such very high power rifles be 1) restricted only to the police and military, or 2) available to civilians like standard hunting rifles as they are at present?

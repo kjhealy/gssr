@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_373.R
 \name{relinfsc}
 \alias{relinfsc}
-\title{relinfsc}
+\title{Influence on funding for stem cell rsch: religious leaders}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence on funding for stem cell rsch: religious leaders
+relinfsc
 }
 \details{
 Question 1061. Please look at Card B8. How much influence should each of the following groups have in deciding about government funding for stem cell research? b. Religious leaders

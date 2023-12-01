@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_108.R
 \name{sollit}
 \alias{sollit}
-\title{sollit}
+\title{Lit or art grp tries to solve problems}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Lit or art grp tries to solve problems
+sollit
 }
 \details{
 Question 329. Do the literary, art, discussion, or study groups to which you belong do anything to try to solve individual or community problems?

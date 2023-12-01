@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_286.R
 \name{flickr}
 \alias{flickr}
-\title{flickr}
+\title{Use flickr}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use flickr
+flickr
 }
 \details{
 Question Which of the following social networking or social media sites are you a member or regular user of? Flickr

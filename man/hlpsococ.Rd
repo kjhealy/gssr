@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_463.R
 \name{hlpsococ}
 \alias{hlpsococ}
-\title{hlpsococ}
+\title{Who r would first turn to if they wanted to enjoy a pleasant social occasion}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who r would first turn to if they wanted to enjoy a pleasant social occasion
+hlpsococ
 }
 \details{
 Question Who would you turn to first to?. E. Enjoy a pleasant social occasion with?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_550.R
 \name{suireg}
 \alias{suireg}
-\title{suireg}
+\title{Region of suicide victim closest to r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Region of suicide victim closest to r
+suireg
 }
 \details{
 Question 1534. We would like to know a few other things about that person. d. What state did this person live in?

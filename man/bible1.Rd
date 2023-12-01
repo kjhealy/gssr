@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_511.R
 \name{bible1}
 \alias{bible1}
-\title{bible1}
+\title{Describe your feelings about the bible}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Describe your feelings about the bible
+bible1
 }
 \details{
 Question 1260. Which of these statements comes closest to describing your feelings about the Bible? 1. The Bible is the actual word of God and it is to be taken literally, word for word 2. The bible is the inspired word of God but not everything should be taken literally, word for word 3. The Bible is an ancient book fo fables, legends, history, and moral precepts recorded by man. 4. This does not apply to me.

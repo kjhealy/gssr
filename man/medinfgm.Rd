@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_375.R
 \name{medinfgm}
 \alias{medinfgm}
-\title{medinfgm}
+\title{Influence on restricting gmf by medical researcher's}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Influence on restricting gmf by medical researcher's
+medinfgm
 }
 \details{
 Question 1070. Some say that the government should restrict the sale of genetically modified foods. Others say there is no need for such restrictions. Please look at Card B17. How much influence should each of the following groups have in deciding whether to restrict the sale of genetically modified foods? a. Medical researchers

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_633.R
 \name{grtwrks}
 \alias{grtwrks}
-\title{grtwrks}
+\title{The great works of philosophy and science are the best source of truth, wisdom,}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The great works of philosophy and science are the best source of truth, wisdom,
+grtwrks
 }
 \details{
 Question The great works of philosophy and science are the best source of truth, wisdom, and ethics.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_70.R
 \name{premarsx}
 \alias{premarsx}
-\title{premarsx}
+\title{Sex before marriage}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex before marriage
+premarsx
 }
 \details{
 Question 217. There's been a lot of discussion about the way morals and attitudes about sex are changing in this country. If a man and woman have sex relations before marriage, do you think it is always wrong, almost always wrong, wrong only sometimes, or not wrong at all?

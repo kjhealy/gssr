@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_346.R
 \name{typfrat}
 \alias{typfrat}
-\title{typfrat}
+\title{R belongs to more than one fraternal groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R belongs to more than one fraternal groups
+typfrat
 }
 \details{
 Question 1024a. Do you belong to more than one fraternal group?

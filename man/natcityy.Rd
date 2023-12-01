@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_26.R
 \name{natcityy}
 \alias{natcityy}
-\title{natcityy}
+\title{Assistance to big cities:version y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Assistance to big cities:version y
+natcityy
 }
 \details{
 Question 69. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. d. Assistance to big cities.

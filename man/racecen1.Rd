@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_575.R
 \name{racecen1}
 \alias{racecen1}
-\title{racecen1}
+\title{What is r's race 1st mention}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What is r's race 1st mention
+racecen1
 }
 \details{
 Question 1602. What is your race? Indicate one or more races that you consider yourself to be.

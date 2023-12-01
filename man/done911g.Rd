@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_421.R
 \name{done911g}
 \alias{done911g}
-\title{done911g}
+\title{Has r reduced travel by train}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r reduced travel by train
+done911g
 }
 \details{
 Question (Do you know anyone who has done any of the following things because of terrorism since September 11th, 2001?) Have you, or anyone you know reduced travel by train? FI PROBE: IF RESPONDENT ANSWERS "YES," ASK: Was this you, someone you know, or both yourself and someone you know?

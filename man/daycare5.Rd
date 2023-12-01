@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_478.R
 \name{daycare5}
 \alias{daycare5}
-\title{daycare5}
+\title{Relative ok for kid < 3yrs?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relative ok for kid < 3yrs?
+daycare5
 }
 \details{
 Question 1277. Think of a child under 3 years old whose parents both have full-time jobs. How suitable do you think each of these child care arrangements would be for the child? e. A relative

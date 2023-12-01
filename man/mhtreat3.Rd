@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_223.R
 \name{mhtreat3}
 \alias{mhtreat3}
-\title{mhtreat3}
+\title{Is person 3 currently receiving treatment for their mental health problem}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Is person 3 currently receiving treatment for their mental health problem
+mhtreat3
 }
 \details{
 Question Is NAME 3 currently receiving treatment for their mental health problem?

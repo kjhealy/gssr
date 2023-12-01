@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_423.R
 \name{work3yrs}
 \alias{work3yrs}
-\title{work3yrs}
+\title{How many full time jobs r has in past 3 yrs since 2005}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many full time jobs r has in past 3 yrs since 2005
+work3yrs
 }
 \details{
 Question How many full time jobs have you have had in past three years, that is since 2005 (counting the current job)? FI INFO: SELF-EMPLOYMENT AND CONTRACT WORK COUNT AS A 'JOB'

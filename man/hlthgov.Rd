@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_645.R
 \name{hlthgov}
 \alias{hlthgov}
-\title{hlthgov}
+\title{Govt should provide only limited health care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt should provide only limited health care
+hlthgov
 }
 \details{
 Question (How much do you agree or disagree with the following statements?) The government should provide only limited health care services.

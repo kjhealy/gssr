@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_608.R
 \name{ballot}
 \alias{ballot}
-\title{ballot}
+\title{Ballot used for interview}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ballot used for interview
+ballot
 }
 \details{
 Question 1659. Ballot Administered.

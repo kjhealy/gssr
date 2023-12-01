@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_400.R
 \name{acqvahme}
 \alias{acqvahme}
-\title{acqvahme}
+\title{Number of ppl owning second home in voluntary association}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of ppl owning second home in voluntary association
+acqvahme
 }
 \details{
 Question 1107. Next, we are going to ask about people that you are acquainted with through schools, clubs, associations, or places of worship. d. How many are you pretty certain own a second home?

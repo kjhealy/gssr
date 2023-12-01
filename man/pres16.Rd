@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_23.R
 \name{pres16}
 \alias{pres16}
-\title{pres16}
+\title{Vote clinton or trump}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Vote clinton or trump
+pres16
 }
 \details{
 Question AL. Did you vote for Clinton or Trump

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_432.R
 \name{toldexp1}
 \alias{toldexp1}
-\title{toldexp1}
+\title{R has ever told anyone about experience with leader1}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has ever told anyone about experience with leader1
+toldexp1
 }
 \details{
 Question None

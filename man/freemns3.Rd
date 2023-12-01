@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_293.R
 \name{freemns3}
 \alias{freemns3}
-\title{freemns3}
+\title{What does freedom mean to you}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What does freedom mean to you
+freemns3
 }
 \details{
 Question 821. The next questions are about freedom in American today. Freedom means many different things to people. When you think about freedom, what comes to mind? Can you tell me in a couple of sentences what does freedom mean to you?

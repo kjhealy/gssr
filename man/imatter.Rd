@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_142.R
 \name{imatter}
 \alias{imatter}
-\title{imatter}
+\title{Success of my org. depends lot on how well i do}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Success of my org. depends lot on how well i do
+imatter
 }
 \details{
 Question 453. Please tell me how much you agree or disagree with the following statements: a. The success of my organization depends a lot on how well I do my job.

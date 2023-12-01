@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_311.R
 \name{backpain}
 \alias{backpain}
-\title{backpain}
+\title{R had back pain in the past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R had back pain in the past 12 months
+backpain
 }
 \details{
 Question 910. In the past 12 months, have you had back pain every day for a week or more?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_287.R
 \name{snsmoth1}
 \alias{snsmoth1}
-\title{snsmoth1}
+\title{Do you use any other social networks}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you use any other social networks
+snsmoth1
 }
 \details{
 Question Are there any other social networking or social media sites that you a member or regular user of?

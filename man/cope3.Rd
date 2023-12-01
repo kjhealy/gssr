@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_227.R
 \name{cope3}
 \alias{cope3}
-\title{cope3}
+\title{Look to god for strength & support}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Look to god for strength & support
+cope3
 }
 \details{
 Question 676. Think about how you try to understand and deal with major problems in your life. To what extent is each of the following involved in the way you cope: c. I look to God for strength, support, guidance

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_134.R
 \name{genecany}
 \alias{genecany}
-\title{genecany}
+\title{Employers' right to hire by cancertests}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Employers' right to hire by cancertests
+genecany
 }
 \details{
 Question 416b. Suppose workers will be exposed to some cancer-causing materials on the job. In that case, should employers have the right not to hire workers whose tests show they have an inherited tendency to develop certain forms of cancer, or should they not have that right?

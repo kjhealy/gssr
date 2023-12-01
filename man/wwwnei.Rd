@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_273.R
 \name{wwwnei}
 \alias{wwwnei}
-\title{wwwnei}
+\title{Has anyone met on wen become neighbor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has anyone met on wen become neighbor
+wwwnei
 }
 \details{
 Question 788. Did any of these people become: f. Neighbor?

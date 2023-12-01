@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_371.R
 \name{gwbiz}
 \alias{gwbiz}
-\title{gwbiz}
+\title{Understanding of global warming by business leaders}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Understanding of global warming by business leaders
+gwbiz
 }
 \details{
 Question 1054. The first issue is global warming. Global warming means a trend toward warmer temperatures throughout the world, with more extreme weather in many places and changes in food production that could affect our way of life. Some people believe that the burning of gasoline and other fossil fuels causes global warming. Others say that global warming has purely natural causes. Please look at Card B2. On a scale of 1 to 5, where 1 means "Very Well" and 5 means "Not at All", how well do the following groups understand the causes of global warming? c. Business leaders

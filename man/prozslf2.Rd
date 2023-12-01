@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_248.R
 \name{prozslf2}
 \alias{prozslf2}
-\title{prozslf2}
+\title{Take prozac if cant cope with stresses}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Take prozac if cant cope with stresses
+prozslf2
 }
 \details{
 Question 726. How likely would you be to take doctor prescribed Prozac in the following situations? b. because you didn't know how to cope anymore with the stresses of life

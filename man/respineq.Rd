@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_630.R
 \name{respineq}
 \alias{respineq}
-\title{respineq}
+\title{Who should have greatest responsibility for reducing inc differences}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who should have greatest responsibility for reducing inc differences
+respineq
 }
 \details{
 Question From the following list, who do you think should have the greatest responsibility for reducing differences in income between people with high incomes and people with low incomes?

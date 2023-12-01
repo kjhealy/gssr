@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_344.R
 \name{godhelp}
 \alias{godhelp}
-\title{godhelp}
+\title{Ask for gods help in daily activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ask for gods help in daily activities
+godhelp
 }
 \details{
 Question You may experience the following in your daily life, if so how often. 1008. I ask for God's help in the midst of daily activities.

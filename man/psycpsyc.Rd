@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_243.R
 \name{psycpsyc}
 \alias{psycpsyc}
-\title{psycpsyc}
+\title{Only trust psychiatrist prescription}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Only trust psychiatrist prescription
+psycpsyc
 }
 \details{
 Question 713. If you were to seek services for a problem with your emotions, nerves, or your mental health, how much would you agree or disagree with the following options? c. I would only trust a psychiatrist to prescribe psychiatric medication

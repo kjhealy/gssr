@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_460.R
 \name{kidpars}
 \alias{kidpars}
-\title{kidpars}
+\title{Do adult children have duty to look after parent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do adult children have duty to look after parent
+kidpars
 }
 \details{
 Question 1243. Please select a response to indicate how much you agree or disagree with each of the following statements. a. Adult children have a duty to look after their elderly parents

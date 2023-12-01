@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_156.R
 \name{marnum}
 \alias{marnum}
-\title{marnum}
+\title{R married more than once?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R married more than once?
+marnum
 }
 \details{
 Question 490. Have you been married more than once?

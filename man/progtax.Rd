@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_436.R
 \name{progtax}
 \alias{progtax}
-\title{progtax}
+\title{How much income tax should rich pay?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much income tax should rich pay?
+progtax
 }
 \details{
 Question 166. Some people think those with high incomes should pay a larger proportion (percentage) of their earnings in taxes than those who earn low incomes. Other people think that those with high incomes and those with low incomes should pay the same proportion (percentage) of their earnings in taxes. Do you think those with high incomes should pay a much larger proportion, pay a larger proportion, pay the same proportion as those who earn low incomes, pay a smaller proportion. pay a much smaller proportion?

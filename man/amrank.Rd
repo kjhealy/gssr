@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_171.R
 \name{amrank}
 \alias{amrank}
-\title{amrank}
+\title{American quality of life vs other indus. nations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-American quality of life vs other indus. nations
+amrank
 }
 \details{
 Question 517. Do you feel that the quality of life is better in American than in most other advanced industrial counties, about the same, or do you feel that poeple are better off in most other advanced industrial countries than they are in the United States?

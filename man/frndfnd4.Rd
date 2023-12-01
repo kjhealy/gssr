@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_121.R
 \name{frndfnd4}
 \alias{frndfnd4}
-\title{frndfnd4}
+\title{Fund.-lib. of 4th friend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fund.-lib. of 4th friend
+frndfnd4
 }
 \details{
 Question 384. Fundamentalism/liberalism of friend's religion.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_304.R
 \name{chngtme}
 \alias{chngtme}
-\title{chngtme}
+\title{How often r allowed change schedule}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r allowed change schedule
+chngtme
 }
 \details{
 Question 878. How often are you allowed to change your starting and quitting times on a daily basis?

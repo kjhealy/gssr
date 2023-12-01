@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_624.R
 \name{raceacs1}
 \alias{raceacs1}
-\title{raceacs1}
+\title{White}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-White
+raceacs1
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. White

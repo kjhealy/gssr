@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_81.R
 \name{racsups}
 \alias{racsups}
-\title{racsups}
+\title{Expect probs if blacks supervise whites}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Expect probs if blacks supervise whites
+racsups
 }
 \details{
 Question 263. Please tell me whether you agree or disagree with the following statements: b. You can expect special problems with (negroes/blacks) supervisors getting along with workers that are mostly white.

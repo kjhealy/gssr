@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_21.R
 \name{vote88}
 \alias{vote88}
-\title{vote88}
+\title{Did r vote in 1988 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r vote in 1988 election
+vote88
 }
 \details{
 Question 62. In 1988, you remember that Dukakis ran for President on the Democratic ticket against Bush for the Republicans. Do you remember for sure whether or not you voted in that election?

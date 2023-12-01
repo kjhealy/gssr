@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_627.R
 \name{trmedia}
 \alias{trmedia}
-\title{trmedia}
+\title{How much do you trust the news media?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much do you trust the news media?
+trmedia
 }
 \details{
 Question How much do you trust the news media?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_496.R
 \name{exjobsat}
 \alias{exjobsat}
-\title{exjobsat}
+\title{Satisfaction with past job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Satisfaction with past job
+exjobsat
 }
 \details{
 Question How satisfied were you in your last job?

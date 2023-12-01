@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_76.R
 \name{burglr}
 \alias{burglr}
-\title{burglr}
+\title{Home broken into during the last year}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Home broken into during the last year
+burglr
 }
 \details{
 Question 235. During the last year - that is, between last March and now - did anyone break into or somehow illegally get into your (apartment/home)?

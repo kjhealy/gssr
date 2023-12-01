@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_198.R
 \name{tablprce}
 \alias{tablprce}
-\title{tablprce}
+\title{The factory not lowering price acceptable?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-The factory not lowering price acceptable?
+tablprce
 }
 \details{
 Question 625. Consider the following situation: a small facotry produces tables and sells all that it can make at $200 each. Because of changes in the price of materials, the cost of making each table has recently decreased by $20. The factory does not lower its price for the tables. Is this acceptable or unfair?

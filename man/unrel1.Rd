@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_82.R
 \name{unrel1}
 \alias{unrel1}
-\title{unrel1}
+\title{Relatives unemployed in last yr}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relatives unemployed in last yr
+unrel1
 }
 \details{
 Question 271a. Number of relatives unemployed duriung last year.

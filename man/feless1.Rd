@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_180.R
 \name{feless1}
 \alias{feless1}
-\title{feless1}
+\title{How important men work harder explain}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How important men work harder explain
+feless1
 }
 \details{
 Question 565. On average, women who are employed full time earn less than men. I'm going to read several reasons why this might be so. Please tell me how important you think each reason is. a. Men work harder on the job than women do.

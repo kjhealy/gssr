@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_285.R
 \name{intmbile}
 \alias{intmbile}
-\title{intmbile}
+\title{Use internet/apps from phone or tablet}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use internet/apps from phone or tablet
+intmbile
 }
 \details{
 Question Do you access the internet or web-enabled applications/APPS on a cell phone, smartphone, tablet or other mobile handheld device, at least occasionally?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_630.R
 \name{conimm}
 \alias{conimm}
-\title{conimm}
+\title{Conflict between natives and immigrants}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Conflict between natives and immigrants
+conimm
 }
 \details{
 Question (In all countries, there are differences or even conflicts between different social groups. In your opinion, in America how much conflict is there between . . .) People born in America and people from other countries who have come to live in America?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_202.R
 \name{moninfrm}
 \alias{moninfrm}
-\title{moninfrm}
+\title{Done volunteer work in informal-alone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Done volunteer work in informal-alone
+moninfrm
 }
 \details{
 Question 641. In which, if any, of the areas listed on this card have you done some volunteer work in the past month? n. Informal-alone-not-for-pay

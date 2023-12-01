@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_494.R
 \name{joborfam}
 \alias{joborfam}
-\title{joborfam}
+\title{Would you remain in unsatisfying job for family}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would you remain in unsatisfying job for family
+joborfam
 }
 \details{
 Question B. Have you ever remained or would you remain in a job that was not satisfying for you for the benefit of your family life?

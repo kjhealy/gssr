@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_29.R
 \name{usclass7}
 \alias{usclass7}
-\title{usclass7}
+\title{Differences in class reflect own effort}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences in class reflect own effort
+usclass7
 }
 \details{
 Question 72. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. g. Differences in social standing between people are acceptable because they basically reflect what people made out of the opportunities they had.

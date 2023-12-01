@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_558.R
 \name{chldsafe}
 \alias{chldsafe}
-\title{chldsafe}
+\title{Neighborhood safety improving?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Neighborhood safety improving?
+chldsafe
 }
 \details{
 Question 1571. Compared with 10 years ago, would you say that American children today are much better off, better off, about the same, worse off, or much worse off regarding: c. The safety of the neighborhoods they live in

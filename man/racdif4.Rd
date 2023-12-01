@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_81.R
 \name{racdif4}
 \alias{racdif4}
-\title{racdif4}
+\title{Differences due to lack of will}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Differences due to lack of will
+racdif4
 }
 \details{
 Question 266. On the average (negroes/blacks/African-Americans) have worse jobs, income, and housing than white people. Do you think these differences are: d. Because most (negroes/blacks/African-Americans) just don't have the motivation or willpower to pull themselves up out of poverty?

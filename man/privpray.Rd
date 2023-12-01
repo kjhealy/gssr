@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_226.R
 \name{privpray}
 \alias{privpray}
-\title{privpray}
+\title{How often pray privately}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often pray privately
+privpray
 }
 \details{
 Question 670. How often do you pray privately in places other than at church or synagogue?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_535.R
 \name{intlincs}
 \alias{intlincs}
-\title{intlincs}
+\title{Large intl company damage to local business}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Large intl company damage to local business
+intlincs
 }
 \details{
 Question 1460. How much do you agree or disagree with the following statements? a. Large international companies are doing more and more damage to local businesses in America.

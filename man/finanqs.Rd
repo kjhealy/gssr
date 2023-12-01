@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_572.R
 \name{finanqs}
 \alias{finanqs}
-\title{finanqs}
+\title{People with secret should be subject to ques. of finan}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People with secret should be subject to ques. of finan
+finanqs
 }
 \details{
 Question 1593. Protecting secrets is a continuing concern of the government. I am going to ask you about various security measures that the government might apply to individuals with a SECRET of TOP SECRET clearance. Do you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree that people with SECRET or TOP SECRET clearance should be subject to... d. Regular questions about financial assets and liabilities

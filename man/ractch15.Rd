@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_435.R
 \name{ractch15}
 \alias{ractch15}
-\title{ractch15}
+\title{Allow racists to teach 15 yr. olds}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow racists to teach 15 yr. olds
+ractch15
 }
 \details{
 Question 1161. Second, consider people who believe that whites are racially superior to all other races. Circle a number after each question to show if you think such people should be allowed to . . . b. Teach 15 year olds in schools.

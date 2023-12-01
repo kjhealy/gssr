@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_656.R
 \name{brv16sp}
 \alias{brv16sp}
-\title{brv16sp}
+\title{Death of spouse or partner}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Death of spouse or partner
+brv16sp
 }
 \details{
 Question We�re very sorry. Who would that be? Please indicate all that apply.

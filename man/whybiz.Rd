@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_418.R
 \name{whybiz}
 \alias{whybiz}
-\title{whybiz}
+\title{Why did r start business}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Why did r start business
+whybiz
 }
 \details{
 Question All in all, would you say you started, or are starting, your business because you saw an opportunity or you started it out of necessity? IF R HAS MORE THAN ONE BUSINESS/FARM/PARTNERSHIP, ASK ABOUT THE PRIMARY BUSINESS THEY ARE INVOLVED IN.

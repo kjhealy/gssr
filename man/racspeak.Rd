@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_435.R
 \name{racspeak}
 \alias{racspeak}
-\title{racspeak}
+\title{Allow racists to hold public meetings}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Allow racists to hold public meetings
+racspeak
 }
 \details{
 Question 1161. Second, consider people who believe that whites are racially superior to all other races. Circle a number after each question to show if you think such people should be allowed to . . . a. Hold public meetings to express their views.

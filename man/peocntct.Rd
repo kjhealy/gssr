@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_450.R
 \name{peocntct}
 \alias{peocntct}
-\title{peocntct}
+\title{How many people in contact in a typical weekday}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people in contact in a typical weekday
+peocntct
 }
 \details{
 Question 1500. On average, about how many people do you have contact with in a typical week day, including people you live with. We are interested in contact on a one-to-one basis, including everyone with whom you chat, talk, or discuss matters. This can be face-to-face, by telephone, by mail, or on the internet. Please include only people you know. Please tell me which of the following categories best matches your estimate.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_229.R
 \name{nervous}
 \alias{nervous}
-\title{nervous}
+\title{In past 30 days feel nervous}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In past 30 days feel nervous
+nervous
 }
 \details{
 Question 682. In the past 30 days, about how often did you feel: b. Nervous

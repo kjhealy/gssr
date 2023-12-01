@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_332.R
 \name{adhdknw}
 \alias{adhdknw}
-\title{adhdknw}
+\title{What does r know about adhd (verbatim)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What does r know about adhd (verbatim)
+adhdknw
 }
 \details{
 Question 956. PROBE: Anything else?

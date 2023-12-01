@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_19.R
 \name{vote68}
 \alias{vote68}
-\title{vote68}
+\title{Did r vote in 1968 election}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r vote in 1968 election
+vote68
 }
 \details{
 Question 57. Now in 1968, you remember that Humphrey ran for President on the Democratic ticket against Nixon for the Republicans, and Wallace as an Independent. Do you remember for sure whether or not you voted in that election?

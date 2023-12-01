@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_475.R
 \name{payresp}
 \alias{payresp}
-\title{payresp}
+\title{How much pay dependent on responsibility}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much pay dependent on responsibility
+payresp
 }
 \details{
 Question 1268. In deciding how much people ought to earn, how important should each of these things be, in your opinion: a. How much responsibility goes with the job--how important do you think that ought to be in deciding pay?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_349.R
 \name{numchurh}
 \alias{numchurh}
-\title{numchurh}
+\title{How many r belongs to church affiliate groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to church affiliate groups
+numchurh
 }
 \details{
 Question 1025o. How many church-affiliated groups do you belong to?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_583.R
 \name{where3}
 \alias{where3}
-\title{where3}
+\title{Where is 3rd person staying?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where is 3rd person staying?
+where3
 }
 \details{
 Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. f. Where is \link{PERSON} staying right now? Is \link{PERSON} staying at another household; Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?

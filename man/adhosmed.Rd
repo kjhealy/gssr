@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_330.R
 \name{adhosmed}
 \alias{adhosmed}
-\title{adhosmed}
+\title{Would r have child be on med by hospital staff}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r have child be on med by hospital staff
+adhosmed
 }
 \details{
 Question 949a. If hospital staff said your child should be on medication, how likely would you be to do that?

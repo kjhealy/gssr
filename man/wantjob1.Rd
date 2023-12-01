@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_503.R
 \name{wantjob1}
 \alias{wantjob1}
-\title{wantjob1}
+\title{Which job would you prefer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Which job would you prefer
+wantjob1
 }
 \details{
 Question 1353. Suppose you could decide on your work situation at present. Which of the following would you prefer?

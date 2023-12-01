@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_368.R
 \name{scibnfts}
 \alias{scibnfts}
-\title{scibnfts}
+\title{Benefits of sci research outweigh harmful results}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Benefits of sci research outweigh harmful results
+scibnfts
 }
 \details{
 Question 1038. Now for another type of question. People have frequently noted that scientific research has produced benefits and harmful results. Would you say that, on balance, the benefits of scientific research have outweighed the harmful results, or have the harmful results of scientific research been greater than its benefits?

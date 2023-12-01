@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_343.R
 \name{relsprt1}
 \alias{relsprt1}
-\title{relsprt1}
+\title{Find strength religion or spirituality}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Find strength religion or spirituality
+relsprt1
 }
 \details{
 Question You may experience the following in your daily life, if so how often. 1007a. I find strength in my religion or spirituality

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_311.R
 \name{satjob1}
 \alias{satjob1}
-\title{satjob1}
+\title{Job satisfaction in general}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Job satisfaction in general
+satjob1
 }
 \details{
 Question 913. All in all, how satisfied would you say you are with your job?

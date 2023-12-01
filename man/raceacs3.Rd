@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_624.R
 \name{raceacs3}
 \alias{raceacs3}
-\title{raceacs3}
+\title{American indian or alaska native}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-American indian or alaska native
+raceacs3
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. American Indian or Alaska Native

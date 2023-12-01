@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_607.R
 \name{intethn}
 \alias{intethn}
-\title{intethn}
+\title{Race of interviewer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Race of interviewer
+intethn
 }
 \details{
 Question None

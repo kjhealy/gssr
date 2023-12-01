@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_146.R
 \name{splocnum}
 \alias{splocnum}
-\title{splocnum}
+\title{#Of workers at the location your spouse works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-#Of workers at the location your spouse works
+splocnum
 }
 \details{
 Question 466. About how many people work at the location where your (husband/wife) works?

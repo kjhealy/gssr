@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_519.R
 \name{postmat2}
 \alias{postmat2}
-\title{postmat2}
+\title{2nd highest priority for america}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-2nd highest priority for america
+postmat2
 }
 \details{
 Question 1048b. And which one do you think should be America's next highest priority, the second most important thing it should do? America should...

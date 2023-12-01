@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_335.R
 \name{rptprobs}
 \alias{rptprobs}
-\title{rptprobs}
+\title{Ppl feel free to report problems in workplace}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ppl feel free to report problems in workplace
+rptprobs
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. b. People feel free to report problems in my workplace without fear of negative consequences.

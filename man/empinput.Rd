@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_391.R
 \name{empinput}
 \alias{empinput}
-\title{empinput}
+\title{R involved in any task force for decision-making}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R involved in any task force for decision-making
+empinput
 }
 \details{
 Question 1090. Some companies have organized workplace decision-making in ways to get more employee input and involvement. Are you personally involved in any group, team, committee, or task force that addresses issues such as product quality, cost cutting, productivity, health and safety, or other workplace issues?

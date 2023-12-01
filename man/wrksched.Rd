@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_304.R
 \name{wrksched}
 \alias{wrksched}
-\title{wrksched}
+\title{Usual work schedule}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Usual work schedule
+wrksched
 }
 \details{
 Question 875. Which of the following best describes your usual work schedule?

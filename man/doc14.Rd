@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_246.R
 \name{doc14}
 \alias{doc14}
-\title{doc14}
+\title{Doctors put cost consideration above care}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctors put cost consideration above care
+doc14
 }
 \details{
 Question 722. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. n. I worry that my doctor will put cost considerations above the care I need

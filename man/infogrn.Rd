@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_526.R
 \name{infogrn}
 \alias{infogrn}
-\title{infogrn}
+\title{R trust environment groups for pollution information}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R trust environment groups for pollution information
+infogrn
 }
 \details{
 Question 1435. How much trust do you have in each of the following groups to give you correct information about causes of pollution? b. Environmental groups

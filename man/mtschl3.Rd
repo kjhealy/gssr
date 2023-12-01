@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_361.R
 \name{mtschl3}
 \alias{mtschl3}
-\title{mtschl3}
+\title{School service group3 meets in this area}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-School service group3 meets in this area
+mtschl3
 }
 \details{
 Question 1027h. Does the school service group meet in this area?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_345.R
 \name{drink6up}
 \alias{drink6up}
-\title{drink6up}
+\title{How often r has 6 or more drinks in a day}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r has 6 or more drinks in a day
+drink6up
 }
 \details{
 Question 1019. Now I would like to ask you some questions about your use of alcoholic beverages during the last 12 months. How often did you have 6 or more drinks of wine, beer, or liquor in a single day? (REFERENCES AS NEEDED: that would be a bottle or more of wine/more than 2 quarts of beer/a half pint or more of liquor.)

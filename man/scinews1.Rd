@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_385.R
 \name{scinews1}
 \alias{scinews1}
-\title{scinews1}
+\title{Newspaper printed or online}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Newspaper printed or online
+scinews1
 }
 \details{
 Question You said you get most of your information about science and technology from newspapers. Would that be printed newspapers or online newspapers? FI INSTRUCTION: ONLY IF RESPONDENT VOLUNTEERS ANOTHER FORM OTHER THAN PRINTED OR ONLINE, SPECIFY WHICH.

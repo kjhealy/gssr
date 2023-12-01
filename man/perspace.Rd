@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_335.R
 \name{perspace}
 \alias{perspace}
-\title{perspace}
+\title{Ppl at work get in r's personal space to intimidate}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ppl at work get in r's personal space to intimidate
+perspace
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. f. People at work get in my personal space in an attempt to intimidate me.

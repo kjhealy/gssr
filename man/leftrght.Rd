@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_544.R
 \name{leftrght}
 \alias{leftrght}
-\title{leftrght}
+\title{How left or right in politics}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How left or right in politics
+leftrght
 }
 \details{
 Question In politics people sometimes talk of left and right. Where would you place yourself on a scale from 0 to 10 where 0 means the left and 10 means the right?

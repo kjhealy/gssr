@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_240.R
 \name{doingfin}
 \alias{doingfin}
-\title{doingfin}
+\title{Have completed this on-the-job training}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have completed this on-the-job training
+doingfin
 }
 \details{
 Question 703b. Have you completed this informal on-the-job training?

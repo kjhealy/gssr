@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_449.R
 \name{youinflu}
 \alias{youinflu}
-\title{youinflu}
+\title{How often r is asked to help influence important decision}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r is asked to help influence important decision
+youinflu
 }
 \details{
 Question 1494. Some people because of their job, position in the community or contacts, are asked by others to help influence important decisions in their favor. a. What about you? How often are you asked to help influence important decisions in other people's favor?

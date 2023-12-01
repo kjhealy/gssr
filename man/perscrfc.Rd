@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_518.R
 \name{perscrfc}
 \alias{perscrfc}
-\title{perscrfc}
+\title{R made some personal sacrifice as an expression of faith by fasting, giving up a}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R made some personal sacrifice as an expression of faith by fasting, giving up a
+perscrfc
 }
 \details{
 Question None

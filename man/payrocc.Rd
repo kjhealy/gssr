@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_470.R
 \name{payrocc}
 \alias{payrocc}
-\title{payrocc}
+\title{How much r thinks workers in own occupation make}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much r thinks workers in own occupation make
+payrocc
 }
 \details{
 Question 1254. We would like to know what you think people in these jobs actually earn. Please write in how much you think they usually earn, each year, before taxes. Many people are not exactly sure about this but your best guess will be close enough. This may be difficult, but it is very important. So please try. Please write in how much they actually earn each year: p. People in your occupation

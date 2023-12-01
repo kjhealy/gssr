@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_163.R
 \name{kdevwork}
 \alias{kdevwork}
-\title{kdevwork}
+\title{Did r child work for 1 or more yr?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did r child work for 1 or more yr?
+kdevwork
 }
 \details{
 Question 506. Has s/he ever worked at one job for as long as one year?

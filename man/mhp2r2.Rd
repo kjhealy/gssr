@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_221.R
 \name{mhp2r2}
 \alias{mhp2r2}
-\title{mhp2r2}
+\title{Relation to person 2 (2nd mentioned)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relation to person 2 (2nd mentioned)
+mhp2r2
 }
 \details{
 Question B. (If present) Second relationship

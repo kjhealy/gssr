@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_305.R
 \name{workdiff}
 \alias{workdiff}
-\title{workdiff}
+\title{R does numerous things on job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R does numerous things on job
+workdiff
 }
 \details{
 Question 886. Now I'm going to read you a list of statements that might or might not describe your main job. Please tell me whether you strongly agree, agree, disagree, or strongly disagree with each of these statements. c. I get to do a number of different things on my job.

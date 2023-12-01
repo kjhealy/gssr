@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_134.R
 \name{genehire}
 \alias{genehire}
-\title{genehire}
+\title{Employers' right to hire by genetic tests}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Employers' right to hire by genetic tests
+genehire
 }
 \details{
 Question 415. Here are some questions about a new scientfic technology called "genetic screening." Using genetic screening, it is now possible to tell whether someone has inherited a tendency to develop certain cancers and certain forms of heart disease. These tests do not mean that a person will always develop the disease, but only that he or she may do so, depending on other conditions. b. Should employers have the right not to hire workers if tests show they have an inherited tendency to develoop certain forms of cancer or heart disease, or should htey not have the right?

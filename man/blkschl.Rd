@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_258.R
 \name{blkschl}
 \alias{blkschl}
-\title{blkschl}
+\title{Does r know blacks from school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know blacks from school
+blkschl
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. a. Do you know any of these blacks from when you went to school or college?

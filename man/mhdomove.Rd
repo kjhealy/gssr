@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_409.R
 \name{mhdomove}
 \alias{mhdomove}
-\title{mhdomove}
+\title{What x should do: move to another location}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: move to another location
+mhdomove
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? s. Move to another location

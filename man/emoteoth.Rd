@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_177.R
 \name{emoteoth}
 \alias{emoteoth}
-\title{emoteoth}
+\title{Man and woman emotionally dependent-independent}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Man and woman emotionally dependent-independent
+emoteoth
 }
 \details{
 Question 553. Next, we have some questions about the kind of relationship you would like with a spouse or partner. It doesn't matter whether you are now married or living with someone. For each pair of items on the card, which type of realtionship would you prefer? c1. A relationship where the man and woman are emotionally dependent on each other. c2. A relationship where the man and woman are both emotionally independent.

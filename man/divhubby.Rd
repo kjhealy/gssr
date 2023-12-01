@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_481.R
 \name{divhubby}
 \alias{divhubby}
-\title{divhubby}
+\title{Husb better if bad marrge ended by div}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Husb better if bad marrge ended by div
+divhubby
 }
 \details{
 Question 1286. And when a marriage is troubled and unhappy, is it generally better for the husband if the couple stays together or gets divorced?

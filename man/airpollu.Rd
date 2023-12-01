@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_629.R
 \name{airpollu}
 \alias{airpollu}
-\title{airpollu}
+\title{Neighborhood affected by air pollution over the last 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Neighborhood affected by air pollution over the last 12 months
+airpollu
 }
 \details{
 Question To what degree was your neighborhood affected by air polution over the last twelve months?

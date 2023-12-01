@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_430.R
 \name{clrgmar1}
 \alias{clrgmar1}
-\title{clrgmar1}
+\title{Leader1 was married at the time}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Leader1 was married at the time
+clrgmar1
 }
 \details{
 Question None

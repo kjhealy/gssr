@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_196.R
 \name{borrowed}
 \alias{borrowed}
-\title{borrowed}
+\title{Have you borrowed $100+ from another person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Have you borrowed $100+ from another person
+borrowed
 }
 \details{
 Question 615. Have you borrowed $100 or more from antoher person (not a bank, business, or other organization) at any time during the past 12 months?

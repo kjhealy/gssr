@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_514.R
 \name{cantrust}
 \alias{cantrust}
-\title{cantrust}
+\title{People can be trusted or cant be too careful}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-People can be trusted or cant be too careful
+cantrust
 }
 \details{
 Question 1400. Generally speaking, would you say that people can be trusted or that you can't be too careful in dealing with people?

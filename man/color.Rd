@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_46.R
 \name{color}
 \alias{color}
-\title{color}
+\title{R's skin color}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's skin color
+color
 }
 \details{
 Question 138. If black: Respondent's skin color is:

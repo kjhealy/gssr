@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_320.R
 \name{ownstock}
 \alias{ownstock}
-\title{ownstock}
+\title{R has stock in r's company}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has stock in r's company
+ownstock
 }
 \details{
 Question 915. Do you own any shares of stock in the company where you now work, either directly or through some type of retirement or stock plan?

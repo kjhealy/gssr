@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_506.R
 \name{dailywrk}
 \alias{dailywrk}
-\title{dailywrk}
+\title{How r's daily work is organized}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How r's daily work is organized
+dailywrk
 }
 \details{
 Question 1505. Which of the following statements best describes how your daily work is organized? 1. I am free to decide how my daily work is organized 2. I can decide how my daily work is organized, within certain limits 3. I am not free to decide how my daily work is organized

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_258.R
 \name{blkrel}
 \alias{blkrel}
-\title{blkrel}
+\title{Does r know blacks as relative}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know blacks as relative
+blkrel
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. c. Do you know any of these blacks as a relative?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_545.R
 \name{big5b2}
 \alias{big5b2}
-\title{big5b2}
+\title{R see oneself as someone who tends to find fault with others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R see oneself as someone who tends to find fault with others
+big5b2
 }
 \details{
 Question 1515. To what extent do you agree or disagree with the following statements? I see myself as someone who... b. Tends to find fault with others

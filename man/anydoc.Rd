@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_243.R
 \name{anydoc}
 \alias{anydoc}
-\title{anydoc}
+\title{Can choose any doctor i like}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Can choose any doctor i like
+anydoc
 }
 \details{
 Question 715. There are many different types of health care plans. I'd like to know which type of plan is most like yours. Please tell me if your plan has any of these features: b. Can you choose any doctor you like in your community or elsewhere, perhaps paying part of the bill?

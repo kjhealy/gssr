@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_280.R
 \name{ecomminh}
 \alias{ecomminh}
-\title{ecomminh}
+\title{Minutes per week use computer household management}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Minutes per week use computer household management
+ecomminh
 }
 \details{
 Question 801. About how many minutes or hours a week do you use your home computer for each of the following: a. Shopping, paying bills and other household management?

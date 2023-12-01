@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_259.R
 \name{hispcom}
 \alias{hispcom}
-\title{hispcom}
+\title{Does r know hispanics from community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know hispanics from community
+hispcom
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. b. Do you know any of these Hispanics from the community where you now live?

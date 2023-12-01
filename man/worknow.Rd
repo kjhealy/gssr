@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_503.R
 \name{worknow}
 \alias{worknow}
-\title{worknow}
+\title{Are you currently working for pay}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Are you currently working for pay
+worknow
 }
 \details{
 Question 1354. Are you currently working for pay?

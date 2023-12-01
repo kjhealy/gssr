@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_383.R
 \name{stormtxt}
 \alias{stormtxt}
-\title{stormtxt}
+\title{Do you see lightning before hearing thunder}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Do you see lightning before hearing thunder
+stormtxt
 }
 \details{
 Question None

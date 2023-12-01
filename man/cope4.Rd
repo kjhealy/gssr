@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_227.R
 \name{cope4}
 \alias{cope4}
-\title{cope4}
+\title{Feel god is punishing for sin}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel god is punishing for sin
+cope4
 }
 \details{
 Question 676. Think about how you try to understand and deal with major problems in your life. To what extent is each of the following involved in the way you cope: d. I feel that God is punishing me for my sins or lack of spirituality

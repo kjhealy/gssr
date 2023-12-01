@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_09.R
 \name{maoccstatus}
 \alias{maoccstatus}
-\title{maoccstatus}
+\title{Maocc10 coding status}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Maocc10 coding status
+maoccstatus
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_661.R
 \name{worksick}
 \alias{worksick}
-\title{worksick}
+\title{How many times in the last 90 days did r work while ill}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many times in the last 90 days did r work while ill
+worksick
 }
 \details{
 Question During the past 3 months, how many days did you work while physically ill?

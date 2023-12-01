@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_230.R
 \name{hope3}
 \alias{hope3}
-\title{hope3}
+\title{There are many ways around problems i face}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-There are many ways around problems i face
+hope3
 }
 \details{
 Question Using the scale on the showcard, please select the response that best describes how you think about yourself right now. Please focus on yourself and what is going on in your life at this moment. Please answer each item as I read them according to the scale on the card.C. There are lots of ways around any problem that I am facing now.

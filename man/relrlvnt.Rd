@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_517.R
 \name{relrlvnt}
 \alias{relrlvnt}
-\title{relrlvnt}
+\title{In america, religion is just as relevant to life today as it was in the past.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-In america, religion is just as relevant to life today as it was in the past.
+relrlvnt
 }
 \details{
 Question Do you agree or disagree with the following statement? B. In America, religion is just as relevant to life today as it was in the past.

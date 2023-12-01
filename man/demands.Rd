@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_461.R
 \name{demands}
 \alias{demands}
-\title{demands}
+\title{R feels that family make too many demands on r}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R feels that family make too many demands on r
+demands
 }
 \details{
 Question 1246. Do you feel that your family, relatives and/or friends make too many demands on you?

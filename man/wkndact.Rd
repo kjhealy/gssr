@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_490.R
 \name{wkndact}
 \alias{wkndact}
-\title{wkndact}
+\title{Who decides weekend activities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who decides weekend activities
+wkndact
 }
 \details{
 Question When you and your \link{spouse/partner} make decisions about choosing shared weekend activities, who has the final say?

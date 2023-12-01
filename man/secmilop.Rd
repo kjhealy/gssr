@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_569.R
 \name{secmilop}
 \alias{secmilop}
-\title{secmilop}
+\title{Government maintain secrecy on military operations}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Government maintain secrecy on military operations
+secmilop
 }
 \details{
 Question 1587. Should or should not the government maintain a high level of secrecy surrounding: (READ A-D) b. Military operations

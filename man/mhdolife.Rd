@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_409.R
 \name{mhdolife}
 \alias{mhdolife}
-\title{mhdolife}
+\title{What x should do: change lifestyle}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: change lifestyle
+mhdolife
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? l. Change lifestyle

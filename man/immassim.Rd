@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_537.R
 \name{immassim}
 \alias{immassim}
-\title{immassim}
+\title{What statement about immigrants matches view}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What statement about immigrants matches view
+immassim
 }
 \details{
 Question Which of these statements about immigrants comes closest to your view:

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_169.R
 \name{sbocc10}
 \alias{sbocc10}
-\title{sbocc10}
+\title{R sibling census occupation code (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R sibling census occupation code (2010)
+sbocc10
 }
 \details{
 Question None

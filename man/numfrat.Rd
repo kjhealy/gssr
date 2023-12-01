@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_348.R
 \name{numfrat}
 \alias{numfrat}
-\title{numfrat}
+\title{How many r belongs to fraternal groups}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many r belongs to fraternal groups
+numfrat
 }
 \details{
 Question 1025a. How many fraternal groups do you belong to?

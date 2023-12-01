@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_563.R
 \name{finan2}
 \alias{finan2}
-\title{finan2}
+\title{Having a car etc. repossessed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Having a car etc. repossessed
+finan2
 }
 \details{
 Question C. Did any of the following financial matters happen to you during the last year... 2. Car, household appliances, or furniture repossessed.

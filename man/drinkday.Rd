@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_345.R
 \name{drinkday}
 \alias{drinkday}
-\title{drinkday}
+\title{How many drinks r have on a day when drinking}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many drinks r have on a day when drinking
+drinkday
 }
 \details{
 Question 1018. Again, as you think back over the last 12 months, about how many drinks would you have on a typical day when you drank? PROBE IF NECESSARY: Would it have been 5 or more?

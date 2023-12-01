@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_446.R
 \name{poleff15}
 \alias{poleff15}
-\title{poleff15}
+\title{Most people better informed about politics than i}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Most people better informed about politics than i
+poleff15
 }
 \details{
 Question 1194. How much do you agree or disagree with each of the following statements? e. I think most people are better informed about politics and government than I am

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_570.R
 \name{knomentl}
 \alias{knomentl}
-\title{knomentl}
+\title{Gov should have the right to know}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Gov should have the right to know
+knomentl
 }
 \details{
 Question 1589. Please tell me which one of the statements on the card best describes what the government has the right to know. Before giving an individual a SECRET or TOP SECRET clearance, the government should have the right to know: 1. Nothing about an individual's emotional or mental health 2. Whether or not an individual is now consulting a mental health professional 3. Whether or not an individual has ever consulted a mental health professional 4. Whether or not an idnividual has ever consulted a mental health professional, and the general nature of the diagnosis and counseling by the mental health professiona. 5. Whether or not an individual has ever consulted a mental health professional, the general nature of the diagnosis and counseling by the mental health professional, and the specific information revealed in confidence to the mental health professional

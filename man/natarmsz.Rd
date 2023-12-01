@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_27.R
 \name{natarmsz}
 \alias{natarmsz}
-\title{natarmsz}
+\title{Strengthening national defense:ver z}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Strengthening national defense:ver z
+natarmsz
 }
 \details{
 Question 70. We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. l. Strengthening national defense.

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_258.R
 \name{whtwrk}
 \alias{whtwrk}
-\title{whtwrk}
+\title{Does r know whites from work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know whites from work
+whtwrk
 }
 \details{
 Question 758. Now, I'm going to ask some questions about these people you personally know. d. Do you know any of these whites from the place where you work?

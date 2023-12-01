@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_336.R
 \name{lookaway}
 \alias{lookaway}
-\title{lookaway}
+\title{Ppl look the other way when others are threatened}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ppl look the other way when others are threatened
+lookaway
 }
 \details{
 Question Please respond to the following statements based on your experience during the past 12 months unless otherwise specified, with reference to your current place of employment only. n. In my workplace, people "look the other way" when others are threatened, intimidated, or put down.

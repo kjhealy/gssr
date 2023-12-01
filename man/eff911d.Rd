@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_421.R
 \name{eff911d}
 \alias{eff911d}
-\title{eff911d}
+\title{How effective r thinks learning where to get info about terrorism}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How effective r thinks learning where to get info about terrorism
+eff911d
 }
 \details{
 Question How effective do you think learning where to get more information about terrorism is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)

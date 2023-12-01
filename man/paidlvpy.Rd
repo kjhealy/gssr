@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_489.R
 \name{paidlvpy}
 \alias{paidlvpy}
-\title{paidlvpy}
+\title{Who pays for leave}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Who pays for leave
+paidlvpy
 }
 \details{
 Question And who should pay for this leave? The government, the employer, both the government and the employer, or other sources?

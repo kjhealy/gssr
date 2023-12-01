@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_506.R
 \name{unjobsec}
 \alias{unjobsec}
-\title{unjobsec}
+\title{Unions are very important for job security}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unions are very important for job security
+unjobsec
 }
 \details{
 Question 1502. To what extent do you agree or disagree with the following statements? a. Trade unions are very important for the job security of employees

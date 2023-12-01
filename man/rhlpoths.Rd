@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_500.R
 \name{rhlpoths}
 \alias{rhlpoths}
-\title{rhlpoths}
+\title{R helps others in job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R helps others in job
+rhlpoths
 }
 \details{
 Question 1335. For each statement about your main job below, please circle one code to show how much you agree or disagree that it applies to your job. g. in my job I can help other people

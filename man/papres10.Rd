@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_07.R
 \name{papres10}
 \alias{papres10}
-\title{papres10}
+\title{Father's occupational prestige score (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Father's occupational prestige score (2010)
+papres10
 }
 \details{
 Question None

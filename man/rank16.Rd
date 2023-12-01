@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_630.R
 \name{rank16}
 \alias{rank16}
-\title{rank16}
+\title{R's self ranking of family at age 16}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's self ranking of family at age 16
+rank16
 }
 \details{
 Question None

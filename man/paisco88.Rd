@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_596.R
 \name{paisco88}
 \alias{paisco88}
-\title{paisco88}
+\title{R's father's occupation, 1980 census & 1988 isco code}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's father's occupation, 1980 census & 1988 isco code
+paisco88
 }
 \details{
 Question 1643. Respondent's Father's Occupation, 1988 Census

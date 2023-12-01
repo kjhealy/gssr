@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_655.R
 \name{brv5chinum}
 \alias{brv5chinum}
-\title{brv5chinum}
+\title{Number of stepchild deaths}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of stepchild deaths
+brv5chinum
 }
 \details{
 Question Number

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_562.R
 \name{hlth14}
 \alias{hlth14}
-\title{hlth14}
+\title{A death of parents}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-A death of parents
+hlth14
 }
 \details{
 Question Now I am going to ask about some things that happen in families. Did any deaths occur during the past year, that is since (CURRENT MONTH) 2003? Who was that? 14. Father or mother

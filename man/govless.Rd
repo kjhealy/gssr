@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_472.R
 \name{govless}
 \alias{govless}
-\title{govless}
+\title{Govmnt should spend less on poor}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govmnt should spend less on poor
+govless
 }
 \details{
 Question 1256. Do you agree or disagree: e. The government should spend less on benefits for the poor.

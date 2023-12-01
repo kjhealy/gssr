@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_382.R
 \name{vissci}
 \alias{vissci}
-\title{vissci}
+\title{How often r visited science museum}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r visited science museum
+vissci
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_39.R
 \name{popespks}
 \alias{popespks}
-\title{popespks}
+\title{Pope is infallible on matter's of faith or morals}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pope is infallible on matter's of faith or morals
+popespks
 }
 \details{
 Question 114g. We are interested in what American Catholics think about religious matters. Please select the answer from this card that comes closest to your own personal opinion about the following statement: under certain conditions, the pope is infallible when he speaks on matters of faith and morals.

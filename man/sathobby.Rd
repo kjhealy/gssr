@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_50.R
 \name{sathobby}
 \alias{sathobby}
-\title{sathobby}
+\title{Non-working activities, hobbies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Non-working activities, hobbies
+sathobby
 }
 \details{
 Question 164. For each area of life I am going to name, tell me the number that shows how much satisfaction you get from that area. b. Your non-working activities -- hobbies and so on.

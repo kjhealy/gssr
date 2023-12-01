@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_122.R
 \name{bwfriend}
 \alias{bwfriend}
-\title{bwfriend}
+\title{Friends black or white}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Friends black or white
+bwfriend
 }
 \details{
 Question 388. Are any of your good friends that you feel close to black/white?

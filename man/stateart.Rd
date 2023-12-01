@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_232.R
 \name{stateart}
 \alias{stateart}
-\title{stateart}
+\title{Feel state gov should provide assistance to art}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Feel state gov should provide assistance to art
+stateart
 }
 \details{
 Question 693a. What about state government? Do you feel that it should provide financial assistance to arts organizations?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_195.R
 \name{rellaw}
 \alias{rellaw}
-\title{rellaw}
+\title{Relationship to the attorney}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship to the attorney
+rellaw
 }
 \details{
 Question 609. What was your relationship to the attorney who provided the services, or to another attorney in the firm?

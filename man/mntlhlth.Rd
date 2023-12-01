@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_310.R
 \name{mntlhlth}
 \alias{mntlhlth}
-\title{mntlhlth}
+\title{Days of poor mental health past 30 days}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Days of poor mental health past 30 days
+mntlhlth
 }
 \details{
 Question 907. Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?

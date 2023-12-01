@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_148.R
 \name{musicals}
 \alias{musicals}
-\title{musicals}
+\title{Like or dislike broadway musicals}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Like or dislike broadway musicals
+musicals
 }
 \details{
 Question 472. I'm going to read you a list of some types of music. Can you tell me which of the statements on this card comes closest to your feeling about each type of music. e. Broadway musicals/show tunes

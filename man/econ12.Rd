@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_267.R
 \name{econ12}
 \alias{econ12}
-\title{econ12}
+\title{Past 12 months r web to learn economy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Past 12 months r web to learn economy
+econ12
 }
 \details{
 Question 775. In the past 12 months, have you used the Web to find out about or discuss: a. The economy?

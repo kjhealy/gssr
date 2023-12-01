@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_625.R
 \name{raceacs11}
 \alias{raceacs11}
-\title{raceacs11}
+\title{Native hawaiian}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Native hawaiian
+raceacs11
 }
 \details{
 Question What is your race? Indicate one or more races that you consider yourself to be. Native Hawaiian

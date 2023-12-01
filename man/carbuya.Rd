@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_191.R
 \name{carbuya}
 \alias{carbuya}
-\title{carbuya}
+\title{R's own previous knowledge made r buy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R's own previous knowledge made r buy
+carbuya
 }
 \details{
 Question 594. What made you think that this would be a good place to make your purchase? a. My own previous knowledge of the place

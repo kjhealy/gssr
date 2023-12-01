@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_425.R
 \name{meetf2f2}
 \alias{meetf2f2}
-\title{meetf2f2}
+\title{How often meet face to face with co-workers to work on projects}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often meet face to face with co-workers to work on projects
+meetf2f2
 }
 \details{
 Question How often do you meet face-to-face with co-workers to work on projects, for example solving special problems or improving products or services? Is it... FI INFO: CO-WORKERS INCLUDE OUTSIDE CONTRACTORS AND SUPPLIERS, BUT NOT CUSTOMERS

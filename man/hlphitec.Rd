@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_441.R
 \name{hlphitec}
 \alias{hlphitec}
-\title{hlphitec}
+\title{Govt support for new products and tech}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt support for new products and tech
+hlphitec
 }
 \details{
 Question 1179. Here are some things the government might do for the economy. Circle one number for each action to show whether you are in favor of it or against it. f. Support for industry to develop new products and technology

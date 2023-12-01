@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_242.R
 \name{psyckid1}
 \alias{psyckid1}
-\title{psyckid1}
+\title{Will give kid med because kid is hostile}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Will give kid med because kid is hostile
+psyckid1
 }
 \details{
 Question 712. How likely would you be to give doctor-prescribed psychiatric medication to your child or a child you were responsible for in the following situations (A child would be considered anyone between the ages of 8 and 15). a. Because s/he is hostile, often loses his/her temper, often argues with adults, actively defies authority and seems spiteful or vindictive

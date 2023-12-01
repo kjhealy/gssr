@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_453.R
 \name{relmost}
 \alias{relmost}
-\title{relmost}
+\title{Adult relative r has most contact with}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Adult relative r has most contact with
+relmost
 }
 \details{
 Question 1207. Thinking of all the adult relatives, which one do you have the most contact with?

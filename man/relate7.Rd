@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_585.R
 \name{relate7}
 \alias{relate7}
-\title{relate7}
+\title{Relationship of 7th person to household head}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Relationship of 7th person to household head
+relate7
 }
 \details{
 Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. a. What is \link{PERSON}'s relationship to the head of household?

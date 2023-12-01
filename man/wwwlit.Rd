@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_272.R
 \name{wwwlit}
 \alias{wwwlit}
-\title{wwwlit}
+\title{Use web to learn about literature}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use web to learn about literature
+wwwlit
 }
 \details{
 Question 787a. Do you ever use the Web to learn about, read, or discuss topics related to literature�novels, poetry, or plays?

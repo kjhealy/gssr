@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_176.R
 \name{willwed1}
 \alias{willwed1}
-\title{willwed1}
+\title{How likely you two will get married?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How likely you two will get married?
+willwed1
 }
 \details{
 Question 548. How likely is it that you two will get married?

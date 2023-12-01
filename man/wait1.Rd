@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_297.R
 \name{wait1}
 \alias{wait1}
-\title{wait1}
+\title{How long r wait treatment moderate activity}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How long r wait treatment moderate activity
+wait1
 }
 \details{
 Question 843. Given your life right now, how many days, weeks or months would you wait for this situation to get better on its own before seeking medical treatment? a. Not being able to do moderate activities, such as moving a table, pushing a vacuum cleaner, bowling or playing golf?

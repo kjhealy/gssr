@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_661.R
 \name{indus10_next}
 \alias{indus10_next}
-\title{indus10_next}
+\title{Industry - follow-on version}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Industry - follow-on version
+indus10_next
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_385.R
 \name{cloning}
 \alias{cloning}
-\title{cloning}
+\title{Cloning makes identical copy}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Cloning makes identical copy
+cloning
 }
 \details{
 Question The cloning of living things produces genetically identical copies. (Is that true or false?) FI INSTRUCTION: DO NOT PROBE 'DON'T KNOW'

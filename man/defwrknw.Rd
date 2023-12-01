@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_91.R
 \name{defwrknw}
 \alias{defwrknw}
-\title{defwrknw}
+\title{Currently work for military supplier?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Currently work for military supplier?
+defwrknw
 }
 \details{
 Question 305a. If yes: Do you work for such a company now?

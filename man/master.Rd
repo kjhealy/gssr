@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_38.R
 \name{master}
 \alias{master}
-\title{master}
+\title{Image of god as master}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Image of god as master
+master
 }
 \details{
 Question 113. When you think about God, how likely are each of these images to come to your mind? d. Master

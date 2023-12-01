@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_140.R
 \name{yousup}
 \alias{yousup}
-\title{yousup}
+\title{How many people do you supervise directly}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many people do you supervise directly
+yousup
 }
 \details{
 Question 439a. How many people do you supervise directly?

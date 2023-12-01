@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_649.R
 \name{docsat1}
 \alias{docsat1}
-\title{docsat1}
+\title{How satisfied r was with last doctor visit}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How satisfied r was with last doctor visit
+docsat1
 }
 \details{
 Question How satisfied or dissatisfied were you with the treatment you received... When you last visited a doctor?

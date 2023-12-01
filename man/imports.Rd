@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_532.R
 \name{imports}
 \alias{imports}
-\title{imports}
+\title{America should limit the import}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-America should limit the import
+imports
 }
 \details{
 Question Now we would like to ask a few questions about relations between America and other countries. 1442. How much do you agree or disagree with the following statements? a. America should limit the import of foreign products in order to protect its national economy

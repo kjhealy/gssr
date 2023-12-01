@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_409.R
 \name{mhdopray}
 \alias{mhdopray}
-\title{mhdopray}
+\title{What x should do: pray}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-What x should do: pray
+mhdopray
 }
 \details{
 Question 1133. What do you think \link{NAME} should do about this situation? k. Pray

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_563.R
 \name{work9}
 \alias{work9}
-\title{work9}
+\title{Ones' spouse being unemployed}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Ones' spouse being unemployed
+work9
 }
 \details{
 Question B. Second, what about work-related matters? Did any of the following happen to you since (CURRENT MONTH), 2003? 9. Your (husband/wife)/partner was unemployed and looking for work for a month or more.

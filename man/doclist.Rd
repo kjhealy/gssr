@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_243.R
 \name{doclist}
 \alias{doclist}
-\title{doclist}
+\title{Use a directory list for health care plan}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Use a directory list for health care plan
+doclist
 }
 \details{
 Question 715. There are many different types of health care plans. I'd like to know which type of plan is most like yours. Please tell me if your plan has any of these features: a. Is there a book, directory, or list of doctors whom you must use?

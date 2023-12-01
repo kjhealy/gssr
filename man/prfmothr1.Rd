@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_237.R
 \name{prfmothr1}
 \alias{prfmothr1}
-\title{prfmothr1}
+\title{Other reason why did not go}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other reason why did not go
+prfmothr1
 }
 \details{
 Question Thinking about the most recent performance you wanted to attend but did not, which of the following factors were important in your decision not to attend? H. Please specify:

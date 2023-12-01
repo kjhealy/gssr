@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_130.R
 \name{patrso}
 \alias{patrso}
-\title{patrso}
+\title{Unpatriotic - patriotic}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Unpatriotic - patriotic
+patrso
 }
 \details{
 Question 403f. Do people in these groups tend to be patriotic or do they tend to be unpatriotic? 6. Southern whites

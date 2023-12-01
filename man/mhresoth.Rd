@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_416.R
 \name{mhresoth}
 \alias{mhresoth}
-\title{mhresoth}
+\title{How much responsibility r had for this person}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How much responsibility r had for this person
+mhresoth
 }
 \details{
 Question 1146d. How much responsibility did you have for making day-to-day decisions for this person? Would you say...

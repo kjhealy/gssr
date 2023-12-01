@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_113.R
 \name{scichng}
 \alias{scichng}
-\title{scichng}
+\title{Science changes way of life too fast}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Science changes way of life too fast
+scichng
 }
 \details{
 Question 357. Here are some things that have been said about science. Would you tell me if you tend to agree or disagree with them? b. One trouble with science si that it makes our way of life change too fast.

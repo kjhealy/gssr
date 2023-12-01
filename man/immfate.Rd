@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_642.R
 \name{immfate}
 \alias{immfate}
-\title{immfate}
+\title{Fate of illegal immigrants}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Fate of illegal immigrants
+immfate
 }
 \details{
 Question What should be done about immigrants who are currently living in the U.S. illegally?

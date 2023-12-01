@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_515.R
 \name{relcand}
 \alias{relcand}
-\title{relcand}
+\title{R accepts a person from a different religion or view from r's being candidate of}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R accepts a person from a different religion or view from r's being candidate of
+relcand
 }
 \details{
 Question None

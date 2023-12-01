@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_611.R
 \name{wtssall}
 \alias{wtssall}
-\title{wtssall}
+\title{Weight variable}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Weight variable
+wtssall
 }
 \details{
 Question None

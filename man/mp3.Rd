@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_291.R
 \name{mp3}
 \alias{mp3}
-\title{mp3}
+\title{How familiar r is with term mp3}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How familiar r is with term mp3
+mp3
 }
 \details{
 Question 815. Are you very familiar, somewhat familiar, or not familiar with the following internet terms: f. MP3

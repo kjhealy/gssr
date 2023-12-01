@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_439.R
 \name{kidxfilm}
 \alias{kidxfilm}
-\title{kidxfilm}
+\title{Govt intervene: chld allowed to see porn}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt intervene: chld allowed to see porn
+kidxfilm
 }
 \details{
 Question 1176. Sometimes public authorities intervene with parents in raising their children. Please indicate in each of the following cases how far you think authorities should go in dealing with a 10 year old child and his or her parents. Public authorities should... h. The parents allow the child to watch violent or pornographic films.

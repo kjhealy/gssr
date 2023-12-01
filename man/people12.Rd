@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_266.R
 \name{people12}
 \alias{people12}
-\title{people12}
+\title{R use web to meet new people in past 12 months}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use web to meet new people in past 12 months
+people12
 }
 \details{
 Question 774. In the past 12 months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/02 have you used the Web to do each of these things: f. Tried to meet new people for social purpose?

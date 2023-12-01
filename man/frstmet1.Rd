@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_365.R
 \name{frstmet1}
 \alias{frstmet1}
-\title{frstmet1}
+\title{R first met the named alter in the group}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R first met the named alter in the group
+frstmet1
 }
 \details{
 Question 1029. Did you first meet (NAME) in one of the groups in the previous question, or did you first meet somewhere else?

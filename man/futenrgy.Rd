@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_527.R
 \name{futenrgy}
 \alias{futenrgy}
-\title{futenrgy}
+\title{U.s. energy priorities}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-U.s. energy priorities
+futenrgy
 }
 \details{
 Question None

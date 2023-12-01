@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_67.R
 \name{abpoor}
 \alias{abpoor}
-\title{abpoor}
+\title{Low income--cant afford more children}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Low income--cant afford more children
+abpoor
 }
 \details{
 Question 206. Please tell me whether or not you think it should be possible for a pregnant woman to obtaina legal abortion if: d. The family has a very low income and cannot afford any more children?

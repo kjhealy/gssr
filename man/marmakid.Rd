@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_479.R
 \name{marmakid}
 \alias{marmakid}
-\title{marmakid}
+\title{Single ma can raise kids well as couple}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Single ma can raise kids well as couple
+marmakid
 }
 \details{
 Question 1280. Do you agree or disagree? g. A single mother can bring up her child as well as a married couple.

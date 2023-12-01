@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_05.R
 \name{spocc10}
 \alias{spocc10}
-\title{spocc10}
+\title{Spouse census occupation code (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Spouse census occupation code (2010)
+spocc10
 }
 \details{
 Question None

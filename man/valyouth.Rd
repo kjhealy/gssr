@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_208.R
 \name{valyouth}
 \alias{valyouth}
-\title{valyouth}
+\title{Estimated value contributed in youth development}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Estimated value contributed in youth development
+valyouth
 }
 \details{
 Question 645. Of the total amount you gave to (AREA IN Q.644) what is the estimated dollar value of contributed property, e.g., clothing, furniture, real estate, equipment, etc.? k. Youth development

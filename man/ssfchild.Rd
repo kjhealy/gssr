@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_488.R
 \name{ssfchild}
 \alias{ssfchild}
-\title{ssfchild}
+\title{Same sex female couple raise child as well as male-female couple}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Same sex female couple raise child as well as male-female couple
+ssfchild
 }
 \details{
 Question (To what extent do you agree or disagree with the following statements?) A same sex female couple can bring up a child as well as a male-female couple.

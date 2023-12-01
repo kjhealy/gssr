@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_493.R
 \name{hiinc}
 \alias{hiinc}
-\title{hiinc}
+\title{Importance of high pr income in a job}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Importance of high pr income in a job
+hiinc
 }
 \details{
 Question 1326. On the following list there are various aspects of jobs. Please circle one number to show how important you personally consider it is in a job: b. High income

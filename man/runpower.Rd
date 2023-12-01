@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_447.R
 \name{runpower}
 \alias{runpower}
-\title{runpower}
+\title{Electric power should mainly be run by private}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Electric power should mainly be run by private
+runpower
 }
 \details{
 Question 1197. Do you think each of the following should mainly be run by private organizations or companies, or by the government? a. Electric power

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{dofirst}
 \alias{dofirst}
-\title{dofirst}
+\title{Here are the things you said {#secl_name} should do...	 interviewer: read list}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Here are the things you said {#secl_name} should do...	 interviewer: read list
+dofirst
 }
 \details{
 Question Here are the things you said \link{John/Juan/Mary/Maria} should do? What is the first thing s/he should do?

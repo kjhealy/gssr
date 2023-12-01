@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_624.R
 \name{polabusey}
 \alias{polabusey}
-\title{polabusey}
+\title{Citizen said vulgar or obscene things y}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Citizen said vulgar or obscene things y
+polabusey
 }
 \details{
 Question (Would you approve of a policeman striking a citizen who...) Had said vulgar and obscene things to the police officer?

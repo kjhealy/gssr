@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_139.R
 \name{sexpromo}
 \alias{sexpromo}
-\title{sexpromo}
+\title{Sex makes your promotion different}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Sex makes your promotion different
+sexpromo
 }
 \details{
 Question 434. Do you think your being a (man/woman) makes your promotion opportunities better or worse?

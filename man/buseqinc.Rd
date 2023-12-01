@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_634.R
 \name{buseqinc}
 \alias{buseqinc}
-\title{buseqinc}
+\title{Pay difference in companies}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pay difference in companies
+buseqinc
 }
 \details{
 Question Think of a score of 1 as meaning that major companies ought to reduce the pay differences between employees with high pay and those with low pay, and a score of 7 meaning that major companies should not concern themselves with reducing pay differences.

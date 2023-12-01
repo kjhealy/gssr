@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_43.R
 \name{world2}
 \alias{world2}
-\title{world2}
+\title{World image:the good must act vs. not}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-World image:the good must act vs. not
+world2
 }
 \details{
 Question 121. People have different images of the world and human nature. We'd like to know the kinds of images you have. Here is a card with sets of contrasting images. On a scale of 1-7 where would you place your image of the world and human nature between the two contrasting images? b. 1. The good person must be deeply involved in the problems and activities in the world. 7. The good person must avoid contamination by the corruption of the world.

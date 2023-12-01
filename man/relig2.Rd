@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_103.R
 \name{relig2}
 \alias{relig2}
-\title{relig2}
+\title{Religious preference of person #2}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Religious preference of person #2
+relig2
 }
 \details{
 Question 323. What is \link{NAME}'s religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_67.R
 \name{fewrite}
 \alias{fewrite}
-\title{fewrite}
+\title{R ever written official abt women's rgts}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R ever written official abt women's rgts
+fewrite
 }
 \details{
 Question 205. Have you ever: a. Written a letter to a public official expressing your views on women's right?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_172.R
 \name{hspasn10}
 \alias{hspasn10}
-\title{hspasn10}
+\title{Change in ethnic status in local community}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Change in ethnic status in local community
+hspasn10
 }
 \details{
 Question 528. Compared to 10 years ago do Hispanics and Asians make up a larger share of the population in your local community, the same share, or a smaller share?

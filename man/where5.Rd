@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_584.R
 \name{where5}
 \alias{where5}
-\title{where5}
+\title{Where is 5th person staying?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Where is 5th person staying?
+where5
 }
 \details{
 Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. f. Where is \link{PERSON} staying right now? Is \link{PERSON} staying at another household; Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?

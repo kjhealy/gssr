@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_65.R
 \name{union1}
 \alias{union1}
-\title{union1}
+\title{Does r or spouse or partner belong to union}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r or spouse or partner belong to union
+union1
 }
 \details{
 Question Do you (or your spouse or partner) belong to a labor union? (Who?)

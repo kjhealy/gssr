@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_215.R
 \name{dangroth}
 \alias{dangroth}
-\title{dangroth}
+\title{X should be admitted to be hospitalized for treatment if dangerous to others}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X should be admitted to be hospitalized for treatment if dangerous to others
+dangroth
 }
 \details{
 Question 661. Some cities and states have laws that force people with problems like NAME into treatment. Do you think that people like NAME should be forced by law to... e. Be admitted to a hospital for treatment if s/he is dangerous to others

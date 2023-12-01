@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_478.R
 \name{wrkbaby}
 \alias{wrkbaby}
-\title{wrkbaby}
+\title{Shld woman with preschooler work?}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Shld woman with preschooler work?
+wrkbaby
 }
 \details{
 Question 1276. Do you think that women should work outside the home full-time, part-time or not at all under these circumstances: b. When there is a child under school age?

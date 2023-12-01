@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_607.R
 \name{mode}
 \alias{mode}
-\title{mode}
+\title{Interview done in-person or over the phone}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Interview done in-person or over the phone
+mode
 }
 \details{
 Question WAS THIS CASE COMPLETED IN-PERSON OR OVER THE PHONE?

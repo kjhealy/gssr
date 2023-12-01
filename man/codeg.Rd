@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_10.R
 \name{codeg}
 \alias{codeg}
-\title{codeg}
+\title{Partner's highest degree}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner's highest degree
+codeg
 }
 \details{
 Question None

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_281.R
 \name{compwork}
 \alias{compwork}
-\title{compwork}
+\title{Does r use computer at work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r use computer at work
+compwork
 }
 \details{
 Question 802. Do you use a computer at work�that is, at a workplace away from your home?

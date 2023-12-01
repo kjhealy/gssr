@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_150.R
 \name{tvshows}
 \alias{tvshows}
-\title{tvshows}
+\title{How often r watches tv drama or sitcoms}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How often r watches tv drama or sitcoms
+tvshows
 }
 \details{
 Question 474. I'll now ask about some different kinds of television shows. Would you tell me how often you watch: a. Prime-time drama or situation comedy programs.

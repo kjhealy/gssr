@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_195.R
 \name{lawyerf}
 \alias{lawyerf}
-\title{lawyerf}
+\title{I searched for the best price.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-I searched for the best price.
+lawyerf
 }
 \details{
 Question 608. Think about the most recent time you hired a lawyer. What made you choose this law firm or attorney? f. I searched for the best price.

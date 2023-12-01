@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_608.R
 \name{formwt}
 \alias{formwt}
-\title{formwt}
+\title{Weight deal with experimental randomization}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Weight deal with experimental randomization
+formwt
 }
 \details{
 Question 1662. Weight for form variables.

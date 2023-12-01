@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_113.R
 \name{fegains}
 \alias{fegains}
-\title{fegains}
+\title{Best way for women to improve position}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Best way for women to improve position
+fegains
 }
 \details{
 Question ASK ONLY IF R IS FEMALE: 356. People have different ideas about the best way for women to improve their position in American life and politics. Some people think that the best way for women to improve their position is through women's rights groups, they would be at point 1 on this card. Other pepole think that the best way for women to improve their position is for each individual woman to become better trained and more qualified. They would be located at point 7. And other people have opinions somewhere in between. Where would you place yourself on this scale?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_276.R
 \name{upload}
 \alias{upload}
-\title{upload}
+\title{Does r know how to upload files to www}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does r know how to upload files to www
+upload
 }
 \details{
 Question 791. Now we'd like to ask you a few questions about terms that people use to talk about the Internet and World Wide Web. d. Do you know how to send a file that is on your computer's hard drive to someone using another computer?

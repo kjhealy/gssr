@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_236.R
 \name{nogo}
 \alias{nogo}
-\title{nogo}
+\title{Perf or exhibit r wanted to go to in past 12 months but did not}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Perf or exhibit r wanted to go to in past 12 months but did not
+nogo
 }
 \details{
 Question A. During the last 12 months, was there a performance or exhibit that you wanted to go to but did not?

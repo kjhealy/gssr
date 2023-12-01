@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_112.R
 \name{othlobby}
 \alias{othlobby}
-\title{othlobby}
+\title{Has r lobbied higher level officials}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has r lobbied higher level officials
+othlobby
 }
 \details{
 Question 346. What about some representatives or governmental officials outside of the local community? Have you ever contacted or written to such a person on some need or problem?

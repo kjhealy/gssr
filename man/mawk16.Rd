@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_14.R
 \name{mawk16}
 \alias{mawk16}
-\title{mawk16}
+\title{Mothers employment when r growing up}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Mothers employment when r growing up
+mawk16
 }
 \details{
 Question 28c. Did she work for as long as a year around the time you were 16?

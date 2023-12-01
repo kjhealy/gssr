@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_410.R
 \name{mhupdown}
 \alias{mhupdown}
-\title{mhupdown}
+\title{X is experiencing normal ups-and-downs of life}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-X is experiencing normal ups-and-downs of life
+mhupdown
 }
 \details{
 Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... h. The normal ups-and-downs of life

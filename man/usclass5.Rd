@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_29.R
 \name{usclass5}
 \alias{usclass5}
-\title{usclass5}
+\title{Personal income not determined by work}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Personal income not determined by work
+usclass5
 }
 \details{
 Question 72. Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat agree, somewhat disagree, or strongly disagree. e. Personal income shousl not be determined solely by one's work. Rather, everybody should get what he/she needs to provide a decent life for his/her family.

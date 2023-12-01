@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_14.R
 \name{granborn}
 \alias{granborn}
-\title{granborn}
+\title{How many grandparents born outside u.s.}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How many grandparents born outside u.s.
+granborn
 }
 \details{
 Question 33. Were all of your four grandparents born in this country? a. How many were born outside the United States?

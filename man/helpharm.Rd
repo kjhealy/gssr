@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_527.R
 \name{helpharm}
 \alias{helpharm}
-\title{helpharm}
+\title{Way living helps or harms}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Way living helps or harms
+helpharm
 }
 \details{
 Question (How much do you agree or disagree with each of these statements?) I find it hard to know whether the way I live is helpful or harmful to the environment.

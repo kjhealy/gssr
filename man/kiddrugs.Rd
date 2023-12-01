@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_438.R
 \name{kiddrugs}
 \alias{kiddrugs}
-\title{kiddrugs}
+\title{Govt intervene: child uses drugs}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Govt intervene: child uses drugs
+kiddrugs
 }
 \details{
 Question 1176. Sometimes public authorities intervene with parents in raising their children. Please indicate in each of the following cases how far you think authorities should go in dealing with a 10 year old child and his or her parents. Public authorities should... a. The child uses drugs and the parents don't do anything about it.

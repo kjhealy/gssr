@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_118.R
 \name{doubts1}
 \alias{doubts1}
-\title{doubts1}
+\title{Has evil in the world caused r doubt}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Has evil in the world caused r doubt
+doubts1
 }
 \details{
 Question 378. How often have these problems caused doubts about your religious faith? a. Evil in the world

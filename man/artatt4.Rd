@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_235.R
 \name{artatt4}
 \alias{artatt4}
-\title{artatt4}
+\title{Attended with relative}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Attended with relative
+artatt4
 }
 \details{
 Question Did any of the following go with you? D. Relative

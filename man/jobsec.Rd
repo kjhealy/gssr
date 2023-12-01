@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_61.R
 \name{jobsec}
 \alias{jobsec}
-\title{jobsec}
+\title{No danger of being fired}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-No danger of being fired
+jobsec
 }
 \details{
 Question 183a. Would you please look at this card and tell me which one thing on this list you would most prefer in a job? b. Which comes next? c. Which is third most important? d. Which is fourth most important? NO DANGER OF BEING FIRED

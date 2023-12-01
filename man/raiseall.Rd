@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_143.R
 \name{raiseall}
 \alias{raiseall}
-\title{raiseall}
+\title{All workers regardless of performance got raise}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-All workers regardless of performance got raise
+raiseall
 }
 \details{
 Question 456. Think about how pay raises are given where you work. Please tell me all statements that apply. Do you feel that raises are given to: a. All workers regardless of performance

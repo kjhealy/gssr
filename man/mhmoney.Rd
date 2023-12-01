@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_412.R
 \name{mhmoney}
 \alias{mhmoney}
-\title{mhmoney}
+\title{How able is x to decide on managing own money}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-How able is x to decide on managing own money
+mhmoney
 }
 \details{
 Question 1139. How able is \link{NAME} to make decisions about managing (his/her) own money?

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_93.R
 \name{numgiven}
 \alias{numgiven}
-\title{numgiven}
+\title{Number of persons mentioned}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Number of persons mentioned
+numgiven
 }
 \details{
 Question 313. From time to time, most peopole discuss important matters with other people. Looking back over the last six months, who are the people with whom you discussed matters important to you? NUMBER

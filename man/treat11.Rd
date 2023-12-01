@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_297.R
 \name{treat11}
 \alias{treat11}
-\title{treat11}
+\title{R seek treat health interfere with social l}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R seek treat health interfere with social l
+treat11
 }
 \details{
 Question 842. Next, I'm going to read you some descriptions of health problems people sometimes experience. Some people might go to a doctor, others might not. k. Having physical health or emotional problems interfere with you social life, like visiting friends, relatives, etc.?

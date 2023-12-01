@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_407.R
 \name{disabld5}
 \alias{disabld5}
-\title{disabld5}
+\title{R has emotional or mental disability}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R has emotional or mental disability
+disabld5
 }
 \details{
 Question 1128. Do you have any emotional or mental disability?

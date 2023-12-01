@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_135.R
 \name{reorg}
 \alias{reorg}
-\title{reorg}
+\title{There was a major reorganization}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-There was a major reorganization
+reorg
 }
 \details{
 Question 418. In the last five years, did any of the following things happen to an organization that you worked for? c. There was a major reorganization

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_567.R
 \name{realinc}
 \alias{realinc}
-\title{realinc}
+\title{Family income in constant $}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Family income in constant $
+realinc
 }
 \details{
 Question 1577. Family income on 1972-2006 surveys in constant dollars (base = 1986)

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_324.R
 \name{peoptrbl}
 \alias{peoptrbl}
-\title{peoptrbl}
+\title{Assisting people in trouble is very important}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Assisting people in trouble is very important
+peoptrbl
 }
 \details{
 Question 929. Please tell me whether you strongly agree, agree, neither agree nor disagree, disagree, or strongly disagree with the following statements: c. Personally assisting people in trouble is very important to me

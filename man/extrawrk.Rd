@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_495.R
 \name{extrawrk}
 \alias{extrawrk}
-\title{extrawrk}
+\title{Did you work multiple jobs in past yr}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Did you work multiple jobs in past yr
+extrawrk
 }
 \details{
 Question Over the past 12 months, in addition to your main job, have you done any other work for pay?

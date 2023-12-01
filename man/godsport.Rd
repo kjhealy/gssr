@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_122.R
 \name{godsport}
 \alias{godsport}
-\title{godsport}
+\title{Pro-athletes giving thanks to god}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Pro-athletes giving thanks to god
+godsport
 }
 \details{
 Question 389. Do you strongly approve of, somewhat approve of, neither approve of nor oppose, somewhat oppose, or strongly oppose the following public expressions of religion: b. Pro-athletes giving thanks to God during sports events?

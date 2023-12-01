@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_262.R
 \name{hseth}
 \alias{hseth}
-\title{hseth}
+\title{Largest non white ethnic group in high school}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Largest non white ethnic group in high school
+hseth
 }
 \details{
 Question 766b. Besides Whites, what was the largest racial group in your high school/the last school you attended� Blacks/African Americans, Hispanics, Asians, or American Indians?

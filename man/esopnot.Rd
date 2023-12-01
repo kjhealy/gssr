@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_392.R
 \name{esopnot}
 \alias{esopnot}
-\title{esopnot}
+\title{Would r rather work for a company with an esop or cash sharing}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Would r rather work for a company with an esop or cash sharing
+esopnot
 }
 \details{
 Question If you are given two job offers for the same position with the same salary and benefits, one in a company that also has an ESOP (Employee Stock Ownership Plan) or cash profit sharing for its employees and the other in a company that does not have an ESOP (Employee Stock Ownership Plan) or cash profit sharing for its employees, which job offer are you most inclined to take?

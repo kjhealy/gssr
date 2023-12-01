@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_577.R
 \name{spdays}
 \alias{spdays}
-\title{spdays}
+\title{Days spouse normally works}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Days spouse normally works
+spdays
 }
 \details{
 Question 1607. What days of the week does (SPOUSE) normally work? CODE ALL THAT APPLY.

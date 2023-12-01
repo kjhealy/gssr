@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_236.R
 \name{artwhy9}
 \alias{artwhy9}
-\title{artwhy9}
+\title{Other major reason in decision to attend}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Other major reason in decision to attend
+artwhy9
 }
 \details{
 Question People attend exhibits for different reasons. I. Please specify:

@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_246.R
 \name{doc17}
 \alias{doc17}
-\title{doc17}
+\title{Doctor does not do everything should for me}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Doctor does not do everything should for me
+doc17
 }
 \details{
 Question 722. As you read each of the following statements, please think about the medical care you are now receiving. If you have not received any medical care recently, circle the answer based on what you would expect if you had to seek care today. Even if you are not entirely certain about your answers, we want to remind you that your best guess is important for each statement. q. I feel my doctor does not do everything s/he should for my medical care.

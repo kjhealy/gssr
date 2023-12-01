@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_280.R
 \name{paywww}
 \alias{paywww}
-\title{paywww}
+\title{Does employer pay for www}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Does employer pay for www
+paywww
 }
 \details{
 Question 800b. Does your employer provide all or part of your Internet access from home?

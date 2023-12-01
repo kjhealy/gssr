@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_06.R
 \name{coocc10}
 \alias{coocc10}
-\title{coocc10}
+\title{Partner's census occupation code (2010)}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Partner's census occupation code (2010)
+coocc10
 }
 \details{
 Question None

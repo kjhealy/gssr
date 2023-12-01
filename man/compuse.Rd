@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_262.R
 \name{compuse}
 \alias{compuse}
-\title{compuse}
+\title{R use computer}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-R use computer
+compuse
 }
 \details{
 Question 767. Do you personally ever use a computer at home, at work, or at some other location?

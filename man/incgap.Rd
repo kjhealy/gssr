@@ -2,12 +2,12 @@
 % Please edit documentation in R/gss_vars_472.R
 \name{incgap}
 \alias{incgap}
-\title{incgap}
+\title{Income differentials in usa too big}
 \source{
 General Social Survey https://gss.norc.org
 }
 \description{
-Income differentials in usa too big
+incgap
 }
 \details{
 Question 1256. Do you agree or disagree: a. Differences in income in America are too large.
