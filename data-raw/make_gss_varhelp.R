@@ -22,7 +22,6 @@ fix_pct <- function(x){
 
 availableCores()
 n_cores <- availableCores() - 1
-plan(multisession, workers = n_cores)
 
 
 
