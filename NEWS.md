@@ -1,3 +1,7 @@
+# gssr 0.4.1
+
+* Fix for 2022 and 2021 download years. Should be working again now. 
+
 # gssr 0.4
 
 * Added the latest cumulative file (1972-2022) and the latest panel data (2020, release 1a).

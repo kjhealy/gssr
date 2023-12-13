@@ -157,18 +157,16 @@ gss_get_yr <- function(year = 2022,
 
   destination <- fs::path(here::here("data-raw/"), local_fname, ext = ext)
 
-  tf <- tempfile(fileext = ext)
+  tf <- tempfile(fileext = paste0(".", ext))
   curl::curl_download(target, tf)
 
   switch(save_file,
          y = fs::file_copy(tf, destination),
          n = NULL)
 
-  if(year == 2021) {
-   haven::read_stata(unz(tf, "GSS2021.dta"))
-  } else {
+  if(year == "2021") { return(haven::read_stata(unz(tf, "2021/GSS2021.dta"))) }
+  if(year == "2022") { return(haven::read_stata(unz(tf, "2022/GSS2022.dta"))) }
   haven::read_stata(tf)
-  }
 
 }
 #'
