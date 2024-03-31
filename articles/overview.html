@@ -370,7 +370,7 @@ instead.</p>
 <span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html" class="external-link">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html" class="external-link">all_of</a></span><span class="op">(</span><span class="va">wt_vars</span><span class="op">)</span>, <span class="va">as.numeric</span><span class="op">)</span>,</span>
 <span>    <span class="co"># Make all categorical variables factors and relabel nicely</span></span>
 <span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html" class="external-link">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html" class="external-link">all_of</a></span><span class="op">(</span><span class="va">cat_vars</span><span class="op">)</span>, <span class="fu">forcats</span><span class="fu">::</span><span class="va"><a href="https://forcats.tidyverse.org/reference/as_factor.html" class="external-link">as_factor</a></span><span class="op">)</span>,</span>
-<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html" class="external-link">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html" class="external-link">all_of</a></span><span class="op">(</span><span class="va">cat_vars</span><span class="op">)</span>, <span class="fu">forcats</span><span class="fu">::</span><span class="va"><a href="https://forcats.tidyverse.org/reference/fct_relabel.html" class="external-link">fct_relabel</a></span>, <span class="va">capwords</span>, strict <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,</span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html" class="external-link">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html" class="external-link">all_of</a></span><span class="op">(</span><span class="va">cat_vars</span><span class="op">)</span>, \<span class="op">(</span><span class="va">x</span><span class="op">)</span> <span class="fu">forcats</span><span class="fu">::</span><span class="fu"><a href="https://forcats.tidyverse.org/reference/fct_relabel.html" class="external-link">fct_relabel</a></span><span class="op">(</span><span class="va">x</span>, <span class="va">capwords</span>, strict <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span>,</span>
 <span>    <span class="co"># Create the age groups</span></span>
 <span>    ageq <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/cut.html" class="external-link">cut</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">age</span>, breaks <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">qrts</span><span class="op">)</span>, include.lowest <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,</span>
 <span>    ageq <span class="op">=</span>  <span class="fu">forcats</span><span class="fu">::</span><span class="fu"><a href="https://forcats.tidyverse.org/reference/fct_relabel.html" class="external-link">fct_relabel</a></span><span class="op">(</span><span class="va">ageq</span>, <span class="va">convert_agegrp</span><span class="op">)</span>, </span>
@@ -384,23 +384,9 @@ instead.</p>
 <span>                                  Agree <span class="op">=</span> <span class="st">"Strongly Agree"</span>,</span>
 <span>                                  Disagree <span class="op">=</span> <span class="st">"Strongly Disagree"</span><span class="op">)</span>,</span>
 <span>    fefam_n <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/recode.html" class="external-link">recode</a></span><span class="op">(</span><span class="va">fefam_d</span>, <span class="st">"Agree"</span> <span class="op">=</span> <span class="fl">0</span>, <span class="st">"Disagree"</span> <span class="op">=</span> <span class="fl">1</span><span class="op">)</span>,</span>
-<span>    <span class="co"># Weights</span></span>
-<span>    compwt <span class="op">=</span> <span class="va">oversamp</span> <span class="op">*</span> <span class="va">formwt</span> <span class="op">*</span> <span class="va">wtssps</span>, </span>
 <span>    samplerc <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html" class="external-link">case_when</a></span><span class="op">(</span><span class="va">sample</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">3</span><span class="op">:</span><span class="fl">4</span><span class="op">)</span> <span class="op">~</span> <span class="fl">3</span>, </span>
 <span>                              <span class="va">sample</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">6</span><span class="op">:</span><span class="fl">7</span><span class="op">)</span> <span class="op">~</span> <span class="fl">6</span>,</span>
 <span>                              <span class="cn">TRUE</span> <span class="op">~</span> <span class="va">sample</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="co">#&gt; Warning: There was 1 warning in `mutate()`.</span></span>
-<span><span class="co">#&gt; <span style="color: #00BBBB;">ℹ</span> In argument: `across(all_of(cat_vars), forcats::fct_relabel, capwords, strict</span></span>
-<span><span class="co">#&gt;   = TRUE)`.</span></span>
-<span><span class="co">#&gt; Caused by warning:</span></span>
-<span><span class="co">#&gt; <span style="color: #BBBB00;">!</span> The `...` argument of `across()` is deprecated as of dplyr 1.1.0.</span></span>
-<span><span class="co">#&gt; Supply arguments directly to `.fns` through an anonymous function instead.</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt;   # Previously</span></span>
-<span><span class="co">#&gt;   across(a:b, mean, na.rm = TRUE)</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt;   # Now</span></span>
-<span><span class="co">#&gt;   across(a:b, \(x) mean(x, na.rm = TRUE))</span></span>
 <span></span>
 <span><span class="co">## Some of the recoded variables</span></span>
 <span><span class="va">gss_fam</span> <span class="op">|&gt;</span></span>
@@ -460,7 +446,7 @@ wrappers to <code>survey</code> for this.</p>
 <span><span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">options</a></span><span class="op">(</span>na.action<span class="op">=</span><span class="st">"na.pass"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_svy</span> <span class="op">&lt;-</span> <span class="va">gss_fam</span> <span class="op">|&gt;</span></span>
-<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">&gt;</span> <span class="fl">1974</span> <span class="op">&amp;</span> <span class="va">year</span> <span class="op">&lt;</span> <span class="fl">2021</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">&gt;</span> <span class="fl">1974</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>    <span class="fu">tidyr</span><span class="fu">::</span><span class="fu"><a href="https://tidyr.tidyverse.org/reference/drop_na.html" class="external-link">drop_na</a></span><span class="op">(</span><span class="va">fefam_d</span>, <span class="va">young</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html" class="external-link">mutate</a></span><span class="op">(</span>stratvar <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/interaction.html" class="external-link">interaction</a></span><span class="op">(</span><span class="va">year</span>, <span class="va">vstrat</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>    <span class="fu"><a href="http://gdfe.co/srvyr/reference/as_survey_design.html" class="external-link">as_survey_design</a></span><span class="op">(</span>id <span class="op">=</span> <span class="va">vpsu</span>,</span>
@@ -474,7 +460,7 @@ work with:</p>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss_svy</span></span>
 <span><span class="co">#&gt; Stratified 1 - level Cluster Sampling design (with replacement)</span></span>
-<span><span class="co">#&gt; With (3583) clusters.</span></span>
+<span><span class="co">#&gt; With (5977) clusters.</span></span>
 <span><span class="co">#&gt; Called via srvyr</span></span>
 <span><span class="co">#&gt; Sampling variables:</span></span>
 <span><span class="co">#&gt;  - ids: vpsu</span></span>
@@ -484,7 +470,7 @@ work with:</p>
 <span><span class="co">#&gt;   (fct), sex (fct), fefam (fct), vpsu (dbl), vstrat (dbl), oversamp (dbl),</span></span>
 <span><span class="co">#&gt;   formwt (dbl), wtssps (dbl), sampcode (dbl), sample (dbl), ageq (fct),</span></span>
 <span><span class="co">#&gt;   agequint (fct), year_f (fct), young (chr), fefam_d (fct), fefam_n (dbl),</span></span>
-<span><span class="co">#&gt;   compwt (dbl), samplerc (dbl), stratvar (fct)</span></span></code></pre></div>
+<span><span class="co">#&gt;   samplerc (dbl), stratvar (fct)</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="calculate-the-survey-weighted-statistics">Calculate the survey-weighted statistics<a class="anchor" aria-label="anchor" href="#calculate-the-survey-weighted-statistics"></a>
@@ -496,11 +482,12 @@ the data.</p>
 <code class="sourceCode R"><span><span class="co">## Get the breakdown for every year</span></span>
 <span><span class="va">out_ff</span> <span class="op">&lt;-</span> <span class="va">gss_svy</span> <span class="op">|&gt;</span></span>
 <span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html" class="external-link">group_by</a></span><span class="op">(</span><span class="va">year</span>, <span class="va">sex</span>, <span class="va">young</span>, <span class="va">fefam_d</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html" class="external-link">summarize</a></span><span class="op">(</span>prop <span class="op">=</span> <span class="fu"><a href="http://gdfe.co/srvyr/reference/survey_mean.html" class="external-link">survey_mean</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span>, vartype <span class="op">=</span> <span class="st">"ci"</span><span class="op">)</span><span class="op">)</span></span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html" class="external-link">summarize</a></span><span class="op">(</span>prop <span class="op">=</span> <span class="fu"><a href="http://gdfe.co/srvyr/reference/survey_mean.html" class="external-link">survey_mean</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span>, vartype <span class="op">=</span> <span class="st">"ci"</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://tidyr.tidyverse.org/reference/drop_na.html" class="external-link">drop_na</a></span><span class="op">(</span><span class="va">sex</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">out_ff</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 168 × 7</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># Groups:   year, sex, young [84]</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 184 × 7</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># Groups:   year, sex, young [92]</span></span></span>
 <span><span class="co">#&gt;    year      sex    young fefam_d   prop prop_low prop_upp</span></span>
 <span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;dbl+lbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span></span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> <span style="text-decoration: underline;">1</span>977      Male   No    Agree    0.708    0.662    0.754</span></span>
@@ -513,7 +500,7 @@ the data.</p>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span> <span style="text-decoration: underline;">1</span>977      Female Yes   Disagree 0.583    0.478    0.688</span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> <span style="text-decoration: underline;">1</span>985      Male   No    Agree    0.541    0.489    0.594</span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> <span style="text-decoration: underline;">1</span>985      Male   No    Disagree 0.459    0.406    0.511</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 158 more rows</span></span></span></code></pre></div>
+<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 174 more rows</span></span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="plot-the-results">Plot the Results<a class="anchor" aria-label="anchor" href="#plot-the-results"></a>
@@ -538,7 +525,7 @@ over time, for men and women in two (recoded) age groups over time.</p>
 <span>               fill <span class="op">=</span> <span class="va">sex</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_path.html" class="external-link">geom_line</a></span><span class="op">(</span>linewidth <span class="op">=</span> <span class="fl">1.2</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_ribbon.html" class="external-link">geom_ribbon</a></span><span class="op">(</span>alpha <span class="op">=</span> <span class="fl">0.3</span>, color <span class="op">=</span> <span class="cn">NA</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html" class="external-link">scale_x_continuous</a></span><span class="op">(</span>breaks <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html" class="external-link">seq</a></span><span class="op">(</span><span class="fl">1978</span>, <span class="fl">2018</span>, <span class="fl">4</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html" class="external-link">scale_x_continuous</a></span><span class="op">(</span>breaks <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html" class="external-link">seq</a></span><span class="op">(</span><span class="fl">1978</span>, <span class="fl">2022</span>, <span class="fl">4</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html" class="external-link">scale_y_continuous</a></span><span class="op">(</span>labels <span class="op">=</span> <span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/percent_format.html" class="external-link">percent_format</a></span><span class="op">(</span>accuracy <span class="op">=</span> <span class="fl">1</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_manual.html" class="external-link">scale_color_manual</a></span><span class="op">(</span>values <span class="op">=</span> <span class="fu">my_colors</span><span class="op">(</span><span class="st">"bly"</span><span class="op">)</span><span class="op">[</span><span class="fl">2</span><span class="op">:</span><span class="fl">1</span><span class="op">]</span>,</span>
 <span>                     labels <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"Men"</span>, <span class="st">"Women"</span><span class="op">)</span>,</span>
@@ -548,7 +535,7 @@ over time, for men and women in two (recoded) age groups over time.</p>
 <span>                    guide <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/guide_legend.html" class="external-link">guide_legend</a></span><span class="op">(</span>title<span class="op">=</span><span class="cn">NULL</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html" class="external-link">facet_wrap</a></span><span class="op">(</span><span class="op">~</span> <span class="va">young</span>, labeller <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/as_labeller.html" class="external-link">as_labeller</a></span><span class="op">(</span><span class="va">facet_names</span><span class="op">)</span>,</span>
 <span>             ncol <span class="op">=</span> <span class="fl">1</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/coord_cartesian.html" class="external-link">coord_cartesian</a></span><span class="op">(</span>xlim <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">1977</span>, <span class="fl">2017</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/coord_cartesian.html" class="external-link">coord_cartesian</a></span><span class="op">(</span>xlim <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">1977</span>, <span class="fl">2022</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html" class="external-link">labs</a></span><span class="op">(</span>x <span class="op">=</span> <span class="st">"Year"</span>,</span>
 <span>       y <span class="op">=</span> <span class="st">"Percent Disagreeing"</span>,</span>
 <span>       subtitle <span class="op">=</span> <span class="va">fefam_txt</span>,</span>
