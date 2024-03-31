@@ -7,29 +7,30 @@
 \format{
 A tibble with 72,390 rows and 19 columns.
 \describe{
-\item{`year`}{Year of the survey.}
-\item{`id`}{Respondent id.}
-\item{`ballot`}{Survey ballot}
-\item{`age`}{Age of respondent}
-\item{`race`}{Race of respondent}
-\item{`sex`}{Sex of respondent}
-\item{`degree`}{Highest level of education obtained}
-\item{`padeg`}{Father's education}
-\item{`padeg`}{Mother's education}
-\item{`relig`}{Religion (simple coding)}
-\item{`Polviews`}{Political views}
-\item{`fefam`}{Response to a statement that it is better for man to go out to work, and for a woman to tend the home}
-\item{`vpsu`}{Variance primary sampling unit}
-\item{`vstrat`}{Variance stratum}
-\item{`oversamp`}{Weights for black oversamples}
-\item{`formwt`}{Survey weight for experimental randomization}
-\item{`wtssall`}{Survey weight}
-\item{`sampcode`}{Sampling error code}
-\item{`sample`}{Sampling frame and method}
+\item{\code{year}}{Year of the survey.}
+\item{\code{id}}{Respondent id.}
+\item{\code{ballot}}{Survey ballot}
+\item{\code{age}}{Age of respondent}
+\item{\code{race}}{Race of respondent}
+\item{\code{sex}}{Sex of respondent}
+\item{\code{degree}}{Highest level of education obtained}
+\item{\code{padeg}}{Father's education}
+\item{\code{padeg}}{Mother's education}
+\item{\code{relig}}{Religion (simple coding)}
+\item{\code{Polviews}}{Political views}
+\item{\code{fefam}}{Response to a statement that it is better for man to go out to work, and for a woman to tend the home}
+\item{\code{vpsu}}{Variance primary sampling unit}
+\item{\code{vstrat}}{Variance stratum}
+\item{\code{oversamp}}{Weights for black oversamples}
+\item{\code{formwt}}{Survey weight for experimental randomization}
+\item{\code{wtssall}}{Survey weight (1972-2018)}
+\item{\code{wtssps}}{Poststratification survey weight (1972-2022)}
+\item{\code{sampcode}}{Sampling error code}
+\item{\code{sample}}{Sampling frame and method}
 }
 }
 \source{
-National Opinion Research Center, [http://gss.norc.org](http://gss.norc.org).
+National Opinion Research Center, \url{http://gss.norc.org}.
 }
 \usage{
 data(gss_sub)

@@ -22,7 +22,7 @@ gss_get_yr(
 
 \item{ext}{File name extension. Defaults to 'zip'. Usually should not be changed.}
 
-\item{dest}{If `save_file` is "y", the directory to put the file in. Defaults to `data-raw` in current directory.}
+\item{dest}{If \code{save_file} is "y", the directory to put the file in. Defaults to \code{data-raw} in current directory.}
 
 \item{save_file}{Save the data file as well as loading it as an object. Defaults to 'n'.}
 }
@@ -30,7 +30,7 @@ gss_get_yr(
 A tibble with the requested year's GSS data.
 }
 \description{
-Use `gss_get_yr()` to get GSS data for a single year from
+Use \code{gss_get_yr()} to get GSS data for a single year from
 NORC's GSS website (where it is available as a zipped Stata file)
 and put it directly into a tibble.
 }

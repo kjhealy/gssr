@@ -17,7 +17,7 @@ Question None
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab 18 or older, age unknown \tab 18-29 \tab 30-39 \tab 40-49 \tab 50-64 \tab 65 or older \tab under 18 \tab Total \cr
+   year \tab iap \tab 18-29 \tab 30-39 \tab 40-49 \tab 50-64 \tab 65 or older \tab 98 \tab 99 \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -51,8 +51,8 @@ Counts by year:\tabular{llllllllll}{
    2016 \tab 2867 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2867 \cr
    2018 \tab 2348 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2348 \cr
    2021 \tab 4032 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \cr
-   2022 \tab 3267 \tab 3 \tab 121 \tab 44 \tab 28 \tab 59 \tab 19 \tab 3 \tab 3544 \cr
-   Total \tab 72113 \tab 3 \tab 121 \tab 44 \tab 28 \tab 59 \tab 19 \tab 3 \tab 72390 \cr
+   2022 \tab 3267 \tab 121 \tab 44 \tab 28 \tab 59 \tab 19 \tab 3 \tab 3 \tab 3544 \cr
+   Total \tab 72113 \tab 121 \tab 44 \tab 28 \tab 59 \tab 19 \tab 3 \tab 3 \tab 72390 \cr
 }
 }
 

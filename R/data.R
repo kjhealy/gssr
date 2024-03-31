@@ -1,8 +1,8 @@
-#' General Social Survey Survey Cumulative Data File 1972-2022
+#' General Social Survey Survey Cumulative Data File 1972-2022 R2a
 #'
-#' A tibble containing the General Social Survey Cumulative Data file.
+#' A tibble containing Release 2a of the GSS Cumulative Data (1972-2022) file.
 #'
-#' @format An object of class `tibble` with 72,390 rows and 6,693 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at <http://gss.norc.org/Get-Documentation>. Summary information is available in `gss_doc`, a tibble supplied with this package.
+#' @format An object of class `tibble` with 72,390 rows and 6,694 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at <http://gss.norc.org/Get-Documentation>. Summary information is available in `gss_doc`, a tibble supplied with this package.
 #'
 #' @docType data
 #' @usage data(gss_all)
@@ -238,7 +238,8 @@ NULL
 #' \item{`vstrat`}{Variance stratum}
 #' \item{`oversamp`}{Weights for black oversamples}
 #' \item{`formwt`}{Survey weight for experimental randomization}
-#' \item{`wtssall`}{Survey weight}
+#' \item{`wtssall`}{Survey weight (1972-2018)}
+#' \item{`wtssps`}{Poststratification survey weight (1972-2022)}
 #' \item{`sampcode`}{Sampling error code}
 #' \item{`sample`}{Sampling frame and method}
 #'}

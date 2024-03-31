@@ -1,5 +1,5 @@
 ## 1. Run make_gss_all.R first to create gss_all
-## 2. Make sure gss_all_labelled exists too.
+## 2. Run make_gss_all_labelled.R to make sure gss_all_labelled exists too.
 
 ## Make the tibble of crosstabs
 
@@ -22,7 +22,6 @@ load(here::here("data-raw", "objects", "gss_all_labelled.rda"))
 # Our `wget` command:
 #
 #   `wget -r --reject hcbkh01 -np -k -p https://sda.berkeley.edu/sdaweb/docs/gss22rel2/DOC/hcbkfx0.htm`
-#
 # This recursively gets the alphabetical variable list (rejecting the sequential one). Switches:
 #
 #   - r Recurse into links, retrieving those pages too (this has a default max depth of 5, can be set with -l).

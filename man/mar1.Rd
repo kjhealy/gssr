@@ -51,8 +51,8 @@ Counts by year:\tabular{llllllllllll}{
    2016 \tab - \tab 473 \tab 1320 \tab 609 \tab 121 \tab 273 \tab 37 \tab 34 \tab - \tab - \tab 2867 \cr
    2018 \tab - \tab 390 \tab 1078 \tab 477 \tab 109 \tab 219 \tab 57 \tab 18 \tab - \tab - \tab 2348 \cr
    2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab 1781 \tab 309 \tab 772 \tab 478 \tab 52 \tab 137 \tab 2 \tab 7 \tab - \tab 6 \tab 3544 \cr
-   Total \tab 7137 \tab 8499 \tab 33253 \tab 10187 \tab 2378 \tab 6294 \tab 300 \tab 304 \tab 4032 \tab 6 \tab 72390 \cr
+   2022 \tab 1780 \tab 309 \tab 774 \tab 477 \tab 52 \tab 137 \tab 2 \tab 7 \tab - \tab 6 \tab 3544 \cr
+   Total \tab 7136 \tab 8499 \tab 33255 \tab 10186 \tab 2378 \tab 6294 \tab 300 \tab 304 \tab 4032 \tab 6 \tab 72390 \cr
 }
 }
 

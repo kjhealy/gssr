@@ -91,42 +91,17 @@ The GSS data comes in a *labelled* format, mirroring the way it is encoded for S
 gss_sub
 ```
 
-We will use the label information later when recoding the variables into, say, character or factor variables. The labels and values are reflected in the codebook tibble. To see them, pull out the `marginals` list-column:
+We will use the label information later when recoding the variables into, say, character or factor variables. 
 
-```{r doctib1}
-gss_doc %>% filter(id == "race") %>%
-  select(marginals) %>% 
-  tidyr::unnest(cols = c(marginals))
-```
+Beginning with version 0.4, `gssr` provides documentation for all GSS variables in the cumulative data file via R's help system. You can browse variables by name in the package's help file or type `?` followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes and (in most cases) a crosstabulation of the variable's values for each year of the GSS. This facility is particularly convenient in an IDE such as RStudio or Microsoft Visual Studio.
 
-```{r doctib2}
-gss_doc %>% filter(id == "sex") %>%
-  select(marginals) %>% 
-  tidyr::unnest(cols = c(marginals))
-```
+<img src="man/figures/fefam_help.png" />
 
-Alternatively, use the function `gss_get_marginals()` to see a tibble for one or more categorical variables:
+Information about the variables is also contained in the `gss_dict` object: 
 
-```{r docfun}
-
-gss_get_marginals(varnames = c("sex", "race", "fefam"))
-
-```
-
-A similar function lets you peek at the codebook's properties for any variable:
-
-```{r docfun2}
-
-gss_get_props(varnames = c("sex", "race", "fefam"))
-
-```
-
-The description and any additional codebook text can be extracted directly:
-
-```{r text}
-gss_doc %>%
-  filter(id == "fefam") %>%
-  select(description, text)
+```{r load-doc}
+data(gss_dict)
+gss_dict
 ```
 
 
@@ -155,13 +130,13 @@ wt_vars <- c("vpsu",
              "vstrat",
              "oversamp",
              "formwt",              # weight to deal with experimental randomization
-             "wtssall",             # weight variable
+             "wtssps",             # weight variable
              "sampcode",            # sampling error code
              "sample")              # sampling frame and method
 
 my_vars <- c(cont_vars, cat_vars, wt_vars)
 
-gss_fam <- gss_sub %>%
+gss_fam <- gss_sub |>
   select(all_of(my_vars))
 
 gss_fam
@@ -193,7 +168,7 @@ Next, we clean up `gss_fam` a bit, discarding some of the label and missing valu
 ## The convert_agegrp() and capwords() functions seen here are defined
 ## at the top of the Rmd file used to produce this document.
 
-gss_fam <- gss_fam %>%
+gss_fam <- gss_fam |>
   mutate(
     # Convert all missing to NA
     across(everything(), haven::zap_missing), 
@@ -216,7 +191,6 @@ gss_fam <- gss_fam %>%
                                   Disagree = "Strongly Disagree"),
     fefam_n = recode(fefam_d, "Agree" = 0, "Disagree" = 1),
     # Weights
-    compwt = oversamp * formwt * wtssall, 
     samplerc = case_when(sample %in% c(3:4) ~ 3, 
                               sample %in% c(6:7) ~ 6,
                               TRUE ~ sample))
@@ -230,11 +204,11 @@ gss_fam
 At this point we can calculate some percentages, such as the percent of male and female respondents disagreeing with the `fefam` proposition each year. 
 
 ```{r}
-gss_fam %>% 
-  group_by(year, sex, young, fefam_d) %>% 
-  tally() %>% 
-  drop_na() %>% 
-  mutate(pct = round((n/sum(n))*100, 1)) %>% 
+gss_fam |> 
+  group_by(year, sex, young, fefam_d) |> 
+  tally() |> 
+  drop_na() |> 
+  mutate(pct = round((n/sum(n))*100, 1)) |> 
   select(-n) 
 ```
 
@@ -245,13 +219,13 @@ However, these calculations do not take the GSS survey design into account. We s
 options(survey.lonely.psu = "adjust")
 options(na.action="na.pass")
 
-gss_svy <- gss_fam %>%
-    filter(year > 1974) %>%
-    tidyr::drop_na(fefam_d, young) %>%
-    mutate(stratvar = interaction(year, vstrat)) %>%
+gss_svy <- gss_fam |>
+    filter(year > 1974) |>
+    tidyr::drop_na(fefam_d, young) |>
+    mutate(stratvar = interaction(year, vstrat)) |>
     as_survey_design(id = vpsu,
                      strata = stratvar,
-                     weights = wtssall,
+                     weights = wtssps,
                      nest = TRUE)
 ```
 
@@ -267,8 +241,8 @@ We're now in a position to calculate some properly-weighted summary statistics f
 
 ```{r summary}
 ## Get the breakdown for every year
-out_ff <- gss_svy %>%
-    group_by(year, sex, young, fefam_d) %>%
+out_ff <- gss_svy |>
+    group_by(year, sex, young, fefam_d) |>
     summarize(prop = survey_mean(na.rm = TRUE, vartype = "ci"))
 
 out_ff
@@ -285,8 +259,8 @@ facet_names <- c("No" = "Age Over 25 when surveyed",
                  "Yes" = "Age 18-25 when surveyed")
 fefam_txt <- "Disagreement with the statement, ‘It is much better for\neveryone involved if the man is the achiever outside the\nhome and the woman takes care of the home and family’"
 
-out_ff %>% 
-  filter(fefam_d == "Disagree") %>%
+out_ff |> 
+  filter(fefam_d == "Disagree") |>
   ggplot(mapping = 
            aes(x = year, y = prop,
                ymin = prop_low, 
@@ -294,7 +268,7 @@ out_ff %>%
                color = sex, 
                group = sex, 
                fill = sex)) +
-  geom_line(size = 1.2) +
+  geom_line(linewidth = 1.2) +
   geom_ribbon(alpha = 0.3, color = NA) +
   scale_x_continuous(breaks = seq(1978, 2018, 4)) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
@@ -331,15 +305,15 @@ gss_panel06_long
 The panel data objects were created by `panelr` but are regular tibbles. The column names in long format do not have wave identifiers. Rather,  `firstid` and `wave` variables track the cases. The `firstid` variable is unique for every row and has no missing values. The `id` variable is from the GSS and tracks individuals within waves.
 
 ```{r panel-example}
-gss_panel06_long %>% select(firstid, wave, id, sex)
+gss_panel06_long |> select(firstid, wave, id, sex)
 ```
 
 We can look at attrition across waves with, e.g.:
 
 ```{r attrition}
-gss_panel06_long %>% 
-  select(wave, id) %>%
-  group_by(wave) %>%
+gss_panel06_long |> 
+  select(wave, id) |>
+  group_by(wave) |>
   summarize(observed = n_distinct(id),
             missing = sum(is.na(id)))
 ```
@@ -352,13 +326,7 @@ data(gss_panel_doc)
 gss_panel_doc
 ```
 
-Each row is a variable. The `id`, `description`, and `text` columns provide the details on each question or measure. The `properties` and `marginals` are provided in the remaining columns, with a suffix indicating the wave. The categorical variables in the panel codebook can be queried in the same way as those in the cumulative codebook. We specify that we want to look at `gss_panel_doc` rather than `gss_doc` and we say which property wave or marginals wave we want to see. We specify that we want to look at `gss_panel_doc` rather than `gss_doc`. Be sure to specify which wave you want marginals for, with the `margin` argument.
-
-```{r paneldocfun}
-gss_get_marginals(varnames = c("sex", "race"), 
-                  data = gss_panel_doc, 
-                  margin = marginals_1)
-```
+Each row is a variable. The `id`, `description`, and `text` columns provide the details on each question or measure. The `properties` and `marginals` are provided in the remaining columns, with a suffix indicating the wave. 
 
 ## References
 

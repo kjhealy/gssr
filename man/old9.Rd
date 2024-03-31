@@ -60,6 +60,8 @@ Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllll}{
 
 \itemize{
 \item \code{97} 97 or older
+\item \code{98} adult, age unspecified
+\item \code{99} child, age unspecified
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

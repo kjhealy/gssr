@@ -15,7 +15,4 @@ TRUE or FALSE depending on whether it passes the test
 \description{
 Get whether a question was asked
 }
-\examples{
-# See gss_which_years()
-}
 \keyword{internal}

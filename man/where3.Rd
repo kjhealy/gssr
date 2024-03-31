@@ -16,43 +16,43 @@ Question 1621. Please tell me the names of the people who usually live in this h
 
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
-Counts by year:\tabular{llllllllll}{
-   year \tab iap \tab another household \tab traveling \tab other, don't know \tab no answer \tab institution \tab not available in this release \tab don't know \tab Total \cr
-   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
-   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
-   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
-   1975 \tab 1456 \tab 31 \tab 3 \tab - \tab - \tab - \tab - \tab - \tab 1490 \cr
-   1976 \tab 1492 \tab 7 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
-   1977 \tab 1506 \tab 22 \tab 1 \tab 1 \tab - \tab - \tab - \tab - \tab 1530 \cr
-   1978 \tab 1514 \tab 13 \tab 1 \tab 3 \tab 1 \tab - \tab - \tab - \tab 1532 \cr
-   1980 \tab 1457 \tab 6 \tab - \tab - \tab 5 \tab - \tab - \tab - \tab 1468 \cr
-   1982 \tab 1849 \tab 6 \tab - \tab 2 \tab 3 \tab - \tab - \tab - \tab 1860 \cr
-   1983 \tab 1570 \tab 21 \tab 1 \tab 5 \tab 2 \tab - \tab - \tab - \tab 1599 \cr
-   1984 \tab 1458 \tab 13 \tab - \tab 2 \tab - \tab - \tab - \tab - \tab 1473 \cr
-   1985 \tab 1511 \tab 19 \tab 2 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1534 \cr
-   1986 \tab 1464 \tab 6 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
-   1987 \tab 1795 \tab 19 \tab - \tab - \tab 5 \tab - \tab - \tab - \tab 1819 \cr
-   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
-   1989 \tab 1528 \tab 8 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1537 \cr
-   1990 \tab 1357 \tab 14 \tab 1 \tab - \tab - \tab - \tab - \tab - \tab 1372 \cr
-   1991 \tab 1500 \tab 12 \tab - \tab - \tab 5 \tab - \tab - \tab - \tab 1517 \cr
-   1993 \tab 1583 \tab 9 \tab - \tab - \tab 6 \tab 8 \tab - \tab - \tab 1606 \cr
-   1994 \tab 2960 \tab 12 \tab 1 \tab - \tab 1 \tab 18 \tab - \tab - \tab 2992 \cr
-   1996 \tab 2886 \tab 7 \tab 3 \tab - \tab 3 \tab 5 \tab - \tab - \tab 2904 \cr
-   1998 \tab 2822 \tab 2 \tab - \tab 2 \tab - \tab 6 \tab - \tab - \tab 2832 \cr
-   2000 \tab 2805 \tab 3 \tab - \tab - \tab - \tab 9 \tab - \tab - \tab 2817 \cr
-   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
-   2004 \tab 2782 \tab 3 \tab 3 \tab 4 \tab 1 \tab 19 \tab - \tab - \tab 2812 \cr
-   2006 \tab 4468 \tab 13 \tab 2 \tab 4 \tab - \tab 23 \tab - \tab - \tab 4510 \cr
-   2008 \tab 1989 \tab 6 \tab 5 \tab 1 \tab 7 \tab 15 \tab - \tab - \tab 2023 \cr
-   2010 \tab 2017 \tab 3 \tab 1 \tab 3 \tab 2 \tab 18 \tab - \tab - \tab 2044 \cr
-   2012 \tab 1959 \tab 5 \tab 2 \tab 2 \tab 1 \tab 5 \tab - \tab - \tab 1974 \cr
-   2014 \tab 2505 \tab 5 \tab 5 \tab 2 \tab - \tab 21 \tab - \tab - \tab 2538 \cr
-   2016 \tab 2832 \tab 11 \tab 5 \tab 1 \tab 1 \tab 17 \tab - \tab - \tab 2867 \cr
-   2018 \tab 2330 \tab 9 \tab 1 \tab - \tab 2 \tab 6 \tab - \tab - \tab 2348 \cr
-   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab - \tab 4032 \cr
-   2022 \tab 3502 \tab 18 \tab 5 \tab - \tab - \tab 17 \tab - \tab 2 \tab 3544 \cr
-   Total \tab 67744 \tab 303 \tab 43 \tab 33 \tab 46 \tab 187 \tab 4032 \tab 2 \tab 72390 \cr
+Counts by year:\tabular{lllllllll}{
+   year \tab iap \tab another household \tab traveling \tab other, don't know \tab no answer \tab institution \tab not available in this release \tab Total \cr
+   1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
+   1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
+   1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
+   1975 \tab 1456 \tab 31 \tab 3 \tab - \tab - \tab - \tab - \tab 1490 \cr
+   1976 \tab 1492 \tab 7 \tab - \tab - \tab - \tab - \tab - \tab 1499 \cr
+   1977 \tab 1506 \tab 22 \tab 1 \tab 1 \tab - \tab - \tab - \tab 1530 \cr
+   1978 \tab 1514 \tab 13 \tab 1 \tab 3 \tab 1 \tab - \tab - \tab 1532 \cr
+   1980 \tab 1457 \tab 6 \tab - \tab - \tab 5 \tab - \tab - \tab 1468 \cr
+   1982 \tab 1849 \tab 6 \tab - \tab 2 \tab 3 \tab - \tab - \tab 1860 \cr
+   1983 \tab 1570 \tab 21 \tab 1 \tab 5 \tab 2 \tab - \tab - \tab 1599 \cr
+   1984 \tab 1458 \tab 13 \tab - \tab 2 \tab - \tab - \tab - \tab 1473 \cr
+   1985 \tab 1511 \tab 19 \tab 2 \tab 1 \tab 1 \tab - \tab - \tab 1534 \cr
+   1986 \tab 1464 \tab 6 \tab - \tab - \tab - \tab - \tab - \tab 1470 \cr
+   1987 \tab 1795 \tab 19 \tab - \tab - \tab 5 \tab - \tab - \tab 1819 \cr
+   1988 \tab 1481 \tab - \tab - \tab - \tab - \tab - \tab - \tab 1481 \cr
+   1989 \tab 1528 \tab 8 \tab 1 \tab - \tab - \tab - \tab - \tab 1537 \cr
+   1990 \tab 1357 \tab 14 \tab 1 \tab - \tab - \tab - \tab - \tab 1372 \cr
+   1991 \tab 1500 \tab 12 \tab - \tab - \tab 5 \tab - \tab - \tab 1517 \cr
+   1993 \tab 1583 \tab 9 \tab - \tab - \tab 6 \tab 8 \tab - \tab 1606 \cr
+   1994 \tab 2960 \tab 12 \tab 1 \tab - \tab 1 \tab 18 \tab - \tab 2992 \cr
+   1996 \tab 2886 \tab 7 \tab 3 \tab - \tab 3 \tab 5 \tab - \tab 2904 \cr
+   1998 \tab 2822 \tab 2 \tab - \tab 2 \tab - \tab 6 \tab - \tab 2832 \cr
+   2000 \tab 2805 \tab 3 \tab - \tab - \tab - \tab 9 \tab - \tab 2817 \cr
+   2002 \tab 2765 \tab - \tab - \tab - \tab - \tab - \tab - \tab 2765 \cr
+   2004 \tab 2782 \tab 3 \tab 3 \tab 4 \tab 1 \tab 19 \tab - \tab 2812 \cr
+   2006 \tab 4468 \tab 13 \tab 2 \tab 4 \tab - \tab 23 \tab - \tab 4510 \cr
+   2008 \tab 1989 \tab 6 \tab 5 \tab 1 \tab 7 \tab 15 \tab - \tab 2023 \cr
+   2010 \tab 2017 \tab 3 \tab 1 \tab 3 \tab 2 \tab 18 \tab - \tab 2044 \cr
+   2012 \tab 1959 \tab 5 \tab 2 \tab 2 \tab 1 \tab 5 \tab - \tab 1974 \cr
+   2014 \tab 2505 \tab 5 \tab 5 \tab 2 \tab - \tab 21 \tab - \tab 2538 \cr
+   2016 \tab 2832 \tab 11 \tab 5 \tab 1 \tab 1 \tab 17 \tab - \tab 2867 \cr
+   2018 \tab 2330 \tab 9 \tab 1 \tab - \tab 2 \tab 6 \tab - \tab 2348 \cr
+   2021 \tab - \tab - \tab - \tab - \tab - \tab - \tab 4032 \tab 4032 \cr
+   2022 \tab - \tab - \tab - \tab - \tab - \tab - \tab 3544 \tab 3544 \cr
+   Total \tab 64242 \tab 285 \tab 38 \tab 33 \tab 46 \tab 170 \tab 7576 \tab 72390 \cr
 }
 }
 

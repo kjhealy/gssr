@@ -17,7 +17,7 @@ Question 1621. Please tell me the names of the people who usually live in this h
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll}{
-   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 2 \tab 21 \tab 22 \tab 24 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 77 \tab 8 \tab 88 \tab 9 \tab 0 \tab 67 \tab 17 \tab 53 \tab no answer \tab 16 \tab 19 \tab 23 \tab 28 \tab 38 \tab 61 \tab 18 \tab 20 \tab 76 \tab 27 \tab 33 \tab 39 \tab 54 \tab 41 \tab 87 \tab 43 \tab 30 \tab 51 \tab 32 \tab 25 \tab 52 \tab 55 \tab 56 \tab 70 \tab 34 \tab 71 \tab don't know \tab 82 \tab 81 \tab 40 \tab 75 \tab not available in this release \tab 150 \tab 151 \tab 59 \tab 62 \tab 65 \tab Total \cr
+   year \tab iap \tab 1 \tab 10 \tab 11 \tab 12 \tab 13 \tab 14 \tab 15 \tab 2 \tab 21 \tab 22 \tab 24 \tab 3 \tab 4 \tab 5 \tab 6 \tab 7 \tab 77 \tab 8 \tab 88 \tab 9 \tab 0 \tab 67 \tab 17 \tab 53 \tab no answer \tab 16 \tab 19 \tab 23 \tab 28 \tab 38 \tab 61 \tab 18 \tab 20 \tab 76 \tab 27 \tab 33 \tab 39 \tab 54 \tab 41 \tab 87 \tab 43 \tab 30 \tab 51 \tab 32 \tab 25 \tab 52 \tab 55 \tab 56 \tab 70 \tab 34 \tab 71 \tab don't know \tab 82 \tab 81 \tab 40 \tab 75 \tab not available in this release \tab 59 \tab 62 \tab 65 \tab adult, age unspecified \tab child, age unspecified \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -60,6 +60,8 @@ Counts by year:\tabular{llllllllllllllllllllllllllllllllllllllllllllllllllllllll
 
 \itemize{
 \item \code{97} 97 or older
+\item \code{98} adult, age unspecified
+\item \code{99} child, age unspecified
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

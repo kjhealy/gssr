@@ -17,7 +17,7 @@ Question None
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllll}{
-   year \tab iap \tab in-pesron first \tab web-first \tab Total \cr
+   year \tab iap \tab in-person first \tab web-first \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab 1484 \cr
@@ -59,7 +59,7 @@ Counts by year:\tabular{lllll}{
 \section{Values}{
 
 \itemize{
-\item \code{1} in-pesron first
+\item \code{1} in-person first
 \item \code{2} web-first
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap

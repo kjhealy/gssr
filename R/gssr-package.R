@@ -44,18 +44,19 @@ fmt_nc <- function(x){
 }
 
 #' @title fmt_nr
+#' @name fmt_nr
 #' @description Format fmt_nr in df
 #' @param x df
 #' @return formatted string
 #' @details use in fn documentation
 #' @keywords internal
+#' @author Kieran Healy
 #' @examples
 #' \dontrun{
 #' if(interactive()){
 #'  #EXAMPLE1
 #'  }
 #' }
-#' @author Kieran Healy
 fmt_nr <- function(x){
   prettyNum(nrow(x), big.mark=",", scientific=FALSE)
 }
@@ -63,22 +64,22 @@ fmt_nr <- function(x){
 
 #' Get whether a question was asked
 #'
+#' @name get_asked
+#'
 #' @param x The GSS variable being assessed
 #'
 #' @return TRUE or FALSE depending on whether it passes the test
 #'
 #' @keywords internal
-#' @examples
-#' # See gss_which_years()
 get_asked <- function(x) {
   ifelse(length(unique(x)) == 1, FALSE, TRUE)
 }
-#'
 
 
 #' What years was a particular question asked in the GSS?
 #'
 #' @title gss_which_years
+#' @name gss_which_years
 #' @description See which years a particular question was asked in the GSS.
 #'
 #' @param data A tibble of data, usually gss_all
@@ -108,6 +109,7 @@ gss_which_years <- function(data, variable) {
 #'
 #' This function is deprecated. Use `gss_which_years()` instead.
 #'
+#' @name gss_get_years
 #' @export
 #' @keywords internal
 #'
@@ -133,6 +135,7 @@ gss_get_years <- function() {
 #' @param save_file Save the data file as well as loading it as an object. Defaults to 'n'.
 #'
 #' @return A tibble with the requested year's GSS data.
+#' @name gss_get_yr
 #' @export
 #'
 #' @examples

@@ -75,7 +75,7 @@ library(srvyr)
 library(gssr)
 ```
 
-We will begin with the Cumulative Data file (1972-2018). As the startup message notes, the data objects are not automatically loaded. That is, we do not use R's "lazy loading" functionality. This is because the main GSS dataset is rather large. Instead we load it manually with `data()`. For the purposes of this vignette, because the full Cumulative Data object is big, we will use just a few columns of it stored in an object called `gss_sub`. But all the code here will also work with the full dataset object, `gss_all`, which you can load with the command `data(gss_all)`. We will also load the tibble that contains summary information for the variables in the Cumulative Data File. This is called `gss_dict`.
+We will begin with the Cumulative Data file (1972-2022). As the startup message notes, the data objects are not automatically loaded. That is, we do not use R's "lazy loading" functionality. This is because the main GSS dataset is rather large. Instead we load it manually with `data()`. For the purposes of this vignette, because the full Cumulative Data object is big, we will use just a few columns of it stored in an object called `gss_sub`. But all the code here will also work with the full dataset object, `gss_all`, which you can load with the command `data(gss_all)`. We will also load the tibble that contains summary information for the variables in the Cumulative Data File. This is called `gss_dict`.
 
 ```{r load}
 data(gss_sub)
@@ -113,7 +113,7 @@ Scrolling further down will give a summary of the values the variable can take.
 
 ### Subset the Data
 
-The GSS data retains labeling information (as it was originally imported via the `haven` package). When working with the data in an analysis, we will probably want to convert the labeled variables to data types such as factors. This should be done with care (and not on the whole dataset all at once). Typically, we will want to focus on some relatively small subset of variables and examine those. For example, let's say we want to explore the `fefam` question. We will subset the data and then prepare that for analysis. Here we are going to subset `gss_sub` into an object called `gss_fam` containing just the variables we want to examine, along with core measures that identify respondents (such as `id` and `year`) and variables necessary for the survey weighting later (such as `wtssall`).
+The GSS data retains labeling information (as it was originally imported via the `haven` package). When working with the data in an analysis, we will probably want to convert the labeled variables to data types such as factors. This should be done with care (and not on the whole dataset all at once). Typically, we will want to focus on some relatively small subset of variables and examine those. For example, let's say we want to explore the `fefam` question. We will subset the data and then prepare that for analysis. Here we are going to subset `gss_sub` into an object called `gss_fam` containing just the variables we want to examine, along with core measures that identify respondents (such as `id` and `year`) and variables necessary for the survey weighting later (such as `wtssps`).
 
 ```{r setup-subset}
 cont_vars <- c("year", "id", "ballot", "age")
@@ -124,7 +124,7 @@ wt_vars <- c("vpsu",
              "vstrat",
              "oversamp",
              "formwt",              # weight to deal with experimental randomization
-             "wtssall",             # weight variable
+             "wtssps",              # weight variable
              "sampcode",            # sampling error code
              "sample")              # sampling frame and method
 
@@ -185,7 +185,7 @@ gss_fam <- gss_fam |>
                                   Disagree = "Strongly Disagree"),
     fefam_n = recode(fefam_d, "Agree" = 0, "Disagree" = 1),
     # Weights
-    compwt = oversamp * formwt * wtssall, 
+    compwt = oversamp * formwt * wtssps, 
     samplerc = case_when(sample %in% c(3:4) ~ 3, 
                               sample %in% c(6:7) ~ 6,
                               TRUE ~ sample))
@@ -223,7 +223,7 @@ gss_svy <- gss_fam |>
     mutate(stratvar = interaction(year, vstrat)) |>
     as_survey_design(id = vpsu,
                      strata = stratvar,
-                     weights = wtssall,
+                     weights = wtssps,
                      nest = TRUE)
 ```
 

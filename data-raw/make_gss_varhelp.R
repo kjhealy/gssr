@@ -25,7 +25,7 @@ fix_pct <- function(x){
 
 
 availableCores()
-n_cores <- availableCores() - 1
+n_cores <- availableCores()
 
 
 
@@ -142,7 +142,6 @@ gen_rds <- function(r_file)
 }
 
 # furrr continues magic
-plan(multisession, workers = n_cores)
-gss_varfiles <- fs::dir_ls(here::here("R"), glob = "*.R")
+gss_varfiles <- fs::dir_ls(here::here("R"), glob = "*vars*")
 furrr::future_walk(gss_varfiles, gen_rds)
 

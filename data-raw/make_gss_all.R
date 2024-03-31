@@ -3,8 +3,9 @@
 library(tidyverse)
 library(haven)
 library(socviz)
+library(here)
 
-# tmp <- read_stata("data-raw/objects/gss7222_r2.dta")
+# tmp <- read_stata(here("data-raw", "norc", "gss7222_r2.dta"))
 
 ## Current labeling problem: this is a GSS issue
 # attr(tmp$violwhts, "label")
@@ -47,7 +48,7 @@ library(socviz)
 
 
 ## Read the Stata file
-gss_all <- read_stata(here::here("data-raw", "objects", "gss7222_r2.dta"))
+gss_all <- read_stata(here::here("data-raw", "norc", "gss7222_r2a.dta"))
 
 ## Small version for vignettes
 cont_vars <- c("year", "id", "ballot", "age")
@@ -60,7 +61,8 @@ wt_vars <- c("vpsu",
              "vstrat",
              "oversamp",
              "formwt",              # weight to deal with experimental randomization
-             "wtssall",             # weight variable
+             "wtssall",             # weight variable (1972-2018)
+             "wtssps",              # post-stratification weights (1972-2022)
              "sampcode",            # sampling error code
              "sample")              # sampling frame and method
 

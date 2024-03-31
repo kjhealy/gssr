@@ -17,7 +17,7 @@ Question None
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lll}{
-   year \tab 7222.2 \tab Total \cr
+   year \tab 7222.21 \tab Total \cr
    1972 \tab 1613 \tab 1613 \cr
    1973 \tab 1504 \tab 1504 \cr
    1974 \tab 1484 \tab 1484 \cr

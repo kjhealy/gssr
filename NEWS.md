@@ -1,3 +1,8 @@
+# gssr 0.4.2
+
+* Update `gss_all` to Release 2a of the 1972-2022 Cumulative Data File (January 2024)
+* Update the documentation to Release 2a also.
+
 # gssr 0.4.1
 
 * Fix for 2022 and 2021 download years. Should be working again now. 

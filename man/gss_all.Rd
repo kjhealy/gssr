@@ -3,17 +3,17 @@
 \docType{data}
 \name{gss_all}
 \alias{gss_all}
-\title{General Social Survey Survey Cumulative Data File 1972-2022}
+\title{General Social Survey Survey Cumulative Data File 1972-2022 R2a}
 \format{
-An object of class `tibble` with 72,390 rows and 6,693 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at <http://gss.norc.org/Get-Documentation>. Summary information is available in `gss_doc`, a tibble supplied with this package.
+An object of class \code{tibble} with 72,390 rows and 6,694 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at \url{http://gss.norc.org/Get-Documentation}. Summary information is available in \code{gss_doc}, a tibble supplied with this package.
 }
 \source{
-National Opinion Research Center, [http://gss.norc.org](http://gss.norc.org).
+National Opinion Research Center, \url{http://gss.norc.org}.
 }
 \usage{
 data(gss_all)
 }
 \description{
-A tibble containing the General Social Survey Cumulative Data file.
+A tibble containing Release 2a of the GSS Cumulative Data (1972-2022) file.
 }
 \keyword{datasets}
