@@ -3,8 +3,8 @@
 
 # gssr <img src="man/figures/gssr.png" align="right" width="120" />
 
-The General Social Survey Cumulative Data (1972-2022) and Panel Data
-files packaged for easy use in R.
+The General Social Survey Cumulative Data (1972-2022, release 2a) and
+Panel Data files packaged for easy use in R.
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
@@ -29,7 +29,7 @@ remotes::install_github("kjhealy/gssr")
 ``` r
 library(gssr)
 #> Package loaded. To attach the GSS data, type data(gss_all) at the console.
-#> For the codebook, type data(gss_doc).
+#> For the codebook, type data(gss_dict).
 #> For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).
 #> For help on a specific GSS variable, type ?varname at the console.
 ```
@@ -85,7 +85,7 @@ available to use in the usual way:
 
 ``` r
 gss_all
-#> # A tibble: 72,390 × 6,693
+#> # A tibble: 72,390 × 6,694
 #>    year         id wrkstat    hrs1        hrs2        evwork      occ   prestige
 #>    <dbl+lbl> <dbl> <dbl+lbl>  <dbl+lbl>   <dbl+lbl>   <dbl+lbl>   <dbl> <dbl+lb>
 #>  1 1972          1 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 205   50      
@@ -99,7 +99,7 @@ gss_all
 #>  9 1972          9 2 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 912   26      
 #> 10 1972         10 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 984   18      
 #> # ℹ 72,380 more rows
-#> # ℹ 6,685 more variables: wrkslf <dbl+lbl>, wrkgovt <dbl+lbl>,
+#> # ℹ 6,686 more variables: wrkslf <dbl+lbl>, wrkgovt <dbl+lbl>,
 #> #   commute <dbl+lbl>, industry <dbl+lbl>, occ80 <dbl+lbl>, prestg80 <dbl+lbl>,
 #> #   indus80 <dbl+lbl>, indus07 <dbl+lbl>, occonet <dbl+lbl>, found <dbl+lbl>,
 #> #   occ10 <dbl+lbl>, occindv <dbl+lbl>, occstatus <dbl+lbl>, occtag <dbl+lbl>,
@@ -126,7 +126,7 @@ object:
 ``` r
 data(gss_dict)
 gss_dict
-#> # A tibble: 6,662 × 12
+#> # A tibble: 6,663 × 12
 #>      pos variable label     missing var_doc_label value_labels var_text years   
 #>    <int> <chr>    <chr>       <int> <chr>         <chr>        <chr>    <list>  
 #>  1     1 year     gss year…       0 gss year for… [NA(d)] don… None     <NULL>  
@@ -139,7 +139,7 @@ gss_dict
 #>  8     8 wrkslf   r self-e…    4041 r self-emp o… [1] self-em… 2e. (Ar… <tibble>
 #>  9     9 wrkgovt  govt or …   44311 govt or priv… [1] governm… 2f. (Ar… <tibble>
 #> 10    10 commute  travel t…   71060 travel time … [97] 97+ mi… 2g. Abo… <tibble>
-#> # ℹ 6,652 more rows
+#> # ℹ 6,653 more rows
 #> # ℹ 4 more variables: var_yrtab <list>, col_type <chr>, var_type <chr>,
 #> #   var_na_codes <chr>
 ```

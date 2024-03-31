@@ -29,7 +29,7 @@ library(tidyverse)
 
 # gssr <img src="man/figures/gssr.png" align="right" width="120" />
 
-The General Social Survey Cumulative Data (1972-2022) and Panel Data files packaged for easy use in R. 
+The General Social Survey Cumulative Data (1972-2022, release 2a) and Panel Data files packaged for easy use in R. 
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
