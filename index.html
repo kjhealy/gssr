@@ -49,7 +49,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.2</span>
       </span>
     </div>
 
@@ -100,7 +100,7 @@
 <div class="section level1">
 <div class="page-header"><h1 id="gssr-">gssr <img src="reference/figures/gssr.png" align="right" width="120"><a class="anchor" aria-label="anchor" href="#gssr-"></a>
 </h1></div>
-<p>The General Social Survey Cumulative Data (1972-2022) and Panel Data files packaged for easy use in R.</p>
+<p>The General Social Survey Cumulative Data (1972-2022, release 2a) and Panel Data files packaged for easy use in R.</p>
 <p><img src="reference/figures/fefam_svy.png" width="95%"></p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -120,7 +120,7 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a></span><span class="op">)</span></span>
 <span><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console.</span></span>
-<span><span class="co">#&gt; For the codebook, type data(gss_doc).</span></span>
+<span><span class="co">#&gt; For the codebook, type data(gss_dict).</span></span>
 <span><span class="co">#&gt; For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).</span></span>
 <span><span class="co">#&gt; For help on a specific GSS variable, type ?varname at the console.</span></span></code></pre></div>
 <div class="section level3">
@@ -162,7 +162,7 @@
 <p>This will take a moment. Once it is ready, the <code>gss_all</code> object is available to use in the usual way:</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss_all</span></span>
-<span><span class="co">#&gt; # A tibble: 72,390 × 6,693</span></span>
+<span><span class="co">#&gt; # A tibble: 72,390 × 6,694</span></span>
 <span><span class="co">#&gt;    year         id wrkstat    hrs1        hrs2        evwork      occ   prestige</span></span>
 <span><span class="co">#&gt;    &lt;dbl+lbl&gt; &lt;dbl&gt; &lt;dbl+lbl&gt;  &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl&gt; &lt;dbl+lb&gt;</span></span>
 <span><span class="co">#&gt;  1 1972          1 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 205   50      </span></span>
@@ -176,7 +176,7 @@
 <span><span class="co">#&gt;  9 1972          9 2 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 912   26      </span></span>
 <span><span class="co">#&gt; 10 1972         10 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 984   18      </span></span>
 <span><span class="co">#&gt; # ℹ 72,380 more rows</span></span>
-<span><span class="co">#&gt; # ℹ 6,685 more variables: wrkslf &lt;dbl+lbl&gt;, wrkgovt &lt;dbl+lbl&gt;,</span></span>
+<span><span class="co">#&gt; # ℹ 6,686 more variables: wrkslf &lt;dbl+lbl&gt;, wrkgovt &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   commute &lt;dbl+lbl&gt;, industry &lt;dbl+lbl&gt;, occ80 &lt;dbl+lbl&gt;, prestg80 &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   indus80 &lt;dbl+lbl&gt;, indus07 &lt;dbl+lbl&gt;, occonet &lt;dbl+lbl&gt;, found &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   occ10 &lt;dbl+lbl&gt;, occindv &lt;dbl+lbl&gt;, occstatus &lt;dbl+lbl&gt;, occtag &lt;dbl+lbl&gt;,</span></span>
@@ -193,7 +193,7 @@
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_dict</span><span class="op">)</span></span>
 <span><span class="va">gss_dict</span></span>
-<span><span class="co">#&gt; # A tibble: 6,662 × 12</span></span>
+<span><span class="co">#&gt; # A tibble: 6,663 × 12</span></span>
 <span><span class="co">#&gt;      pos variable label     missing var_doc_label value_labels var_text years   </span></span>
 <span><span class="co">#&gt;    &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;int&gt; &lt;chr&gt;         &lt;chr&gt;        &lt;chr&gt;    &lt;list&gt;  </span></span>
 <span><span class="co">#&gt;  1     1 year     gss year…       0 gss year for… [NA(d)] don… None     &lt;NULL&gt;  </span></span>
@@ -206,7 +206,7 @@
 <span><span class="co">#&gt;  8     8 wrkslf   r self-e…    4041 r self-emp o… [1] self-em… 2e. (Ar… &lt;tibble&gt;</span></span>
 <span><span class="co">#&gt;  9     9 wrkgovt  govt or …   44311 govt or priv… [1] governm… 2f. (Ar… &lt;tibble&gt;</span></span>
 <span><span class="co">#&gt; 10    10 commute  travel t…   71060 travel time … [97] 97+ mi… 2g. Abo… &lt;tibble&gt;</span></span>
-<span><span class="co">#&gt; # ℹ 6,652 more rows</span></span>
+<span><span class="co">#&gt; # ℹ 6,653 more rows</span></span>
 <span><span class="co">#&gt; # ℹ 4 more variables: var_yrtab &lt;list&gt;, col_type &lt;chr&gt;, var_type &lt;chr&gt;,</span></span>
 <span><span class="co">#&gt; #   var_na_codes &lt;chr&gt;</span></span></code></pre></div>
 </div>

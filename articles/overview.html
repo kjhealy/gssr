@@ -49,7 +49,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.2</span>
       </span>
     </div>
 
@@ -127,16 +127,16 @@ commercial formats: Stata (<code>.dta</code>), SAS, and SPSS
 the <a href="http://haven.tidyverse.org" class="external-link">Haven</a> package, but it can
 be a little annoying to have to do it repeatedly, or across projects.
 After doing it one too many times, I got tired of it and I made a
-package instead. The <code>gssr</code> package provides the GSS
-Cumulative Data File (1972-2022), three GSS Three Wave Panel Data Files
-(for panels beginning in 2006, 2008, and 2010, respectively), and the
-2020 panel file. The package also integrates codebook information about
-variables into R’s help system, allowing them to be accessed via the
-help browser or from the console with <code>?</code>. The
-<code>gssr</code> package makes the GSS a little more accessible to
-users of R, the free software environment for statistical computing, and
-thus helps in a small way to make the GSS even more open than it already
-is.</p>
+package instead. Currently, the <code>gssr</code> package provides
+Release 2a the GSS Cumulative Data File (1972-2022); three GSS Three
+Wave Panel Data Files (for panels beginning in 2006, 2008, and 2010,
+respectively); and the 2020 panel file. The package also integrates
+codebook information about variables into R’s help system, allowing them
+to be accessed via the help browser or from the console with
+<code>?</code>. The <code>gssr</code> package makes the GSS a little
+more accessible to users of R, the free software environment for
+statistical computing, and thus helps in a small way to make the GSS
+even more open than it already is.</p>
 <div class="section level3">
 <h3 id="packages">Packages<a class="anchor" aria-label="anchor" href="#packages"></a>
 </h3>
@@ -183,7 +183,7 @@ conjunction with some combination of <a href="https://tidyverse.org" class="exte
 <span><span class="co">#&gt; For the codebook, type data(gss_dict).</span></span>
 <span><span class="co">#&gt; For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).</span></span>
 <span><span class="co">#&gt; For help on a specific GSS variable, type ?varname at the console.</span></span></code></pre></div>
-<p>We will begin with the Cumulative Data file (1972-2018). As the
+<p>We will begin with the Cumulative Data file (1972-2022). As the
 startup message notes, the data objects are not automatically loaded.
 That is, we do not use R’s “lazy loading” functionality. This is because
 the main GSS dataset is rather large. Instead we load it manually with
@@ -199,7 +199,7 @@ the Cumulative Data File. This is called <code>gss_dict</code>.</p>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_dict</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_dict</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 6,662 × 12</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 6,663 × 12</span></span></span>
 <span><span class="co">#&gt;      pos variable label     missing var_doc_label value_labels var_text years   </span></span>
 <span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;list&gt;</span>  </span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span>     1 year     gss year…       0 gss year for… [NA(d)] don… None     <span style="color: #949494;">&lt;NULL&gt;</span>  </span></span>
@@ -212,7 +212,7 @@ the Cumulative Data File. This is called <code>gss_dict</code>.</p>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span>     8 wrkslf   r self-e…    <span style="text-decoration: underline;">4</span>041 r self-emp o… [1] self-em… 2e. (Ar… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span>     9 wrkgovt  govt or …   <span style="text-decoration: underline;">44</span>311 govt or priv… [1] governm… 2f. (Ar… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span>    10 commute  travel t…   <span style="text-decoration: underline;">71</span>060 travel time … [97] 97+ mi… 2g. Abo… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 6,652 more rows</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 6,653 more rows</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;"># ℹ 4 more variables: var_yrtab &lt;list&gt;, col_type &lt;chr&gt;, var_type &lt;chr&gt;,</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;">#   var_na_codes &lt;chr&gt;</span></span></span></code></pre></div>
 <p>The GSS data comes in a <em>labelled</em> format, mirroring the way
@@ -221,7 +221,7 @@ content of the column cells. The labeling information is stored as an
 attribute of the column.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss_sub</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 72,390 × 19</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 72,390 × 20</span></span></span>
 <span><span class="co">#&gt;    year         id ballot      age   race    sex     degree  padeg   madeg      </span></span>
 <span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;dbl+lbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl+lbl&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl+l&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl+l&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl+l&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl+l&gt;</span> <span style="color: #949494; font-style: italic;">&lt;dbl+lbl&gt;</span>  </span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> <span style="text-decoration: underline;">1</span>972          1 <span style="color: #BB0000;">NA(i)</span><span style="color: #949494;"> [iap]</span> 23    1<span style="color: #949494;"> [whi…</span> 2<span style="color: #949494;"> [fem…</span> 3<span style="color: #949494;"> [bac…</span> 0<span style="color: #949494;"> [les…</span> <span style="color: #BB0000;">NA(i)</span><span style="color: #949494;"> [iap]</span></span></span>
@@ -235,9 +235,9 @@ attribute of the column.</p>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> <span style="text-decoration: underline;">1</span>972          9 <span style="color: #BB0000;">NA(i)</span><span style="color: #949494;"> [iap]</span> 21    2<span style="color: #949494;"> [bla…</span> 2<span style="color: #949494;"> [fem…</span> 1<span style="color: #949494;"> [hig…</span> 1<span style="color: #949494;"> [hig…</span>     1<span style="color: #949494;"> [hig…</span></span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> <span style="text-decoration: underline;">1</span>972         10 <span style="color: #BB0000;">NA(i)</span><span style="color: #949494;"> [iap]</span> 30    2<span style="color: #949494;"> [bla…</span> 2<span style="color: #949494;"> [fem…</span> 1<span style="color: #949494;"> [hig…</span> 0<span style="color: #949494;"> [les…</span>     0<span style="color: #949494;"> [les…</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;"># ℹ 72,380 more rows</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 10 more variables: relig &lt;dbl+lbl&gt;, polviews &lt;dbl+lbl&gt;, fefam &lt;dbl+lbl&gt;,</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 11 more variables: relig &lt;dbl+lbl&gt;, polviews &lt;dbl+lbl&gt;, fefam &lt;dbl+lbl&gt;,</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;">#   vpsu &lt;dbl+lbl&gt;, vstrat &lt;dbl+lbl&gt;, oversamp &lt;dbl+lbl&gt;, formwt &lt;dbl+lbl&gt;,</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;">#   wtssall &lt;dbl+lbl&gt;, sampcode &lt;dbl+lbl&gt;, sample &lt;dbl+lbl&gt;</span></span></span></code></pre></div>
+<span><span class="co">#&gt; <span style="color: #949494;">#   wtssall &lt;dbl+lbl&gt;, wtssps &lt;dbl+lbl&gt;, sampcode &lt;dbl+lbl&gt;, sample &lt;dbl+lbl&gt;</span></span></span></code></pre></div>
 <p>We will use the label information later when recoding the variables
 into, say, character or factor variables.</p>
 </div>
@@ -292,7 +292,7 @@ subset <code>gss_sub</code> into an object called <code>gss_fam</code>
 containing just the variables we want to examine, along with core
 measures that identify respondents (such as <code>id</code> and
 <code>year</code>) and variables necessary for the survey weighting
-later (such as <code>wtssall</code>).</p>
+later (such as <code>wtssps</code>).</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">cont_vars</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"year"</span>, <span class="st">"id"</span>, <span class="st">"ballot"</span>, <span class="st">"age"</span><span class="op">)</span></span>
 <span></span>
@@ -302,7 +302,7 @@ later (such as <code>wtssall</code>).</p>
 <span>             <span class="st">"vstrat"</span>,</span>
 <span>             <span class="st">"oversamp"</span>,</span>
 <span>             <span class="st">"formwt"</span>,              <span class="co"># weight to deal with experimental randomization</span></span>
-<span>             <span class="st">"wtssall"</span>,             <span class="co"># weight variable</span></span>
+<span>             <span class="st">"wtssps"</span>,              <span class="co"># weight variable</span></span>
 <span>             <span class="st">"sampcode"</span>,            <span class="co"># sampling error code</span></span>
 <span>             <span class="st">"sample"</span><span class="op">)</span>              <span class="co"># sampling frame and method</span></span>
 <span></span>
@@ -327,7 +327,7 @@ later (such as <code>wtssall</code>).</p>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> <span style="text-decoration: underline;">1</span>972         10 <span style="color: #BB0000;">NA(i)</span><span style="color: #949494;"> [iap]</span> 30        2<span style="color: #949494;"> [bla…</span> 2<span style="color: #949494;"> [fem…</span> <span style="color: #BB0000;">NA(i)</span><span style="color: #949494;"> [iap]</span> <span style="color: #BB0000;">NA(i)</span><span style="color: #949494;"> [iap]</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;"># ℹ 72,380 more rows</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;"># ℹ 6 more variables: vstrat &lt;dbl+lbl&gt;, oversamp &lt;dbl+lbl&gt;, formwt &lt;dbl+lbl&gt;,</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;">#   wtssall &lt;dbl+lbl&gt;, sampcode &lt;dbl+lbl&gt;, sample &lt;dbl+lbl&gt;</span></span></span></code></pre></div>
+<span><span class="co">#&gt; <span style="color: #949494;">#   wtssps &lt;dbl+lbl&gt;, sampcode &lt;dbl+lbl&gt;, sample &lt;dbl+lbl&gt;</span></span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="recode-the-subsetted-data">Recode the Subsetted Data<a class="anchor" aria-label="anchor" href="#recode-the-subsetted-data"></a>
@@ -385,7 +385,7 @@ instead.</p>
 <span>                                  Disagree <span class="op">=</span> <span class="st">"Strongly Disagree"</span><span class="op">)</span>,</span>
 <span>    fefam_n <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/recode.html" class="external-link">recode</a></span><span class="op">(</span><span class="va">fefam_d</span>, <span class="st">"Agree"</span> <span class="op">=</span> <span class="fl">0</span>, <span class="st">"Disagree"</span> <span class="op">=</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>    <span class="co"># Weights</span></span>
-<span>    compwt <span class="op">=</span> <span class="va">oversamp</span> <span class="op">*</span> <span class="va">formwt</span> <span class="op">*</span> <span class="va">wtssall</span>, </span>
+<span>    compwt <span class="op">=</span> <span class="va">oversamp</span> <span class="op">*</span> <span class="va">formwt</span> <span class="op">*</span> <span class="va">wtssps</span>, </span>
 <span>    samplerc <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html" class="external-link">case_when</a></span><span class="op">(</span><span class="va">sample</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">3</span><span class="op">:</span><span class="fl">4</span><span class="op">)</span> <span class="op">~</span> <span class="fl">3</span>, </span>
 <span>                              <span class="va">sample</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">6</span><span class="op">:</span><span class="fl">7</span><span class="op">)</span> <span class="op">~</span> <span class="fl">6</span>,</span>
 <span>                              <span class="cn">TRUE</span> <span class="op">~</span> <span class="va">sample</span><span class="op">)</span><span class="op">)</span></span>
@@ -465,7 +465,7 @@ wrappers to <code>survey</code> for this.</p>
 <span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html" class="external-link">mutate</a></span><span class="op">(</span>stratvar <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/interaction.html" class="external-link">interaction</a></span><span class="op">(</span><span class="va">year</span>, <span class="va">vstrat</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>    <span class="fu"><a href="http://gdfe.co/srvyr/reference/as_survey_design.html" class="external-link">as_survey_design</a></span><span class="op">(</span>id <span class="op">=</span> <span class="va">vpsu</span>,</span>
 <span>                     strata <span class="op">=</span> <span class="va">stratvar</span>,</span>
-<span>                     weights <span class="op">=</span> <span class="va">wtssall</span>,</span>
+<span>                     weights <span class="op">=</span> <span class="va">wtssps</span>,</span>
 <span>                     nest <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
 <p>The <code>gss_svy</code> object contains the same data as
 <code>gss_fam</code>, but incorporates information about the sampling
@@ -479,10 +479,10 @@ work with:</p>
 <span><span class="co">#&gt; Sampling variables:</span></span>
 <span><span class="co">#&gt;  - ids: vpsu</span></span>
 <span><span class="co">#&gt;  - strata: stratvar</span></span>
-<span><span class="co">#&gt;  - weights: wtssall</span></span>
+<span><span class="co">#&gt;  - weights: wtssps</span></span>
 <span><span class="co">#&gt; Data variables: year (dbl+lbl), id (dbl), ballot (dbl+lbl), age (dbl+lbl), race</span></span>
 <span><span class="co">#&gt;   (fct), sex (fct), fefam (fct), vpsu (dbl), vstrat (dbl), oversamp (dbl),</span></span>
-<span><span class="co">#&gt;   formwt (dbl), wtssall (dbl), sampcode (dbl), sample (dbl), ageq (fct),</span></span>
+<span><span class="co">#&gt;   formwt (dbl), wtssps (dbl), sampcode (dbl), sample (dbl), ageq (fct),</span></span>
 <span><span class="co">#&gt;   agequint (fct), year_f (fct), young (chr), fefam_d (fct), fefam_n (dbl),</span></span>
 <span><span class="co">#&gt;   compwt (dbl), samplerc (dbl), stratvar (fct)</span></span></code></pre></div>
 </div>
@@ -503,16 +503,16 @@ the data.</p>
 <span><span class="co">#&gt; <span style="color: #949494;"># Groups:   year, sex, young [84]</span></span></span>
 <span><span class="co">#&gt;    year      sex    young fefam_d   prop prop_low prop_upp</span></span>
 <span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;dbl+lbl&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> <span style="text-decoration: underline;">1</span>977      Male   No    Agree    0.726    0.685    0.766</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 2</span> <span style="text-decoration: underline;">1</span>977      Male   No    Disagree 0.274    0.234    0.315</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 3</span> <span style="text-decoration: underline;">1</span>977      Male   Yes   Agree    0.551    0.469    0.633</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 4</span> <span style="text-decoration: underline;">1</span>977      Male   Yes   Disagree 0.449    0.367    0.531</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 5</span> <span style="text-decoration: underline;">1</span>977      Female No    Agree    0.674    0.639    0.709</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span> <span style="text-decoration: underline;">1</span>977      Female No    Disagree 0.326    0.291    0.361</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span> <span style="text-decoration: underline;">1</span>977      Female Yes   Agree    0.415    0.316    0.514</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span> <span style="text-decoration: underline;">1</span>977      Female Yes   Disagree 0.585    0.486    0.684</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> <span style="text-decoration: underline;">1</span>985      Male   No    Agree    0.542    0.496    0.587</span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> <span style="text-decoration: underline;">1</span>985      Male   No    Disagree 0.458    0.413    0.504</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> <span style="text-decoration: underline;">1</span>977      Male   No    Agree    0.708    0.662    0.754</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 2</span> <span style="text-decoration: underline;">1</span>977      Male   No    Disagree 0.292    0.246    0.338</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 3</span> <span style="text-decoration: underline;">1</span>977      Male   Yes   Agree    0.544    0.461    0.627</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 4</span> <span style="text-decoration: underline;">1</span>977      Male   Yes   Disagree 0.456    0.373    0.539</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 5</span> <span style="text-decoration: underline;">1</span>977      Female No    Agree    0.673    0.636    0.711</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span> <span style="text-decoration: underline;">1</span>977      Female No    Disagree 0.327    0.289    0.364</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span> <span style="text-decoration: underline;">1</span>977      Female Yes   Agree    0.417    0.312    0.522</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span> <span style="text-decoration: underline;">1</span>977      Female Yes   Disagree 0.583    0.478    0.688</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> <span style="text-decoration: underline;">1</span>985      Male   No    Agree    0.541    0.489    0.594</span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> <span style="text-decoration: underline;">1</span>985      Male   No    Disagree 0.459    0.406    0.511</span></span>
 <span><span class="co">#&gt; <span style="color: #949494;"># ℹ 158 more rows</span></span></span></code></pre></div>
 </div>
 <div class="section level3">

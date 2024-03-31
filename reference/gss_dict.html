@@ -31,7 +31,7 @@ See http://gss.norc.org/Get-Documentation for full documentation of the variable
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.2</span>
       </span>
     </div>
 
@@ -88,47 +88,47 @@ See http://gss.norc.org/Get-Documentation for full documentation of the variable
 
     <div id="format">
     <h2>Format</h2>
-    <p>A tibble with `r gssr:::fmt_nr(data(gss_dict))` rows and `r gssr:::fmt_nc(data(gss_dict))` columns.</p><dl><dt>`pos`</dt>
-<dd><p>Column-index position of the variable in `gss_all`. (Integer.)</p></dd>
+    <p>A tibble with  rows and  columns.</p><dl><dt><code>pos</code></dt>
+<dd><p>Column-index position of the variable in <code>gss_all</code>. (Integer.)</p></dd>
 
-<dt>`variable`</dt>
+<dt><code>variable</code></dt>
 <dd><p>The name of the variable. (Character.)</p></dd>
 
-<dt>`label`</dt>
+<dt><code>label</code></dt>
 <dd><p>The variable's label. 'r' means 'Respondent'. (Character.)</p></dd>
 
-<dt>`missing`</dt>
+<dt><code>missing</code></dt>
 <dd><p>Number of missing observations. (Integer.)</p></dd>
 
-<dt>`var_doc_label`</dt>
-<dd><p>The variable's label, per the Berkeley SDA web pages. Should correspond directly to `label`. (Character)</p></dd>
+<dt><code>var_doc_label</code></dt>
+<dd><p>The variable's label, per the Berkeley SDA web pages. Should correspond directly to <code>label</code>. (Character)</p></dd>
 ∑
-<dt>`value_labels`</dt>
+<dt><code>value_labels</code></dt>
 <dd><p>The value labels and associated numeric values for the variable. Numeric values are given in square brackets. (Character.)</p></dd>
 
-<dt>`var_text`</dt>
+<dt><code>var_text</code></dt>
 <dd><p>The text of the question asked of the respondent. (Character.)</p></dd>
 
-<dt>`years`</dt>
-<dd><p>Which years the question was asked. This information is stored as a tibble in a list column. The tibble contains a column for the `year` and a TRUE/FALSE coumn for `present`. (List.)</p></dd>
+<dt><code>years</code></dt>
+<dd><p>Which years the question was asked. This information is stored as a tibble in a list column. The tibble contains a column for the <code>year</code> and a TRUE/FALSE coumn for <code>present</code>. (List.)</p></dd>
 
-<dt>`var_yrtab`</dt>
-<dd><p>Crosstab of responses by year. Stored in a list-column. The tibbles contain `year` values in the rows and value labels across their columns, with response freqencies in the cells as counts. (List.)</p></dd>
+<dt><code>var_yrtab</code></dt>
+<dd><p>Crosstab of responses by year. Stored in a list-column. The tibbles contain <code>year</code> values in the rows and value labels across their columns, with response freqencies in the cells as counts. (List.)</p></dd>
 
-<dt>`col_type`</dt>
-<dd><p>The column type of the variable in `gss_all`. (Character.)</p></dd>
+<dt><code>col_type</code></dt>
+<dd><p>The column type of the variable in <code>gss_all</code>. (Character.)</p></dd>
 
-<dt>`var_type`</dt>
-<dd><p>The variable type of the variable in `gss_all`. (Character.)</p></dd>
+<dt><code>var_type</code></dt>
+<dd><p>The variable type of the variable in <code>gss_all</code>. (Character.)</p></dd>
 
-<dt>`var_na_codes`</dt>
-<dd><p>The missing value codes associated with the variable in `gss_all`. (Character.)</p></dd>
+<dt><code>var_na_codes</code></dt>
+<dd><p>The missing value codes associated with the variable in <code>gss_all</code>. (Character.)</p></dd>
 
 
 </dl></div>
     <div id="source">
     <h2>Source</h2>
-    <p>National Opinion Research Center, [http://gss.norc.org](http://gss.norc.org).</p>
+    <p>National Opinion Research Center, <a href="http://gss.norc.org" class="external-link">http://gss.norc.org</a>.</p>
     </div>
 
   </div>
