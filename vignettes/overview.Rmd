@@ -170,7 +170,7 @@ gss_fam <- gss_fam |>
     across(all_of(wt_vars), as.numeric),
     # Make all categorical variables factors and relabel nicely
     across(all_of(cat_vars), forcats::as_factor),
-    across(all_of(cat_vars), forcats::fct_relabel, capwords, strict = TRUE),
+    across(all_of(cat_vars), \(x) forcats::fct_relabel(x, capwords, strict = TRUE)),
     # Create the age groups
     ageq = cut(x = age, breaks = unique(qrts), include.lowest = TRUE),
     ageq =  forcats::fct_relabel(ageq, convert_agegrp), 
@@ -184,8 +184,6 @@ gss_fam <- gss_fam |>
                                   Agree = "Strongly Agree",
                                   Disagree = "Strongly Disagree"),
     fefam_n = recode(fefam_d, "Agree" = 0, "Disagree" = 1),
-    # Weights
-    compwt = oversamp * formwt * wtssps, 
     samplerc = case_when(sample %in% c(3:4) ~ 3, 
                               sample %in% c(6:7) ~ 6,
                               TRUE ~ sample))
@@ -218,7 +216,7 @@ options(survey.lonely.psu = "adjust")
 options(na.action="na.pass")
 
 gss_svy <- gss_fam |>
-    filter(year > 1974 & year < 2021) |>
+    filter(year > 1974) |>
     tidyr::drop_na(fefam_d, young) |>
     mutate(stratvar = interaction(year, vstrat)) |>
     as_survey_design(id = vpsu,
@@ -241,7 +239,8 @@ We're now in a position to calculate some properly-weighted summary statistics f
 ## Get the breakdown for every year
 out_ff <- gss_svy |>
     group_by(year, sex, young, fefam_d) |>
-    summarize(prop = survey_mean(na.rm = TRUE, vartype = "ci"))
+    summarize(prop = survey_mean(na.rm = TRUE, vartype = "ci")) |> 
+  drop_na(sex)
 
 out_ff
 ```
@@ -268,7 +267,7 @@ out_ff |>
                fill = sex)) +
   geom_line(linewidth = 1.2) +
   geom_ribbon(alpha = 0.3, color = NA) +
-  scale_x_continuous(breaks = seq(1978, 2018, 4)) +
+  scale_x_continuous(breaks = seq(1978, 2022, 4)) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
   scale_color_manual(values = my_colors("bly")[2:1],
                      labels = c("Men", "Women"),
@@ -278,7 +277,7 @@ out_ff |>
                     guide = guide_legend(title=NULL)) +
   facet_wrap(~ young, labeller = as_labeller(facet_names),
              ncol = 1) +
-  coord_cartesian(xlim = c(1977, 2017)) +
+  coord_cartesian(xlim = c(1977, 2022)) +
   labs(x = "Year",
        y = "Percent Disagreeing",
        subtitle = fefam_txt,
