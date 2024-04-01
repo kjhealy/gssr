@@ -373,21 +373,21 @@ data("gss_panel20")
 gss_panel20
 #> # A tibble: 5,215 × 4,296
 #>    samptype           yearid fileversion panstat wtssall_1a wtssall_1b wtssall_2
-#>    <dbl+lbl>           <dbl> <chr>       <dbl+l>      <dbl>      <dbl>     <dbl>
-#>  1 2016 [sample from… 2.02e7 GSS 2020 P… 1 [sel…      0.957         NA     1.09 
-#>  2 2016 [sample from… 2.02e7 GSS 2020 P… 1 [sel…      0.478         NA     0.543
-#>  3 2016 [sample from… 2.02e7 GSS 2020 P… 0 [not…      0.957         NA    NA    
-#>  4 2016 [sample from… 2.02e7 GSS 2020 P… 1 [sel…      1.91          NA     2.17 
-#>  5 2016 [sample from… 2.02e7 GSS 2020 P… 0 [not…      1.44          NA    NA    
-#>  6 2016 [sample from… 2.02e7 GSS 2020 P… 2 [sel…      0.957         NA    NA    
-#>  7 2016 [sample from… 2.02e7 GSS 2020 P… 0 [not…      1.44          NA    NA    
-#>  8 2016 [sample from… 2.02e7 GSS 2020 P… 1 [sel…      0.957         NA     1.09 
-#>  9 2016 [sample from… 2.02e7 GSS 2020 P… 1 [sel…      0.957         NA     1.09 
-#> 10 2016 [sample from… 2.02e7 GSS 2020 P… 0 [not…      0.957         NA    NA    
+#>    <dbl+lbl>          <chr>  <chr>       <dbl+l>      <dbl>      <dbl>     <dbl>
+#>  1 2016 [sample from… 20160… GSS 2020 P… 1 [sel…      0.957         NA     1.09 
+#>  2 2016 [sample from… 20160… GSS 2020 P… 1 [sel…      0.478         NA     0.543
+#>  3 2016 [sample from… 20160… GSS 2020 P… 0 [not…      0.957         NA    NA    
+#>  4 2016 [sample from… 20160… GSS 2020 P… 1 [sel…      1.91          NA     2.17 
+#>  5 2016 [sample from… 20160… GSS 2020 P… 0 [not…      1.44          NA    NA    
+#>  6 2016 [sample from… 20160… GSS 2020 P… 2 [sel…      0.957         NA    NA    
+#>  7 2016 [sample from… 20160… GSS 2020 P… 0 [not…      1.44          NA    NA    
+#>  8 2016 [sample from… 20160… GSS 2020 P… 1 [sel…      0.957         NA     1.09 
+#>  9 2016 [sample from… 20160… GSS 2020 P… 1 [sel…      0.957         NA     1.09 
+#> 10 2016 [sample from… 20160… GSS 2020 P… 0 [not…      0.957         NA    NA    
 #> # ℹ 5,205 more rows
 #> # ℹ 4,289 more variables: wtssnr_1a <dbl>, wtssnr_1b <dbl>, wtssnr_2 <dbl>,
 #> #   vstrat_1a <dbl>, vstrat_1b <dbl>, vstrat_2 <dbl>, vpsu_1a <dbl>,
-#> #   vpsu_1b <dbl>, vpsu_2 <dbl>, year_1a <dbl>, year_1b <dbl>, year_2 <dbl>,
+#> #   vpsu_1b <dbl>, vpsu_2 <dbl>, year_1a <int>, year_1b <int>, year_2 <int>,
 #> #   id_1a <dbl>, id_1b <dbl>, id_2 <dbl>, mar1_1a <dbl+lbl>, mar2_1a <dbl+lbl>,
 #> #   mar3_1a <dbl+lbl>, mar4_1a <dbl+lbl>, mar5_1a <dbl+lbl>, mar6_1a <dbl+lbl>,
 #> #   mar7_1a <dbl+lbl>, mar8_1a <dbl+lbl>, mar9_1a <dbl+lbl>, …
