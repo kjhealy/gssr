@@ -36,9 +36,8 @@ library(gssr)
 
 ### Single GSS years
 
-You can quickly get the data for any single GSS year by using
-`gss_get_yr()` to download the data file from NORC and put it directly
-into a tibble.
+You can get the data for any single GSS year by using `gss_get_yr()` to
+download it from NORC and put it directly into a tibble.
 
 ``` r
 gss18 <- gss_get_yr(2018)
@@ -69,12 +68,12 @@ gss18
 
 ### The Cumulative Data File
 
-The GSS cumulative data file is large. It is not loaded by default when
-you invoke the package. (That is, `gssr` does not use R’s “lazy loading”
-facility. The data file is too big to do this without error.) To load
-one of the datasets, first load the library and then use `data()` to
-make the data available. For example, load the cumulative GSS file like
-this:
+The GSS cumulative data file is large. It is included in`gssr` but not
+loaded by default when you invoke the package. (That is, `gssr` does not
+use R’s “lazy loading” facility. The data file is too big to do this
+without error.) To load it (or the other) datasets, first load the
+library and then use `data()` to make the data available. For example,
+load the cumulative GSS file like this:
 
 ``` r
 data(gss_all)
