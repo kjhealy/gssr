@@ -186,11 +186,11 @@ gss_fam <- gss_fam |>
     fefam_n = recode(fefam_d, "Agree" = 0, "Disagree" = 1),
     samplerc = case_when(sample %in% c(3:4) ~ 3, 
                               sample %in% c(6:7) ~ 6,
-                              TRUE ~ sample))
+                              .default = sample))
 
 ## Some of the recoded variables
 gss_fam |>
-  filter(year > 1976 & year < 2021) |> 
+  filter(year > 1976) |> 
   select(race:fefam, agequint:fefam_d) |> 
   relocate(year_f)
 ```
