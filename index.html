@@ -126,7 +126,7 @@
 <div class="section level3">
 <h3 id="single-gss-years">Single GSS years<a class="anchor" aria-label="anchor" href="#single-gss-years"></a>
 </h3>
-<p>You can quickly get the data for any single GSS year by using <code><a href="reference/gss_get_yr.html">gss_get_yr()</a></code> to download the data file from NORC and put it directly into a tibble.</p>
+<p>You can get the data for any single GSS year by using <code><a href="reference/gss_get_yr.html">gss_get_yr()</a></code> to download it from NORC and put it directly into a tibble.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss18</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/gss_get_yr.html">gss_get_yr</a></span><span class="op">(</span><span class="fl">2018</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Fetching: https://gss.norc.org/documents/stata/2018_stata.zip</span></span>
@@ -156,7 +156,7 @@
 <div class="section level3">
 <h3 id="the-cumulative-data-file">The Cumulative Data File<a class="anchor" aria-label="anchor" href="#the-cumulative-data-file"></a>
 </h3>
-<p>The GSS cumulative data file is large. It is not loaded by default when you invoke the package. (That is, <code>gssr</code> does not use R’s “lazy loading” facility. The data file is too big to do this without error.) To load one of the datasets, first load the library and then use <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code> to make the data available. For example, load the cumulative GSS file like this:</p>
+<p>The GSS cumulative data file is large. It is included in<code>gssr</code> but not loaded by default when you invoke the package. (That is, <code>gssr</code> does not use R’s “lazy loading” facility. The data file is too big to do this without error.) To load it (or the other) datasets, first load the library and then use <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code> to make the data available. For example, load the cumulative GSS file like this:</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_all</span><span class="op">)</span></span></code></pre></div>
 <p>This will take a moment. Once it is ready, the <code>gss_all</code> object is available to use in the usual way:</p>
