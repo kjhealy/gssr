@@ -1,6 +1,6 @@
 Package: gssr
 Title: US General Social Survey (GSS) Data for R
-Version: 0.4.2
+Version: 0.4.3
 Authors@R: 
     person(given = "Kieran",
            family = "Healy",
@@ -9,7 +9,7 @@ Authors@R:
            comment = c(ORCID = "https://orcid.org/0000-0001-9114-981X"))
 Description: The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data and GSS Panel Data files packaged for R, together with separate datasets containing codebook information on the variables. For more information on the GSS see \url{http://gss.norc.org}.
 License: MIT + file LICENSE
-Depends: R (>= 3.5)
+Depends: R (>= 4.0.0)
 Imports:
     curl,
     dplyr,
