@@ -386,14 +386,14 @@ instead.</p>
 <span>    fefam_n <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/recode.html" class="external-link">recode</a></span><span class="op">(</span><span class="va">fefam_d</span>, <span class="st">"Agree"</span> <span class="op">=</span> <span class="fl">0</span>, <span class="st">"Disagree"</span> <span class="op">=</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>    samplerc <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html" class="external-link">case_when</a></span><span class="op">(</span><span class="va">sample</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">3</span><span class="op">:</span><span class="fl">4</span><span class="op">)</span> <span class="op">~</span> <span class="fl">3</span>, </span>
 <span>                              <span class="va">sample</span> <span class="op"><a href="https://rdrr.io/r/base/match.html" class="external-link">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">6</span><span class="op">:</span><span class="fl">7</span><span class="op">)</span> <span class="op">~</span> <span class="fl">6</span>,</span>
-<span>                              <span class="cn">TRUE</span> <span class="op">~</span> <span class="va">sample</span><span class="op">)</span><span class="op">)</span></span>
+<span>                              .default <span class="op">=</span> <span class="va">sample</span><span class="op">)</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co">## Some of the recoded variables</span></span>
 <span><span class="va">gss_fam</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">&gt;</span> <span class="fl">1976</span> <span class="op">&amp;</span> <span class="va">year</span> <span class="op">&lt;</span> <span class="fl">2021</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html" class="external-link">filter</a></span><span class="op">(</span><span class="va">year</span> <span class="op">&gt;</span> <span class="fl">1976</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html" class="external-link">select</a></span><span class="op">(</span><span class="va">race</span><span class="op">:</span><span class="va">fefam</span>, <span class="va">agequint</span><span class="op">:</span><span class="va">fefam_d</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/relocate.html" class="external-link">relocate</a></span><span class="op">(</span><span class="va">year_f</span><span class="op">)</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 57,224 × 7</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 64,800 × 7</span></span></span>
 <span><span class="co">#&gt;    year_f race  sex    fefam             agequint  young fefam_d </span></span>
 <span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>             <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>     <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;fct&gt;</span>   </span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> 1977   White Female Agree             Age 50-64 No    Agree   </span></span>
@@ -406,7 +406,7 @@ instead.</p>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span> 1977   White Female Disagree          Age 29-39 No    Disagree</span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> 1977   White Female Agree             Age 64+   No    Agree   </span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> 1977   White Female Disagree          Age 39-50 No    Disagree</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 57,214 more rows</span></span></span></code></pre></div>
+<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 64,790 more rows</span></span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="integrate-the-survey-weights">Integrate the Survey Weights<a class="anchor" aria-label="anchor" href="#integrate-the-survey-weights"></a>
