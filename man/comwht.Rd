@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 comwht
 }
 \details{
-Question 755. Just your best guess�what percentage of the people who live in your local community is each group? a. Whites
+Question 755. Just your best guess~what percentage of the people who live in your local community is each group? a. Whites
 }
 \section{Overview}{
 

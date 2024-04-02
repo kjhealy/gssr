@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 brv16par
 }
 \details{
-Question We�re very sorry. Who would that be? Please indicate all that apply.
+Question We~re very sorry. Who would that be? Please indicate all that apply.
 }
 \section{Overview}{
 

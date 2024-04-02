@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 usjews
 }
 \details{
-Question 751. Just your best guess�what percentage of the United States population is each group? c. Jews
+Question 751. Just your best guess~what percentage of the United States population is each group? c. Jews
 }
 \section{Overview}{
 

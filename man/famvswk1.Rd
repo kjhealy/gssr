@@ -17,7 +17,7 @@ Question You have found it difficult to concentrate at work because of your fami
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab doesn�t apply/no job \tab don't know \tab never \tab no answer \tab once or twice \tab several times a month \tab several times a week \tab 5 \tab skipped on web \tab Total \cr
+   year \tab iap \tab doesn't apply/no job \tab don't know \tab never \tab no answer \tab once or twice \tab several times a month \tab several times a week \tab 5 \tab skipped on web \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -59,7 +59,7 @@ Counts by year:\tabular{llllllllllll}{
 \section{Values}{
 
 \itemize{
-\item \code{0} doesn�t apply/no job
+\item \code{0} doesn't apply/no job
 \item \code{1} several times a week
 \item \code{2} several times a month
 \item \code{3} once or twice

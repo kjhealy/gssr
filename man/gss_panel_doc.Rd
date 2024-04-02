@@ -36,8 +36,6 @@ National Opinion Research Center, \url{http://gss.norc.org}.
 data(gss_panel_doc)
 }
 \description{
-A tibble containing information on the variable in the GSS
-Three Wave Panel Data File, in wide format. See http://gss.norc.org/Get-Documentation for full
-documentation of the variables.
+A tibble containing information on the variable in the GSS Three Wave Panel Data File, in wide format.
 }
 \keyword{datasets}

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 peoplegn
 }
 \details{
-Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: d. Tried to meet new people for social purposes?
+Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002~have you: d. Tried to meet new people for social purposes?
 }
 \section{Overview}{
 

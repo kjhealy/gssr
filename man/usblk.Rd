@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 usblk
 }
 \details{
-Question 751. Just your best guess�what percentage of the United States population is each group? b. Blacks/African-Americans
+Question 751. Just your best guess~what percentage of the United States population is each group? b. Blacks/African-Americans
 }
 \section{Overview}{
 

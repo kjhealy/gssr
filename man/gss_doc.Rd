@@ -5,7 +5,7 @@
 \alias{gss_doc}
 \title{Codebook for the GSS Cumulative Data File 1972-2022}
 \format{
-A tibble with  rows and  columns.
+A tibble.
 \describe{
 \item{\code{id}}{The short name of the variable. A character vector.}
 \item{\code{description}}{Brief description of the variable. A
@@ -26,8 +26,6 @@ National Opinion Research Center, \url{http://gss.norc.org}.
 data(gss_doc)
 }
 \description{
-A tibble containing information on the variables in the GSS
-Cumulative Data File. See http://gss.norc.org/Get-Documentation for full
-documentation of the variables.
+A tibble containing information on the variables in the GSS Cumulative Data File.
 }
 \keyword{datasets}

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 emphlth2
 }
 \details{
-Question Which of the following statements best describes your employer�s coverage:
+Question Which of the following statements best describes your employer~s coverage:
 }
 \section{Overview}{
 

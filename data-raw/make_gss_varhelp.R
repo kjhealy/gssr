@@ -6,7 +6,7 @@
 ## then remove all gss_vars_*.R from R/. Then run devtools::document() as usual.
 ## This will regenerate the "regular" package documentation and vignettes etc.
 ## Once done, run this file, which will use future and furrr to generate the ~6,500
-## or so Rd files the variables.
+## or so Rd files, one for each GSS variable.
 
 library(tidyverse)
 library(here)
@@ -19,8 +19,14 @@ fix_pct <- function(x){
   x |>
     stringr::str_replace_all("%", "pct") |>
     stringr::str_replace_all("<", "(") |>
-    stringr::str_replace_all(">", ")")
-
+    stringr::str_replace_all(">", ")") |>
+    stringr::str_replace_all("�", "~") |>
+    stringr::str_replace_all("n~t", "n't") |>
+    stringr::str_replace_all("y~s", "y's") |>
+    stringr::str_replace_all("figures~like", "figures---like") |>
+    stringr::str_replace_all("I~m", "I'm") |>
+    stringr::str_replace_all("\\(~", "\\('") |>
+    stringr::str_replace_all("guess~\\)", "guess: ")
 }
 
 
@@ -104,7 +110,6 @@ make_rd_varname <- function(variable){
   paste0(keywords,mdflag,vname, collapse = "\n")
 }
 
-#endstring <- "\n#'\n#' @source General Social Survey https://gss.norc.org\n#' @author Kieran Healy\n#' @export \n"
 endstring <- "\n#'\n#' @source General Social Survey https://gss.norc.org\n#' \n"
 
 

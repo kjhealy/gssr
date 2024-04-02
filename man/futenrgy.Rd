@@ -17,7 +17,7 @@ Question None
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{llllllllllll}{
-   year \tab iap \tab can�t choose \tab coal, oil and natural gas \tab don't know \tab fuels made from crops \tab fuels made from waste \tab no answer \tab none of them \tab nuclear power \tab solar, wind or water power \tab Total \cr
+   year \tab iap \tab can't choose \tab coal, oil and natural gas \tab don't know \tab fuels made from crops \tab fuels made from waste \tab no answer \tab none of them \tab nuclear power \tab solar, wind or water power \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -65,7 +65,7 @@ Counts by year:\tabular{llllllllllll}{
 \item \code{4} fuels made from crops
 \item \code{5} fuels made from waste
 \item \code{6} none of them
-\item \code{7} can�t choose
+\item \code{7} can't choose
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

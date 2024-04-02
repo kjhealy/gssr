@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 polinfgn
 }
 \details{
-Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: h. Looked for information about political or social policy issues, current affairs, or political campaigns?
+Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002~have you: h. Looked for information about political or social policy issues, current affairs, or political campaigns?
 }
 \section{Overview}{
 

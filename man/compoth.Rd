@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 compoth
 }
 \details{
-Question 804a. Do you use a computer at some other place besides your home or workplace�say, at school, library, friend's home, or other location?
+Question 804a. Do you use a computer at some other place besides your home or workplace~say, at school, library, friend's home, or other location?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 fluvax
 }
 \details{
-Question Did you receive a seasonal influenza vaccine (�flu shot�) in the past 12 months?
+Question Did you receive a seasonal influenza vaccine ('flu shot~) in the past 12 months?
 }
 \section{Overview}{
 

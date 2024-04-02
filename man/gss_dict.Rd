@@ -5,13 +5,14 @@
 \alias{gss_dict}
 \title{Data Dictionary for the GSS Cumulative Data File 1972-2022}
 \format{
-A tibble with  rows and  columns.
+A tibble.
+
 \describe{
 \item{\code{pos}}{Column-index position of the variable in \code{gss_all}. (Integer.)}
 \item{\code{variable}}{The name of the variable. (Character.)}
 \item{\code{label}}{The variable's label. 'r' means 'Respondent'. (Character.)}
 \item{\code{missing}}{Number of missing observations. (Integer.)}
-\item{\code{var_doc_label}}{The variable's label, per the Berkeley SDA web pages. Should correspond directly to \code{label}. (Character)}∑
+\item{\code{var_doc_label}}{The variable's label, per the Berkeley SDA web pages. Should correspond directly to \code{label}. (Character)}
 \item{\code{value_labels}}{The value labels and associated numeric values for the variable. Numeric values are given in square brackets. (Character.)}
 \item{\code{var_text}}{The text of the question asked of the respondent. (Character.)}
 \item{\code{years}}{Which years the question was asked. This information is stored as a tibble in a list column. The tibble contains a column for the \code{year} and a TRUE/FALSE coumn for \code{present}. (List.)}
@@ -28,8 +29,6 @@ National Opinion Research Center, \url{http://gss.norc.org}.
 data(gss_dict)
 }
 \description{
-A tibble containing information on the variables in the GSS
-Cumulative Data File.
-See http://gss.norc.org/Get-Documentation for full documentation of the variables.
+A tibble containing information on the variables in the GSS Cumulative Data File.
 }
 \keyword{datasets}

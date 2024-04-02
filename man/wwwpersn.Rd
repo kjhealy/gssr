@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 wwwpersn
 }
 \details{
-Question 788a. Have you ever first come into contact with someone on the Internet�through a chat room, bulletin board, news group, discussion forum, or other interactive site, or through their Web page--with whom you later established a relationship outside the Internet?
+Question 788a. Have you ever first come into contact with someone on the Internet~through a chat room, bulletin board, news group, discussion forum, or other interactive site, or through their Web page--with whom you later established a relationship outside the Internet?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 wwwart
 }
 \details{
-Question 786a. Do you ever use the Web to learn about, view, or discuss topics related to the visual arts�painting, sculpture, or so on?
+Question 786a. Do you ever use the Web to learn about, view, or discuss topics related to the visual arts~painting, sculpture, or so on?
 }
 \section{Overview}{
 

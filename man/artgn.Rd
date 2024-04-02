@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 artgn
 }
 \details{
-Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: j. Obtained information about an exhibit or other event at an art museum or art gallery?
+Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002~have you: j. Obtained information about an exhibit or other event at an art museum or art gallery?
 }
 \section{Overview}{
 

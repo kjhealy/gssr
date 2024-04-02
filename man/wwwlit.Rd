@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 wwwlit
 }
 \details{
-Question 787a. Do you ever use the Web to learn about, read, or discuss topics related to literature�novels, poetry, or plays?
+Question 787a. Do you ever use the Web to learn about, read, or discuss topics related to literature~novels, poetry, or plays?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 bettrlfe
 }
 \details{
-Question I�m going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. C. Science and technology are making our lives, healthier, easier, and more comfortable.
+Question I'm going to read to you some statements like those you might find in a newspaper or magazine article. For each statement, please tell me if you strongly agree, agree, disagree, or strongly disagree. C. Science and technology are making our lives, healthier, easier, and more comfortable.
 }
 \section{Overview}{
 

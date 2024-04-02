@@ -600,7 +600,7 @@ Question 1562a. Not including blood donations, in what month and year was your l
 \item \code{999898} don't know year & month
 \item \code{999899} don't know year & no answer month
 \item \code{999910} oct, no answer year
-\item \code{999998} no answer year & don�t know month
+\item \code{999998} no answer year & don't know month
 \item \code{999999} no answer year & month
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap

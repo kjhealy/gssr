@@ -17,7 +17,7 @@ Question Generally speaking, do you think that most people would try to take adv
 For further details see the \href{https://gss.norc.org/get-documentation}{official GSS documentation}.
 
 Counts by year:\tabular{lllllllllll}{
-   year \tab iap \tab 2 \tab 3 \tab 4 \tab 6 can�t choose \tab don't know \tab most people would try to be fair \tab most people would try to take advantage \tab no answer \tab Total \cr
+   year \tab iap \tab 2 \tab 3 \tab 4 \tab 6 can't choose \tab don't know \tab most people would try to be fair \tab most people would try to take advantage \tab no answer \tab Total \cr
    1972 \tab 1613 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1613 \cr
    1973 \tab 1504 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1504 \cr
    1974 \tab 1484 \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab - \tab 1484 \cr
@@ -61,7 +61,7 @@ Counts by year:\tabular{lllllllllll}{
 \itemize{
 \item \code{1} most people would try to take advantage
 \item \code{5} most people would try to be fair
-\item \code{6} 6 can�t choose
+\item \code{6} 6 can't choose
 \item \code{NA(d)} don't know
 \item \code{NA(i)} iap
 \item \code{NA(j)} I don't have a job

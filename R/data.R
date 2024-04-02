@@ -118,11 +118,9 @@ NULL
 
 #' Codebook for the GSS Cumulative Data File 1972-2022
 #'
-#' A tibble containing information on the variables in the GSS
-#' Cumulative Data File. See http://gss.norc.org/Get-Documentation for full
-#' documentation of the variables.
+#' A tibble containing information on the variables in the GSS Cumulative Data File.
 #'
-#' @format A tibble with `r gssr:::fmt_nr(data(gss_doc))` rows and `r gssr:::fmt_nc(data(gss_doc))` columns.
+#' @format A tibble.
 #' \describe{
 #' \item{`id`}{The short name of the variable. A character vector.}
 #' \item{`description`}{Brief description of the variable. A
@@ -146,17 +144,15 @@ NULL
 
 #' Data Dictionary for the GSS Cumulative Data File 1972-2022
 #'
-#' A tibble containing information on the variables in the GSS
-#' Cumulative Data File.
-#' See http://gss.norc.org/Get-Documentation for full documentation of the variables.
+#' A tibble containing information on the variables in the GSS Cumulative Data File.
+#' @format A tibble.
 #'
-#' @format A tibble with `r gssr:::fmt_nr(data(gss_dict))` rows and `r gssr:::fmt_nc(data(gss_dict))` columns.
 #' \describe{
 #' \item{`pos`}{Column-index position of the variable in `gss_all`. (Integer.)}
 #' \item{`variable`}{The name of the variable. (Character.)}
 #' \item{`label`}{The variable's label. 'r' means 'Respondent'. (Character.)}
 #' \item{`missing`}{Number of missing observations. (Integer.)}
-#' \item{`var_doc_label`}{The variable's label, per the Berkeley SDA web pages. Should correspond directly to `label`. (Character)}∑
+#' \item{`var_doc_label`}{The variable's label, per the Berkeley SDA web pages. Should correspond directly to `label`. (Character)}
 #' \item{`value_labels`}{The value labels and associated numeric values for the variable. Numeric values are given in square brackets. (Character.)}
 #' \item{`var_text`}{The text of the question asked of the respondent. (Character.)}
 #' \item{`years`}{Which years the question was asked. This information is stored as a tibble in a list column. The tibble contains a column for the `year` and a TRUE/FALSE coumn for `present`. (List.)}
@@ -178,9 +174,7 @@ NULL
 
 #' Codebook for the GSS Three Wave Panel
 #'
-#' A tibble containing information on the variable in the GSS
-#' Three Wave Panel Data File, in wide format. See http://gss.norc.org/Get-Documentation for full
-#' documentation of the variables.
+#' A tibble containing information on the variable in the GSS Three Wave Panel Data File, in wide format.
 #'
 #' @format A tibble with 628 rows and nine columns.
 #' \describe{

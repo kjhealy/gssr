@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 compwork
 }
 \details{
-Question 802. Do you use a computer at work�that is, at a workplace away from your home?
+Question 802. Do you use a computer at work~that is, at a workplace away from your home?
 }
 \section{Overview}{
 

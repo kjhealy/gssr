@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 hseth
 }
 \details{
-Question 766b. Besides Whites, what was the largest racial group in your high school/the last school you attended� Blacks/African Americans, Hispanics, Asians, or American Indians?
+Question 766b. Besides Whites, what was the largest racial group in your high school/the last school you attended~ Blacks/African Americans, Hispanics, Asians, or American Indians?
 }
 \section{Overview}{
 

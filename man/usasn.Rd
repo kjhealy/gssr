@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 usasn
 }
 \details{
-Question 751. Just your best guess�what percentage of the United States population is each group? e. Asian Americans
+Question 751. Just your best guess~what percentage of the United States population is each group? e. Asian Americans
 }
 \section{Overview}{
 

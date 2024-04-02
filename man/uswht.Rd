@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 uswht
 }
 \details{
-Question 751. Just your best guess�what percentage of the United States population is each group? a. Whites
+Question 751. Just your best guess~what percentage of the United States population is each group? a. Whites
 }
 \section{Overview}{
 

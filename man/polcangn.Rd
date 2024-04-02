@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 polcangn
 }
 \details{
-Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: k. Looked up the views of a political candidate for office?
+Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002~have you: k. Looked up the views of a political candidate for office?
 }
 \section{Overview}{
 

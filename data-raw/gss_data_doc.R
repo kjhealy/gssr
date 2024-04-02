@@ -120,7 +120,7 @@
 #' \item{`variable`}{The name of the variable. (Character.)}
 #' \item{`label`}{The variable's label. 'r' means 'Respondent'. (Character.)}
 #' \item{`missing`}{Number of missing observations. (Integer.)}
-#' \item{`var_doc_label`}{The variable's label, per the Berkeley SDA web pages. Should correspond directly to `label`. (Character)}∑
+#' \item{`var_doc_label`}{The variable's label, per the Berkeley SDA web pages. Should correspond directly to `label`. (Character)}
 #' \item{`value_labels`}{The value labels and associated numeric values for the variable. Numeric values are given in square brackets. (Character.)}
 #' \item{`var_text`}{The text of the question asked of the respondent. (Character.)}
 #' \item{`years`}{Which years the question was asked. This information is stored as a tibble in a list column. The tibble contains a column for the `year` and a TRUE/FALSE coumn for `present`. (List.)}

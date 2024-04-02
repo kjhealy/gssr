@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 hlthinfo
 }
 \details{
-Question 792. In the past year, that is, between (INSERT CURRENT MONTH) 1999/2001/2003 and (INSERT CURRENT MONTH) 2000/02�have you looked for information about a health concern or medical problem?
+Question 792. In the past year, that is, between (INSERT CURRENT MONTH) 1999/2001/2003 and (INSERT CURRENT MONTH) 2000/02~have you looked for information about a health concern or medical problem?
 }
 \section{Overview}{
 

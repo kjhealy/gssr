@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 newjobgn
 }
 \details{
-Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: f. Looked for a new job or explored career opportunities?
+Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002~have you: f. Looked for a new job or explored career opportunities?
 }
 \section{Overview}{
 

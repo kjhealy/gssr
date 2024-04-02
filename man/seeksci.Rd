@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 seeksci
 }
 \details{
-Question 1034. If you wanted to learn about scientific issues such as global warming or biotechnology, where would you get information (� newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues, or some other source)?
+Question 1034. If you wanted to learn about scientific issues such as global warming or biotechnology, where would you get information (' newspapers, magazines, the Internet, books or other printed materials, TV, radio, government agencies, family, friends, colleagues, or some other source)?
 }
 \section{Overview}{
 

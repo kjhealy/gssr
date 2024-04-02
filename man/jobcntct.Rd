@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 jobcntct
 }
 \details{
-Question Please tell me how many times you tried to find such information from... e. Business or work contacts outside your workplace�that is outside where you were then working?
+Question Please tell me how many times you tried to find such information from... e. Business or work contacts outside your workplace~that is outside where you were then working?
 }
 \section{Overview}{
 

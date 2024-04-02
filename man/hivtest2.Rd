@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 hivtest2
 }
 \details{
-Question 1562b. Where did you have your last HIV test � at a private doctor or HMO office, at a counselling and testing site, at a hospital, at a clinic, in a jail or prison, at home, or somewhere else?
+Question 1562b. Where did you have your last HIV test ~ at a private doctor or HMO office, at a counselling and testing site, at a hospital, at a clinic, in a jail or prison, at home, or somewhere else?
 }
 \section{Overview}{
 

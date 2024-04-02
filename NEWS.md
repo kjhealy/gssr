@@ -1,3 +1,7 @@
+# gssr 0.4.4
+
+* Fix Rd files that were preventing the PDF version of the docs from building.
+
 # gssr 0.4.3
 
 * Further small fixes; bump min R version to 4.0.0

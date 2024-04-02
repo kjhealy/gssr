@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 travelgn
 }
 \details{
-Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: c. Made an airplane or other travel reservations?
+Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002~have you: c. Made an airplane or other travel reservations?
 }
 \section{Overview}{
 

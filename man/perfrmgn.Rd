@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 perfrmgn
 }
 \details{
-Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: i. Obtained information about a concert, play, or other performing-arts event?
+Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002~have you: i. Obtained information about a concert, play, or other performing-arts event?
 }
 \section{Overview}{
 

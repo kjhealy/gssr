@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 buyinfgn
 }
 \details{
-Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002�have you: a. Looked for information about a product you might want to buy?
+Question 796. In the last twelve months, that is, from (INSERT CURRENT MONTH) 1999/2001 through (INSERT CURRENT MONTH) 2000/2002~have you: a. Looked for information about a product you might want to buy?
 }
 \section{Overview}{
 

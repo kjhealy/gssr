@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 comjews
 }
 \details{
-Question 755. Just your best guess�what percentage of the people who live in your local community is each group? c. Jews
+Question 755. Just your best guess~what percentage of the people who live in your local community is each group? c. Jews
 }
 \section{Overview}{
 

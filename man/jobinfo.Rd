@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 jobinfo
 }
 \details{
-Question 810a. In the past year, that is, between (INSERT CURRENT MONTH) 2001/2003 and (INSERT CURRENT MONTH) 2002/2004�have you searched for information about a new job or explored career opportunities?
+Question 810a. In the past year, that is, between (INSERT CURRENT MONTH) 2001/2003 and (INSERT CURRENT MONTH) 2002/2004~have you searched for information about a new job or explored career opportunities?
 }
 \section{Overview}{
 

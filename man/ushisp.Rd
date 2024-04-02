@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 ushisp
 }
 \details{
-Question 751. Just your best guess�what percentage of the United States population is each group? d. Hispanics
+Question 751. Just your best guess~what percentage of the United States population is each group? d. Hispanics
 }
 \section{Overview}{
 

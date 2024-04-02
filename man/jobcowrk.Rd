@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 jobcowrk
 }
 \details{
-Question Please tell me how many times you tried to find such information from... d. A fellow worker or human resources staff member at your workplace�that is, where you were working when you were searching?
+Question Please tell me how many times you tried to find such information from... d. A fellow worker or human resources staff member at your workplace~that is, where you were working when you were searching?
 }
 \section{Overview}{
 
