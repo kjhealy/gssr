@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhmoney
 }
 \details{
-Question 1139. How able is \link{NAME} to make decisions about managing (his/her) own money?
+Question 1139. How able is (NAME) to make decisions about managing (his/her) own money?
 }
 \section{Overview}{
 

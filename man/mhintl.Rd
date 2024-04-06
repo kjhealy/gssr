@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhintl
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. f. People like \link{NAME} are just as intelligent as anyone else.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. f. People like (NAME) are just as intelligent as anyone else.
 }
 \section{Overview}{
 

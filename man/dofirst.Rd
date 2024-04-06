@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 dofirst
 }
 \details{
-Question Here are the things you said \link{John/Juan/Mary/Maria} should do? What is the first thing s/he should do?
+Question Here are the things you said (John/Juan/Mary/Maria) should do? What is the first thing s/he should do?
 }
 \section{Overview}{
 

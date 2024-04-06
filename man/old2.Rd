@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 old2
 }
 \details{
-Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. c. How old was \link{PERSON} on his/her last birthday?
+Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. c. How old was (PERSON) on his/her last birthday?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 volactyr
 }
 \details{
-Question Since \link{CURRENT MONTH} 1st of last year, have you done any volunteer activities through or for an organization?
+Question Since (CURRENT MONTH) 1st of last year, have you done any volunteer activities through or for an organization?
 }
 \section{Overview}{
 

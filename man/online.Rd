@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 online
 }
 \details{
-Question 789. When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) \link{PROMPT: Anything else?} a. Look in the on-line "help" provided as part of the software?
+Question 789. When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) (PROMPT: Anything else?) a. Look in the on-line "help" provided as part of the software?
 }
 \section{Overview}{
 

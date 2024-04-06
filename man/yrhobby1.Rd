@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrhobby1
 }
 \details{
-Question 1026i. How many years have you been a member of \link{HOBBY OR GARDEN CLUB}?
+Question 1026i. How many years have you been a member of (HOBBY OR GARDEN CLUB)?
 }
 \section{Overview}{
 

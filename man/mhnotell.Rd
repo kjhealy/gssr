@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhnotell
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. q. \link{NAME} should feel afraid to tell others about (his/her) situation.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. q. (NAME) should feel afraid to tell others about (his/her) situation.
 }
 \section{Overview}{
 

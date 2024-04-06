@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 wkndact
 }
 \details{
-Question When you and your \link{spouse/partner} make decisions about choosing shared weekend activities, who has the final say?
+Question When you and your (spouse/partner) make decisions about choosing shared weekend activities, who has the final say?
 }
 \section{Overview}{
 

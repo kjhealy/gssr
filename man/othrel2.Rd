@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 othrel2
 }
 \details{
-Question 1617. \link{Besides the regular, weekly worship service}, what type of religious events or meetings did you attend during the last seven days?
+Question 1617. (Besides the regular, weekly worship service), what type of religious events or meetings did you attend during the last seven days?
 }
 \section{Overview}{
 

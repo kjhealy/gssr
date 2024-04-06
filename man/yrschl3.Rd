@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrschl3
 }
 \details{
-Question 1026h. How many years have you been a member of \link{SCHOOL SERVICE GROUP}?
+Question 1026h. How many years have you been a member of (SCHOOL SERVICE GROUP)?
 }
 \section{Overview}{
 

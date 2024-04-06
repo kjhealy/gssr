@@ -1,3 +1,7 @@
+# gssr 0.4.5
+
+* Fix vars with text like `[NAME]` and `[PROMPT]` so they do not try to autolink in Rd build process.
+
 # gssr 0.4.4
 
 * Fix Rd files that were preventing the PDF version of the docs from building.

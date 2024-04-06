@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 kdalive9
 }
 \details{
-Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. e. Is \link{CHILD} live?
+Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. e. Is (CHILD) live?
 }
 \section{Overview}{
 

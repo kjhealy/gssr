@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhhired
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. p. If a person like \link{NAME} is qualified for a job, he or she should be hired like any other person.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. p. If a person like (NAME) is qualified for a job, he or she should be hired like any other person.
 }
 \section{Overview}{
 

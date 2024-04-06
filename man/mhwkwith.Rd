@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhwkwith
 }
 \details{
-Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... e. To work closely with \link{NAME} on a job?
+Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... e. To work closely with (NAME) on a job?
 }
 \section{Overview}{
 

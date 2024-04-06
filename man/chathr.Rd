@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 chathr
 }
 \details{
-Question 770. Earlier you mentioned that you spend \link{number in answer to Q.769} (minutes/hours) using the World Wide Web in a typical week. About how many of those do you spend using chat rooms, news groups, bulletin boards, discussion forums, and other forms of on-line interaction with other Net users~not just browsing on your own? a. Hours per week?
+Question 770. Earlier you mentioned that you spend (number in answer to Q.769) (minutes/hours) using the World Wide Web in a typical week. About how many of those do you spend using chat rooms, news groups, bulletin boards, discussion forums, and other forms of on-line interaction with other Net users~not just browsing on your own? a. Hours per week?
 }
 \section{Overview}{
 

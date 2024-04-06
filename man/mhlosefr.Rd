@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhlosefr
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. b. If \link{NAME} let people know (he/she) is in treatment, (he/she) would lose some of (his/her) friends.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. b. If (NAME) let people know (he/she) is in treatment, (he/she) would lose some of (his/her) friends.
 }
 \section{Overview}{
 

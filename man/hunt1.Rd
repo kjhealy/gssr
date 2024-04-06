@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 hunt1
 }
 \details{
-Question B. Do you (or does your \link{husband/wife/partner}) go hunting?
+Question B. Do you (or does your (husband/wife/partner)) go hunting?
 }
 \section{Overview}{
 

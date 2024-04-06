@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrserv6
 }
 \details{
-Question 1026b. How many years have you been a member of \link{SERVICE CLUB}?
+Question 1026b. How many years have you been a member of (SERVICE CLUB)?
 }
 \section{Overview}{
 

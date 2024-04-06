@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 frndrac2
 }
 \details{
-Question 385. Is \link{NAME} Asian, Black, Hispanic, White, or something else?
+Question 385. Is (NAME) Asian, Black, Hispanic, White, or something else?
 }
 \section{Overview}{
 

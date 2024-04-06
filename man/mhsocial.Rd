@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhsocial
 }
 \details{
-Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... b. To spend time socializing with \link{NAME}?
+Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... b. To spend time socializing with (NAME)?
 }
 \section{Overview}{
 

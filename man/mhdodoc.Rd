@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdodoc
 }
 \details{
-Question 1133. What do you think \link{NAME} should do about this situation? d. Go to a doctor
+Question 1133. What do you think (NAME) should do about this situation? d. Go to a doctor
 }
 \section{Overview}{
 

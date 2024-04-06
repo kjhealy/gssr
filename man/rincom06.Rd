@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 rincom06
 }
 \details{
-Question In which of these groups did your earnings from \link{OCCUPATION} from all sources for \link{last year} fall? That is, before taxes or other deductions.
+Question In which of these groups did your earnings from (OCCUPATION) from all sources for (last year) fall? That is, before taxes or other deductions.
 }
 \section{Overview}{
 

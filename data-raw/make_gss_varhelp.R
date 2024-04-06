@@ -30,6 +30,16 @@ fix_pct <- function(x){
 }
 
 
+## Need to replace `[` and `]` because
+## in cases like [NAME] and [PROMPT] etc they will trigger autolinking
+## in the Rd build process, which will cause Warnings in R CMD check
+fix_sq_brace <- function(x){
+  x |>
+    stringr::str_replace_all("\\[", "(") |>
+    stringr::str_replace_all("\\]", ")")
+}
+
+
 availableCores()
 n_cores <- availableCores()
 
@@ -59,7 +69,7 @@ make_rd_skel <- function(variable, label, var_text) {
     paste("#' "),
     paste("#' ", variable),
     paste("#' "),
-    paste("#' Question", var_text),
+    paste("#' Question", fix_sq_brace(var_text)),
     paste("#' ")
   ), collapse = "\n")
 }
@@ -122,7 +132,7 @@ docstring <- gss_dict |>
          rd4 = future_map_chr(variable, make_rd_varname),
          rd5 = future_pmap_chr(list(rd1, rd3, rd2, endstring, rd4, collapse="\n"), paste0)) |>
   pull(rd5) |>
-  fix_pct() ## rd fixes
+  fix_pct() ## rd char fixes
 
 ## Chunk it into a list we can walk
 ## We pick a small ceiling number here (so, more files)

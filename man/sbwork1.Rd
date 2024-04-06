@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sbwork1
 }
 \details{
-Question 511. Is \link{NAME} currently working at a paid job?
+Question 511. Is (NAME) currently working at a paid job?
 }
 \section{Overview}{
 

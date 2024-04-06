@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrlit4
 }
 \details{
-Question 1026m. How many years have you been a member of \link{LITERARY, ART, DISCUSSION, OR STUDY GROUPS}?
+Question 1026m. How many years have you been a member of (LITERARY, ART, DISCUSSION, OR STUDY GROUPS)?
 }
 \section{Overview}{
 

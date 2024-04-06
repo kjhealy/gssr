@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 fishb4
 }
 \details{
-Question What kind of pet\link{s} did your family have? E.Fish
+Question What kind of pet(s) did your family have? E.Fish
 }
 \section{Overview}{
 

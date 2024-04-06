@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 volacty2
 }
 \details{
-Question Sometimes people don't think of activities they do infrequently or activities they do for children's schools or youth organizations as volunteer activities. Since \link{CURRENT MONTH} 1st of last year, have you done any of these types of volunteer activities?
+Question Sometimes people don't think of activities they do infrequently or activities they do for children's schools or youth organizations as volunteer activities. Since (CURRENT MONTH) 1st of last year, have you done any of these types of volunteer activities?
 }
 \section{Overview}{
 

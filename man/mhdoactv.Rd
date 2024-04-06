@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdoactv
 }
 \details{
-Question 1133. What do you think \link{NAME} should do about this situation? o. Get involved in other activities
+Question 1133. What do you think (NAME) should do about this situation? o. Get involved in other activities
 }
 \section{Overview}{
 

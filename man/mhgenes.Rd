@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhgenes
 }
 \details{
-Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... e. A genetic or inherited problem
+Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)'s situation is caused by... e. A genetic or inherited problem
 }
 \section{Overview}{
 

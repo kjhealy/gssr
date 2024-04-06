@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sbyrbrn9
 }
 \details{
-Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. c. In what year was \link{NAME} born?
+Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. c. In what year was (NAME) born?
 }
 \section{Overview}{
 

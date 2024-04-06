@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhsecret
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. r. Members of \link{NAME}'s family would be better off if \link{NAME}'s situation was kept secret.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. r. Members of (NAME)'s family would be better off if (NAME)'s situation was kept secret.
 }
 \section{Overview}{
 

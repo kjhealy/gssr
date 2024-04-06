@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yryouth3
 }
 \details{
-Question 1026g. How many years have you been a member of \link{YOUTH GROUP}?
+Question 1026g. How many years have you been a member of (YOUTH GROUP)?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhfeelem
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. m. \link{NAME} should feel embarrassed about (his/her) situation.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. m. (NAME) should feel embarrassed about (his/her) situation.
 }
 \section{Overview}{
 

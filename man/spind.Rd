@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 spind
 }
 \details{
-Question 6c. What kind of place (does/did) \link{SPOUSE} work for? d. What (do/did) they (make/do)?
+Question 6c. What kind of place (does/did) (SPOUSE) work for? d. What (do/did) they (make/do)?
 }
 \section{Overview}{
 

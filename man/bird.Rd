@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 bird
 }
 \details{
-Question What kind of pet\link{s} does your family have? D. Bird
+Question What kind of pet(s) does your family have? D. Bird
 }
 \section{Overview}{
 

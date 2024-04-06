@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhnotch
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. t. People like \link{NAME} should not be allowed to teach children.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. t. People like (NAME) should not be allowed to teach children.
 }
 \section{Overview}{
 

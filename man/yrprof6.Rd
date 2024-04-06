@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrprof6
 }
 \details{
-Question 1026n. How many years have you been a member of \link{PROFESSIONAL OR ACADEMIC SOCIETY}?
+Question 1026n. How many years have you been a member of (PROFESSIONAL OR ACADEMIC SOCIETY)?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhhlppsy
 }
 \details{
-Question 1141. Now I'm going to read you a list of things that \link{NAME} might do to get help with (her/his) situation. For each statement please tell me using a scale from 1 to 10, where 1 is not at all important and 10 is very important, how important you think each would be for \link{NAME} to use in order to get help with (his/her) situation. e. Go to a psychiatrist for help
+Question 1141. Now I'm going to read you a list of things that (NAME) might do to get help with (her/his) situation. For each statement please tell me using a scale from 1 to 10, where 1 is not at all important and 10 is very important, how important you think each would be for (NAME) to use in order to get help with (his/her) situation. e. Go to a psychiatrist for help
 }
 \section{Overview}{
 

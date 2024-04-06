@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 frndcon2
 }
 \details{
-Question 380. Many people have some good friends they feel close to. Who are your good friends (other than your spouse)? Is \link{NAME} a member of your congregation?
+Question 380. Many people have some good friends they feel close to. Who are your good friends (other than your spouse)? Is (NAME) a member of your congregation?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhaccptd
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. o. A person like \link{NAME} has little or no hope of ever being accepted as a member of (his/her) community.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. o. A person like (NAME) has little or no hope of ever being accepted as a member of (his/her) community.
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrinfrm3
 }
 \details{
-Question 1026q. How many years have you been a member of \link{INFORMAL GROUP}?
+Question 1026q. How many years have you been a member of (INFORMAL GROUP)?
 }
 \section{Overview}{
 

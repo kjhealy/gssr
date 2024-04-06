@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 askwork
 }
 \details{
-Question 789. When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) \link{PROMPT: Anything else?} d. Ask someone at your workplace or school for help?
+Question 789. When you want to learn how to do something new with your software and you need advice on how to do it, which of the following do you do? (Name as many as are correct.) (PROMPT: Anything else?) d. Ask someone at your workplace or school for help?
 }
 \section{Overview}{
 

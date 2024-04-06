@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrsport3
 }
 \details{
-Question 1026f. How many years have you been a member of \link{SPORTS GROUP}?
+Question 1026f. How many years have you been a member of (SPORTS GROUP)?
 }
 \section{Overview}{
 

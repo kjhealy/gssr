@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhimptrt
 }
 \details{
-Question 1137. How likely is it that \link{NAME}'s situation will improve with treatment? Is it very likely, somewhat likely, not very likely, or not at all likely?
+Question 1137. How likely is it that (NAME)'s situation will improve with treatment? Is it very likely, somewhat likely, not very likely, or not at all likely?
 }
 \section{Overview}{
 

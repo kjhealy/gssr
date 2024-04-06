@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrunion3
 }
 \details{
-Question 1026e. How many years have you been a member of \link{LABOR UNION}?
+Question 1026e. How many years have you been a member of (LABOR UNION)?
 }
 \section{Overview}{
 

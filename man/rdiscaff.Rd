@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 rdiscaff
 }
 \details{
-Question 544a. What do you think the chances are these days that you or anyone in yoru family won't get a job or promotion while an exually or less qualified \link{white/(black/African-American)} employee recieves one instead?
+Question 544a. What do you think the chances are these days that you or anyone in yoru family won't get a job or promotion while an exually or less qualified (white/(black/African-American)) employee recieves one instead?
 }
 \section{Overview}{
 

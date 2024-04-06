@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhhrdtlk
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. h. People like \link{NAME} are hard to talk to.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. h. People like (NAME) are hard to talk to.
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 spden
 }
 \details{
-Question 116. What is your \link{SPOUSE}'s religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+Question 116. What is your (SPOUSE)'s religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 }
 \section{Overview}{
 

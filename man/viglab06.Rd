@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 viglab06
 }
 \details{
-Question 1095. In your opinion, how likely is it that \link{NAME} is experiencing... IF VIGVER06 = 1, DISPLAY Alcohol dependence? IF VIGVER06 = 2, DISPLAY A major depression? IF VIGVER06 = 3, DISPLAY Schizophrenia? IF VIGVER06 = 4, Skip to Q.1096
+Question 1095. In your opinion, how likely is it that (NAME) is experiencing... IF VIGVER06 = 1, DISPLAY Alcohol dependence? IF VIGVER06 = 2, DISPLAY A major depression? IF VIGVER06 = 3, DISPLAY Schizophrenia? IF VIGVER06 = 4, Skip to Q.1096
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 abstate1
 }
 \details{
-Question Here in \link{CURRENT STATE}, how easy or hard do you think it is for a woman to get an abortion?
+Question Here in (CURRENT STATE), how easy or hard do you think it is for a woman to get an abortion?
 }
 \section{Overview}{
 

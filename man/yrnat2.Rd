@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrnat2
 }
 \details{
-Question 1026k. How many years have you been a member of \link{NATIONALITY GROUP}?
+Question 1026k. How many years have you been a member of (NATIONALITY GROUP)?
 }
 \section{Overview}{
 

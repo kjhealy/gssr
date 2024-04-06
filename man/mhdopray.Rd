@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdopray
 }
 \details{
-Question 1133. What do you think \link{NAME} should do about this situation? k. Pray
+Question 1133. What do you think (NAME) should do about this situation? k. Pray
 }
 \section{Overview}{
 

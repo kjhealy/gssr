@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 relate13
 }
 \details{
-Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. a. What is \link{PERSON}'s relationship to the head of household?
+Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. a. What is (PERSON)'s relationship to the head of household?
 }
 \section{Overview}{
 

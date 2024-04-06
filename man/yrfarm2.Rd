@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrfarm2
 }
 \details{
-Question 1026l. How many years have you been a member of \link{FARM ORGANIZATION}?
+Question 1026l. How many years have you been a member of (FARM ORGANIZATION)?
 }
 \section{Overview}{
 

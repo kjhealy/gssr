@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 smammalb4
 }
 \details{
-Question What kind of pet\link{s} does your family have? C. A small mammal (rabbit, gerbil, hamster)
+Question What kind of pet(s) does your family have? C. A small mammal (rabbit, gerbil, hamster)
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrgreek2
 }
 \details{
-Question 1026j. How many years have you been a member of \link{SCHOOL FRATERNITY OR SORORITY}?
+Question 1026j. How many years have you been a member of (SCHOOL FRATERNITY OR SORORITY)?
 }
 \section{Overview}{
 

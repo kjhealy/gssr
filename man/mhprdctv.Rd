@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhprdctv
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. l. People like \link{NAME} who have jobs are just as productive as most other workers.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. l. People like (NAME) who have jobs are just as productive as most other workers.
 }
 \section{Overview}{
 

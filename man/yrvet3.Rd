@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrvet3
 }
 \details{
-Question 1026c. How many years have you been a member of \link{VETERANS' GROUP}?
+Question 1026c. How many years have you been a member of (VETERANS' GROUP)?
 }
 \section{Overview}{
 

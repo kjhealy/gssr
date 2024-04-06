@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 switage2
 }
 \details{
-Question 358c1. How old were you when you switched to \link{RELIGION}?
+Question 358c1. How old were you when you switched to (RELIGION)?
 }
 \section{Overview}{
 

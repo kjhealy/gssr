@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhcreatv
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. j. People like \link{NAME} are more creative than most other people.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. j. People like (NAME) are more creative than most other people.
 }
 \section{Overview}{
 

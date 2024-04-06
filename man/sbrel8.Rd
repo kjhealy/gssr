@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sbrel8
 }
 \details{
-Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. d. Is \link{NAME} your full, adopted, step, or half (sister/brother)?
+Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. d. Is (NAME) your full, adopted, step, or half (sister/brother)?
 }
 \section{Overview}{
 

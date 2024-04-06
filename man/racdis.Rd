@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 racdis
 }
 \details{
-Question 129b. How many blocks (or miles) away do they live (the Negro/black/African American] families who live closest to you) live?
+Question 129b. How many blocks (or miles) away do they live (the Negro/black/African American) families who live closest to you) live?
 }
 \section{Overview}{
 

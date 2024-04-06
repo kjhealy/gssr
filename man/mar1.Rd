@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mar1
 }
 \details{
-Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. d. IF 13 YEARS OR OLDER: Is \link{PERSON} now married, widowed, divorced, separated, or has he/she never been married?
+Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. d. IF 13 YEARS OR OLDER: Is (PERSON) now married, widowed, divorced, separated, or has he/she never been married?
 }
 \section{Overview}{
 

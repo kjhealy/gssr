@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 gender6
 }
 \details{
-Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. b. Code sex \link{ASK IF NOT OBVIOUS}
+Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. b. Code sex (ASK IF NOT OBVIOUS)
 }
 \section{Overview}{
 

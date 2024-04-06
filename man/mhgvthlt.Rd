@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhgvthlt
 }
 \details{
-Question 1142. The next few questions deal with the government's responsibility to help people like \link{NAME}. For each statement please tell me if you think the government definitely should, probably should, probably should not, or definitely should not be responsible for helping people with situations like \link{NAME}. b. Provide health care for \link{NAME}.
+Question 1142. The next few questions deal with the government's responsibility to help people like (NAME). For each statement please tell me if you think the government definitely should, probably should, probably should not, or definitely should not be responsible for helping people with situations like (NAME). b. Provide health care for (NAME).
 }
 \section{Overview}{
 

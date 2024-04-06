@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 kdwork1
 }
 \details{
-Question 504. I have some questions about \link{SELECTED CHILD}. First his/her work. Is s/he currently working at a paid job?
+Question 504. I have some questions about (SELECTED CHILD). First his/her work. Is s/he currently working at a paid job?
 }
 \section{Overview}{
 

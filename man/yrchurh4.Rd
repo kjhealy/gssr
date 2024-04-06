@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrchurh4
 }
 \details{
-Question 1026o. How many years have you been a member of \link{CHURCH AFFILIATED GROUP}?
+Question 1026o. How many years have you been a member of (CHURCH AFFILIATED GROUP)?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrpolit2
 }
 \details{
-Question 1026d. How many years have you been a member of \link{POLITICAL CLUB}?
+Question 1026d. How many years have you been a member of (POLITICAL CLUB)?
 }
 \section{Overview}{
 

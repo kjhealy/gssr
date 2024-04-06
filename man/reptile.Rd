@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 reptile
 }
 \details{
-Question What kind of pet\link{s} does your family have? F Reptile
+Question What kind of pet(s) does your family have? F Reptile
 }
 \section{Overview}{
 

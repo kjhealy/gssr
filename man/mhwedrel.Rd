@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhwedrel
 }
 \details{
-Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... f. To have \link{NAME} marry someone related to you?
+Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... f. To have (NAME) marry someone related to you?
 }
 \section{Overview}{
 

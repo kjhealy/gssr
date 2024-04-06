@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdecslf
 }
 \details{
-Question 1138. How able is \link{NAME} to decide whether or not (he/she) should receive treatment. Would you say...
+Question 1138. How able is (NAME) to decide whether or not (he/she) should receive treatment. Would you say...
 }
 \section{Overview}{
 

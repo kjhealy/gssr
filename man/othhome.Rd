@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 othhome
 }
 \details{
-Question 746a. Do you speak \link{LANGUAGE MENTIONED IN OTHLANG1} at home?
+Question 746a. Do you speak (LANGUAGE MENTIONED IN OTHLANG1) at home?
 }
 \section{Overview}{
 

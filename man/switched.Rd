@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 switched
 }
 \details{
-Question 358. I'd like to go over your religious preferences since you were rasied as a \link{RELIGION}. Have you ever had another religious preference besides being \link{RELIGION}?
+Question 358. I'd like to go over your religious preferences since you were rasied as a (RELIGION). Have you ever had another religious preference besides being (RELIGION)?
 }
 \section{Overview}{
 

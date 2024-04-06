@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 pigb4
 }
 \details{
-Question What kind of pet\link{s} did your family have? H. Pig
+Question What kind of pet(s) did your family have? H. Pig
 }
 \section{Overview}{
 

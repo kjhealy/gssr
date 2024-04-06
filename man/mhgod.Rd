@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhgod
 }
 \details{
-Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... f. God's will
+Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)'s situation is caused by... f. God's will
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 race4
 }
 \details{
-Question 317. Is \link{NAME} Asian, Black, Hispanic, White, or something else?
+Question 317. Is (NAME) Asian, Black, Hispanic, White, or something else?
 }
 \section{Overview}{
 

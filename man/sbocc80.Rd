@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sbocc80
 }
 \details{
-Question 514a. What kind of work (is/was) \link{NAME} doing? That is, what was (his/her) job called? b. What (does/did) (s/he) actually do in that job? Tell me some of what (are/were) some of (his/her) main duties?
+Question 514a. What kind of work (is/was) (NAME) doing? That is, what was (his/her) job called? b. What (does/did) (s/he) actually do in that job? Tell me some of what (are/were) some of (his/her) main duties?
 }
 \section{Values}{
 

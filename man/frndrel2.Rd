@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 frndrel2
 }
 \details{
-Question 381. What is \link{NAME}'s religous preference?
+Question 381. What is (NAME)'s religous preference?
 }
 \section{Overview}{
 

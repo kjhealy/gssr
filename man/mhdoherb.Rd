@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdoherb
 }
 \details{
-Question 1133. What do you think \link{NAME} should do about this situation? m. Take herbs
+Question 1133. What do you think (NAME) should do about this situation? m. Take herbs
 }
 \section{Overview}{
 

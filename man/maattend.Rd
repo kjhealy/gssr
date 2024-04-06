@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 maattend
 }
 \details{
-Question 106a. When you were growing up, how often did your \link{mother/MOTHER SUBSTITUTE} attend religious services?
+Question 106a. When you were growing up, how often did your (mother/MOTHER SUBSTITUTE) attend religious services?
 }
 \section{Overview}{
 

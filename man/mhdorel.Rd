@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdorel
 }
 \details{
-Question 1133. What do you think \link{NAME} should do about this situation? c. Talk to a religious leader
+Question 1133. What do you think (NAME) should do about this situation? c. Talk to a religious leader
 }
 \section{Overview}{
 

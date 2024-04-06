@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 rachaf
 }
 \details{
-Question 133b. Where half of the children are \link{whites/(negroes/blacks/African-Americans)}?
+Question 133b. Where half of the children are (whites/(negroes/blacks/African-Americans))?
 }
 \section{Overview}{
 

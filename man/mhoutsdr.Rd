@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhoutsdr
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. a. Getting treatment would make \link{NAME} an outsider in (his/her) community.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. a. Getting treatment would make (NAME) an outsider in (his/her) community.
 }
 \section{Overview}{
 

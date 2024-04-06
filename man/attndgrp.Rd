@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 attndgrp
 }
 \details{
-Question 334. Here is a list of things that members of organizations may participate in. Could you tell me whether or not you have ever done any of these things as a member of \link{GROUP IN Q.328 OR Q.332}? d. Attended conferences or workshops
+Question 334. Here is a list of things that members of organizations may participate in. Could you tell me whether or not you have ever done any of these things as a member of (GROUP IN Q.328 OR Q.332)? d. Attended conferences or workshops
 }
 \section{Overview}{
 

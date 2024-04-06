@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 spattend
 }
 \details{
-Question 106c. How often does your \link{husband/wife} attend religious services?
+Question 106c. How often does your (husband/wife) attend religious services?
 }
 \section{Overview}{
 

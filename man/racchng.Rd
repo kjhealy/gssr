@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 racchng
 }
 \details{
-Question 265. If you and your friends belonged to a social club that would not let \link{whites/(negroes/blacks)} join, would you try to change the rules so that \link{whites/(negroes/blacks)} could join?
+Question 265. If you and your friends belonged to a social club that would not let (whites/(negroes/blacks)) join, would you try to change the rules so that (whites/(negroes/blacks)) could join?
 }
 \section{Overview}{
 

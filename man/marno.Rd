@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 marno
 }
 \details{
-Question 405. What about having a close relative marry a white person rasied in the \link{OPPOSITE OF R'S REGION}? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
+Question 405. What about having a close relative marry a white person rasied in the (OPPOSITE OF R'S REGION)? Would you be in very favor of it happening, somewhat in favor, neither in favor nor opposed to it happening, somewhat opposed, or very opposed to it happening?
 }
 \section{Overview}{
 

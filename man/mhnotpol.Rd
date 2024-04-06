@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhnotpol
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. g. People like \link{NAME} should not be allowed to hold public office.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. g. People like (NAME) should not be allowed to hold public office.
 }
 \section{Overview}{
 

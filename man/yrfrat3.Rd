@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrfrat3
 }
 \details{
-Question 1026a. How many years have you been a member of \link{FRATERNAL GROUP}?
+Question 1026a. How many years have you been a member of (FRATERNAL GROUP)?
 }
 \section{Overview}{
 

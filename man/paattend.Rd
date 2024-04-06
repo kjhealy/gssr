@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 paattend
 }
 \details{
-Question 106b. When you were growing up, how often did your \link{father/FATHER SUBSTITUTE} attend religious services?
+Question 106b. When you were growing up, how often did your (father/FATHER SUBSTITUTE) attend religious services?
 }
 \section{Overview}{
 

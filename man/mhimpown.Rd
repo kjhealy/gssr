@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhimpown
 }
 \details{
-Question 1136. How likely is it that \link{NAME}'s situation will improve on its own? Is it very likely, somewhat likely, not very likely, or not at all likely?
+Question 1136. How likely is it that (NAME)'s situation will improve on its own? Is it very likely, somewhat likely, not very likely, or not at all likely?
 }
 \section{Overview}{
 

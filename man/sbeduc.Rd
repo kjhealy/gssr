@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sbeduc
 }
 \details{
-Question 509. And now I'd like to know a little more about \link{SELECTED BROTHER OR SISTER}. We are interested in finding out the ways in which brothers and sisters are the same and the ways in which they differ. What is the highest grade in elementary school or high school that (s/he) finished and got credit for?
+Question 509. And now I'd like to know a little more about (SELECTED BROTHER OR SISTER). We are interested in finding out the ways in which brothers and sisters are the same and the ways in which they differ. What is the highest grade in elementary school or high school that (s/he) finished and got credit for?
 }
 \section{Overview}{
 

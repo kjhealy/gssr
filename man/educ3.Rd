@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 educ3
 }
 \details{
-Question 321. This card (BH) lists general levels of education. As far as you know, what is \link{NAME}'s highest level of education?
+Question 321. This card (BH) lists general levels of education. As far as you know, what is (NAME)'s highest level of education?
 }
 \section{Overview}{
 

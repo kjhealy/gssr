@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 catb4
 }
 \details{
-Question What kind of pet\link{s} did your family have? B.Cat
+Question What kind of pet(s) did your family have? B.Cat
 }
 \section{Overview}{
 

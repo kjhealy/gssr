@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhkdcare
 }
 \details{
-Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... c. To have \link{NAME} care for your children or children you know?
+Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... c. To have (NAME) care for your children or children you know?
 }
 \section{Overview}{
 

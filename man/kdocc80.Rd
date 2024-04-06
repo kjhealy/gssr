@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 kdocc80
 }
 \details{
-Question 507a. What kind of work is/was \link{CHILD} doing? That is, what is/was his/her job called? b. What (does/did) (he/she) actually do in that job? Tell me what (are/were) some of (his/her) main duties?
+Question 507a. What kind of work is/was (CHILD) doing? That is, what is/was his/her job called? b. What (does/did) (he/she) actually do in that job? Tell me what (are/were) some of (his/her) main duties?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdonone
 }
 \details{
-Question 1133. What do you think \link{NAME} should do about this situation? u. Nothing
+Question 1133. What do you think (NAME) should do about this situation? u. Nothing
 }
 \section{Overview}{
 

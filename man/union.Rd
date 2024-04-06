@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 union
 }
 \details{
-Question 196. Do you (or your \link{SPOUSE}) belong to a lobor union? Who?
+Question 196. Do you (or your (SPOUSE)) belong to a lobor union? Who?
 }
 \section{Overview}{
 

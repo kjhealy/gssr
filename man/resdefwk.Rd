@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 resdefwk
 }
 \details{
-Question 307. Would you say the economy of \link{NAME METROPOLITAN AREA OR COUNTY} is very dependent on defense business, somewhat dependent, or not dependent at all on defense business?
+Question 307. Would you say the economy of (NAME METROPOLITAN AREA OR COUNTY) is very dependent on defense business, somewhat dependent, or not dependent at all on defense business?
 }
 \section{Overview}{
 

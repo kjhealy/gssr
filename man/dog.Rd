@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 dog
 }
 \details{
-Question What kind of pet\link{s} does your family have? A. Dog
+Question What kind of pet(s) does your family have? A. Dog
 }
 \section{Overview}{
 

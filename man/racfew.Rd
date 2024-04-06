@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 racfew
 }
 \details{
-Question 133a. Would you yourself have any objection to sending your children to a school wehre a few of the children are \link{whites/(negroes/blacks/African-Americans)}?
+Question 133a. Would you yourself have any objection to sending your children to a school wehre a few of the children are (whites/(negroes/blacks/African-Americans))?
 }
 \section{Overview}{
 

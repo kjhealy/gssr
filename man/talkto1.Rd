@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 talkto1
 }
 \details{
-Question 319. Thinking about how often you usually talk to \link{NAME}, on the average, do you talk to (him/her) almost every day, at least once a week, at least once a month, or less than once a month?
+Question 319. Thinking about how often you usually talk to (NAME), on the average, do you talk to (him/her) almost every day, at least once a week, at least once a month, or less than once a month?
 }
 \section{Overview}{
 

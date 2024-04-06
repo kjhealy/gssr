@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 known4
 }
 \details{
-Question 320. Have you known \link{NAME} for less than 3 years, 3 to 6 years, or more than 6 years?
+Question 320. Have you known (NAME) for less than 3 years, 3 to 6 years, or more than 6 years?
 }
 \section{Overview}{
 

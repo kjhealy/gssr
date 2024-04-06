@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhsupwrk
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. s. People like \link{NAME} should not be allowed to supervise others at work.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. s. People like (NAME) should not be allowed to supervise others at work.
 }
 \section{Overview}{
 

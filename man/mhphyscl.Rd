@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhphyscl
 }
 \details{
-Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... j. A physical illness
+Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)'s situation is caused by... j. A physical illness
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 reliten
 }
 \details{
-Question 107. Would you call yoruself a strong \link{RELIGIOUS PREFERENCE} or a not very strong \link{RELIGIOUS PREFERENCE}?
+Question 107. Would you call yoruself a strong (RELIGIOUS PREFERENCE) or a not very strong (RELIGIOUS PREFERENCE)?
 }
 \section{Overview}{
 

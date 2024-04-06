@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 wksup
 }
 \details{
-Question 192. In your \link{SPOUSE}'s job, (do you/does he/she) supervise anyone who is directly responsible to (you/him/her)?
+Question 192. In your (SPOUSE)'s job, (do you/does he/she) supervise anyone who is directly responsible to (you/him/her)?
 }
 \section{Overview}{
 

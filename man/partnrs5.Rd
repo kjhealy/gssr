@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 partnrs5
 }
 \details{
-Question 1552. Now think about the past five years--the time since February/March \link{1999}, and including the past 12 months, how many sex partners have you had in that five year period?
+Question 1552. Now think about the past five years--the time since February/March (1999), and including the past 12 months, how many sex partners have you had in that five year period?
 }
 \section{Overview}{
 

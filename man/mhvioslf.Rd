@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhvioslf
 }
 \details{
-Question 1144b. How likely is it \link{NAME} would do something violent or harmful toward (himself/herself). Is it...
+Question 1144b. How likely is it (NAME) would do something violent or harmful toward (himself/herself). Is it...
 }
 \section{Overview}{
 

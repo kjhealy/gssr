@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 kdeduc7
 }
 \details{
-Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. f. If born before 1976: What is the highest grade or year of regular school that \link{CHILD} ever completed?
+Question 503. Now I have some questions about your children. These include your biological, adopted, or step children. Let's start with the oldest and work down to the youngest. f. If born before 1976: What is the highest grade or year of regular school that (CHILD) ever completed?
 }
 \section{Overview}{
 

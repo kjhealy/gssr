@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 martype
 }
 \details{
-Question \link{CODE TYPE OF MARRIAGE}
+Question (CODE TYPE OF MARRIAGE)
 }
 \section{Overview}{
 

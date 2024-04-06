@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 talkpol
 }
 \details{
-Question 326. Thinking of the \link{people/person} we've just been discussing, would hou say you discuss social and political issues with \link{him/her/them} almost all the time, most of the time, occasionally, or almost never?
+Question 326. Thinking of the (people/person) we've just been discussing, would hou say you discuss social and political issues with (him/her/them) almost all the time, most of the time, occasionally, or almost never?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 datesch
 }
 \details{
-Question 486. Now, I have some questions about your education and work. You completed \link{HIGHEST COMPLETED LEVEL OF SCHOOL}. In what month and year did you complete that year of school?
+Question 486. Now, I have some questions about your education and work. You completed (HIGHEST COMPLETED LEVEL OF SCHOOL). In what month and year did you complete that year of school?
 }
 \section{Overview}{
 

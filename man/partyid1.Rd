@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 partyid1
 }
 \details{
-Question 324. Is \link{NAME} a Democrat, a Republican, an Independent, or what?
+Question 324. Is (NAME) a Democrat, a Republican, an Independent, or what?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 grpboth3
 }
 \details{
-Question 1028. Do you and \link{NAME} both belong to one or more of the same groups on the list?
+Question 1028. Do you and (NAME) both belong to one or more of the same groups on the list?
 }
 \section{Overview}{
 

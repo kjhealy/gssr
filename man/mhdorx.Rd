@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdorx
 }
 \details{
-Question 1133. What do you think \link{NAME} should do about this situation? i. Take prescription medication
+Question 1133. What do you think (NAME) should do about this situation? i. Take prescription medication
 }
 \section{Overview}{
 

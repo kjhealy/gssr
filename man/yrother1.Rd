@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 yrother1
 }
 \details{
-Question 1026p. How many years have you been a member of \link{OTHER GROUP}?
+Question 1026p. How many years have you been a member of (OTHER GROUP)?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 racmarel
 }
 \details{
-Question 262. How would it make you feel if a close relative of yours were planning to marry a \link{(negro/black)/white}? Would you be very uneasy, somewhat uneasy, or not uneasy at all?
+Question 262. How would it make you feel if a close relative of yours were planning to marry a ((negro/black)/white)? Would you be very uneasy, somewhat uneasy, or not uneasy at all?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 maocc80
 }
 \details{
-Question 10a. What kind of work did your \link{mother/MOTHER SUBSTITUTE} usually do while you were growing up? That is, what was her job called? b. What did she actually do?/What were some of her main duties?
+Question 10a. What kind of work did your (mother/MOTHER SUBSTITUTE) usually do while you were growing up? That is, what was her job called? b. What did she actually do?/What were some of her main duties?
 }
 \section{Values}{
 

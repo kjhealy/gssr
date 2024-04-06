@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 talkpol1
 }
 \details{
-Question 325. About how often do you talk to \link{NAME} about political matters?
+Question 325. About how often do you talk to (NAME) about political matters?
 }
 \section{Overview}{
 

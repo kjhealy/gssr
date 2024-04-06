@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 hhclean1
 }
 \details{
-Question (In your household who does the following things...? Is it always you, usually you, about equal or both together, usually your \link{spouse/partner}, always your \link{spouse/partner}, or by a third person?)
+Question (In your household who does the following things...? Is it always you, usually you, about equal or both together, usually your (spouse/partner), always your (spouse/partner), or by a third person?)
 }
 \section{Overview}{
 

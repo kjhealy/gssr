@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sbsex5
 }
 \details{
-Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is \link{NAME} male or female?
+Question 508. Now I have some questions about your sisters and brothrs. These include your full, adopted, step, or half siblings. Let's start with the oldest and work down to the youngest. b. Is (NAME) male or female?
 }
 \section{Overview}{
 

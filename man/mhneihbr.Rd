@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhneihbr
 }
 \details{
-Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... a. To have \link{NAME} as a neighbor?
+Question 1135. Would you be definitely willing, probably willing, probably unwilling, or definitely unwilling... a. To have (NAME) as a neighbor?
 }
 \section{Overview}{
 

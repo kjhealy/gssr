@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdomhp
 }
 \details{
-Question 1133. What do you think \link{NAME} should do about this situation? f. Go to a counselor or another mental health professional
+Question 1133. What do you think (NAME) should do about this situation? f. Go to a counselor or another mental health professional
 }
 \section{Overview}{
 

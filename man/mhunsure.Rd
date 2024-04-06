@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhunsure
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. e. People like \link{NAME} are unpredictable.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. e. People like (NAME) are unpredictable.
 }
 \section{Overview}{
 

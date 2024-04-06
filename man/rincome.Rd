@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 rincome
 }
 \details{
-Question 38. Did you earn any income from \link{OCCUPATION DESCRIBED IN Q2} last year? a. If yes: In which of these groups did your earnings from \link{OCCUPATION IN Q2} for last year fall? That is, before taxes or other deductions.
+Question 38. Did you earn any income from (OCCUPATION DESCRIBED IN Q2) last year? a. If yes: In which of these groups did your earnings from (OCCUPATION IN Q2) for last year fall? That is, before taxes or other deductions.
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 major1
 }
 \details{
-Question What was your major or field of study when you received your {response to RDEGHIfill} degree? IF THE RESPONDENT RECEIVED MORE THAN ONE GRADUATE LEVEL DEGREE, ASK ABOUT THE HIGHEST DEGREE OBTAINED (E.G. ABOUT A Ph.D. RATHER THAN AN M.B.A). \link{COUNT UP TO 2 MENTIONS}
+Question What was your major or field of study when you received your {response to RDEGHIfill} degree? IF THE RESPONDENT RECEIVED MORE THAN ONE GRADUATE LEVEL DEGREE, ASK ABOUT THE HIGHEST DEGREE OBTAINED (E.G. ABOUT A Ph.D. RATHER THAN AN M.B.A). (COUNT UP TO 2 MENTIONS)
 }
 \section{Overview}{
 

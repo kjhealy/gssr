@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhviooth
 }
 \details{
-Question 1144a. How likely is it \link{NAME} would do something violent or harmful toward other people. Is it... IF ASKED: Violent toward self means; suicide, not eating, wandering in traffic, and self-mutilation.
+Question 1144a. How likely is it (NAME) would do something violent or harmful toward other people. Is it... IF ASKED: Violent toward self means; suicide, not eating, wandering in traffic, and self-mutilation.
 }
 \section{Overview}{
 

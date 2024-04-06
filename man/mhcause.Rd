@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhcause
 }
 \details{
-Question 1145. 1145. Would you say that \link{NAME}'s situation is caused by depression, asthma, schizophrenia, stress, or something else?
+Question 1145. 1145. Would you say that (NAME)'s situation is caused by depression, asthma, schizophrenia, stress, or something else?
 }
 \section{Overview}{
 

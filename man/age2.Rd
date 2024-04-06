@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 age2
 }
 \details{
-Question 322. How old is \link{NAME}?
+Question 322. How old is (NAME)?
 }
 \section{Overview}{
 

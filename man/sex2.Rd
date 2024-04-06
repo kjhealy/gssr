@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sex2
 }
 \details{
-Question 316. \link{PERSON} is male/female? Is that correct?
+Question 316. (PERSON) is male/female? Is that correct?
 }
 \section{Overview}{
 

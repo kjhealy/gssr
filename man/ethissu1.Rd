@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 ethissu1
 }
 \details{
-Question 516e. Do you think of yourself as a(n) \link{GROUP} on all issues, most issues, some issues, or just a few issues?
+Question 516e. Do you think of yourself as a(n) (GROUP) on all issues, most issues, some issues, or just a few issues?
 }
 \section{Overview}{
 

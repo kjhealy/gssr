@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 abstate2
 }
 \details{
-Question Here in \link{CURRENT STATE}, do you think that laws should be changed to make it easier for a woman to get an abortion, be changed to make it harder for a woman to get an abortion, or should the laws stay as they are now?
+Question Here in (CURRENT STATE), do you think that laws should be changed to make it easier for a woman to get an abortion, be changed to make it harder for a woman to get an abortion, or should the laws stay as they are now?
 }
 \section{Overview}{
 

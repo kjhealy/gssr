@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 rincom16
 }
 \details{
-Question In which of these groups did your earnings from (OCC), from all sources for \link{last year} fall? That is, before taxes or other deductions. Just tell me the letter.
+Question In which of these groups did your earnings from (OCC), from all sources for (last year) fall? That is, before taxes or other deductions. Just tell me the letter.
 }
 \section{Overview}{
 

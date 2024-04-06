@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 where8
 }
 \details{
-Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. f. Where is \link{PERSON} staying right now? Is \link{PERSON} staying at another household; Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
+Question 1621. Please tell me the names of the people who usually live in this household. Let's start with the head of the household. f. Where is (PERSON) staying right now? Is (PERSON) staying at another household; Is (he/she) traveling; Is (he/she) in some institution or dormitory--like at college or in a hospital or something; or what?
 }
 \section{Overview}{
 

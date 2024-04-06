@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 switwhy1
 }
 \details{
-Question 358c2. Why did you become a \link{RELIGION}?
+Question 358c2. Why did you become a (RELIGION)?
 }
 \section{Overview}{
 

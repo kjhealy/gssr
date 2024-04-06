@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 hsclass2
 }
 \details{
-Question 479b. \link{When you were in high school/in high school}, what (was/is) your favorite course or subject?
+Question 479b. (When you were in high school/in high school), what (was/is) your favorite course or subject?
 }
 \section{Overview}{
 

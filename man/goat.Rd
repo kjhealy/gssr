@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 goat
 }
 \details{
-Question What kind of pet\link{s} does your family have? I. Goat
+Question What kind of pet(s) does your family have? I. Goat
 }
 \section{Overview}{
 

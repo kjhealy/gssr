@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 wkkidscs
 }
 \details{
-Question What about your \link{spouse/partner} at that time? Did \link{he/she} work outside the home full-time, part-time, or not at all? When a child was under school age?
+Question What about your (spouse/partner) at that time? Did (he/she) work outside the home full-time, part-time, or not at all? When a child was under school age?
 }
 \section{Overview}{
 

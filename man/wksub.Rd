@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 wksub
 }
 \details{
-Question 191. Do you (does your \link{SPOUSE}) have a supervisor on (your/his/her) job to whom you are (he/she is) directly responsible?
+Question 191. Do you (does your (SPOUSE)) have a supervisor on (your/his/her) job to whom you are (he/she is) directly responsible?
 }
 \section{Overview}{
 

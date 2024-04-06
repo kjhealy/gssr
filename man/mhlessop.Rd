@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhlessop
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. c. No matter how much \link{NAME} achieves, (his/her) opportunities would still be limited if people knew (he/she) had received treatment.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. c. No matter how much (NAME) achieves, (his/her) opportunities would still be limited if people knew (he/she) had received treatment.
 }
 \section{Overview}{
 

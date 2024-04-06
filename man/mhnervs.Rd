@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhnervs
 }
 \details{
-Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. k. Being around \link{NAME} would make me feel nervous.
+Question 1140. For the next several questions, please tell me whether you strongly agree, agree, disagree, or strongly disagree with the statement. k. Being around (NAME) would make me feel nervous.
 }
 \section{Overview}{
 

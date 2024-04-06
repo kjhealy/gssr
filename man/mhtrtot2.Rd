@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhtrtot2
 }
 \details{
-Question 1146. Let's turn away from \link{NAME} now. I have a few questions about your general experiences that I would like to ask you. Leaving yourself aside, have you personally ever known someone who has received treatment for a mental health situation?
+Question 1146. Let's turn away from (NAME) now. I have a few questions about your general experiences that I would like to ask you. Leaving yourself aside, have you personally ever known someone who has received treatment for a mental health situation?
 }
 \section{Overview}{
 

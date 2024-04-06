@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 relig5
 }
 \details{
-Question 323. What is \link{NAME}'s religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
+Question 323. What is (NAME)'s religious preference? Is it Protestant, Catholic, Jewish, some other religion, or no religion?
 }
 \section{Overview}{
 

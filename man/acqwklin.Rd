@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 acqwklin
 }
 \details{
-Question 1106. Next, we are going to ask about people that you are acquainted with through work. b. How many \link{IF NUMKNOWN = 2 or 5 DISPLAY: of the people you are acquainted with through work} are named Linda?
+Question 1106. Next, we are going to ask about people that you are acquainted with through work. b. How many (IF NUMKNOWN = 2 or 5 DISPLAY: of the people you are acquainted with through work) are named Linda?
 }
 \section{Overview}{
 

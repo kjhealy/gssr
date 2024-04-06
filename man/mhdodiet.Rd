@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdodiet
 }
 \details{
-Question 1133. What do you think \link{NAME} should do about this situation? q. Eat better/change diet
+Question 1133. What do you think (NAME) should do about this situation? q. Eat better/change diet
 }
 \section{Overview}{
 

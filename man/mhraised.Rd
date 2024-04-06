@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhraised
 }
 \details{
-Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that \link{NAME}'s situation is caused by... c. The way he/she was raised
+Question 1134. Is it very likely, somewhat likely, not very likely, or not at all likely that (NAME)'s situation is caused by... c. The way he/she was raised
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 mhdoheal
 }
 \details{
-Question 1133. What do you think \link{NAME} should do about this situation? g. Go to a spiritual or traditional healer
+Question 1133. What do you think (NAME) should do about this situation? g. Go to a spiritual or traditional healer
 }
 \section{Overview}{
 

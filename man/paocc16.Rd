@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 paocc16
 }
 \details{
-Question 8a. What kind of work did your father \link{FATHER SUBSTITUTE} normally do while you were growing up? That is, what was his job called? b. What did he actually do in that job? Tell me, what were some of his main duties?
+Question 8a. What kind of work did your father (FATHER SUBSTITUTE) normally do while you were growing up? That is, what was his job called? b. What did he actually do in that job? Tell me, what were some of his main duties?
 }
 \section{Overview}{
 
