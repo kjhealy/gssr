@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 erosion
 }
 \details{
-Question Which one of the following is not an example of erosion? {response to acceptDK} {response to probeDK}
+Question Which one of the following is not an example of erosion? (response to acceptDK) (response to probeDK)
 }
 \section{Overview}{
 

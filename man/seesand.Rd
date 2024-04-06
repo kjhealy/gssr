@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 seesand
 }
 \details{
-Question Please look at Card I-4. A gardener has an idea that a plant needs sand in the soil for healthy growth. In order to test her idea she uses two pots of plants. She sets up one pot of plants as shown on the top part of the card. Which one of the {response to acceptDK} {response to probeDK}
+Question Please look at Card I-4. A gardener has an idea that a plant needs sand in the soil for healthy growth. In order to test her idea she uses two pots of plants. She sets up one pot of plants as shown on the top part of the card. Which one of the (response to acceptDK) (response to probeDK)
 }
 \section{Overview}{
 

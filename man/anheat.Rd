@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 anheat
 }
 \details{
-Question Please look at Card I-1. The two objects shown there have the same mass, but object B loses heat more quickly than object A. Which combination of bodily features would be best suited to a small animal that lives in a cold climate and needs to minimize heat loss? {response to acceptDK} {response to probeDK}
+Question Please look at Card I-1. The two objects shown there have the same mass, but object B loses heat more quickly than object A. Which combination of bodily features would be best suited to a small animal that lives in a cold climate and needs to minimize heat loss? (response to acceptDK) (response to probeDK)
 }
 \section{Overview}{
 

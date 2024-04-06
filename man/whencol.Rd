@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 whencol
 }
 \details{
-Question In what year did you receive the {response to RDEGHIfill} degree?
+Question In what year did you receive the (response to RDEGHIfill) degree?
 }
 \section{Overview}{
 

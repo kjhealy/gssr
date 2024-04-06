@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sharehhw
 }
 \details{
-Question Which of the following best applies to the sharing of household work between you and your {#spousepartfill}?
+Question Which of the following best applies to the sharing of household work between you and your (#spousepartfill)?
 }
 \section{Overview}{
 

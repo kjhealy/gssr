@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 genes
 }
 \details{
-Question Traits are transferred from generation to generation through the... {response to acceptDK} {response to probeDK}
+Question Traits are transferred from generation to generation through the... (response to acceptDK) (response to probeDK)
 }
 \section{Overview}{
 

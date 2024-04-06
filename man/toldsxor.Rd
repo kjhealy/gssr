@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 toldsxor
 }
 \details{
-Question At about what age were you when you first told someone that you were {response to gayles}?
+Question At about what age were you when you first told someone that you were (response to gayles)?
 }
 \section{Overview}{
 

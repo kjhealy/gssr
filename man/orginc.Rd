@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 orginc
 }
 \details{
-Question How do you and your {#spousepartfill} organize the income that one or both of you receive? Please choose the option that comes closest.
+Question How do you and your (#spousepartfill) organize the income that one or both of you receive? Please choose the option that comes closest.
 }
 \section{Overview}{
 

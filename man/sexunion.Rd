@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sexunion
 }
 \details{
-Question What is the sex of your {response to uniontxt}?
+Question What is the sex of your (response to uniontxt)?
 }
 \section{Overview}{
 

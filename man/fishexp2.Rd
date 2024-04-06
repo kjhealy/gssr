@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 fishexp2
 }
 \details{
-Question Why did you choose that answer? {response to acceptDK} {response to probeDK}
+Question Why did you choose that answer? (response to acceptDK) (response to probeDK)
 }
 \section{Overview}{
 

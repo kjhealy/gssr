@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 spwrkgvt
 }
 \details{
-Question {spwrkgvtfill}
+Question (spwrkgvtfill)
 }
 \section{Overview}{
 

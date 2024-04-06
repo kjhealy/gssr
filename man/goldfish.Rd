@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 goldfish
 }
 \details{
-Question Please look at Card I-2. A student wants to find out if temperature affects the behavior of goldfish. He has 4 fish bowls and 20 goldfish. Which of the experiments on Card I-2 should he do? {response to acceptDK} {response to probeDK}
+Question Please look at Card I-2. A student wants to find out if temperature affects the behavior of goldfish. He has 4 fish bowls and 20 goldfish. Which of the experiments on Card I-2 should he do? (response to acceptDK) (response to probeDK)
 }
 \section{Overview}{
 

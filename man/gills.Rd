@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 gills
 }
 \details{
-Question How do most fish get the oxygen they need to survive? {response to acceptDK} {response to probeDK}
+Question How do most fish get the oxygen they need to survive? (response to acceptDK) (response to probeDK)
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 whatsp2
 }
 \details{
-Question How would you classify the place where your {#_spfill1} {#whatsp2fill}? Was this mainly...?
+Question How would you classify the place where your (#_spfill1) (#whatsp2fill)? Was this mainly...?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 toldwork
 }
 \details{
-Question Some people are very open about their sexual orientation while others are not. About how many of your coworkers know that you {response to toldworktxt}?
+Question Some people are very open about their sexual orientation while others are not. About how many of your coworkers know that you (response to toldworktxt)?
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 eff911n
 }
 \details{
-Question How effective do you think {response to EFF911SP} is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)
+Question How effective do you think (response to EFF911SP) is for people dealing with terrorism? (Would you say 1, not at all effective, 5, extremely effective, or you may use any number in between?)
 }
 \section{Overview}{
 

@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 evkid
 }
 \details{
-Question Have you ever {response to evkidtxt} a child?
+Question Have you ever (response to evkidtxt) a child?
 }
 \section{Overview}{
 

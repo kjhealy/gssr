@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 synmem
 }
 \details{
-Question {response to synmemtxt} belong to a synagogue, temple, minyan, or high holiday congregation?
+Question (response to synmemtxt) belong to a synagogue, temple, minyan, or high holiday congregation?
 }
 \section{Overview}{
 

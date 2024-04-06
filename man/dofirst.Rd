@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_213.R
 \name{dofirst}
 \alias{dofirst}
-\title{Here are the things you said {#secl_name} should do...	 interviewer: read list}
+\title{Here are the things you said (#secl_name) should do...	 interviewer: read list}
 \source{
 General Social Survey https://gss.norc.org
 }

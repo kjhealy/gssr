@@ -36,7 +36,9 @@ fix_pct <- function(x){
 fix_sq_brace <- function(x){
   x |>
     stringr::str_replace_all("\\[", "(") |>
-    stringr::str_replace_all("\\]", ")")
+    stringr::str_replace_all("\\]", ")") |>
+    stringr::str_replace_all("\\{", "(") |>
+    stringr::str_replace_all("\\}", ")")
 }
 
 
@@ -65,7 +67,7 @@ prettify_yrtab <- function(x) {
 
 make_rd_skel <- function(variable, label, var_text) {
   paste(c(
-    paste("#' ", stringr::str_to_sentence(label)),
+    paste("#' ", fix_sq_brace(stringr::str_to_sentence(label))),
     paste("#' "),
     paste("#' ", variable),
     paste("#' "),

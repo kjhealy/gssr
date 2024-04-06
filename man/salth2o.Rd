@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 salth2o
 }
 \details{
-Question A farmer thinks that the vegetables on her farm are not getting enough water. Her son suggests that they use water from the nearby ocean to water the vegetables. Is this a good idea? {response to acceptDK} {response to probeDK}
+Question A farmer thinks that the vegetables on her farm are not getting enough water. Her son suggests that they use water from the nearby ocean to water the vegetables. Is this a good idea? (response to acceptDK) (response to probeDK)
 }
 \section{Overview}{
 

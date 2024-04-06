@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 bmitzvah
 }
 \details{
-Question Did you have a {response to bmitztxt} mitzvah when you were a child?
+Question Did you have a (response to bmitztxt) mitzvah when you were a child?
 }
 \section{Overview}{
 

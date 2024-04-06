@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_611.R
 \name{pawrkslf2}
 \alias{pawrkslf2}
-\title{At this job, was \link{dadfill} an employee, self-employed without employees, or self}
+\title{At this job, was (dadfill) an employee, self-employed without employees, or self}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 pawrkslf2
 }
 \details{
-Question At this job, was {#dadfill} an employee, self-employed without employees, or self-employed with employees?
+Question At this job, was (#dadfill) an employee, self-employed without employees, or self-employed with employees?
 }
 \section{Overview}{
 

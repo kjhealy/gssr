@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 upbreath
 }
 \details{
-Question For which reason may people experience shortness of breath more quickly at the top of a mountain than along a seashore? {response to acceptDK} {response to probeDK}
+Question For which reason may people experience shortness of breath more quickly at the top of a mountain than along a seashore? (response to acceptDK) (response to probeDK)
 }
 \section{Overview}{
 

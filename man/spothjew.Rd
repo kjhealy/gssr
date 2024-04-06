@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 spothjew
 }
 \details{
-Question Does your {response to _spfill1} currently consider {response to _spfill4}self Jewish?
+Question Does your (response to _spfill1) currently consider (response to _spfill4)self Jewish?
 }
 \section{Overview}{
 

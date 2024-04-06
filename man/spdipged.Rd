@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 spdipged
 }
 \details{
-Question Was that a diploma awarded by {#_spfill3} high school at graduation at the end of 12th grade, a GED awarded after {#_spfill2} took a test, or something else?
+Question Was that a diploma awarded by (#_spfill3) high school at graduation at the end of 12th grade, a GED awarded after (#_spfill2) took a test, or something else?
 }
 \section{Overview}{
 

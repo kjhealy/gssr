@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 racerank3
 }
 \details{
-Question After {#racerankfill1} and {#racerankfill2}, which of these races do you identify most with?
+Question After (#racerankfill1) and (#racerankfill2), which of these races do you identify most with?
 }
 \section{Overview}{
 

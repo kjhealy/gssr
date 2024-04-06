@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 lftplane
 }
 \details{
-Question Which of the following is a key factor that enables an airplane to lift? {response to acceptDK} {response to probeDK}
+Question Which of the following is a key factor that enables an airplane to lift? (response to acceptDK) (response to probeDK)
 }
 \section{Overview}{
 

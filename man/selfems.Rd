@@ -2,7 +2,7 @@
 % Please edit documentation in R/gss_vars_641.R
 \name{selfems}
 \alias{selfems}
-\title{{#Selfemsfill}}
+\title{(#Selfemsfill)}
 \source{
 General Social Survey https://gss.norc.org
 }
@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 selfems
 }
 \details{
-Question {#selfemsfill}
+Question (#selfemsfill)
 }
 \section{Overview}{
 

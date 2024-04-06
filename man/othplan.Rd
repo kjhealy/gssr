@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 othplan
 }
 \details{
-Question Is there any other name for the {insname} policy, such as Option A, $100 Deductible Plan, 90/80 Plan, Gold Plan, or High Option Plan?
+Question Is there any other name for the (insname) policy, such as Option A, $100 Deductible Plan, 90/80 Plan, Gold Plan, or High Option Plan?
 }
 \section{Overview}{
 

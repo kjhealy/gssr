@@ -10,7 +10,7 @@ General Social Survey https://gss.norc.org
 sppart
 }
 \details{
-Question Are the following people in your family covered by your current insurance plan? My {response to uniontxt}
+Question Are the following people in your family covered by your current insurance plan? My (response to uniontxt)
 }
 \section{Overview}{
 
