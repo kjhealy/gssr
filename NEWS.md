@@ -1,5 +1,8 @@
 # gssr 0.4.5
 
+* Add `get_which_ballots()` function to return tibble of ballots a question appeared on.
+* Add `var_ballots` list column to `gss_dict` object, indicating the distribution of answers across ballots for each Q.
+* gssr now passes `R CMD check` with no `ERRORS` or `WARNINGS` 
 * Fix vars with text like `[NAME]` and `[PROMPT]` so they do not try to autolink in Rd build process.
 
 # gssr 0.4.4

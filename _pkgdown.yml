@@ -30,6 +30,7 @@ reference:
       Convenience functions.
     contents:
     - gss_get_yr
+    - gss_which_ballots
     - gss_which_years
   - title: "Variables"
     desc: >

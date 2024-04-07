@@ -3,6 +3,7 @@
 export("%>%")
 export(gss_get_years)
 export(gss_get_yr)
+export(gss_which_ballots)
 export(gss_which_years)
 importFrom(curl,curl_download)
 importFrom(fs,file_copy)

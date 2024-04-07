@@ -157,6 +157,7 @@ NULL
 #' \item{`var_text`}{The text of the question asked of the respondent. (Character.)}
 #' \item{`years`}{Which years the question was asked. This information is stored as a tibble in a list column. The tibble contains a column for the `year` and a TRUE/FALSE coumn for `present`. (List.)}
 #' \item{`var_yrtab`}{Crosstab of responses by year. Stored in a list-column. The tibbles contain `year` values in the rows and value labels across their columns, with response freqencies in the cells as counts. (List.)}
+#' \item{`var_ballots`}{Crosstab of ballots by year. Stored in a list-column. The tibbles contain `year` values in the rows and `iap` and the ballots labels across the columns. Counts in `iap` mean the question was not asked that year, or the ballot system was not used. Cells are the number of respondents, if any. (Grouped tibble.)}
 #' \item{`col_type`}{The column type of the variable in `gss_all`. (Character.)}
 #' \item{`var_type`}{The variable type of the variable in `gss_all`. (Character.)}
 #' \item{`var_na_codes`}{The missing value codes associated with the variable in `gss_all`. (Character.)}

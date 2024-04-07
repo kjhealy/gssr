@@ -49,7 +49,6 @@ n_cores <- availableCores()
 
 load(here("data", "gss_dict.rda"))
 
-
 prettify_yrtab <- function(x) {
   # We don't need yr crosstabs for year or id
   if(!is_tibble(x)) {
@@ -113,6 +112,25 @@ make_rd_yrfreq <- function(var_yrtab) {
              paste("#' ", o, collapse = "\n"))
 }
 
+
+## Not used for now
+make_rd_ballotinfo <- function(ballot_info) {
+  if(!is_tibble(ballot_info)) {
+    return("\n#'")
+  }
+
+  options(knitr.kable.NA = '-')
+
+  headstring <- paste0(
+    c("#'",
+      "#' Presence on Ballots: \n#'\n"), collapse = "\n")
+  o <- ballot_info |>
+    knitr::kable()
+  paste0(paste("#' ", o, collapse = "\n"))
+}
+
+
+
 make_rd_varname <- function(variable){
   keywords <- paste0("#' @keywords variable\n")
   mdflag <- paste0("#' @md\n")
@@ -131,6 +149,7 @@ docstring <- gss_dict |>
   mutate(rd1 = future_pmap_chr(list(variable, label, var_text), make_rd_skel),
          rd2 = future_map_chr(value_labels, make_rd_describe),
          rd3 = future_map_chr(var_yrtab, make_rd_yrfreq),
+         #rd3a = future_map_chr(ballot_info, make_rd_ballotinfo),
          rd4 = future_map_chr(variable, make_rd_varname),
          rd5 = future_pmap_chr(list(rd1, rd3, rd2, endstring, rd4, collapse="\n"), paste0)) |>
   pull(rd5) |>

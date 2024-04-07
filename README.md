@@ -125,7 +125,7 @@ object:
 ``` r
 data(gss_dict)
 gss_dict
-#> # A tibble: 6,663 × 12
+#> # A tibble: 6,663 × 13
 #>      pos variable label     missing var_doc_label value_labels var_text years   
 #>    <int> <chr>    <chr>       <int> <chr>         <chr>        <chr>    <list>  
 #>  1     1 year     gss year…       0 gss year for… [NA(d)] don… None     <NULL>  
@@ -139,8 +139,8 @@ gss_dict
 #>  9     9 wrkgovt  govt or …   44311 govt or priv… [1] governm… 2f. (Ar… <tibble>
 #> 10    10 commute  travel t…   71060 travel time … [97] 97+ mi… 2g. Abo… <tibble>
 #> # ℹ 6,653 more rows
-#> # ℹ 4 more variables: var_yrtab <list>, col_type <chr>, var_type <chr>,
-#> #   var_na_codes <chr>
+#> # ℹ 5 more variables: var_yrtab <list>, ballot_info <list>, col_type <chr>,
+#> #   var_type <chr>, var_na_codes <chr>
 ```
 
 ## Which questions were asked in which years?
@@ -215,45 +215,50 @@ gss_all |>
 ## 34 2022      FALSE    FALSE   FALSE   FALSE 
 ```
 
-## The GSS and COVID-19
+## Which ballots did a question appear on?
 
-The GSS administrators have released a [Methodological
-Primer](https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf)
-along with the [Documentation and Codebook for the 2021
-survey](https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf)
-that users should read carefully in connection with the effects of
-COVID-19 on data collection for the GSS.
+Use `gss_which_ballots()` for this.
 
-The Primer notes:
-
-> Since its inception, the GSS has conducted data collection via
-> in-person interviews as its primary mode of data collection. The
-> pandemic forced the GSS to change this design, moving from in-person
-> to address- based sampling and a push-to-web methodology, with the
-> bulk of the interview conducted online via a self- administered
-> questionnaire.
-
-In addition,
-
-> We recommend our users include the one of the following statements
-> when reporting on the GSS 2021 Cross-section data: *Total Survey Error
-> Summary Perspective for the 2021 GSS Cross-section:* Changes in
-> opinions, attitudes, and behaviors observed in 2021 relative to
-> historical trends may be due to actual change in concept over time
-> and/or may have resulted from methodological changes made to the
-> survey methodology during the COVID-19 global pandemic.
-
-And,
-
-> *Suggested Statement to Include in Articles and Reports That Use GSS
-> Data:* To safeguard the health of staff and respondents during the
-> COVID-19 pandemic, the 2021 GSS data collection used a mail-to-web
-> methodology instead of its traditional in-person interviews. Research
-> and interpretation done using the data should take extra care to
-> ensure the analysis reflects actual changes in public opinion and is
-> not unduly influenced by the change in data collection methods. For
-> more information on the 2021 GSS methodology and its implications,
-> please visit <https://gss.norc.org/Get-The-Data>
+``` r
+gss_which_ballots(fefam) |> print(n=Inf)
+#> # A tibble: 34 × 7
+#>    variable year    iap `ballot a` `ballot b` `ballot c` `ballot d`
+#>    <chr>    <chr> <int> <chr>      <chr>      <chr>      <chr>     
+#>  1 fefam    1972   1613 -          -          -          -         
+#>  2 fefam    1973   1504 -          -          -          -         
+#>  3 fefam    1974   1484 -          -          -          -         
+#>  4 fefam    1975   1490 -          -          -          -         
+#>  5 fefam    1976   1499 -          -          -          -         
+#>  6 fefam    1977   1530 -          -          -          -         
+#>  7 fefam    1978   1532 -          -          -          -         
+#>  8 fefam    1980   1468 -          -          -          -         
+#>  9 fefam    1982   1860 -          -          -          -         
+#> 10 fefam    1983   1599 -          -          -          -         
+#> 11 fefam    1984   1473 -          -          -          -         
+#> 12 fefam    1985   1534 -          -          -          -         
+#> 13 fefam    1986   1470 -          -          -          -         
+#> 14 fefam    1987   1819 -          -          -          -         
+#> 15 fefam    1988     NA 484        504        493        -         
+#> 16 fefam    1989     NA 502        504        531        -         
+#> 17 fefam    1990     NA 473        455        444        -         
+#> 18 fefam    1991     NA 500        524        493        -         
+#> 19 fefam    1993     NA 549        531        526        -         
+#> 20 fefam    1994     NA 981        996        1015       -         
+#> 21 fefam    1996     NA 979        981        944        -         
+#> 22 fefam    1998     NA 921        950        961        -         
+#> 23 fefam    2000     NA 921        956        940        -         
+#> 24 fefam    2002     NA 933        911        921        -         
+#> 25 fefam    2004     NA 952        941        919        -         
+#> 26 fefam    2006     NA 1003       989        1000       1518      
+#> 27 fefam    2008     NA 658        671        694        -         
+#> 28 fefam    2010     NA 667        763        614        -         
+#> 29 fefam    2012     NA 636        666        672        -         
+#> 30 fefam    2014     NA 851        824        863        -         
+#> 31 fefam    2016     NA 911        977        979        -         
+#> 32 fefam    2018     NA 785        774        789        -         
+#> 33 fefam    2021     NA 1360       1357       1315       -         
+#> 34 fefam    2022     NA 1173       1203       1168       -
+```
 
 ## Panel data
 
@@ -396,6 +401,46 @@ Unlike the other panels, these data are provided in wide format. Users
 are strongly encouraged to read the [official
 documentation](https://gss.norc.org/Documents/codebook/2016-2020%20GSS%20Panel%20Codebook%20-%20R1a.pdf)
 at the NORC website.
+
+## The GSS and COVID-19
+
+The GSS administrators have released a [Methodological
+Primer](https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf)
+along with the [Documentation and Codebook for the 2021
+survey](https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf)
+that users should read carefully in connection with the effects of
+COVID-19 on data collection for the GSS.
+
+The Primer notes:
+
+> Since its inception, the GSS has conducted data collection via
+> in-person interviews as its primary mode of data collection. The
+> pandemic forced the GSS to change this design, moving from in-person
+> to address- based sampling and a push-to-web methodology, with the
+> bulk of the interview conducted online via a self- administered
+> questionnaire.
+
+In addition,
+
+> We recommend our users include the one of the following statements
+> when reporting on the GSS 2021 Cross-section data: *Total Survey Error
+> Summary Perspective for the 2021 GSS Cross-section:* Changes in
+> opinions, attitudes, and behaviors observed in 2021 relative to
+> historical trends may be due to actual change in concept over time
+> and/or may have resulted from methodological changes made to the
+> survey methodology during the COVID-19 global pandemic.
+
+And,
+
+> *Suggested Statement to Include in Articles and Reports That Use GSS
+> Data:* To safeguard the health of staff and respondents during the
+> COVID-19 pandemic, the 2021 GSS data collection used a mail-to-web
+> methodology instead of its traditional in-person interviews. Research
+> and interpretation done using the data should take extra care to
+> ensure the analysis reflects actual changes in public opinion and is
+> not unduly influenced by the change in data collection methods. For
+> more information on the 2021 GSS methodology and its implications,
+> please visit <https://gss.norc.org/Get-The-Data>
 
 ## Further details
 

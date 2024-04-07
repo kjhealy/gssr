@@ -17,6 +17,7 @@ A tibble.
 \item{\code{var_text}}{The text of the question asked of the respondent. (Character.)}
 \item{\code{years}}{Which years the question was asked. This information is stored as a tibble in a list column. The tibble contains a column for the \code{year} and a TRUE/FALSE coumn for \code{present}. (List.)}
 \item{\code{var_yrtab}}{Crosstab of responses by year. Stored in a list-column. The tibbles contain \code{year} values in the rows and value labels across their columns, with response freqencies in the cells as counts. (List.)}
+\item{\code{var_ballots}}{Crosstab of ballots by year. Stored in a list-column. The tibbles contain \code{year} values in the rows and \code{iap} and the ballots labels across the columns. Counts in \code{iap} mean the question was not asked that year, or the ballot system was not used. Cells are the number of respondents, if any. (Grouped tibble.)}
 \item{\code{col_type}}{The column type of the variable in \code{gss_all}. (Character.)}
 \item{\code{var_type}}{The variable type of the variable in \code{gss_all}. (Character.)}
 \item{\code{var_na_codes}}{The missing value codes associated with the variable in \code{gss_all}. (Character.)}
