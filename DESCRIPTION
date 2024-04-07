@@ -17,7 +17,8 @@ Imports:
     haven,
     here,
     magrittr,
-    tibble
+    tibble,
+    rlang
 Suggests:
     drat,
     forcats,
