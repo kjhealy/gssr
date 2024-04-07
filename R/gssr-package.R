@@ -108,9 +108,9 @@ gss_which_ballots <- function(question) {
   question <- rlang::as_name(rlang::expr({{ question }}))
 
   gss_dict |>
-    dplyr::select(variable, ballot_info) |>
+    dplyr::select(variable, var_ballots) |>
     dplyr::filter(variable %in% question) |>
-    tidyr::unnest(cols = c(ballot_info))
+    tidyr::unnest(cols = c(var_ballots))
 }
 
 #' What years was a particular question asked in the GSS?
