@@ -90,7 +90,7 @@ get_asked <- function(x) {
 #' - `variable` Variable name
 #' - `year` GSS year
 #' - `iap` Numbers in this column mean the question wasn't asked _or_ the ballot system was not in use.
-#' - `ballot a`, `ballot b`, etc: Count of the n responses on each ballot for a particular year.
+#' - `ballot a`, `ballot b`, etc: Count of the n respondents on each ballot for a particular year.
 #'
 #' @export
 #'

@@ -44,22 +44,31 @@ gss_dict <- gss_dict |>
 ## Add ballot table
 gss_which_ballots <- function(variable) {
   gss_all_labelled |>
-    select(year, ballot, {{variable}}) |>
-    filter({{variable}} != "iap") |>
+    select(year, ballot, {{ variable }}) |>
+    filter({{ variable }} != "iap") |>
     group_by(year, ballot) |>
     tally() |>
+    mutate(ballot = str_replace(ballot, "iap", "(None)")) |>
     pivot_wider(names_from = ballot, values_from = n) |>
-    mutate(across(starts_with("ballot"), \(x) replace_na(as.character(x), "-")))
+    mutate(across(matches("ballot|None"), \(x) replace_na(as.character(x), "-"))) |>
+    mutate(across(!contains("year"), \(x) str_replace(x, "\\d{2,4}", "Y"))) |>
+    ungroup()
 }
 
 gss_ballot_tbl <- tibble(
   variable = gss_dict$variable
 )
 
+# Be patient
 gss_ballot_tbl <- gss_ballot_tbl |>
   mutate(var_ballots = map(variable, gss_which_ballots)) |>
   mutate(var_ballots = map(var_ballots, as_tibble))
 
+# e.g.
+gss_ballot_tbl |>
+  filter(variable == "commute") |>
+  unnest(cols = c(var_ballots)) |>
+  print(n=Inf)
 
 gss_dict <- gss_dict |>
   left_join(gss_ballot_tbl, by = "variable")
