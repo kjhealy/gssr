@@ -139,7 +139,7 @@ gss_dict
 #>  9     9 wrkgovt  govt or …   44311 govt or priv… [1] governm… 2f. (Ar… <tibble>
 #> 10    10 commute  travel t…   71060 travel time … [97] 97+ mi… 2g. Abo… <tibble>
 #> # ℹ 6,653 more rows
-#> # ℹ 5 more variables: var_yrtab <list>, ballot_info <list>, col_type <chr>,
+#> # ℹ 5 more variables: var_yrtab <list>, var_ballots <list>, col_type <chr>,
 #> #   var_type <chr>, var_na_codes <chr>
 ```
 
