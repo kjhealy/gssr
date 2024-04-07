@@ -112,6 +112,9 @@
 <dt><code>var_yrtab</code></dt>
 <dd><p>Crosstab of responses by year. Stored in a list-column. The tibbles contain <code>year</code> values in the rows and value labels across their columns, with response freqencies in the cells as counts. (List.)</p></dd>
 
+<dt><code>var_ballots</code></dt>
+<dd><p>Crosstab of ballots by year. Stored in a list-column. The tibbles contain <code>year</code> values in the rows and <code>iap</code> and the ballots labels across the columns. Counts in <code>iap</code> mean the question was not asked that year, or the ballot system was not used. Cells are the number of respondents, if any. (Grouped tibble.)</p></dd>
+
 <dt><code>col_type</code></dt>
 <dd><p>The column type of the variable in <code>gss_all</code>. (Character.)</p></dd>
 

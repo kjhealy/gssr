@@ -193,7 +193,7 @@
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_dict</span><span class="op">)</span></span>
 <span><span class="va">gss_dict</span></span>
-<span><span class="co">#&gt; # A tibble: 6,663 × 12</span></span>
+<span><span class="co">#&gt; # A tibble: 6,663 × 13</span></span>
 <span><span class="co">#&gt;      pos variable label     missing var_doc_label value_labels var_text years   </span></span>
 <span><span class="co">#&gt;    &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;int&gt; &lt;chr&gt;         &lt;chr&gt;        &lt;chr&gt;    &lt;list&gt;  </span></span>
 <span><span class="co">#&gt;  1     1 year     gss year…       0 gss year for… [NA(d)] don… None     &lt;NULL&gt;  </span></span>
@@ -207,8 +207,8 @@
 <span><span class="co">#&gt;  9     9 wrkgovt  govt or …   44311 govt or priv… [1] governm… 2f. (Ar… &lt;tibble&gt;</span></span>
 <span><span class="co">#&gt; 10    10 commute  travel t…   71060 travel time … [97] 97+ mi… 2g. Abo… &lt;tibble&gt;</span></span>
 <span><span class="co">#&gt; # ℹ 6,653 more rows</span></span>
-<span><span class="co">#&gt; # ℹ 4 more variables: var_yrtab &lt;list&gt;, col_type &lt;chr&gt;, var_type &lt;chr&gt;,</span></span>
-<span><span class="co">#&gt; #   var_na_codes &lt;chr&gt;</span></span></code></pre></div>
+<span><span class="co">#&gt; # ℹ 5 more variables: var_yrtab &lt;list&gt;, ballot_info &lt;list&gt;, col_type &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   var_type &lt;chr&gt;, var_na_codes &lt;chr&gt;</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="which-questions-were-asked-in-which-years">Which questions were asked in which years?<a class="anchor" aria-label="anchor" href="#which-questions-were-asked-in-which-years"></a>
@@ -277,28 +277,55 @@
 <span><span class="co">## 34 2022      FALSE    FALSE   FALSE   FALSE </span></span></code></pre></div>
 </div>
 <div class="section level2">
-<h2 id="the-gss-and-covid-19">The GSS and COVID-19<a class="anchor" aria-label="anchor" href="#the-gss-and-covid-19"></a>
+<h2 id="which-ballots-did-a-question-appear-on">Which ballots did a question appear on?<a class="anchor" aria-label="anchor" href="#which-ballots-did-a-question-appear-on"></a>
 </h2>
-<p>The GSS administrators have released a <a href="https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf" class="external-link">Methodological Primer</a> along with the <a href="https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf" class="external-link">Documentation and Codebook for the 2021 survey</a> that users should read carefully in connection with the effects of COVID-19 on data collection for the GSS.</p>
-<p>The Primer notes:</p>
-<blockquote>
-<p>Since its inception, the GSS has conducted data collection via in-person interviews as its primary mode of data collection. The pandemic forced the GSS to change this design, moving from in-person to address- based sampling and a push-to-web methodology, with the bulk of the interview conducted online via a self- administered questionnaire.</p>
-</blockquote>
-<p>In addition,</p>
-<blockquote>
-<p>We recommend our users include the one of the following statements when reporting on the GSS 2021 Cross-section data: <em>Total Survey Error Summary Perspective for the 2021 GSS Cross-section:</em> Changes in opinions, attitudes, and behaviors observed in 2021 relative to historical trends may be due to actual change in concept over time and/or may have resulted from methodological changes made to the survey methodology during the COVID-19 global pandemic.</p>
-</blockquote>
-<p>And,</p>
-<blockquote>
-<p><em>Suggested Statement to Include in Articles and Reports That Use GSS Data:</em> To safeguard the health of staff and respondents during the COVID-19 pandemic, the 2021 GSS data collection used a mail-to-web methodology instead of its traditional in-person interviews. Research and interpretation done using the data should take extra care to ensure the analysis reflects actual changes in public opinion and is not unduly influenced by the change in data collection methods. For more information on the 2021 GSS methodology and its implications, please visit <a href="https://gss.norc.org/Get-The-Data" class="external-link uri">https://gss.norc.org/Get-The-Data</a></p>
-</blockquote>
+<p>Use <code><a href="reference/gss_which_ballots.html">gss_which_ballots()</a></code> for this.</p>
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/gss_which_ballots.html">gss_which_ballots</a></span><span class="op">(</span><span class="va">fefam</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span>n<span class="op">=</span><span class="cn">Inf</span><span class="op">)</span></span>
+<span><span class="co">#&gt; # A tibble: 34 × 7</span></span>
+<span><span class="co">#&gt;    variable year    iap `ballot a` `ballot b` `ballot c` `ballot d`</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;    &lt;chr&gt; &lt;int&gt; &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;     </span></span>
+<span><span class="co">#&gt;  1 fefam    1972   1613 -          -          -          -         </span></span>
+<span><span class="co">#&gt;  2 fefam    1973   1504 -          -          -          -         </span></span>
+<span><span class="co">#&gt;  3 fefam    1974   1484 -          -          -          -         </span></span>
+<span><span class="co">#&gt;  4 fefam    1975   1490 -          -          -          -         </span></span>
+<span><span class="co">#&gt;  5 fefam    1976   1499 -          -          -          -         </span></span>
+<span><span class="co">#&gt;  6 fefam    1977   1530 -          -          -          -         </span></span>
+<span><span class="co">#&gt;  7 fefam    1978   1532 -          -          -          -         </span></span>
+<span><span class="co">#&gt;  8 fefam    1980   1468 -          -          -          -         </span></span>
+<span><span class="co">#&gt;  9 fefam    1982   1860 -          -          -          -         </span></span>
+<span><span class="co">#&gt; 10 fefam    1983   1599 -          -          -          -         </span></span>
+<span><span class="co">#&gt; 11 fefam    1984   1473 -          -          -          -         </span></span>
+<span><span class="co">#&gt; 12 fefam    1985   1534 -          -          -          -         </span></span>
+<span><span class="co">#&gt; 13 fefam    1986   1470 -          -          -          -         </span></span>
+<span><span class="co">#&gt; 14 fefam    1987   1819 -          -          -          -         </span></span>
+<span><span class="co">#&gt; 15 fefam    1988     NA 484        504        493        -         </span></span>
+<span><span class="co">#&gt; 16 fefam    1989     NA 502        504        531        -         </span></span>
+<span><span class="co">#&gt; 17 fefam    1990     NA 473        455        444        -         </span></span>
+<span><span class="co">#&gt; 18 fefam    1991     NA 500        524        493        -         </span></span>
+<span><span class="co">#&gt; 19 fefam    1993     NA 549        531        526        -         </span></span>
+<span><span class="co">#&gt; 20 fefam    1994     NA 981        996        1015       -         </span></span>
+<span><span class="co">#&gt; 21 fefam    1996     NA 979        981        944        -         </span></span>
+<span><span class="co">#&gt; 22 fefam    1998     NA 921        950        961        -         </span></span>
+<span><span class="co">#&gt; 23 fefam    2000     NA 921        956        940        -         </span></span>
+<span><span class="co">#&gt; 24 fefam    2002     NA 933        911        921        -         </span></span>
+<span><span class="co">#&gt; 25 fefam    2004     NA 952        941        919        -         </span></span>
+<span><span class="co">#&gt; 26 fefam    2006     NA 1003       989        1000       1518      </span></span>
+<span><span class="co">#&gt; 27 fefam    2008     NA 658        671        694        -         </span></span>
+<span><span class="co">#&gt; 28 fefam    2010     NA 667        763        614        -         </span></span>
+<span><span class="co">#&gt; 29 fefam    2012     NA 636        666        672        -         </span></span>
+<span><span class="co">#&gt; 30 fefam    2014     NA 851        824        863        -         </span></span>
+<span><span class="co">#&gt; 31 fefam    2016     NA 911        977        979        -         </span></span>
+<span><span class="co">#&gt; 32 fefam    2018     NA 785        774        789        -         </span></span>
+<span><span class="co">#&gt; 33 fefam    2021     NA 1360       1357       1315       -         </span></span>
+<span><span class="co">#&gt; 34 fefam    2022     NA 1173       1203       1168       -</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="panel-data">Panel data<a class="anchor" aria-label="anchor" href="#panel-data"></a>
 </h2>
 <p>In addition to the Cumulative Data File, the gssr package also includes the GSS’s panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The <code>gssr</code> package provides three datasets, one for each of three-wave panels. They are <code>gss_panel06_long</code>, <code>gss_panel08_long</code>, and <code>gss_panel10_long</code>. The datasets are provided by the GSS in wide format but (as their names suggest) they are packaged here in long format. The 2020 panel is an exception to this, for reasons described below. The conversion was carried out using the <a href="https://panelr.jacob-long.com" class="external-link"><code>panelr</code> package</a> and its <code>long_panel()</code> function. Conversion from long back to wide format is possible with the tools provided in <code>panelr</code>.</p>
 <p>The panel data objects must be loaded in the same way as the cumulative data file, using <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code>.</p>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel06_long"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_panel06_long</span></span>
@@ -324,7 +351,7 @@
 <span><span class="co">#&gt; #   acqblack &lt;dbl+lbl&gt;, acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, …</span></span></code></pre></div>
 <p>Panel data objects are regular tibbles. You do not need to use <code>panelr</code> to work with the data.</p>
 <p>The column names in long format do not have wave identifiers. Rather, <code>firstid</code> and <code>wave</code> variables track the cases. The <code>firstid</code> variable is unique for every respondent in the panel and has no missing values. The <code>wave</code> variable indexes responses from a given <code>firstid</code> panelist in each wave (if observed). The <code>id</code> variable is from the GSS and indexes individuals within waves.</p>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel08_long"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_panel08_long</span>  <span class="op">|&gt;</span>  </span>
@@ -344,7 +371,7 @@
 <span><span class="co">#&gt; 10 4           1    4       1 [MALE]</span></span>
 <span><span class="co">#&gt; # ℹ 6,059 more rows</span></span></code></pre></div>
 <p>We can look at attrition across waves with, e.g.:</p>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss_panel06_long</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">select</span><span class="op">(</span><span class="va">wave</span>, <span class="va">id</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu">group_by</span><span class="op">(</span><span class="va">wave</span><span class="op">)</span> <span class="op">|&gt;</span></span>
@@ -361,7 +388,7 @@
 <h2 id="the-2020-panel-data">The 2020 Panel Data<a class="anchor" aria-label="anchor" href="#the-2020-panel-data"></a>
 </h2>
 <p>The COVID-19 pandemic also affected the panel data design. In 2020, the GSS was run as two studies; namely, (1) a panel re-interview of past respondents from the 2016 and 2018 cross sectional GSS studies (referred to as the 2016-2020 GSS Panel), and (2) an independent fresh cross-sectional address-based sampling push to web study (referred to as 2020 cross-sectional survey). The <code>gssr</code> package provides the data for the first study as <code>gss_panel20</code>. This study empaneled former 2016 and 2018 GSS respondents to answer a GSS questionnaire in 2020 (i.e., the 2016-2020 GSS panel). In the 2016-2020 GSS Panel, variables only contain data from one of the three years. To differentiate between versions of each variable, they have been appended with suffixes. Variables from 2016 (Wave 1a) have <code>_1a</code> appended, variables from 2018 (Wave 1b) have <code>_1b</code> appended, and variables from 2020 (Wave 2) have <code>_2</code> appended. Users can also track cases from 2016 and 2018, and reinterviews from 2020 with the variable <code>samptype</code>.</p>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel20"</span><span class="op">)</span></span>
 <span><span class="va">gss_panel20</span></span>
 <span><span class="co">#&gt; # A tibble: 5,215 × 4,296</span></span>
@@ -385,6 +412,23 @@
 <span><span class="co">#&gt; #   mar3_1a &lt;dbl+lbl&gt;, mar4_1a &lt;dbl+lbl&gt;, mar5_1a &lt;dbl+lbl&gt;, mar6_1a &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   mar7_1a &lt;dbl+lbl&gt;, mar8_1a &lt;dbl+lbl&gt;, mar9_1a &lt;dbl+lbl&gt;, …</span></span></code></pre></div>
 <p>Unlike the other panels, these data are provided in wide format. Users are strongly encouraged to read the <a href="https://gss.norc.org/Documents/codebook/2016-2020%20GSS%20Panel%20Codebook%20-%20R1a.pdf" class="external-link">official documentation</a> at the NORC website.</p>
+</div>
+<div class="section level2">
+<h2 id="the-gss-and-covid-19">The GSS and COVID-19<a class="anchor" aria-label="anchor" href="#the-gss-and-covid-19"></a>
+</h2>
+<p>The GSS administrators have released a <a href="https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf" class="external-link">Methodological Primer</a> along with the <a href="https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf" class="external-link">Documentation and Codebook for the 2021 survey</a> that users should read carefully in connection with the effects of COVID-19 on data collection for the GSS.</p>
+<p>The Primer notes:</p>
+<blockquote>
+<p>Since its inception, the GSS has conducted data collection via in-person interviews as its primary mode of data collection. The pandemic forced the GSS to change this design, moving from in-person to address- based sampling and a push-to-web methodology, with the bulk of the interview conducted online via a self- administered questionnaire.</p>
+</blockquote>
+<p>In addition,</p>
+<blockquote>
+<p>We recommend our users include the one of the following statements when reporting on the GSS 2021 Cross-section data: <em>Total Survey Error Summary Perspective for the 2021 GSS Cross-section:</em> Changes in opinions, attitudes, and behaviors observed in 2021 relative to historical trends may be due to actual change in concept over time and/or may have resulted from methodological changes made to the survey methodology during the COVID-19 global pandemic.</p>
+</blockquote>
+<p>And,</p>
+<blockquote>
+<p><em>Suggested Statement to Include in Articles and Reports That Use GSS Data:</em> To safeguard the health of staff and respondents during the COVID-19 pandemic, the 2021 GSS data collection used a mail-to-web methodology instead of its traditional in-person interviews. Research and interpretation done using the data should take extra care to ensure the analysis reflects actual changes in public opinion and is not unduly influenced by the change in data collection methods. For more information on the 2021 GSS methodology and its implications, please visit <a href="https://gss.norc.org/Get-The-Data" class="external-link uri">https://gss.norc.org/Get-The-Data</a></p>
+</blockquote>
 </div>
 <div class="section level2">
 <h2 id="further-details">Further details<a class="anchor" aria-label="anchor" href="#further-details"></a>

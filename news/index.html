@@ -75,7 +75,11 @@
 
     <div class="section level2">
 <h2 class="page-header" data-toc-text="0.4.5" id="gssr-045">gssr 0.4.5<a class="anchor" aria-label="anchor" href="#gssr-045"></a></h2>
-<ul><li>Fix vars with text like <code>[NAME]</code> and <code>[PROMPT]</code> so they do not try to autolink in Rd build process.</li>
+<ul><li>Add <code>get_which_ballots()</code> function to return tibble of ballots a question appeared on.</li>
+<li>Add <code>var_ballots</code> list column to <code>gss_dict</code> object, indicating the distribution of answers across ballots for each Q.</li>
+<li>gssr now passes <code>R CMD check</code> with no <code>ERRORS</code> or <code>WARNINGS</code>
+</li>
+<li>Fix vars with text like <code>[NAME]</code> and <code>[PROMPT]</code> so they do not try to autolink in Rd build process.</li>
 </ul></div>
     <div class="section level2">
 <h2 class="page-header" data-toc-text="0.4.4" id="gssr-044">gssr 0.4.4<a class="anchor" aria-label="anchor" href="#gssr-044"></a></h2>

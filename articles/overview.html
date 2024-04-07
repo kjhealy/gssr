@@ -199,7 +199,7 @@ the Cumulative Data File. This is called <code>gss_dict</code>.</p>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_dict</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_dict</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 6,663 × 12</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 6,663 × 13</span></span></span>
 <span><span class="co">#&gt;      pos variable label     missing var_doc_label value_labels var_text years   </span></span>
 <span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;list&gt;</span>  </span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span>     1 year     gss year…       0 gss year for… [NA(d)] don… None     <span style="color: #949494;">&lt;NULL&gt;</span>  </span></span>
@@ -213,8 +213,8 @@ the Cumulative Data File. This is called <code>gss_dict</code>.</p>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span>     9 wrkgovt  govt or …   <span style="text-decoration: underline;">44</span>311 govt or priv… [1] governm… 2f. (Ar… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span>    10 commute  travel t…   <span style="text-decoration: underline;">71</span>060 travel time … [97] 97+ mi… 2g. Abo… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
 <span><span class="co">#&gt; <span style="color: #949494;"># ℹ 6,653 more rows</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 4 more variables: var_yrtab &lt;list&gt;, col_type &lt;chr&gt;, var_type &lt;chr&gt;,</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;">#   var_na_codes &lt;chr&gt;</span></span></span></code></pre></div>
+<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 5 more variables: var_yrtab &lt;list&gt;, var_ballots &lt;list&gt;, col_type &lt;chr&gt;,</span></span></span>
+<span><span class="co">#&gt; <span style="color: #949494;">#   var_type &lt;chr&gt;, var_na_codes &lt;chr&gt;</span></span></span></code></pre></div>
 <p>The GSS data comes in a <em>labelled</em> format, mirroring the way
 it is encoded for Stata and SPSS platforms. The numeric codes are the
 content of the column cells. The labeling information is stored as an
