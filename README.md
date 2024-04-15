@@ -119,30 +119,6 @@ or Microsoft Visual Studio.
 
 <img src="man/figures/fefam_help.png" />
 
-Information about the variables is also contained in the `gss_dict`
-object:
-
-``` r
-data(gss_dict)
-gss_dict
-#> # A tibble: 6,663 × 13
-#>      pos variable label     missing var_doc_label value_labels var_text years   
-#>    <int> <chr>    <chr>       <int> <chr>         <chr>        <chr>    <list>  
-#>  1     1 year     gss year…       0 gss year for… [NA(d)] don… None     <NULL>  
-#>  2     2 wrkstat  labor fo…      36 labor force … [1] working… 1. Last… <tibble>
-#>  3     3 hrs1     number o…   30830 number of ho… [89] 89+ ho… 1a. If … <tibble>
-#>  4     4 hrs2     number o…   70989 number of ho… [89] 89+ ho… 1b. If … <tibble>
-#>  5     5 evwork   ever wor…   46944 ever work as… [1] yes; [2… 1c. If … <tibble>
-#>  6     6 occ      r's cens…   48123 r's census o… [NA(d)] don… 2a. Wha… <tibble>
-#>  7     7 prestige r's occu…   48123 r's occupati… [NA(d)] don… 2a. Wha… <tibble>
-#>  8     8 wrkslf   r self-e…    4041 r self-emp o… [1] self-em… 2e. (Ar… <tibble>
-#>  9     9 wrkgovt  govt or …   44311 govt or priv… [1] governm… 2f. (Ar… <tibble>
-#> 10    10 commute  travel t…   71060 travel time … [97] 97+ mi… 2g. Abo… <tibble>
-#> # ℹ 6,653 more rows
-#> # ℹ 5 more variables: var_yrtab <list>, var_ballots <list>, col_type <chr>,
-#> #   var_type <chr>, var_na_codes <chr>
-```
-
 ## Which questions were asked in which years?
 
 We often want to know which years a question or group of questions was
@@ -213,40 +189,6 @@ gss_all |>
 ## 32 2018      FALSE    FALSE   TRUE    FALSE  
 ## 33 2021      FALSE    FALSE   FALSE   FALSE  
 ## 34 2022      FALSE    FALSE   FALSE   FALSE 
-```
-
-## Which ballots did a question appear on?
-
-Use `gss_which_ballots()` for this.
-
-``` r
-gss_which_ballots(fefam) |> print(n=Inf)
-#> # A tibble: 23 × 5
-#>    year  `(None)` `ballot a` `ballot b` `ballot c`
-#>    <chr> <chr>    <chr>      <chr>      <chr>     
-#>  1 1977  Y        -          -          -         
-#>  2 1985  Y        -          -          -         
-#>  3 1986  Y        -          -          -         
-#>  4 1988  -        Y          Y          -         
-#>  5 1989  -        Y          Y          -         
-#>  6 1990  -        Y          Y          -         
-#>  7 1991  -        Y          Y          -         
-#>  8 1993  -        Y          Y          -         
-#>  9 1994  -        Y          Y          -         
-#> 10 1996  -        Y          Y          Y         
-#> 11 1998  -        Y          Y          -         
-#> 12 2000  -        Y          Y          -         
-#> 13 2002  -        Y          Y          -         
-#> 14 2004  -        Y          Y          -         
-#> 15 2006  -        Y          Y          -         
-#> 16 2008  -        Y          Y          -         
-#> 17 2010  -        Y          Y          -         
-#> 18 2012  -        Y          Y          -         
-#> 19 2014  -        Y          Y          -         
-#> 20 2016  -        Y          Y          -         
-#> 21 2018  -        Y          Y          -         
-#> 22 2021  -        Y          Y          -         
-#> 23 2022  -        Y          Y          -
 ```
 
 ## Panel data

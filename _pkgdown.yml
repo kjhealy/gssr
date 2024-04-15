@@ -22,6 +22,12 @@ reference:
   - title: "Documentation"
     desc: >
       For the codebook and documentation, install the companion package gssrdoc
+  - title: "Functions"
+    desc: >
+      Package functions
+    contents:
+    - gss_get_yr
+    - gss_which_years
 
 navbar:
   right:

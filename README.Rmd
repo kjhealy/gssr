@@ -82,14 +82,6 @@ Beginning with version 0.4, `gssr` provides documentation for all GSS variables 
 
 <img src="man/figures/fefam_help.png" />
 
-Information about the variables is also contained in the `gss_dict` object: 
-
-```{r load-doc}
-data(gss_dict)
-gss_dict
-```
-
-
 ## Which questions were asked in which years?
 
 We often want to know which years a question or group of questions was asked. We can find this out for one or more variables with `gss_which_years()`.
@@ -159,40 +151,6 @@ gss_all |>
 ## 33 2021      FALSE    FALSE   FALSE   FALSE  
 ## 34 2022      FALSE    FALSE   FALSE   FALSE 
 
-```
-
-## Which ballots did a question appear on?
-
-Use `gss_which_ballots()` for this. 
-
-``` r
-gss_which_ballots(fefam) |> print(n=Inf)
-#> # A tibble: 23 × 5
-#>    year  `(None)` `ballot a` `ballot b` `ballot c`
-#>    <chr> <chr>    <chr>      <chr>      <chr>     
-#>  1 1977  Y        -          -          -         
-#>  2 1985  Y        -          -          -         
-#>  3 1986  Y        -          -          -         
-#>  4 1988  -        Y          Y          -         
-#>  5 1989  -        Y          Y          -         
-#>  6 1990  -        Y          Y          -         
-#>  7 1991  -        Y          Y          -         
-#>  8 1993  -        Y          Y          -         
-#>  9 1994  -        Y          Y          -         
-#> 10 1996  -        Y          Y          Y         
-#> 11 1998  -        Y          Y          -         
-#> 12 2000  -        Y          Y          -         
-#> 13 2002  -        Y          Y          -         
-#> 14 2004  -        Y          Y          -         
-#> 15 2006  -        Y          Y          -         
-#> 16 2008  -        Y          Y          -         
-#> 17 2010  -        Y          Y          -         
-#> 18 2012  -        Y          Y          -         
-#> 19 2014  -        Y          Y          -         
-#> 20 2016  -        Y          Y          -         
-#> 21 2018  -        Y          Y          -         
-#> 22 2021  -        Y          Y          -         
-#> 23 2022  -        Y          Y          -
 ```
 
 ## Panel data
