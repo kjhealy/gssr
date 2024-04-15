@@ -75,14 +75,10 @@ library(srvyr)
 library(gssr)
 ```
 
-We will begin with the Cumulative Data file (1972-2022). As the startup message notes, the data objects are not automatically loaded. That is, we do not use R's "lazy loading" functionality. This is because the main GSS dataset is rather large. Instead we load it manually with `data()`. For the purposes of this vignette, because the full Cumulative Data object is big, we will use just a few columns of it stored in an object called `gss_sub`. But all the code here will also work with the full dataset object, `gss_all`, which you can load with the command `data(gss_all)`. We will also load the tibble that contains summary information for the variables in the Cumulative Data File. This is called `gss_dict`.
+We will begin with the Cumulative Data file (1972-2022). As the startup message notes, the data objects are not automatically loaded. That is, we do not use R's "lazy loading" functionality. This is because the main GSS dataset is rather large. Instead we load it manually with `data()`. For the purposes of this vignette, because the full Cumulative Data object is big, we will use just a few columns of it stored in an object called `gss_sub`. But all the code here will also work with the full dataset object, `gss_all`, which you can load with the command `data(gss_all)`. 
 
 ```{r load}
 data(gss_sub)
-data(gss_dict)
-
-gss_dict
-
 ```
 
 The GSS data comes in a *labelled* format, mirroring the way it is encoded for Stata and SPSS platforms. The numeric codes are the content of the column cells. The labeling information is stored as an attribute of the column.
@@ -314,17 +310,6 @@ gss_panel06_long |>
   summarize(observed = n_distinct(id),
             missing = sum(is.na(id)))
 ```
-
-The documentation tibble for the panel data is called `gss_panel_doc`. It does not include information for the 2020 panel.
-
-```{r paneldoc}
-data(gss_panel_doc)
-
-gss_panel_doc
-```
-
-Each row is a variable. The `id`, `description`, and `text` columns provide the details on each question or measure. The `properties` and `marginals` are provided in the remaining columns, with a suffix indicating the wave. 
-
 
 ## References
 
