@@ -139,16 +139,17 @@ gss_all
 #> #   indstatus <dbl+lbl>, indtag <dbl+lbl>, marital <dbl+lbl>, …
 ```
 
-## Integrated Help
+## Integrated Help with `gssrdoc`
 
-Beginning with version 0.4, `gssr` provides documentation for all GSS
-variables in the cumulative data file via R’s help system. You can
-browse variables by name in the package’s help file or type `?` followed
-by the name of the variable at the console to get a standard R help page
-containing information on the variable, the values it takes and (in most
-cases) a crosstabulation of the variable’s values for each year of the
-GSS. This facility is particularly convenient in an IDE such as RStudio
-or Microsoft Visual Studio.
+`{gssr}`’s companion package,
+[gssrdoc](https://kjhealy.github.io/gssrdoc/) provides documentation for
+all GSS variables in the cumulative data file via R’s help system. You
+can browse variables by name in the package’s help file or type `?`
+followed by the name of the variable at the console to get a standard R
+help page containing information on the variable, the values it takes
+and (in most cases) a crosstabulation of the variable’s values for each
+year of the GSS. This facility is particularly convenient in an IDE such
+as RStudio or Microsoft Visual Studio.
 
 <img src="man/figures/fefam_help.png" />
 
