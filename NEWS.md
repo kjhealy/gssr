@@ -1,6 +1,6 @@
-# gssr 0.5.9000 [In progress]
+# gssr 0.5 
 
-* The goal of this version of the package is to allow for binary installs via [R-Universe](https://r-universe.dev/search/). A binary package allows for faster installation, which matters here because `{gssr}` is a large package. Given the current resource limits of the GitHub runners that build packages, R-Universe can't build `{gssr}` with all the documentation. So I am experimenting with splitting it into two packages: `{gssr}`, which contains the data and the `gss_get_yr()` function, and `{gssrdoc}`, which integrates the GSS codebook into R's help system, and which includes the `gss_dict` object and the panel documentation object `gss_panel_doc`. I recommend you install both packages.
+* Split `gssr` into two packages: `{gssr}` (the data sets) and `{gssrdoc}` (the integrated documentation). Rationale: The goal of this version of the package is to allow for binary installs via [R-Universe](https://r-universe.dev/search/). A binary package allows for faster installation, which matters here because `{gssr}` is a large package. Given the current resource limits of the GitHub runners that build packages, R-Universe can't build `{gssr}` with all the documentation. So I am experimenting with splitting it into two packages: `{gssr}`, which contains the data and the `gss_get_yr()` function, and [`{gssrdoc}`](https://kjhealy.github.io/gssrdoc), which integrates the GSS codebook into R's help system. It includes the `gss_dict` object and the panel documentation object `gss_panel_doc`. I recommend you install both packages.
 
 # gssr 0.4.5
 

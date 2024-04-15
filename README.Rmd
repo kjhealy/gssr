@@ -29,17 +29,40 @@ library(tidyverse)
 
 # gssr <img src="man/figures/gssr.png" align="right" width="120" />
 
-The General Social Survey Cumulative Data (1972-2022, release 2a) and Panel Data files packaged for easy use in R. 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/kjhealy/gssr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kjhealy/gssr/actions/workflows/R-CMD-check.yaml)
+[![gssr status badge](https://kjhealy.r-universe.dev/badges/gssr)](https://kjhealy.r-universe.dev/gssr)
+<!-- badges: end -->
+
+The General Social Survey Cumulative Data (1972-2022, release 2a) and Panel Data files packaged for easy use in R. The companion package to `{gssr}` is [`{gssrdoc}`](https://kjhealy.github.io/gssrdoc), which integrates the GSS codebook into R's help system. I recommend you install both packages.
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
 ## Installation
 
-`gssr` is a data package, bundling several datasets into a convenient format. The relatively large size of the data in the package means it is not suitable for hosting on [CRAN](https://cran.r-project.org/), the core R package repository. 
+`{gssr}` is a data package, bundling several datasets into a convenient format. The relatively large size of the data in the package means it is not suitable for hosting on [CRAN](https://cran.r-project.org/), the core R package repository. The same is true of `{gssrdoc}`.
+
+### Install via R-Universe
+
+My [R Universe](https://kjhealy.r-universe.dev/) provides binary packages for `{gssr}` and `{gssrdoc}`. To install both packages, copy and paste the following code to the R console:
+
+``` r
+# Install 'gssr' from 'ropensci' universe
+install.packages('gssr', repos =
+  c('https://kjhealy.r-universe.dev', 'https://cloud.r-project.org'))
+
+# Also recommended: install 'gssrdoc' as well
+install.packages('gssrdoc', repos =
+  c('https://kjhealy.r-universe.dev', 'https://cloud.r-project.org'))
+```
+
+The binary packages will install noticeably quicker than building the package from source. Plus, you can use `install.packages()` directly. To install `{gssr}` this way, c
+
+(Because the packages have dependencies that are on CRAN, we add CRAN as well as the R Universe to the `repos` argument.)
 
 ### Install direct from GitHub
 
-You can install gssr from [GitHub](https://github.com/kjhealy/gssr) with:
+You can also install gssr from [GitHub](https://github.com/kjhealy/gssr) with:
 
 ``` r
 remotes::install_github("kjhealy/gssr")
