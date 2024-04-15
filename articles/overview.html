@@ -49,7 +49,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.5</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.5.9000</span>
       </span>
     </div>
 
@@ -191,30 +191,9 @@ the main GSS dataset is rather large. Instead we load it manually with
 Cumulative Data object is big, we will use just a few columns of it
 stored in an object called <code>gss_sub</code>. But all the code here
 will also work with the full dataset object, <code>gss_all</code>, which
-you can load with the command <code>data(gss_all)</code>. We will also
-load the tibble that contains summary information for the variables in
-the Cumulative Data File. This is called <code>gss_dict</code>.</p>
+you can load with the command <code>data(gss_all)</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_sub</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_dict</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">gss_dict</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 6,663 × 13</span></span></span>
-<span><span class="co">#&gt;      pos variable label     missing var_doc_label value_labels var_text years   </span></span>
-<span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;list&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span>     1 year     gss year…       0 gss year for… [NA(d)] don… None     <span style="color: #949494;">&lt;NULL&gt;</span>  </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 2</span>     2 wrkstat  labor fo…      36 labor force … [1] working… 1. Last… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 3</span>     3 hrs1     number o…   <span style="text-decoration: underline;">30</span>830 number of ho… [89] 89+ ho… 1a. If … <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 4</span>     4 hrs2     number o…   <span style="text-decoration: underline;">70</span>989 number of ho… [89] 89+ ho… 1b. If … <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 5</span>     5 evwork   ever wor…   <span style="text-decoration: underline;">46</span>944 ever work as… [1] yes; [2… 1c. If … <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span>     6 occ      r's cens…   <span style="text-decoration: underline;">48</span>123 r's census o… [NA(d)] don… 2a. Wha… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span>     7 prestige r's occu…   <span style="text-decoration: underline;">48</span>123 r's occupati… [NA(d)] don… 2a. Wha… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span>     8 wrkslf   r self-e…    <span style="text-decoration: underline;">4</span>041 r self-emp o… [1] self-em… 2e. (Ar… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span>     9 wrkgovt  govt or …   <span style="text-decoration: underline;">44</span>311 govt or priv… [1] governm… 2f. (Ar… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span>    10 commute  travel t…   <span style="text-decoration: underline;">71</span>060 travel time … [97] 97+ mi… 2g. Abo… <span style="color: #949494;">&lt;tibble&gt;</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 6,653 more rows</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 5 more variables: var_yrtab &lt;list&gt;, var_ballots &lt;list&gt;, col_type &lt;chr&gt;,</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;">#   var_type &lt;chr&gt;, var_na_codes &lt;chr&gt;</span></span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_sub</span><span class="op">)</span></span></code></pre></div>
 <p>The GSS data comes in a <em>labelled</em> format, mirroring the way
 it is encoded for Stata and SPSS platforms. The numeric codes are the
 content of the column cells. The labeling information is stored as an
@@ -271,7 +250,7 @@ saying they don’t know).</p>
 </h3>
 <p>Variable summaries for the cumulative data file are built in to
 <code>gssr</code> and are integrated into R’s help system. For example,
-we can type <code><a href="../reference/fefam.html">?fefam</a></code> at the console and have the variable’s
+we can type <code>?fefam</code> at the console and have the variable’s
 documentation appear in the documentation browser.</p>
 <p><img src="figures/fefam_help.png"></p>
 <p>Scrolling further down will give a summary of the values the variable
@@ -623,33 +602,6 @@ from the GSS and tracks individuals within waves.</p>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">1</span>     1     <span style="text-decoration: underline;">2</span>000       0</span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">2</span>     2     <span style="text-decoration: underline;">1</span>537     464</span></span>
 <span><span class="co">#&gt; <span style="color: #BCBCBC;">3</span>     3     <span style="text-decoration: underline;">1</span>277     724</span></span></code></pre></div>
-<p>The documentation tibble for the panel data is called
-<code>gss_panel_doc</code>. It does not include information for the 2020
-panel.</p>
-<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_panel_doc</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">gss_panel_doc</span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 628 × 9</span></span></span>
-<span><span class="co">#&gt;    id       description text  properties_1 properties_2 properties_3 marginals_1</span></span>
-<span><span class="co">#&gt;    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> <span style="color: #949494; font-style: italic;">&lt;list&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;list&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;list&gt;</span>       <span style="color: #949494; font-style: italic;">&lt;list&gt;</span>     </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 1</span> caseid   CASEID      None  <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;NULL&gt;</span>       <span style="color: #949494;">&lt;NULL&gt;</span>       <span style="color: #949494;">&lt;tibble&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 2</span> year     YEAR        None  <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 3</span> id       ID          None  <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 4</span> age      AGE         13. … <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 5</span> sex      SEX         23. … <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 6</span> race     RACE        24. … <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 7</span> racecen1 RACECEN1    1602… <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 8</span> racecen2 RACECEN2    1602… <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;"> 9</span> racecen3 RACECEN3    1602… <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #BCBCBC;">10</span> hispanic HISPANIC    1601… <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>     <span style="color: #949494;">&lt;tibble&gt;</span>   </span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 618 more rows</span></span></span>
-<span><span class="co">#&gt; <span style="color: #949494;"># ℹ 2 more variables: marginals_2 &lt;list&gt;, marginals_3 &lt;list&gt;</span></span></span></code></pre></div>
-<p>Each row is a variable. The <code>id</code>,
-<code>description</code>, and <code>text</code> columns provide the
-details on each question or measure. The <code>properties</code> and
-<code>marginals</code> are provided in the remaining columns, with a
-suffix indicating the wave.</p>
 </div>
 <div class="section level2">
 <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
@@ -676,7 +628,7 @@ R</em>. New York: Wiley.</p>
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.8.</p>
   <p class="preferably">Using <a href="https://preferably.amirmasoudabdol.name/?source=footer" class="external-link">preferably</a> template.</p>
 </div>
 

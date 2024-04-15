@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="US General Social Survey (GSS) Data for R">
-<meta property="og:description" content="The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data and GSS Panel Data files packaged for R, together with separate datasets containing codebook information on the variables. For more information on the GSS see \url{http://gss.norc.org}.">
+<meta property="og:description" content="The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data and GSS Panel Data files packaged for R. Its companion package, gssrdoc, provides the codebook integrated into R's help system For more information on the GSS see \url{http://gss.norc.org}.">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -49,7 +49,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.5</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.5.9000</span>
       </span>
     </div>
 
@@ -189,32 +189,12 @@
 </h2>
 <p>Beginning with version 0.4, <code>gssr</code> provides documentation for all GSS variables in the cumulative data file via R’s help system. You can browse variables by name in the package’s help file or type <code>?</code> followed by the name of the variable at the console to get a standard R help page containing information on the variable, the values it takes and (in most cases) a crosstabulation of the variable’s values for each year of the GSS. This facility is particularly convenient in an IDE such as RStudio or Microsoft Visual Studio.</p>
 <p><img src="reference/figures/fefam_help.png"></p>
-<p>Information about the variables is also contained in the <code>gss_dict</code> object:</p>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_dict</span><span class="op">)</span></span>
-<span><span class="va">gss_dict</span></span>
-<span><span class="co">#&gt; # A tibble: 6,663 × 13</span></span>
-<span><span class="co">#&gt;      pos variable label     missing var_doc_label value_labels var_text years   </span></span>
-<span><span class="co">#&gt;    &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;       &lt;int&gt; &lt;chr&gt;         &lt;chr&gt;        &lt;chr&gt;    &lt;list&gt;  </span></span>
-<span><span class="co">#&gt;  1     1 year     gss year…       0 gss year for… [NA(d)] don… None     &lt;NULL&gt;  </span></span>
-<span><span class="co">#&gt;  2     2 wrkstat  labor fo…      36 labor force … [1] working… 1. Last… &lt;tibble&gt;</span></span>
-<span><span class="co">#&gt;  3     3 hrs1     number o…   30830 number of ho… [89] 89+ ho… 1a. If … &lt;tibble&gt;</span></span>
-<span><span class="co">#&gt;  4     4 hrs2     number o…   70989 number of ho… [89] 89+ ho… 1b. If … &lt;tibble&gt;</span></span>
-<span><span class="co">#&gt;  5     5 evwork   ever wor…   46944 ever work as… [1] yes; [2… 1c. If … &lt;tibble&gt;</span></span>
-<span><span class="co">#&gt;  6     6 occ      r's cens…   48123 r's census o… [NA(d)] don… 2a. Wha… &lt;tibble&gt;</span></span>
-<span><span class="co">#&gt;  7     7 prestige r's occu…   48123 r's occupati… [NA(d)] don… 2a. Wha… &lt;tibble&gt;</span></span>
-<span><span class="co">#&gt;  8     8 wrkslf   r self-e…    4041 r self-emp o… [1] self-em… 2e. (Ar… &lt;tibble&gt;</span></span>
-<span><span class="co">#&gt;  9     9 wrkgovt  govt or …   44311 govt or priv… [1] governm… 2f. (Ar… &lt;tibble&gt;</span></span>
-<span><span class="co">#&gt; 10    10 commute  travel t…   71060 travel time … [97] 97+ mi… 2g. Abo… &lt;tibble&gt;</span></span>
-<span><span class="co">#&gt; # ℹ 6,653 more rows</span></span>
-<span><span class="co">#&gt; # ℹ 5 more variables: var_yrtab &lt;list&gt;, var_ballots &lt;list&gt;, col_type &lt;chr&gt;,</span></span>
-<span><span class="co">#&gt; #   var_type &lt;chr&gt;, var_na_codes &lt;chr&gt;</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="which-questions-were-asked-in-which-years">Which questions were asked in which years?<a class="anchor" aria-label="anchor" href="#which-questions-were-asked-in-which-years"></a>
 </h2>
 <p>We often want to know which years a question or group of questions was asked. We can find this out for one or more variables with <code><a href="reference/gss_which_years.html">gss_which_years()</a></code>.</p>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="reference/gss_which_years.html">gss_which_years</a></span><span class="op">(</span><span class="va">gss_all</span>, <span class="va">fefam</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co">#&gt; # A tibble: 33 x 2</span></span>
@@ -233,7 +213,7 @@
 <span><span class="co">#&gt; # … with 24 more rows</span></span>
 <span>  </span></code></pre></div>
 <p>When querying more than one variable, use <code><a href="https://rdrr.io/r/base/c.html" class="external-link">c()</a></code>:</p>
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss_all</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="reference/gss_which_years.html">gss_which_years</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="va">industry</span>, <span class="va">indus80</span>, <span class="va">wrkgovt</span>, <span class="va">commute</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span>n <span class="op">=</span> <span class="cn">Inf</span><span class="op">)</span></span>
@@ -277,44 +257,11 @@
 <span><span class="co">## 34 2022      FALSE    FALSE   FALSE   FALSE </span></span></code></pre></div>
 </div>
 <div class="section level2">
-<h2 id="which-ballots-did-a-question-appear-on">Which ballots did a question appear on?<a class="anchor" aria-label="anchor" href="#which-ballots-did-a-question-appear-on"></a>
-</h2>
-<p>Use <code><a href="reference/gss_which_ballots.html">gss_which_ballots()</a></code> for this.</p>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="reference/gss_which_ballots.html">gss_which_ballots</a></span><span class="op">(</span><span class="va">fefam</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span>n<span class="op">=</span><span class="cn">Inf</span><span class="op">)</span></span>
-<span><span class="co">#&gt; # A tibble: 23 × 5</span></span>
-<span><span class="co">#&gt;    year  `(None)` `ballot a` `ballot b` `ballot c`</span></span>
-<span><span class="co">#&gt;    &lt;chr&gt; &lt;chr&gt;    &lt;chr&gt;      &lt;chr&gt;      &lt;chr&gt;     </span></span>
-<span><span class="co">#&gt;  1 1977  Y        -          -          -         </span></span>
-<span><span class="co">#&gt;  2 1985  Y        -          -          -         </span></span>
-<span><span class="co">#&gt;  3 1986  Y        -          -          -         </span></span>
-<span><span class="co">#&gt;  4 1988  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt;  5 1989  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt;  6 1990  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt;  7 1991  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt;  8 1993  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt;  9 1994  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 10 1996  -        Y          Y          Y         </span></span>
-<span><span class="co">#&gt; 11 1998  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 12 2000  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 13 2002  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 14 2004  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 15 2006  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 16 2008  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 17 2010  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 18 2012  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 19 2014  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 20 2016  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 21 2018  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 22 2021  -        Y          Y          -         </span></span>
-<span><span class="co">#&gt; 23 2022  -        Y          Y          -</span></span></code></pre></div>
-</div>
-<div class="section level2">
 <h2 id="panel-data">Panel data<a class="anchor" aria-label="anchor" href="#panel-data"></a>
 </h2>
 <p>In addition to the Cumulative Data File, the gssr package also includes the GSS’s panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The <code>gssr</code> package provides three datasets, one for each of three-wave panels. They are <code>gss_panel06_long</code>, <code>gss_panel08_long</code>, and <code>gss_panel10_long</code>. The datasets are provided by the GSS in wide format but (as their names suggest) they are packaged here in long format. The 2020 panel is an exception to this, for reasons described below. The conversion was carried out using the <a href="https://panelr.jacob-long.com" class="external-link"><code>panelr</code> package</a> and its <code>long_panel()</code> function. Conversion from long back to wide format is possible with the tools provided in <code>panelr</code>.</p>
 <p>The panel data objects must be loaded in the same way as the cumulative data file, using <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code>.</p>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel06_long"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_panel06_long</span></span>
@@ -340,7 +287,7 @@
 <span><span class="co">#&gt; #   acqblack &lt;dbl+lbl&gt;, acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, …</span></span></code></pre></div>
 <p>Panel data objects are regular tibbles. You do not need to use <code>panelr</code> to work with the data.</p>
 <p>The column names in long format do not have wave identifiers. Rather, <code>firstid</code> and <code>wave</code> variables track the cases. The <code>firstid</code> variable is unique for every respondent in the panel and has no missing values. The <code>wave</code> variable indexes responses from a given <code>firstid</code> panelist in each wave (if observed). The <code>id</code> variable is from the GSS and indexes individuals within waves.</p>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel08_long"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_panel08_long</span>  <span class="op">|&gt;</span>  </span>
@@ -360,7 +307,7 @@
 <span><span class="co">#&gt; 10 4           1    4       1 [MALE]</span></span>
 <span><span class="co">#&gt; # ℹ 6,059 more rows</span></span></code></pre></div>
 <p>We can look at attrition across waves with, e.g.:</p>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss_panel06_long</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">select</span><span class="op">(</span><span class="va">wave</span>, <span class="va">id</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu">group_by</span><span class="op">(</span><span class="va">wave</span><span class="op">)</span> <span class="op">|&gt;</span></span>
@@ -377,7 +324,7 @@
 <h2 id="the-2020-panel-data">The 2020 Panel Data<a class="anchor" aria-label="anchor" href="#the-2020-panel-data"></a>
 </h2>
 <p>The COVID-19 pandemic also affected the panel data design. In 2020, the GSS was run as two studies; namely, (1) a panel re-interview of past respondents from the 2016 and 2018 cross sectional GSS studies (referred to as the 2016-2020 GSS Panel), and (2) an independent fresh cross-sectional address-based sampling push to web study (referred to as 2020 cross-sectional survey). The <code>gssr</code> package provides the data for the first study as <code>gss_panel20</code>. This study empaneled former 2016 and 2018 GSS respondents to answer a GSS questionnaire in 2020 (i.e., the 2016-2020 GSS panel). In the 2016-2020 GSS Panel, variables only contain data from one of the three years. To differentiate between versions of each variable, they have been appended with suffixes. Variables from 2016 (Wave 1a) have <code>_1a</code> appended, variables from 2018 (Wave 1b) have <code>_1b</code> appended, and variables from 2020 (Wave 2) have <code>_2</code> appended. Users can also track cases from 2016 and 2018, and reinterviews from 2020 with the variable <code>samptype</code>.</p>
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel20"</span><span class="op">)</span></span>
 <span><span class="va">gss_panel20</span></span>
 <span><span class="co">#&gt; # A tibble: 5,215 × 4,296</span></span>
@@ -473,7 +420,7 @@
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.8.</p>
   <p class="preferably">Using <a href="https://preferably.amirmasoudabdol.name/?source=footer" class="external-link">preferably</a> template.</p>
 </div>
 
