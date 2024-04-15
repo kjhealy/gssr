@@ -41,12 +41,11 @@ install.packages('gssrdoc', repos =
   c('https://kjhealy.r-universe.dev', 'https://cloud.r-project.org'))
 ```
 
-The binary packages will install noticeably quicker than building the
-package from source. Plus, you can use `install.packages()` directly. To
-install `{gssr}` this way, c
+Because the packages have dependencies that are on CRAN, we add CRAN as
+well as the R Universe to the `repos` argument.
 
-(Because the packages have dependencies that are on CRAN, we add CRAN as
-well as the R Universe to the `repos` argument.)
+The binary packages will install noticeably quicker than building the
+package from source. Plus, you can use `install.packages()` directly.
 
 ### Install direct from GitHub
 
@@ -61,6 +60,7 @@ remotes::install_github("kjhealy/gssr")
 
 ``` r
 library(gssr)
+#> Warning: package 'gssr' was built under R version 4.3.3
 #> Package loaded. To attach the GSS data, type data(gss_all) at the console.
 #> For the codebook, type data(gss_dict).
 #> For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).
