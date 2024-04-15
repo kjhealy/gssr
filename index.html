@@ -49,7 +49,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.5.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.5</span>
       </span>
     </div>
 
@@ -100,24 +100,41 @@
 <div class="section level1">
 <div class="page-header"><h1 id="gssr-">gssr <img src="reference/figures/gssr.png" align="right" width="120"><a class="anchor" aria-label="anchor" href="#gssr-"></a>
 </h1></div>
-<p>The General Social Survey Cumulative Data (1972-2022, release 2a) and Panel Data files packaged for easy use in R.</p>
+<!-- badges: start -->
+
+<p>The General Social Survey Cumulative Data (1972-2022, release 2a) and Panel Data files packaged for easy use in R. The companion package to <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> is <a href="https://kjhealy.github.io/gssrdoc"><code>{gssrdoc}</code></a>, which integrates the GSS codebook into R’s help system. I recommend you install both packages.</p>
 <p><img src="reference/figures/fefam_svy.png" width="95%"></p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p><code>gssr</code> is a data package, bundling several datasets into a convenient format. The relatively large size of the data in the package means it is not suitable for hosting on <a href="https://cran.r-project.org/" class="external-link">CRAN</a>, the core R package repository.</p>
+<p><a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> is a data package, bundling several datasets into a convenient format. The relatively large size of the data in the package means it is not suitable for hosting on <a href="https://cran.r-project.org/" class="external-link">CRAN</a>, the core R package repository. The same is true of <code>{gssrdoc}</code>.</p>
+<div class="section level3">
+<h3 id="install-via-r-universe">Install via R-Universe<a class="anchor" aria-label="anchor" href="#install-via-r-universe"></a>
+</h3>
+<p>My <a href="https://kjhealy.r-universe.dev/" class="external-link">R Universe</a> provides binary packages for <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> and <code>{gssrdoc}</code>. To install both packages, copy and paste the following code to the R console:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Install 'gssr' from 'ropensci' universe</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">'gssr'</span>, repos <span class="op">=</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'https://kjhealy.r-universe.dev'</span>, <span class="st">'https://cloud.r-project.org'</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Also recommended: install 'gssrdoc' as well</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">'gssrdoc'</span>, repos <span class="op">=</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'https://kjhealy.r-universe.dev'</span>, <span class="st">'https://cloud.r-project.org'</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<p>The binary packages will install noticeably quicker than building the package from source. Plus, you can use <code><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages()</a></code> directly. To install <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> this way, c</p>
+<p>(Because the packages have dependencies that are on CRAN, we add CRAN as well as the R Universe to the <code>repos</code> argument.)</p>
+</div>
 <div class="section level3">
 <h3 id="install-direct-from-github">Install direct from GitHub<a class="anchor" aria-label="anchor" href="#install-direct-from-github"></a>
 </h3>
-<p>You can install gssr from <a href="https://github.com/kjhealy/gssr" class="external-link">GitHub</a> with:</p>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<p>You can also install gssr from <a href="https://github.com/kjhealy/gssr" class="external-link">GitHub</a> with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"kjhealy/gssr"</span><span class="op">)</span></span></code></pre></div>
 </div>
 </div>
 <div class="section level2">
 <h2 id="loading-the-data">Loading the data<a class="anchor" aria-label="anchor" href="#loading-the-data"></a>
 </h2>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a></span><span class="op">)</span></span>
 <span><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console.</span></span>
 <span><span class="co">#&gt; For the codebook, type data(gss_dict).</span></span>
@@ -127,7 +144,7 @@
 <h3 id="single-gss-years">Single GSS years<a class="anchor" aria-label="anchor" href="#single-gss-years"></a>
 </h3>
 <p>You can get the data for any single GSS year by using <code><a href="reference/gss_get_yr.html">gss_get_yr()</a></code> to download it from NORC and put it directly into a tibble.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss18</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/gss_get_yr.html">gss_get_yr</a></span><span class="op">(</span><span class="fl">2018</span><span class="op">)</span></span>
 <span><span class="co">#&gt; Fetching: https://gss.norc.org/documents/stata/2018_stata.zip</span></span>
 <span></span>
@@ -157,10 +174,10 @@
 <h3 id="the-cumulative-data-file">The Cumulative Data File<a class="anchor" aria-label="anchor" href="#the-cumulative-data-file"></a>
 </h3>
 <p>The GSS cumulative data file is large. It is included in<code>gssr</code> but not loaded by default when you invoke the package. (That is, <code>gssr</code> does not use R’s “lazy loading” facility. The data file is too big to do this without error.) To load it (or the other) datasets, first load the library and then use <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code> to make the data available. For example, load the cumulative GSS file like this:</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gss_all</span><span class="op">)</span></span></code></pre></div>
 <p>This will take a moment. Once it is ready, the <code>gss_all</code> object is available to use in the usual way:</p>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss_all</span></span>
 <span><span class="co">#&gt; # A tibble: 72,390 × 6,694</span></span>
 <span><span class="co">#&gt;    year         id wrkstat    hrs1        hrs2        evwork      occ   prestige</span></span>
@@ -194,7 +211,7 @@
 <h2 id="which-questions-were-asked-in-which-years">Which questions were asked in which years?<a class="anchor" aria-label="anchor" href="#which-questions-were-asked-in-which-years"></a>
 </h2>
 <p>We often want to know which years a question or group of questions was asked. We can find this out for one or more variables with <code><a href="reference/gss_which_years.html">gss_which_years()</a></code>.</p>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="reference/gss_which_years.html">gss_which_years</a></span><span class="op">(</span><span class="va">gss_all</span>, <span class="va">fefam</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co">#&gt; # A tibble: 33 x 2</span></span>
@@ -213,7 +230,7 @@
 <span><span class="co">#&gt; # … with 24 more rows</span></span>
 <span>  </span></code></pre></div>
 <p>When querying more than one variable, use <code><a href="https://rdrr.io/r/base/c.html" class="external-link">c()</a></code>:</p>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss_all</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="reference/gss_which_years.html">gss_which_years</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="va">industry</span>, <span class="va">indus80</span>, <span class="va">wrkgovt</span>, <span class="va">commute</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span>n <span class="op">=</span> <span class="cn">Inf</span><span class="op">)</span></span>
@@ -261,7 +278,7 @@
 </h2>
 <p>In addition to the Cumulative Data File, the gssr package also includes the GSS’s panel data. The current rotating panel design began in 2006. A panel of respondents were interviewed that year and followed up on for further interviews in 2008 and 2010. A second panel was interviewed beginning in 2008, and was followed up on for further interviews in 2010 and 2012. And a third panel began in 2010, with follow-up interviews in 2012 and 2014. The <code>gssr</code> package provides three datasets, one for each of three-wave panels. They are <code>gss_panel06_long</code>, <code>gss_panel08_long</code>, and <code>gss_panel10_long</code>. The datasets are provided by the GSS in wide format but (as their names suggest) they are packaged here in long format. The 2020 panel is an exception to this, for reasons described below. The conversion was carried out using the <a href="https://panelr.jacob-long.com" class="external-link"><code>panelr</code> package</a> and its <code>long_panel()</code> function. Conversion from long back to wide format is possible with the tools provided in <code>panelr</code>.</p>
 <p>The panel data objects must be loaded in the same way as the cumulative data file, using <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code>.</p>
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel06_long"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_panel06_long</span></span>
@@ -287,7 +304,7 @@
 <span><span class="co">#&gt; #   acqblack &lt;dbl+lbl&gt;, acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, …</span></span></code></pre></div>
 <p>Panel data objects are regular tibbles. You do not need to use <code>panelr</code> to work with the data.</p>
 <p>The column names in long format do not have wave identifiers. Rather, <code>firstid</code> and <code>wave</code> variables track the cases. The <code>firstid</code> variable is unique for every respondent in the panel and has no missing values. The <code>wave</code> variable indexes responses from a given <code>firstid</code> panelist in each wave (if observed). The <code>id</code> variable is from the GSS and indexes individuals within waves.</p>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel08_long"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">gss_panel08_long</span>  <span class="op">|&gt;</span>  </span>
@@ -307,7 +324,7 @@
 <span><span class="co">#&gt; 10 4           1    4       1 [MALE]</span></span>
 <span><span class="co">#&gt; # ℹ 6,059 more rows</span></span></code></pre></div>
 <p>We can look at attrition across waves with, e.g.:</p>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss_panel06_long</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">select</span><span class="op">(</span><span class="va">wave</span>, <span class="va">id</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu">group_by</span><span class="op">(</span><span class="va">wave</span><span class="op">)</span> <span class="op">|&gt;</span></span>
@@ -324,7 +341,7 @@
 <h2 id="the-2020-panel-data">The 2020 Panel Data<a class="anchor" aria-label="anchor" href="#the-2020-panel-data"></a>
 </h2>
 <p>The COVID-19 pandemic also affected the panel data design. In 2020, the GSS was run as two studies; namely, (1) a panel re-interview of past respondents from the 2016 and 2018 cross sectional GSS studies (referred to as the 2016-2020 GSS Panel), and (2) an independent fresh cross-sectional address-based sampling push to web study (referred to as 2020 cross-sectional survey). The <code>gssr</code> package provides the data for the first study as <code>gss_panel20</code>. This study empaneled former 2016 and 2018 GSS respondents to answer a GSS questionnaire in 2020 (i.e., the 2016-2020 GSS panel). In the 2016-2020 GSS Panel, variables only contain data from one of the three years. To differentiate between versions of each variable, they have been appended with suffixes. Variables from 2016 (Wave 1a) have <code>_1a</code> appended, variables from 2018 (Wave 1b) have <code>_1b</code> appended, and variables from 2020 (Wave 2) have <code>_2</code> appended. Users can also track cases from 2016 and 2018, and reinterviews from 2020 with the variable <code>samptype</code>.</p>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"gss_panel20"</span><span class="op">)</span></span>
 <span><span class="va">gss_panel20</span></span>
 <span><span class="co">#&gt; # A tibble: 5,215 × 4,296</span></span>
@@ -407,7 +424,13 @@
 </ul>
 </div>
 
-
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/kjhealy/gssr/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/kjhealy/gssr/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
+<li><a href="https://kjhealy.r-universe.dev/gssr" class="external-link"><img src="https://kjhealy.r-universe.dev/badges/gssr" alt="gssr status badge"></a></li>
+</ul>
+</div>
 
   </div>
 </div>

@@ -29,7 +29,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.4.5.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.5</span>
       </span>
     </div>
 
@@ -74,8 +74,8 @@
     </div>
 
     <div class="section level2">
-<h2 class="page-header" data-toc-text="0.5.9000" id="gssr-059000-in-progress">gssr 0.5.9000 [In progress]<a class="anchor" aria-label="anchor" href="#gssr-059000-in-progress"></a></h2>
-<ul><li>The goal of this version of the package is to allow for binary installs via <a href="https://r-universe.dev/search/" class="external-link">R-Universe</a>. A binary package allows for faster installation, which matters here because <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> is a large package. Given the current resource limits of the GitHub runners that build packages, R-Universe can’t build <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> with all the documentation. So I am experimenting with splitting it into two packages: <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a>, which contains the data and the <code><a href="../reference/gss_get_yr.html">gss_get_yr()</a></code> function, and <code>{gssrdoc}</code>, which integrates the GSS codebook into R’s help system, and which includes the <code>gss_dict</code> object and the panel documentation object <code>gss_panel_doc</code>. I recommend you install both packages.</li>
+<h2 class="page-header" data-toc-text="0.5" id="gssr-05">gssr 0.5<a class="anchor" aria-label="anchor" href="#gssr-05"></a></h2>
+<ul><li>Split <code>gssr</code> into two packages: <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> (the data sets) and <code>{gssrdoc}</code> (the integrated documentation). Rationale: The goal of this version of the package is to allow for binary installs via <a href="https://r-universe.dev/search/" class="external-link">R-Universe</a>. A binary package allows for faster installation, which matters here because <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> is a large package. Given the current resource limits of the GitHub runners that build packages, R-Universe can’t build <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> with all the documentation. So I am experimenting with splitting it into two packages: <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a>, which contains the data and the <code><a href="../reference/gss_get_yr.html">gss_get_yr()</a></code> function, and <a href="https://kjhealy.github.io/gssrdoc"><code>{gssrdoc}</code></a>, which integrates the GSS codebook into R’s help system. It includes the <code>gss_dict</code> object and the panel documentation object <code>gss_panel_doc</code>. I recommend you install both packages.</li>
 </ul></div>
     <div class="section level2">
 <h2 class="page-header" data-toc-text="0.4.5" id="gssr-045">gssr 0.4.5<a class="anchor" aria-label="anchor" href="#gssr-045"></a></h2>
