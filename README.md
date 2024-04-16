@@ -12,7 +12,7 @@ badge](https://kjhealy.r-universe.dev/badges/gssr)](https://kjhealy.r-universe.d
 
 The General Social Survey Cumulative Data (1972-2022, release 2a) and
 Panel Data files packaged for easy use in R. The companion package to
-`{gssr}` is [`{gssrdoc}`](https://kjhealy.github.io/gssrdoc), which
+`{gssr}` is [gssrdoc](https://kjhealy.github.io/gssrdoc), which
 integrates the GSS codebook into R’s help system. I recommend you
 install both packages.
 
