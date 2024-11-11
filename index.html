@@ -4,100 +4,52 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Inform modern browsers that this page supports both dark and light color schemes,
-  and the page author prefers light. --><meta name="color-scheme" content="dark light">
-<script>
-  // If `prefers-color-scheme` is not supported, fall back to light mode.
-  // i.e. In this case, inject the `light` CSS before the others, with
-  // no media filter so that it will be downloaded with highest priority.
-  if (window.matchMedia("(prefers-color-scheme: dark)").media === "not all") {
-    document.documentElement.style.display = "none";
-    document.head.insertAdjacentHTML(
-      "beforeend",
-      "<link id=\"css\" rel=\"stylesheet\" href=\"https://bootswatch.com/3/flatly/bootstrap.css\" onload=\"document.documentElement.style.display = ''\">"
-    );
-  }
-</script><title>US General Social Survey (GSS) Data for R • gssr</title>
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
-<script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="US General Social Survey (GSS) Data for R">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>US General Social Survey (GSS) Data for R • gssr</title>
+<script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
+<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.4.2/css/all.min.css" rel="stylesheet">
+<link href="deps/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet">
+<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="US General Social Survey (GSS) Data for R">
+<meta name="description" content="The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data and GSS Panel Data files packaged for R. Its companion package, gssrdoc, provides the codebook integrated into R's help system For more information on the GSS see \url{http://gss.norc.org}.">
 <meta property="og:description" content="The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data and GSS Panel Data files packaged for R. Its companion package, gssrdoc, provides the codebook integrated into R's help system For more information on the GSS see \url{http://gss.norc.org}.">
-<!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]--><!-- Flatly Theme - Light  --><link id="css-light" rel="stylesheet" href="https://bootswatch.com/3/flatly/bootstrap.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-<!-- Darkly Theme - Dark --><link id="css-dark" rel="stylesheet" href="https://bootswatch.com/3/darkly/bootstrap.css" media="(prefers-color-scheme: dark)">
-<!-- preferably CSS --><link rel="stylesheet" href="preferably.css">
-<link id="css-code-light" rel="stylesheet" href="code-color-scheme-light.css" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
-<link id="css-code-dark" rel="stylesheet" href="code-color-scheme-dark.css" media="(prefers-color-scheme: dark)">
 </head>
-<body data-spy="scroll" data-target="#toc">
-    
+<body>
+    <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
 
-    <div class="container template-home">
-      <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <span class="navbar-brand">
-        <a class="navbar-link" href="index.html">gssr</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.5</span>
-      </span>
-    </div>
 
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-<li>
-  <a href="reference/index.html">Reference</a>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Articles
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-<li>
-      <a href="articles/overview.html">An Overview of gssr</a>
-    </li>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light" data-bs-theme="light" aria-label="Site navigation"><div class="container">
+
+    <a class="navbar-brand me-2" href="index.html">gssr</a>
+
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.6</small>
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar" class="collapse navbar-collapse ms-3">
+      <ul class="navbar-nav me-auto">
+<li class="nav-item"><a class="nav-link" href="reference/index.html">Reference</a></li>
+<li class="nav-item dropdown">
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
+<li><a class="dropdown-item" href="articles/overview.html">An Overview of gssr</a></li>
   </ul>
 </li>
-<li>
-  <a href="news/index.html">Changelog</a>
-</li>
+<li class="nav-item"><a class="nav-link" href="news/index.html">Changelog</a></li>
       </ul>
-<ul class="nav navbar-nav navbar-right">
-<li>
-  <a href="https://github.com/kjhealy/gssr" class="external-link">
-    <span class="fa fa-github"></span>
-     
-  </a>
-</li>
-        
-        
-
-
+<ul class="navbar-nav">
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/kjhealy/gssr"><span class="fa fa-github"></span></a></li>
       </ul>
 </div>
-<!--/.nav-collapse -->
+
+
   </div>
-<!--/.container -->
-</div>
-<!--/.navbar -->
-
-      
-
-      </header><div class="row">
-  <div class="contents col-md-9">
-<div class="section level1">
+</nav><div class="container template-home">
+<div class="row">
+  <main id="main" class="col-md-9"><div class="section level1">
 <div class="page-header"><h1 id="gssr-">gssr <img src="reference/figures/gssr.png" align="right" width="120"><a class="anchor" aria-label="anchor" href="#gssr-"></a>
 </h1></div>
 <!-- badges: start -->
@@ -136,7 +88,6 @@
 </h2>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a></span><span class="op">)</span></span>
-<span><span class="co">#&gt; Warning: package 'gssr' was built under R version 4.3.3</span></span>
 <span><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console.</span></span>
 <span><span class="co">#&gt; For the codebook, type data(gss_dict).</span></span>
 <span><span class="co">#&gt; For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).</span></span>
@@ -150,7 +101,7 @@
 <span><span class="co">#&gt; Fetching: https://gss.norc.org/documents/stata/2018_stata.zip</span></span>
 <span></span>
 <span><span class="va">gss18</span></span>
-<span><span class="co">#&gt; # A tibble: 2,348 × 1,068</span></span>
+<span><span class="co">#&gt; # A tibble: 2,348 × 1,069</span></span>
 <span><span class="co">#&gt;    year         id wrkstat   hrs1        hrs2        evwork      wrkslf  wrkgovt</span></span>
 <span><span class="co">#&gt;    &lt;dbl+lbl&gt; &lt;dbl&gt; &lt;dbl+lbl&gt; &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl+l&gt; &lt;dbl+l&gt;</span></span>
 <span><span class="co">#&gt;  1 2018          1 3 [with … NA(i) [iap]    41       NA(i) [iap] 2 [som… 2 [pri…</span></span>
@@ -164,7 +115,7 @@
 <span><span class="co">#&gt;  9 2018          9 1 [worki…    40       NA(i) [iap] NA(i) [iap] 1 [sel… 2 [pri…</span></span>
 <span><span class="co">#&gt; 10 2018         10 1 [worki…    40       NA(i) [iap] NA(i) [iap] 2 [som… 2 [pri…</span></span>
 <span><span class="co">#&gt; # ℹ 2,338 more rows</span></span>
-<span><span class="co">#&gt; # ℹ 1,060 more variables: occ10 &lt;dbl+lbl&gt;, prestg10 &lt;dbl+lbl&gt;,</span></span>
+<span><span class="co">#&gt; # ℹ 1,061 more variables: occ10 &lt;dbl+lbl&gt;, prestg10 &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   prestg105plus &lt;dbl+lbl&gt;, indus10 &lt;dbl+lbl&gt;, marital &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   martype &lt;dbl+lbl&gt;, divorce &lt;dbl+lbl&gt;, widowed &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   spwrksta &lt;dbl+lbl&gt;, sphrs1 &lt;dbl+lbl&gt;, sphrs2 &lt;dbl+lbl&gt;, spevwork &lt;dbl+lbl&gt;,</span></span>
@@ -285,25 +236,25 @@
 <span></span>
 <span><span class="va">gss_panel06_long</span></span>
 <span><span class="co">#&gt; # A tibble: 6,000 × 1,572</span></span>
-<span><span class="co">#&gt;    firstid  wave ballot      form    formwt oversamp sampcode sample  samptype  </span></span>
-<span><span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;dbl+lbl&gt;   &lt;dbl+l&gt;  &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl+lb&gt; &lt;dbl+l&gt; &lt;dbl+lbl&gt; </span></span>
-<span><span class="co">#&gt;  1 9           1 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…</span></span>
-<span><span class="co">#&gt;  2 9           2 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…</span></span>
-<span><span class="co">#&gt;  3 9           3 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…</span></span>
-<span><span class="co">#&gt;  4 10          1 1 [BALLOT … 1 [STA…      1        1 501      9 [200… 2006 [200…</span></span>
-<span><span class="co">#&gt;  5 10          2 1 [BALLOT … 1 [STA…      1        1 501      9 [200… 2006 [200…</span></span>
-<span><span class="co">#&gt;  6 10          3 1 [BALLOT … 1 [STA…      1        1 501      9 [200… 2006 [200…</span></span>
-<span><span class="co">#&gt;  7 11          1 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…</span></span>
-<span><span class="co">#&gt;  8 11          2 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…</span></span>
-<span><span class="co">#&gt;  9 11          3 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…</span></span>
-<span><span class="co">#&gt; 10 12          1 1 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…</span></span>
+<span><span class="co">#&gt;    firstid ballot   form   formwt oversamp sampcode sample samptype vstrat  vpsu</span></span>
+<span><span class="co">#&gt;    &lt;fct&gt;   &lt;fct&gt;    &lt;fct&gt;   &lt;dbl&gt;    &lt;dbl&gt; &lt;fct&gt;    &lt;fct&gt;  &lt;fct&gt;     &lt;dbl&gt; &lt;dbl&gt;</span></span>
+<span><span class="co">#&gt;  1 0009    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2</span></span>
+<span><span class="co">#&gt;  2 0009    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2</span></span>
+<span><span class="co">#&gt;  3 0009    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2</span></span>
+<span><span class="co">#&gt;  4 0010    Ballot a Stand…      1        1 501      2000 … 2006 Sa…   1957     2</span></span>
+<span><span class="co">#&gt;  5 0010    Ballot a Stand…      1        1 501      2000 … 2006 Sa…   1957     2</span></span>
+<span><span class="co">#&gt;  6 0010    Ballot a Stand…      1        1 501      2000 … 2006 Sa…   1957     2</span></span>
+<span><span class="co">#&gt;  7 0011    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2</span></span>
+<span><span class="co">#&gt;  8 0011    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2</span></span>
+<span><span class="co">#&gt;  9 0011    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2</span></span>
+<span><span class="co">#&gt; 10 0012    Ballot a Alter…      1        1 501      2000 … 2006 Sa…   1958     1</span></span>
 <span><span class="co">#&gt; # ℹ 5,990 more rows</span></span>
-<span><span class="co">#&gt; # ℹ 1,563 more variables: vstrat &lt;dbl+lbl&gt;, vpsu &lt;dbl+lbl&gt;, wtpan12 &lt;dbl+lbl&gt;,</span></span>
-<span><span class="co">#&gt; #   wtpan123 &lt;dbl+lbl&gt;, wtpannr12 &lt;dbl+lbl&gt;, wtpannr123 &lt;dbl+lbl&gt;,</span></span>
-<span><span class="co">#&gt; #   letin1a &lt;dbl+lbl&gt;, abany &lt;dbl+lbl&gt;, abdefect &lt;dbl+lbl&gt;, abhlth &lt;dbl+lbl&gt;,</span></span>
-<span><span class="co">#&gt; #   abnomore &lt;dbl+lbl&gt;, abpoor &lt;dbl+lbl&gt;, abrape &lt;dbl+lbl&gt;, absingle &lt;dbl+lbl&gt;,</span></span>
-<span><span class="co">#&gt; #   accntsci &lt;dbl+lbl&gt;, acqasian &lt;dbl+lbl&gt;, acqattnd &lt;dbl+lbl&gt;,</span></span>
-<span><span class="co">#&gt; #   acqblack &lt;dbl+lbl&gt;, acqbrnda &lt;dbl+lbl&gt;, acqchild &lt;dbl+lbl&gt;, …</span></span></code></pre></div>
+<span><span class="co">#&gt; # ℹ 1,562 more variables: wtpan12 &lt;dbl&gt;, wtpan123 &lt;dbl&gt;, wtpannr12 &lt;dbl&gt;,</span></span>
+<span><span class="co">#&gt; #   wtpannr123 &lt;dbl&gt;, letin1a &lt;fct&gt;, wave &lt;dbl&gt;, abany &lt;fct&gt;, abdefect &lt;fct&gt;,</span></span>
+<span><span class="co">#&gt; #   abhlth &lt;fct&gt;, abnomore &lt;fct&gt;, abpoor &lt;fct&gt;, abrape &lt;fct&gt;, absingle &lt;fct&gt;,</span></span>
+<span><span class="co">#&gt; #   accntsci &lt;fct&gt;, acqasian &lt;fct&gt;, acqattnd &lt;fct&gt;, acqblack &lt;fct&gt;,</span></span>
+<span><span class="co">#&gt; #   acqbrnda &lt;fct&gt;, acqchild &lt;fct&gt;, acqcohab &lt;fct&gt;, acqcon &lt;fct&gt;,</span></span>
+<span><span class="co">#&gt; #   acqcops &lt;fct&gt;, acqdems &lt;fct&gt;, acqelecs &lt;fct&gt;, acqfmasn &lt;fct&gt;, …</span></span></code></pre></div>
 <p>Panel data objects are regular tibbles. You do not need to use <code>panelr</code> to work with the data.</p>
 <p>The column names in long format do not have wave identifiers. Rather, <code>firstid</code> and <code>wave</code> variables track the cases. The <code>firstid</code> variable is unique for every respondent in the panel and has no missing values. The <code>wave</code> variable indexes responses from a given <code>firstid</code> panelist in each wave (if observed). The <code>id</code> variable is from the GSS and indexes individuals within waves.</p>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
@@ -312,18 +263,18 @@
 <span><span class="va">gss_panel08_long</span>  <span class="op">|&gt;</span>  </span>
 <span>  <span class="fu">select</span><span class="op">(</span><span class="va">firstid</span>, <span class="va">wave</span>, <span class="va">id</span>, <span class="va">sex</span><span class="op">)</span></span>
 <span><span class="co">#&gt; # A tibble: 6,069 × 4</span></span>
-<span><span class="co">#&gt;    firstid  wave id        sex      </span></span>
-<span><span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;dbl+lbl&gt; &lt;dbl+lbl&gt;</span></span>
-<span><span class="co">#&gt;  1 1           1    1       1 [MALE]</span></span>
-<span><span class="co">#&gt;  2 1           2 8001       1 [MALE]</span></span>
-<span><span class="co">#&gt;  3 1           3   NA      NA       </span></span>
-<span><span class="co">#&gt;  4 2           1    2       1 [MALE]</span></span>
-<span><span class="co">#&gt;  5 2           2 8002       1 [MALE]</span></span>
-<span><span class="co">#&gt;  6 2           3 8001       1 [MALE]</span></span>
-<span><span class="co">#&gt;  7 3           1    3       1 [MALE]</span></span>
-<span><span class="co">#&gt;  8 3           2 8003       1 [MALE]</span></span>
-<span><span class="co">#&gt;  9 3           3 8002       1 [MALE]</span></span>
-<span><span class="co">#&gt; 10 4           1    4       1 [MALE]</span></span>
+<span><span class="co">#&gt;    firstid  wave id    sex  </span></span>
+<span><span class="co">#&gt;    &lt;fct&gt;   &lt;dbl&gt; &lt;fct&gt; &lt;fct&gt;</span></span>
+<span><span class="co">#&gt;  1 0001        1 1     Male </span></span>
+<span><span class="co">#&gt;  2 0001        2 8001  Male </span></span>
+<span><span class="co">#&gt;  3 0001        3 &lt;NA&gt;  &lt;NA&gt; </span></span>
+<span><span class="co">#&gt;  4 0002        1 2     Male </span></span>
+<span><span class="co">#&gt;  5 0002        2 8002  Male </span></span>
+<span><span class="co">#&gt;  6 0002        3 8001  Male </span></span>
+<span><span class="co">#&gt;  7 0003        1 3     Male </span></span>
+<span><span class="co">#&gt;  8 0003        2 8003  Male </span></span>
+<span><span class="co">#&gt;  9 0003        3 8002  Male </span></span>
+<span><span class="co">#&gt; 10 0004        1 4     Male </span></span>
 <span><span class="co">#&gt; # ℹ 6,059 more rows</span></span></code></pre></div>
 <p>We can look at attrition across waves with, e.g.:</p>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
@@ -391,10 +342,7 @@
 <p>The package is documented at <a href="http://kjhealy.github.io/gssr/" class="external-link uri">http://kjhealy.github.io/gssr/</a>. The GSS homepage is at <a href="http://gss.norc.org/" class="external-link uri">http://gss.norc.org/</a>. While the <code>gssr</code> package incorporates the publicly-available GSS cumulative data file, this package is not associated with or endorsed by the National Opinion Research Center or the General Social Survey.</p>
 </div>
 </div>
-  </div>
-
-  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
-    <div class="links">
+  </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
 <li><a href="https://github.com/kjhealy/gssr/" class="external-link">Browse source code</a></li>
@@ -434,28 +382,24 @@
 </ul>
 </div>
 
-  </div>
+  </aside>
 </div>
 
 
-      <footer><div class="copyright">
-  <p></p>
-<p>Developed by <a href="http://kieranhealy.org" class="external-link">Kieran Healy</a>.</p>
+    <footer><div class="pkgdown-footer-left">
+  <p>Developed by <a href="http://kieranhealy.org" class="external-link">Kieran Healy</a>.</p>
 </div>
 
-<div class="pkgdown">
-  <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.8.</p>
-  <p class="preferably">Using <a href="https://preferably.amirmasoudabdol.name/?source=footer" class="external-link">preferably</a> template.</p>
+<div class="pkgdown-footer-right">
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
 </div>
 
-      </footer>
+    </footer>
 </div>
 
-  
 
 
-  
+
 
   </body>
 </html>

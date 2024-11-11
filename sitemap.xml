@@ -1,75 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://kjhealy.github.io/gssr/404.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/articles/overview.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/index.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/dot-onAttach.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/fmt_nc.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/fmt_nr.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/get_asked.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/gss_all.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/gss_get_years.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/gss_get_yr.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/gss_panel06_long.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/gss_panel08_long.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/gss_panel10_long.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/gss_panel20.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/gss_sub.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/gss_which_years.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/gssr-package.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://kjhealy.github.io/gssr/reference/reexports.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://kjhealy.github.io/gssr/404.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/LICENSE-text.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/LICENSE.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/articles/index.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/articles/overview.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/authors.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/index.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/news/index.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/dot-onAttach.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/fmt_nc.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/fmt_nr.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/get_asked.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/gss_all.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/gss_get_years.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/gss_get_yr.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/gss_panel06_long.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/gss_panel08_long.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/gss_panel10_long.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/gss_panel20.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/gss_sub.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/gss_which_years.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/gssr-package.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/index.html</loc></url>
+<url><loc>https://kjhealy.github.io/gssr/reference/reexports.html</loc></url>
 </urlset>
+
