@@ -6,7 +6,9 @@ authors:
 url: https://kjhealy.github.io/gssr
 
 template:
-  package: preferably
+  bootstrap: 5
+  bootswatch: litera
+
 
 reference:
   - title: "Datasets"
