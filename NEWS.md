@@ -1,3 +1,8 @@
+# gssr 0.6
+
+* Fixed a reshaping error in the 2006, 2008, and 2010 panel datasets (`gss_panel06_long`, `gss_panel08_long`, and `gss_panel10_long`) which led to the values of some variables being incorrectly attributed across waves. Thanks to Pat Hastings for identifying the error.
+* Updated the 2006, 2008, and 2010 panel datasets.
+
 # gssr 0.5 
 
 * Split `gssr` into two packages: `{gssr}` (the data sets) and `{gssrdoc}` (the integrated documentation). Rationale: The goal of this version of the package is to allow for binary installs via [R-Universe](https://r-universe.dev/search/). A binary package allows for faster installation, which matters here because `{gssr}` is a large package. Given the current resource limits of the GitHub runners that build packages, R-Universe can't build `{gssr}` with all the documentation. So I am experimenting with splitting it into two packages: `{gssr}`, which contains the data and the `gss_get_yr()` function, and [`{gssrdoc}`](https://kjhealy.github.io/gssrdoc), which integrates the GSS codebook into R's help system. It includes the `gss_dict` object and the panel documentation object `gss_panel_doc`. I recommend you install both packages.

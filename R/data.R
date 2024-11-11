@@ -17,7 +17,7 @@ NULL
 #' A tibble containing the General Social Survey 2006 Three Wave Panel Data
 #' File, in long format.
 #'
-#' @format A tibble with 6,000 rows and 1,572 columns. Variables are encoded as labelled vectors. The GSS
+#' @format A tibble with 6,000 rows and 1,572 columns. Variables are encoded as numerics or factors. The GSS
 #'     Codebook is the authoritative source for the variables in this
 #'     dataset. It is available at
 #'     <http://gss.norc.org/Get-Documentation>. Summary
@@ -39,7 +39,7 @@ NULL
 #' A tibble containing the General Social Survey 2008 Three Wave Panel Data
 #' File, in long format.
 #'
-#' @format A tibble with 6,069 rows and 1,244 columns. Variables are encoded as labelled vectors. The GSS
+#' @format A tibble with 6,069 rows and 1,243 columns. Variables are encoded as  as numerics or factors. The GSS
 #'     Codebook is the authoritative source for the variables in this
 #'     dataset. It is available at
 #'     <http://gss.norc.org/Get-Documentation>. Summary
@@ -62,7 +62,7 @@ NULL
 #' A tibble containing the General Social Survey 2010 Three Wave Panel Data
 #' File, in long format.
 #'
-#' @format A tibble with 6,132  rows and 1,200 columns. Variables are encoded as labelled vectors.
+#' @format A tibble with 6,132  rows and 1,191 columns. Variables are encoded as  as numerics or factors.
 #'     The GSS Codebook is the authoritative source for the
 #'     variables in this dataset. It is available at
 #'     <http://gss.norc.org/Get-Documentation>. Summary
