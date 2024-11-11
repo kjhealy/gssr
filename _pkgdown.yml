@@ -7,7 +7,7 @@ url: https://kjhealy.github.io/gssr
 
 template:
   bootstrap: 5
-  bootswatch: litera
+  bootswatch: pulse
 
 
 reference:
