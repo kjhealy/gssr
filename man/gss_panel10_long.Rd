@@ -5,7 +5,7 @@
 \alias{gss_panel10_long}
 \title{General Social Survey Survey 2010 Three Wave Panel Data}
 \format{
-A tibble with 6,132  rows and 1,200 columns. Variables are encoded as labelled vectors.
+A tibble with 6,132  rows and 1,191 columns. Variables are encoded as  as numerics or factors.
 The GSS Codebook is the authoritative source for the
 variables in this dataset. It is available at
 \url{http://gss.norc.org/Get-Documentation}. Summary
