@@ -60,7 +60,6 @@ remotes::install_github("kjhealy/gssr")
 
 ``` r
 library(gssr)
-#> Warning: package 'gssr' was built under R version 4.3.3
 #> Package loaded. To attach the GSS data, type data(gss_all) at the console.
 #> For the codebook, type data(gss_dict).
 #> For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).
@@ -77,7 +76,7 @@ gss18 <- gss_get_yr(2018)
 #> Fetching: https://gss.norc.org/documents/stata/2018_stata.zip
 
 gss18
-#> # A tibble: 2,348 × 1,068
+#> # A tibble: 2,348 × 1,069
 #>    year         id wrkstat   hrs1        hrs2        evwork      wrkslf  wrkgovt
 #>    <dbl+lbl> <dbl> <dbl+lbl> <dbl+lbl>   <dbl+lbl>   <dbl+lbl>   <dbl+l> <dbl+l>
 #>  1 2018          1 3 [with … NA(i) [iap]    41       NA(i) [iap] 2 [som… 2 [pri…
@@ -91,7 +90,7 @@ gss18
 #>  9 2018          9 1 [worki…    40       NA(i) [iap] NA(i) [iap] 1 [sel… 2 [pri…
 #> 10 2018         10 1 [worki…    40       NA(i) [iap] NA(i) [iap] 2 [som… 2 [pri…
 #> # ℹ 2,338 more rows
-#> # ℹ 1,060 more variables: occ10 <dbl+lbl>, prestg10 <dbl+lbl>,
+#> # ℹ 1,061 more variables: occ10 <dbl+lbl>, prestg10 <dbl+lbl>,
 #> #   prestg105plus <dbl+lbl>, indus10 <dbl+lbl>, marital <dbl+lbl>,
 #> #   martype <dbl+lbl>, divorce <dbl+lbl>, widowed <dbl+lbl>,
 #> #   spwrksta <dbl+lbl>, sphrs1 <dbl+lbl>, sphrs2 <dbl+lbl>, spevwork <dbl+lbl>,
@@ -251,25 +250,25 @@ data("gss_panel06_long")
 
 gss_panel06_long
 #> # A tibble: 6,000 × 1,572
-#>    firstid  wave ballot      form    formwt oversamp sampcode sample  samptype  
-#>    <fct>   <dbl> <dbl+lbl>   <dbl+l>  <dbl>    <dbl> <dbl+lb> <dbl+l> <dbl+lbl> 
-#>  1 9           1 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
-#>  2 9           2 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
-#>  3 9           3 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
-#>  4 10          1 1 [BALLOT … 1 [STA…      1        1 501      9 [200… 2006 [200…
-#>  5 10          2 1 [BALLOT … 1 [STA…      1        1 501      9 [200… 2006 [200…
-#>  6 10          3 1 [BALLOT … 1 [STA…      1        1 501      9 [200… 2006 [200…
-#>  7 11          1 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
-#>  8 11          2 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
-#>  9 11          3 3 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
-#> 10 12          1 1 [BALLOT … 2 [ALT…      1        1 501      9 [200… 2006 [200…
+#>    firstid ballot   form   formwt oversamp sampcode sample samptype vstrat  vpsu
+#>    <fct>   <fct>    <fct>   <dbl>    <dbl> <fct>    <fct>  <fct>     <dbl> <dbl>
+#>  1 0009    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2
+#>  2 0009    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2
+#>  3 0009    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2
+#>  4 0010    Ballot a Stand…      1        1 501      2000 … 2006 Sa…   1957     2
+#>  5 0010    Ballot a Stand…      1        1 501      2000 … 2006 Sa…   1957     2
+#>  6 0010    Ballot a Stand…      1        1 501      2000 … 2006 Sa…   1957     2
+#>  7 0011    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2
+#>  8 0011    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2
+#>  9 0011    Ballot c Alter…      1        1 501      2000 … 2006 Sa…   1957     2
+#> 10 0012    Ballot a Alter…      1        1 501      2000 … 2006 Sa…   1958     1
 #> # ℹ 5,990 more rows
-#> # ℹ 1,563 more variables: vstrat <dbl+lbl>, vpsu <dbl+lbl>, wtpan12 <dbl+lbl>,
-#> #   wtpan123 <dbl+lbl>, wtpannr12 <dbl+lbl>, wtpannr123 <dbl+lbl>,
-#> #   letin1a <dbl+lbl>, abany <dbl+lbl>, abdefect <dbl+lbl>, abhlth <dbl+lbl>,
-#> #   abnomore <dbl+lbl>, abpoor <dbl+lbl>, abrape <dbl+lbl>, absingle <dbl+lbl>,
-#> #   accntsci <dbl+lbl>, acqasian <dbl+lbl>, acqattnd <dbl+lbl>,
-#> #   acqblack <dbl+lbl>, acqbrnda <dbl+lbl>, acqchild <dbl+lbl>, …
+#> # ℹ 1,562 more variables: wtpan12 <dbl>, wtpan123 <dbl>, wtpannr12 <dbl>,
+#> #   wtpannr123 <dbl>, letin1a <fct>, wave <dbl>, abany <fct>, abdefect <fct>,
+#> #   abhlth <fct>, abnomore <fct>, abpoor <fct>, abrape <fct>, absingle <fct>,
+#> #   accntsci <fct>, acqasian <fct>, acqattnd <fct>, acqblack <fct>,
+#> #   acqbrnda <fct>, acqchild <fct>, acqcohab <fct>, acqcon <fct>,
+#> #   acqcops <fct>, acqdems <fct>, acqelecs <fct>, acqfmasn <fct>, …
 ```
 
 Panel data objects are regular tibbles. You do not need to use `panelr`
@@ -288,18 +287,18 @@ data("gss_panel08_long")
 gss_panel08_long  |>  
   select(firstid, wave, id, sex)
 #> # A tibble: 6,069 × 4
-#>    firstid  wave id        sex      
-#>    <fct>   <dbl> <dbl+lbl> <dbl+lbl>
-#>  1 1           1    1       1 [MALE]
-#>  2 1           2 8001       1 [MALE]
-#>  3 1           3   NA      NA       
-#>  4 2           1    2       1 [MALE]
-#>  5 2           2 8002       1 [MALE]
-#>  6 2           3 8001       1 [MALE]
-#>  7 3           1    3       1 [MALE]
-#>  8 3           2 8003       1 [MALE]
-#>  9 3           3 8002       1 [MALE]
-#> 10 4           1    4       1 [MALE]
+#>    firstid  wave id    sex  
+#>    <fct>   <dbl> <fct> <fct>
+#>  1 0001        1 1     Male 
+#>  2 0001        2 8001  Male 
+#>  3 0001        3 <NA>  <NA> 
+#>  4 0002        1 2     Male 
+#>  5 0002        2 8002  Male 
+#>  6 0002        3 8001  Male 
+#>  7 0003        1 3     Male 
+#>  8 0003        2 8003  Male 
+#>  9 0003        3 8002  Male 
+#> 10 0004        1 4     Male 
 #> # ℹ 6,059 more rows
 ```
 
