@@ -8,8 +8,8 @@
 <title>US General Social Survey (GSS) Data for R • gssr</title>
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
-<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.4.2/css/all.min.css" rel="stylesheet">
-<link href="deps/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet">
+<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
+<link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
 <script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="US General Social Survey (GSS) Data for R">
 <meta name="description" content="The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data and GSS Panel Data files packaged for R. Its companion package, gssrdoc, provides the codebook integrated into R's help system For more information on the GSS see \url{http://gss.norc.org}.">
 <meta property="og:description" content="The General Social Survey (GSS) is a long-running, mostly annual survey of US households. It is administered by the National Opinion Research Center (NORC). This package contains the GSS Cumulative Data and GSS Panel Data files packaged for R. Its companion package, gssrdoc, provides the codebook integrated into R's help system For more information on the GSS see \url{http://gss.norc.org}.">
@@ -22,7 +22,7 @@
 
     <a class="navbar-brand me-2" href="index.html">gssr</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.6</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.7</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +54,7 @@
 </h1></div>
 <!-- badges: start -->
 
-<p>The General Social Survey Cumulative Data (1972-2022, release 2a) and Panel Data files packaged for easy use in R. The companion package to <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> is <a href="https://kjhealy.github.io/gssrdoc">gssrdoc</a>, which integrates the GSS codebook into R’s help system. I recommend you install both packages.</p>
+<p>The General Social Survey Cumulative Data (1972-2024, release 1) and Panel Data files packaged for easy use in R. The companion package to <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> is <a href="https://kjhealy.github.io/gssrdoc">gssrdoc</a>, which integrates the GSS codebook into R’s help system. I recommend you install both packages.</p>
 <p><img src="reference/figures/fefam_svy.png" width="95%"></p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -101,7 +101,7 @@
 <span><span class="co">#&gt; Fetching: https://gss.norc.org/documents/stata/2018_stata.zip</span></span>
 <span></span>
 <span><span class="va">gss18</span></span>
-<span><span class="co">#&gt; # A tibble: 2,348 × 1,069</span></span>
+<span><span class="co">#&gt; # A tibble: 2,348 × 1,083</span></span>
 <span><span class="co">#&gt;    year         id wrkstat   hrs1        hrs2        evwork      wrkslf  wrkgovt</span></span>
 <span><span class="co">#&gt;    &lt;dbl+lbl&gt; &lt;dbl&gt; &lt;dbl+lbl&gt; &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl+l&gt; &lt;dbl+l&gt;</span></span>
 <span><span class="co">#&gt;  1 2018          1 3 [with … NA(i) [iap]    41       NA(i) [iap] 2 [som… 2 [pri…</span></span>
@@ -115,7 +115,7 @@
 <span><span class="co">#&gt;  9 2018          9 1 [worki…    40       NA(i) [iap] NA(i) [iap] 1 [sel… 2 [pri…</span></span>
 <span><span class="co">#&gt; 10 2018         10 1 [worki…    40       NA(i) [iap] NA(i) [iap] 2 [som… 2 [pri…</span></span>
 <span><span class="co">#&gt; # ℹ 2,338 more rows</span></span>
-<span><span class="co">#&gt; # ℹ 1,061 more variables: occ10 &lt;dbl+lbl&gt;, prestg10 &lt;dbl+lbl&gt;,</span></span>
+<span><span class="co">#&gt; # ℹ 1,075 more variables: occ10 &lt;dbl+lbl&gt;, prestg10 &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   prestg105plus &lt;dbl+lbl&gt;, indus10 &lt;dbl+lbl&gt;, marital &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   martype &lt;dbl+lbl&gt;, divorce &lt;dbl+lbl&gt;, widowed &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   spwrksta &lt;dbl+lbl&gt;, sphrs1 &lt;dbl+lbl&gt;, sphrs2 &lt;dbl+lbl&gt;, spevwork &lt;dbl+lbl&gt;,</span></span>
@@ -167,7 +167,7 @@
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="reference/gss_which_years.html">gss_which_years</a></span><span class="op">(</span><span class="va">gss_all</span>, <span class="va">fefam</span><span class="op">)</span></span>
 <span></span>
-<span><span class="co">#&gt; # A tibble: 33 x 2</span></span>
+<span><span class="co">#&gt; # A tibble: 35 x 2</span></span>
 <span><span class="co">#&gt;     year fefam</span></span>
 <span><span class="co">#&gt;    &lt;dbl&gt; &lt;lgl&gt;</span></span>
 <span><span class="co">#&gt;  1  1972 FALSE</span></span>
@@ -180,51 +180,51 @@
 <span><span class="co">#&gt;  8  1980 FALSE</span></span>
 <span><span class="co">#&gt;  9  1982 FALSE</span></span>
 <span><span class="co">#&gt; 10  1983 FALSE</span></span>
-<span><span class="co">#&gt; # … with 24 more rows</span></span>
+<span><span class="co">#&gt; # … with 25 more rows</span></span>
 <span>  </span></code></pre></div>
 <p>When querying more than one variable, use <code><a href="https://rdrr.io/r/base/c.html" class="external-link">c()</a></code>:</p>
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="va">gss_all</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu"><a href="reference/gss_which_years.html">gss_which_years</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="va">industry</span>, <span class="va">indus80</span>, <span class="va">wrkgovt</span>, <span class="va">commute</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/print.html" class="external-link">print</a></span><span class="op">(</span>n <span class="op">=</span> <span class="cn">Inf</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co">## # A tibble: 34 × 5</span></span>
-<span><span class="co">##    year      industry indus80 wrkgovt commute</span></span>
-<span><span class="co">##    &lt;dbl+lbl&gt; &lt;lgl&gt;    &lt;lgl&gt;   &lt;lgl&gt;   &lt;lgl&gt;  </span></span>
-<span><span class="co">##  1 1972      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">##  2 1973      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">##  3 1974      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">##  4 1975      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">##  5 1976      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">##  6 1977      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">##  7 1978      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">##  8 1980      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">##  9 1982      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">## 10 1983      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">## 11 1984      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">## 12 1985      TRUE     FALSE   TRUE    FALSE  </span></span>
-<span><span class="co">## 13 1986      TRUE     FALSE   TRUE    TRUE   </span></span>
-<span><span class="co">## 14 1987      TRUE     FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">## 15 1988      TRUE     TRUE    FALSE   FALSE  </span></span>
-<span><span class="co">## 16 1989      TRUE     TRUE    FALSE   FALSE  </span></span>
-<span><span class="co">## 17 1990      TRUE     TRUE    FALSE   FALSE  </span></span>
-<span><span class="co">## 18 1991      FALSE    TRUE    FALSE   FALSE  </span></span>
-<span><span class="co">## 19 1993      FALSE    TRUE    FALSE   FALSE  </span></span>
-<span><span class="co">## 20 1994      FALSE    TRUE    FALSE   FALSE  </span></span>
-<span><span class="co">## 21 1996      FALSE    TRUE    FALSE   FALSE  </span></span>
-<span><span class="co">## 22 1998      FALSE    TRUE    FALSE   FALSE  </span></span>
-<span><span class="co">## 23 2000      FALSE    TRUE    TRUE    FALSE  </span></span>
-<span><span class="co">## 24 2002      FALSE    TRUE    TRUE    FALSE  </span></span>
-<span><span class="co">## 25 2004      FALSE    TRUE    TRUE    FALSE  </span></span>
-<span><span class="co">## 26 2006      FALSE    TRUE    TRUE    FALSE  </span></span>
-<span><span class="co">## 27 2008      FALSE    TRUE    TRUE    FALSE  </span></span>
-<span><span class="co">## 28 2010      FALSE    TRUE    TRUE    FALSE  </span></span>
-<span><span class="co">## 29 2012      FALSE    FALSE   TRUE    FALSE  </span></span>
-<span><span class="co">## 30 2014      FALSE    FALSE   TRUE    FALSE  </span></span>
-<span><span class="co">## 31 2016      FALSE    FALSE   TRUE    FALSE  </span></span>
-<span><span class="co">## 32 2018      FALSE    FALSE   TRUE    FALSE  </span></span>
-<span><span class="co">## 33 2021      FALSE    FALSE   FALSE   FALSE  </span></span>
-<span><span class="co">## 34 2022      FALSE    FALSE   FALSE   FALSE </span></span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a>gss_all <span class="sc">|&gt;</span> </span>
+<span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a>  <span class="fu">gss_which_years</span>(<span class="fu">c</span>(industry, indus80, wrkgovt, commute)) <span class="sc">|&gt;</span> </span>
+<span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a>  <span class="fu">print</span>(<span class="at">n =</span> <span class="cn">Inf</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" tabindex="-1"></a><span class="co"># A tibble: 35 × 5</span></span>
+<span id="cb8-6"><a href="#cb8-6" tabindex="-1"></a>   year      industry indus80 wrkgovt commute</span>
+<span id="cb8-7"><a href="#cb8-7" tabindex="-1"></a>   <span class="sc">&lt;</span>dbl<span class="sc">+</span>lbl<span class="sc">&gt;</span> <span class="er">&lt;</span>lgl<span class="sc">&gt;</span>    <span class="er">&lt;</span>lgl<span class="sc">&gt;</span>   <span class="er">&lt;</span>lgl<span class="sc">&gt;</span>   <span class="er">&lt;</span>lgl<span class="sc">&gt;</span>  </span>
+<span id="cb8-8"><a href="#cb8-8" tabindex="-1"></a><span class="do">## 1972      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-9"><a href="#cb8-9" tabindex="-1"></a><span class="do">## 1973      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-10"><a href="#cb8-10" tabindex="-1"></a><span class="do">## 1974      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-11"><a href="#cb8-11" tabindex="-1"></a><span class="do">## 1975      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-12"><a href="#cb8-12" tabindex="-1"></a><span class="do">## 1976      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-13"><a href="#cb8-13" tabindex="-1"></a><span class="do">## 1977      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-14"><a href="#cb8-14" tabindex="-1"></a><span class="do">## 1978      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-15"><a href="#cb8-15" tabindex="-1"></a><span class="do">## 1980      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-16"><a href="#cb8-16" tabindex="-1"></a><span class="do">## 1982      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-17"><a href="#cb8-17" tabindex="-1"></a><span class="do">## 1983      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-18"><a href="#cb8-18" tabindex="-1"></a><span class="do">## 1984      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-19"><a href="#cb8-19" tabindex="-1"></a><span class="do">## 1985      TRUE     FALSE   TRUE    FALSE  </span></span>
+<span id="cb8-20"><a href="#cb8-20" tabindex="-1"></a><span class="do">## 1986      TRUE     FALSE   TRUE    TRUE   </span></span>
+<span id="cb8-21"><a href="#cb8-21" tabindex="-1"></a><span class="do">## 1987      TRUE     FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-22"><a href="#cb8-22" tabindex="-1"></a><span class="do">## 1988      TRUE     TRUE    FALSE   FALSE  </span></span>
+<span id="cb8-23"><a href="#cb8-23" tabindex="-1"></a><span class="do">## 1989      TRUE     TRUE    FALSE   FALSE  </span></span>
+<span id="cb8-24"><a href="#cb8-24" tabindex="-1"></a><span class="do">## 1990      TRUE     TRUE    FALSE   FALSE  </span></span>
+<span id="cb8-25"><a href="#cb8-25" tabindex="-1"></a><span class="do">## 1991      FALSE    TRUE    FALSE   FALSE  </span></span>
+<span id="cb8-26"><a href="#cb8-26" tabindex="-1"></a><span class="do">## 1993      FALSE    TRUE    FALSE   FALSE  </span></span>
+<span id="cb8-27"><a href="#cb8-27" tabindex="-1"></a><span class="do">## 1994      FALSE    TRUE    FALSE   FALSE  </span></span>
+<span id="cb8-28"><a href="#cb8-28" tabindex="-1"></a><span class="do">## 1996      FALSE    TRUE    FALSE   FALSE  </span></span>
+<span id="cb8-29"><a href="#cb8-29" tabindex="-1"></a><span class="do">## 1998      FALSE    TRUE    FALSE   FALSE  </span></span>
+<span id="cb8-30"><a href="#cb8-30" tabindex="-1"></a><span class="do">## 2000      FALSE    TRUE    TRUE    FALSE  </span></span>
+<span id="cb8-31"><a href="#cb8-31" tabindex="-1"></a><span class="do">## 2002      FALSE    TRUE    TRUE    FALSE  </span></span>
+<span id="cb8-32"><a href="#cb8-32" tabindex="-1"></a><span class="do">## 2004      FALSE    TRUE    TRUE    FALSE  </span></span>
+<span id="cb8-33"><a href="#cb8-33" tabindex="-1"></a><span class="do">## 2006      FALSE    TRUE    TRUE    FALSE  </span></span>
+<span id="cb8-34"><a href="#cb8-34" tabindex="-1"></a><span class="do">## 2008      FALSE    TRUE    TRUE    FALSE  </span></span>
+<span id="cb8-35"><a href="#cb8-35" tabindex="-1"></a><span class="do">## 2010      FALSE    TRUE    TRUE    FALSE  </span></span>
+<span id="cb8-36"><a href="#cb8-36" tabindex="-1"></a><span class="do">## 2012      FALSE    FALSE   TRUE    FALSE  </span></span>
+<span id="cb8-37"><a href="#cb8-37" tabindex="-1"></a><span class="do">## 2014      FALSE    FALSE   TRUE    FALSE  </span></span>
+<span id="cb8-38"><a href="#cb8-38" tabindex="-1"></a><span class="do">## 2016      FALSE    FALSE   TRUE    FALSE  </span></span>
+<span id="cb8-39"><a href="#cb8-39" tabindex="-1"></a><span class="do">## 2018      FALSE    FALSE   TRUE    FALSE  </span></span>
+<span id="cb8-40"><a href="#cb8-40" tabindex="-1"></a><span class="do">## 2021      FALSE    FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-41"><a href="#cb8-41" tabindex="-1"></a><span class="do">## 2022      FALSE    FALSE   FALSE   FALSE  </span></span>
+<span id="cb8-42"><a href="#cb8-42" tabindex="-1"></a><span class="do">## 2024      FALSE    FALSE   FALSE   FALSE  </span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="panel-data">Panel data<a class="anchor" aria-label="anchor" href="#panel-data"></a>
@@ -320,21 +320,9 @@
 <p>Unlike the other panels, these data are provided in wide format. Users are strongly encouraged to read the <a href="https://gss.norc.org/Documents/codebook/2016-2020%20GSS%20Panel%20Codebook%20-%20R1a.pdf" class="external-link">official documentation</a> at the NORC website.</p>
 </div>
 <div class="section level2">
-<h2 id="the-gss-and-covid-19">The GSS and COVID-19<a class="anchor" aria-label="anchor" href="#the-gss-and-covid-19"></a>
+<h2 id="official-gss-documentation">Official GSS Documentation<a class="anchor" aria-label="anchor" href="#official-gss-documentation"></a>
 </h2>
-<p>The GSS administrators have released a <a href="https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf" class="external-link">Methodological Primer</a> along with the <a href="https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf" class="external-link">Documentation and Codebook for the 2021 survey</a> that users should read carefully in connection with the effects of COVID-19 on data collection for the GSS.</p>
-<p>The Primer notes:</p>
-<blockquote>
-<p>Since its inception, the GSS has conducted data collection via in-person interviews as its primary mode of data collection. The pandemic forced the GSS to change this design, moving from in-person to address- based sampling and a push-to-web methodology, with the bulk of the interview conducted online via a self- administered questionnaire.</p>
-</blockquote>
-<p>In addition,</p>
-<blockquote>
-<p>We recommend our users include the one of the following statements when reporting on the GSS 2021 Cross-section data: <em>Total Survey Error Summary Perspective for the 2021 GSS Cross-section:</em> Changes in opinions, attitudes, and behaviors observed in 2021 relative to historical trends may be due to actual change in concept over time and/or may have resulted from methodological changes made to the survey methodology during the COVID-19 global pandemic.</p>
-</blockquote>
-<p>And,</p>
-<blockquote>
-<p><em>Suggested Statement to Include in Articles and Reports That Use GSS Data:</em> To safeguard the health of staff and respondents during the COVID-19 pandemic, the 2021 GSS data collection used a mail-to-web methodology instead of its traditional in-person interviews. Research and interpretation done using the data should take extra care to ensure the analysis reflects actual changes in public opinion and is not unduly influenced by the change in data collection methods. For more information on the 2021 GSS methodology and its implications, please visit <a href="https://gss.norc.org/Get-The-Data" class="external-link uri">https://gss.norc.org/Get-The-Data</a></p>
-</blockquote>
+<p>The <a href="https://gss.norc.org/us/en/gss/get-documentation.html" class="external-link">GSS Documentation Page</a> contains links to extensive technical documentation for the survey, including <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224.pdf" class="external-link">Release Notes for the 1972-2024 Cumulative File</a> and <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New.pdf" class="external-link">What’s New in 2024</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="further-details">Further details<a class="anchor" aria-label="anchor" href="#further-details"></a>
@@ -370,7 +358,7 @@
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
 <li>
-<a href="http://kieranhealy.org" class="external-link">Kieran Healy</a> <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/https://orcid.org/0000-0001-9114-981X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<a href="http://kieranhealy.org" class="external-link">Kieran Healy</a> <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/https://orcid.org/0000-0001-9114-981X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
 </ul>
 </div>
 
@@ -391,7 +379,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
 </div>
 
     </footer>
