@@ -2,7 +2,7 @@
 #'
 #' A tibble containing Release 1 of the GSS Cumulative Data (1972-2024) file.
 #'
-#' @format An object of class `tibble` with 75,699 rows and 6,867 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at <http://gss.norc.org/Get-Documentation>. Summary information is available in `gss_doc`, a tibble supplied with this package.
+#' @format An object of class `tibble` with 75,699 rows and 6,867 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at <http://gss.norc.org/Get-Documentation>.Integrated documentation is available from the `gssrdoc` package, available at <https://kjhealy.github.io/gssrdoc/>.
 #'
 #' @docType data
 #' @usage data(gss_all)
