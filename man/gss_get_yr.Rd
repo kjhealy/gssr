@@ -5,7 +5,7 @@
 \title{Download GSS data file for a single year from NORC}
 \usage{
 gss_get_yr(
-  year = 2022,
+  year = 2024,
   url = "https://gss.norc.org/documents/stata/",
   fname = "_stata",
   ext = "zip",
@@ -14,7 +14,7 @@ gss_get_yr(
 )
 }
 \arguments{
-\item{year}{The desired GSS survey year, as a number (i.e., not in quotes). Defaults to 2022.}
+\item{year}{The desired GSS survey year, as a number (i.e., not in quotes). Defaults to 2024.}
 
 \item{url}{Location of the file. Defaults to the current NORC URL for Stata files.}
 

@@ -128,7 +128,7 @@ gss_get_years <- function() {
 #' NORC's GSS website (where it is available as a zipped Stata file)
 #' and put it directly into a tibble.
 #'
-#' @param year The desired GSS survey year, as a number (i.e., not in quotes). Defaults to 2022.
+#' @param year The desired GSS survey year, as a number (i.e., not in quotes). Defaults to 2024.
 #' @param url Location of the file. Defaults to the current NORC URL for Stata files.
 #' @param fname Non-year filename component. Defaults to '_stata'. Usually should not be changed.
 #' @param ext File name extension. Defaults to 'zip'. Usually should not be changed.
@@ -143,7 +143,7 @@ gss_get_years <- function() {
 ##' \donttest{
 ##' gss80 <- gss_get_yr(1980)
 ##' }
-gss_get_yr <- function(year = 2022,
+gss_get_yr <- function(year = 2024,
                        url = "https://gss.norc.org/documents/stata/",
                        fname = "_stata",
                        ext = "zip",
@@ -152,7 +152,7 @@ gss_get_yr <- function(year = 2022,
 
   year <- match.arg(as.character(year),
                     choices = as.character(c(1972:1978, 1980, 1982:1991,
-                                             1993, seq(1994, 2018, 2), 2021, 2022)))
+                                             1993, seq(1994, 2018, 2), 2021, 2022, 2024)))
   save_file <- match.arg(save_file)
 
   local_fname <- paste0(year, fname)
@@ -170,6 +170,7 @@ gss_get_yr <- function(year = 2022,
 
   if(year == "2021") { return(haven::read_stata(unz(tf, "2021/GSS2021.dta"))) }
   if(year == "2022") { return(haven::read_stata(unz(tf, "2022/GSS2022.dta"))) }
+  if(year == "2024") { return(haven::read_stata(unz(tf, "2024/GSS2024.dta"))) }
   haven::read_stata(tf)
 
 }
