@@ -7,8 +7,10 @@ url: https://kjhealy.github.io/gssr
 
 template:
   bootstrap: 5
-  bootswatch: pulse
-
+  bslib:
+    base_font: {google: "IBM Plex Sans"}
+    heading_font: {google: "IBM Plex Sans"}
+    code_font: {google: "IBM Plex Mono"}
 
 reference:
   - title: "Datasets"
