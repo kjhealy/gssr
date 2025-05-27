@@ -1,6 +1,6 @@
 Package: gssr
 Title: US General Social Survey (GSS) Data for R
-Version: 0.6
+Version: 0.7
 Authors@R: 
     person(given = "Kieran",
            family = "Healy",

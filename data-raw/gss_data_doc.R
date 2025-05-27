@@ -1,8 +1,8 @@
-#' General Social Survey Survey Cumulative Data File 1972-2022
+#' General Social Survey Survey Cumulative Data File 1972-2024
 #'
 #' A tibble containing the General Social Survey Cumulative Data file.
 #'
-#' @format An object of class `tibble` with 72,390 rows and 6,693 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at <http://gss.norc.org/Get-Documentation>. Summary information is available in `gss_doc`, a tibble supplied with this package.
+#' @format An object of class `tibble` with 75,699 rows and 6,867 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at <http://gss.norc.org/Get-Documentation>. Summary information is available in `gss_doc`, a tibble supplied with this package.
 #'
 #' @docType data
 #' @usage data(gss_all)

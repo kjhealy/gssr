@@ -34,7 +34,7 @@ library(tidyverse)
 [![gssr status badge](https://kjhealy.r-universe.dev/badges/gssr)](https://kjhealy.r-universe.dev/gssr)
 <!-- badges: end -->
 
-The General Social Survey Cumulative Data (1972-2022, release 2a) and Panel Data files packaged for easy use in R. The companion package to `{gssr}` is [gssrdoc](https://kjhealy.github.io/gssrdoc), which integrates the GSS codebook into R's help system. I recommend you install both packages.
+The General Social Survey Cumulative Data (1972-2024, release 1) and Panel Data files packaged for easy use in R. The companion package to `{gssr}` is [gssrdoc](https://kjhealy.github.io/gssrdoc), which integrates the GSS codebook into R's help system. I recommend you install both packages.
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
@@ -113,7 +113,7 @@ We often want to know which years a question or group of questions was asked. We
 ```r
 gss_which_years(gss_all, fefam)
 
-#> # A tibble: 33 x 2
+#> # A tibble: 35 x 2
 #>     year fefam
 #>    <dbl> <lgl>
 #>  1  1972 FALSE
@@ -126,7 +126,7 @@ gss_which_years(gss_all, fefam)
 #>  8  1980 FALSE
 #>  9  1982 FALSE
 #> 10  1983 FALSE
-#> # … with 24 more rows
+#> # … with 25 more rows
   
 ```
 
@@ -137,44 +137,44 @@ gss_all |>
   gss_which_years(c(industry, indus80, wrkgovt, commute)) |> 
   print(n = Inf)
 
-## # A tibble: 34 × 5
-##    year      industry indus80 wrkgovt commute
-##    <dbl+lbl> <lgl>    <lgl>   <lgl>   <lgl>  
-##  1 1972      TRUE     FALSE   FALSE   FALSE  
-##  2 1973      TRUE     FALSE   FALSE   FALSE  
-##  3 1974      TRUE     FALSE   FALSE   FALSE  
-##  4 1975      TRUE     FALSE   FALSE   FALSE  
-##  5 1976      TRUE     FALSE   FALSE   FALSE  
-##  6 1977      TRUE     FALSE   FALSE   FALSE  
-##  7 1978      TRUE     FALSE   FALSE   FALSE  
-##  8 1980      TRUE     FALSE   FALSE   FALSE  
-##  9 1982      TRUE     FALSE   FALSE   FALSE  
-## 10 1983      TRUE     FALSE   FALSE   FALSE  
-## 11 1984      TRUE     FALSE   FALSE   FALSE  
-## 12 1985      TRUE     FALSE   TRUE    FALSE  
-## 13 1986      TRUE     FALSE   TRUE    TRUE   
-## 14 1987      TRUE     FALSE   FALSE   FALSE  
-## 15 1988      TRUE     TRUE    FALSE   FALSE  
-## 16 1989      TRUE     TRUE    FALSE   FALSE  
-## 17 1990      TRUE     TRUE    FALSE   FALSE  
-## 18 1991      FALSE    TRUE    FALSE   FALSE  
-## 19 1993      FALSE    TRUE    FALSE   FALSE  
-## 20 1994      FALSE    TRUE    FALSE   FALSE  
-## 21 1996      FALSE    TRUE    FALSE   FALSE  
-## 22 1998      FALSE    TRUE    FALSE   FALSE  
-## 23 2000      FALSE    TRUE    TRUE    FALSE  
-## 24 2002      FALSE    TRUE    TRUE    FALSE  
-## 25 2004      FALSE    TRUE    TRUE    FALSE  
-## 26 2006      FALSE    TRUE    TRUE    FALSE  
-## 27 2008      FALSE    TRUE    TRUE    FALSE  
-## 28 2010      FALSE    TRUE    TRUE    FALSE  
-## 29 2012      FALSE    FALSE   TRUE    FALSE  
-## 30 2014      FALSE    FALSE   TRUE    FALSE  
-## 31 2016      FALSE    FALSE   TRUE    FALSE  
-## 32 2018      FALSE    FALSE   TRUE    FALSE  
-## 33 2021      FALSE    FALSE   FALSE   FALSE  
-## 34 2022      FALSE    FALSE   FALSE   FALSE 
-
+# A tibble: 35 × 5
+   year      industry indus80 wrkgovt commute
+   <dbl+lbl> <lgl>    <lgl>   <lgl>   <lgl>  
+## 1972      TRUE     FALSE   FALSE   FALSE  
+## 1973      TRUE     FALSE   FALSE   FALSE  
+## 1974      TRUE     FALSE   FALSE   FALSE  
+## 1975      TRUE     FALSE   FALSE   FALSE  
+## 1976      TRUE     FALSE   FALSE   FALSE  
+## 1977      TRUE     FALSE   FALSE   FALSE  
+## 1978      TRUE     FALSE   FALSE   FALSE  
+## 1980      TRUE     FALSE   FALSE   FALSE  
+## 1982      TRUE     FALSE   FALSE   FALSE  
+## 1983      TRUE     FALSE   FALSE   FALSE  
+## 1984      TRUE     FALSE   FALSE   FALSE  
+## 1985      TRUE     FALSE   TRUE    FALSE  
+## 1986      TRUE     FALSE   TRUE    TRUE   
+## 1987      TRUE     FALSE   FALSE   FALSE  
+## 1988      TRUE     TRUE    FALSE   FALSE  
+## 1989      TRUE     TRUE    FALSE   FALSE  
+## 1990      TRUE     TRUE    FALSE   FALSE  
+## 1991      FALSE    TRUE    FALSE   FALSE  
+## 1993      FALSE    TRUE    FALSE   FALSE  
+## 1994      FALSE    TRUE    FALSE   FALSE  
+## 1996      FALSE    TRUE    FALSE   FALSE  
+## 1998      FALSE    TRUE    FALSE   FALSE  
+## 2000      FALSE    TRUE    TRUE    FALSE  
+## 2002      FALSE    TRUE    TRUE    FALSE  
+## 2004      FALSE    TRUE    TRUE    FALSE  
+## 2006      FALSE    TRUE    TRUE    FALSE  
+## 2008      FALSE    TRUE    TRUE    FALSE  
+## 2010      FALSE    TRUE    TRUE    FALSE  
+## 2012      FALSE    FALSE   TRUE    FALSE  
+## 2014      FALSE    FALSE   TRUE    FALSE  
+## 2016      FALSE    FALSE   TRUE    FALSE  
+## 2018      FALSE    FALSE   TRUE    FALSE  
+## 2021      FALSE    FALSE   FALSE   FALSE  
+## 2022      FALSE    FALSE   FALSE   FALSE  
+## 2024      FALSE    FALSE   FALSE   FALSE  
 ```
 
 ## Panel data
@@ -223,23 +223,9 @@ gss_panel20
 
 Unlike the other panels, these data are provided in wide format. Users are strongly encouraged to read the [official documentation](https://gss.norc.org/Documents/codebook/2016-2020%20GSS%20Panel%20Codebook%20-%20R1a.pdf) at the NORC website.
 
-## The GSS and COVID-19
+## Official GSS Documentation
 
-The GSS administrators have released a [Methodological Primer](https://gss.norc.org/Documents/other/2021%20XSEC%20R1%20Methodological%20Primer.pdf) along with the [Documentation and Codebook for the 2021 survey](https://gss.norc.org/Documents/codebook/GSS%202021%20Codebook%20R1.pdf) that users should read carefully in connection with the effects of COVID-19 on data collection for the GSS.
-
-The Primer notes:
-
-> Since its inception, the GSS has conducted data collection via in-person interviews as its primary mode of data collection. The pandemic forced the GSS to change this design, moving from in-person to address- based sampling and a push-to-web methodology, with the bulk of the interview conducted online via a self- administered questionnaire.
-
-
-In addition, 
-
-> We recommend our users include the one of the following statements when reporting on the GSS 2021 Cross-section data: _Total Survey Error Summary Perspective for the 2021 GSS Cross-section:_ Changes in opinions, attitudes, and behaviors observed in 2021 relative to historical trends may be due to actual change in concept over time and/or may have resulted from methodological changes made to the survey methodology during the COVID-19 global pandemic.
-
-And, 
-
-> _Suggested Statement to Include in Articles and Reports That Use GSS Data:_ To safeguard the health of staff and respondents during the COVID-19 pandemic, the 2021 GSS data collection used a mail-to-web methodology instead of its traditional in-person interviews. Research and interpretation done using the data should take extra care to ensure the analysis reflects actual changes in public opinion and is not unduly influenced by the change in data collection methods. For more information on the 2021 GSS methodology and its implications, please visit https://gss.norc.org/Get-The-Data
-
+The [GSS Documentation Page](https://gss.norc.org/us/en/gss/get-documentation.html) contains links to extensive technical documentation for the survey, including [Release Notes for the 1972-2024 Cumulative File](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224.pdf) and [What's New in 2024](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New.pdf).
 
 
 ## Further details

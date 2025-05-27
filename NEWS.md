@@ -1,3 +1,7 @@
+# gssr 0.7
+
+* Updated to the newly released cumulative data file, covering 1972-2024. See the [official GSS announcement](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New.pdf) for what's new in the data file.
+
 # gssr 0.6
 
 * Fixed a reshaping error in the 2006, 2008, and 2010 panel datasets (`gss_panel06_long`, `gss_panel08_long`, and `gss_panel10_long`) which led to the values of some variables being incorrectly attributed across waves. Thanks to Pat Hastings for identifying the error.

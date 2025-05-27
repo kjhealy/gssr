@@ -48,7 +48,7 @@ library(here)
 
 
 ## Read the Stata file
-gss_all <- read_stata(here::here("data-raw", "norc", "gss7222_r2a.dta"))
+gss_all <- read_stata(here::here("data-raw", "norc", "gss7224_r1.dta"))
 
 ## Small version for vignettes
 cont_vars <- c("year", "id", "ballot", "age")
@@ -62,7 +62,7 @@ wt_vars <- c("vpsu",
              "oversamp",
              "formwt",              # weight to deal with experimental randomization
              "wtssall",             # weight variable (1972-2018)
-             "wtssps",              # post-stratification weights (1972-2022)
+             "wtssps",              # post-stratification weights (1972-2024)
              "sampcode",            # sampling error code
              "sample")              # sampling frame and method
 
