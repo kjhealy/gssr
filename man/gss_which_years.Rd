@@ -4,12 +4,14 @@
 \alias{gss_which_years}
 \title{gss_which_years}
 \usage{
-gss_which_years(data, variable)
+gss_which_years(data, variable, year = year)
 }
 \arguments{
-\item{data}{A tibble of data, usually gss_all}
+\item{data}{A tibble of data, usually \code{gss_all}}
 
 \item{variable}{The variable or variables we want to check. Provide variables in tidyselect style, i.e. unquoted, and for multiple variables enclose unquoted in c()}
+
+\item{year}{The grouping variable; defaults to and should always be \code{year}}
 }
 \value{
 A tibble showing whether the question or questions were asked in each of the GSS years

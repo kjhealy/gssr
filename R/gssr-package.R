@@ -83,9 +83,9 @@ get_asked <- function(x) {
 #' @name gss_which_years
 #' @description See which years a particular question was asked in the GSS.
 #'
-#' @param data A tibble of data, usually gss_all
+#' @param data A tibble of data, usually `gss_all`
 #' @param variable The variable or variables we want to check. Provide variables in tidyselect style, i.e. unquoted, and for multiple variables enclose unquoted in c()
-#'
+#' @param year The grouping variable; defaults to and should always be `year`
 #' @return A tibble showing whether the question or questions were asked in each of the GSS years
 #' @export
 #'
@@ -98,10 +98,10 @@ get_asked <- function(x) {
 #' gss_all %>%
 #'   gss_which_years(c(industry, indus80, wrkgovt, commute))
 #' }
-gss_which_years <- function(data, variable) {
+gss_which_years <- function(data, variable, year = year) {
   data %>%
-    dplyr::select(year, {{ variable }}) %>%
-    dplyr::group_by(year) %>%
+    dplyr::select({{ year }}, {{ variable }}) %>%
+    dplyr::group_by({{ year }}) %>%
     dplyr::summarize(dplyr::across(dplyr::everything(), get_asked), .groups = "drop")
 }
 
