@@ -23,7 +23,7 @@ reference:
     - gss_sub
   - title: "Documentation"
     desc: >
-      For the codebook and documentation, install the companion package gssrdoc
+      For the codebook and documentation, install the companion package [gssrdoc](https://kjhealy.github.io/gssrdoc/)
   - title: "Functions"
     desc: >
       Package functions
