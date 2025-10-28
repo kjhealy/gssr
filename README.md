@@ -10,7 +10,7 @@
 badge](https://kjhealy.r-universe.dev/badges/gssr)](https://kjhealy.r-universe.dev/gssr)
 <!-- badges: end -->
 
-The General Social Survey Cumulative Data (1972-2024, release 1) and
+The General Social Survey Cumulative Data (1972-2024, release 2) and
 Panel Data files packaged for easy use in R. The companion package to
 `{gssr}` is [gssrdoc](https://kjhealy.github.io/gssrdoc), which
 integrates the GSS codebook into R’s help system. I recommend you
@@ -61,7 +61,6 @@ remotes::install_github("kjhealy/gssr")
 ``` r
 library(gssr)
 #> Package loaded. To attach the GSS data, type data(gss_all) at the console.
-#> For the codebook, type data(gss_dict).
 #> For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).
 #> For help on a specific GSS variable, type ?varname at the console.
 ```
@@ -76,7 +75,7 @@ gss18 <- gss_get_yr(2018)
 #> Fetching: https://gss.norc.org/documents/stata/2018_stata.zip
 
 gss18
-#> # A tibble: 2,348 × 1,083
+#> # A tibble: 2,348 × 1,136
 #>    year         id wrkstat   hrs1        hrs2        evwork      wrkslf  wrkgovt
 #>    <dbl+lbl> <dbl> <dbl+lbl> <dbl+lbl>   <dbl+lbl>   <dbl+lbl>   <dbl+l> <dbl+l>
 #>  1 2018          1 3 [with … NA(i) [iap]    41       NA(i) [iap] 2 [som… 2 [pri…
@@ -90,7 +89,7 @@ gss18
 #>  9 2018          9 1 [worki…    40       NA(i) [iap] NA(i) [iap] 1 [sel… 2 [pri…
 #> 10 2018         10 1 [worki…    40       NA(i) [iap] NA(i) [iap] 2 [som… 2 [pri…
 #> # ℹ 2,338 more rows
-#> # ℹ 1,075 more variables: occ10 <dbl+lbl>, prestg10 <dbl+lbl>,
+#> # ℹ 1,128 more variables: occ10 <dbl+lbl>, prestg10 <dbl+lbl>,
 #> #   prestg105plus <dbl+lbl>, indus10 <dbl+lbl>, marital <dbl+lbl>,
 #> #   martype <dbl+lbl>, divorce <dbl+lbl>, widowed <dbl+lbl>,
 #> #   spwrksta <dbl+lbl>, sphrs1 <dbl+lbl>, sphrs2 <dbl+lbl>, spevwork <dbl+lbl>,
@@ -116,7 +115,7 @@ available to use in the usual way:
 
 ``` r
 gss_all
-#> # A tibble: 72,390 × 6,694
+#> # A tibble: 75,699 × 6,904
 #>    year         id wrkstat    hrs1        hrs2        evwork      occ   prestige
 #>    <dbl+lbl> <dbl> <dbl+lbl>  <dbl+lbl>   <dbl+lbl>   <dbl+lbl>   <dbl> <dbl+lb>
 #>  1 1972          1 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 205   50      
@@ -129,8 +128,8 @@ gss_all
 #>  8 1972          8 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 314   36      
 #>  9 1972          9 2 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 912   26      
 #> 10 1972         10 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 984   18      
-#> # ℹ 72,380 more rows
-#> # ℹ 6,686 more variables: wrkslf <dbl+lbl>, wrkgovt <dbl+lbl>,
+#> # ℹ 75,689 more rows
+#> # ℹ 6,896 more variables: wrkslf <dbl+lbl>, wrkgovt <dbl+lbl>,
 #> #   commute <dbl+lbl>, industry <dbl+lbl>, occ80 <dbl+lbl>, prestg80 <dbl+lbl>,
 #> #   indus80 <dbl+lbl>, indus07 <dbl+lbl>, occonet <dbl+lbl>, found <dbl+lbl>,
 #> #   occ10 <dbl+lbl>, occindv <dbl+lbl>, occstatus <dbl+lbl>, occtag <dbl+lbl>,
@@ -372,10 +371,10 @@ at the NORC website.
 The [GSS Documentation
 Page](https://gss.norc.org/us/en/gss/get-documentation.html) contains
 links to extensive technical documentation for the survey, including
-[Release Notes for the 1972-2024 Cumulative
-File](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224.pdf)
-and [What’s New in
-2024](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New.pdf).
+[Release Notes for the 1972-2024 R2 Cumulative
+File](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224%20R2.pdf)
+and [What’s New in 2024
+R2](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New%20R2.pdf).
 
 ## Further details
 

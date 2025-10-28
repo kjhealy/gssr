@@ -225,7 +225,7 @@ Unlike the other panels, these data are provided in wide format. Users are stron
 
 ## Official GSS Documentation
 
-The [GSS Documentation Page](https://gss.norc.org/us/en/gss/get-documentation.html) contains links to extensive technical documentation for the survey, including [Release Notes for the 1972-2024 Cumulative File](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224.pdf) and [What's New in 2024](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New.pdf).
+The [GSS Documentation Page](https://gss.norc.org/us/en/gss/get-documentation.html) contains links to extensive technical documentation for the survey, including [Release Notes for the 1972-2024 R2 Cumulative File](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224%20R2.pdf) and [What's New in 2024 R2](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New%20R2.pdf).
 
 
 ## Further details
