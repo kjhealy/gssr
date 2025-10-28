@@ -5,7 +5,7 @@
 \alias{gss_all}
 \title{General Social Survey Survey Cumulative Data File 1972-2024 R1}
 \format{
-An object of class \code{tibble} with 75,699 rows and 6,867 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at \url{http://gss.norc.org/Get-Documentation}.Integrated documentation is available from the \code{gssrdoc} package, available at \url{https://kjhealy.github.io/gssrdoc/}.
+An object of class \code{tibble} with 75,699 rows and 6,904 columns. Variables are encoded as labelled vectors. The GSS Codebook is the authoritative source for the variables in this dataset. It is available at \url{http://gss.norc.org/Get-Documentation}.Integrated documentation is available from the \code{gssrdoc} package, available at \url{https://kjhealy.github.io/gssrdoc/}.
 }
 \source{
 National Opinion Research Center, \url{http://gss.norc.org}.

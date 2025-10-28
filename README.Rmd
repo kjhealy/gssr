@@ -34,7 +34,7 @@ library(tidyverse)
 [![gssr status badge](https://kjhealy.r-universe.dev/badges/gssr)](https://kjhealy.r-universe.dev/gssr)
 <!-- badges: end -->
 
-The General Social Survey Cumulative Data (1972-2024, release 1) and Panel Data files packaged for easy use in R. The companion package to `{gssr}` is [gssrdoc](https://kjhealy.github.io/gssrdoc), which integrates the GSS codebook into R's help system. I recommend you install both packages.
+The General Social Survey Cumulative Data (1972-2024, release 2) and Panel Data files packaged for easy use in R. The companion package to `{gssr}` is [gssrdoc](https://kjhealy.github.io/gssrdoc), which integrates the GSS codebook into R's help system. I recommend you install both packages.
 
 <img src="man/figures/fefam_svy.png" width = "95%"/>
 
