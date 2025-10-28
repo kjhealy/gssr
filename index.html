@@ -56,7 +56,7 @@
 </h1></div>
 <!-- badges: start -->
 
-<p>The General Social Survey Cumulative Data (1972-2024, release 1) and Panel Data files packaged for easy use in R. The companion package to <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> is <a href="https://kjhealy.github.io/gssrdoc">gssrdoc</a>, which integrates the GSS codebook into R’s help system. I recommend you install both packages.</p>
+<p>The General Social Survey Cumulative Data (1972-2024, release 2) and Panel Data files packaged for easy use in R. The companion package to <a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a> is <a href="https://kjhealy.github.io/gssrdoc">gssrdoc</a>, which integrates the GSS codebook into R’s help system. I recommend you install both packages.</p>
 <p><img src="reference/figures/fefam_svy.png" width="95%"></p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -91,7 +91,6 @@
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kjhealy/gssr" class="external-link">gssr</a></span><span class="op">)</span></span>
 <span><span class="co">#&gt; Package loaded. To attach the GSS data, type data(gss_all) at the console.</span></span>
-<span><span class="co">#&gt; For the codebook, type data(gss_dict).</span></span>
 <span><span class="co">#&gt; For the panel data and documentation, type e.g. data(gss_panel08_long) and data(gss_panel_doc).</span></span>
 <span><span class="co">#&gt; For help on a specific GSS variable, type ?varname at the console.</span></span></code></pre></div>
 <div class="section level3">
@@ -103,7 +102,7 @@
 <span><span class="co">#&gt; Fetching: https://gss.norc.org/documents/stata/2018_stata.zip</span></span>
 <span></span>
 <span><span class="va">gss18</span></span>
-<span><span class="co">#&gt; # A tibble: 2,348 × 1,083</span></span>
+<span><span class="co">#&gt; # A tibble: 2,348 × 1,136</span></span>
 <span><span class="co">#&gt;    year         id wrkstat   hrs1        hrs2        evwork      wrkslf  wrkgovt</span></span>
 <span><span class="co">#&gt;    &lt;dbl+lbl&gt; &lt;dbl&gt; &lt;dbl+lbl&gt; &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl+l&gt; &lt;dbl+l&gt;</span></span>
 <span><span class="co">#&gt;  1 2018          1 3 [with … NA(i) [iap]    41       NA(i) [iap] 2 [som… 2 [pri…</span></span>
@@ -117,7 +116,7 @@
 <span><span class="co">#&gt;  9 2018          9 1 [worki…    40       NA(i) [iap] NA(i) [iap] 1 [sel… 2 [pri…</span></span>
 <span><span class="co">#&gt; 10 2018         10 1 [worki…    40       NA(i) [iap] NA(i) [iap] 2 [som… 2 [pri…</span></span>
 <span><span class="co">#&gt; # ℹ 2,338 more rows</span></span>
-<span><span class="co">#&gt; # ℹ 1,075 more variables: occ10 &lt;dbl+lbl&gt;, prestg10 &lt;dbl+lbl&gt;,</span></span>
+<span><span class="co">#&gt; # ℹ 1,128 more variables: occ10 &lt;dbl+lbl&gt;, prestg10 &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   prestg105plus &lt;dbl+lbl&gt;, indus10 &lt;dbl+lbl&gt;, marital &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   martype &lt;dbl+lbl&gt;, divorce &lt;dbl+lbl&gt;, widowed &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   spwrksta &lt;dbl+lbl&gt;, sphrs1 &lt;dbl+lbl&gt;, sphrs2 &lt;dbl+lbl&gt;, spevwork &lt;dbl+lbl&gt;,</span></span>
@@ -133,7 +132,7 @@
 <p>This will take a moment. Once it is ready, the <code>gss_all</code> object is available to use in the usual way:</p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">gss_all</span></span>
-<span><span class="co">#&gt; # A tibble: 72,390 × 6,694</span></span>
+<span><span class="co">#&gt; # A tibble: 75,699 × 6,904</span></span>
 <span><span class="co">#&gt;    year         id wrkstat    hrs1        hrs2        evwork      occ   prestige</span></span>
 <span><span class="co">#&gt;    &lt;dbl+lbl&gt; &lt;dbl&gt; &lt;dbl+lbl&gt;  &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl+lbl&gt;   &lt;dbl&gt; &lt;dbl+lb&gt;</span></span>
 <span><span class="co">#&gt;  1 1972          1 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 205   50      </span></span>
@@ -146,8 +145,8 @@
 <span><span class="co">#&gt;  8 1972          8 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 314   36      </span></span>
 <span><span class="co">#&gt;  9 1972          9 2 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 912   26      </span></span>
 <span><span class="co">#&gt; 10 1972         10 1 [workin… NA(i) [iap] NA(i) [iap] NA(i) [iap] 984   18      </span></span>
-<span><span class="co">#&gt; # ℹ 72,380 more rows</span></span>
-<span><span class="co">#&gt; # ℹ 6,686 more variables: wrkslf &lt;dbl+lbl&gt;, wrkgovt &lt;dbl+lbl&gt;,</span></span>
+<span><span class="co">#&gt; # ℹ 75,689 more rows</span></span>
+<span><span class="co">#&gt; # ℹ 6,896 more variables: wrkslf &lt;dbl+lbl&gt;, wrkgovt &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   commute &lt;dbl+lbl&gt;, industry &lt;dbl+lbl&gt;, occ80 &lt;dbl+lbl&gt;, prestg80 &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   indus80 &lt;dbl+lbl&gt;, indus07 &lt;dbl+lbl&gt;, occonet &lt;dbl+lbl&gt;, found &lt;dbl+lbl&gt;,</span></span>
 <span><span class="co">#&gt; #   occ10 &lt;dbl+lbl&gt;, occindv &lt;dbl+lbl&gt;, occstatus &lt;dbl+lbl&gt;, occtag &lt;dbl+lbl&gt;,</span></span>
@@ -324,7 +323,7 @@
 <div class="section level2">
 <h2 id="official-gss-documentation">Official GSS Documentation<a class="anchor" aria-label="anchor" href="#official-gss-documentation"></a>
 </h2>
-<p>The <a href="https://gss.norc.org/us/en/gss/get-documentation.html" class="external-link">GSS Documentation Page</a> contains links to extensive technical documentation for the survey, including <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224.pdf" class="external-link">Release Notes for the 1972-2024 Cumulative File</a> and <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New.pdf" class="external-link">What’s New in 2024</a>.</p>
+<p>The <a href="https://gss.norc.org/us/en/gss/get-documentation.html" class="external-link">GSS Documentation Page</a> contains links to extensive technical documentation for the survey, including <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224%20R2.pdf" class="external-link">Release Notes for the 1972-2024 R2 Cumulative File</a> and <a href="https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New%20R2.pdf" class="external-link">What’s New in 2024 R2</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="further-details">Further details<a class="anchor" aria-label="anchor" href="#further-details"></a>
