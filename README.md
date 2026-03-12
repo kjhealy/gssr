@@ -10,7 +10,7 @@
 badge](https://kjhealy.r-universe.dev/badges/gssr)](https://kjhealy.r-universe.dev/gssr)
 <!-- badges: end -->
 
-The General Social Survey Cumulative Data (1972-2024, release 2) and
+The General Social Survey Cumulative Data (1972-2024, release 3) and
 Panel Data files packaged for easy use in R. The companion package to
 `{gssr}` is [gssrdoc](https://kjhealy.github.io/gssrdoc), which
 integrates the GSS codebook into R’s help system. I recommend you
@@ -75,7 +75,7 @@ gss18 <- gss_get_yr(2018)
 #> Fetching: https://gss.norc.org/documents/stata/2018_stata.zip
 
 gss18
-#> # A tibble: 2,348 × 1,136
+#> # A tibble: 2,348 × 1,144
 #>    year         id wrkstat   hrs1        hrs2        evwork      wrkslf  wrkgovt
 #>    <dbl+lbl> <dbl> <dbl+lbl> <dbl+lbl>   <dbl+lbl>   <dbl+lbl>   <dbl+l> <dbl+l>
 #>  1 2018          1 3 [with … NA(i) [iap]    41       NA(i) [iap] 2 [som… 2 [pri…
@@ -89,7 +89,7 @@ gss18
 #>  9 2018          9 1 [worki…    40       NA(i) [iap] NA(i) [iap] 1 [sel… 2 [pri…
 #> 10 2018         10 1 [worki…    40       NA(i) [iap] NA(i) [iap] 2 [som… 2 [pri…
 #> # ℹ 2,338 more rows
-#> # ℹ 1,128 more variables: occ10 <dbl+lbl>, prestg10 <dbl+lbl>,
+#> # ℹ 1,136 more variables: occ10 <dbl+lbl>, prestg10 <dbl+lbl>,
 #> #   prestg105plus <dbl+lbl>, indus10 <dbl+lbl>, marital <dbl+lbl>,
 #> #   martype <dbl+lbl>, divorce <dbl+lbl>, widowed <dbl+lbl>,
 #> #   spwrksta <dbl+lbl>, sphrs1 <dbl+lbl>, sphrs2 <dbl+lbl>, spevwork <dbl+lbl>,
@@ -370,11 +370,11 @@ at the NORC website.
 
 The [GSS Documentation
 Page](https://gss.norc.org/us/en/gss/get-documentation.html) contains
-links to extensive technical documentation for the survey, including
-[Release Notes for the 1972-2024 R2 Cumulative
-File](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/Release%20Notes%207224%20R2.pdf)
+links to extensive technical documentation for the survey, including the
+[Codebook for the 1972-2024 R3 Cumulative
+File](https://gss.norc.org/content/dam/gss/get-documentation/pdf/codebook/GSS%202024%20Codebook%20R3.pdf)
 and [What’s New in 2024
-R2](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New%20R2.pdf).
+R3](https://gss.norc.org/content/dam/gss/get-documentation/pdf/other/GSS%202024%20-%20Whats%20New%20R3.pdf).
 
 ## Further details
 
