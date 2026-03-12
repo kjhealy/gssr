@@ -1,3 +1,8 @@
+# gssr 0.9
+
+* Updated to Release 3 of the 1972-2024 cumulative data file. See the [official GSS page](https://gss.norc.org/get-the-data.html) for more details. 
+
+
 # gssr 0.8
 
 * Updated to Release 2 of the 1972-2024 cumulative data file. See the [official GSS page](https://gss.norc.org/get-the-data.html) for more details. From the announcement: "Release 2 of the 2024 GSS Cross-section data are now available. This updated data features questions related to religious affiliation and practice, industry and occupation, household composition, and new topical questions. We encourage users to review the documentation and consider the potential impact of the experiments and data collection approach on the survey estimates. Release 2 also reflects adjustments to some variables following a disclosure review process that was implemented to better protect GSS respondent privacy (for details, see the GSS 2024 Codebook)."
